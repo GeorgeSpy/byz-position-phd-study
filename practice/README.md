@@ -19,7 +19,7 @@
 3. Επιλέξτε το αρχείο `anki_flashcards.tsv`.
 4. Επιβεβαιώστε τις ρυθμίσεις:
    - **Type:** Basic (Βασική)
-   - **Deck:** Δημιουργήστε νέο deck με όνομα π.χ. `Byz PhD Makris Prep`
+   - **Deck:** Δημιουργήστε νέο deck με όνομα π.χ. `Byz PhD Study Prep`
    - **Field separator:** Tab
    - **Field 1:** Front (Εμπρός)
    - **Field 2:** Back (Πίσω)

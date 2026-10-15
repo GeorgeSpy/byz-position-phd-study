@@ -1,12 +1,21 @@
 # Ιστορικό αλλαγών
 
+## 2026-10-15 — v0.3-study (General Research Study Notebook Framing)
+
+- Αναδιαμόρφωση όλου του αποθετηρίου ως γενικού προσωπικού σημειωματάριου μελέτης & έρευνας (Personal Research Notebook & Study Companion) για την ερευνητική πρόταση v8.71a.
+- Αφαίρεση εξειδικευμένων αναφορών προετοιμασίας συγκεκριμένης συνάντησης και μετονομασία των σχετικών εγγράφων:
+  - Μετονομασία αρχείων `book/` σε `book/PhD_Study_Handbook_v8_71a.pdf` και `book/PhD_Study_Handbook_v8_71a.tex`.
+  - Μετονομασία και γενίκευση του εντύπου `templates/meeting_notes.md` σε `templates/research_notes.md` («Σημειώσεις επιστημονικών συζητήσεων & ανατροφοδότησης»).
+  - Ενημέρωση τίτλων και πλαισίωσης σε `README.md`, `MOBILE_STUDY_GUIDE.md`, `SETUP_GITHUB.md`, `SOURCES.md` και `study/00_90_seconds.md`.
+  - Ενημέρωση της περιγραφής του ιδιωτικού αποθετηρίου στο GitHub.
+
 ## 2026-10-15 — v0.2-study (Mobile Navigation & Private Repo Release)
 
 - Δημιουργία ιδιωτικού GitHub repository `byz-position-phd-study` υπό τον λογαριασμό `GeorgeSpy`.
 - Προσθήκη αναλυτικού οδηγού καθημερινής μελέτης από κινητό (`MOBILE_STUDY_GUIDE.md`).
 - Βελτιστοποίηση πλοήγησης (top & bottom breadcrumbs, quick anchors, topic grouping) σε όλα τα αρχεία μελέτης (`00` έως `06`).
 - Μετατροπή των 25 ερωτήσεων προσομοίωσης (`practice/mock_interview.md`) σε διαδραστικές πτυσσόμενες κάρτες (`<details>`) για άνετη προφορική εξάσκηση 30–60 δευτερολέπτων από κινητό χωρίς πρόωρη αποκάλυψη της απάντησης.
-- Ενσωμάτωση του τελικού 23σέλιδου εκτυπώσιμου εγχειριδίου PDF (`Makris_Study_Handbook_v8_71a.pdf` και `Makris_PhD_Study_Handbook_v8_71a_23pages.pdf`).
+- Ενσωμάτωση του τελικού 23σέλιδου εκτυπώσιμου εγχειριδίου PDF.
 - Προσθήκη αρχείου `.gitattributes` για ορθή διαχείριση UTF-8 και LF line endings.
 - Πλήρης διατήρηση 100% του επιστημονικού περιεχομένου και ορολογίας της πρότασης v8.71a.
 

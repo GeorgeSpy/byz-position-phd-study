@@ -1,10 +1,10 @@
 # Κατάσταση & Συγχρονισμός GitHub Repository
 
-Το ιδιωτικό GitHub repository έχει δημιουργηθεί επιτυχώς:
+Το ιδιωτικό GitHub repository είναι ενεργό και πλήρως συγχρονισμένο:
 - **Όνομα:** `byz-position-phd-study`
 - **Ορατότητα:** **Private (Ιδιωτικό)**
 - **URL Αποθετηρίου:** `https://github.com/GeorgeSpy/byz-position-phd-study`
-- **Σκοπός:** Προσωπικό αναγνωστήριο, προετοιμασία προφορικής συνάντησης με τον καθ. Δημοσθένη Μακρή, καθημερινή επανάληψη από κινητό.
+- **Σκοπός:** Προσωπικό σημειωματάριο μελέτης & έρευνας, προφορική εξάσκηση, καθημερινή επανάληψη από κινητό (Βάση: Ερευνητική Πρόταση PhD v8.71a).
 
 ---
 
@@ -21,7 +21,7 @@ git status
 
 # Προσθήκη αλλαγών και commit
 git add .
-git commit -m "Study guide v8.71a: oral defense, mobile navigation and research map"
+git commit -m "Study guide v8.71a: personal research notebook and study companion"
 
 # Αποστολή στο GitHub
 git push origin main
