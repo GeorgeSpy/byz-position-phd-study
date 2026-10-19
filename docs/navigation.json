@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "content_basis": "v8.71e with candidate insertions",
+  "base_commit": "f51b58e035aede5fc81a3d8e421db3bd5a8d3c1f",
+  "verified_date": "2026-10-19",
+  "parent_pull_request": "https://github.com/GeorgeSpy/byz-position-phd-study/pull/1",
+  "entrypoints": {
+    "overview": "docs/start/overview.md",
+    "navigation": "NAVIGATION.md",
+    "review_guide": "docs/start/review-guide.md",
+    "contribution_matrix": "docs/review/contribution-matrix.md",
+    "full_proposal": "docs/full/index.md",
+    "bibliography": "docs/bibliography/index.md",
+    "bibliography_by_topic": "docs/bibliography/by-topic.md"
+  },
+  "routes": [
+    {
+      "id": "general",
+      "label": "Συνολική κατανόηση",
+      "pages": [
+        "docs/start/overview.md",
+        "docs/examples/index.md",
+        "docs/review/contribution-matrix.md",
+        "docs/full/index.md"
+      ]
+    },
+    {
+      "id": "mir-ml",
+      "label": "Επιβλέπων MIR / ML",
+      "pages": [
+        "docs/start/review-guide.md#mir-ml",
+        "docs/research/symbolic-mir.md",
+        "docs/research/machine-learning.md",
+        "docs/full/05-m1.md",
+        "docs/full/06-eise.md",
+        "docs/appendices/f.md",
+        "docs/appendices/g.md",
+        "docs/full/08-data.md"
+      ]
+    },
+    {
+      "id": "musicology",
+      "label": "Βυζαντινός μουσικολόγος",
+      "pages": [
+        "docs/start/review-guide.md#musicology",
+        "docs/musicology/index.md",
+        "docs/musicology/04-exegesis.md",
+        "docs/appendices/c.md",
+        "docs/full/07-validation.md",
+        "docs/full/09-nikolaos.md"
+      ]
+    },
+    {
+      "id": "bibliographic",
+      "label": "Αναζήτηση και τεκμηρίωση",
+      "pages": [
+        "docs/bibliography/by-topic.md",
+        "docs/bibliography/index.md",
+        "docs/research/index.md",
+        "docs/full/02-literature.md"
+      ]
+    }
+  ],
+  "bibliography": {
+    "source_manifest": "sources/reader-manifest.json",
+    "expected_entries": 135,
+    "classification_basis": "Editorial reading categories based on bibliographic title and role in the proposal; one primary category per source entry.",
+    "groups": [
+      {
+        "id": "theory-exegesis",
+        "label": "Ιστορική θεωρία, σημειογραφία και εξήγηση",
+        "description": "Ιστορικές έννοιες, θεωρητικές μαρτυρίες, παλαιογραφία και αναλυτικές αποδόσεις.",
+        "entry_ids": [
+          "b001",
+          "b002",
+          "b003",
+          "b004",
+          "b005",
+          "b008",
+          "b010",
+          "b011",
+          "b014",
+          "b015",
+          "b016",
+          "b017",
+          "b018",
+          "b023",
+          "b024",
+          "b025",
+          "b028",
+          "b030",
+          "b033",
+          "b044",
+          "b045",
+          "b046",
+          "b060",
+          "b061",
+          "b068",
+          "b069",
+          "b070",
+          "b080",
+          "b116",
+          "b128"
+        ]
+      },
+      {
+        "id": "historical-repertoire",
+        "label": "Ιστορικά ρεπερτόρια, μελοποιία και Νικόλαος Σμύρνης",
+        "description": "Συγκεκριμένα ρεπερτόρια, μορφολογική ανάλυση και ιστορικά μελοποιητικά περιβάλλοντα.",
+        "entry_ids": [
+          "b007",
+          "b013",
+          "b019",
+          "b020",
+          "b021",
+          "b041",
+          "b104",
+          "b118",
+          "b127"
+        ]
+      },
+      {
+        "id": "modality-performance",
+        "label": "Τροπικότητα, ισοκράτημα και σύγχρονη εκτέλεση",
+        "description": "Τροπική λειτουργία, ισοκράτημα, εκτελεστικές προσεγγίσεις και μετρήσεις.",
+        "entry_ids": [
+          "b006",
+          "b009",
+          "b022",
+          "b026",
+          "b051",
+          "b053",
+          "b062",
+          "b073",
+          "b079",
+          "b089",
+          "b090",
+          "b096",
+          "b105",
+          "b108"
+        ]
+      },
+      {
+        "id": "chant-encoding",
+        "label": "Υπολογιστική ψαλτική, κωδικοποίηση και ψηφιακά σώματα",
+        "description": "Αναπαράσταση και επεξεργασία της ψαλτικής, ψηφιακά εργαλεία και καταλογογραφική αφετηρία.",
+        "entry_ids": [
+          "b012",
+          "b027",
+          "b031",
+          "b036",
+          "b042",
+          "b049",
+          "b052",
+          "b059",
+          "b085",
+          "b092",
+          "b093",
+          "b094",
+          "b095",
+          "b097",
+          "b099",
+          "b100",
+          "b113",
+          "b122",
+          "b125",
+          "b126"
+        ]
+      },
+      {
+        "id": "symbolic-mir",
+        "label": "Συμβολικές μονάδες, τμηματοποίηση, σχήματα και συγγένεια",
+        "description": "Συμβολικές μονάδες, όρια, επαναλαμβανόμενα πρότυπα, μουσικά σχήματα και αποστάσεις.",
+        "entry_ids": [
+          "b037",
+          "b038",
+          "b039",
+          "b040",
+          "b043",
+          "b047",
+          "b048",
+          "b055",
+          "b057",
+          "b058",
+          "b063",
+          "b076",
+          "b077",
+          "b078",
+          "b081",
+          "b082",
+          "b087",
+          "b088",
+          "b098",
+          "b101",
+          "b102",
+          "b103",
+          "b115",
+          "b133"
+        ]
+      },
+      {
+        "id": "structured-learning",
+        "label": "Μάθηση αναπαραστάσεων και δομημένη πρόβλεψη",
+        "description": "Τμηματικά μοντέλα, μερική εποπτεία, μετρική μάθηση και εκτίμηση μετασχηματισμών.",
+        "entry_ids": [
+          "b056",
+          "b072",
+          "b086",
+          "b091",
+          "b107",
+          "b117",
+          "b119",
+          "b129",
+          "b134",
+          "b135"
+        ]
+      },
+      {
+        "id": "cognition",
+        "label": "Ανθρώπινη κατηγοριοποίηση, προσδοκία και νευρικές αποκρίσεις",
+        "description": "Μουσική προσδοκία, κατηγορική και ιεραρχική οργάνωση και ανθρώπινες αποκρίσεις.",
+        "entry_ids": [
+          "b035",
+          "b054",
+          "b071",
+          "b074",
+          "b083",
+          "b084",
+          "b109",
+          "b110",
+          "b111",
+          "b121"
+        ]
+      },
+      {
+        "id": "evaluation",
+        "label": "Επισημείωση, διαφωνία και αξιολόγηση",
+        "description": "Επισημείωση, συμφωνία, διαφωνία και εγκυρότητα συγκριτικής αξιολόγησης.",
+        "entry_ids": [
+          "b032",
+          "b050",
+          "b112",
+          "b124",
+          "b131",
+          "b132"
+        ]
+      },
+      {
+        "id": "transmission-transfer",
+        "label": "Μετάδοση, υπολογιστική εθνομουσικολογία και μεταφορά",
+        "description": "Μελωδική μετάδοση, συγκριτικά σώματα και πεδία εξωτερικής μεταφοράς.",
+        "entry_ids": [
+          "b029",
+          "b034",
+          "b064",
+          "b065",
+          "b066",
+          "b067",
+          "b075",
+          "b106",
+          "b114",
+          "b120",
+          "b123",
+          "b130"
+        ]
+      }
+    ],
+    "supplementary": "docs/bibliography/supplementary.md"
+  }
+}

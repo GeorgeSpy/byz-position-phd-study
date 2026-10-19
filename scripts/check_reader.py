@@ -4,11 +4,11 @@ import hashlib, json, re, sys
 from urllib.parse import unquote, urlsplit
 
 ROOT=Path(__file__).resolve().parents[1]
-manifest=json.loads((ROOT/'sources/reader-manifest.json').read_text())
+manifest=json.loads((ROOT/'sources/reader-manifest.json').read_text(encoding='utf-8'))
 errors=[]; checked=0
 retained=set()
 if len(sys.argv)==3 and sys.argv[1]=='--baseline-tree':
- retained={x['path'] for x in json.loads(Path(sys.argv[2]).read_text())['tree'] if x['type']=='blob'}
+ retained={x['path'] for x in json.loads(Path(sys.argv[2]).read_text(encoding='utf-8'))['tree'] if x['type']=='blob'}
 
 def slug(s):
  s=re.sub(r'<[^>]*>','',s).strip().lower()
@@ -17,7 +17,7 @@ def slug(s):
 
 anchors={}
 for path in ROOT.rglob('*.md'):
- text=path.read_text()
+ text=path.read_text(encoding='utf-8')
  explicit=set(re.findall(r'<a\s+id="([^"]+)"',text))
  headings=[slug(x) for x in re.findall(r'^#{1,6}\s+(.+)$',text,re.M)]
  anchors[path.resolve()]=explicit|set(headings)
@@ -25,7 +25,7 @@ for path in ROOT.rglob('*.md'):
   if not re.search(r'^\[\^'+re.escape(note)+r'\]:',text,re.M):errors.append(f'{path.relative_to(ROOT)}: undefined footnote {note}')
 
 for path in ROOT.rglob('*.md'):
- text=path.read_text()
+ text=path.read_text(encoding='utf-8')
  urls=re.findall(r'!?\[[^\]\n]*\]\(([^\s\n)]+)(?:\s+"[^"]*")?\)',text)
  urls+=re.findall(r'<a\s[^>]*href="([^"]+)"',text)
  for url in urls:
