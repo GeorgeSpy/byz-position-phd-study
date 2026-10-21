@@ -7,14 +7,14 @@
 | Ορισμό θέσης / οικογένειας / εμφάνισης | [Σύνοψη](start/overview.md) | [1.2](full/01-introduction.md#r006), [Οικογένειες](musicology/03-families.md) |
 | Την ιστορική θεμελίωση της εξήγησης | [Χάρτης πεδίου](research/performance-exegesis.md) | [Εξήγηση και πηγές](musicology/04-exegesis.md) |
 | Παλαιό σημείο, μεγάλη υπόσταση και μετροφωνία | [Σχηματικό παράδειγμα](examples/index.md#inverse-example) | [Κριτική των πηγών](musicology/06-old-notation.md) |
-| Το inverse problem και την ιστορική ετικέτα H | [Σύνοψη](start/overview.md#η-ιστορική-διαδρομή-και-ο-τελεστής) | [ATL-INV και R0–R4](current/inverse-problem.md) |
+| Το αντίστροφο πρόβλημα και την ιστορική ετικέτα H | [Σύνοψη](start/overview.md#η-ιστορική-διαδρομή-και-ο-τελεστής) | [ATL-INV και R0–R4](current/inverse-problem.md) |
 | Πληροφορία πέρα από κανόνες και δεύτερη εξήγηση | [Τρέχουσα διάκριση](current/index.md) | [Δrec, Δrule και Δ2ex](current/inverse-problem.md#τρεις-διαφορές-πρόβλεψης) |
 | Ιστορική μάθηση μετασχηματισμών | [Δύο διαδρομές](current/index.md) | [ATL και στοίχιση μεταβλητού μήκους](current/atl.md) |
 | Τον τελεστή Mθέσις και τη Δfamily | [Σύνοψη](start/overview.md#η-ιστορική-διαδρομή-και-ο-τελεστής) | [Πιθανοτικός ορισμός και Π0–Π2](current/m-thesis.md) |
 | Τη διαγνωστική μουσικολογική γνώση A2 | [Πίνακας συνεισφοράς](review/contribution-matrix.md) | [Τρέχουσα πηγή](../sources/proposal-v878-candidate.tex#L705) |
 | Το ερευνητικό κενό | [Πεδία](research/index.md) | [Κεφάλαιο 2](full/02-literature.md), [νεότερο κείμενο](research/positioning-source.md) |
 | Την υπολογιστική καινοτομία | [Μάθηση](research/machine-learning.md) | [Κεφάλαια 4 και 6](full/06-eise.md), [G.1](appendices/g.md#r180) |
-| Μονάδες u1/u2/u3 και N/T/M/L | [Συμβολικό MIR](research/symbolic-mir.md) | [M1](full/05-m1.md), [B](appendices/b.md) |
+| Μονάδες u1/u2/u3 και N/T/M/L | [Συμβολική ανάκτηση μουσικής πληροφορίας](research/symbolic-mir.md) | [M1](full/05-m1.md), [B](appendices/b.md) |
 | Επιλογή R⋆ και στατιστικό έλεγχο | [M1](full/05-m1.md) | [E](appendices/e.md) |
 | B0/B1/B2/EISE και Δ_hist | [Σύνοψη](start/overview.md) | [6.2–6.3](full/06-eise.md#r044), [F](appendices/f.md), [G](appendices/g.md) |
 | Μερική πιθανοφάνεια και απώλειες | [Μάθηση](research/machine-learning.md) | [G.2–G.3](appendices/g.md#r181) |

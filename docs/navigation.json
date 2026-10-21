@@ -22,7 +22,8 @@
     "short_proposal_pdf": "documents/short-proposal.pdf",
     "analytical_proposal_pdf": "documents/analytical-proposal.pdf",
     "feedback": "docs/review/feedback.md",
-    "decisions": "docs/review/decisions.md"
+    "decisions": "docs/review/decisions.md",
+    "terminology": "TERMINOLOGY_GR.md"
   },
   "routes": [
     {
@@ -40,7 +41,7 @@
     },
     {
       "id": "mir-ml",
-      "label": "Συμβολικό MIR / ML",
+      "label": "Συμβολική ανάκτηση μουσικής πληροφορίας και μηχανική μάθηση",
       "pages": [
         "docs/start/review-guide.md#mir-ml",
         "docs/research/symbolic-mir.md",
@@ -378,5 +379,9 @@
       "NAVIGATION.md",
       "documents/README.md"
     ]
+  },
+  "terminology": {
+    "guide": "TERMINOLOGY_GR.md",
+    "scope": "Reader prose and information-metric units; original PDF/LaTeX, bibliographic titles and data identifiers are preserved"
   }
 }
