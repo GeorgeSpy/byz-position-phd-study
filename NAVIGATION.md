@@ -10,7 +10,7 @@
 | Ταυτότητα θέσης και MIR | [Μουσικό παράδειγμα](docs/examples/index.md), [M1–M5](docs/start/overview.md#η-διαδρομή-της-μουσικής-ταυτότητας) | [Παλαιότερο αναλυτικό πρωτόκολλο](docs/full/index.md) |
 | Ιστορικοί μετασχηματισμοί | [ATL](docs/current/atl.md) | [Εξήγηση και πηγές](docs/musicology/04-exegesis.md) |
 | Παλαιά γραφή από την εξήγηση | [ATL-INV](docs/current/inverse-problem.md) | [Μουσικολογική θεμελίωση](docs/musicology/06-old-notation.md) |
-| Πιθανοτική πραγμάτωση | [Τελεστής Mθέσις](docs/current/m-thesis.md) | [Μαθηματική σχέση με το inverse problem](docs/current/m-thesis.md#σχέση-με-την-ιστορική-ανάκτηση) |
+| Πιθανοτική πραγμάτωση | [Τελεστής Mθέσις](docs/current/m-thesis.md) | [Μαθηματική σχέση με το αντίστροφο πρόβλημα](docs/current/m-thesis.md#σχέση-με-την-ιστορική-ανάκτηση) |
 | Τι έχει γίνει σε κάθε πεδίο | [Πίνακας συνεισφοράς](docs/review/contribution-matrix.md) | [Επτά αναλυτικές θεματικές συνθέσεις](docs/research/index.md) |
 | Βυζαντινή μουσικολογία | [Αναλυτική ενότητα](docs/musicology/index.md) | [Πηγές, παραλλαγή, οικογένειες, εξήγηση, ρεπερτόριο](docs/musicology/index.md) |
 | Βιβλιογραφία | [Βιβλιογραφία μεθοδολογικής ανάπτυξης](docs/bibliography/methodology.md) | [Βιβλιογραφικό ευρετήριο](docs/bibliography/index.md), [ανά θέμα](docs/bibliography/by-topic.md) |
@@ -24,3 +24,5 @@
 ---
 
 [Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A7%CE%AC%CF%81%CF%84%CE%B7%CF%82+%CF%80%CE%B5%CF%81%CE%B9%CE%AE%CE%B3%CE%B7%CF%83%CE%B7%CF%82+%CF%83%CF%84%CE%B7%CE%BD+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2FNAVIGATION.md) · [Σημειωματάριο παρατηρήσεων](docs/review/feedback.md)
+
+[Ορολογία της πρότασης](TERMINOLOGY_GR.md)
