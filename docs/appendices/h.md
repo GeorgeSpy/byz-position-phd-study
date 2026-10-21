@@ -132,3 +132,7 @@
 [Αναστασίου (2005)](../bibliography/entries/b001.md) · [Chaldaeakes (2010)](../bibliography/entries/b041.md)
 
 </details>
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+H+%C2%B7+%CE%91%CE%BD%CE%B8%CE%B5%CE%BA%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1+%CE%BA%CE%B1%CE%B9+%CE%BB%CE%BF%CE%B9%CF%80%CE%AD%CF%82+%CE%B4%CE%B9%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AD%CF%82+%CE%B1%CE%BD%CE%B1%CE%BB%CF%8D%CF%83%CE%B5%CE%B9%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fappendices%2Fh.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

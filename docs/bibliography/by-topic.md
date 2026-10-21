@@ -239,3 +239,7 @@
 Η κατάταξη διατηρεί και τις δύο εγγραφές του Κανάκη 2021, b026 και b079, ώστε να συμφωνεί με τις 135 εγγραφές του πρωτοτύπου. Η σχέση του άρθρου Gheorghiță b060 με την αναδημοσίευσή του στο βιβλίο b061 περιγράφεται στη [σελίδα βιβλιογραφικών προσθηκών και σχέσεων](supplementary.md). Τα πλήθη εδώ αφορούν εγγραφές της πηγής.
 
 Οι επτά νεότερες προτεινόμενες προσθήκες παραμένουν σε [χωριστή ενότητα](supplementary.md). Οι πλήρεις εγγραφές και οι διαθέσιμοι εξωτερικοί σύνδεσμοι διατηρούνται στις βιβλιογραφικές σελίδες.
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%92%CE%B9%CE%B2%CE%BB%CE%B9%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AF%CE%B1+%CE%B1%CE%BD%CE%AC+%CE%B8%CE%AD%CE%BC%CE%B1&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fbibliography%2Fby-topic.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

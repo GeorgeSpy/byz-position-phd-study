@@ -36,3 +36,7 @@
 ---
 
 [Προηγούμενη: 10 Κεντρική συνεισφορά, πρόγραμμα και συμπέρασμα](../full/10-contribution.md) · [Επόμενη: B Αναλυτική προδιαγραφή αναπαραστάσεων](b.md)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+A+%C2%B7+%CE%A7%CE%AC%CF%81%CF%84%CE%B7%CF%82+%CE%B5%CE%BD%CE%BF%CF%84%CE%AE%CF%84%CF%89%CE%BD%2C+%CF%85%CF%80%CE%BF%CE%B8%CE%AD%CF%83%CE%B5%CF%89%CE%BD+%CE%BA%CE%B1%CE%B9+%CE%B5%CE%BA%CF%84%CE%B9%CE%BC%CF%8E%CE%BC%CE%B5%CE%BD%CF%89%CE%BD+%CE%BC%CE%B5%CE%B3%CE%B5%CE%B8%CF%8E%CE%BD&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fappendices%2Fa.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

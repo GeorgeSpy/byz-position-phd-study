@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Κοινό σημειωματάριο παρατηρήσεων"
+    url: "https://github.com/GeorgeSpy/byz-position-phd-study/issues/6"
+    about: "Γρήγορο σχόλιο, ερώτημα ή συνέχεια της συζήτησης."
+  - name: "Παρατηρήσεις και επιστημονική συζήτηση"
+    url: "https://github.com/GeorgeSpy/byz-position-phd-study/blob/main/docs/review/feedback.md"
+    about: "Πρόσβαση στο σημειωματάριο, στη φόρμα και στο ημερολόγιο αποφάσεων."

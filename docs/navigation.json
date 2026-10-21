@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "content_basis": "Selected short and analytical research proposals, thematic methodology and an archived analytical reader with separate source records",
-  "base_commit": "c157fc055e11a0e3f543087bf1089305581171c9",
+  "base_commit": "47306feef68a62a232506f74dae05e066f9a51cb",
   "verified_date": "2026-10-21",
   "entrypoints": {
     "overview": "docs/start/overview.md",
@@ -20,7 +20,9 @@
     "roadmap": "docs/roadmap.md",
     "documents": "documents/README.md",
     "short_proposal_pdf": "documents/short-proposal.pdf",
-    "analytical_proposal_pdf": "documents/analytical-proposal.pdf"
+    "analytical_proposal_pdf": "documents/analytical-proposal.pdf",
+    "feedback": "docs/review/feedback.md",
+    "decisions": "docs/review/decisions.md"
   },
   "routes": [
     {
@@ -82,6 +84,14 @@
         "docs/bibliography/index.md",
         "docs/research/index.md",
         "docs/reference.md"
+      ]
+    },
+    {
+      "id": "feedback",
+      "label": "Παρατηρήσεις και επιστημονική συζήτηση",
+      "pages": [
+        "docs/review/feedback.md",
+        "docs/review/decisions.md"
       ]
     }
   ],
@@ -300,5 +310,73 @@
   "document_titles": {
     "short_proposal": "Σύντομη ερευνητική πρόταση",
     "analytical_proposal": "Αναλυτική ερευνητική πρόταση"
+  },
+  "feedback": {
+    "provider": "github_issues",
+    "journal": "https://github.com/GeorgeSpy/byz-position-phd-study/issues/6",
+    "new_topic": "https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml",
+    "template": ".github/ISSUE_TEMPLATE/proposal-feedback.yml",
+    "location_ref": "47306feef68a62a232506f74dae05e066f9a51cb",
+    "commented_pages": [
+      "docs/start/overview.md",
+      "docs/start/reading-paths.md",
+      "docs/start/review-guide.md",
+      "docs/current/atl.md",
+      "docs/current/index.md",
+      "docs/current/inverse-problem.md",
+      "docs/current/m-thesis.md",
+      "docs/musicology/01-history.md",
+      "docs/musicology/02-variation.md",
+      "docs/musicology/03-families.md",
+      "docs/musicology/04-exegesis.md",
+      "docs/musicology/05-repertoire.md",
+      "docs/musicology/06-old-notation.md",
+      "docs/musicology/index.md",
+      "docs/research/cognition.md",
+      "docs/research/data-transfer.md",
+      "docs/research/historical-analysis.md",
+      "docs/research/index.md",
+      "docs/research/machine-learning.md",
+      "docs/research/musicology.md",
+      "docs/research/performance-exegesis.md",
+      "docs/research/positioning-source.md",
+      "docs/research/symbolic-mir.md",
+      "docs/examples/index.md",
+      "docs/full/00-abstract.md",
+      "docs/full/01-introduction.md",
+      "docs/full/02-literature.md",
+      "docs/full/03-questions.md",
+      "docs/full/04-architecture.md",
+      "docs/full/05-m1.md",
+      "docs/full/06-eise.md",
+      "docs/full/07-validation.md",
+      "docs/full/08-data.md",
+      "docs/full/09-nikolaos.md",
+      "docs/full/10-contribution.md",
+      "docs/full/index.md",
+      "docs/appendices/a.md",
+      "docs/appendices/b.md",
+      "docs/appendices/c.md",
+      "docs/appendices/d.md",
+      "docs/appendices/e.md",
+      "docs/appendices/f.md",
+      "docs/appendices/g.md",
+      "docs/appendices/h.md",
+      "docs/appendices/i.md",
+      "docs/appendices/j.md",
+      "docs/review/contribution-matrix.md",
+      "docs/bibliography/index.md",
+      "docs/bibliography/by-topic.md",
+      "docs/bibliography/methodology.md",
+      "docs/bibliography/supplementary.md",
+      "docs/bibliography/source-list.md",
+      "docs/index.md",
+      "docs/topics.md",
+      "docs/reference.md",
+      "docs/roadmap.md",
+      "README.md",
+      "NAVIGATION.md",
+      "documents/README.md"
+    ]
   }
 }

@@ -34,3 +34,7 @@
 ## Κοινή πορεία αναζήτησης
 
 Για το [ερευνητικό κενό και την τοποθέτηση](../review/contribution-matrix.md), ακολουθήστε τη σχετική θεματική σύνθεση. Για μια ακριβή εξίσωση ή μεθοδολογική απόφαση ανατρέξτε στη [μεθοδολογική ανάπτυξη](../current/index.md) και στα [αναλυτικά παραρτήματα](../full/index.md), με παράλληλη πρόσβαση στα [στοιχεία προέλευσης](../reference.md). Για μια αναφορά δείτε την [ενδεικτική λίστα](../bibliography/methodology.md) και τον [εκτενή κατάλογο](../bibliography/index.md).
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%95%CF%81%CF%89%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%B1+%CE%BA%CE%B1%CE%B9+%CF%84%CE%B5%CE%BA%CE%BC%CE%AE%CF%81%CE%B9%CE%B1+%CF%84%CE%B7%CF%82+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fstart%2Freview-guide.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

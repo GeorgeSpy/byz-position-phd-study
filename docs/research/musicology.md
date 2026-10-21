@@ -27,3 +27,7 @@
 - [Βιβλιογραφική θεμελίωση](../full/02-literature.md)
 - [Αναλυτική C.13](../appendices/c.md#r119)
 - [Ανεξάρτητη επικύρωση](../full/07-validation.md#r052)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%98%CE%AD%CF%83%CE%B7%2C+%CE%BF%CE%B9%CE%BA%CE%BF%CE%B3%CE%AD%CE%BD%CE%B5%CE%B9%CE%B1+%CE%BA%CE%B1%CE%B9+%CF%80%CE%B1%CF%80%CE%B1%CE%B4%CE%B9%CE%BA%CE%AE+%CE%BC%CE%BF%CF%81%CF%86%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fresearch%2Fmusicology.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

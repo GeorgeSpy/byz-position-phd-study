@@ -24,3 +24,7 @@
 Η υποψήφια πρόταση περιλαμβάνει συγκεκριμένες παραπομπές σε ιστορικούς θεωρητικούς και σύγχρονες μελέτες. Για τον Κώνστα διατηρείται η δηλωμένη εκκρεμότητα λεκτικής αντιπαραβολής του συγκεκριμένου χωρίου. Η αυτοτελής εκτενής ένταξη της Παρασημαντικής του Ψάχου αποτελεί επόμενο βήμα με βάση το ίδιο το έργο. Οι διαθέσιμες αναφορές στον Καρά και στην Αλεξάνδρου διαβάζονται με το ακριβές αντικείμενο και την τεκμηρίωση που τους αποδίδει η επιλεγμένη έκδοση.
 
 [Οπτικό παράδειγμα και είδη τεκμηριωμένης σχέσης](../examples/index.md) · [Πηγές, εκδόσεις και όρια του παρόντος αναγνωστηρίου](../reference.md)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%91%CE%BD%CE%B1%CE%BB%CF%85%CF%84%CE%B9%CE%BA%CE%AE+%CE%BC%CE%BF%CF%85%CF%83%CE%B9%CE%BA%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AE+%CF%84%CE%B5%CE%BA%CE%BC%CE%B7%CF%81%CE%AF%CF%89%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fmusicology%2Findex.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

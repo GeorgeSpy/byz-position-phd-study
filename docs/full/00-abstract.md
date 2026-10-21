@@ -62,3 +62,7 @@
 [Αρβανίτης (2010)](../bibliography/entries/b004.md) · [Καραγκούνης (2003)](../bibliography/entries/b010.md) · [Καραγκούνης (2005)](../bibliography/entries/b011.md) · [Στάθης (1978)](../bibliography/entries/b017.md) · [Arvanitis (2022)](../bibliography/entries/b033.md) · [Conomos (1974)](../bibliography/entries/b044.md) · [Conomos (1985a)](../bibliography/entries/b045.md) · [Conomos (1985b)](../bibliography/entries/b046.md) · [Hannick (1985)](../bibliography/entries/b068.md) · [Arvanitis (2003)](../bibliography/entries/b070.md) · [Raasted (1966)](../bibliography/entries/b116.md) · [Troelsgård (2011)](../bibliography/entries/b128.md)
 
 </details>
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A0%CE%B5%CF%81%CE%AF%CE%BB%CE%B7%CF%88%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Ffull%2F00-abstract.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

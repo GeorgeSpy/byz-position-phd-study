@@ -27,3 +27,7 @@
 - [Πλήρες πρωτόκολλο](../appendices/i.md)
 - [Στατιστική ανάλυση](../appendices/e.md)
 - [Αναλυτική βιβλιογραφική ανάπτυξη](../appendices/c.md#r127)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%91%CE%BD%CE%B8%CF%81%CF%8E%CF%80%CE%B9%CE%BD%CE%B7+%CE%BA%CE%B1%CF%84%CE%B7%CE%B3%CE%BF%CF%81%CE%B9%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7+%CE%BA%CE%B1%CE%B9+%CE%BC%CE%BF%CF%85%CF%83%CE%B9%CE%BA%CE%AE+%CF%80%CF%81%CE%BF%CF%83%CE%B4%CE%BF%CE%BA%CE%AF%CE%B1&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fresearch%2Fcognition.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

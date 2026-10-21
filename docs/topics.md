@@ -27,3 +27,7 @@
 | Μετασχηματισμούς και δεύτερο ρεπερτόριο | [ATL](current/atl.md), [δεδομένα και μεταφορά](research/data-transfer.md) | [Παλαιότερο §6.5](full/06-eise.md#r049) |
 | Χρονοδιάγραμμα και ετοιμότητα | [Σύνοψη](start/overview.md) | [10](full/10-contribution.md), [J](appendices/j.md) |
 | Συγκεκριμένη βιβλιογραφική πηγή | [Βιβλιογραφία μεθοδολογικής ανάπτυξης](bibliography/methodology.md) | [Βιβλιογραφικό ευρετήριο](bibliography/index.md) και [ανά θέμα](bibliography/by-topic.md) |
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%98%CE%B5%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%82+%CE%BF%CE%B4%CE%B7%CE%B3%CF%8C%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Ftopics.md) · [Σημειωματάριο παρατηρήσεων](review/feedback.md)

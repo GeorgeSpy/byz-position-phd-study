@@ -34,3 +34,7 @@
 Η συνεισφορά συγκροτείται ως κοινό πρόγραμμα από νέα εργασία συμβολικού MIR, ιστορικά τεκμηριωμένη εποπτεία, ποσοτική ανάκτηση παλαιάς γραφής και πρόβλεψη της πραγματωμένης μορφής. Το ερευνητικό προϊόν επιστρέφει στις συγκεκριμένες μουσικές πηγές και ανοίγει νέους ελέγχους για τη σχέση οικογενειακής ταυτότητας, ιστορικής γραφής και αναλυτικής εξήγησης.
 
 [Πλήρης βιβλιογραφική θεμελίωση](../full/02-literature.md) · [Συνολική συνεισφορά](../full/10-contribution.md) · [Νεότερο κείμενο τοποθέτησης](../research/positioning-source.md)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A0%CF%81%CE%BF%CE%B7%CE%B3%CE%BF%CF%8D%CE%BC%CE%B5%CE%BD%CE%B7+%CE%AD%CF%81%CE%B5%CF%85%CE%BD%CE%B1%2C+%CF%84%CE%BF%CF%80%CE%BF%CE%B8%CE%AD%CF%84%CE%B7%CF%83%CE%B7+%CE%BA%CE%B1%CE%B9+%CE%AD%CE%BB%CE%B5%CE%B3%CF%87%CE%BF%CF%82+%CF%84%CE%B7%CF%82+%CF%83%CF%85%CE%BD%CE%B5%CE%B9%CF%83%CF%86%CE%BF%CF%81%CE%AC%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Freview%2Fcontribution-matrix.md) · [Σημειωματάριο παρατηρήσεων](feedback.md)

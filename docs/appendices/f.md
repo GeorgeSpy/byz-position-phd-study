@@ -200,3 +200,7 @@ p_{x,r}=\frac{q_{x,r}}{Q_x},$$ όπου το $Q_x$ περιγράφει τη σ�
 [Ιωαννίδης (2022)](../bibliography/entries/b007.md)
 
 </details>
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+F+%C2%B7+%CE%91%CE%BD%CF%84%CE%B9%CF%83%CF%84%CE%BF%CE%AF%CF%87%CE%B9%CF%83%CE%B7+%CE%BA%CE%B1%CE%B9+%CE%B1%CE%BD%CE%B1%CE%B4%CE%B5%CE%B9%CE%B3%CE%BC%CE%B1%CF%84%CE%BF%CE%BB%CE%B7%CF%88%CE%AF%CE%B1&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fappendices%2Ff.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

@@ -14,8 +14,13 @@
 | Τι έχει γίνει σε κάθε πεδίο | [Πίνακας συνεισφοράς](docs/review/contribution-matrix.md) | [Επτά αναλυτικές θεματικές συνθέσεις](docs/research/index.md) |
 | Βυζαντινή μουσικολογία | [Αναλυτική ενότητα](docs/musicology/index.md) | [Πηγές, παραλλαγή, οικογένειες, εξήγηση, ρεπερτόριο](docs/musicology/index.md) |
 | Βιβλιογραφία | [Βιβλιογραφία μεθοδολογικής ανάπτυξης](docs/bibliography/methodology.md) | [Βιβλιογραφικό ευρετήριο](docs/bibliography/index.md), [ανά θέμα](docs/bibliography/by-topic.md) |
+| Παρατηρήσεις και συζήτηση | [Κοινό σημειωματάριο](docs/review/feedback.md) | [Ημερολόγιο αποφάσεων](docs/review/decisions.md) |
 | Κεφάλαια και δεδομένα | [Ερωτήματα και τεκμήρια](docs/start/review-guide.md) | [Παραρτήματα A–J](docs/full/index.md), [πηγές και επάρκεια](docs/full/08-data.md) |
 
 Οι [διαδρομές ανάγνωσης](docs/start/reading-paths.md) οργανώνουν τα ίδια τεκμήρια κατά θέμα. Το [θεματικό ευρετήριο](docs/topics.md) εντοπίζει όρους, μελέτες και μετρήσεις. Το [βιβλιογραφικό ευρετήριο](docs/bibliography/index.md) και η [βιβλιογραφία μεθοδολογικής ανάπτυξης](docs/bibliography/methodology.md) οδηγούν στις πλήρεις εγγραφές και στις σχετικές ενότητες.
 
 [Μηχανικά αναγνώσιμος χάρτης](docs/navigation.json) · [Επόμενες προσθήκες](docs/roadmap.md) · [Συντήρηση πλοήγησης](docs/maintenance.md)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A7%CE%AC%CF%81%CF%84%CE%B7%CF%82+%CF%80%CE%B5%CF%81%CE%B9%CE%AE%CE%B3%CE%B7%CF%83%CE%B7%CF%82+%CF%83%CF%84%CE%B7%CE%BD+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2FNAVIGATION.md) · [Σημειωματάριο παρατηρήσεων](docs/review/feedback.md)

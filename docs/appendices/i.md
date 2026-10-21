@@ -115,3 +115,7 @@
 [Καραγκούνης (2005)](../bibliography/entries/b011.md)
 
 </details>
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+I+%C2%B7+%CE%91%CE%BD%CE%B8%CF%81%CF%8E%CF%80%CE%B9%CE%BD%CE%B7+%CE%B3%CE%BD%CF%89%CF%83%CE%B9%CE%B1%CE%BA%CE%AE+%CE%B5%CF%80%CE%B9%CE%BA%CF%8D%CF%81%CF%89%CF%83%CE%B7+%CE%BA%CE%B1%CE%B9+%CE%B9%CE%B5%CF%81%CE%B1%CF%81%CF%87%CE%B9%CE%BA%CE%AE+%CE%BC%CE%BF%CF%85%CF%83%CE%B9%CE%BA%CE%AE+%CF%80%CF%81%CF%8C%CE%B2%CE%BB%CE%B5%CF%88%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fappendices%2Fi.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

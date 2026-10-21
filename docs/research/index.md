@@ -19,3 +19,7 @@
 | [Σώματα, ψηφιακή υποδομή και μεταφορά σε άλλες παραδόσεις](data-transfer.md) | Η διαθεσιμότητα πηγών, η αναπαράσταση της γραφής και η ανεξάρτητη αξιολόγηση καθορίζουν το πεδίο εφαρμογής. Η πρόταση οργανώνει την εξωτερική μεταφορά με κριτήρια πρόσβασης, τεκμηρίωσης και συγκρισιμότητας. |
 
 [Νεότερο κείμενο κενού, τοποθέτησης και συνεισφοράς](positioning-source.md) · [Κατάσταση πηγών και εκδόσεων](../reference.md)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A0%CF%81%CE%BF%CE%B7%CE%B3%CE%BF%CF%8D%CE%BC%CE%B5%CE%BD%CE%B7+%CE%AD%CF%81%CE%B5%CF%85%CE%BD%CE%B1+%CE%BA%CE%B1%CE%B9+%CF%84%CE%BF%CF%80%CE%BF%CE%B8%CE%AD%CF%84%CE%B7%CF%83%CE%B7+%CE%B1%CE%BD%CE%AC+%CF%80%CE%B5%CE%B4%CE%AF%CE%BF&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fresearch%2Findex.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)
