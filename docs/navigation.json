@@ -16,7 +16,8 @@
     "atl": "docs/current/atl.md",
     "m_thesis": "docs/current/m-thesis.md",
     "current_bibliography": "docs/bibliography/current-v878.md",
-    "current_source": "sources/proposal-v878-candidate.tex"
+    "current_source": "sources/proposal-v878-candidate.tex",
+    "roadmap": "docs/roadmap.md"
   },
   "routes": [
     {
@@ -27,7 +28,8 @@
         "docs/current/index.md",
         "docs/examples/index.md",
         "docs/review/contribution-matrix.md",
-        "docs/reference.md"
+        "docs/reference.md",
+        "docs/roadmap.md"
       ]
     },
     {
