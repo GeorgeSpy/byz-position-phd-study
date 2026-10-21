@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "content_basis": "Author-selected latest uploaded 30-page short proposal and 150-page technical manual; v8.78 explanatory pages and v8.71e reader retained with separate provenance",
-  "base_commit": "f3382ae7238a38e054c64c7ba8e180915fb5a1d7",
+  "content_basis": "Selected short and analytical research proposals, thematic methodology and an archived analytical reader with separate source records",
+  "base_commit": "c157fc055e11a0e3f543087bf1089305581171c9",
   "verified_date": "2026-10-21",
   "entrypoints": {
     "overview": "docs/start/overview.md",
@@ -15,12 +15,12 @@
     "inverse_problem": "docs/current/inverse-problem.md",
     "atl": "docs/current/atl.md",
     "m_thesis": "docs/current/m-thesis.md",
-    "current_bibliography": "docs/bibliography/current-v878.md",
+    "current_bibliography": "docs/bibliography/methodology.md",
     "current_source": "sources/proposal-v878-candidate.tex",
     "roadmap": "docs/roadmap.md",
     "documents": "documents/README.md",
     "short_proposal_pdf": "documents/short-proposal.pdf",
-    "technical_manual_pdf": "documents/technical-manual.pdf"
+    "analytical_proposal_pdf": "documents/analytical-proposal.pdf"
   },
   "routes": [
     {
@@ -70,14 +70,14 @@
         "docs/current/atl.md",
         "docs/current/inverse-problem.md",
         "docs/musicology/06-old-notation.md",
-        "docs/bibliography/current-v878.md"
+        "docs/bibliography/methodology.md"
       ]
     },
     {
       "id": "bibliographic",
       "label": "Βιβλιογραφία και τεκμηρίωση",
       "pages": [
-        "docs/bibliography/current-v878.md",
+        "docs/bibliography/methodology.md",
         "docs/bibliography/by-topic.md",
         "docs/bibliography/index.md",
         "docs/research/index.md",
@@ -292,9 +292,13 @@
     "supplementary": "docs/bibliography/supplementary.md",
     "current_short": {
       "source": "sources/proposal-v878-candidate.tex",
-      "index": "docs/bibliography/current-v878.md",
+      "index": "docs/bibliography/methodology.md",
       "expected_entries": 83,
       "id_prefix": "s"
     }
+  },
+  "document_titles": {
+    "short_proposal": "Σύντομη ερευνητική πρόταση",
+    "analytical_proposal": "Αναλυτική ερευνητική πρόταση"
   }
 }

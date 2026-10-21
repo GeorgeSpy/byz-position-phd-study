@@ -1,6 +1,6 @@
 # Θεματικός οδηγός
 
-[Σύνοψη](start/overview.md) · [Τρέχουσα v8.78](current/index.md) · [Εκτενής χάρτης](full/index.md) · [Πεδία έρευνας](research/index.md) · [Βιβλιογραφία](bibliography/current-v878.md)
+[Σύνοψη](start/overview.md) · [Μεθοδολογική ανάπτυξη](current/index.md) · [Εκτενής χάρτης](full/index.md) · [Πεδία έρευνας](research/index.md) · [Βιβλιογραφία](bibliography/methodology.md)
 
 | Αναζητώ… | Σύντομη είσοδος | Αναλυτικά |
 |---|---|---|
@@ -26,4 +26,4 @@
 | Χαρακτηρισμό έργου και Νικόλαο | [Ιστορική ανάλυση](research/historical-analysis.md) | [9](full/09-nikolaos.md) |
 | Μετασχηματισμούς και δεύτερο ρεπερτόριο | [ATL](current/atl.md), [δεδομένα και μεταφορά](research/data-transfer.md) | [Παλαιότερο §6.5](full/06-eise.md#r049) |
 | Χρονοδιάγραμμα και ετοιμότητα | [Σύνοψη](start/overview.md) | [10](full/10-contribution.md), [J](appendices/j.md) |
-| Συγκεκριμένη βιβλιογραφική πηγή | [83 εγγραφές v8.78](bibliography/current-v878.md) | [135 εγγραφές v8.71e](bibliography/index.md) και [ανά θέμα](bibliography/by-topic.md) |
+| Συγκεκριμένη βιβλιογραφική πηγή | [Βιβλιογραφία μεθοδολογικής ανάπτυξης](bibliography/methodology.md) | [Βιβλιογραφικό ευρετήριο](bibliography/index.md) και [ανά θέμα](bibliography/by-topic.md) |
