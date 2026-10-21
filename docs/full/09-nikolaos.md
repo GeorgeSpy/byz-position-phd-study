@@ -120,3 +120,7 @@ I_{\Omega}(t)=-\log_2 P_{\Omega}(F_t\mid F_{<t},M_t,L_t,G_t),$$ Εδώ το $F_{
 [Καραγκούνης (2003)](../bibliography/entries/b010.md) · [Καραγκούνης (2005)](../bibliography/entries/b011.md) · [Τόμα (2018)](../bibliography/entries/b019.md) · [Rabinovitch (2024)](../bibliography/entries/b115.md) · [Troelsgård (2011)](../bibliography/entries/b128.md)
 
 </details>
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+9+%C2%B7+%CE%99%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%BA%CE%AE+%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE+%CE%BA%CE%B1%CE%B9+%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%84%CE%B7%CF%81%CE%B9%CF%83%CE%BC%CF%8C%CF%82+%CF%80%CE%BB%CE%AE%CF%81%CE%BF%CF%85%CF%82+%CE%AD%CF%81%CE%B3%CE%BF%CF%85%3A+%CE%9D%CE%B9%CE%BA%CF%8C%CE%BB%CE%B1%CE%BF%CF%82+%CE%A0%CF%81%CF%89%CF%84%CE%BF%CF%88%CE%AC%CE%BB%CF%84%CE%B7%CF%82+%CE%A3%CE%BC%CF%8D%CF%81%CE%BD%CE%B7%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Ffull%2F09-nikolaos.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

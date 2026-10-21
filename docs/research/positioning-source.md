@@ -162,3 +162,7 @@
 - von Rueden, L., Mayer, S., Beckh, K., Georgiev, B., Giesselbach, S., Heese, R., Kirsch, B., Pfrommer, J., Pick, A., Ramamurthy, R., Walczak, M., Garcke, J., Bauckhage, C., & Schuecker, J. (2023). Informed Machine Learning – A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems. *IEEE Transactions on Knowledge and Data Engineering*, 35(1), 614–633.
 
 **Ήδη στα μπλοκ ένταξης** (υποψήφιο αντίγραφο της πρότασης): Dvořáková κ.ά. (2026)· Gusev κ.ά. (2020)· Hariharan και Girshick (2017)· Mahajan κ.ά. (2021)· Mongeau και Sankoff (1990)· Papaioannou κ.ά. (2025)· Papay κ.ά. (2022)· Ristad και Yianilos (1998).
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%95%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CF%8C+%CE%BA%CE%B5%CE%BD%CF%8C%2C+%CF%84%CE%BF%CF%80%CE%BF%CE%B8%CE%AD%CF%84%CE%B7%CF%83%CE%B7+%CE%BA%CE%B1%CE%B9+%CF%83%CF%85%CE%BD%CE%B5%CE%B9%CF%83%CF%86%CE%BF%CF%81%CE%AC&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fresearch%2Fpositioning-source.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

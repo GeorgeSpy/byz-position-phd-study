@@ -129,3 +129,7 @@
 [Αρβανίτης (2010)](../bibliography/entries/b004.md) · [Chryssochoidis (2007)](../bibliography/entries/b042.md) · [Delviniotis (2011)](../bibliography/entries/b052.md) · [Gheorghiță (2010)](../bibliography/entries/b060.md) · [Gheorghiță (2010)](../bibliography/entries/b061.md) · [Holzapfel (2010)](../bibliography/entries/b075.md) · [Troelsgård (2011)](../bibliography/entries/b128.md)
 
 </details>
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+8+%C2%B7+%CE%94%CE%B5%CE%B4%CE%BF%CE%BC%CE%AD%CE%BD%CE%B1+%CE%BA%CE%B1%CE%B9+%CE%B4%CF%85%CE%BD%CE%B1%CF%84%CF%8C%CF%84%CE%B7%CF%84%CE%B1+%CF%85%CE%BB%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Ffull%2F08-data.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

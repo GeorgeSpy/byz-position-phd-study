@@ -183,3 +183,7 @@
 [Αλυγιζάκης (1985)](../bibliography/entries/b003.md) · [Αρβανίτης (2010)](../bibliography/entries/b004.md) · [Μποτωνάκης (2014)](../bibliography/entries/b008.md) · [Κανάκης (2020)](../bibliography/entries/b009.md) · [Καραγκούνης (2003)](../bibliography/entries/b010.md) · [Φωτόπουλος (2009)](../bibliography/entries/b014.md) · [Στάθης (1987)](../bibliography/entries/b016.md) · [Στάθης (1993)](../bibliography/entries/b018.md) · [Χαλδαιάκης (2014)](../bibliography/entries/b023.md) · [Conomos (1985a)](../bibliography/entries/b045.md) · [Conomos (1985b)](../bibliography/entries/b046.md) · [Gheorghiță (2010)](../bibliography/entries/b060.md) · [Gheorghiță (2010)](../bibliography/entries/b061.md) · [Troelsgård (2011)](../bibliography/entries/b128.md)
 
 </details>
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+1+%C2%B7+%CE%95%CE%B9%CF%83%CE%B1%CE%B3%CF%89%CE%B3%CE%AE+%CE%BA%CE%B1%CE%B9+%CE%BA%CE%B5%CE%BD%CF%84%CF%81%CE%B9%CE%BA%CE%AE+%CF%83%CF%85%CE%BD%CE%B5%CE%B9%CF%83%CF%86%CE%BF%CF%81%CE%AC&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Ffull%2F01-introduction.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)
