@@ -1,9 +1,8 @@
 {
   "schema_version": 1,
-  "content_basis": "v8.71e with candidate insertions",
-  "base_commit": "f51b58e035aede5fc81a3d8e421db3bd5a8d3c1f",
-  "verified_date": "2026-10-19",
-  "parent_pull_request": "https://github.com/GeorgeSpy/byz-position-phd-study/pull/1",
+  "content_basis": "v8.78 short candidate with v8.71e extended reader preserved",
+  "base_commit": "f3382ae7238a38e054c64c7ba8e180915fb5a1d7",
+  "verified_date": "2026-10-21",
   "entrypoints": {
     "overview": "docs/start/overview.md",
     "navigation": "NAVIGATION.md",
@@ -11,7 +10,13 @@
     "contribution_matrix": "docs/review/contribution-matrix.md",
     "full_proposal": "docs/full/index.md",
     "bibliography": "docs/bibliography/index.md",
-    "bibliography_by_topic": "docs/bibliography/by-topic.md"
+    "bibliography_by_topic": "docs/bibliography/by-topic.md",
+    "current_proposal": "docs/current/index.md",
+    "inverse_problem": "docs/current/inverse-problem.md",
+    "atl": "docs/current/atl.md",
+    "m_thesis": "docs/current/m-thesis.md",
+    "current_bibliography": "docs/bibliography/current-v878.md",
+    "current_source": "sources/proposal-v878-candidate.tex"
   },
   "routes": [
     {
@@ -19,45 +24,58 @@
       "label": "Συνολική κατανόηση",
       "pages": [
         "docs/start/overview.md",
+        "docs/current/index.md",
         "docs/examples/index.md",
         "docs/review/contribution-matrix.md",
-        "docs/full/index.md"
+        "docs/reference.md"
       ]
     },
     {
       "id": "mir-ml",
-      "label": "Επιβλέπων MIR / ML",
+      "label": "Συμβολικό MIR / ML",
       "pages": [
         "docs/start/review-guide.md#mir-ml",
         "docs/research/symbolic-mir.md",
         "docs/research/machine-learning.md",
         "docs/full/05-m1.md",
         "docs/full/06-eise.md",
-        "docs/appendices/f.md",
-        "docs/appendices/g.md",
-        "docs/full/08-data.md"
+        "docs/current/m-thesis.md",
+        "docs/current/inverse-problem.md",
+        "docs/appendices/g.md"
       ]
     },
     {
       "id": "musicology",
-      "label": "Βυζαντινός μουσικολόγος",
+      "label": "Μουσικολογία και πηγές",
       "pages": [
         "docs/start/review-guide.md#musicology",
         "docs/musicology/index.md",
-        "docs/musicology/04-exegesis.md",
+        "docs/musicology/06-old-notation.md",
+        "docs/examples/index.md",
         "docs/appendices/c.md",
         "docs/full/07-validation.md",
         "docs/full/09-nikolaos.md"
       ]
     },
     {
-      "id": "bibliographic",
-      "label": "Αναζήτηση και τεκμηρίωση",
+      "id": "historical",
+      "label": "Ιστορική μεταβολή και ανάκτηση",
       "pages": [
+        "docs/current/atl.md",
+        "docs/current/inverse-problem.md",
+        "docs/musicology/06-old-notation.md",
+        "docs/bibliography/current-v878.md"
+      ]
+    },
+    {
+      "id": "bibliographic",
+      "label": "Βιβλιογραφία και τεκμηρίωση",
+      "pages": [
+        "docs/bibliography/current-v878.md",
         "docs/bibliography/by-topic.md",
         "docs/bibliography/index.md",
         "docs/research/index.md",
-        "docs/full/02-literature.md"
+        "docs/reference.md"
       ]
     }
   ],
@@ -265,6 +283,12 @@
         ]
       }
     ],
-    "supplementary": "docs/bibliography/supplementary.md"
+    "supplementary": "docs/bibliography/supplementary.md",
+    "current_short": {
+      "source": "sources/proposal-v878-candidate.tex",
+      "index": "docs/bibliography/current-v878.md",
+      "expected_entries": 83,
+      "id_prefix": "s"
+    }
   }
 }
