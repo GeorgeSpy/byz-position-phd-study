@@ -12,6 +12,7 @@
 | Θεματική ανάπτυξη | [Δύο διαδρομές και τελεστής](current/index.md), [ATL](current/atl.md), [ATL-INV](current/inverse-problem.md), [Mθέσις](current/m-thesis.md) |
 | Πεδία και συνεισφορά | [Προηγούμενη έρευνα](research/index.md), [τοποθέτηση](review/contribution-matrix.md), [μουσικολογική τεκμηρίωση](musicology/index.md) |
 | Εκτενές αναγνωστήριο | [Κεφάλαια και παραρτήματα](full/index.md), [θεματικός οδηγός](topics.md) |
+| Ερευνητής και προγενέστερη εργασία | [Βιογραφικό](author/index.md), [MESPI και δημόσιος ερευνητικός κώδικας](author/prior-work.md) |
 | Πηγές | [Βιβλιογραφία μεθοδολογικής ανάπτυξης](bibliography/methodology.md), [εκτενής βιβλιογραφία](bibliography/index.md), [πηγές και τεκμηρίωση](reference.md) |
 
 ---

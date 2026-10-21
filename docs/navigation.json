@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "content_basis": "Selected short and analytical research proposals, thematic methodology and an archived analytical reader with separate source records",
-  "base_commit": "47306feef68a62a232506f74dae05e066f9a51cb",
+  "base_commit": "f007b8341dadeab38f256a63ca806be34fa4cfc4",
   "verified_date": "2026-10-21",
   "entrypoints": {
     "overview": "docs/start/overview.md",
@@ -23,7 +23,9 @@
     "analytical_proposal_pdf": "documents/analytical-proposal.pdf",
     "feedback": "docs/review/feedback.md",
     "decisions": "docs/review/decisions.md",
-    "terminology": "TERMINOLOGY_GR.md"
+    "terminology": "TERMINOLOGY_GR.md",
+    "biography": "docs/author/index.md",
+    "prior_work": "docs/author/prior-work.md"
   },
   "routes": [
     {
@@ -93,6 +95,14 @@
       "pages": [
         "docs/review/feedback.md",
         "docs/review/decisions.md"
+      ]
+    },
+    {
+      "id": "author",
+      "label": "Βιογραφικό και προγενέστερη εργασία",
+      "pages": [
+        "docs/author/index.md",
+        "docs/author/prior-work.md"
       ]
     }
   ],
@@ -383,5 +393,18 @@
   "terminology": {
     "guide": "TERMINOLOGY_GR.md",
     "scope": "Reader prose and information-metric units; original PDF/LaTeX, bibliographic titles and data identifiers are preserved"
+  },
+  "author": {
+    "biography": "docs/author/index.md",
+    "prior_work": "docs/author/prior-work.md",
+    "public_repositories_verified_on": "2026-10-21",
+    "public_repositories": [
+      "https://github.com/GeorgeSpy/espi-classification-models_2",
+      "https://github.com/GeorgeSpy/ESPI-DnCNN-ECA",
+      "https://github.com/GeorgeSpy/ESPI-pseydonoisy-generator",
+      "https://github.com/GeorgeSpy/ESPI-CNN-Particle-Detection",
+      "https://github.com/GeorgeSpy/enhanced-espi-encoder"
+    ],
+    "mespi_specification": "https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/docs/MESPI_OPERATOR_SPEC.md"
   }
 }
