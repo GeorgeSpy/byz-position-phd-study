@@ -315,3 +315,7 @@ $$y_{pwe}=\log\!\frac{d_{pwe}}{q_{we}}-\alpha_{pw},$$ όπου $d_{pwe}$ είν�
 ---
 
 [Προηγούμενη: D Διαχωρισμοί δεδομένων και αποτροπή διαρροής](d.md) · [Επόμενη: F Αντιστοίχιση και αναδειγματοληψία](f.md)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+E+%C2%B7+%CE%A3%CF%84%CE%B1%CF%84%CE%B9%CF%83%CF%84%CE%B9%CE%BA%CE%AE+%CE%B1%CE%BD%CE%AC%CE%BB%CF%85%CF%83%CE%B7+%CE%BA%CE%B1%CE%B9+%CF%80%CE%BF%CE%BB%CE%BB%CE%B1%CF%80%CE%BB%CF%8C%CF%84%CE%B7%CF%84%CE%B1&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fappendices%2Fe.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

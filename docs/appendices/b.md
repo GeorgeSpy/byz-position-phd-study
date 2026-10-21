@@ -96,3 +96,7 @@
 ---
 
 [Προηγούμενη: A Χάρτης ενοτήτων, υποθέσεων και εκτιμώμενων μεγεθών](a.md) · [Επόμενη: C Απογραφή σωμάτων και κριτήρια ένταξης](c.md)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+B+%C2%B7+%CE%91%CE%BD%CE%B1%CE%BB%CF%85%CF%84%CE%B9%CE%BA%CE%AE+%CF%80%CF%81%CE%BF%CE%B4%CE%B9%CE%B1%CE%B3%CF%81%CE%B1%CF%86%CE%AE+%CE%B1%CE%BD%CE%B1%CF%80%CE%B1%CF%81%CE%B1%CF%83%CF%84%CE%AC%CF%83%CE%B5%CF%89%CE%BD&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fappendices%2Fb.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)
