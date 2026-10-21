@@ -51,4 +51,4 @@
 
 Οι τρεις μελέτες SETN προσφέρουν εμπειρία στη συγκρότηση εποπτείας, στην ελεγχόμενη σύγκριση μοντέλων και στην αξιολόγηση υπό μεταβολή των δεδομένων. Το MESPI αναπτύσσει τη σχέση ανάμεσα στο παρατηρούμενο μέγεθος, την προσδιορισιμότητα και την ανακτήσιμη πληροφορία. Αυτά τα μεθοδολογικά ερωτήματα συνδέονται με την [ATL](../../docs/current/atl.md), την [ιστορική ανάκτηση ATL-INV](../../docs/current/inverse-problem.md) και τον [πιθανοτικό τελεστή της μουσικής θέσης](../../docs/current/m-thesis.md).
 
-[Παρατηρήσεις και συζήτηση](../../docs/review/feedback.md) · [Προγενέστερη εργασία και κώδικας](../../docs/author/prior-work.md)
+[Σχολιασμός της συλλογής](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A7%CE%B5%CE%B9%CF%81%CF%8C%CE%B3%CF%81%CE%B1%CF%86%CE%B1+SETN+2026+%CE%BA%CE%B1%CE%B9+MESPI&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F2a4982bfbc9453edc5923766692c5a74dc90709a%2Fdocuments%2Fprior-work%2FREADME.md) · [Προγενέστερη εργασία και κώδικας](../../docs/author/prior-work.md)

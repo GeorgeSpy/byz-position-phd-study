@@ -393,15 +393,20 @@
       "documents/README.md"
     ],
     "location_refs": {
-      "NAVIGATION.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
-      "README.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
-      "docs/author/index.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
-      "docs/author/prior-work.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
-      "docs/index.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
+      "NAVIGATION.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "README.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "docs/author/index.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "docs/author/prior-work.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "docs/index.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "docs/maintenance/source-history.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
-      "docs/reference.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
-      "documents/README.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
-      "documents/short-proposal.pdf": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde"
+      "docs/reference.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "documents/README.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "documents/short-proposal.pdf": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
+      "documents/prior-work/README.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "documents/prior-work/mespi-inverse-geometry.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "documents/prior-work/setn-calibrated-espi-supervision.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "documents/prior-work/setn-espi-attention-denoising.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "documents/prior-work/setn-espi-mode-classification.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a"
     }
   },
   "terminology": {
