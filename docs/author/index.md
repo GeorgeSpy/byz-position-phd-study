@@ -16,14 +16,18 @@
 
 Η μεταπτυχιακή εργασία του αφορά την αυτοματοποιημένη ταξινόμηση τρόπων ταλάντωσης σε όργανα της οικογένειας του μπουζουκιού, με μηχανική μάθηση και επεξεργασία συμβολομετρικών εικόνων. Ο σχετικός δημόσιος κώδικας καλύπτει παραγωγή συνθετικών δεδομένων με φυσική βαθμονόμηση, αποθορυβοποίηση εικόνων, ταξινόμηση και αξιολόγηση της μεταφοράς σε διαφορετικές συνθήκες μέτρησης.
 
-Η συνέχεια αυτής της ερευνητικής γραμμής περιλαμβάνει τη μάθηση αναπαραστάσεων από συμβολομετρικά δεδομένα (Electronic Speckle Pattern Interferometry, ESPI) και την ανάπτυξη της προδιαγραφής του [τελεστή παρατήρησης M_ESPI](prior-work.md#mespi).
+Η συνέχεια αυτής της ερευνητικής γραμμής περιλαμβάνει τη μάθηση αναπαραστάσεων από συμβολομετρικά δεδομένα (Electronic Speckle Pattern Interferometry, ESPI) και τη μελέτη της προσδιορισιμότητας και της αντιστροφής του [τελεστή παρατήρησης M_ESPI](prior-work.md#mespi).
 
 Η παρούσα [πρόταση](../../documents/short-proposal.pdf) μελετά τη μουσική θέση ως υπολογιστική μονάδα της βυζαντινής μουσικής. Συνδέει την ψαλτική και μουσικολογική κατάρτιση με τη συμβολική αναπαράσταση, τη μάθηση από τεκμηριωμένες ιστορικές σχέσεις και την πιθανοτική μοντελοποίηση της παραλλαγής. Η συνδυασμένη εμπειρία στη μουσική πράξη και στον υπολογιστικό σχεδιασμό υποστηρίζει τη συγκρότηση των μουσικών ερωτημάτων, των αναπαραστάσεων και των πειραμάτων.
 
 Ο ερευνητικός ρόλος και η οργάνωση της ανεξάρτητης αξιολόγησης αναπτύσσονται στην [§5.3 της σύντομης πρότασης](../../documents/short-proposal.pdf#page=26).
 
+## Χειρόγραφα ερευνητικών εργασιών
+
+Η [συλλογή χειρογράφων](../../documents/prior-work/README.md) περιλαμβάνει τρεις εργασίες που υποβλήθηκαν στο SETN 2026, για συνθετική εποπτεία, ταξινόμηση τρόπων ταλάντωσης και αποθορυβοποίηση με προσοχή καναλιών, καθώς και το [πλήρες MESPI](../../documents/prior-work/mespi-inverse-geometry.pdf) για την προσδιορισιμότητα και τη γεωμετρία αντιστροφής ενός τελεστή Bessel.
+
 ## Δημόσια ερευνητικά έργα
 
 Τα [πέντε δημόσια αποθετήρια](prior-work.md#public-repositories) παρουσιάζονται με το αντικείμενο και τον ρόλο τους στην ερευνητική πορεία. Η ενότητα περιλαμβάνει ξεχωριστή παρουσίαση του MESPI και τη μεθοδολογική σύνδεση με την τρέχουσα πρόταση.
 
-[Προφίλ GitHub](https://github.com/GeorgeSpy) · [Προγενέστερη εργασία](prior-work.md) · [Σχολιασμός της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%92%CE%B9%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%B9%CE%BA%CF%8C+%E2%80%94+%CE%93%CE%B5%CF%8E%CF%81%CE%B3%CE%B9%CE%BF%CF%82+%CE%A3%CF%80%CF%85%CF%81%CE%B9%CE%B4%CE%AC%CE%BA%CE%B7%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde%2Fdocs%2Fauthor%2Findex.md)
+[Προφίλ GitHub](https://github.com/GeorgeSpy) · [Προγενέστερη εργασία](prior-work.md) · [Σχολιασμός της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%92%CE%B9%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%B9%CE%BA%CF%8C+%E2%80%94+%CE%93%CE%B5%CF%8E%CF%81%CE%B3%CE%B9%CE%BF%CF%82+%CE%A3%CF%80%CF%85%CF%81%CE%B9%CE%B4%CE%AC%CE%BA%CE%B7%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F2a4982bfbc9453edc5923766692c5a74dc90709a%2Fdocs%2Fauthor%2Findex.md)
