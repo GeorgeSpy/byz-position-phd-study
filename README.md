@@ -2,7 +2,7 @@
 
 **Ερευνητική πρόταση — Γεώργιος Σπυριδάκης**
 
-[Βιογραφικό](docs/author/index.md) · [Προγενέστερη εργασία, MESPI και δημόσιος κώδικας](docs/author/prior-work.md)
+[Βιογραφικό](docs/author/index.md) · [Προγενέστερη εργασία, MESPI και δημόσιος κώδικας](docs/author/prior-work.md) · [Χειρόγραφα SETN και MESPI](documents/prior-work/README.md)
 
 **[Σύντομη ερευνητική πρόταση](documents/short-proposal.pdf)** · **[Αναλυτική ερευνητική πρόταση](documents/analytical-proposal.pdf)** · [Περιεχόμενα και ανάγνωση](documents/README.md)
 

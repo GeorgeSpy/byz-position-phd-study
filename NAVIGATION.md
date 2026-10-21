@@ -14,7 +14,7 @@
 | Τι έχει γίνει σε κάθε πεδίο | [Πίνακας συνεισφοράς](docs/review/contribution-matrix.md) | [Επτά αναλυτικές θεματικές συνθέσεις](docs/research/index.md) |
 | Βυζαντινή μουσικολογία | [Αναλυτική ενότητα](docs/musicology/index.md) | [Πηγές, παραλλαγή, οικογένειες, εξήγηση, ρεπερτόριο](docs/musicology/index.md) |
 | Βιβλιογραφία | [Βιβλιογραφία μεθοδολογικής ανάπτυξης](docs/bibliography/methodology.md) | [Βιβλιογραφικό ευρετήριο](docs/bibliography/index.md), [ανά θέμα](docs/bibliography/by-topic.md) |
-| Βιογραφικό και ερευνητική πορεία | [Βιογραφικό](docs/author/index.md) | [Προγενέστερη εργασία, MESPI και δημόσια αποθετήρια](docs/author/prior-work.md) |
+| Βιογραφικό και ερευνητική πορεία | [Βιογραφικό](docs/author/index.md) | [Προγενέστερη εργασία, MESPI και δημόσια αποθετήρια](docs/author/prior-work.md), [χειρόγραφα SETN και MESPI](documents/prior-work/README.md) |
 | Παρατηρήσεις και συζήτηση | [Κοινό σημειωματάριο](docs/review/feedback.md) | [Ημερολόγιο αποφάσεων](docs/review/decisions.md) |
 | Κεφάλαια και δεδομένα | [Ερωτήματα και τεκμήρια](docs/start/review-guide.md) | [Παραρτήματα A–J](docs/full/index.md), [πηγές και επάρκεια](docs/full/08-data.md) |
 
