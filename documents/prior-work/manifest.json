@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "updated_on": "2026-10-21",
-  "collection": "Prior research manuscripts supplied by the author",
-  "status_policy": "Submission status follows the author statement; PDF authorship labels are preserved. MESPI is recorded as a full research manuscript.",
+  "collection": "Prior research papers supplied by the author",
+  "status_policy": "Submission status follows the author statement; PDF authorship labels are preserved. MESPI is recorded as a full research paper.",
   "documents": [
     {
       "id": "setn-calibrated-supervision",
@@ -18,7 +18,7 @@
       "bytes": 1108465,
       "sha256": "f1d556f3e84467b6b4818b8fd7b81bea566c9b6cdc49ebac37c4f87e8b73d39c",
       "git_sha": "e3a9044f300f4f6c7bdb70690b4b9fe274c61f56",
-      "status_basis": "author statement and the supplied manuscript",
+      "status_basis": "author statement and the supplied paper",
       "selected_on": "2026-10-21"
     },
     {
@@ -35,7 +35,7 @@
       "bytes": 2088627,
       "sha256": "2290f32df06b03e38daafc12474e825643519a45a89883177359c87a1089f18d",
       "git_sha": "fb5fea45671ac077d2d09d6ba5ee86f30b352bbc",
-      "status_basis": "author statement and the supplied manuscript",
+      "status_basis": "author statement and the supplied paper",
       "selected_on": "2026-10-21"
     },
     {
@@ -44,7 +44,7 @@
       "path": "setn-espi-attention-denoising.pdf",
       "title": "When Attention Becomes Invisible - and When It Helps: ECA, Supervision Realism, and Downstream ESPI Denoising",
       "status": "submitted_revised_manuscript",
-      "status_label": "Εργασία SETN 2026 — αναθεωρημένο χειρόγραφο",
+      "status_label": "Εργασία SETN 2026 — αναθεωρημένο paper",
       "author_display_in_pdf": "Anonymous Author(s)",
       "library_file_id": "libfile_15fb3ea0343c8191b0404663908ae35b",
       "related_repository": "https://github.com/GeorgeSpy/ESPI-DnCNN-ECA",
@@ -52,7 +52,7 @@
       "bytes": 606323,
       "sha256": "361bd0021f7733f8fb5b938c55884706b74c8874430fca8aff8f54ba08629455",
       "git_sha": "aaa666755f8e4df5e867c52afe1ae258eb098781",
-      "status_basis": "author statement and the supplied manuscript",
+      "status_basis": "author statement and the supplied paper",
       "selected_on": "2026-10-21"
     },
     {
@@ -61,7 +61,7 @@
       "path": "mespi-inverse-geometry.pdf",
       "title": "Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator",
       "status": "full_research_manuscript",
-      "status_label": "Πλήρες ερευνητικό χειρόγραφο MESPI",
+      "status_label": "Πλήρες ερευνητικό paper MESPI",
       "author_display_in_pdf": "Georgios Spyridakis",
       "manuscript_date": "2026-08-15",
       "library_file_id": "libfile_c5e16387bd6c8191a73a8ba8ca52c22e",
@@ -70,7 +70,7 @@
       "bytes": 830897,
       "sha256": "bbbd63d9f1a1ce68d11f56bc7de792c5d379c38a8513c6601921c4059ddd1012",
       "git_sha": "c82e161b1583990184fcf9716aa54fa86e204504",
-      "status_basis": "author statement and the supplied manuscript",
+      "status_basis": "author statement and the supplied paper",
       "selected_on": "2026-10-21"
     }
   ]

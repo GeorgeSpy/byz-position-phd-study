@@ -6,16 +6,16 @@
 
 <a id="manuscripts"></a>
 
-## Χειρόγραφα SETN 2026 και MESPI
+## Paper SETN 2026 και MESPI
 
-Στη [συλλογή χειρογράφων](../../documents/prior-work/README.md) περιλαμβάνονται οι τρεις εργασίες που υποβλήθηκαν στο SETN 2026 και το πλήρες MESPI. Κάθε εργασία συνοδεύεται από σύντομη περιγραφή, σύνδεσμο στον σχετικό κώδικα και πρόσβαση στο πλήρες PDF.
+Στη [συλλογή paper](../../documents/prior-work/README.md) περιλαμβάνονται οι τρεις εργασίες που υποβλήθηκαν στο SETN 2026 και το πλήρες MESPI. Κάθε εργασία συνοδεύεται από σύντομη περιγραφή, σύνδεσμο στον σχετικό κώδικα και πρόσβαση στο πλήρες PDF.
 
-| Αντικείμενο | Πλήρες κείμενο |
+| Τίτλος paper | Πλήρες κείμενο |
 |---|---|
-| Βαθμονομημένη συνθετική εποπτεία για ESPI | [Χειρόγραφο SETN](../../documents/prior-work/setn-calibrated-espi-supervision.pdf) |
-| Ερμηνεύσιμη ταξινόμηση τρόπων ταλάντωσης | [Χειρόγραφο SETN](../../documents/prior-work/setn-espi-mode-classification.pdf) |
-| Προσοχή καναλιών και αποθορυβοποίηση | [Αναθεωρημένο χειρόγραφο SETN](../../documents/prior-work/setn-espi-attention-denoising.pdf) |
-| Προσδιορισιμότητα και γεωμετρία αντιστροφής MESPI | [Πλήρες χειρόγραφο](../../documents/prior-work/mespi-inverse-geometry.pdf) |
+| Calibrated Pseudo-Noisy Supervision for ESPI Denoising with Severity-Controlled Evaluation | [Paper SETN](../../documents/prior-work/setn-calibrated-espi-supervision.pdf) |
+| Interpretable ESPI Mode Classification under Data Scarcity with Frequency-Prior Hybrid Random Forests | [Paper SETN](../../documents/prior-work/setn-espi-mode-classification.pdf) |
+| When Attention Becomes Invisible - and When It Helps: ECA, Supervision Realism, and Downstream ESPI Denoising | [Αναθεωρημένο paper SETN](../../documents/prior-work/setn-espi-attention-denoising.pdf) |
+| Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator | [Πλήρες paper](../../documents/prior-work/mespi-inverse-geometry.pdf) |
 
 ## Μεταπτυχιακή έρευνα: ταλαντώσεις μουσικών οργάνων
 
@@ -47,7 +47,7 @@
 
 ## MESPI: προσδιορισιμότητα και γεωμετρία της αντιστροφής
 
-Το πλήρες χειρόγραφο [Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../documents/prior-work/mespi-inverse-geometry.pdf), του Georgios Spyridakis, αναπτύσσει έναν πιθανοτικό τελεστή παρατήρησης και εξετάζει την πληροφορία που επιτρέπει την αντιστροφή του. Ο πυρήνας γράφεται
+Το πλήρες paper [Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../documents/prior-work/mespi-inverse-geometry.pdf), του Georgios Spyridakis, αναπτύσσει έναν πιθανοτικό τελεστή παρατήρησης και εξετάζει την πληροφορία που επιτρέπει την αντιστροφή του. Ο πυρήνας γράφεται
 
 $$
 \mu(W)=A+B\,J_0\!\bigl(cW\bigr)^2,
@@ -55,11 +55,11 @@ $$
 I\sim p\!\left(I\mid\mu(W),\eta\right).
 $$
 
-Η $\mu(W)$ είναι η μέση τιμή του βαθμονομημένου στατιστικού μεγέθους δεύτερης τάξης που ορίζει το χειρόγραφο. Το $W$ είναι το προσημασμένο πεδίο πλάτους ταλάντωσης, το $A$ ο όρος υποβάθρου του συγκεκριμένου μεγέθους, το $B$ ο συντελεστής διαμόρφωσης με τις ίδιες μονάδες με τη $\mu$, το $c$ ο συντελεστής οπτικής ευαισθησίας και το $\eta$ οι παράμετροι του στατιστικού μοντέλου και της μέτρησης. Η $J_0$ είναι η συνάρτηση Bessel πρώτου είδους και μηδενικής τάξης.
+Η $\mu(W)$ είναι η μέση τιμή του βαθμονομημένου στατιστικού μεγέθους δεύτερης τάξης που ορίζει το paper. Το $W$ είναι το προσημασμένο πεδίο πλάτους ταλάντωσης, το $A$ ο όρος υποβάθρου του συγκεκριμένου μεγέθους, το $B$ ο συντελεστής διαμόρφωσης με τις ίδιες μονάδες με τη $\mu$, το $c$ ο συντελεστής οπτικής ευαισθησίας και το $\eta$ οι παράμετροι του στατιστικού μοντέλου και της μέτρησης. Η $J_0$ είναι η συνάρτηση Bessel πρώτου είδους και μηδενικής τάξης.
 
 Η μελέτη συνδέει τέσσερα ερωτήματα: ποιες μορφές πεδίου παράγουν την ίδια οπτική παρατήρηση, πώς η μηχανική ομαλότητα περιορίζει τις επιλέξιμες λύσεις, πώς η πληροφορία Fisher περιγράφει την τοπική αβεβαιότητα και ποια πρόσθετη μέτρηση επιτρέπει την ανάκτηση προσήμου και απόλυτου μεγέθους. Η αντιστροφή εξετάζει ρητά τους διαφορετικούς κλάδους του τελεστή και συνοδεύεται από αριθμητικές δοκιμές των προβλέψεων του μοντέλου.
 
-Το [Enhanced ESPI Encoder](https://github.com/GeorgeSpy/enhanced-espi-encoder) οργανώνει τη συναφή υπολογιστική ανάπτυξη προς μάθηση αναπαραστάσεων συνεπών με το μοντέλο παρατήρησης. Η [προδιαγραφή υλοποίησης](https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/docs/MESPI_OPERATOR_SPEC.md) και το [πλήρες χειρόγραφο](../../documents/prior-work/mespi-inverse-geometry.pdf) παρέχουν πρόσβαση στην υπολογιστική κατεύθυνση και στη μαθηματική θεμελίωση αντίστοιχα.
+Το [Enhanced ESPI Encoder](https://github.com/GeorgeSpy/enhanced-espi-encoder) οργανώνει τη συναφή υπολογιστική ανάπτυξη προς μάθηση αναπαραστάσεων συνεπών με το μοντέλο παρατήρησης. Η [προδιαγραφή υλοποίησης](https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/docs/MESPI_OPERATOR_SPEC.md) και το [πλήρες paper](../../documents/prior-work/mespi-inverse-geometry.pdf) παρέχουν πρόσβαση στην υπολογιστική κατεύθυνση και στη μαθηματική θεμελίωση αντίστοιχα.
 
 ## Μεθοδολογική συνέχεια με την πρόταση για τη μουσική θέση
 
@@ -74,8 +74,8 @@ $$
 - [Παραγωγή δεδομένων με φυσική βαθμονόμηση](https://github.com/GeorgeSpy/ESPI-pseydonoisy-generator/blob/master/README.md).
 - [Νευρωνικά μοντέλα ταξινόμησης](https://github.com/GeorgeSpy/ESPI-CNN-Particle-Detection/blob/master/README.md).
 - [Κατεύθυνση ανάπτυξης αναπαραστάσεων και τελεστή παρατήρησης](https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/README.md).
-- [Πλήρες χειρόγραφο MESPI](../../documents/prior-work/mespi-inverse-geometry.pdf).
-- [Τρία χειρόγραφα SETN 2026](../../documents/prior-work/README.md).
+- [Πλήρες paper MESPI](../../documents/prior-work/mespi-inverse-geometry.pdf).
+- [Τρία paper SETN 2026](../../documents/prior-work/README.md).
 - [Προδιαγραφή του M_ESPI](https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/docs/MESPI_OPERATOR_SPEC.md).
 
 [Βιογραφικό](index.md) · [Σύνοψη της πρότασης](../start/overview.md) · [Σχολιασμός της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A0%CF%81%CE%BF%CE%B3%CE%B5%CE%BD%CE%AD%CF%83%CF%84%CE%B5%CF%81%CE%B7+%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1+%CE%BA%CE%B1%CE%B9+%CE%B4%CE%B7%CE%BC%CF%8C%CF%83%CE%B9%CE%B1+%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AC+%CE%AD%CF%81%CE%B3%CE%B1&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F2a4982bfbc9453edc5923766692c5a74dc90709a%2Fdocs%2Fauthor%2Fprior-work.md)

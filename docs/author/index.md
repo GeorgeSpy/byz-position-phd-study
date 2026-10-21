@@ -22,9 +22,14 @@
 
 Ο ερευνητικός ρόλος και η οργάνωση της ανεξάρτητης αξιολόγησης αναπτύσσονται στην [§5.3 της σύντομης πρότασης](../../documents/short-proposal.pdf#page=26).
 
-## Χειρόγραφα ερευνητικών εργασιών
+## Ερευνητικά paper
 
-Η [συλλογή χειρογράφων](../../documents/prior-work/README.md) περιλαμβάνει τρεις εργασίες που υποβλήθηκαν στο SETN 2026, για συνθετική εποπτεία, ταξινόμηση τρόπων ταλάντωσης και αποθορυβοποίηση με προσοχή καναλιών, καθώς και το [πλήρες MESPI](../../documents/prior-work/mespi-inverse-geometry.pdf) για την προσδιορισιμότητα και τη γεωμετρία αντιστροφής ενός τελεστή Bessel.
+Η [συλλογή paper](../../documents/prior-work/README.md) περιλαμβάνει τρία paper που υποβλήθηκαν στο SETN 2026 και το πλήρες paper MESPI:
+
+- [Calibrated Pseudo-Noisy Supervision for ESPI Denoising with Severity-Controlled Evaluation](../../documents/prior-work/setn-calibrated-espi-supervision.pdf).
+- [Interpretable ESPI Mode Classification under Data Scarcity with Frequency-Prior Hybrid Random Forests](../../documents/prior-work/setn-espi-mode-classification.pdf).
+- [When Attention Becomes Invisible - and When It Helps: ECA, Supervision Realism, and Downstream ESPI Denoising](../../documents/prior-work/setn-espi-attention-denoising.pdf).
+- [Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../documents/prior-work/mespi-inverse-geometry.pdf).
 
 ## Δημόσια ερευνητικά έργα
 

@@ -431,20 +431,24 @@
       "setn_2026": [
         {
           "path": "documents/prior-work/setn-calibrated-espi-supervision.pdf",
-          "status": "submitted"
+          "status": "submitted",
+          "title": "Calibrated Pseudo-Noisy Supervision for ESPI Denoising with Severity-Controlled Evaluation"
         },
         {
           "path": "documents/prior-work/setn-espi-mode-classification.pdf",
-          "status": "submitted"
+          "status": "submitted",
+          "title": "Interpretable ESPI Mode Classification under Data Scarcity with Frequency-Prior Hybrid Random Forests"
         },
         {
           "path": "documents/prior-work/setn-espi-attention-denoising.pdf",
-          "status": "submitted_revised_manuscript"
+          "status": "submitted_revised_manuscript",
+          "title": "When Attention Becomes Invisible - and When It Helps: ECA, Supervision Realism, and Downstream ESPI Denoising"
         }
       ],
       "mespi": {
         "path": "documents/prior-work/mespi-inverse-geometry.pdf",
-        "status": "full_research_manuscript"
+        "status": "full_research_manuscript",
+        "title": "Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator"
       }
     }
   }
