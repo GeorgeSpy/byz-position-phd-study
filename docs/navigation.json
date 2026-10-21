@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "content_basis": "v8.78 short candidate with v8.71e extended reader preserved",
+  "content_basis": "Author-selected latest uploaded 30-page short proposal and 150-page technical manual; v8.78 explanatory pages and v8.71e reader retained with separate provenance",
   "base_commit": "f3382ae7238a38e054c64c7ba8e180915fb5a1d7",
   "verified_date": "2026-10-21",
   "entrypoints": {
@@ -17,13 +17,17 @@
     "m_thesis": "docs/current/m-thesis.md",
     "current_bibliography": "docs/bibliography/current-v878.md",
     "current_source": "sources/proposal-v878-candidate.tex",
-    "roadmap": "docs/roadmap.md"
+    "roadmap": "docs/roadmap.md",
+    "documents": "documents/README.md",
+    "short_proposal_pdf": "documents/short-proposal.pdf",
+    "technical_manual_pdf": "documents/technical-manual.pdf"
   },
   "routes": [
     {
       "id": "general",
       "label": "Συνολική κατανόηση",
       "pages": [
+        "documents/README.md",
         "docs/start/overview.md",
         "docs/current/index.md",
         "docs/examples/index.md",
