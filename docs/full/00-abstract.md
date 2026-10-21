@@ -1,6 +1,6 @@
 [Αναλυτικός χάρτης](../full/index.md) · [Σύνοψη](../start/overview.md) · [Βιβλιογραφία](../bibliography/index.md)
 
-Μεταφορά του πλήρους κειμένου της υποψήφιας v8.71e. [Πρωτότυπο PDF](../../sources/proposal-v871e-candidate.pdf) · [Προέλευση και έκδοση](../reference.md).
+Μεταγραφή προγενέστερου αναλυτικού κειμένου. [Πρωτότυπο PDF](../../sources/proposal-v871e-candidate.pdf) · [Προέλευση κειμένου](../reference.md).
 
 <a id="r001"></a>
 
