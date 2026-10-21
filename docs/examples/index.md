@@ -47,3 +47,7 @@
 | Παλαιός μάρτυρας με μία ή δύο επιβεβαιωμένες εξηγήσεις | Πραγματικό εικονογραφημένο παράδειγμα ATL-INV | Αυτοψία, δικαιώματα απεικόνισης, χωριστή ανάγνωση και στοίχιση |
 
 Η κατάσταση κάθε παραδείγματος εμφανίζεται μαζί με την εικόνα και την πηγή του. Έτσι η εποπτική χρήση και η αποδεικτική ισχύς του παραμένουν ελέγξιμες.
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%9C%CE%BF%CF%85%CF%83%CE%B9%CE%BA%CE%AC+%CF%80%CE%B1%CF%81%CE%B1%CE%B4%CE%B5%CE%AF%CE%B3%CE%BC%CE%B1%CF%84%CE%B1+%CE%BA%CE%B1%CE%B9+%CF%80%CE%B1%CF%81%CE%B1%CE%BB%CE%BB%CE%B1%CE%B3%CE%AE+%CE%B8%CE%AD%CF%83%CE%B7%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fexamples%2Findex.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

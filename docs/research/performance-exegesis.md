@@ -27,3 +27,7 @@
 - [Ανεξάρτητο κριτήριο](../full/06-eise.md#r045)
 - [Εκτελεστική ανάλυση](../full/07-validation.md#r063)
 - [Αντιστοίχιση](../appendices/f.md)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%95%CE%BE%CE%AE%CE%B3%CE%B7%CF%83%CE%B7%2C+%CE%B9%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%BA%CE%AE+%CE%BC%CE%B5%CF%84%CE%B1%CE%B2%CE%BF%CE%BB%CE%AE+%CE%BA%CE%B1%CE%B9+%CF%83%CF%8D%CE%B3%CF%87%CF%81%CE%BF%CE%BD%CE%B7+%CE%B5%CE%BA%CF%84%CE%AD%CE%BB%CE%B5%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fresearch%2Fperformance-exegesis.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

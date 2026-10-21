@@ -1,0 +1,51 @@
+name: "Παρατήρηση στην ερευνητική πρόταση"
+description: "Ερώτημα, διευκρίνιση ή πρόταση για το ερευνητικό κείμενο."
+title: "Παρατήρηση: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Καταγράψτε την παρατήρηση ή το ερώτημά σας. Τα υπόλοιπα πεδία είναι προαιρετικά.
+  - type: input
+    id: location
+    attributes:
+      label: "Σημείο της πρότασης"
+      description: "Σύνδεσμος, ενότητα, εξίσωση ή σελίδα του PDF. Μπορείτε να εξειδικεύσετε τον προσυμπληρωμένο σύνδεσμο."
+      placeholder: "π.χ. Αναλυτική πρόταση, §6.5, σελ. 38"
+    validations:
+      required: false
+  - type: textarea
+    id: observation
+    attributes:
+      label: "Παρατήρηση ή ερώτημα"
+      placeholder: "Ποιο σημείο θα θέλατε να συζητηθεί, να διευκρινιστεί ή να αναπτυχθεί;"
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "Προτεινόμενη διευκρίνιση ή αλλαγή"
+      placeholder: "Προαιρετική πρόταση διατύπωσης, παραδείγματος ή μεθοδολογικής ανάπτυξης."
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: "Σχετική πηγή ή βιβλιογραφία"
+      placeholder: "Παραπομπή, σύνδεσμος ή συγκεκριμένο χωρίο."
+    validations:
+      required: false
+  - type: dropdown
+    id: topic
+    attributes:
+      label: "Θεματική περιοχή"
+      options:
+        - "Συνολική πρόταση και παρουσίαση"
+        - "Μουσικολογία και μουσικές πηγές"
+        - "MIR, μηχανική μάθηση και αναπαραστάσεις"
+        - "ATL και ιστορική ανάκτηση"
+        - "Τελεστής Mθέσις"
+        - "Δεδομένα, πειραματικός σχεδιασμός και αξιολόγηση"
+        - "Βιβλιογραφία"
+    validations:
+      required: false

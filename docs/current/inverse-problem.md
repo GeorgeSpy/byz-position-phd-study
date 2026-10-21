@@ -90,3 +90,7 @@ $$
 Η R4 απαντά αν μια ιστορική διάκριση είναι **προσβάσιμη για συγκεκριμένο προβλεπτικό έλεγχο** στη μαθημένη αναπαράσταση. Η $\Delta_{\mathrm{hist}}$ της M2 μετρά άλλο αντικείμενο, τη συμφωνία με ανεξάρτητη σύγχρονη εκτελεστική παραλλαγή. Μαζί, τα δύο κριτήρια δείχνουν πόσο γόνιμα μπορεί η ιστορική εποπτεία να συνδέσει την ταυτότητα της θέσης με την πληροφορία της παλαιότερης γραφής.
 
 [Μεθοδολογική πηγή για την ιστορική ανάκτηση](../../sources/proposal-v878-candidate.tex#L764) · [Βιβλιογραφία μεθοδολογικής ανάπτυξης](../bibliography/methodology.md) · [Οπτικά και σχηματικά παραδείγματα](../examples/index.md)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+ATL-INV%3A+%CF%84%CE%BF+%CE%B1%CE%BD%CF%84%CE%AF%CF%83%CF%84%CF%81%CE%BF%CF%86%CE%BF+%CF%80%CF%81%CF%8C%CE%B2%CE%BB%CE%B7%CE%BC%CE%B1+%CF%84%CE%B7%CF%82+%CE%B5%CE%BE%CE%AE%CE%B3%CE%B7%CF%83%CE%B7%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fcurrent%2Finverse-problem.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

@@ -28,3 +28,7 @@
 - [Αναπαραστάσεις](../appendices/b.md)
 - [Υπολογιστική βιβλιογραφική θεμελίωση](../appendices/c.md#r126)
 - [Συγκριτές](../appendices/g.md#r185)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A3%CF%85%CE%BC%CE%B2%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C+MIR%3A+%CE%BC%CE%BF%CE%BD%CE%AC%CE%B4%CE%B5%CF%82%2C+%CF%84%CE%BC%CE%B7%CE%BC%CE%B1%CF%84%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7+%CE%BA%CE%B1%CE%B9+%CF%83%CF%85%CE%B3%CE%B3%CE%AD%CE%BD%CE%B5%CE%B9%CE%B1&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fresearch%2Fsymbolic-mir.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

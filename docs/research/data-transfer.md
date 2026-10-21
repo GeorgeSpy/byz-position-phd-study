@@ -28,3 +28,7 @@
 - [Απογραφή πηγών](../appendices/c.md)
 - [Διαχωρισμοί](../appendices/d.md)
 - [Μετασχηματισμοί και δεύτερο ρεπερτόριο](../full/06-eise.md#r049)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A3%CF%8E%CE%BC%CE%B1%CF%84%CE%B1%2C+%CF%88%CE%B7%CF%86%CE%B9%CE%B1%CE%BA%CE%AE+%CF%85%CF%80%CE%BF%CE%B4%CE%BF%CE%BC%CE%AE+%CE%BA%CE%B1%CE%B9+%CE%BC%CE%B5%CF%84%CE%B1%CF%86%CE%BF%CF%81%CE%AC+%CF%83%CE%B5+%CE%AC%CE%BB%CE%BB%CE%B5%CF%82+%CF%80%CE%B1%CF%81%CE%B1%CE%B4%CF%8C%CF%83%CE%B5%CE%B9%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fresearch%2Fdata-transfer.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

@@ -25,3 +25,7 @@
 - [Πλήρης M5](../full/09-nikolaos.md)
 - [Στατιστική και σώματα αναφοράς](../appendices/e.md)
 - [Συνολική μουσικολογική συνεισφορά](../full/10-contribution.md)
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%99%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%BA%CE%AE+%CE%B1%CE%BD%CE%AC%CE%BB%CF%85%CF%83%CE%B7+%CE%BA%CE%B1%CE%B9+%CF%87%CE%B1%CF%81%CE%B1%CE%BA%CF%84%CE%B7%CF%81%CE%B9%CF%83%CE%BC%CF%8C%CF%82+%CF%80%CE%BB%CE%AE%CF%81%CE%BF%CF%85%CF%82+%CE%AD%CF%81%CE%B3%CE%BF%CF%85&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fresearch%2Fhistorical-analysis.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

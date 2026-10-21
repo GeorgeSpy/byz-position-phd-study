@@ -56,3 +56,7 @@ p_\phi(X_G\mid h,M,Z)\,p(h\mid M,Z)}.
 $$
 
 Η συγγένεια των εμπρόσθιων μορφών επιτρέπει κοινό σχεδιασμό στοιχίσεων, ορίων και κωδικοποίησης περιβάλλοντος. Η ιστορική ετικέτα $H$, η εκτίμηση του αντίστροφου καναλιού και το σύνολο ελέγχου παραμένουν ειδικά στην [ATL-INV](inverse-problem.md). Έτσι η σχέση ανάμεσα στον τελεστή και στο inverse problem είναι συγκεκριμένη μαθηματική γέφυρα με δύο χωριστά ερευνητικά αποτελέσματα.
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%9F+%CF%80%CE%B9%CE%B8%CE%B1%CE%BD%CE%BF%CF%84%CE%B9%CE%BA%CF%8C%CF%82+%CF%84%CE%B5%CE%BB%CE%B5%CF%83%CF%84%CE%AE%CF%82+%24M_%7B%5Cmathrm%7B%CE%B8%CE%AD%CF%83%CE%B9%CF%82%7D%7D%24&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fcurrent%2Fm-thesis.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)
