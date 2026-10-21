@@ -57,4 +57,4 @@ $$
 - [Κατεύθυνση ανάπτυξης αναπαραστάσεων και τελεστή παρατήρησης](https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/README.md).
 - [Προδιαγραφή του M_ESPI](https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/docs/MESPI_OPERATOR_SPEC.md).
 
-[Βιογραφικό](index.md) · [Σύνοψη της πρότασης](../start/overview.md) · [Παρατηρήσεις και συζήτηση](../review/feedback.md)
+[Βιογραφικό](index.md) · [Σύνοψη της πρότασης](../start/overview.md) · [Σχολιασμός της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A0%CF%81%CE%BF%CE%B3%CE%B5%CE%BD%CE%AD%CF%83%CF%84%CE%B5%CF%81%CE%B7+%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1+%CE%BA%CE%B1%CE%B9+%CE%B4%CE%B7%CE%BC%CF%8C%CF%83%CE%B9%CE%B1+%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AC+%CE%AD%CF%81%CE%B3%CE%B1&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde%2Fdocs%2Fauthor%2Fprior-work.md)

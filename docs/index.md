@@ -17,6 +17,6 @@
 
 ---
 
-[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%91%CE%BD%CE%B1%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE%CF%81%CE%B9%CE%BF+%CF%84%CE%B7%CF%82+%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AE%CF%82+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Findex.md) · [Σημειωματάριο παρατηρήσεων](review/feedback.md)
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%91%CE%BD%CE%B1%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE%CF%81%CE%B9%CE%BF+%CF%84%CE%B7%CF%82+%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AE%CF%82+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde%2Fdocs%2Findex.md) · [Σημειωματάριο παρατηρήσεων](review/feedback.md)
 
 [Ορολογία της πρότασης](../TERMINOLOGY_GR.md)

@@ -26,4 +26,4 @@
 
 Τα [πέντε δημόσια αποθετήρια](prior-work.md#public-repositories) παρουσιάζονται με το αντικείμενο και τον ρόλο τους στην ερευνητική πορεία. Η ενότητα περιλαμβάνει ξεχωριστή παρουσίαση του MESPI και τη μεθοδολογική σύνδεση με την τρέχουσα πρόταση.
 
-[Προφίλ GitHub](https://github.com/GeorgeSpy) · [Προγενέστερη εργασία](prior-work.md) · [Παρατηρήσεις και συζήτηση](../review/feedback.md)
+[Προφίλ GitHub](https://github.com/GeorgeSpy) · [Προγενέστερη εργασία](prior-work.md) · [Σχολιασμός της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%92%CE%B9%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%B9%CE%BA%CF%8C+%E2%80%94+%CE%93%CE%B5%CF%8E%CF%81%CE%B3%CE%B9%CE%BF%CF%82+%CE%A3%CF%80%CF%85%CF%81%CE%B9%CE%B4%CE%AC%CE%BA%CE%B7%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde%2Fdocs%2Fauthor%2Findex.md)

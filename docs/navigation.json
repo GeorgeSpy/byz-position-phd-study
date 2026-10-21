@@ -388,7 +388,18 @@
       "README.md",
       "NAVIGATION.md",
       "documents/README.md"
-    ]
+    ],
+    "location_refs": {
+      "NAVIGATION.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
+      "README.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
+      "docs/author/index.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
+      "docs/author/prior-work.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
+      "docs/index.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
+      "docs/maintenance/source-history.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
+      "docs/reference.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
+      "documents/README.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
+      "documents/short-proposal.pdf": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde"
+    }
   },
   "terminology": {
     "guide": "TERMINOLOGY_GR.md",
