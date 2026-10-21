@@ -4,12 +4,26 @@
 
 | Κείμενο | Ανάγνωση | Περιεχόμενο |
 |---|---|---|
-| **Σύντομη ερευνητική πρόταση** | [Άνοιγμα PDF](short-proposal.pdf) | Συνολική παρουσίαση του ερευνητικού προβλήματος, των δύο ερευνητικών διαδρομών, της μεθοδολογίας και της συνεισφοράς. |
+| **Σύντομη ερευνητική πρόταση** | [Άνοιγμα PDF · 33 σελίδες](short-proposal.pdf) | Συνολική παρουσίαση του ερευνητικού προβλήματος, των δύο ερευνητικών διαδρομών, της μεθοδολογίας και της συνεισφοράς. |
 | **Αναλυτική ερευνητική πρόταση** | [Άνοιγμα PDF](analytical-proposal.pdf) | Εκτενής μουσικολογική θεμελίωση, μαθηματικός σχεδιασμός, πρωτόκολλα αξιολόγησης, τεχνικά παραρτήματα και βιβλιογραφία. |
 
 Οι [θεματικές επεξηγήσεις](../docs/current/index.md) δίνουν επιπλέον πρόσβαση στην ATL, στην αντίστροφη ιστορική ανάκτηση και στον τελεστή Mθέσις. Τα [αναλυτικά κεφάλαια](../docs/full/index.md) προσφέρουν συνδεδεμένη ανάγνωση επιμέρους ενοτήτων.
 
-[Παρατήρηση στη σύντομη πρόταση](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A3%CF%8D%CE%BD%CF%84%CE%BF%CE%BC%CE%B7+%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AE+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocuments%2Fshort-proposal.pdf) · [Παρατήρηση στην αναλυτική πρόταση](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%91%CE%BD%CE%B1%CE%BB%CF%85%CF%84%CE%B9%CE%BA%CE%AE+%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AE+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocuments%2Fanalytical-proposal.pdf)
+[Παρατήρηση στη σύντομη πρόταση](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A3%CF%8D%CE%BD%CF%84%CE%BF%CE%BC%CE%B7+%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AE+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde%2Fdocuments%2Fshort-proposal.pdf) · [Παρατήρηση στην αναλυτική πρόταση](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%91%CE%BD%CE%B1%CE%BB%CF%85%CF%84%CE%B9%CE%BA%CE%AE+%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AE+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde%2Fdocuments%2Fanalytical-proposal.pdf)
+
+## Περιεχόμενα της σύντομης πρότασης
+
+Το τρέχον αρχείο είναι η νεότερη σύντομη πρόταση που υπέβαλε ο συγγραφέας στις 21 Οκτωβρίου 2026. Περιλαμβάνει **33 φυσικές σελίδες**, μαζί με το εξώφυλλο. Οι σύνδεσμοι παραπέμπουν στη φυσική σελίδα του PDF.
+
+| Ενότητα | Απευθείας ανάγνωση |
+|---|---|
+| Περίληψη και εισαγωγή | [Περίληψη](short-proposal.pdf#page=2) · [Εισαγωγή](short-proposal.pdf#page=3) · [Βασικοί όροι](short-proposal.pdf#page=5) |
+| Θεμελίωση και ερευνητικά ερωτήματα | [Βιβλιογραφική επισκόπηση](short-proposal.pdf#page=7) · [Ερευνητικό κενό](short-proposal.pdf#page=10) · [Ερωτήματα](short-proposal.pdf#page=11) · [Υποθέσεις και μεγέθη](short-proposal.pdf#page=12) |
+| Αρχιτεκτονική και υπολογιστικές μελέτες | [Δύο διαδρομές](short-proposal.pdf#page=13) · [ΠΕ0](short-proposal.pdf#page=15) · [Μ1](short-proposal.pdf#page=16) · [Μ2 και EISE](short-proposal.pdf#page=17) |
+| Μουσικολογική, γνωσιακή και εκτελεστική επικύρωση | [Μ3, Μ4 και Μ5](short-proposal.pdf#page=20) |
+| Ιστορικός μετασχηματισμός και πραγμάτωση | [Ιστορική διαδρομή](short-proposal.pdf#page=21) · [ATL και ATL-INV](short-proposal.pdf#page=22) · [Mθέσις](short-proposal.pdf#page=23) · [Αξιολόγηση](short-proposal.pdf#page=24) |
+| Δεδομένα και υλοποίηση | [Δεδομένα και πόροι](short-proposal.pdf#page=25) · [Ερευνητικός ρόλος και χρονοδιάγραμμα](short-proposal.pdf#page=26) |
+| Συνεισφορά και προοπτικές | [Κίνδυνοι και εναλλακτικές](short-proposal.pdf#page=27) · [Συνεισφορά](short-proposal.pdf#page=28) · [Μεταφορά σε άλλες παραδόσεις](short-proposal.pdf#page=30) · [Βιβλιογραφία](short-proposal.pdf#page=31) |
 
 ## Περιεχόμενα της αναλυτικής πρότασης
 
@@ -28,4 +42,4 @@
 
 ---
 
-[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%95%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AE+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocuments%2FREADME.md) · [Σημειωματάριο παρατηρήσεων](../docs/review/feedback.md)
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%95%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AE+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde%2Fdocuments%2FREADME.md) · [Σημειωματάριο παρατηρήσεων](../docs/review/feedback.md)

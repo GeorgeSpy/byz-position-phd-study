@@ -14,6 +14,10 @@
 
 Τα [συνδεδεμένα κεφάλαια και παραρτήματα](full/index.md) παρουσιάζουν προγενέστερο αναλυτικό κείμενο με [ορολογική επιμέλεια](../TERMINOLOGY_GR.md). Οι θεματικές επεξηγήσεις αξιοποιούν πρόσθετο μεθοδολογικό υλικό. Η ακριβής αντιστοίχιση των πηγών καταγράφεται στο [ιστορικό πηγών](maintenance/source-history.md), ώστε κάθε διατύπωση και κάθε πρωτόκολλο να συνδέεται με το αρχικό του κείμενο.
 
+## Βιογραφικό και ερευνητική πορεία
+
+Το [βιογραφικό](author/index.md) παρουσιάζει τη φυσική, τη μουσική και την υπολογιστική κατάρτιση του συγγραφέα. Η [προγενέστερη εργασία](author/prior-work.md) συνδέει τα δημόσια αποθετήρια ESPI και την ανάπτυξη του MESPI με τα συναφή μεθοδολογικά ερωτήματα της πρότασης.
+
 ## Βιβλιογραφία και μουσικά τεκμήρια
 
 Το [βιβλιογραφικό ευρετήριο](bibliography/index.md), η [βιβλιογραφία ανά θέμα](bibliography/by-topic.md) και η [βιβλιογραφία της μεθοδολογικής ανάπτυξης](bibliography/methodology.md) οργανώνουν την αναζήτηση πηγών με σταθερούς συνδέσμους. Η βιβλιογραφία κάθε PDF περιλαμβάνεται και στο ίδιο το κείμενο.
@@ -24,4 +28,4 @@
 
 ---
 
-[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%9A%CE%B5%CE%AF%CE%BC%CE%B5%CE%BD%CE%B1+%CE%BA%CE%B1%CE%B9+%CF%80%CE%B7%CE%B3%CE%AD%CF%82+%CF%84%CE%B7%CF%82+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Freference.md) · [Σημειωματάριο παρατηρήσεων](review/feedback.md)
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%9A%CE%B5%CE%AF%CE%BC%CE%B5%CE%BD%CE%B1+%CE%BA%CE%B1%CE%B9+%CF%80%CE%B7%CE%B3%CE%AD%CF%82+%CF%84%CE%B7%CF%82+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7%CF%82&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde%2Fdocs%2Freference.md) · [Σημειωματάριο παρατηρήσεων](review/feedback.md)

@@ -6,15 +6,22 @@
     {
       "role": "short_proposal",
       "path": "short-proposal.pdf",
-      "original_filename": "Protasi_Spyridakis_v8_76_Revised_30pp(1).pdf",
-      "library_file_id": "libfile_812201f91da08191a0e71c0e7a13edbb",
-      "uploaded_at": "2026-10-21T06:48:50.881086Z",
-      "bytes": 327761,
-      "base64_chars": 437016,
-      "sha256": "4d79f7755402fa99a9765054c26290f388686382c94a7c82e808b29fd156b7b3",
-      "git_sha": "cd79a0a6c92d5e04fb8034979c67466f593fda9f",
-      "pages": 30,
-      "title": "Σύντομη ερευνητική πρόταση"
+      "original_filename": "main_v881_REVISED.pdf",
+      "library_file_id": "libfile_ec9d9dcd2960819195f369f52e8c036f",
+      "uploaded_at": null,
+      "bytes": 362606,
+      "base64_chars": 483476,
+      "sha256": "ab88716e308be21080650aea0ebedf68d6f27977536d6b5daf2443366627b0ae",
+      "git_sha": "e90826dd1c811ed6e052614a44d9186a84bf18e4",
+      "pages": 33,
+      "title": "Σύντομη ερευνητική πρόταση",
+      "supersedes": {
+        "git_sha": "cd79a0a6c92d5e04fb8034979c67466f593fda9f",
+        "sha256": "4d79f7755402fa99a9765054c26290f388686382c94a7c82e808b29fd156b7b3",
+        "pages": 30,
+        "repository_ref": "f007b8341dadeab38f256a63ca806be34fa4cfc4"
+      },
+      "selected_on": "2026-10-21"
     },
     {
       "role": "analytical_proposal",
