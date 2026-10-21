@@ -13,11 +13,12 @@
       "base64_chars": 437016,
       "sha256": "4d79f7755402fa99a9765054c26290f388686382c94a7c82e808b29fd156b7b3",
       "git_sha": "cd79a0a6c92d5e04fb8034979c67466f593fda9f",
-      "pages": 30
+      "pages": 30,
+      "title": "Σύντομη ερευνητική πρόταση"
     },
     {
-      "role": "technical_manual",
-      "path": "technical-manual.pdf",
+      "role": "analytical_proposal",
+      "path": "analytical-proposal.pdf",
       "original_filename": "Erevnitiki_Protasi_Spyridakis_v8_71g_Dual_Track_CANDIDATE(1).pdf",
       "library_file_id": "libfile_59dd69212ecc8191b550b796e556e106",
       "uploaded_at": "2026-10-20T17:10:39.096506Z",
@@ -25,7 +26,11 @@
       "base64_chars": 1301312,
       "sha256": "fe8c9d165e5c1a07166dde0eecffd95848bc969171c39b6de5af085f4670f067",
       "git_sha": "f62aec0cfdcb3bf63a32fd3eb057c05a9e4202c5",
-      "pages": 150
+      "pages": 150,
+      "title": "Αναλυτική ερευνητική πρόταση",
+      "legacy_paths": [
+        "technical-manual.pdf"
+      ]
     }
   ]
 }
