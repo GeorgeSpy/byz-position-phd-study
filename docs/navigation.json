@@ -30,7 +30,8 @@
     "mespi_manuscript": "documents/prior-work/mespi-inverse-geometry.pdf",
     "short_proposal_en_pdf": "documents/short-proposal-en.pdf",
     "position_and_family": "docs/current/position-and-family.md",
-    "m_thesis_technical": "docs/current/m-thesis-technical.md"
+    "m_thesis_technical": "docs/current/m-thesis-technical.md",
+    "knowledge_contributions": "docs/review/knowledge-contributions.md"
   },
   "routes": [
     {
@@ -51,6 +52,7 @@
         "docs/current/index.md",
         "docs/current/position-and-family.md",
         "docs/examples/index.md",
+        "docs/review/knowledge-contributions.md",
         "docs/review/contribution-matrix.md",
         "docs/reference.md",
         "docs/roadmap.md"
@@ -61,6 +63,7 @@
       "label": "Συμβολική ανάκτηση μουσικής πληροφορίας και μηχανική μάθηση",
       "pages": [
         "docs/start/review-guide.md#mir-ml",
+        "docs/review/knowledge-contributions.md",
         "docs/current/position-and-family.md",
         "docs/research/symbolic-mir.md",
         "docs/research/machine-learning.md",
@@ -77,6 +80,7 @@
       "label": "Μουσικολογία και πηγές",
       "pages": [
         "docs/start/review-guide.md#musicology",
+        "docs/review/knowledge-contributions.md",
         "docs/current/position-and-family.md",
         "docs/musicology/index.md",
         "docs/musicology/06-old-notation.md",
@@ -496,5 +500,19 @@
     "historical_comparisons": "Two co-primary single-channel historical contrasts with Holm; second explanation assessed separately",
     "notation": "U × Φ for input units and feature sets; F for position family",
     "source_policy": "Selected PDF and archived LaTeX submissions retain their recorded content; reader clarifications are documented in docs/reference.md"
+  },
+  "contributions": {
+    "order": [
+      "C3",
+      "C1",
+      "C2α",
+      "C2β",
+      "C4"
+    ],
+    "musicological": "C3",
+    "cognitive": "C4",
+    "reader_note": "docs/maintenance/contributions-review-2026-10-23.md",
+    "knowledge_page": "docs/review/knowledge-contributions.md",
+    "date": "2026-10-23"
   }
 }
