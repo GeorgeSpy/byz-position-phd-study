@@ -28,7 +28,8 @@
     "prior_work": "docs/author/prior-work.md",
     "prior_work_manuscripts": "documents/prior-work/README.md",
     "mespi_manuscript": "documents/prior-work/mespi-inverse-geometry.pdf",
-    "short_proposal_en_pdf": "documents/short-proposal-en.pdf"
+    "short_proposal_en_pdf": "documents/short-proposal-en.pdf",
+    "position_and_family": "docs/current/position-and-family.md"
   },
   "routes": [
     {
@@ -38,6 +39,7 @@
         "documents/README.md",
         "docs/start/overview.md",
         "docs/current/index.md",
+        "docs/current/position-and-family.md",
         "docs/examples/index.md",
         "docs/review/contribution-matrix.md",
         "docs/reference.md",
@@ -49,6 +51,7 @@
       "label": "Συμβολική ανάκτηση μουσικής πληροφορίας και μηχανική μάθηση",
       "pages": [
         "docs/start/review-guide.md#mir-ml",
+        "docs/current/position-and-family.md",
         "docs/research/symbolic-mir.md",
         "docs/research/machine-learning.md",
         "docs/full/05-m1.md",
@@ -63,6 +66,7 @@
       "label": "Μουσικολογία και πηγές",
       "pages": [
         "docs/start/review-guide.md#musicology",
+        "docs/current/position-and-family.md",
         "docs/musicology/index.md",
         "docs/musicology/06-old-notation.md",
         "docs/examples/index.md",
