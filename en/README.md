@@ -20,7 +20,7 @@ A **melodic formula** (*thesis*, plural *theseis*) is the historically grounded 
 
 ## What is new
 
-The dissertation examines **how a melodic formula retains its identity through variation and what exegeses transmit from older notation**. It connects these musicological questions with formula recognition in complete works and learning from documented historical relationships.
+The proposed research project examines **how a melodic formula retains its identity through variation and what exegeses transmit from older notation**. It connects these musicological questions with formula recognition in complete works and learning from documented historical relationships.
 
 **For Byzantine musicology**
 
