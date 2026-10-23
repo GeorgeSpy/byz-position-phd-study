@@ -401,7 +401,7 @@
     ],
     "location_refs": {
       "NAVIGATION.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
-      "README.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "README.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
       "docs/author/index.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "docs/author/prior-work.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "docs/index.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
@@ -414,11 +414,14 @@
       "documents/prior-work/setn-calibrated-espi-supervision.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "documents/prior-work/setn-espi-attention-denoising.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "documents/prior-work/setn-espi-mode-classification.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
-      "docs/current/index.md": "b4cb69871ceddba1b630ba2df3d469a5a8a0dce5",
-      "docs/current/m-thesis.md": "b4cb69871ceddba1b630ba2df3d469a5a8a0dce5",
+      "docs/current/index.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
+      "docs/current/m-thesis.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
       "docs/musicology/03-families.md": "b4cb69871ceddba1b630ba2df3d469a5a8a0dce5",
-      "docs/start/overview.md": "b4cb69871ceddba1b630ba2df3d469a5a8a0dce5",
-      "docs/current/position-and-family.md": "b4cb69871ceddba1b630ba2df3d469a5a8a0dce5"
+      "docs/start/overview.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
+      "docs/current/position-and-family.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
+      "docs/current/atl.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
+      "docs/current/inverse-problem.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
+      "docs/review/contribution-matrix.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e"
     }
   },
   "terminology": {
