@@ -10,7 +10,7 @@
 
 **Ten minutes:** [What is new](#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md).
 
-**Selected reading documents:** the 38-page Greek short proposal and the 34-page English edition, selected on 23 October 2026. [Documents and protocols](docs/reference.md).
+**Selected reading documents:** the Greek short proposal and the 3 English edition, selected on 23 October 2026. [Documents and protocols](docs/reference.md).
 
 **[Short research proposal — English PDF](../documents/short-proposal-en.pdf)** · [Greek short proposal](../documents/short-proposal.pdf) · [Detailed research proposal — Greek PDF](../documents/analytical-proposal.pdf) · [PDF contents (Greek)](../documents/README.md)
 
