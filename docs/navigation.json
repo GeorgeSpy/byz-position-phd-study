@@ -416,16 +416,18 @@
       "TERMINOLOGY_GR.md",
       "docs/maintenance.md",
       "docs/current/m-thesis-technical.md",
-      "docs/maintenance/source-history.md"
+      "docs/maintenance/source-history.md",
+      "docs/review/knowledge-contributions.md",
+      "docs/maintenance/contributions-review-2026-10-23.md"
     ],
     "location_refs": {
       "NAVIGATION.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
-      "README.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "README.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
       "docs/author/index.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "docs/author/prior-work.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "docs/index.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
-      "docs/maintenance/source-history.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
-      "docs/reference.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/maintenance/source-history.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
+      "docs/reference.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
       "documents/README.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "documents/short-proposal.pdf": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
       "documents/prior-work/README.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
@@ -433,25 +435,33 @@
       "documents/prior-work/setn-calibrated-espi-supervision.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "documents/prior-work/setn-espi-attention-denoising.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "documents/prior-work/setn-espi-mode-classification.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
-      "docs/current/index.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
-      "docs/current/m-thesis.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/current/index.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
+      "docs/current/m-thesis.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
       "docs/musicology/03-families.md": "b4cb69871ceddba1b630ba2df3d469a5a8a0dce5",
-      "docs/start/overview.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/start/overview.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
       "docs/current/position-and-family.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
-      "docs/current/atl.md": "42a6d753893f7cba3ebf4d948b9324fcecf16620",
-      "docs/current/inverse-problem.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
-      "docs/review/contribution-matrix.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
+      "docs/current/atl.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
+      "docs/current/inverse-problem.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
+      "docs/review/contribution-matrix.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
       "TERMINOLOGY_GR.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
       "docs/maintenance.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
       "docs/full/05-m1.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
       "docs/roadmap.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
-      "docs/full/index.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/full/index.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
       "docs/examples/index.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
       "docs/start/reading-paths.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
       "docs/appendices/e.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
       "docs/appendices/b.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
       "docs/appendices/j.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
-      "docs/current/m-thesis-technical.md": "082d4dc02566b22ffef19c0d70ac561a33a39952"
+      "docs/current/m-thesis-technical.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/review/knowledge-contributions.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
+      "docs/full/10-contribution.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
+      "docs/full/01-introduction.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
+      "docs/research/positioning-source.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
+      "docs/full/06-eise.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
+      "docs/research/machine-learning.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
+      "docs/musicology/04-exegesis.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e",
+      "docs/maintenance/contributions-review-2026-10-23.md": "b884718b2f96c3560e62607a09a9fba3f6fd308e"
     }
   },
   "terminology": {
@@ -513,6 +523,7 @@
     "cognitive": "C4",
     "reader_note": "docs/maintenance/contributions-review-2026-10-23.md",
     "knowledge_page": "docs/review/knowledge-contributions.md",
-    "date": "2026-10-23"
+    "date": "2026-10-23",
+    "content_commit": "b884718b2f96c3560e62607a09a9fba3f6fd308e"
   }
 }

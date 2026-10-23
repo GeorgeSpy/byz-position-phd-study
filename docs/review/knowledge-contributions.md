@@ -90,3 +90,7 @@
 - Mavromatis: [υπολογιστική μοντελοποίηση της σύγχρονης ψαλτικής και εργογραφία του συγγραφέα](https://steinhardt.nyu.edu/people/panayotis-mavromatis).
 
 Η [καταγραφή του ελέγχου συνεισφορών](../maintenance/contributions-review-2026-10-23.md) διακρίνει τις επιβεβαιωμένες βιβλιογραφικές αφετηρίες από τις ειδικές αποδόσεις που χρειάζονται περαιτέρω αυτοψία.
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A%20%CE%A4%CE%B9%20%CE%B8%CE%B1%20%CE%BC%CE%AC%CE%B8%CE%BF%CF%85%CE%BC%CE%B5%20%CE%B1%CF%80%CF%8C%20%CF%84%CE%B7%20%CE%B4%CE%B9%CE%B1%CF%84%CF%81%CE%B9%CE%B2%CE%AE&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2Fb884718b2f96c3560e62607a09a9fba3f6fd308e%2Fdocs%2Freview%2Fknowledge-contributions.md) · [Σημειωματάριο παρατηρήσεων](feedback.md)

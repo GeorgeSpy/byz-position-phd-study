@@ -31,3 +31,7 @@
 ## Αντιστοίχιση προς τα PDF
 
 Η επόμενη ενιαία εκδοτική ενσωμάτωση αφορά τη §1.4, τη §8 και τον Πίνακα 12 της σύντομης πρότασης, με μουσικολογική C3 και γνωσιακή C4. Η αναθεώρηση του αναγνωστηρίου διατηρεί τα υφιστάμενα πειραματικά μεγέθη και τις οικογένειες ελέγχων.
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A%20%CE%88%CE%BB%CE%B5%CE%B3%CF%87%CE%BF%CF%82%20%CF%84%CE%B7%CF%82%20%CE%B4%CE%B9%CE%B1%CF%84%CF%8D%CF%80%CF%89%CF%83%CE%B7%CF%82%20%CF%83%CF%85%CE%BD%CE%B5%CE%B9%CF%83%CF%86%CE%BF%CF%81%CF%8E%CE%BD%20%E2%80%94%2023%2F10%2F2026&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2Fb884718b2f96c3560e62607a09a9fba3f6fd308e%2Fdocs%2Fmaintenance%2Fcontributions-review-2026-10-23.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

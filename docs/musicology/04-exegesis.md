@@ -26,4 +26,4 @@
 
 ---
 
-[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%95%CE%BE%CE%AE%CE%B3%CE%B7%CF%83%CE%B7+%CE%BA%CE%B1%CE%B9+%CE%B9%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%BA%CE%AE+%CE%BC%CE%B5%CF%84%CE%AC%CE%B4%CE%BF%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fmusicology%2F04-exegesis.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%95%CE%BE%CE%AE%CE%B3%CE%B7%CF%83%CE%B7+%CE%BA%CE%B1%CE%B9+%CE%B9%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%BA%CE%AE+%CE%BC%CE%B5%CF%84%CE%AC%CE%B4%CE%BF%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2Fb884718b2f96c3560e62607a09a9fba3f6fd308e%2Fdocs%2Fmusicology%2F04-exegesis.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)
