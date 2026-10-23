@@ -4,7 +4,7 @@
 
 [Βιογραφικό](docs/author/index.md) · [Προγενέστερη εργασία, MESPI και δημόσιος κώδικας](docs/author/prior-work.md) · [Paper SETN και MESPI](documents/prior-work/README.md)
 
-**[Σύντομη ερευνητική πρόταση](documents/short-proposal.pdf)** · **[Αναλυτική ερευνητική πρόταση](documents/analytical-proposal.pdf)** · [Περιεχόμενα και ανάγνωση](documents/README.md)
+**[Σύντομη ερευνητική πρόταση](documents/short-proposal.pdf)** · **[English version](documents/short-proposal-en.pdf)** · **[Αναλυτική ερευνητική πρόταση](documents/analytical-proposal.pdf)** · [Περιεχόμενα και ανάγνωση](documents/README.md)
 
 Πώς αναγνωρίζεται η ίδια μουσική θέση όταν η μελωδική μορφή της αλλάζει; Και πόση πληροφορία της παλαιότερης γραπτής παράδοσης παραμένει ανακτήσιμη από την αναλυτική εξήγηση; Η πρόταση ενώνει τη βυζαντινή μουσικολογία, τη συμβολική ανάκτηση μουσικής πληροφορίας (Music Information Retrieval, MIR) και τη μηχανική μάθηση γύρω από αυτά τα δύο ερωτήματα.
 

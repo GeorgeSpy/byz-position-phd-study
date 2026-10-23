@@ -1,27 +1,59 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-23",
   "selection_basis": "author instruction: latest uploaded document takes precedence over filename version",
   "documents": [
     {
       "role": "short_proposal",
       "path": "short-proposal.pdf",
-      "original_filename": "main_v881_REVISED.pdf",
-      "library_file_id": "libfile_ec9d9dcd2960819195f369f52e8c036f",
+      "original_filename": "Ερευνητρική_προταση_short.pdf",
+      "library_file_id": "libfile_219b716f2d948191a7142c1d01ba79a5",
       "uploaded_at": null,
-      "bytes": 362606,
-      "base64_chars": 483476,
-      "sha256": "ab88716e308be21080650aea0ebedf68d6f27977536d6b5daf2443366627b0ae",
-      "git_sha": "e90826dd1c811ed6e052614a44d9186a84bf18e4",
-      "pages": 33,
+      "bytes": 449498,
+      "base64_chars": 599332,
+      "sha256": "bb215054987d28468f2069658161a1ebee71d7486a89c1deb23bce66f963b11b",
+      "git_sha": "ae2c062b8e7fa5d249999349daac5bb911657435",
+      "pages": 38,
       "title": "Σύντομη ερευνητική πρόταση",
+      "language": "el",
+      "selected_on": "2026-10-23",
       "supersedes": {
-        "git_sha": "cd79a0a6c92d5e04fb8034979c67466f593fda9f",
-        "sha256": "4d79f7755402fa99a9765054c26290f388686382c94a7c82e808b29fd156b7b3",
-        "pages": 30,
-        "repository_ref": "f007b8341dadeab38f256a63ca806be34fa4cfc4"
-      },
-      "selected_on": "2026-10-21"
+        "role": "short_proposal",
+        "path": "short-proposal.pdf",
+        "original_filename": "main_v881_REVISED.pdf",
+        "library_file_id": "libfile_ec9d9dcd2960819195f369f52e8c036f",
+        "uploaded_at": null,
+        "bytes": 362606,
+        "base64_chars": 483476,
+        "sha256": "ab88716e308be21080650aea0ebedf68d6f27977536d6b5daf2443366627b0ae",
+        "git_sha": "e90826dd1c811ed6e052614a44d9186a84bf18e4",
+        "pages": 33,
+        "title": "Σύντομη ερευνητική πρόταση",
+        "supersedes": {
+          "git_sha": "cd79a0a6c92d5e04fb8034979c67466f593fda9f",
+          "sha256": "4d79f7755402fa99a9765054c26290f388686382c94a7c82e808b29fd156b7b3",
+          "pages": 30,
+          "repository_ref": "f007b8341dadeab38f256a63ca806be34fa4cfc4"
+        },
+        "selected_on": "2026-10-21",
+        "repository_ref": "a9133afe26cbea1c61ed6430e784f85302c216d5"
+      }
+    },
+    {
+      "role": "short_proposal_en",
+      "path": "short-proposal-en.pdf",
+      "original_filename": "Researc_Proposal_ENGLISH-3.pdf",
+      "library_file_id": "libfile_52f0e6cbeec48191bcabaebb7ae07782",
+      "uploaded_at": null,
+      "bytes": 441028,
+      "base64_chars": 588040,
+      "sha256": "f30202400691e975c9f52b0b132fbf178192119b31f9e89980d916282df6ac16",
+      "git_sha": "e03bdd57d31ba1d8c32da24a925d62c4917c837a",
+      "pages": 34,
+      "title": "Short research proposal — English version",
+      "language": "en",
+      "translation_of": "short-proposal.pdf",
+      "selected_on": "2026-10-23"
     },
     {
       "role": "analytical_proposal",
