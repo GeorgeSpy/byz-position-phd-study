@@ -16,7 +16,7 @@
 
 How can the same melodic formula be recognised when its melodic form changes? How much information from the older written tradition remains recoverable from an analytical exegesis? The proposal brings Byzantine musicology, symbolic music information retrieval (MIR) and machine learning together around these two questions.
 
-A **melodic formula** (*thesis*, plural *theseis*) is the historically grounded musical formation studied here. Its **family**, **occurrence** and **realisation** have distinct analytical roles. [Definitions](docs/current/position-and-family.md).
+A **melodic formula** (*thesis*) is the historically grounded musical formation studied here. Its **family**, **occurrence** and **realisation** have distinct analytical roles. [Definitions](docs/current/position-and-family.md).
 
 ## What is new
 
