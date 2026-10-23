@@ -396,7 +396,8 @@
       "docs/roadmap.md",
       "README.md",
       "NAVIGATION.md",
-      "documents/README.md"
+      "documents/README.md",
+      "docs/current/position-and-family.md"
     ],
     "location_refs": {
       "NAVIGATION.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
@@ -412,7 +413,12 @@
       "documents/prior-work/mespi-inverse-geometry.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "documents/prior-work/setn-calibrated-espi-supervision.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "documents/prior-work/setn-espi-attention-denoising.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
-      "documents/prior-work/setn-espi-mode-classification.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a"
+      "documents/prior-work/setn-espi-mode-classification.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "docs/current/index.md": "b4cb69871ceddba1b630ba2df3d469a5a8a0dce5",
+      "docs/current/m-thesis.md": "b4cb69871ceddba1b630ba2df3d469a5a8a0dce5",
+      "docs/musicology/03-families.md": "b4cb69871ceddba1b630ba2df3d469a5a8a0dce5",
+      "docs/start/overview.md": "b4cb69871ceddba1b630ba2df3d469a5a8a0dce5",
+      "docs/current/position-and-family.md": "b4cb69871ceddba1b630ba2df3d469a5a8a0dce5"
     }
   },
   "terminology": {
