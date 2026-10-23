@@ -47,3 +47,6 @@
 
 Οι στόχοι s001–s083 αποτυπώνουν τη βιβλιογραφία της μεθοδολογικής ανάπτυξης, ενώ οι b001–b135 τη βιβλιογραφία του προγενέστερου αναλυτικού κειμένου. Η αρίθμηση κάθε πηγής διατηρείται.
 
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A%20%CE%99%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%BA%CF%8C%20%CF%80%CE%B7%CE%B3%CF%8E%CE%BD%20%CE%BA%CE%B1%CE%B9%20%CE%B5%CE%BA%CE%B4%CE%BF%CF%84%CE%B9%CE%BA%CE%AE%20%CE%B1%CE%BD%CF%84%CE%B9%CF%83%CF%84%CE%BF%CE%AF%CF%87%CE%B9%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F082d4dc02566b22ffef19c0d70ac561a33a39952%2Fdocs%2Fmaintenance%2Fsource-history.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

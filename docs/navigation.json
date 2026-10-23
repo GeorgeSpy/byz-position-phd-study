@@ -408,16 +408,20 @@
       "README.md",
       "NAVIGATION.md",
       "documents/README.md",
-      "docs/current/position-and-family.md"
+      "docs/current/position-and-family.md",
+      "TERMINOLOGY_GR.md",
+      "docs/maintenance.md",
+      "docs/current/m-thesis-technical.md",
+      "docs/maintenance/source-history.md"
     ],
     "location_refs": {
-      "NAVIGATION.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
-      "README.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
+      "NAVIGATION.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "README.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
       "docs/author/index.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "docs/author/prior-work.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "docs/index.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
-      "docs/maintenance/source-history.md": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
-      "docs/reference.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
+      "docs/maintenance/source-history.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/reference.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
       "documents/README.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "documents/short-proposal.pdf": "080e5ba93b262c6fdcdbcdf58ed8ce5b18033bde",
       "documents/prior-work/README.md": "2a4982bfbc9453edc5923766692c5a74dc90709a",
@@ -425,14 +429,25 @@
       "documents/prior-work/setn-calibrated-espi-supervision.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "documents/prior-work/setn-espi-attention-denoising.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
       "documents/prior-work/setn-espi-mode-classification.pdf": "2a4982bfbc9453edc5923766692c5a74dc90709a",
-      "docs/current/index.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
-      "docs/current/m-thesis.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
+      "docs/current/index.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/current/m-thesis.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
       "docs/musicology/03-families.md": "b4cb69871ceddba1b630ba2df3d469a5a8a0dce5",
-      "docs/start/overview.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
-      "docs/current/position-and-family.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
+      "docs/start/overview.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/current/position-and-family.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
       "docs/current/atl.md": "42a6d753893f7cba3ebf4d948b9324fcecf16620",
-      "docs/current/inverse-problem.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
-      "docs/review/contribution-matrix.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e"
+      "docs/current/inverse-problem.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/review/contribution-matrix.md": "252f088de8098f67dd0bcadf10cb150c3851ce6e",
+      "TERMINOLOGY_GR.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/maintenance.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/full/05-m1.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/roadmap.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/full/index.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/examples/index.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/start/reading-paths.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/appendices/e.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/appendices/b.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/appendices/j.md": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+      "docs/current/m-thesis-technical.md": "082d4dc02566b22ffef19c0d70ac561a33a39952"
     }
   },
   "terminology": {
@@ -473,5 +488,13 @@
         "status": "full_research_manuscript"
       }
     }
+  },
+  "reader_revision": {
+    "date": "2026-10-23",
+    "content_commit": "082d4dc02566b22ffef19c0d70ac561a33a39952",
+    "technical_note": "docs/current/m-thesis-technical.md",
+    "historical_comparisons": "Two co-primary single-channel historical contrasts with Holm; second explanation assessed separately",
+    "notation": "U × Φ for input units and feature sets; F for position family",
+    "source_policy": "Selected PDF and archived LaTeX submissions retain their recorded content; reader clarifications are documented in docs/reference.md"
   }
 }

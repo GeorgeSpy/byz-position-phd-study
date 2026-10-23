@@ -121,3 +121,7 @@ p_\phi(X_G\mid h,M,Z)\,p(h\mid M,Z)}.
 ## Πηγές της ανάπτυξης
 
 Ο αρχικός σχεδιασμός της πιλοτικής πορείας και της νευρωνικής επέκτασης αντιστοιχίζεται στην [πηγή πιθανοτικής πραγμάτωσης](../../sources/proposal-v878-candidate.tex#L793). Οι πρόσθετοι ορισμοί της περικοπής, της προτίμησης και της εξομάλυνσης καταγράφονται στον [έλεγχο μαθηματικών προϋποθέσεων](../maintenance/position-family-review-2026-10-23.md). Η [αντιστοίχιση κειμένων και πρωτοκόλλων](../reference.md) συγκεντρώνει την εκδοτική προέλευση.
+
+---
+
+[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A%20M%CE%B8%CE%AD%CF%83%CE%B9%CF%82%3A%20%CF%84%CE%B5%CF%87%CE%BD%CE%B9%CE%BA%CE%AE%20%CF%83%CE%B7%CE%BC%CE%B5%CE%AF%CF%89%CF%83%CE%B7%20%CE%B3%CE%B9%CE%B1%20%CF%84%CE%B7%20%CE%B4%CE%B9%CE%AC%CF%83%CF%80%CE%B1%CF%83%CE%B7%20%CE%BA%CE%B1%CE%B9%20%CF%84%CE%B7%CE%BD%20%CE%B1%CE%BE%CE%B9%CE%BF%CE%BB%CF%8C%CE%B3%CE%B7%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F082d4dc02566b22ffef19c0d70ac561a33a39952%2Fdocs%2Fcurrent%2Fm-thesis-technical.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)
