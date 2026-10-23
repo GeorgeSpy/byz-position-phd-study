@@ -2,7 +2,7 @@
   "schema_version": 1,
   "content_basis": "Selected short and analytical research proposals, thematic methodology and an archived analytical reader with separate source records",
   "base_commit": "f007b8341dadeab38f256a63ca806be34fa4cfc4",
-  "verified_date": "2026-10-21",
+  "verified_date": "2026-10-23",
   "entrypoints": {
     "overview": "docs/start/overview.md",
     "navigation": "NAVIGATION.md",
@@ -29,9 +29,19 @@
     "prior_work_manuscripts": "documents/prior-work/README.md",
     "mespi_manuscript": "documents/prior-work/mespi-inverse-geometry.pdf",
     "short_proposal_en_pdf": "documents/short-proposal-en.pdf",
-    "position_and_family": "docs/current/position-and-family.md"
+    "position_and_family": "docs/current/position-and-family.md",
+    "m_thesis_technical": "docs/current/m-thesis-technical.md"
   },
   "routes": [
+    {
+      "id": "ten-minutes",
+      "label": "Δέκα λεπτά",
+      "pages": [
+        "README.md#τι-είναι-νέο",
+        "docs/current/position-and-family.md#ένα-σχηματικό-παράδειγμα",
+        "docs/current/inverse-problem.md"
+      ]
+    },
     {
       "id": "general",
       "label": "Συνολική κατανόηση",
@@ -57,6 +67,7 @@
         "docs/full/05-m1.md",
         "docs/full/06-eise.md",
         "docs/current/m-thesis.md",
+        "docs/current/m-thesis-technical.md",
         "docs/current/inverse-problem.md",
         "docs/appendices/g.md"
       ]
