@@ -1,5 +1,9 @@
 # Χάρτης περιήγησης στην πρόταση
 
+<!-- language-switch:start -->
+**Γλώσσα / Language:** **Ελληνικά** · [English](en/NAVIGATION.md)
+<!-- language-switch:end -->
+
 [Αρχική σελίδα](README.md) · [Σύνοψη](docs/start/overview.md) · [Θεματικές επεξηγήσεις](docs/current/index.md) · [Κείμενα και πηγές](docs/reference.md)
 
 **Δέκα λεπτά:** [Τι είναι νέο](README.md#τι-είναι-νέο) → [Θέση και οικογένεια](docs/current/position-and-family.md#ένα-σχηματικό-παράδειγμα) → [Το αντίστροφο πρόβλημα](docs/current/inverse-problem.md).

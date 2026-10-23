@@ -1,5 +1,9 @@
 # Σύνοψη της ερευνητικής πρότασης
 
+<!-- language-switch:start -->
+**Γλώσσα / Language:** **Ελληνικά** · [English](../../en/docs/start/overview.md)
+<!-- language-switch:end -->
+
 [Αρχική σελίδα](../../README.md) · [Μεθοδολογικός χάρτης](../current/index.md) · [Κείμενα και πηγές](../reference.md)
 
 ## Το μουσικό και υπολογιστικό πρόβλημα

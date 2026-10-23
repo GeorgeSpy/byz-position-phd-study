@@ -1,0 +1,108 @@
+{
+  "language": "en",
+  "home": "en/README.md",
+  "greek_home": "README.md",
+  "translation_status": "en/docs/translation-status.md",
+  "sections": [
+    {
+      "title": "Start",
+      "pages": [
+        "en/docs/start/overview.md",
+        "en/docs/start/reading-paths.md"
+      ]
+    },
+    {
+      "title": "Contribution",
+      "pages": [
+        "en/docs/review/knowledge-contributions.md",
+        "en/docs/review/contribution-matrix.md"
+      ]
+    },
+    {
+      "title": "Definitions and methods",
+      "pages": [
+        "en/docs/current/index.md",
+        "en/docs/current/position-and-family.md",
+        "en/docs/current/m-thesis.md",
+        "en/docs/current/m-thesis-technical.md",
+        "en/docs/current/atl.md",
+        "en/docs/current/inverse-problem.md"
+      ]
+    },
+    {
+      "title": "Examples, terminology and sources",
+      "pages": [
+        "en/docs/examples/index.md",
+        "en/TERMINOLOGY.md",
+        "en/docs/reference.md",
+        "en/docs/author/index.md"
+      ]
+    }
+  ],
+  "language_pairs": [
+    {
+      "el": "NAVIGATION.md",
+      "en": "en/NAVIGATION.md"
+    },
+    {
+      "el": "README.md",
+      "en": "en/README.md"
+    },
+    {
+      "el": "TERMINOLOGY_GR.md",
+      "en": "en/TERMINOLOGY.md"
+    },
+    {
+      "el": "docs/author/index.md",
+      "en": "en/docs/author/index.md"
+    },
+    {
+      "el": "docs/current/atl.md",
+      "en": "en/docs/current/atl.md"
+    },
+    {
+      "el": "docs/current/index.md",
+      "en": "en/docs/current/index.md"
+    },
+    {
+      "el": "docs/current/inverse-problem.md",
+      "en": "en/docs/current/inverse-problem.md"
+    },
+    {
+      "el": "docs/current/m-thesis-technical.md",
+      "en": "en/docs/current/m-thesis-technical.md"
+    },
+    {
+      "el": "docs/current/m-thesis.md",
+      "en": "en/docs/current/m-thesis.md"
+    },
+    {
+      "el": "docs/current/position-and-family.md",
+      "en": "en/docs/current/position-and-family.md"
+    },
+    {
+      "el": "docs/examples/index.md",
+      "en": "en/docs/examples/index.md"
+    },
+    {
+      "el": "docs/reference.md",
+      "en": "en/docs/reference.md"
+    },
+    {
+      "el": "docs/review/contribution-matrix.md",
+      "en": "en/docs/review/contribution-matrix.md"
+    },
+    {
+      "el": "docs/review/knowledge-contributions.md",
+      "en": "en/docs/review/knowledge-contributions.md"
+    },
+    {
+      "el": "docs/start/overview.md",
+      "en": "en/docs/start/overview.md"
+    },
+    {
+      "el": "docs/start/reading-paths.md",
+      "en": "en/docs/start/reading-paths.md"
+    }
+  ]
+}

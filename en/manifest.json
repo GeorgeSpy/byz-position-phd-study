@@ -1,0 +1,2624 @@
+{
+  "schema_version": 1,
+  "source_ref": "d34366b163346c93223880f175f6f431dcafeeff",
+  "source_date": "2026-10-23",
+  "description": "English reader translation register; source blob hashes exclude only the additive language-switch block.",
+  "shared_assets": "Primary scores, source images and existing PDFs stay in their original locations. The English short-proposal PDF is shared; the analytical PDF is Greek.",
+  "pages": [
+    {
+      "source": "CHANGELOG.md",
+      "source_blob_sha": "40fa6667f5b7eb42515a4814230b946bd276f9d9",
+      "target": "en/CHANGELOG.md",
+      "status": "pending"
+    },
+    {
+      "source": "NAVIGATION.md",
+      "source_blob_sha": "dce5e5321758ee701d2b04961b155665e0507b5a",
+      "target": "en/NAVIGATION.md",
+      "status": "translated"
+    },
+    {
+      "source": "README.md",
+      "source_blob_sha": "f1d161ca61057f9ff34884c5896a80397fb13a1b",
+      "target": "en/README.md",
+      "status": "translated"
+    },
+    {
+      "source": "SETUP_GITHUB.md",
+      "source_blob_sha": "448edb0b85bc6523b4c3fb0b6950ac742726d702",
+      "target": "en/SETUP_GITHUB.md",
+      "status": "pending"
+    },
+    {
+      "source": "SOURCES.md",
+      "source_blob_sha": "cd08be782cffbffb555a53d2ef9ab8f01ed16a0c",
+      "target": "en/SOURCES.md",
+      "status": "pending"
+    },
+    {
+      "source": "TERMINOLOGY_GR.md",
+      "source_blob_sha": "b99edfeb810eb68c2d8c6be70fcb1fded2b21f8b",
+      "target": "en/TERMINOLOGY.md",
+      "status": "translated"
+    },
+    {
+      "source": "book/README.md",
+      "source_blob_sha": "7d8c6a60420264c348776e362dabbaefcb89a302",
+      "target": "en/book/README.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/appendices/a.md",
+      "source_blob_sha": "31aa2da8109acf775900195c296161902ff9b18c",
+      "target": "en/docs/appendices/a.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/appendices/b.md",
+      "source_blob_sha": "ede61f9df48d9f9bd7d63432d6956314cbd6a5a3",
+      "target": "en/docs/appendices/b.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/appendices/c.md",
+      "source_blob_sha": "716acb5dcf9979d31964a5d7fa5a5384afe574e7",
+      "target": "en/docs/appendices/c.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/appendices/d.md",
+      "source_blob_sha": "e2eb59f8bab0d90eefd803a8da6044b5eef729c0",
+      "target": "en/docs/appendices/d.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/appendices/e.md",
+      "source_blob_sha": "0cdbb291a0c9e28bf7cda6f10872a7b915085d35",
+      "target": "en/docs/appendices/e.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/appendices/f.md",
+      "source_blob_sha": "39068fb9a3b639bdb23b1c170e66c71c6d7bdca8",
+      "target": "en/docs/appendices/f.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/appendices/g.md",
+      "source_blob_sha": "5be98e4072d533a47eb2c8a8901fe0c2d2278a6c",
+      "target": "en/docs/appendices/g.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/appendices/h.md",
+      "source_blob_sha": "73d6afa36c5c337b4dd291cbfe7fa19445f163c1",
+      "target": "en/docs/appendices/h.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/appendices/i.md",
+      "source_blob_sha": "cd78f2d347991902a954f3984577bdd4e6d206ed",
+      "target": "en/docs/appendices/i.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/appendices/j.md",
+      "source_blob_sha": "f2ac85f885a6b9b9c9267581f86a32805f648c9c",
+      "target": "en/docs/appendices/j.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/author/index.md",
+      "source_blob_sha": "ce3968784f34023e0563064858669f658759f05e",
+      "target": "en/docs/author/index.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/author/prior-work.md",
+      "source_blob_sha": "63b0e1912b20175e75dcab3da6d1eab687c66f04",
+      "target": "en/docs/author/prior-work.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/by-topic.md",
+      "source_blob_sha": "1c9af00ff7af0f86d54a6b5e4695a18a052ebd1f",
+      "target": "en/docs/bibliography/by-topic.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/current-v878.md",
+      "source_blob_sha": "27fe329332103bc7d9664635ea3e49234945d2e9",
+      "target": "en/docs/bibliography/current-v878.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b001.md",
+      "source_blob_sha": "1fd24be67973ee029cbf12b2f4e73e2850fe0b98",
+      "target": "en/docs/bibliography/entries/b001.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b002.md",
+      "source_blob_sha": "e789346600bc94d3ed5312a9bdf25b01beb13a29",
+      "target": "en/docs/bibliography/entries/b002.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b003.md",
+      "source_blob_sha": "64d378dc28d6b0cb110bb29b8b52f570aa7f8c62",
+      "target": "en/docs/bibliography/entries/b003.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b004.md",
+      "source_blob_sha": "a74c9e133713d238e2fc8fbd57fd5e2c3bcca37d",
+      "target": "en/docs/bibliography/entries/b004.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b005.md",
+      "source_blob_sha": "adf47ecee043595cd0ff0e5af9686ad8ad7c8415",
+      "target": "en/docs/bibliography/entries/b005.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b006.md",
+      "source_blob_sha": "085eef4160a18d3d34805e101aa3bffd07bbc47b",
+      "target": "en/docs/bibliography/entries/b006.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b007.md",
+      "source_blob_sha": "511664a5ca74f525027dd61400148d036159f557",
+      "target": "en/docs/bibliography/entries/b007.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b008.md",
+      "source_blob_sha": "8aee253246aef8de8deb441b1ddf3b4c8a69aaea",
+      "target": "en/docs/bibliography/entries/b008.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b009.md",
+      "source_blob_sha": "a4770f0a836f23a1d065350672113230714a017d",
+      "target": "en/docs/bibliography/entries/b009.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b010.md",
+      "source_blob_sha": "bb0c9fd14bec67da3149bfe1ef4e789c8e1c0752",
+      "target": "en/docs/bibliography/entries/b010.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b011.md",
+      "source_blob_sha": "7f4cd77fe4f2909b8c81abf7b36ce8b24deb8b35",
+      "target": "en/docs/bibliography/entries/b011.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b012.md",
+      "source_blob_sha": "a8aa99399db5b3ea8b568de3a60defc74c07fd49",
+      "target": "en/docs/bibliography/entries/b012.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b013.md",
+      "source_blob_sha": "d53b69e8f348dc3075c863418d69f78ffa351c4e",
+      "target": "en/docs/bibliography/entries/b013.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b014.md",
+      "source_blob_sha": "19af43e273f072077dcfd28530a7afb913b0dcbf",
+      "target": "en/docs/bibliography/entries/b014.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b015.md",
+      "source_blob_sha": "b4cb4d398448c79ec9887f5537e2fbef9f88c854",
+      "target": "en/docs/bibliography/entries/b015.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b016.md",
+      "source_blob_sha": "c7b34b2ed7bb38830ef11b5faf71ae824e10c152",
+      "target": "en/docs/bibliography/entries/b016.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b017.md",
+      "source_blob_sha": "045a5272e4b8ad0671084562e08c13cd67dace82",
+      "target": "en/docs/bibliography/entries/b017.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b018.md",
+      "source_blob_sha": "0f62c5877c96d903bdd5434a76908c093a84a044",
+      "target": "en/docs/bibliography/entries/b018.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b019.md",
+      "source_blob_sha": "3a76ef80ac832f727bd892904abcc3a03ac2781e",
+      "target": "en/docs/bibliography/entries/b019.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b020.md",
+      "source_blob_sha": "33151ec2452a70d8f51424065dc895180b51b926",
+      "target": "en/docs/bibliography/entries/b020.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b021.md",
+      "source_blob_sha": "22a9952ddcfebdb7c6aeddd5c81ef435556d9612",
+      "target": "en/docs/bibliography/entries/b021.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b022.md",
+      "source_blob_sha": "0621fa9d9cd2a8ea4a57d79e03a54250fc8a0ada",
+      "target": "en/docs/bibliography/entries/b022.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b023.md",
+      "source_blob_sha": "2b7b103192e031a577583bcce329a629e8afbc59",
+      "target": "en/docs/bibliography/entries/b023.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b024.md",
+      "source_blob_sha": "8209619d78ea7d11eb299d075d40438ab7804d01",
+      "target": "en/docs/bibliography/entries/b024.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b025.md",
+      "source_blob_sha": "efbd24598c407039e63966939eefff46294ec018",
+      "target": "en/docs/bibliography/entries/b025.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b026.md",
+      "source_blob_sha": "b75318eb6ed47a7826b23a14382dc30088c1001e",
+      "target": "en/docs/bibliography/entries/b026.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b027.md",
+      "source_blob_sha": "e4270947a3c5151b57d5a52d8f7fcf7e4d50141d",
+      "target": "en/docs/bibliography/entries/b027.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b028.md",
+      "source_blob_sha": "2ec4438fd53b6e2e7ada58bcdf59ee72207ae6aa",
+      "target": "en/docs/bibliography/entries/b028.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b029.md",
+      "source_blob_sha": "19af4d78680eab08cb5c8cadef6b66b60084b026",
+      "target": "en/docs/bibliography/entries/b029.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b030.md",
+      "source_blob_sha": "7135950dadc85f32aaf7cccfcaf51f54b2ff0035",
+      "target": "en/docs/bibliography/entries/b030.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b031.md",
+      "source_blob_sha": "dcfab740f486b51c242c8c9187e57614e13dedc8",
+      "target": "en/docs/bibliography/entries/b031.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b032.md",
+      "source_blob_sha": "a41d2514b9c6a9c4e6bc9177ce23b414ac257045",
+      "target": "en/docs/bibliography/entries/b032.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b033.md",
+      "source_blob_sha": "1d2506f3ff1920278371698a5676eda7ff202cfa",
+      "target": "en/docs/bibliography/entries/b033.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b034.md",
+      "source_blob_sha": "e63ac9258257da7d475e9f3b7ad29d0e94ee8823",
+      "target": "en/docs/bibliography/entries/b034.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b035.md",
+      "source_blob_sha": "b0a69cb726f660e190fbd7647b5d9c4e96effe82",
+      "target": "en/docs/bibliography/entries/b035.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b036.md",
+      "source_blob_sha": "84a61d21969dfbdc02410b962b557fc65db99653",
+      "target": "en/docs/bibliography/entries/b036.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b037.md",
+      "source_blob_sha": "c19edf8eeff3eaa4794940aefd0aecc56514f1ac",
+      "target": "en/docs/bibliography/entries/b037.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b038.md",
+      "source_blob_sha": "5d5491012df6a20e7a420bdefb61dc6d6a9270d9",
+      "target": "en/docs/bibliography/entries/b038.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b039.md",
+      "source_blob_sha": "472acc4bc8bee12ccb068fd94e580b8b5bb3d43d",
+      "target": "en/docs/bibliography/entries/b039.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b040.md",
+      "source_blob_sha": "9969b50906a95f6afc3640f29c51757af0a84e68",
+      "target": "en/docs/bibliography/entries/b040.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b041.md",
+      "source_blob_sha": "7cef2c08d45b5ef6f3ac67503e3ac6bd22d6646f",
+      "target": "en/docs/bibliography/entries/b041.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b042.md",
+      "source_blob_sha": "ff8cc3a0b078c622368258d28b6c4f7fef529e3f",
+      "target": "en/docs/bibliography/entries/b042.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b043.md",
+      "source_blob_sha": "01ebce77e8462a2b434d21e01fa56ac6bd32f3ab",
+      "target": "en/docs/bibliography/entries/b043.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b044.md",
+      "source_blob_sha": "feb0ce511b9d8567ef91ec86e968d6c94e89fb35",
+      "target": "en/docs/bibliography/entries/b044.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b045.md",
+      "source_blob_sha": "8e8ca89aa0c4588f19f704231e58a5630e1aae34",
+      "target": "en/docs/bibliography/entries/b045.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b046.md",
+      "source_blob_sha": "85bd4089d35d7163198c99ed6a194eec66e6ae5a",
+      "target": "en/docs/bibliography/entries/b046.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b047.md",
+      "source_blob_sha": "b80da36a9a6bf9b813d860a68fe0bb9419430b34",
+      "target": "en/docs/bibliography/entries/b047.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b048.md",
+      "source_blob_sha": "1e444b57e915b4df4c57679e48011956661d6d85",
+      "target": "en/docs/bibliography/entries/b048.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b049.md",
+      "source_blob_sha": "c5e4fc33cd3e3bfc70582fab966c81fcb20d6ff4",
+      "target": "en/docs/bibliography/entries/b049.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b050.md",
+      "source_blob_sha": "4db3be5c2afdc10bd23f13ed5536c2583612aba6",
+      "target": "en/docs/bibliography/entries/b050.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b051.md",
+      "source_blob_sha": "81c0e326b8960fc07dfb571fae9a30da8e774a6d",
+      "target": "en/docs/bibliography/entries/b051.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b052.md",
+      "source_blob_sha": "1bc774763e598b4eb32a37f14d9adec73ad9dea6",
+      "target": "en/docs/bibliography/entries/b052.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b053.md",
+      "source_blob_sha": "7ff1017abeba4f196d4cb86df82d7d7dc471261a",
+      "target": "en/docs/bibliography/entries/b053.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b054.md",
+      "source_blob_sha": "31366f430628c45a595c3a786fa785462331c6d2",
+      "target": "en/docs/bibliography/entries/b054.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b055.md",
+      "source_blob_sha": "dcc03ad515c77114618fb4e9e4e90f9f8337fa45",
+      "target": "en/docs/bibliography/entries/b055.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b056.md",
+      "source_blob_sha": "dfe7899cd86a262f259772831a0d34c8a43b9b76",
+      "target": "en/docs/bibliography/entries/b056.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b057.md",
+      "source_blob_sha": "7a88aac46a0324783c3fb31caa9d06ebec57b13a",
+      "target": "en/docs/bibliography/entries/b057.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b058.md",
+      "source_blob_sha": "6948b864615c8e65839f4f03f46338cf76992336",
+      "target": "en/docs/bibliography/entries/b058.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b059.md",
+      "source_blob_sha": "d9b223377799a9267a2c0fcc63b9877678c759ae",
+      "target": "en/docs/bibliography/entries/b059.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b060.md",
+      "source_blob_sha": "94a5c1e4e0b41b571e3ccfc3c6b8a49afd71aa6a",
+      "target": "en/docs/bibliography/entries/b060.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b061.md",
+      "source_blob_sha": "d3462302c3be75efa6192f6fa2c679497e33e3a9",
+      "target": "en/docs/bibliography/entries/b061.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b062.md",
+      "source_blob_sha": "2202d6170343408bd81f15d891ad100838f5d1a7",
+      "target": "en/docs/bibliography/entries/b062.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b063.md",
+      "source_blob_sha": "552115f43e9d732482fada0599fbf78409c09200",
+      "target": "en/docs/bibliography/entries/b063.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b064.md",
+      "source_blob_sha": "ddedbc9726bcbe508f25870a0eaf3aa501e9ec4f",
+      "target": "en/docs/bibliography/entries/b064.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b065.md",
+      "source_blob_sha": "4504231341b7bc3b7662db625f407413c6334af3",
+      "target": "en/docs/bibliography/entries/b065.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b066.md",
+      "source_blob_sha": "390fa299f5e9beac6946687892bd4a7bfd6217f2",
+      "target": "en/docs/bibliography/entries/b066.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b067.md",
+      "source_blob_sha": "ef235bf8588814a904a2879b6b160d80d76fb614",
+      "target": "en/docs/bibliography/entries/b067.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b068.md",
+      "source_blob_sha": "5048092aa469c8c289d7b7cfde3693aae215d541",
+      "target": "en/docs/bibliography/entries/b068.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b069.md",
+      "source_blob_sha": "11b370165164c90dc030b1075dd580eccc6eab47",
+      "target": "en/docs/bibliography/entries/b069.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b070.md",
+      "source_blob_sha": "0ac0706c029d9251205bc936dd4f09d934462ed1",
+      "target": "en/docs/bibliography/entries/b070.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b071.md",
+      "source_blob_sha": "d4657c0ece3032aa4d6726c35faf7c2372af9ae0",
+      "target": "en/docs/bibliography/entries/b071.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b072.md",
+      "source_blob_sha": "616991eef532925d754174c8b04c7e64e123acae",
+      "target": "en/docs/bibliography/entries/b072.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b073.md",
+      "source_blob_sha": "3950d607897a9807aec19c6a4318c98bbbeb604e",
+      "target": "en/docs/bibliography/entries/b073.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b074.md",
+      "source_blob_sha": "5cb86b58d3029aec51dc06cca82ac7353adb066a",
+      "target": "en/docs/bibliography/entries/b074.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b075.md",
+      "source_blob_sha": "6a37b113b632e6b6da78b9dfbac58db979044f0e",
+      "target": "en/docs/bibliography/entries/b075.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b076.md",
+      "source_blob_sha": "209fcb13eb87e9624ace95694698750f44424b94",
+      "target": "en/docs/bibliography/entries/b076.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b077.md",
+      "source_blob_sha": "dd79996dd07d517306766864a60a4ec95888511e",
+      "target": "en/docs/bibliography/entries/b077.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b078.md",
+      "source_blob_sha": "89ad24e83a1a863ddca6a33234a43fa044c3327b",
+      "target": "en/docs/bibliography/entries/b078.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b079.md",
+      "source_blob_sha": "c22ad6ceba6f550a3950d5c4a72dfd18b829c0db",
+      "target": "en/docs/bibliography/entries/b079.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b080.md",
+      "source_blob_sha": "5a764ff1f1665c13ac01fdb0c410c739b7d85c8b",
+      "target": "en/docs/bibliography/entries/b080.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b081.md",
+      "source_blob_sha": "b570d1cc28afd9d7bccd14f3afbbce899e278090",
+      "target": "en/docs/bibliography/entries/b081.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b082.md",
+      "source_blob_sha": "c85c9eb4688107568ee41452beb07eba37433cc9",
+      "target": "en/docs/bibliography/entries/b082.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b083.md",
+      "source_blob_sha": "10d595339b0b5da05dec06122a7d1be125d44579",
+      "target": "en/docs/bibliography/entries/b083.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b084.md",
+      "source_blob_sha": "be30f516f2649e0821ee1ead292a3a327261b654",
+      "target": "en/docs/bibliography/entries/b084.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b085.md",
+      "source_blob_sha": "35481da6fc49893865e80a9897db74929689e040",
+      "target": "en/docs/bibliography/entries/b085.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b086.md",
+      "source_blob_sha": "1b97265fe8836b929d65af628f4fd61f1f85c379",
+      "target": "en/docs/bibliography/entries/b086.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b087.md",
+      "source_blob_sha": "915592f0c9ebace97da06b6caddeaf7f748594bb",
+      "target": "en/docs/bibliography/entries/b087.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b088.md",
+      "source_blob_sha": "76e23ccacea50b5d81ee1c5ccb677da282fa0b7b",
+      "target": "en/docs/bibliography/entries/b088.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b089.md",
+      "source_blob_sha": "060d8bbbb6fea88fcc1d7fd597a399e376e5ee67",
+      "target": "en/docs/bibliography/entries/b089.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b090.md",
+      "source_blob_sha": "a37f75634c4d860338ada70ab4a0d74a298d3b81",
+      "target": "en/docs/bibliography/entries/b090.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b091.md",
+      "source_blob_sha": "b12428381727743c936c458dbb0dcf4f5ec56804",
+      "target": "en/docs/bibliography/entries/b091.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b092.md",
+      "source_blob_sha": "0ad6910f71cdab76ec3c491c6396e8a8812ecda8",
+      "target": "en/docs/bibliography/entries/b092.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b093.md",
+      "source_blob_sha": "eaf434febb3eb7e014e3c277fdf5e17829609aab",
+      "target": "en/docs/bibliography/entries/b093.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b094.md",
+      "source_blob_sha": "f40867d7bfa51511e1b246f9d8a41f6356826201",
+      "target": "en/docs/bibliography/entries/b094.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b095.md",
+      "source_blob_sha": "dfd5fc6b3a0cc597599f65abac33ebe237623202",
+      "target": "en/docs/bibliography/entries/b095.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b096.md",
+      "source_blob_sha": "ca34c7789819cc66fb20eff786dda4cacf4b38b6",
+      "target": "en/docs/bibliography/entries/b096.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b097.md",
+      "source_blob_sha": "0d979bb686e0c6277d8aac3cbfc273d52f62674d",
+      "target": "en/docs/bibliography/entries/b097.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b098.md",
+      "source_blob_sha": "272e36dac8720a041a612dc72b6f741352070e30",
+      "target": "en/docs/bibliography/entries/b098.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b099.md",
+      "source_blob_sha": "169da47ebd59abb19f4594fbcefc5481a96065e9",
+      "target": "en/docs/bibliography/entries/b099.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b100.md",
+      "source_blob_sha": "881cd7a11fd115566c7a8bafbb4cbbf752ffff2a",
+      "target": "en/docs/bibliography/entries/b100.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b101.md",
+      "source_blob_sha": "d0f80782e7e5f72af774149abd5264b2476279b6",
+      "target": "en/docs/bibliography/entries/b101.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b102.md",
+      "source_blob_sha": "26b0d2e6808b07203fc62903c32a06bf00a60a92",
+      "target": "en/docs/bibliography/entries/b102.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b103.md",
+      "source_blob_sha": "20993328ab88d223e73cf892a1b6892ad1d0e05f",
+      "target": "en/docs/bibliography/entries/b103.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b104.md",
+      "source_blob_sha": "293704061f29f5f759e1167fde5e89bafecfbee0",
+      "target": "en/docs/bibliography/entries/b104.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b105.md",
+      "source_blob_sha": "4f5384b8fd84b494882a82fdf1df37508ca02cec",
+      "target": "en/docs/bibliography/entries/b105.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b106.md",
+      "source_blob_sha": "c8b27dad261970d6b50871bed903bdfb3a93c1e6",
+      "target": "en/docs/bibliography/entries/b106.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b107.md",
+      "source_blob_sha": "59809f83eedb44b4bf3077f571cb42e762a08dd4",
+      "target": "en/docs/bibliography/entries/b107.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b108.md",
+      "source_blob_sha": "7b778157880a07835b533233948f17f42412c471",
+      "target": "en/docs/bibliography/entries/b108.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b109.md",
+      "source_blob_sha": "ad3372f5275c065d3d9bf1927abc38965c287e7f",
+      "target": "en/docs/bibliography/entries/b109.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b110.md",
+      "source_blob_sha": "e04cecc10a54065ad755d9695a9100cac926cd7e",
+      "target": "en/docs/bibliography/entries/b110.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b111.md",
+      "source_blob_sha": "7c71b1f643b55f1ac46adfc2bf15ca65fb08c4ed",
+      "target": "en/docs/bibliography/entries/b111.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b112.md",
+      "source_blob_sha": "6b64380f1ce5beba59daf5480ec721929063cef2",
+      "target": "en/docs/bibliography/entries/b112.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b113.md",
+      "source_blob_sha": "1326329d6cd6aae46df097975b37e5b30339f586",
+      "target": "en/docs/bibliography/entries/b113.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b114.md",
+      "source_blob_sha": "2472ea78269981345c5fcc67cb5421263f03dac7",
+      "target": "en/docs/bibliography/entries/b114.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b115.md",
+      "source_blob_sha": "9096247638352121215505d0e8b1b1f3347b7083",
+      "target": "en/docs/bibliography/entries/b115.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b116.md",
+      "source_blob_sha": "8618abf4d093e7ee133e709e55b9581b6267affb",
+      "target": "en/docs/bibliography/entries/b116.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b117.md",
+      "source_blob_sha": "c34b0e49341e22a4755e9c59afc1691770651581",
+      "target": "en/docs/bibliography/entries/b117.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b118.md",
+      "source_blob_sha": "6ae76b1026b6f82322840bbfab1fa77355a2366b",
+      "target": "en/docs/bibliography/entries/b118.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b119.md",
+      "source_blob_sha": "85967cbbc7761ee108b4b414ee8dd05a3590585d",
+      "target": "en/docs/bibliography/entries/b119.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b120.md",
+      "source_blob_sha": "4bf92d9cc08373ea1206592e88723b7cab991256",
+      "target": "en/docs/bibliography/entries/b120.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b121.md",
+      "source_blob_sha": "e30b4ce1785f72309bf45b769b3a933df67bc282",
+      "target": "en/docs/bibliography/entries/b121.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b122.md",
+      "source_blob_sha": "a3cf7af48e2f39aaa7095a759c942db4678cf374",
+      "target": "en/docs/bibliography/entries/b122.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b123.md",
+      "source_blob_sha": "3419df34edd87b113f234bf095443c63f84b9bd1",
+      "target": "en/docs/bibliography/entries/b123.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b124.md",
+      "source_blob_sha": "4d023bea73648b9e305c604fc54651b58de95199",
+      "target": "en/docs/bibliography/entries/b124.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b125.md",
+      "source_blob_sha": "4b0727ba68ee00552f72e437ba81ef9c1e60a4da",
+      "target": "en/docs/bibliography/entries/b125.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b126.md",
+      "source_blob_sha": "bd1bb7dd65ef6d83ae0a557de7b59cdc9968d151",
+      "target": "en/docs/bibliography/entries/b126.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b127.md",
+      "source_blob_sha": "957bf18f4e91ea0c695c0d7b5bec9e11c51a8e62",
+      "target": "en/docs/bibliography/entries/b127.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b128.md",
+      "source_blob_sha": "45380aded90767e68db5781aef5360176ff26498",
+      "target": "en/docs/bibliography/entries/b128.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b129.md",
+      "source_blob_sha": "612d49d701b0476cd153d144d0a75b9008e2c5bb",
+      "target": "en/docs/bibliography/entries/b129.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b130.md",
+      "source_blob_sha": "d64c0dc4d938a4b14fbbe61550512cbe48385ee9",
+      "target": "en/docs/bibliography/entries/b130.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b131.md",
+      "source_blob_sha": "1ed34f5ab6f491a03d986afadd6c31c849451722",
+      "target": "en/docs/bibliography/entries/b131.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b132.md",
+      "source_blob_sha": "0b54656778a2daa0b550ddd2c68816e3b1538924",
+      "target": "en/docs/bibliography/entries/b132.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b133.md",
+      "source_blob_sha": "1b33c64103fbcf8c41e5e133380627a0daed3b65",
+      "target": "en/docs/bibliography/entries/b133.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b134.md",
+      "source_blob_sha": "e3ea249d1e523ad25e3fbd0e2ae026e5caf4ad02",
+      "target": "en/docs/bibliography/entries/b134.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/entries/b135.md",
+      "source_blob_sha": "a638f463ba7b08ae7ef9436cfd9f1fa7c811d4eb",
+      "target": "en/docs/bibliography/entries/b135.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/index.md",
+      "source_blob_sha": "ef7f0e466316fb8095e1cc2779fd4e77ecbf2a1f",
+      "target": "en/docs/bibliography/index.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/methodology.md",
+      "source_blob_sha": "24460bf26a70e1016fc985c3ae678498e8b9fd88",
+      "target": "en/docs/bibliography/methodology.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/source-list.md",
+      "source_blob_sha": "a097ad90d95ef1496d0ebdedaedc809802c14e26",
+      "target": "en/docs/bibliography/source-list.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/bibliography/supplementary.md",
+      "source_blob_sha": "6628dd4f111eb87f76eca140b08154f7e9545670",
+      "target": "en/docs/bibliography/supplementary.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/current/atl.md",
+      "source_blob_sha": "3fa41895cbf3a2d23896f58e2a9e849f64d3f999",
+      "target": "en/docs/current/atl.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/current/index.md",
+      "source_blob_sha": "859c2997b04175ad8b012f7acb1aaa46d95dde94",
+      "target": "en/docs/current/index.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/current/inverse-problem.md",
+      "source_blob_sha": "ce7fd82fa282bd8512fd7571fb62f22b93ab43eb",
+      "target": "en/docs/current/inverse-problem.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/current/m-thesis-technical.md",
+      "source_blob_sha": "9a714ce00cf12d004bd0a1b7e35d9ca8a6ae1d89",
+      "target": "en/docs/current/m-thesis-technical.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/current/m-thesis.md",
+      "source_blob_sha": "5ec395f79942b0edba974a70172b8200aca41f6f",
+      "target": "en/docs/current/m-thesis.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/current/position-and-family.md",
+      "source_blob_sha": "e75ab30ca96fddcab56a5243fe023279bbaa6edd",
+      "target": "en/docs/current/position-and-family.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/examples/index.md",
+      "source_blob_sha": "fc87c7985d52ff26a3c38b0d358ddd78cefcf90f",
+      "target": "en/docs/examples/index.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/full/00-abstract.md",
+      "source_blob_sha": "f3c80272e77d56038b3aca10555f959acb8d286a",
+      "target": "en/docs/full/00-abstract.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/full/01-introduction.md",
+      "source_blob_sha": "205b21c507a6ac741b18065dcfbd9538cebe8fb3",
+      "target": "en/docs/full/01-introduction.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/full/02-literature.md",
+      "source_blob_sha": "183c8ff68a60232f36b533c7d96cc3757f590311",
+      "target": "en/docs/full/02-literature.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/full/03-questions.md",
+      "source_blob_sha": "633a9584c20e0498b8978aebe01ae07e7d28ef7b",
+      "target": "en/docs/full/03-questions.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/full/04-architecture.md",
+      "source_blob_sha": "66988c424a4808cc7b1fa7641b4ce9dede4e9dbb",
+      "target": "en/docs/full/04-architecture.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/full/05-m1.md",
+      "source_blob_sha": "b1998aad86635b01abc7b6032cc3df658a955f68",
+      "target": "en/docs/full/05-m1.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/full/06-eise.md",
+      "source_blob_sha": "a86037880a02cd7da765b9582cf6eab1a71bc948",
+      "target": "en/docs/full/06-eise.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/full/07-validation.md",
+      "source_blob_sha": "736d67d21fa4095605dfec38f0a757e9ff0c8a9f",
+      "target": "en/docs/full/07-validation.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/full/08-data.md",
+      "source_blob_sha": "88fc35d6a3f4f589aff18d2ac305214d6027b44e",
+      "target": "en/docs/full/08-data.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/full/09-nikolaos.md",
+      "source_blob_sha": "3fd0678357181d7cc972fe40c5df7a5e5765adc6",
+      "target": "en/docs/full/09-nikolaos.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/full/10-contribution.md",
+      "source_blob_sha": "5ae3462074a5438b5b0b21f962d8b652597682e2",
+      "target": "en/docs/full/10-contribution.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/full/index.md",
+      "source_blob_sha": "59b31f1a3da7939365fbdda53026606933fbc4f2",
+      "target": "en/docs/full/index.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/index.md",
+      "source_blob_sha": "9199d465fc87df3a2d8fda7ad12c0ab4c5838063",
+      "target": "en/docs/index.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/maintenance.md",
+      "source_blob_sha": "1f0b637ddc8f6efdec992aaf2f4716b48c01c433",
+      "target": "en/docs/maintenance.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/maintenance/contributions-review-2026-10-23.md",
+      "source_blob_sha": "c51618ceb7676b16445b26d7b17cdf34764b4d82",
+      "target": "en/docs/maintenance/contributions-review-2026-10-23.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/maintenance/position-family-review-2026-10-23.md",
+      "source_blob_sha": "6ff92735bc7cf3afec511a5921a169823be13eb6",
+      "target": "en/docs/maintenance/position-family-review-2026-10-23.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/maintenance/source-history.md",
+      "source_blob_sha": "cbb4fd970b8e1406f42f8e13e2046011cd7516a1",
+      "target": "en/docs/maintenance/source-history.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/musicology/01-history.md",
+      "source_blob_sha": "9f8141f178a5e225c95ea9dc302c2ca99ddb33d1",
+      "target": "en/docs/musicology/01-history.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/musicology/02-variation.md",
+      "source_blob_sha": "59c8c105913b7f49680c047d0011d7567fb271d2",
+      "target": "en/docs/musicology/02-variation.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/musicology/03-families.md",
+      "source_blob_sha": "6f2c1aa5211310857339baae466c79453ac75a2e",
+      "target": "en/docs/musicology/03-families.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/musicology/04-exegesis.md",
+      "source_blob_sha": "beefcfeaaf0aa663a13e9a389d9ae0694b81faf0",
+      "target": "en/docs/musicology/04-exegesis.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/musicology/05-repertoire.md",
+      "source_blob_sha": "9ae305af53ebad351c0f635c3e26ca953b58138a",
+      "target": "en/docs/musicology/05-repertoire.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/musicology/06-old-notation.md",
+      "source_blob_sha": "2476e6a47317ff706f64c91619fdaa882a0c893f",
+      "target": "en/docs/musicology/06-old-notation.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/musicology/index.md",
+      "source_blob_sha": "8bcac6b9918a116a622701faefc9f0951fa9c186",
+      "target": "en/docs/musicology/index.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/reference.md",
+      "source_blob_sha": "687c649cb1cccb37ee6d5c1a819ba978c933c468",
+      "target": "en/docs/reference.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/research/cognition.md",
+      "source_blob_sha": "67488ad6bf3b5f8f1da371127bb86cbd6c81989d",
+      "target": "en/docs/research/cognition.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/research/data-transfer.md",
+      "source_blob_sha": "76e1098d9fc29192abef1bf5412b9140269e6d91",
+      "target": "en/docs/research/data-transfer.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/research/historical-analysis.md",
+      "source_blob_sha": "e9044c0868681bc3b59ba5f5321d01a869a08130",
+      "target": "en/docs/research/historical-analysis.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/research/index.md",
+      "source_blob_sha": "d8d2a164d50045bd1fd0277dcf2b607de2461d95",
+      "target": "en/docs/research/index.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/research/machine-learning.md",
+      "source_blob_sha": "a69ef8cded8e2aed31ac63e9060b942564c69c84",
+      "target": "en/docs/research/machine-learning.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/research/musicology.md",
+      "source_blob_sha": "3a2b01b5b513d60f0c24dfd4ad43df9791db1a31",
+      "target": "en/docs/research/musicology.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/research/performance-exegesis.md",
+      "source_blob_sha": "906741b4ebef6fe85b7f7e2514e531b479a90084",
+      "target": "en/docs/research/performance-exegesis.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/research/positioning-source.md",
+      "source_blob_sha": "d1f74dffb8681ab5fa39fda8db8ef45d40226d7f",
+      "target": "en/docs/research/positioning-source.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/research/symbolic-mir.md",
+      "source_blob_sha": "1f770109afab50cfc695795583d07d5755bbfda0",
+      "target": "en/docs/research/symbolic-mir.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/review/contribution-matrix.md",
+      "source_blob_sha": "11f3d7104419cff9fa9635c866a41c01141c14e2",
+      "target": "en/docs/review/contribution-matrix.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/review/decisions.md",
+      "source_blob_sha": "b4e595b7c3e110db31572b3a551290ccc3314142",
+      "target": "en/docs/review/decisions.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/review/feedback.md",
+      "source_blob_sha": "ef2d5749e60b4eedc0239d3cd20db004859f7792",
+      "target": "en/docs/review/feedback.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/review/knowledge-contributions.md",
+      "source_blob_sha": "cc51069bf598818d9b5c0ae686a0b38cb0ccc9a8",
+      "target": "en/docs/review/knowledge-contributions.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/roadmap.md",
+      "source_blob_sha": "120e7019c69fac1e0a01e8a5b04a8bc60899eda9",
+      "target": "en/docs/roadmap.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/start/overview.md",
+      "source_blob_sha": "b09d6e9f0d8a5b8043c5ea877e26c70d0d8c77b1",
+      "target": "en/docs/start/overview.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/start/reading-paths.md",
+      "source_blob_sha": "7c03d8cdc8cfa087ea0cada274839018a2ca48b6",
+      "target": "en/docs/start/reading-paths.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/start/review-guide.md",
+      "source_blob_sha": "7d073a6aeb4c7330a5560dc8dee8fd66ce5c8cca",
+      "target": "en/docs/start/review-guide.md",
+      "status": "pending"
+    },
+    {
+      "source": "docs/topics.md",
+      "source_blob_sha": "78e373ed50542880ecd9d82b9a46f4aa98751b93",
+      "target": "en/docs/topics.md",
+      "status": "pending"
+    },
+    {
+      "source": "documents/README.md",
+      "source_blob_sha": "049d6b365caaaf2f7ac60c16b1d9ee856cb14364",
+      "target": "en/documents/README.md",
+      "status": "pending"
+    },
+    {
+      "source": "documents/prior-work/README.md",
+      "source_blob_sha": "be7aa127e03508e897a68220b1721de6c7b3c2d9",
+      "target": "en/documents/prior-work/README.md",
+      "status": "pending"
+    },
+    {
+      "source": "notes/decisions.md",
+      "source_blob_sha": "f0309a212f5f3fc16b8a4cb844919d7ba1a215e9",
+      "target": "en/notes/decisions.md",
+      "status": "pending"
+    },
+    {
+      "source": "review/README.md",
+      "source_blob_sha": "25d6b93fa03e0c1bafe2f5df115f256a95aca9ec",
+      "target": "en/review/README.md",
+      "status": "pending"
+    },
+    {
+      "source": "review/questions.md",
+      "source_blob_sha": "caec00cec140f6840b0ebc190c8e090343e1100a",
+      "target": "en/review/questions.md",
+      "status": "pending"
+    },
+    {
+      "source": "sources/README.md",
+      "source_blob_sha": "f8338083cd45fd6b8fc709574447ba55613ec9a6",
+      "target": "en/sources/README.md",
+      "status": "pending"
+    },
+    {
+      "source": "sources/positioning-candidate.md",
+      "source_blob_sha": "2c52caee7789a342048be74fc4543e42cb5b05b8",
+      "target": "en/sources/positioning-candidate.md",
+      "status": "pending"
+    },
+    {
+      "source": "study/01_structure.md",
+      "source_blob_sha": "2c304e56cae7e349287d0c1418a165e1018343ad",
+      "target": "en/study/01_structure.md",
+      "status": "pending"
+    },
+    {
+      "source": "study/02_musicology.md",
+      "source_blob_sha": "a76d7d5ba0a19e4a65d51bbc7fc45d0b1ab83fbb",
+      "target": "en/study/02_musicology.md",
+      "status": "pending"
+    },
+    {
+      "source": "study/03_data.md",
+      "source_blob_sha": "020d8fa3c4e75ef0f5efe6214d2f5f4cc0ebe85b",
+      "target": "en/study/03_data.md",
+      "status": "pending"
+    },
+    {
+      "source": "study/04_m1.md",
+      "source_blob_sha": "754daa58a7ec189b5ee7d388b3683a0667995674",
+      "target": "en/study/04_m1.md",
+      "status": "pending"
+    },
+    {
+      "source": "study/05_m2.md",
+      "source_blob_sha": "93bf597578710b20efe22a36f0aa27950d554374",
+      "target": "en/study/05_m2.md",
+      "status": "pending"
+    },
+    {
+      "source": "study/06_m3.md",
+      "source_blob_sha": "0feb7c2a093439574e5c855f6cba225ad21d284c",
+      "target": "en/study/06_m3.md",
+      "status": "pending"
+    },
+    {
+      "source": "study/07_m4_m5.md",
+      "source_blob_sha": "387e2b894bbaa1bcc43971cadb65d5ca04551988",
+      "target": "en/study/07_m4_m5.md",
+      "status": "pending"
+    },
+    {
+      "source": "study/08_glossary.md",
+      "source_blob_sha": "b310b67f5fecd964b38891c02c7f01f015762e54",
+      "target": "en/study/08_glossary.md",
+      "status": "pending"
+    }
+  ],
+  "original_files": [
+    {
+      "path": ".gitattributes",
+      "sha": "f1c7c1a16dc24bcf6717f77dd31d8dd83aa0e2a5",
+      "mode": "100644"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha": "604cf9163ff673921b478fed6bf5baabb5806f1d",
+      "mode": "100644"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/proposal-feedback.yml",
+      "sha": "f479ef119da00e06a702e8d4a68d29e034e08c37",
+      "mode": "100644"
+    },
+    {
+      "path": ".gitignore",
+      "sha": "18170f308db87bcfb3126b67bf46104bec179743",
+      "mode": "100644"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha": "40fa6667f5b7eb42515a4814230b946bd276f9d9",
+      "mode": "100644"
+    },
+    {
+      "path": "NAVIGATION.md",
+      "sha": "dce5e5321758ee701d2b04961b155665e0507b5a",
+      "mode": "100644"
+    },
+    {
+      "path": "README.md",
+      "sha": "f1d161ca61057f9ff34884c5896a80397fb13a1b",
+      "mode": "100644"
+    },
+    {
+      "path": "SETUP_GITHUB.md",
+      "sha": "448edb0b85bc6523b4c3fb0b6950ac742726d702",
+      "mode": "100644"
+    },
+    {
+      "path": "SOURCES.md",
+      "sha": "cd08be782cffbffb555a53d2ef9ab8f01ed16a0c",
+      "mode": "100644"
+    },
+    {
+      "path": "TERMINOLOGY_GR.md",
+      "sha": "b99edfeb810eb68c2d8c6be70fcb1fded2b21f8b",
+      "mode": "100644"
+    },
+    {
+      "path": "book/README.md",
+      "sha": "7d8c6a60420264c348776e362dabbaefcb89a302",
+      "mode": "100644"
+    },
+    {
+      "path": "book/Simeiomatario_Erevnitikis_Protasis_v8_71a.tex",
+      "sha": "50cc78a4f88d47eb4edfa0bf2bdf77b044963d20",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/appendices/a.md",
+      "sha": "31aa2da8109acf775900195c296161902ff9b18c",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/appendices/b.md",
+      "sha": "ede61f9df48d9f9bd7d63432d6956314cbd6a5a3",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/appendices/c.md",
+      "sha": "716acb5dcf9979d31964a5d7fa5a5384afe574e7",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/appendices/d.md",
+      "sha": "e2eb59f8bab0d90eefd803a8da6044b5eef729c0",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/appendices/e.md",
+      "sha": "0cdbb291a0c9e28bf7cda6f10872a7b915085d35",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/appendices/f.md",
+      "sha": "39068fb9a3b639bdb23b1c170e66c71c6d7bdca8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/appendices/g.md",
+      "sha": "5be98e4072d533a47eb2c8a8901fe0c2d2278a6c",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/appendices/h.md",
+      "sha": "73d6afa36c5c337b4dd291cbfe7fa19445f163c1",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/appendices/i.md",
+      "sha": "cd78f2d347991902a954f3984577bdd4e6d206ed",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/appendices/j.md",
+      "sha": "f2ac85f885a6b9b9c9267581f86a32805f648c9c",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/assets/formula-variation.png",
+      "sha": "68dc808863c2b16531c289db559e3d16e738575b",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/assets/proposal-figure-2-page.png",
+      "sha": "15c2d2d42978083f4e1a15e50620a1d967c21988",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/assets/proposal-figure-3-page.png",
+      "sha": "4c6f381b91e2fa87a6ce31a57157b83bbd5f624a",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/author/index.md",
+      "sha": "ce3968784f34023e0563064858669f658759f05e",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/author/prior-work.md",
+      "sha": "63b0e1912b20175e75dcab3da6d1eab687c66f04",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/by-topic.md",
+      "sha": "1c9af00ff7af0f86d54a6b5e4695a18a052ebd1f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/current-v878.md",
+      "sha": "27fe329332103bc7d9664635ea3e49234945d2e9",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b001.md",
+      "sha": "1fd24be67973ee029cbf12b2f4e73e2850fe0b98",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b002.md",
+      "sha": "e789346600bc94d3ed5312a9bdf25b01beb13a29",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b003.md",
+      "sha": "64d378dc28d6b0cb110bb29b8b52f570aa7f8c62",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b004.md",
+      "sha": "a74c9e133713d238e2fc8fbd57fd5e2c3bcca37d",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b005.md",
+      "sha": "adf47ecee043595cd0ff0e5af9686ad8ad7c8415",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b006.md",
+      "sha": "085eef4160a18d3d34805e101aa3bffd07bbc47b",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b007.md",
+      "sha": "511664a5ca74f525027dd61400148d036159f557",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b008.md",
+      "sha": "8aee253246aef8de8deb441b1ddf3b4c8a69aaea",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b009.md",
+      "sha": "a4770f0a836f23a1d065350672113230714a017d",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b010.md",
+      "sha": "bb0c9fd14bec67da3149bfe1ef4e789c8e1c0752",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b011.md",
+      "sha": "7f4cd77fe4f2909b8c81abf7b36ce8b24deb8b35",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b012.md",
+      "sha": "a8aa99399db5b3ea8b568de3a60defc74c07fd49",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b013.md",
+      "sha": "d53b69e8f348dc3075c863418d69f78ffa351c4e",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b014.md",
+      "sha": "19af43e273f072077dcfd28530a7afb913b0dcbf",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b015.md",
+      "sha": "b4cb4d398448c79ec9887f5537e2fbef9f88c854",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b016.md",
+      "sha": "c7b34b2ed7bb38830ef11b5faf71ae824e10c152",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b017.md",
+      "sha": "045a5272e4b8ad0671084562e08c13cd67dace82",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b018.md",
+      "sha": "0f62c5877c96d903bdd5434a76908c093a84a044",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b019.md",
+      "sha": "3a76ef80ac832f727bd892904abcc3a03ac2781e",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b020.md",
+      "sha": "33151ec2452a70d8f51424065dc895180b51b926",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b021.md",
+      "sha": "22a9952ddcfebdb7c6aeddd5c81ef435556d9612",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b022.md",
+      "sha": "0621fa9d9cd2a8ea4a57d79e03a54250fc8a0ada",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b023.md",
+      "sha": "2b7b103192e031a577583bcce329a629e8afbc59",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b024.md",
+      "sha": "8209619d78ea7d11eb299d075d40438ab7804d01",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b025.md",
+      "sha": "efbd24598c407039e63966939eefff46294ec018",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b026.md",
+      "sha": "b75318eb6ed47a7826b23a14382dc30088c1001e",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b027.md",
+      "sha": "e4270947a3c5151b57d5a52d8f7fcf7e4d50141d",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b028.md",
+      "sha": "2ec4438fd53b6e2e7ada58bcdf59ee72207ae6aa",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b029.md",
+      "sha": "19af4d78680eab08cb5c8cadef6b66b60084b026",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b030.md",
+      "sha": "7135950dadc85f32aaf7cccfcaf51f54b2ff0035",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b031.md",
+      "sha": "dcfab740f486b51c242c8c9187e57614e13dedc8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b032.md",
+      "sha": "a41d2514b9c6a9c4e6bc9177ce23b414ac257045",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b033.md",
+      "sha": "1d2506f3ff1920278371698a5676eda7ff202cfa",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b034.md",
+      "sha": "e63ac9258257da7d475e9f3b7ad29d0e94ee8823",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b035.md",
+      "sha": "b0a69cb726f660e190fbd7647b5d9c4e96effe82",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b036.md",
+      "sha": "84a61d21969dfbdc02410b962b557fc65db99653",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b037.md",
+      "sha": "c19edf8eeff3eaa4794940aefd0aecc56514f1ac",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b038.md",
+      "sha": "5d5491012df6a20e7a420bdefb61dc6d6a9270d9",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b039.md",
+      "sha": "472acc4bc8bee12ccb068fd94e580b8b5bb3d43d",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b040.md",
+      "sha": "9969b50906a95f6afc3640f29c51757af0a84e68",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b041.md",
+      "sha": "7cef2c08d45b5ef6f3ac67503e3ac6bd22d6646f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b042.md",
+      "sha": "ff8cc3a0b078c622368258d28b6c4f7fef529e3f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b043.md",
+      "sha": "01ebce77e8462a2b434d21e01fa56ac6bd32f3ab",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b044.md",
+      "sha": "feb0ce511b9d8567ef91ec86e968d6c94e89fb35",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b045.md",
+      "sha": "8e8ca89aa0c4588f19f704231e58a5630e1aae34",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b046.md",
+      "sha": "85bd4089d35d7163198c99ed6a194eec66e6ae5a",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b047.md",
+      "sha": "b80da36a9a6bf9b813d860a68fe0bb9419430b34",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b048.md",
+      "sha": "1e444b57e915b4df4c57679e48011956661d6d85",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b049.md",
+      "sha": "c5e4fc33cd3e3bfc70582fab966c81fcb20d6ff4",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b050.md",
+      "sha": "4db3be5c2afdc10bd23f13ed5536c2583612aba6",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b051.md",
+      "sha": "81c0e326b8960fc07dfb571fae9a30da8e774a6d",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b052.md",
+      "sha": "1bc774763e598b4eb32a37f14d9adec73ad9dea6",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b053.md",
+      "sha": "7ff1017abeba4f196d4cb86df82d7d7dc471261a",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b054.md",
+      "sha": "31366f430628c45a595c3a786fa785462331c6d2",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b055.md",
+      "sha": "dcc03ad515c77114618fb4e9e4e90f9f8337fa45",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b056.md",
+      "sha": "dfe7899cd86a262f259772831a0d34c8a43b9b76",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b057.md",
+      "sha": "7a88aac46a0324783c3fb31caa9d06ebec57b13a",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b058.md",
+      "sha": "6948b864615c8e65839f4f03f46338cf76992336",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b059.md",
+      "sha": "d9b223377799a9267a2c0fcc63b9877678c759ae",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b060.md",
+      "sha": "94a5c1e4e0b41b571e3ccfc3c6b8a49afd71aa6a",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b061.md",
+      "sha": "d3462302c3be75efa6192f6fa2c679497e33e3a9",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b062.md",
+      "sha": "2202d6170343408bd81f15d891ad100838f5d1a7",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b063.md",
+      "sha": "552115f43e9d732482fada0599fbf78409c09200",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b064.md",
+      "sha": "ddedbc9726bcbe508f25870a0eaf3aa501e9ec4f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b065.md",
+      "sha": "4504231341b7bc3b7662db625f407413c6334af3",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b066.md",
+      "sha": "390fa299f5e9beac6946687892bd4a7bfd6217f2",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b067.md",
+      "sha": "ef235bf8588814a904a2879b6b160d80d76fb614",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b068.md",
+      "sha": "5048092aa469c8c289d7b7cfde3693aae215d541",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b069.md",
+      "sha": "11b370165164c90dc030b1075dd580eccc6eab47",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b070.md",
+      "sha": "0ac0706c029d9251205bc936dd4f09d934462ed1",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b071.md",
+      "sha": "d4657c0ece3032aa4d6726c35faf7c2372af9ae0",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b072.md",
+      "sha": "616991eef532925d754174c8b04c7e64e123acae",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b073.md",
+      "sha": "3950d607897a9807aec19c6a4318c98bbbeb604e",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b074.md",
+      "sha": "5cb86b58d3029aec51dc06cca82ac7353adb066a",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b075.md",
+      "sha": "6a37b113b632e6b6da78b9dfbac58db979044f0e",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b076.md",
+      "sha": "209fcb13eb87e9624ace95694698750f44424b94",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b077.md",
+      "sha": "dd79996dd07d517306766864a60a4ec95888511e",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b078.md",
+      "sha": "89ad24e83a1a863ddca6a33234a43fa044c3327b",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b079.md",
+      "sha": "c22ad6ceba6f550a3950d5c4a72dfd18b829c0db",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b080.md",
+      "sha": "5a764ff1f1665c13ac01fdb0c410c739b7d85c8b",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b081.md",
+      "sha": "b570d1cc28afd9d7bccd14f3afbbce899e278090",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b082.md",
+      "sha": "c85c9eb4688107568ee41452beb07eba37433cc9",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b083.md",
+      "sha": "10d595339b0b5da05dec06122a7d1be125d44579",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b084.md",
+      "sha": "be30f516f2649e0821ee1ead292a3a327261b654",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b085.md",
+      "sha": "35481da6fc49893865e80a9897db74929689e040",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b086.md",
+      "sha": "1b97265fe8836b929d65af628f4fd61f1f85c379",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b087.md",
+      "sha": "915592f0c9ebace97da06b6caddeaf7f748594bb",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b088.md",
+      "sha": "76e23ccacea50b5d81ee1c5ccb677da282fa0b7b",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b089.md",
+      "sha": "060d8bbbb6fea88fcc1d7fd597a399e376e5ee67",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b090.md",
+      "sha": "a37f75634c4d860338ada70ab4a0d74a298d3b81",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b091.md",
+      "sha": "b12428381727743c936c458dbb0dcf4f5ec56804",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b092.md",
+      "sha": "0ad6910f71cdab76ec3c491c6396e8a8812ecda8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b093.md",
+      "sha": "eaf434febb3eb7e014e3c277fdf5e17829609aab",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b094.md",
+      "sha": "f40867d7bfa51511e1b246f9d8a41f6356826201",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b095.md",
+      "sha": "dfd5fc6b3a0cc597599f65abac33ebe237623202",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b096.md",
+      "sha": "ca34c7789819cc66fb20eff786dda4cacf4b38b6",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b097.md",
+      "sha": "0d979bb686e0c6277d8aac3cbfc273d52f62674d",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b098.md",
+      "sha": "272e36dac8720a041a612dc72b6f741352070e30",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b099.md",
+      "sha": "169da47ebd59abb19f4594fbcefc5481a96065e9",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b100.md",
+      "sha": "881cd7a11fd115566c7a8bafbb4cbbf752ffff2a",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b101.md",
+      "sha": "d0f80782e7e5f72af774149abd5264b2476279b6",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b102.md",
+      "sha": "26b0d2e6808b07203fc62903c32a06bf00a60a92",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b103.md",
+      "sha": "20993328ab88d223e73cf892a1b6892ad1d0e05f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b104.md",
+      "sha": "293704061f29f5f759e1167fde5e89bafecfbee0",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b105.md",
+      "sha": "4f5384b8fd84b494882a82fdf1df37508ca02cec",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b106.md",
+      "sha": "c8b27dad261970d6b50871bed903bdfb3a93c1e6",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b107.md",
+      "sha": "59809f83eedb44b4bf3077f571cb42e762a08dd4",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b108.md",
+      "sha": "7b778157880a07835b533233948f17f42412c471",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b109.md",
+      "sha": "ad3372f5275c065d3d9bf1927abc38965c287e7f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b110.md",
+      "sha": "e04cecc10a54065ad755d9695a9100cac926cd7e",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b111.md",
+      "sha": "7c71b1f643b55f1ac46adfc2bf15ca65fb08c4ed",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b112.md",
+      "sha": "6b64380f1ce5beba59daf5480ec721929063cef2",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b113.md",
+      "sha": "1326329d6cd6aae46df097975b37e5b30339f586",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b114.md",
+      "sha": "2472ea78269981345c5fcc67cb5421263f03dac7",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b115.md",
+      "sha": "9096247638352121215505d0e8b1b1f3347b7083",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b116.md",
+      "sha": "8618abf4d093e7ee133e709e55b9581b6267affb",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b117.md",
+      "sha": "c34b0e49341e22a4755e9c59afc1691770651581",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b118.md",
+      "sha": "6ae76b1026b6f82322840bbfab1fa77355a2366b",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b119.md",
+      "sha": "85967cbbc7761ee108b4b414ee8dd05a3590585d",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b120.md",
+      "sha": "4bf92d9cc08373ea1206592e88723b7cab991256",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b121.md",
+      "sha": "e30b4ce1785f72309bf45b769b3a933df67bc282",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b122.md",
+      "sha": "a3cf7af48e2f39aaa7095a759c942db4678cf374",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b123.md",
+      "sha": "3419df34edd87b113f234bf095443c63f84b9bd1",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b124.md",
+      "sha": "4d023bea73648b9e305c604fc54651b58de95199",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b125.md",
+      "sha": "4b0727ba68ee00552f72e437ba81ef9c1e60a4da",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b126.md",
+      "sha": "bd1bb7dd65ef6d83ae0a557de7b59cdc9968d151",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b127.md",
+      "sha": "957bf18f4e91ea0c695c0d7b5bec9e11c51a8e62",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b128.md",
+      "sha": "45380aded90767e68db5781aef5360176ff26498",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b129.md",
+      "sha": "612d49d701b0476cd153d144d0a75b9008e2c5bb",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b130.md",
+      "sha": "d64c0dc4d938a4b14fbbe61550512cbe48385ee9",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b131.md",
+      "sha": "1ed34f5ab6f491a03d986afadd6c31c849451722",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b132.md",
+      "sha": "0b54656778a2daa0b550ddd2c68816e3b1538924",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b133.md",
+      "sha": "1b33c64103fbcf8c41e5e133380627a0daed3b65",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b134.md",
+      "sha": "e3ea249d1e523ad25e3fbd0e2ae026e5caf4ad02",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/entries/b135.md",
+      "sha": "a638f463ba7b08ae7ef9436cfd9f1fa7c811d4eb",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/index.md",
+      "sha": "ef7f0e466316fb8095e1cc2779fd4e77ecbf2a1f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/methodology.md",
+      "sha": "24460bf26a70e1016fc985c3ae678498e8b9fd88",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/source-list.md",
+      "sha": "a097ad90d95ef1496d0ebdedaedc809802c14e26",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/bibliography/supplementary.md",
+      "sha": "6628dd4f111eb87f76eca140b08154f7e9545670",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/current/atl.md",
+      "sha": "3fa41895cbf3a2d23896f58e2a9e849f64d3f999",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/current/index.md",
+      "sha": "859c2997b04175ad8b012f7acb1aaa46d95dde94",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/current/inverse-problem.md",
+      "sha": "ce7fd82fa282bd8512fd7571fb62f22b93ab43eb",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/current/m-thesis-technical.md",
+      "sha": "9a714ce00cf12d004bd0a1b7e35d9ca8a6ae1d89",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/current/m-thesis.md",
+      "sha": "5ec395f79942b0edba974a70172b8200aca41f6f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/current/position-and-family.md",
+      "sha": "e75ab30ca96fddcab56a5243fe023279bbaa6edd",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/examples/index.md",
+      "sha": "fc87c7985d52ff26a3c38b0d358ddd78cefcf90f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/full/00-abstract.md",
+      "sha": "f3c80272e77d56038b3aca10555f959acb8d286a",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/full/01-introduction.md",
+      "sha": "205b21c507a6ac741b18065dcfbd9538cebe8fb3",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/full/02-literature.md",
+      "sha": "183c8ff68a60232f36b533c7d96cc3757f590311",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/full/03-questions.md",
+      "sha": "633a9584c20e0498b8978aebe01ae07e7d28ef7b",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/full/04-architecture.md",
+      "sha": "66988c424a4808cc7b1fa7641b4ce9dede4e9dbb",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/full/05-m1.md",
+      "sha": "b1998aad86635b01abc7b6032cc3df658a955f68",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/full/06-eise.md",
+      "sha": "a86037880a02cd7da765b9582cf6eab1a71bc948",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/full/07-validation.md",
+      "sha": "736d67d21fa4095605dfec38f0a757e9ff0c8a9f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/full/08-data.md",
+      "sha": "88fc35d6a3f4f589aff18d2ac305214d6027b44e",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/full/09-nikolaos.md",
+      "sha": "3fd0678357181d7cc972fe40c5df7a5e5765adc6",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/full/10-contribution.md",
+      "sha": "5ae3462074a5438b5b0b21f962d8b652597682e2",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/full/index.md",
+      "sha": "59b31f1a3da7939365fbdda53026606933fbc4f2",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/index.md",
+      "sha": "9199d465fc87df3a2d8fda7ad12c0ab4c5838063",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/maintenance.md",
+      "sha": "1f0b637ddc8f6efdec992aaf2f4716b48c01c433",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/maintenance/contributions-review-2026-10-23.md",
+      "sha": "c51618ceb7676b16445b26d7b17cdf34764b4d82",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/maintenance/position-family-review-2026-10-23.md",
+      "sha": "6ff92735bc7cf3afec511a5921a169823be13eb6",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/maintenance/source-history.md",
+      "sha": "cbb4fd970b8e1406f42f8e13e2046011cd7516a1",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/musicology/01-history.md",
+      "sha": "9f8141f178a5e225c95ea9dc302c2ca99ddb33d1",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/musicology/02-variation.md",
+      "sha": "59c8c105913b7f49680c047d0011d7567fb271d2",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/musicology/03-families.md",
+      "sha": "6f2c1aa5211310857339baae466c79453ac75a2e",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/musicology/04-exegesis.md",
+      "sha": "beefcfeaaf0aa663a13e9a389d9ae0694b81faf0",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/musicology/05-repertoire.md",
+      "sha": "9ae305af53ebad351c0f635c3e26ca953b58138a",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/musicology/06-old-notation.md",
+      "sha": "2476e6a47317ff706f64c91619fdaa882a0c893f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/musicology/index.md",
+      "sha": "8bcac6b9918a116a622701faefc9f0951fa9c186",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/navigation.json",
+      "sha": "032e138b0b852d63745647ecfba81ae3c4967253",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/reference.md",
+      "sha": "687c649cb1cccb37ee6d5c1a819ba978c933c468",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/research/cognition.md",
+      "sha": "67488ad6bf3b5f8f1da371127bb86cbd6c81989d",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/research/data-transfer.md",
+      "sha": "76e1098d9fc29192abef1bf5412b9140269e6d91",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/research/historical-analysis.md",
+      "sha": "e9044c0868681bc3b59ba5f5321d01a869a08130",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/research/index.md",
+      "sha": "d8d2a164d50045bd1fd0277dcf2b607de2461d95",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/research/machine-learning.md",
+      "sha": "a69ef8cded8e2aed31ac63e9060b942564c69c84",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/research/musicology.md",
+      "sha": "3a2b01b5b513d60f0c24dfd4ad43df9791db1a31",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/research/performance-exegesis.md",
+      "sha": "906741b4ebef6fe85b7f7e2514e531b479a90084",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/research/positioning-source.md",
+      "sha": "d1f74dffb8681ab5fa39fda8db8ef45d40226d7f",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/research/symbolic-mir.md",
+      "sha": "1f770109afab50cfc695795583d07d5755bbfda0",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/review/contribution-matrix.md",
+      "sha": "11f3d7104419cff9fa9635c866a41c01141c14e2",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/review/decisions.md",
+      "sha": "b4e595b7c3e110db31572b3a551290ccc3314142",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/review/feedback.md",
+      "sha": "ef2d5749e60b4eedc0239d3cd20db004859f7792",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/review/knowledge-contributions.md",
+      "sha": "cc51069bf598818d9b5c0ae686a0b38cb0ccc9a8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/roadmap.md",
+      "sha": "120e7019c69fac1e0a01e8a5b04a8bc60899eda9",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/start/overview.md",
+      "sha": "b09d6e9f0d8a5b8043c5ea877e26c70d0d8c77b1",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/start/reading-paths.md",
+      "sha": "7c03d8cdc8cfa087ea0cada274839018a2ca48b6",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/start/review-guide.md",
+      "sha": "7d073a6aeb4c7330a5560dc8dee8fd66ce5c8cca",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/topics.md",
+      "sha": "78e373ed50542880ecd9d82b9a46f4aa98751b93",
+      "mode": "100644"
+    },
+    {
+      "path": "documents/README.md",
+      "sha": "049d6b365caaaf2f7ac60c16b1d9ee856cb14364",
+      "mode": "100644"
+    },
+    {
+      "path": "documents/analytical-proposal.pdf",
+      "sha": "f62aec0cfdcb3bf63a32fd3eb057c05a9e4202c5",
+      "mode": "100644"
+    },
+    {
+      "path": "documents/manifest.json",
+      "sha": "39331e609d9ef47bec02967087d0c67ad5ceed65",
+      "mode": "100644"
+    },
+    {
+      "path": "documents/prior-work/README.md",
+      "sha": "be7aa127e03508e897a68220b1721de6c7b3c2d9",
+      "mode": "100644"
+    },
+    {
+      "path": "documents/prior-work/manifest.json",
+      "sha": "e15463f218b51dd8d66f436227609bf0efad63fa",
+      "mode": "100644"
+    },
+    {
+      "path": "documents/prior-work/mespi-inverse-geometry.pdf",
+      "sha": "c82e161b1583990184fcf9716aa54fa86e204504",
+      "mode": "100644"
+    },
+    {
+      "path": "documents/prior-work/setn-calibrated-espi-supervision.pdf",
+      "sha": "e3a9044f300f4f6c7bdb70690b4b9fe274c61f56",
+      "mode": "100644"
+    },
+    {
+      "path": "documents/prior-work/setn-espi-attention-denoising.pdf",
+      "sha": "aaa666755f8e4df5e867c52afe1ae258eb098781",
+      "mode": "100644"
+    },
+    {
+      "path": "documents/prior-work/setn-espi-mode-classification.pdf",
+      "sha": "fb5fea45671ac077d2d09d6ba5ee86f30b352bbc",
+      "mode": "100644"
+    },
+    {
+      "path": "documents/short-proposal-en.pdf",
+      "sha": "e03bdd57d31ba1d8c32da24a925d62c4917c837a",
+      "mode": "100644"
+    },
+    {
+      "path": "documents/short-proposal.pdf",
+      "sha": "ae2c062b8e7fa5d249999349daac5bb911657435",
+      "mode": "100644"
+    },
+    {
+      "path": "documents/technical-manual.pdf",
+      "sha": "f62aec0cfdcb3bf63a32fd3eb057c05a9e4202c5",
+      "mode": "100644"
+    },
+    {
+      "path": "notes/decisions.md",
+      "sha": "f0309a212f5f3fc16b8a4cb844919d7ba1a215e9",
+      "mode": "100644"
+    },
+    {
+      "path": "review/README.md",
+      "sha": "25d6b93fa03e0c1bafe2f5df115f256a95aca9ec",
+      "mode": "100644"
+    },
+    {
+      "path": "review/questions.md",
+      "sha": "caec00cec140f6840b0ebc190c8e090343e1100a",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/build_editorial.py",
+      "sha": "1cf1b656161f9646ada61034724e807a577cad3c",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/check_reader.py",
+      "sha": "685d73a4b97ea3da5af1585cc3aca1e882aa896f",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/import_proposal.py",
+      "sha": "e113c717f681dfed2894b0a04812321333d8521e",
+      "mode": "100644"
+    },
+    {
+      "path": "sources/README.md",
+      "sha": "f8338083cd45fd6b8fc709574447ba55613ec9a6",
+      "mode": "100644"
+    },
+    {
+      "path": "sources/formula_position_example.png",
+      "sha": "68dc808863c2b16531c289db559e3d16e738575b",
+      "mode": "100644"
+    },
+    {
+      "path": "sources/positioning-candidate.md",
+      "sha": "2c52caee7789a342048be74fc4543e42cb5b05b8",
+      "mode": "100644"
+    },
+    {
+      "path": "sources/proposal-v871e-candidate.pdf",
+      "sha": "9778861b3425cf7a1afc1c4cac4240df860e9cba",
+      "mode": "100644"
+    },
+    {
+      "path": "sources/proposal-v871e-candidate.tex",
+      "sha": "8f03a9f58599145c08a81252b1c29c8757d0a6be",
+      "mode": "100644"
+    },
+    {
+      "path": "sources/proposal-v878-candidate.tex",
+      "sha": "98b71094179559110f5a790b39aca843808bbcf4",
+      "mode": "100644"
+    },
+    {
+      "path": "sources/reader-manifest.json",
+      "sha": "010dfd095066e3ad9b227307c18b718bdbabc4f5",
+      "mode": "100644"
+    },
+    {
+      "path": "study/01_structure.md",
+      "sha": "2c304e56cae7e349287d0c1418a165e1018343ad",
+      "mode": "100644"
+    },
+    {
+      "path": "study/02_musicology.md",
+      "sha": "a76d7d5ba0a19e4a65d51bbc7fc45d0b1ab83fbb",
+      "mode": "100644"
+    },
+    {
+      "path": "study/03_data.md",
+      "sha": "020d8fa3c4e75ef0f5efe6214d2f5f4cc0ebe85b",
+      "mode": "100644"
+    },
+    {
+      "path": "study/04_m1.md",
+      "sha": "754daa58a7ec189b5ee7d388b3683a0667995674",
+      "mode": "100644"
+    },
+    {
+      "path": "study/05_m2.md",
+      "sha": "93bf597578710b20efe22a36f0aa27950d554374",
+      "mode": "100644"
+    },
+    {
+      "path": "study/06_m3.md",
+      "sha": "0feb7c2a093439574e5c855f6cba225ad21d284c",
+      "mode": "100644"
+    },
+    {
+      "path": "study/07_m4_m5.md",
+      "sha": "387e2b894bbaa1bcc43971cadb65d5ca04551988",
+      "mode": "100644"
+    },
+    {
+      "path": "study/08_glossary.md",
+      "sha": "b310b67f5fecd964b38891c02c7f01f015762e54",
+      "mode": "100644"
+    }
+  ],
+  "editorial_pages": [
+    "en/docs/translation-status.md"
+  ]
+}

@@ -1,5 +1,9 @@
 # Κείμενα και πηγές της πρότασης
 
+<!-- language-switch:start -->
+**Γλώσσα / Language:** **Ελληνικά** · [English](../en/docs/reference.md)
+<!-- language-switch:end -->
+
 [Αρχική σελίδα](../README.md) · [Ανάγνωση πρότασης](../documents/README.md) · [Θεματική περιήγηση](../NAVIGATION.md)
 
 ## Τα δύο κείμενα

@@ -1,5 +1,9 @@
 # Μουσικά παραδείγματα και παραλλαγή θέσης
 
+<!-- language-switch:start -->
+**Γλώσσα / Language:** **Ελληνικά** · [English](../../en/docs/examples/index.md)
+<!-- language-switch:end -->
+
 [Σύνοψη](../start/overview.md) · [Μουσικολογική τεκμηρίωση](../musicology/index.md) · [M2](../full/06-eise.md) · [ATL-INV](../current/inverse-problem.md)
 
 ## Παράδειγμα Α — Καταγεγραμμένες παραλλαγές ενός μελωδικού τύπου

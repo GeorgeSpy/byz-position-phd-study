@@ -1,5 +1,9 @@
 # Προηγούμενη έρευνα, τοποθέτηση και έλεγχος της συνεισφοράς
 
+<!-- language-switch:start -->
+**Γλώσσα / Language:** **Ελληνικά** · [English](../../en/docs/review/contribution-matrix.md)
+<!-- language-switch:end -->
+
 [Χάρτης περιήγησης](../../NAVIGATION.md) · [Αναλυτικές θεματικές συνθέσεις](../research/index.md) · [Ερωτήματα και τεκμήρια](../start/review-guide.md) · [Βιβλιογραφία μεθοδολογικής ανάπτυξης](../bibliography/methodology.md)
 
 ## Η κεντρική μεθοδολογική συμβολή
