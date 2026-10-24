@@ -47,7 +47,7 @@
 
 ## MESPI: προσδιορισιμότητα και γεωμετρία της αντιστροφής
 
-Το πλήρες χειρόγραφο [Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../documents/prior-work/mespi-inverse-geometry.pdf), του Georgios Spyridakis, αναπτύσσει έναν πιθανοτικό τελεστή παρατήρησης και εξετάζει την πληροφορία που επιτρέπει την αντιστροφή του. Ο πυρήνας γράφεται
+Το πλήρες paper [Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../documents/prior-work/mespi-inverse-geometry.pdf), του Georgios Spyridakis, αναπτύσσει έναν πιθανοτικό τελεστή παρατήρησης και εξετάζει την πληροφορία που επιτρέπει την αντιστροφή του. Ο πυρήνας γράφεται
 
 $$
 \mu(W)=A+B\,J_0\!\bigl(cW\bigr)^2,
