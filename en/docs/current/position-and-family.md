@@ -8,6 +8,24 @@
 
 A **melodic formula** is a historically grounded, organised melodic formation of variable length. The research distinguishes the historically named type, the analytical family, the specific occurrence in a work and source, and its symbolic realisation. These distinctions connect musicological evidence with the units of annotation, prediction and evaluation.
 
+## Why the formula family is the central analytical category
+
+A Byzantine melodic formula is not merely a sequence of pitches that happens to recur. Historical theory treats the *thesis* as an organised combination of musical signs constituting *melos*; comparative musicological work recognises formulae across works, composers and modes even when their metrophonic or notational realisations differ. Karagkounis (2003, pp. 714–715, 783–789, 810–811) offers a particularly concrete precedent: he compares recurring formulae, documents variants and distinguishes passages with comparable metrophonia but different notational organisation. His quotation of Manuel Chrysaphes on p. 714 is a mediated citation, not a substitute for direct examination of Chrysaphes's critical edition.
+
+The **formula family** is selected as the *central analytical category* because it relates occurrences of a musicologically supportable melodic type across individual passages without reducing shared identity to surface similarity. It is the intermediate level at which we can examine **what remains recognisable, what varies, and under which musical conditions**. It does not replace the historical name, individual occurrence or formula sequence; rather, it relates these levels through testable correspondences.
+
+| Alternative unit or relationship | What it provides | What it cannot establish by itself |
+|---|---|---|
+| Metrophonic sequence or algorithmic proximity | Retrieval of candidate similarities and challenging examples | Shared melodic identity where notational agency or internal organisation differs |
+| Historical name or catalogue grouping | Evidence of tradition, nomenclature and functional classification | A unique one-to-one correspondence between a name or catalogue section and one family |
+| Single occurrence or historical exegesis of a passage | A specific witness and a link between older notation and its rendering | Membership of the same type across other works and independent passages |
+| Shared mode, cadence or syntactic role | Musical context and functional comparability | Distinction among multiple formulae serving the same function |
+| Whole phrase or chain of formulae | Analysis of succession and recombination | The identity of each constituent formula |
+
+This choice is **musicologically grounded and empirically testable**, rather than true by definition. Held-out evidence must show whether a family specification distinguishes confusable types, recognises documented variants, and contributes explanatory or predictive information beyond simpler representations. The comparative *tune-family* literature (Volk & van Kranenburg, 2012, [DOI](https://doi.org/10.1177/1029864912448329)) supports examining family-specific criteria rather than presuming one universal feature; it does not make the traditions or analytical scales equivalent.
+
+The same family framework supports musicological annotation, recognition of variable-length formulae, analysis of within-family variation and the controlled historical B2–EISE comparison. The family is thus **the object that musicology-informed machine learning aims to learn and test**, not merely a label derived from a similarity algorithm.
+
 ## Four objects
 
 | Object | Meaning | Symbol on this page |
@@ -95,6 +113,35 @@ Missing necessary evidence and unresolved disagreements are retained as ambiguit
 ```
 
 Within this corpus, the family is described by its specification and register, $`F=(\sigma_{F,v},\mathcal E^{D}_{F,v})`$. Computational models receive $`F`$ as a category identifier. The evaluation register is kept separate from training data. Independent experts test the finalised specification on new occurrences: this is the meaning of a **testable analytical hypothesis**.
+
+## Musicological criteria for identity and family membership
+
+Membership is judged from a **musicologically justified combination of relationships specific to the type under investigation**. No single melodic “skeleton” has been established as a universal necessary feature of all Byzantine formulae. Some types may support a diagnostic core, others several permissible configurations or a constrained polythetic account. Their boundaries must be established from sources, comparisons and independent tests.
+
+| Function of criteria | Musicological dimensions | Question to test |
+|---|---|---|
+| **Diagnostic organisation** (K1, K3, K4) | Melodic syntax, characteristic movements, internal articulation and approach to cadence; notational configuration and the agency of signs where observable | Which relationships distinguish the proposed type from confusable formations? |
+| **Context and permissible variation** (K2, K6, K7) | Local modal behaviour, degree, genus, prosody, syllabic distribution, genre, style and placement in the chant | Which changes remain compatible with the type, and which fall outside the specification's scope? |
+| **Historical and practitioner evidence** (K5, K8) | Historical nomenclature, manuscripts, exegeses, teaching and oral knowledge, and judgements by experienced cantors | What supports the hypothesis of identity without reusing the same evidence as both definition and independent validation? |
+| **Comparability and discrimination** (K9, K10) | Boundaries, analytical scale, part–whole relations, nearest confusable types and challenging negative examples | Are the units comparable, and are there examples that genuinely discriminate between types? |
+
+### Historical cases informing the specifications
+
+**Karagkounis (2003, p. 783)** explicitly compares common notational-melodic formulae across Cherubic Hymn settings by different composers without taking metrophonia or the grounding pitch as the sole criteria. On **pp. 784–785**, he traces the opening **parakletike**, including changes in notation and the occasional absence of the lygisma. On **p. 788**, he separates the **antikenoma** from metrophonically similar configurations associated with **lygisma** or **heteron parakalesma**, on the grounds that the great hypostases distinguish those particular formulae. On **pp. 810–811**, he compares older and analytical notation and describes a recurrent exegetical rendering of the parakletike across specified compositions. These passages furnish *candidate* positives and challenging negatives, not automatically validated families.
+
+The relationship between modal degree and realisation is also attested by **Chrysanthos, §408**, as quoted by Karagkounis (2003, p. 715 n. 28), concerning parakalesma on Pa and Vou. A different melodic rendering under a shared historical name **does not, by itself, demonstrate** that the two forms constitute one analytical family; that remains a comparative hypothesis. Gheorghiță (2010, [article](https://www.scia.istoria-artei.ro/resources/2010/02_NICOLAE%20GHEORGHITA_technique_of_transcription.pdf)) on Communion-chant exegeses and Tsogias (2018, [repository record/abstract](https://pergamos.lib.uoa.gr/item/uoadl:2846915)) on the Doxastarion of Iakovos provide further contexts for testing modal variation and interactions with neighbouring formulae respectively. Where the full musical examples have not been inspected, these remain leads for further examination.
+
+### From candidate to tested family
+
+The workflow distinguishes **(a)** collecting historical names and identifiable occurrences, **(b)** developing a type-specific specification with stated analytical scale, context, permissible changes and exclusions, **(c)** separating definition evidence from independent test evidence, **(d)** finalising the specification and asking independent experts to judge new occurrences, and **(e)** recording disagreements, revisions and versions.
+
+A candidate family identifier is not a validation claim. **Assessability is checked before** the existing three-way judgement of **member / non-member / ambiguous**: insufficient notational observability may lead to **not assessable**, while an incompatible analytical scale or historical domain may lead to **out of scope**. Missing evidence is not evidence of a different type.
+
+Judgements of **shared family**, **perceived melodic similarity**, **common function** and **historical relationship** are recorded separately: they can coexist and are not mutually exclusive. Examples used to develop or revise a specification do not count as independent tests. Challenging negatives include highly similar occurrences of a different type, alongside documented variants that may be less similar on the surface.
+
+### Separating family and exegetical supervision
+
+The family relationship concerns **identity at the type level**, potentially across distinct passages. **Co-exegesis** concerns different exegetical renderings of **the same particular passage**. A family specification may itself draw on historical evidence; what differs between B2 and EISE is the **provenance and topology of positive relational pairs**, under common family supervision and architecture ([M2](../../../docs/full/06-eise.md), [matching protocol F.1](../../../docs/appendices/f.md)). The contrast $\Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{B2}$ evaluates agreement with the independent performance criterion on the common eligible support. On its own, it does not identify a “pure effect of the exegete”, because sharing the composition locus is an intrinsic property of the historical pairs.
 
 <a id="κριτήρια-μουσικολογικής-οριοθέτησης"></a>
 
