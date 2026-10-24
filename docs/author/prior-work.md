@@ -15,7 +15,7 @@
 | Βαθμονομημένη συνθετική εποπτεία για ESPI | [Χειρόγραφο SETN](../../documents/prior-work/setn-calibrated-espi-supervision.pdf) |
 | Ερμηνεύσιμη ταξινόμηση τρόπων ταλάντωσης | [Χειρόγραφο SETN](../../documents/prior-work/setn-espi-mode-classification.pdf) |
 | Προσοχή καναλιών και αποθορυβοποίηση | [Αναθεωρημένο χειρόγραφο SETN](../../documents/prior-work/setn-espi-attention-denoising.pdf) |
-| Προσδιορισιμότητα και γεωμετρία αντιστροφής MESPI | [Πλήρες χειρόγραφο](../../documents/prior-work/mespi-inverse-geometry.pdf) |
+| Προσδιορισιμότητα και γεωμετρία αντιστροφής MESPI | [Πλήρες paper](../../documents/prior-work/mespi-inverse-geometry.pdf) |
 
 ## Μεταπτυχιακή έρευνα: ταλαντώσεις μουσικών οργάνων
 
