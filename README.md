@@ -8,7 +8,7 @@
 
 [Βιογραφικό](docs/author/index.md) · [Προγενέστερη εργασία, MESPI και δημόσιος κώδικας](docs/author/prior-work.md) · [Paper SETN και MESPI](documents/prior-work/README.md)
 
-**Δέκα λεπτά:** [Τι είναι νέο](#τι-είναι-νέο) → [Θέση και οικογένεια](docs/current/position-and-family.md#ένα-σχηματικό-παράδειγμα) → [Το αντίστροφο πρόβλημα](docs/current/inverse-problem.md).
+**Συνοπτικά:** [Τι είναι νέο](#τι-είναι-νέο) → [Θέση και οικογένεια](docs/current/position-and-family.md#ένα-σχηματικό-παράδειγμα) → [Το αντίστροφο πρόβλημα](docs/current/inverse-problem.md).
 
 **Τρέχοντα κείμενα ανάγνωσης:** ελληνική σύντομη πρόταση και αγγλική έκδοση, ενημερωμένες στις 23/10/2026. [Εκδόσεις και πρωτόκολλα](docs/reference.md).
 
