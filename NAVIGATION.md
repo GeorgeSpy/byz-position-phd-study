@@ -6,7 +6,7 @@
 
 [Αρχική σελίδα](README.md) · [Σύνοψη](docs/start/overview.md) · [Θεματικές επεξηγήσεις](docs/current/index.md) · [Κείμενα και πηγές](docs/reference.md)
 
-**Δέκα λεπτά:** [Τι είναι νέο](README.md#τι-είναι-νέο) → [Θέση και οικογένεια](docs/current/position-and-family.md#ένα-σχηματικό-παράδειγμα) → [Το αντίστροφο πρόβλημα](docs/current/inverse-problem.md).
+**Συνοπτικά:** [Τι είναι νέο](README.md#τι-είναι-νέο) → [Θέση και οικογένεια](docs/current/position-and-family.md#ένα-σχηματικό-παράδειγμα) → [Το αντίστροφο πρόβλημα](docs/current/inverse-problem.md).
 
 Η περιήγηση αρχίζει από τη [Σύντομη ερευνητική πρόταση](documents/short-proposal.pdf), διαθέσιμη και σε [αγγλική έκδοση](documents/short-proposal-en.pdf), και οδηγεί στην [Αναλυτική ερευνητική πρόταση](documents/analytical-proposal.pdf), στις θεματικές επεξηγήσεις και στη βιβλιογραφική τεκμηρίωση. Ο [πίνακας περιεχομένων](documents/README.md) επιτρέπει απευθείας πρόσβαση στα κεφάλαια και στα παραρτήματα.
 
