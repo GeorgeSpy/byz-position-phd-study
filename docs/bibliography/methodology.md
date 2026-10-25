@@ -2,7 +2,7 @@
 
 [Μεθοδολογικός χάρτης](../current/index.md) · [Βιβλιογραφικό ευρετήριο](index.md) · [Ανά θέμα](by-topic.md)
 
-Οι 83 εγγραφές συγκεντρώνουν τις αναφορές του μεθοδολογικού κειμένου που στηρίζει τις συμπληρωματικές επεξηγήσεις. Οι στόχοι s001–s083 παρέχουν σταθερή πρόσβαση σε κάθε εγγραφή. Το [βιβλιογραφικό ευρετήριο](index.md) διατηρεί χωριστά την αρίθμηση b001–b135 του αναλυτικού αναγνωστηρίου.
+Οι 84 εγγραφές συγκεντρώνουν τις αναφορές του μεθοδολογικού κειμένου που στηρίζει τις συμπληρωματικές επεξηγήσεις. Οι στόχοι s001–s083 παρέχουν σταθερή πρόσβαση σε κάθε εγγραφή. Το [βιβλιογραφικό ευρετήριο](index.md) διατηρεί χωριστά την αρίθμηση b001–b135 του αναλυτικού αναγνωστηρίου.
 
 
 ## Ελληνόγλωσση
@@ -257,6 +257,9 @@
 
 <a id="s083"></a>
 - von Rueden, L., Mayer, S., Beckh, K., Georgiev, B., Giesselbach, S., Heese, R., Kirsch, B., Pfrommer, J., Pick, A., Ramamurthy, R., Walczak, M., Garcke, J., Bauckhage, C., & Schuecker, J. (2023). Informed machine learning: A taxonomy and survey of integrating prior knowledge into learning systems. *IEEE Transactions on Knowledge and Data Engineering*, 35(1), 614–633.
+
+<a id="s084"></a>
+- Alexandru, M., & Tsougras, C. (2008). On the methodology of structural analysis in Byzantine and classical Western music: A comparison. In E. Cambouropoulos, R. Parncutt, M. Solomos, D. Stefanou, & C. Tsougras (Eds.), *Proceedings of the Fourth Conference on Interdisciplinary Musicology (CIM08): Musical Structure* (pp. 1–19). Aristotle University of Thessaloniki. [PDF](https://www.dropbox.com/s/bwlqb6qrm2rvprg/2008_Alexandru_Tsougras-Analysis_in_byzantine_and_western_music-CIM08-Thessaloniki.pdf).
 
 ---
 
