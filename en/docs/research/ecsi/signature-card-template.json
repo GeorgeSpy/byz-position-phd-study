@@ -1,0 +1,33 @@
+{
+  "schema_version": "draft-2026-10-25",
+  "status": "drafted_NOT_VALIDATED",
+  "family_id": "OPEN",
+  "type_id": "OPEN",
+  "signature_version": "OPEN",
+  "musical_scale": "OPEN",
+  "historical_name": "OPEN",
+  "source_register": [],
+  "anchor_definitions": [
+    {
+      "anchor_id": "OPEN",
+      "musicological_role": "OPEN",
+      "value_type": "OPEN: discrete|ordinal|continuous",
+      "diagnostic_role": "OPEN: core|support|context|periphery|exclusion",
+      "K_true": "OPEN",
+      "K_obs": "OPEN",
+      "units_or_tolerance": "OPEN",
+      "source_claim_id": "OPEN",
+      "independent_review": "OPEN"
+    }
+  ],
+  "global_required": [],
+  "sufficient_branches": [],
+  "context_rules": [],
+  "exclusions": [],
+  "supporting_relations": [],
+  "independent_occurrences": [],
+  "candidate_family_alignment_rule": "OPEN",
+  "rights_status": "OPEN",
+  "pilot_status": "NOT_READY",
+  "notes": "Documentation template only; no authentic passage or musicological judgement has been entered."
+}
