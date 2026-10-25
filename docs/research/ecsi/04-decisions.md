@@ -1,5 +1,9 @@
 # Καταγεγραμμένες αποφάσεις και ανοιχτές πύλες
 
+<!-- language-switch:start -->
+**Γλώσσα / Language:** **Ελληνικά** · [English](../../../en/docs/research/ecsi/04-decisions.md)
+<!-- language-switch:end -->
+
 [Επιστροφή](README.md)
 
 | Θέμα | Σημερινή θέση | Τι μπορεί να την ανατρέψει |
