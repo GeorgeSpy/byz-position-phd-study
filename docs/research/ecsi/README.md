@@ -1,5 +1,9 @@
 # ECSI — Μουσικολογικά τεκμηριωμένες υπογραφές οικογενειών θέσεων
 
+<!-- language-switch:start -->
+**Γλώσσα / Language:** **Ελληνικά** · [English](../../../en/docs/research/ecsi/README.md)
+<!-- language-switch:end -->
+
 **Αυτοτελής ερευνητική επέκταση · Κατάσταση: σχεδιασμός και αναγνωριστική φάση Π0′–Π2′**
 
 [Αρχική ερευνητική πρόταση](../../../README.md) · [Μουσικολογική θεμελίωση](../../musicology/index.md) · [Mθέσις](../../current/m-thesis.md) · [EISE](../../full/06-eise.md) · [ATL](../../current/atl.md)
