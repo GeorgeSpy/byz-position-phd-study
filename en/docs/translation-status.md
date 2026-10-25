@@ -2,7 +2,7 @@
 
 **Language / Γλώσσα:** [Ελληνικά](../../README.md) · [English home](../README.md) · [Navigation](../NAVIGATION.md)
 
-The English edition is being developed as a parallel reader. **The first 16 pages are available in English**, covering the introduction, contribution, terminology, definitions, core methodological explanations, examples and biography. The [34-page English short proposal](../../documents/short-proposal-en.pdf) is already available.
+The English edition is being developed as a parallel reader. **24 Markdown pages are available in English**, covering the introduction, contribution, terminology, definitions, core methodological explanations, examples and biography. The [34-page English short proposal](../../documents/short-proposal-en.pdf) is already available.
 
 ## Available in English
 
@@ -24,6 +24,16 @@ The English edition is being developed as a parallel reader. **The first 16 page
 | [docs/review/knowledge-contributions.md](../../docs/review/knowledge-contributions.md) | [What the dissertation will establish](review/knowledge-contributions.md) |
 | [docs/start/overview.md](../../docs/start/overview.md) | [Overview of the research proposal](start/overview.md) |
 | [docs/start/reading-paths.md](../../docs/start/reading-paths.md) | [Reading paths](start/reading-paths.md) |
+| [docs/research/ecsi/README.md](../../docs/research/ecsi/README.md) | [ECSI overview and contribution](research/ecsi/README.md) |
+| [docs/research/ecsi/01-research-question.md](../../docs/research/ecsi/01-research-question.md) | [ECSI research question and ontology](research/ecsi/01-research-question.md) |
+| [docs/research/ecsi/02-architecture.md](../../docs/research/ecsi/02-architecture.md) | [ECSI-D probabilistic architecture](research/ecsi/02-architecture.md) |
+| [docs/research/ecsi/03-methods-and-gates.md](../../docs/research/ecsi/03-methods-and-gates.md) | [P0′–P2′ protocol and evaluation gates](research/ecsi/03-methods-and-gates.md) |
+| [docs/research/ecsi/04-decisions.md](../../docs/research/ecsi/04-decisions.md) | [Design decisions](research/ecsi/04-decisions.md) |
+| [docs/research/ecsi/05-evidence-and-limitations.md](../../docs/research/ecsi/05-evidence-and-limitations.md) | [Evidence and limitations](research/ecsi/05-evidence-and-limitations.md) |
+| [docs/research/ecsi/06-bibliography.md](../../docs/research/ecsi/06-bibliography.md) | [Scientific literature](research/ecsi/06-bibliography.md) |
+| [docs/research/ecsi/07-publication-roadmap.md](../../docs/research/ecsi/07-publication-roadmap.md) | [Research and publication roadmap](research/ecsi/07-publication-roadmap.md) |
+
+**The ECSI research direction is available in full in both languages:** eight Markdown pages plus a corresponding [English JSON signature-card template](research/ecsi/signature-card-template.json). This update does not imply translation of the remaining Greek technical chapters or source material.
 
 ## Remaining material
 
@@ -38,7 +48,7 @@ The complete chapters, technical appendices and supporting documentation will be
 | Bibliographic notes | 141 |
 | Other guides and records | 30 |
 
-The register contains **225 source Markdown pages**, including individual bibliography entries and maintenance records. Of these, **16 are translated and 209 remain pending**. This count concerns Markdown pages; it does not imply translation of the analytical PDF, LaTeX sources or text embedded in primary-source images.
+The register contains **233 source Markdown pages**, including individual bibliography entries and maintenance records and the newly added ECSI research direction. Of these, **24 are translated and 209 remain pending**. This count concerns Markdown pages; it does not imply translation of the analytical PDF, LaTeX sources or text embedded in primary-source images.
 
 <details>
 <summary>Complete list of pending pages (209)</summary>
