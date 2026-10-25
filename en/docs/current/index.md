@@ -32,6 +32,8 @@ The cognitive study additionally examines how families relate to listeners' cate
 
 The [musicological documentation (Greek)](../../../docs/musicology/index.md) explains formula, variation, metrophonia and exegesis. The [examples](../examples/index.md) connect these concepts with recorded forms and schematic explanations.
 
+The **[ECSI research direction](../research/ecsi/README.md)** develops musicologically grounded family signatures and their probabilistic compilation into a separate MIML/MIR architecture, with its own controlled evaluation programme.
+
 ## Full text and bibliography
 
 [Short proposal — English PDF](../../../documents/short-proposal-en.pdf) · [Greek short proposal](../../../documents/short-proposal.pdf) · [Detailed proposal — Greek PDF](../../../documents/analytical-proposal.pdf) · [Chapters and appendices (Greek)](../../../docs/full/index.md)

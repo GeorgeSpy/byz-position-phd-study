@@ -17,6 +17,7 @@ Start with the [short research proposal in English](../documents/short-proposal-
 | Historical transformations | [ATL](docs/current/atl.md) | [Exegesis and sources (Greek)](../docs/musicology/04-exegesis.md) |
 | Older notation from exegesis | [ATL-INV](docs/current/inverse-problem.md) | [Musicological foundations (Greek)](../docs/musicology/06-old-notation.md) |
 | Probabilistic realisation | [Mthesis operator](docs/current/m-thesis.md) | [Full mathematical development](docs/current/m-thesis-technical.md) |
+| **New research direction — ECSI** | **[Musicology-Informed Machine Learning](docs/research/ecsi/README.md)** | [Architecture](docs/research/ecsi/02-architecture.md) · [Protocol P0′–P2′](docs/research/ecsi/03-methods-and-gates.md) |
 | Previous work in each field | [Contribution matrix](docs/review/contribution-matrix.md) | [Detailed field syntheses (Greek)](../docs/research/index.md) |
 | Byzantine musicology | [Research questions and new knowledge](docs/review/knowledge-contributions.md) | [Sources, variation, families, exegesis and repertory (Greek)](../docs/musicology/index.md) |
 | Bibliography | [Methodological bibliography (Greek notes)](../docs/bibliography/methodology.md) | [Bibliographic index (Greek)](../docs/bibliography/index.md), [by topic (Greek)](../docs/bibliography/by-topic.md) |

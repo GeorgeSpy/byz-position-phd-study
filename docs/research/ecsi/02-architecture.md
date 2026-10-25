@@ -1,5 +1,9 @@
 # Υποψήφια αρχιτεκτονική ECSI-D
 
+<!-- language-switch:start -->
+**Γλώσσα / Language:** **Ελληνικά** · [English](../../../en/docs/research/ecsi/02-architecture.md)
+<!-- language-switch:end -->
+
 [Επιστροφή](README.md)
 
 Η **ECSI-D** είναι το προτεινόμενο εξαρτημένο μοντέλο υπογραφών (Work A2). Το όνομα την ξεχωρίζει από το **Α2 της Μελέτης 2**, που διατηρείται αυτοτελές.

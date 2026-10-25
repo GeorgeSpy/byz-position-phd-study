@@ -12,6 +12,8 @@
 
 **Selected reading documents:** the Greek short proposal and the 3 English edition, selected on 23 October 2026. [Documents and protocols](docs/reference.md).
 
+**New research direction — ECSI:** [Musicologically grounded signatures for melodic formula families](docs/research/ecsi/README.md). A Musicology-Informed Machine Learning (MIML) framework with the ECSI-D architecture and the independent P0′–P2′ research protocol.
+
 **[Short research proposal — English PDF](../documents/short-proposal-en.pdf)** · [Greek short proposal](../documents/short-proposal.pdf) · [Detailed research proposal — Greek PDF](../documents/analytical-proposal.pdf) · [PDF contents (Greek)](../documents/README.md)
 
 How can the same melodic formula be recognised when its melodic form changes? How much information from the older written tradition remains recoverable from an analytical exegesis? The proposal brings Byzantine musicology, symbolic music information retrieval (MIR) and machine learning together around these two questions.
@@ -59,6 +61,7 @@ The provenance of positive pairs becomes an experimental variable: common family
 | understand the inverse problem and its measurements | [ATL-INV](docs/current/inverse-problem.md) |
 | study how historical transformations are learned | [ATL](docs/current/atl.md) |
 | examine the operator's definition and contribution | [Mthesis](docs/current/m-thesis.md) |
+| explore the new Musicology-Informed Machine Learning research direction | **[ECSI — Musical Formula Family Signatures](docs/research/ecsi/README.md)** |
 | explore Byzantine notation and formulae | [Musicological documentation (Greek)](../docs/musicology/index.md) |
 | understand the contribution and its relationship to previous research | [Contributions by field](docs/review/contribution-matrix.md) |
 | read a full chapter or technical appendix | [Detailed chapters and appendices (Greek)](../docs/full/index.md) |

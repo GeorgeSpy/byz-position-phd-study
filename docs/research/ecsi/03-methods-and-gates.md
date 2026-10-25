@@ -1,5 +1,9 @@
 # Πρωτόκολλο αναγνωριστικής και συγκριτικής μελέτης
 
+<!-- language-switch:start -->
+**Γλώσσα / Language:** **Ελληνικά** · [English](../../../en/docs/research/ecsi/03-methods-and-gates.md)
+<!-- language-switch:end -->
+
 [Επιστροφή](README.md)
 
 ## Π0′ — απογραφή χωρίς εκπαίδευση
