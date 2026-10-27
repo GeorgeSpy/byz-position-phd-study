@@ -6,7 +6,7 @@
 
 **Ερευνητική πρόταση — Γεώργιος Σπυριδάκης**
 
-[Βιογραφικό](docs/author/index.md) · [Προγενέστερη εργασία, MESPI και δημόσιος κώδικας](docs/author/prior-work.md) · [Paper SETN και MESPI](documents/prior-work/README.md)
+[Βιογραφικό](docs/author/index.md) · [Προγενέστερη εργασία, νευρωνικού τελεστή MESPI και δημόσιος κώδικας](docs/author/prior-work.md) · [Paper SETN και MESPI](documents/prior-work/README.md)
 
 **Συνοπτικά:** [Τι είναι νέο](#τι-είναι-νέο) → [Θέση και οικογένεια](docs/current/position-and-family.md#ένα-σχηματικό-παράδειγμα) → [Το αντίστροφο πρόβλημα](docs/current/inverse-problem.md).
 
