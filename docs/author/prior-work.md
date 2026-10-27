@@ -12,9 +12,9 @@
 
 | Αντικείμενο | Πλήρες κείμενο |
 |---|---|
-| Βαθμονομημένη συνθετική εποπτεία για ESPI | [Χειρόγραφο SETN](../../documents/prior-work/setn-calibrated-espi-supervision.pdf) |
-| Ερμηνεύσιμη ταξινόμηση τρόπων ταλάντωσης | [Χειρόγραφο SETN](../../documents/prior-work/setn-espi-mode-classification.pdf) |
-| Προσοχή καναλιών και αποθορυβοποίηση | [Αναθεωρημένο χειρόγραφο SETN](../../documents/prior-work/setn-espi-attention-denoising.pdf) |
+| Βαθμονομημένη συνθετική εποπτεία για ESPI | [paper SETN](../../documents/prior-work/setn-calibrated-espi-supervision.pdf) |
+| Ερμηνεύσιμη ταξινόμηση τρόπων ταλάντωσης | [paper SETN](../../documents/prior-work/setn-espi-mode-classification.pdf) |
+| Προσοχή καναλιών και αποθορυβοποίηση | [Αναθεωρημένο paper SETN](../../documents/prior-work/setn-espi-attention-denoising.pdf) |
 | Προσδιοειαμός και γεωμετρία αντιστροφής MESPI | [Πλήρες paper](../../documents/prior-work/mespi-inverse-geometry.pdf) |
 
 ## Μεταπτυχιακή έρευνα: ταλαντώσεις μουσικών οργάνων
