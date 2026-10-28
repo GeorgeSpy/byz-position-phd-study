@@ -6,12 +6,15 @@
 
 [Αρχική σελίδα](README.md) · [Σύνοψη](docs/start/overview.md) · [Θεματικές επεξηγήσεις](docs/current/index.md) · [Κείμενα και πηγές](docs/reference.md)
 
+**[Μελέτες Μ1–Μ5, Α2 και ελάχιστος κορμός](docs/studies/index.md)** · **[Α2](docs/studies/a2.md)**
+
 **Συνοπτικά:** [Τι είναι νέο](README.md#τι-είναι-νέο) → [Θέση και οικογένεια](docs/current/position-and-family.md#ένα-σχηματικό-παράδειγμα) → [Το αντίστροφο πρόβλημα](docs/current/inverse-problem.md).
 
 Η περιήγηση αρχίζει από τη [Σύντομη ερευνητική πρόταση](documents/short-proposal.pdf), διαθέσιμη και σε [αγγλική έκδοση](documents/short-proposal-en.pdf), και οδηγεί στην [Αναλυτική ερευνητική πρόταση](documents/analytical-proposal.pdf), στις θεματικές επεξηγήσεις και στη βιβλιογραφική τεκμηρίωση. Ο [πίνακας περιεχομένων](documents/README.md) επιτρέπει απευθείας πρόσβαση στα κεφάλαια και στα παραρτήματα.
 
 | Αντικείμενο | Πρώτη ανάγνωση | Εμβάθυνση |
 |---|---|---|
+| **Κύριες μελέτες, υποχρεώσεις και κριτήρια επάρκειας** | **[Χάρτης Μ1–Μ5 και Α2](docs/studies/index.md)** | [Α2 αναλυτικά](docs/studies/a2.md) · [Παλαιότερα τεχνικά κεφάλαια](docs/full/index.md) |
 | Συνολικό σχέδιο | [Σύνοψη](docs/start/overview.md) | [Μεθοδολογικός χάρτης](docs/current/index.md) |
 | Ταυτότητα θέσης και MIR | [Μουσικό παράδειγμα](docs/examples/index.md), [M1–M5](docs/start/overview.md#η-διαδρομή-της-μουσικής-ταυτότητας) | [Παλαιότερο αναλυτικό πρωτόκολλο](docs/full/index.md) |
 | Ιστορικοί μετασχηματισμοί | [ATL](docs/current/atl.md) | [Εξήγηση και πηγές](docs/musicology/04-exegesis.md) |
