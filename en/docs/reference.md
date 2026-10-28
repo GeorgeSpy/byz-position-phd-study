@@ -6,9 +6,11 @@
 
 [Home](../README.md) · [English proposal](../../documents/short-proposal-en.pdf) · [Thematic navigation](../NAVIGATION.md)
 
-## The two texts
+## Current core plan and earlier documents
 
-The [short research proposal in English](../../documents/short-proposal-en.pdf) presents the research programme's overall logic. A [Greek short proposal](../../documents/short-proposal.pdf) is also available. The [analytical research proposal (Greek)](../../documents/analytical-proposal.pdf) develops the musicological foundations, methods, evaluation protocols and appendices. The [contents page (Greek)](../../documents/README.md) links directly to its sections.
+**Current document:** [Core research plan — Greek PDF, 16 pages](../../documents/core-research-plan.pdf) · [LaTeX source](../../documents/core-research-plan.tex) · [Study map in English](studies/index.md). This plan distinguishes the required M1/A2/M2a/M3a programme from historical M2b and conditional extensions.
+
+**Earlier extended design:** [Extended research design — earlier Greek version](../../documents/analytical-proposal.pdf), retained in full with its earlier technical architecture. The [earlier Greek short proposal](../../documents/short-proposal.pdf) and [earlier English translation](../../documents/short-proposal-en.pdf) also remain available. An English translation of the **current 16-page plan** has not yet been uploaded.
 
 <a id="what-each-version-covers"></a>
 
@@ -18,11 +20,11 @@ The [overview](start/overview.md) and [method explanations](current/index.md) co
 
 The [linked chapters and appendices (Greek)](../../docs/full/index.md) present an earlier analytical text with [terminological editing](../TERMINOLOGY.md). The thematic explanations use additional methodological material. Exact source correspondence is recorded in the [source history (Greek)](../../docs/maintenance/source-history.md), connecting each statement and protocol to its original text.
 
-## Current reading texts
+## Document chronology
 
-The **38-page** Greek short proposal and **34-page** English edition were selected by the author on **23 October 2026**. The analytical volume supplies further documentation. Version-numbered files in the <code>sources</code> directory preserve the provenance of material used on the thematic pages. [File details and replacement history (Greek)](../../docs/maintenance/source-history.md).
+The [current core plan](../../documents/core-research-plan.pdf) is dated 28 October 2026. The **38-page** Greek and **34-page** English short documents were selected on 23 October 2026 and are retained as **earlier proposals**. The extended analytical text and online reader reflect earlier design stages. [Source history (Greek)](../../docs/maintenance/source-history.md).
 
-## Current protocol clarifications
+## Clarifications in the earlier online research reader
 
 The online reader of 23 October 2026 adopts **two co-primary historical comparisons**, total recovery and added value beyond rules, with a shared Holm correction. This follows T19.1 of the separate technical appendix v1.1 dated 22 October 2026, submitted by the author as <code>ANNEX_MTHESIS_ATL_INV_EISE_TECHNICAL_GR_v1_1_2026-10-22.md</code>. The full arrangement appears in [historical recovery](current/inverse-problem.md#two-co-primary-historical-comparisons). The historical-supervision comparison using independent performances and the two human hypotheses retain their separate protocols.
 
@@ -30,7 +32,7 @@ In the reading texts, the Study 1 feature factor is denoted $`\Phi`$ and the gri
 
 The selected PDFs preserve the content of the recorded submissions. Newer clarifications in the online reader are recorded here for incorporation into the next unified edition of the main text and appendices.
 
-## Contributions and new knowledge
+## Contributions and new knowledge in the earlier reader
 
 The revision of 23 October 2026 organises the contribution around research questions and the knowledge they will yield. Musicological C3 is presented first and independently, while the cognitive study receives code C4. C1, C2a and C2b retain their codes and methodological connections. The human hypotheses, primary performance criterion and two co-primary historical comparisons follow the protocols already declared.
 
