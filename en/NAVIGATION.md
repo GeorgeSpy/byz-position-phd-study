@@ -6,11 +6,13 @@
 
 [Home](README.md) · [Overview](docs/start/overview.md) · [Thematic explanations](docs/current/index.md) · [Documents and sources](docs/reference.md)
 
+**[Current core research plan — Greek PDF](../documents/core-research-plan.pdf)** · [LaTeX source](../documents/core-research-plan.tex)
+
 **[Studies M1–M5, A2 and minimum core](docs/studies/index.md)** · **[A2](docs/studies/a2.md)**
 
 **Ten minutes:** [What is new](README.md#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md).
 
-Start with the [short research proposal in English](../documents/short-proposal-en.pdf), also available in [Greek](../documents/short-proposal.pdf), and continue to the [detailed research proposal in Greek](../documents/analytical-proposal.pdf), thematic explanations and bibliographic evidence. The [PDF contents (Greek)](../documents/README.md) provides direct access to chapters and appendices.
+Start with the [current core research plan (Greek PDF)](../documents/core-research-plan.pdf) and the [M1–M5/A2 study map](docs/studies/index.md). The [earlier extended design (Greek)](../documents/analytical-proposal.pdf) and [earlier English proposal](../documents/short-proposal-en.pdf) remain available for detailed research history; the older English PDF is **not a translation of the current core plan**. [Document guide (Greek)](../documents/README.md).
 
 | Topic | First reading | Further study |
 |---|---|---|
