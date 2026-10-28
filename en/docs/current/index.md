@@ -6,6 +6,8 @@
 
 [Home](../../README.md) · **[M1–M5, A2 and minimum core](../studies/index.md)** · [Overview](../start/overview.md) · [Documents and sources](../reference.md)
 
+**[Current core research plan — Greek PDF](../../../documents/core-research-plan.pdf)**
+
 **For the revised short research design**, start with the [study hierarchy and feasibility gates](../studies/index.md) or the [A2 guide](../studies/a2.md). The older chapters linked below retain earlier formulations.
 
 The proposal connects **recognition of musical identity** with **the study of historical transmission**. Their common unit is a documented occurrence of a formula in a specific work and source. Family specifications organise recognition and realisation prediction; correspondences between an older witness and an exegesis support historical recovery.
