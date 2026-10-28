@@ -48,4 +48,21 @@ Depending on these gates, an outcome may be **confirmatory**, **estimation-only*
 
 **Important older-vs-current notation:** Earlier M2 chapters use B0 for a direct symbolic historical profile and include a further `Δlearn` contrast. In the revised short study B0 is the symbolic semi-CRF baseline, and **`Δhist` is the sole primary historical M2b contrast**. Consult the source chapters without conflating these versions.
 
+## GitHub evidence for research extensions
+
+These links point to **existing GitHub documentation**. ECSI, Mthesis, ATL and ATL-INV currently have documented locations *within this repository*; separate dedicated repositories have not been verified.
+
+| Extension / research infrastructure | Documentation |
+|---|---|
+| **ECSI** | [Architecture and research protocol (Greek)](../../../docs/research/ecsi/README.md) |
+| **Mthesis** | [Probabilistic realisation operator](../current/m-thesis.md) |
+| **ATL** | [Attested transformation learning](../current/atl.md) |
+| **ATL-INV** | [Inverse historical retrieval](../current/inverse-problem.md) |
+| **M3b / M3c / full M4** | [Detailed validation chapters (Greek)](../../../docs/full/07-validation.md) |
+| **M5** | [Complete-work characterisation (Greek)](../../../docs/full/09-nikolaos.md) |
+| **Evidence infrastructure** | [ByzToken-RAG — separate repository](https://github.com/GeorgeSpy/ByzToken-RAG) |
+| **Prior computational research** | [MESPI reproducible studies — separate repository](https://github.com/GeorgeSpy/MESPI-reproducible-studies) |
+
+The presence of a link does not make the corresponding extension a mandatory part of the minimum research core.
+
 [A2](a2.md) · [Definitions](../current/position-and-family.md) · [Source documents](../reference.md)
