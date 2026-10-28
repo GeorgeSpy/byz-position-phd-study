@@ -4,11 +4,13 @@
 **Language / Γλώσσα:** [Ελληνικά](../../../docs/studies/index.md) · **English**
 <!-- language-switch:end -->
 
+**[Current core research plan — Greek PDF](../../../documents/core-research-plan.pdf)** · [LaTeX](../../../documents/core-research-plan.tex)
+
 [Home](../../README.md) · [Navigation](../../NAVIGATION.md) · [A2 study guide](a2.md) · [Earlier detailed chapters (Greek)](../../../docs/full/index.md)
 
 This guide maps the **revised short research design** to the materials in this repository. It distinguishes work required to complete the core research programme from experiments conditional on the availability and quality of historical or performance data.
 
-> **Source-status note:** The PDFs currently hosted in the repository and the detailed linked chapters reflect earlier stages of the proposal. The research-study hierarchy below reflects the revised short design; the earlier source chapters remain available for historical and methodological context.
+> **Source-status note:** The [current core research plan (Greek PDF)](../../../documents/core-research-plan.pdf) is now available. The [earlier extended design](../../../documents/analytical-proposal.pdf) and the detailed linked chapters reflect earlier stages of the proposal. The research-study hierarchy below reflects the revised short design; the earlier source chapters remain available for historical and methodological context.
 
 ## The main research path
 
