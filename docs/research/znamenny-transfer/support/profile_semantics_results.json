@@ -3,7 +3,7 @@
   "synthetic_only": true,
   "checks": 221,
   "max_numeric_error": 1.5555524229826645e-10,
-  "claude_counterexample": {
+  "baseline_counterexample": {
     "seed": 19,
     "profile_columns": 1,
     "alphabet_size": 2,
@@ -601,7 +601,7 @@
       "error": 0.0
     },
     {
-      "name": "claude_normalization_counterexample_detected",
+      "name": "baseline_normalization_regression_detected",
       "error": 0.0
     },
     {

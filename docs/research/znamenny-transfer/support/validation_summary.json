@@ -10,19 +10,19 @@
       "script": "original_oracles/toy_semimarkov_checks.py",
       "returncode": 0,
       "seconds": 0.885052504999976,
-      "log": "work_oracle_rerun.txt"
+      "log": "semimarkov_baseline_rerun.txt"
     },
     {
-      "script": "original_oracles/claude_dp_oracle.py",
+      "script": "original_oracles/profile_hmm_regression_oracle.py",
       "returncode": 0,
       "seconds": 0.9467142060000242,
-      "log": "claude_dp_oracle_rerun.txt"
+      "log": "profile_hmm_regression_rerun.txt"
     },
     {
-      "script": "original_oracles/claude_ac_ecsi_oracle.py",
+      "script": "original_oracles/alignment_product_oracle.py",
       "returncode": 0,
       "seconds": 1.4074267639998652,
-      "log": "claude_ac_ecsi_oracle_rerun.txt"
+      "log": "alignment_product_rerun.txt"
     },
     {
       "script": "original_oracles/oracle_Zf_context_counterexample.py",
@@ -31,10 +31,10 @@
       "log": "oracle_Zf_context_counterexample_rerun.txt"
     },
     {
-      "script": "astra_oracle.py",
+      "script": "profile_semantics_oracle.py",
       "returncode": 0,
       "seconds": 1.2486022390000926,
-      "log": "astra_oracle_run.txt"
+      "log": "profile_semantics_run.txt"
     },
     {
       "script": "ecsi_kappa_context_oracle.py",
