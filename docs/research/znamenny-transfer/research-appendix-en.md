@@ -146,7 +146,7 @@ Questions 2 and 3 concern the relation between musicological knowledge and learn
 
 ## Objects and available information
 
-Let $d\in\{B,Z\}$ denote the tradition (Byzantine or Znamenny). Each work is a sequence of elementary symbolic events $X=(x_1,\ldots,x_T)$. A candidate segment $s=(a,b]$ has length $n=b-a$, with $1\le n\le L$. $F_d$ is the local vocabulary of known families in the tradition. $C$ contains the context known before prediction, such as the declared mode, the position in the text and the accentuation. Features computed from $X$ itself remain functions of the observation and are not treated as exogenous constants.
+Let $d\in\lbrace B,Z\rbrace$ denote the tradition (Byzantine or Znamenny). Each work is a sequence of elementary symbolic events $X=(x_1,\ldots,x_T)$. A candidate segment $s=(a,b]$ has length $n=b-a$, with $1\le n\le L$. $F_d$ is the local vocabulary of known families in the tradition. $C$ contains the context known before prediction, such as the declared mode, the position in the text and the accentuation. Features computed from $X$ itself remain functions of the observation and are not treated as exogenous constants.
 
 For each candidate family $f\in F_d$, the template $\Pi_f$ consists of $J_f$ landmarks. Each landmark has a local structural role $r_{f,j}\in\mathcal R_d$. The template is derived solely from training examples and expert judgement, and it is a testable hypothesis about that family. For families without a single common core (polythetic families), a finite mixture of templates $p_f=\sum_v\omega_{f,v}p_{f,v}$ is allowed, with the same capacity limit in all compared models. A family is not excluded because a single template cannot describe it; the failure is recorded as a result.
 
@@ -167,13 +167,13 @@ The probabilities of the outgoing transitions of each state sum to one, includin
 ```math
 t(M_J,\mathrm{END})+t(M_J,I_J)=1,\qquad t(I_J,\mathrm{END})+t(I_J,I_J)=1,\qquad t(D_J,\mathrm{END})=1.
 ```
-There are no cycles of silent states, and every insert self-transition has probability $t(I_j,I_j)<1$. The joint probability of sequence and alignment is
+There are no cycles of silent states, and every insert self-transition has probability $t(I_j,I_j)\lt 1$. The joint probability of sequence and alignment is
 ```math
-p_\kappa(x,\pi\mid f,C)=\prod_{e\in\pi}t_\kappa(e\mid r,C)\prod_{e\in\pi_{\mathrm{emit}}}e_\kappa\big(x_{i(e)}\mid e,\Pi_f,C\big),
+p_\kappa(x,\pi\vert f,C)=\prod_{e\in\pi}t_\kappa(e\vert r,C)\prod_{e\in\pi_{\mathrm{emit}}}e_\kappa\big(x_{i(e)}\vert e,\Pi_f,C\big),
 ```
 where the first product includes the transition to the end. Because each step is drawn from a locally normalised distribution and the chain terminates almost surely, the distribution is normalised over all lengths, sequences and alignments:
 ```math
-\sum_{n\ge0}\sum_{x\in V^n}\sum_\pi p_\kappa(x,\pi\mid f,C)=1.
+\sum_{n\ge0}\sum_{x\in V^n}\sum_\pi p_\kappa(x,\pi\vert f,C)=1.
 ```
 
 Transition parameters are shared per validated role, while emission distributions are defined around the template. For transfer from the Byzantine tradition a Dirichlet prior is used:
@@ -186,15 +186,15 @@ Here $\mu(r)$ is the documented partial mapping of Znamenny role $r$ to a Byzant
 
 We define the marginal probability of a sequence of length $n$ and the total mass of that length:
 ```math
-A_f(x,n)=\sum_\pi p_\kappa(x,\pi\mid f,C),\qquad a_f(n,C)=\sum_{x\in V^n}A_f(x,n).
+A_f(x,n)=\sum_\pi p_\kappa(x,\pi\vert f,C),\qquad a_f(n,C)=\sum_{x\in V^n}A_f(x,n).
 ```
-In E-min the length is treated as known, and the conditional distribution $p_\kappa(x\mid f,C,n)=A_f(x,n)/a_f(n,C)$ is used, so that length information is common to all comparisons.
+In E-min the length is treated as known, and the conditional distribution $p_\kappa(x\vert f,C,n)=A_f(x,n)/a_f(n,C)$ is used, so that length information is common to all comparisons.
 
-The full prediction, which includes length, is $\pi_f(n\mid C)\,A_f/a_f$. Alternatively the intrinsic length of the profile is used, in which case the joint probability is simply $A_f$. Multiplying $A_f$ by an independent length distribution requires renormalisation. For a window of lengths $1\le n\le L$ the denominator is $\sum_{n=1}^La_f(n,C)$. The three versions are reported separately.
+The full prediction, which includes length, is $\pi_f(n\vert C)\,A_f/a_f$. Alternatively the intrinsic length of the profile is used, in which case the joint probability is simply $A_f$. Multiplying $A_f$ by an independent length distribution requires renormalisation. For a window of lengths $1\le n\le L$ the denominator is $\sum_{n=1}^La_f(n,C)$. The three versions are reported separately.
 
 ## Diagnostic concepts and specification
 
-The diagnostic concepts $U=(U_1,\ldots,U_N)$ are binary variables, such as "the cadence falls on the degree that the family prescribes" or "the lead-in rises above the landmark". The family specification is the set $S_f\subseteq\{0,1\}^N$ of their admissible combinations. Each concept declares:
+The diagnostic concepts $U=(U_1,\ldots,U_N)$ are binary variables, such as "the cadence falls on the degree that the family prescribes" or "the lead-in rises above the landmark". The family specification is the set $S_f\subseteq\lbrace0,1\rbrace^N$ of their admissible combinations. Each concept declares:
 
 - the landmark or region at which it is judged;
 - when it is observable and when it is applicable;
@@ -203,35 +203,37 @@ The diagnostic concepts $U=(U_1,\ldots,U_N)$ are binary variables, such as "the 
 
 For a given alignment $\pi$ we define
 ```math
-q(u\mid x,\pi,C)=\prod_{j=1}^Nq_j(u_j\mid x,\pi,C),\qquad Q_f(x,\pi)=\sum_{u\in S_f}q(u\mid x,\pi,C).
+q(u\vert x,\pi,C)=\prod_{j=1}^Nq_j(u_j\vert x,\pi,C),\qquad Q_f(x,\pi)=\sum_{u\in S_f}q(u\vert x,\pi,C).
 ```
 Independence of the concepts is assumed only **given the alignment**. When the alignment is marginalised, the result is a joint distribution over the concepts that in general does not factorise:
 ```math
-q^\star_f(u\mid x,C)=\sum_\pi p_\kappa(\pi\mid x,f,C)\,q(u\mid x,\pi,C).
+q^\star_f(u\vert x,C)=\sum_\pi p_\kappa(\pi\vert x,f,C)\,q(u\vert x,\pi,C).
 ```
 On the joint space $(x,\pi,u)$ four distinct quantities are defined:
 ```math
 \begin{gathered}
-B_f(x,n)=\sum_\pi p_\kappa(x,\pi\mid f,C)\,Q_f(x,\pi),\\
-m_f(x)=\frac{B_f(x,n)}{A_f(x,n)}=\sum_{u\in S_f}q^\star_f(u\mid x,C),\\
+B_f(x,n)=\sum_\pi p_\kappa(x,\pi\vert f,C)\,Q_f(x,\pi),\\
+m_f(x)=\frac{B_f(x,n)}{A_f(x,n)}=\sum_{u\in S_f}q^\star_f(u\vert x,C),\\
 z_f(n,C)=\sum_{x\in V^n}B_f(x,n),\qquad Z_f(n,C)=\frac{z_f(n,C)}{a_f(n,C)}.
 \end{gathered}
 ```
 $B_f$ is the joint probability of observing $x$ and satisfying the specification. $m_f$ is the probability of satisfaction given $x$. $z_f$ is the joint mass of length and satisfaction, and $Z_f$ the prior probability of satisfaction given the length.
 
 If the corpus consists of occurrences selected precisely because they satisfy the specification, their correct distribution is
+**(1)**
+
 ```math
-p^S_f(x\mid n,C)=\frac{B_f(x,n)}{z_f(n,C)}=\frac{p_\kappa(x\mid f,n,C)\,m_f(x)}{Z_f(n,C)}.\tag{1}
+p^S_f(x\vert n,C)=\frac{B_f(x,n)}{z_f(n,C)}=\frac{p_\kappa(x\vert f,n,C)\,m_f(x)}{Z_f(n,C)}.
 ```
 For a window of lengths $[1,L]$ the corresponding probability of satisfaction is $Z^{[1,L]}_f(C)=\sum_{n=1}^Lz_f(n,C)/\sum_{n=1}^La_f(n,C)$. The notation distinguishes this restricted quantity from the mass over all possible lengths.
 
 ### The reference mass $r_f$ and the normalisation $Z_f$
 
-The first form of this approach, the ECSI of the main proposal (Evidence-Conditioned Selective Invariance), compares the mass $m_f$ with a reference mass $r_f(C)=\sum_{u\in S_f}r(u\mid C)$. This mass derives from a predefined reference distribution $r$ over the concepts and corrects the bias towards broader specifications. In a discriminative model the difference $\log m_f-\log r_f$ is a perfectly legitimate feature.
+The first form of this approach, the ECSI of the main proposal (Evidence-Conditioned Selective Invariance), compares the mass $m_f$ with a reference mass $r_f(C)=\sum_{u\in S_f}r(u\vert C)$. This mass derives from a predefined reference distribution $r$ over the concepts and corrects the bias towards broader specifications. In a discriminative model the difference $\log m_f-\log r_f$ is a perfectly legitimate feature.
 
-The ratio $m_f/r_f$ acquires the meaning of a Bayes factor, however, only when $q$ is a posterior under the same reference distribution, that is, $q(u\mid x,C)=r(u\mid C)\,\ell(x\mid u,C)/p_r(x\mid C)$, with a common likelihood $\ell$. The well-known encompassing-prior identity then holds (Klugkist, Kato and Hoijtink, 2005):
+The ratio $m_f/r_f$ acquires the meaning of a Bayes factor, however, only when $q$ is a posterior under the same reference distribution, that is, $q(u\vert x,C)=r(u\vert C)\,\ell(x\vert u,C)/p_r(x\vert C)$, with a common likelihood $\ell$. The well-known encompassing-prior identity then holds (Klugkist, Kato and Hoijtink, 2005):
 ```math
-\frac{m_f(x)}{r_f(C)}=\frac{p_r(x\mid U\in S_f,C)}{p_r(x\mid C)}.
+\frac{m_f(x)}{r_f(C)}=\frac{p_r(x\vert U\in S_f,C)}{p_r(x\vert C)}.
 ```
 Simple empirical calibration of a classifier, or use of training frequencies, is not enough for this identity to hold. In the model of equation (1) the corresponding normalising mass is $Z_f(n,C)$, not an $r_f$ independent of $\kappa$.
 
@@ -243,7 +245,7 @@ The difference between the two choices is a constant for each pair $(f,C)$. If t
 
 ### Information overlap
 
-The factorisation $p_\kappa(x,\pi)\,q(u\mid x,\pi)$ is consistent even when a concept is a deterministic function of the aligned emission. Conditioning on the event of satisfaction changes the distribution precisely through the denominator of (1), and a discriminative CRF accepts correlated features by definition.
+The factorisation $p_\kappa(x,\pi)\,q(u\vert x,\pi)$ is consistent even when a concept is a deterministic function of the aligned emission. Conditioning on the event of satisfaction changes the distribution precisely through the denominator of (1), and a discriminative CRF accepts correlated features by definition.
 
 The table that assigns information to the kernel or to the specification serves the **experimental isolation** of each part's contribution; it does not forbid shared inputs. An error arises only when the same observation is counted twice as two independent generative pieces of evidence, or is given a Bayesian interpretation it does not have.
 
@@ -255,7 +257,7 @@ The specification $S_f$ is compiled into a deterministic finite automaton:
 - The width of the automaton, the maximum number of states at any level, is denoted $W_f$.
 - The transition $\delta(w,u_{[e]})$ updates the state with the block of concepts $u_{[e]}$ judged on a profile transition $e$.
 
-Each full assignment $u\in\{0,1\}^N$ is counted exactly once, even when it satisfies more than one alternative branch of the specification.
+Each full assignment $u\in\lbrace0,1\rbrace^N$ is counted exactly once, even when it satisfies more than one alternative branch of the specification.
 
 ### Observed sequence
 
@@ -263,27 +265,31 @@ For a fixed sequence $x$, the state of the dynamic programme comprises:
 
 - the number $i$ of events consumed;
 - the template column $j$;
-- the state type $\sigma\in\{M,I,D\}$;
+- the state type $\sigma\in\lbrace M,I,D\rbrace$;
 - the logical state $w$;
 - whatever finite path statistics $c$ are needed.
 
 A transition $e$ updates the mass as follows:
+**(2)**
+
 ```math
-\alpha(\sigma')\mathrel{+}=\alpha(\sigma)\,t_\kappa(e)\,e_\kappa(x_i\mid e)^{\mathbf 1_{\mathrm{emit}}}\sum_{u_{[e]}}q_{[e]}(u_{[e]}\mid x,e,C)\,\mathbf 1\{w'=\delta(w,u_{[e]})\}.\tag{2}
+\alpha(\sigma')+=\alpha(\sigma)\,t_\kappa(e)\,e_\kappa(x_i\vert e)^{\mathbf 1_{\mathrm{emit}}}\sum_{u_{[e]}}q_{[e]}(u_{[e]}\vert x,e,C)\,\mathbf 1\lbrace w'=\delta(w,u_{[e]})\rbrace.
 ```
 Deletions are computed in column order, since there are no cycles of silent states, and the transition to the end multiplies the final mass. Summing over all final logical states gives $A_f(x,n)$; summing only over accepting states gives $B_f(x,n)$. Induction on the partial order $(i,j)$ proves that each alignment and each concept assignment contributes exactly once. The implementation works in log space.
 
 ### Summing over emissions for $z_f$
 
 To compute $z_f$ the sequence is not given, and every possible emission must be summed. If the concepts depend on the last $\ell_h$ emitted symbols, the state also includes the history $h\in V^{\le\ell_h-1}$. For each candidate emission $v\in V$:
+**(3)**
+
 ```math
-\begin{aligned}\alpha(i{+}1,j',\sigma',w',h',c')\mathrel{+}=\;&\alpha(i,j,\sigma,w,h,c)\,t_\kappa(e)\,e_\kappa(v\mid e)\\&\times\sum_{u_{[e]}}q_{[e]}(u_{[e]}\mid h,v,c,e,C)\,\mathbf 1\{w'=\delta(w,u_{[e]})\},\end{aligned}\tag{3}
+\begin{aligned}\alpha(i{+}1,j',\sigma',w',h',c')+=\;&\alpha(i,j,\sigma,w,h,c)\,t_\kappa(e)\,e_\kappa(v\vert e)\\&\times\sum_{u_{[e]}}q_{[e]}(u_{[e]}\vert h,v,c,e,C)\,\mathbf 1\lbrace w'=\delta(w,u_{[e]})\rbrace,\end{aligned}
 ```
 with $h'$ the suffix of length $\ell_h-1$ of $h\oplus v$ and $c'$ the updated statistics. Insertions update the history even when no new concept is judged; deletions leave it unchanged. If the history is not updated on insertions, concepts that depend on preceding symbols are computed incorrectly. This error is caught by the numerical checks.
 
 Some concepts need additional state:
 
-- A concept about the mean value of the symbols requires the pair $(n,\sum_ix_i)$, with up to $n(|V|-1)+1$ possible sums.
+- A concept about the mean value of the symbols requires the pair $(n,\sum_ix_i)$, with up to $n(\vert V\vert-1)+1$ possible sums.
 - Counting insertions requires a bounded counter.
 - A relation between two distant landmarks requires storing the value or position of the first until the relation is judged.
 
@@ -301,7 +307,7 @@ Let $k$ be the maximum size of a concept block, $H$ the number of history states
 | All ends from a fixed start (with reuse) | $\mathcal O(LJ_fW_fR\,2^k)$ |
 | Whole work of length $T$ | $\mathcal O(TL\sum_fJ_fW_fR\,2^k)$ |
 | Whole work, when factors depend on the end | $\mathcal O(TL^2\sum_fJ_fW_fR\,2^k)$ |
-| Generative normalisation for one $(f,C)$ and all lengths up to $L$ | $\mathcal O(LJ_fW_fRH|V|\,2^k)$, with $H\le|V|^{\ell_h-1}$ |
+| Generative normalisation for one $(f,C)$ and all lengths up to $L$ | $\mathcal O(LJ_fW_fRH\vert V\vert\,2^k)$, with $H\le\vert V\vert^{\ell_h-1}$ |
 
 A single rolling pass needs $\mathcal O(J_fW_fRH)$ memory; storage for gradient computation needs $\mathcal O(LJ_fW_fRH)$.
 
@@ -328,8 +334,10 @@ The symbols mean the following:
 - $z_{\mathrm{id}}$ is the family-identity representation and $z_{\mathrm{real}}$ the representation of the concrete realisation.
 
 For each known family $f$, the segment score is
+**(4)**
+
 ```math
-\phi(s,f)=\phi^0(s,f)+\beta_\kappa\log\frac{p_\kappa(x_s\mid f,n,C)}{p_0(x_s\mid n,C)}+\beta_S\big[\log m_f(x_s)-\log r_f(C,n)\big],\tag{4}
+\phi(s,f)=\phi^0(s,f)+\beta_\kappa\log\frac{p_\kappa(x_s\vert f,n,C)}{p_0(x_s\vert n,C)}+\beta_S\big[\log m_f(x_s)-\log r_f(C,n)\big],
 ```
 where $\phi^0$ is the base score of the backbone and $p_0$ a background model. The coefficients $\beta_\kappa,\beta_S$ are applied **after** marginalisation. The term equals $(\beta_\kappa-\beta_S)\log A_f+\beta_S\log B_f$, plus the length, background and reference terms. Moving the coefficients inside the sum over alignments would define a different model.
 
@@ -341,27 +349,31 @@ The main recogniser is a discriminative semi-Markov CRF (semi-CRF):
 
 The choice $r_f=Z_f$ reproduces the generatively consistent term when $\beta_\kappa=\beta_S=1$. Any other positive value of $r_f$ defines an explicitly declared discriminative comparison model. The base score $\phi^0$ may contain neural features. Equation (4) does not acquire a generative interpretation merely because one of its terms has the form of a log probability ratio.
 
-The output $y$ is a set of non-overlapping segments labelled $f\in F_Z\cup\{U\}$, where $U$ denotes a valid melodic unit of unknown family, with its own prediction head. Every event not covered by a segment receives a single skip decision with score $\chi_t$. Documented connective material acts as an independent constraint during supervision. The score and probability of a segmentation are
+The output $y$ is a set of non-overlapping segments labelled $f\in F_Z\cup\lbrace U\rbrace$, where $U$ denotes a valid melodic unit of unknown family, with its own prediction head. Every event not covered by a segment receives a single skip decision with score $\chi_t$. Documented connective material acts as an independent constraint during supervision. The score and probability of a segmentation are
 ```math
-s(y,X)=\sum_{(s,f)\in y}\phi(s,f)+\sum_{t\notin\cup y}\chi_t,\qquad P(y\mid X)=\frac{\exp s(y,X)}{\mathcal Z(X)},
+s(y,X)=\sum_{(s,f)\in y}\phi(s,f)+\sum_{t\notin\cup y}\chi_t,\qquad P(y\vert X)=\frac{\exp s(y,X)}{\mathcal Z(X)},
 ```
 and the empty segmentation is allowed. With $\alpha_0=0$ in log space, the forward recursion is
+**(5)**
+
 ```math
-\alpha_b=\mathrm{LSE}\Big(\alpha_{b-1}+\chi_b,\ \big\{\alpha_a+\phi((a,b],f):\ \max(0,b-L)\le a<b,\ f\in F_Z\cup\{U\}\big\}\Big),\tag{5}
+\alpha_b=\mathrm{LSE}\Big(\alpha_{b-1}+\chi_b,\ \big\lbrace\alpha_a+\phi((a,b],f):\ \max(0,b-L)\le a\lt b,\ f\in F_Z\cup\lbrace U\rbrace\big\rbrace\Big),
 ```
 where LSE is the log-sum-exp operation, and $\log\mathcal Z(X)=\alpha_T$.
 
 - Viterbi decoding replaces LSE with a maximum and keeps back-pointers.
 - With the backward variable $\eta_b$, the marginal probability of each segment is $\exp(\alpha_a+\phi(s,f)+\eta_b-\alpha_T)$.
-- The cost is $\mathcal O(TLK)$ in time, with $K=|F_Z|+1$, and $\mathcal O(T)$ in memory, beyond storage of the scores. The cost of the neural segment summaries is reported separately.
+- The cost is $\mathcal O(TLK)$ in time, with $K=\vert F_Z\vert+1$, and $\mathcal O(T)$ in memory, beyond storage of the scores. The cost of the neural segment summaries is reported separately.
 
 ### Background, transitions and partial supervision
 
 **Background.** Full coverage of the sequence by explicit background segments $O$ of length exactly 1 corresponds bijectively to the skip mechanism of (5). If background segments of several lengths were allowed, the same uncovered stretch would have many equivalent encodings (eight for four consecutive events), and the output distribution would be distorted.
 
-**First-order transitions.** To carry the memory of the last family across gaps, the state $\alpha_t(f,g)$ is defined with a gap flag $g\in\{0,1\}$ and an initial BOS state. A skip updates $\alpha_{t+1}(f,1)\leftarrow\mathrm{LSE}(\alpha_{t+1}(f,1),\ \alpha_t(f,g)+\chi_{t+1})$. A new segment $(a,b]$ labelled $f$ is added as
+**First-order transitions.** To carry the memory of the last family across gaps, the state $\alpha_t(f,g)$ is defined with a gap flag $g\in\lbrace0,1\rbrace$ and an initial BOS state. A skip updates $\alpha_{t+1}(f,1)\leftarrow\mathrm{LSE}(\alpha_{t+1}(f,1),\ \alpha_t(f,g)+\chi_{t+1})$. A new segment $(a,b]$ labelled $f$ is added as
+**(6)**
+
 ```math
-\alpha_b(f,0)\leftarrow\mathrm{LSE}\Big(\alpha_b(f,0),\ \phi((a,b],f)+\mathrm{LSE}_{f',g}\big[\alpha_a(f',g)+T_a(f',f,g)\big]\Big).\tag{6}
+\alpha_b(f,0)\leftarrow\mathrm{LSE}\Big(\alpha_b(f,0),\ \phi((a,b],f)+\mathrm{LSE}_{f',g}\big[\alpha_a(f',g)+T_a(f',f,g)\big]\Big).
 ```
 The cost depends on the form of the transition $T_a$:
 
@@ -374,7 +386,7 @@ A first-order model in which background resets the family memory is different fr
 
 **Partial supervision.** The full musicological register keeps overlaps and alternative readings. A fixed projection selects disjoint windows $W_j$, on which the non-overlapping segment loss is applied. If $\mathcal C_j$ are the outputs consistent with the annotation of the window, the segmentation loss is
 ```math
-\mathcal L_{\mathrm{seg}}(X)=\frac{\sum_j\big[\log\mathcal Z_j-\log\mathcal Z^A_j\big]}{\sum_j|W_j|},\qquad \mathcal Z^A_j=\sum_{y\in\mathcal C_j}\exp s(y,X).
+\mathcal L_{\mathrm{seg}}(X)=\frac{\sum_j\big[\log\mathcal Z_j-\log\mathcal Z^A_j\big]}{\sum_j\vert W_j\vert},\qquad \mathcal Z^A_j=\sum_{y\in\mathcal C_j}\exp s(y,X).
 ```
 A fully unannotated region contributes zero loss. Alternative boundaries and joint constraints are encoded in a finite annotation automaton that extends the state space of (5). The compiler checks:
 
@@ -391,13 +403,13 @@ Consider a prior over valid segmentations of length $T$ with the following weigh
 - $(1-\rho)$ for each background event;
 - $\rho\,\pi_f\,\pi_f(n)$ for each segment of family $f$ and length $n$.
 
-The distribution is normalised by the constant $C_T$ that constrains the segmentation to end exactly at $T$. Each segment emits from the normalised distribution $p_f(x_s\mid n,C)$, and each background position from $q_0(x_t\mid x_{<t},C)$. Then $\sum_{X,y}p(X,y\mid T,C)=1$, provided $C$ is exogenous.
+The distribution is normalised by the constant $C_T$ that constrains the segmentation to end exactly at $T$. Each segment emits from the normalised distribution $p_f(x_s\vert n,C)$, and each background position from $q_0(x_t\vert x_{\lt t},C)$. Then $\sum_{X,y}p(X,y\vert T,C)=1$, provided $C$ is exogenous.
 
-Dividing by the common weight $(1-\rho)^T\prod_tq_0(x_t\mid x_{<t},C)$ yields the score
+Dividing by the common weight $(1-\rho)^T\prod_tq_0(x_t\vert x_{\lt t},C)$ yields the score
 ```math
-\begin{aligned}\phi_G(s,f)=\;&\log\rho+\log\pi_f+\log\pi_f(n)-n\log(1-\rho)\\&+\log p_f(x_s\mid n,C)-\sum_{t\in s}\log q_0(x_t\mid x_{<t},C),\end{aligned}
+\begin{aligned}\phi_G(s,f)=\;&\log\rho+\log\pi_f+\log\pi_f(n)-n\log(1-\rho)\\&+\log p_f(x_s\vert n,C)-\sum_{t\in s}\log q_0(x_t\vert x_{\lt t},C),\end{aligned}
 ```
-with $\chi_t=0$. The common terms and $C_T$ cancel in $P(y\mid X)$, which thus coincides exactly with the semi-CRF for $\beta=1$. Three points need care:
+with $\chi_t=0$. The common terms and $C_T$ cancel in $P(y\vert X)$, which thus coincides exactly with the semi-CRF for $\beta=1$. Three points need care:
 
 - The term $-n\log(1-\rho)$ depends linearly on length.
 - If the background is Markov, the denominator uses the true left context even at segment boundaries. Restarting the background in each segment changes the model.
@@ -412,27 +424,29 @@ with $\chi_t=0$. The common terms and $C_T$ cancel in $P(y\mid X)$, which thus c
 - calibration on held-out data;
 - a fixed specification.
 
-With the shorthand $a(x)=p_\kappa(x\mid n,C,f)$, $b(x)=a(x)\,m_f(x)$ and $Z=\sum_{x\in V^n}b(x)$, the correct objective depends on how the corpus was assembled:
+With the shorthand $a(x)=p_\kappa(x\vert n,C,f)$, $b(x)=a(x)\,m_f(x)$ and $Z=\sum_{x\in V^n}b(x)$, the correct objective depends on how the corpus was assembled:
 
 | Sampling regime | Contribution to the log-likelihood |
 |-----------|-----------|
-| Representative sampling of $X$ with recorded judgement $Y\in\{0,1\}$ | $\log a(x)+Y\log m_f(x)+(1-Y)\log(1-m_f(x))$ |
+| Representative sampling of $X$ with recorded judgement $Y\in\lbrace0,1\rbrace$ | $\log a(x)+Y\log m_f(x)+(1-Y)\log(1-m_f(x))$ |
 | Observation of $(X,Y=1)$ without negatives excluded by design | $\log b(x)$, together with the other outcomes of the same design |
 | Corpus collected conditional on $Y=1$ | $\log b(x)-\log Z$ |
 | Data $X$ with weak applicability judgements, no generative claim | $Y\log m_f(x)+(1-Y)\log(1-m_f(x))$ |
 | Selective collection with known inclusion probability $s(x,y,C)$ | weighting by the full selection mechanism; $Z$ alone may not suffice |
 
-Conditioning on a known family does not imply that the occurrences were selected through the specification itself. In E-min the family model is trained directly as $p_\kappa(X\mid F,C,n)$. The likelihood of selected positives is used only when the kernel defines a pre-existing population of candidates and inclusion in the corpus depends on acceptance through the same specification. If the family judgement rests on richer evidence, a separate selection variable is defined.
+Conditioning on a known family does not imply that the occurrences were selected through the specification itself. In E-min the family model is trained directly as $p_\kappa(X\vert F,C,n)$. The likelihood of selected positives is used only when the kernel defines a pre-existing population of candidates and inclusion in the corpus depends on acceptance through the same specification. If the family judgement rests on richer evidence, a separate selection variable is defined.
 
 **E-step.** For a positive example, the alignment has the conditional distribution
 ```math
-p(\pi\mid x,S,f,C)=\frac{p_\kappa(x,\pi\mid f,C)\,Q_f(x,\pi)}{B_f(x,n)},
+p(\pi\vert x,S,f,C)=\frac{p_\kappa(x,\pi\vert f,C)\,Q_f(x,\pi)}{B_f(x,n)},
 ```
 and the constant $Z$ cancels.
 
 **M-step.** For selected occurrences, the gradient with respect to the kernel parameters (with $q$ fixed) keeps the negative term of the normalisation:
+**(7)**
+
 ```math
-\nabla_\kappa\ell_{\mathrm{sel}}=\mathbb E_{\pi\mid x,S}\big[\nabla_\kappa\log p_\kappa(x,\pi)\big]-\mathbb E_{X,\pi\mid S,n,C}\big[\nabla_\kappa\log p_\kappa(X,\pi)\big],\tag{7}
+\nabla_\kappa\ell_{\mathrm{sel}}=\mathbb E_{\pi\vert x,S}\big[\nabla_\kappa\log p_\kappa(x,\pi)\big]-\mathbb E_{X,\pi\vert S,n,C}\big[\nabla_\kappa\log p_\kappa(X,\pi)\big],
 ```
 plus the prior terms. Simple renormalisation of expected counts, as in Baum–Welch, in general does **not** maximise this function. Either exact differentiable computation is used, or generalised EM with a check that the correct function increases monotonically.
 
@@ -444,7 +458,7 @@ plus the prior terms. Simple renormalisation of expected counts, as in Baum–We
 - the acceptance probability is $m_\theta=0.2+0.6\theta$;
 - even the distribution of selected positives is unchanged, since $B_\theta(X)/z_\theta=p(X)$.
 
-Selected positive examples alone therefore identify **neither** $\theta$ nor the alignment. The missing information comes from representatively observed judgements $Y\in\{0,1\}$ or from independent landmark annotations.
+Selected positive examples alone therefore identify **neither** $\theta$ nor the alignment. The missing information comes from representatively observed judgements $Y\in\lbrace0,1\rbrace$ or from independent landmark annotations.
 
 **Total loss.** Discriminative training of the backbone minimises
 ```math
@@ -454,7 +468,7 @@ with a separate, explicitly declared stage for estimating the kernel $\kappa$. C
 
 ## Greater expressiveness within the same system
 
-The only optional extension considered replaces the product of independent concepts within a small block $B_k$ ($|B_k|\le k$) with a joint distribution $q_{B_k}(u_{B_k}\mid x,\pi,C)$. The $2^{|B_k|}$ configurations are summed in (2), while the profile topology, the specification and the outer dynamic programme stay the same. For $q(00)=q(11)=1/2$ the joint block gives $P(U_1=U_2)=1$, whereas independent concepts with the same marginals give $1/2$. The joint distribution thus represents dependencies that the product cannot, even with a certain alignment. The block size is chosen on musicological grounds and with independent concept supervision, never on test data.
+The only optional extension considered replaces the product of independent concepts within a small block $B_k$ ($\vert B_k\vert\le k$) with a joint distribution $q_{B_k}(u_{B_k}\vert x,\pi,C)$. The $2^{\vert B_k\vert}$ configurations are summed in (2), while the profile topology, the specification and the outer dynamic programme stay the same. For $q(00)=q(11)=1/2$ the joint block gives $P(U_1=U_2)=1$, whereas independent concepts with the same marginals give $1/2$. The joint distribution thus represents dependencies that the product cannot, even with a certain alignment. The block size is chosen on musicological grounds and with independent concept supervision, never on test data.
 
 The difference between full summation and simpler pooling of marginals also appears for two concepts **at the same** landmark, when the position of the landmark is uncertain. If the probabilities of the two concepts, as functions of the alignment, jointly take the value 0.1 or 0.9 with equal weights, full summation gives $\mathbb E[Y^2]=0.41$, while pooling gives $(\mathbb EY)^2=0.25$. The exact condition for the two methods to differ is non-zero mixed moments of the concept probabilities with respect to the alignment. The concepts need not belong to different landmarks.
 
@@ -562,7 +576,7 @@ The log-likelihood of the kernel, operation counts and alignment marginals are e
 
 Historical recovery targets the distribution
 ```math
-p\big(H^{(w)}_Z\mid X_Z,C_{\mathrm{adm}}\big),
+p\big(H^{(w)}_Z\vert X_Z,C_{\mathrm{adm}}\big),
 ```
 where:
 
@@ -571,9 +585,9 @@ where:
 
 The witness identifier specifies which target is evaluated; it is not a key the model can memorise. Each task declares whether duration, syllabic alignment and *pomety* are observed or hidden.
 
-Let $\mathcal H(X,C)$ be the set of candidate historical notations. Exact identification is possible only when the admissible observations distinguish the candidates. If $p(X,C\mid H_1)=p(X,C\mid H_2)$, no estimator with these inputs distinguishes them better than the prior allows. Moreover, many kernel alignments can produce the same distribution of $X$. Uniqueness of the numerical solution $q^\star$ for given parameters does not imply a unique historical explanation.
+Let $\mathcal H(X,C)$ be the set of candidate historical notations. Exact identification is possible only when the admissible observations distinguish the candidates. If $p(X,C\vert H_1)=p(X,C\vert H_2)$, no estimator with these inputs distinguishes them better than the prior allows. Moreover, many kernel alignments can produce the same distribution of $X$. Uniqueness of the numerical solution $q^\star$ for given parameters does not imply a unique historical explanation.
 
-The set $\mathcal G_o$ of acceptable answers includes the acceptable readings of the **same** image or a documented equivalent transcription. A different notation in another witness does not automatically become a correct answer for witness $w$. Evaluation uses the set log loss $-\log\sum_{H\in\mathcal G_o}p(H\mid X,C)$. When an empirical distribution of judges exists, cross-entropy with respect to it is used.
+The set $\mathcal G_o$ of acceptable answers includes the acceptable readings of the **same** image or a documented equivalent transcription. A different notation in another witness does not automatically become a correct answer for witness $w$. Evaluation uses the set log loss $-\log\sum_{H\in\mathcal G_o}p(H\vert X,C)$. When an empirical distribution of judges exists, cross-entropy with respect to it is used.
 
 Four conditions are compared:
 
@@ -589,7 +603,7 @@ The following are reported:
 - log loss;
 - the risk–coverage curve.
 
-A family label $R$ produced from $X$ itself is an admissible summary. But if $R=f(X)$, then $I(H;R\mid X,C)=0$: any advantage of the probe indicates easier access to information within a model, not new historical information.
+A family label $R$ produced from $X$ itself is an admissible summary. But if $R=f(X)$, then $I(H;R\vert X,C)=0$: any advantage of the probe indicates easier access to information within a model, not new historical information.
 
 The abstention threshold is chosen on development data. Accuracy on the accepted subset and total coverage are reported. Conformal coverage guarantees would require source-level exchangeability, which cannot be assumed for three historically related witnesses. The Byzantine index $\Delta_{\mathrm{hist}}$ remains tied to the independent performative criterion of the main proposal and lends its name to none of the Znamenny quantities.
 
@@ -617,7 +631,7 @@ Different judges or separate blind rounds prevent those who evaluate from simply
 
 ## P1: the value of full summation
 
-For each candidate family and each segment, judges give a specification-applicability judgement, $Y_S\in\{0,1,?\}$, or a distribution of judgements. The judgement concerns the particular specification and is distinct from the family label. Hard negatives share with the positives:
+For each candidate family and each segment, judges give a specification-applicability judgement, $Y_S\in\lbrace0,1,?\rbrace$, or a distribution of judgements. The judgement concerns the particular specification and is distinct from the family label. Hard negatives share with the positives:
 
 - the same mode;
 - a related cadence;
@@ -625,11 +639,11 @@ For each candidate family and each segment, judges give a specification-applicab
 
 If they are over-represented, the weighting is recorded, so that calibration has a clear reference rate.
 
-The concept classifiers, the kernel, the specifications and the alignment distribution $p(\pi\mid X,f)$ are shared and fixed in the comparison. With $p_j(\pi)=q_j(U_j=1\mid X,\pi)$, two ways of computing are compared:
+The concept classifiers, the kernel, the specifications and the alignment distribution $p(\pi\vert X,f)$ are shared and fixed in the comparison. With $p_j(\pi)=q_j(U_j=1\vert X,\pi)$, two ways of computing are compared:
 
 - **full summation (AC):**
 ```math
-m_{\mathrm{AC}}=\sum_\pi p(\pi\mid X,f)\sum_{u\in S_f}\prod_jq_j(u_j\mid X,\pi);
+m_{\mathrm{AC}}=\sum_\pi p(\pi\vert X,f)\sum_{u\in S_f}\prod_jq_j(u_j\vert X,\pi);
 ```
 - **pooling of marginals (Pool):**
 ```math
@@ -649,7 +663,7 @@ in bits per judgement, positive in favour of full summation. Each method is cali
 
 Probability clipping for numerical safety is common and declared.
 
-As a secondary mechanism analysis, the subset $\mathcal D_\tau=\{|m_{\mathrm{AC}}-m_{\mathrm{Pool}}|>\tau\}$ is examined. The threshold is set on development data, without test labels. Only on this subset can the two methods differ materially. Melismatic density and alignment entropy are reported as factors that may modify the result, without substituting for the difference in predictions. Contested judgements are kept with the distribution of judges, and results on the consensus subset are also reported together with its coverage.
+As a secondary mechanism analysis, the subset $\mathcal D_\tau=\lbrace\vert m_{\mathrm{AC}}-m_{\mathrm{Pool}}\vert\gt \tau\rbrace$ is examined. The threshold is set on development data, without test labels. Only on this subset can the two methods differ materially. Melismatic density and alignment entropy are reported as factors that may modify the result, without substituting for the difference in predictions. Contested judgements are kept with the distribution of judges, and results on the consensus subset are also reported together with its coverage.
 
 ## P2: the specification as a guide to alignment
 
@@ -686,7 +700,7 @@ E-min is a purely symbolic experiment. All conditions share:
 
 Each prior is updated with the same number of Znamenny occurrences and the same tuning budget. The family is known in this conditional task; its recognition is examined separately. The measure is cross-entropy per event:
 ```math
-\mathrm{CE}_{\mathrm{event}}(M)=-\frac{\sum_o\log_2p_M(X_o\mid F_o,C_o,n_o)}{\sum_on_o},\qquad p_M=A_M/a_M(n).
+\mathrm{CE}_{\mathrm{event}}(M)=-\frac{\sum_o\log_2p_M(X_o\vert F_o,C_o,n_o)}{\sum_on_o},\qquad p_M=A_M/a_M(n).
 ```
 The main measurement is a corpus-level ratio, with group resampling of numerators and denominators. Also reported are the mean per family, the value per occurrence, the entropy of the length and the full joint entropy. The unit of measurement does not change after the results have been seen.
 
@@ -707,7 +721,7 @@ The contrasts are:
 - $\Delta_{\mathrm{pool}}=\mathrm{CE}_{\mathrm{pooled}}-\mathrm{CE}_B$
 - $\Delta_{\mathrm{pos}}=\mathrm{CE}_{\mathrm{pos}}-\mathrm{CE}_B$
 
-The main claim requires both $\Delta_{\mathrm{struct}}>\epsilon_s$ and $\Delta_{\mathrm{pool}}>\epsilon_r$. Specificity of the Byzantine source additionally requires a positive $\Delta_{\mathrm{spec}}$. Superiority over the position-only prior supports the musicological interpretation of the roles. This matters because cadential stability is most likely a property shared by the melodic types of many traditions.
+The main claim requires both $\Delta_{\mathrm{struct}}\gt \epsilon_s$ and $\Delta_{\mathrm{pool}}\gt \epsilon_r$. Specificity of the Byzantine source additionally requires a positive $\Delta_{\mathrm{spec}}$. Superiority over the position-only prior supports the musicological interpretation of the roles. This matters because cadential stability is most likely a property shared by the melodic types of many traditions.
 
 **Practical details.** Exposure is equalised in events, lengths, number of roles, works, sources and annotation hours. The concentration of the prior is tuned on development data. A curve for the fixed values 0, 2, 8 and 32 is also reported, as a sensitivity grid with no particular empirical meaning. Local supervision for templates, roles and specifications counts towards the total cost.
 
@@ -850,7 +864,7 @@ while for a disjunctive rule the sign is reversed, and for a general specificati
 - the way it is compressed;
 - the cost of using it.
 
-In the opposite direction, the relation $p(\pi\mid X,S)\propto p(\pi\mid X)\,Q(X,\pi)$ reshapes the distribution of alignments. Musical identity thus indicates which uncertain placements agree with the criteria of the family. The value of this mechanism is established only if the new placements agree with independent musicologists on passages not used in training.
+In the opposite direction, the relation $p(\pi\vert X,S)\propto p(\pi\vert X)\,Q(X,\pi)$ reshapes the distribution of alignments. Musical identity thus indicates which uncertain placements agree with the criteria of the family. The value of this mechanism is established only if the new placements agree with independent musicologists on passages not used in training.
 
 The contribution of the programme is therefore judged at four levels, each with its own criterion.
 
@@ -1051,7 +1065,7 @@ Before training on musical material, every implementation must verify:
 
 In a single Python run, the dynamic programme for an observed sequence took:
 
-- about 0.09 seconds for $(J,|V|,n,W)=(4,8,32,2)$;
+- about 0.09 seconds for $(J,\vert V\vert,n,W)=(4,8,32,2)$;
 - about 0.40 seconds for $(8,16,64,2)$.
 
 Summing over emissions with a previous-symbol state for $(4,8,16,2)$ took about 1.6 seconds. These are synthetic cases. The real $J$, $L$ and $W$ have not been measured, and the pilot will record their distributions together with the cost of scoring all candidate segments.
