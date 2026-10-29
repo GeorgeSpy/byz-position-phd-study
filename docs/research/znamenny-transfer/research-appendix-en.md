@@ -146,7 +146,7 @@ Questions 2 and 3 concern the relation between musicological knowledge and learn
 
 ## Objects and available information
 
-Let $d\in\lbraceB,Z\rbrace$ denote the tradition (Byzantine or Znamenny). Each work is a sequence of elementary symbolic events $X=(x_1,\ldots,x_T)$. A candidate segment $s=(a,b]$ has length $n=b-a$, with $1\le n\le L$. $F_d$ is the local vocabulary of known families in the tradition. $C$ contains the context known before prediction, such as the declared mode, the position in the text and the accentuation. Features computed from $X$ itself remain functions of the observation and are not treated as exogenous constants.
+Let $d\in\lbrace B,Z\rbrace$ denote the tradition (Byzantine or Znamenny). Each work is a sequence of elementary symbolic events $X=(x_1,\ldots,x_T)$. A candidate segment $s=(a,b]$ has length $n=b-a$, with $1\le n\le L$. $F_d$ is the local vocabulary of known families in the tradition. $C$ contains the context known before prediction, such as the declared mode, the position in the text and the accentuation. Features computed from $X$ itself remain functions of the observation and are not treated as exogenous constants.
 
 For each candidate family $f\in F_d$, the template $\Pi_f$ consists of $J_f$ landmarks. Each landmark has a local structural role $r_{f,j}\in\mathcal R_d$. The template is derived solely from training examples and expert judgement, and it is a testable hypothesis about that family. For families without a single common core (polythetic families), a finite mixture of templates $p_f=\sum_v\omega_{f,v}p_{f,v}$ is allowed, with the same capacity limit in all compared models. A family is not excluded because a single template cannot describe it; the failure is recorded as a result.
 
@@ -265,7 +265,7 @@ For a fixed sequence $x$, the state of the dynamic programme comprises:
 
 - the number $i$ of events consumed;
 - the template column $j$;
-- the state type $\sigma\in\lbraceM,I,D\rbrace$;
+- the state type $\sigma\in\lbrace M,I,D\rbrace$;
 - the logical state $w$;
 - whatever finite path statistics $c$ are needed.
 
@@ -273,7 +273,7 @@ A transition $e$ updates the mass as follows:
 **(2)**
 
 ```math
-\alpha(\sigma')+=\alpha(\sigma)\,t_\kappa(e)\,e_\kappa(x_i\vert e)^{\mathbf 1_{\mathrm{emit}}}\sum_{u_{[e]}}q_{[e]}(u_{[e]}\vert x,e,C)\,\mathbf 1\lbracew'=\delta(w,u_{[e]})\rbrace.
+\alpha(\sigma')+=\alpha(\sigma)\,t_\kappa(e)\,e_\kappa(x_i\vert e)^{\mathbf 1_{\mathrm{emit}}}\sum_{u_{[e]}}q_{[e]}(u_{[e]}\vert x,e,C)\,\mathbf 1\lbrace w'=\delta(w,u_{[e]})\rbrace.
 ```
 Deletions are computed in column order, since there are no cycles of silent states, and the transition to the end multiplies the final mass. Summing over all final logical states gives $A_f(x,n)$; summing only over accepting states gives $B_f(x,n)$. Induction on the partial order $(i,j)$ proves that each alignment and each concept assignment contributes exactly once. The implementation works in log space.
 
@@ -283,13 +283,13 @@ To compute $z_f$ the sequence is not given, and every possible emission must be 
 **(3)**
 
 ```math
-\begin{aligned}\alpha(i{+}1,j',\sigma',w',h',c')+=\;&\alpha(i,j,\sigma,w,h,c)\,t_\kappa(e)\,e_\kappa(v\vert e)\\&\times\sum_{u_{[e]}}q_{[e]}(u_{[e]}\vert h,v,c,e,C)\,\mathbf 1\lbracew'=\delta(w,u_{[e]})\rbrace,\end{aligned}
+\begin{aligned}\alpha(i{+}1,j',\sigma',w',h',c')+=\;&\alpha(i,j,\sigma,w,h,c)\,t_\kappa(e)\,e_\kappa(v\vert e)\\&\times\sum_{u_{[e]}}q_{[e]}(u_{[e]}\vert h,v,c,e,C)\,\mathbf 1\lbrace w'=\delta(w,u_{[e]})\rbrace,\end{aligned}
 ```
 with $h'$ the suffix of length $\ell_h-1$ of $h\oplus v$ and $c'$ the updated statistics. Insertions update the history even when no new concept is judged; deletions leave it unchanged. If the history is not updated on insertions, concepts that depend on preceding symbols are computed incorrectly. This error is caught by the numerical checks.
 
 Some concepts need additional state:
 
-- A concept about the mean value of the symbols requires the pair $(n,\sum_ix_i)$, with up to $n(\vertV\vert-1)+1$ possible sums.
+- A concept about the mean value of the symbols requires the pair $(n,\sum_ix_i)$, with up to $n(\vert V\vert-1)+1$ possible sums.
 - Counting insertions requires a bounded counter.
 - A relation between two distant landmarks requires storing the value or position of the first until the relation is judged.
 
@@ -307,7 +307,7 @@ Let $k$ be the maximum size of a concept block, $H$ the number of history states
 | All ends from a fixed start (with reuse) | $\mathcal O(LJ_fW_fR\,2^k)$ |
 | Whole work of length $T$ | $\mathcal O(TL\sum_fJ_fW_fR\,2^k)$ |
 | Whole work, when factors depend on the end | $\mathcal O(TL^2\sum_fJ_fW_fR\,2^k)$ |
-| Generative normalisation for one $(f,C)$ and all lengths up to $L$ | $\mathcal O(LJ_fW_fRH\vertV\vert\,2^k)$, with $H\le\vertV\vert^{\ell_h-1}$ |
+| Generative normalisation for one $(f,C)$ and all lengths up to $L$ | $\mathcal O(LJ_fW_fRH\vert V\vert\,2^k)$, with $H\le\vert V\vert^{\ell_h-1}$ |
 
 A single rolling pass needs $\mathcal O(J_fW_fRH)$ memory; storage for gradient computation needs $\mathcal O(LJ_fW_fRH)$.
 
@@ -349,7 +349,7 @@ The main recogniser is a discriminative semi-Markov CRF (semi-CRF):
 
 The choice $r_f=Z_f$ reproduces the generatively consistent term when $\beta_\kappa=\beta_S=1$. Any other positive value of $r_f$ defines an explicitly declared discriminative comparison model. The base score $\phi^0$ may contain neural features. Equation (4) does not acquire a generative interpretation merely because one of its terms has the form of a log probability ratio.
 
-The output $y$ is a set of non-overlapping segments labelled $f\in F_Z\cup\lbraceU\rbrace$, where $U$ denotes a valid melodic unit of unknown family, with its own prediction head. Every event not covered by a segment receives a single skip decision with score $\chi_t$. Documented connective material acts as an independent constraint during supervision. The score and probability of a segmentation are
+The output $y$ is a set of non-overlapping segments labelled $f\in F_Z\cup\lbrace U\rbrace$, where $U$ denotes a valid melodic unit of unknown family, with its own prediction head. Every event not covered by a segment receives a single skip decision with score $\chi_t$. Documented connective material acts as an independent constraint during supervision. The score and probability of a segmentation are
 ```math
 s(y,X)=\sum_{(s,f)\in y}\phi(s,f)+\sum_{t\notin\cup y}\chi_t,\qquad P(y\vert X)=\frac{\exp s(y,X)}{\mathcal Z(X)},
 ```
@@ -357,13 +357,13 @@ and the empty segmentation is allowed. With $\alpha_0=0$ in log space, the forwa
 **(5)**
 
 ```math
-\alpha_b=\mathrm{LSE}\Big(\alpha_{b-1}+\chi_b,\ \big\lbrace\alpha_a+\phi((a,b],f):\ \max(0,b-L)\le a\lt b,\ f\in F_Z\cup\lbraceU\rbrace\big\rbrace\Big),
+\alpha_b=\mathrm{LSE}\Big(\alpha_{b-1}+\chi_b,\ \big\lbrace\alpha_a+\phi((a,b],f):\ \max(0,b-L)\le a\lt b,\ f\in F_Z\cup\lbrace U\rbrace\big\rbrace\Big),
 ```
 where LSE is the log-sum-exp operation, and $\log\mathcal Z(X)=\alpha_T$.
 
 - Viterbi decoding replaces LSE with a maximum and keeps back-pointers.
 - With the backward variable $\eta_b$, the marginal probability of each segment is $\exp(\alpha_a+\phi(s,f)+\eta_b-\alpha_T)$.
-- The cost is $\mathcal O(TLK)$ in time, with $K=\vertF_Z\vert+1$, and $\mathcal O(T)$ in memory, beyond storage of the scores. The cost of the neural segment summaries is reported separately.
+- The cost is $\mathcal O(TLK)$ in time, with $K=\vert F_Z\vert+1$, and $\mathcal O(T)$ in memory, beyond storage of the scores. The cost of the neural segment summaries is reported separately.
 
 ### Background, transitions and partial supervision
 
@@ -386,7 +386,7 @@ A first-order model in which background resets the family memory is different fr
 
 **Partial supervision.** The full musicological register keeps overlaps and alternative readings. A fixed projection selects disjoint windows $W_j$, on which the non-overlapping segment loss is applied. If $\mathcal C_j$ are the outputs consistent with the annotation of the window, the segmentation loss is
 ```math
-\mathcal L_{\mathrm{seg}}(X)=\frac{\sum_j\big[\log\mathcal Z_j-\log\mathcal Z^A_j\big]}{\sum_j\vertW_j\vert},\qquad \mathcal Z^A_j=\sum_{y\in\mathcal C_j}\exp s(y,X).
+\mathcal L_{\mathrm{seg}}(X)=\frac{\sum_j\big[\log\mathcal Z_j-\log\mathcal Z^A_j\big]}{\sum_j\vert W_j\vert},\qquad \mathcal Z^A_j=\sum_{y\in\mathcal C_j}\exp s(y,X).
 ```
 A fully unannotated region contributes zero loss. Alternative boundaries and joint constraints are encoded in a finite annotation automaton that extends the state space of (5). The compiler checks:
 
@@ -468,7 +468,7 @@ with a separate, explicitly declared stage for estimating the kernel $\kappa$. C
 
 ## Greater expressiveness within the same system
 
-The only optional extension considered replaces the product of independent concepts within a small block $B_k$ ($\vertB_k\vert\le k$) with a joint distribution $q_{B_k}(u_{B_k}\vert x,\pi,C)$. The $2^{\vertB_k\vert}$ configurations are summed in (2), while the profile topology, the specification and the outer dynamic programme stay the same. For $q(00)=q(11)=1/2$ the joint block gives $P(U_1=U_2)=1$, whereas independent concepts with the same marginals give $1/2$. The joint distribution thus represents dependencies that the product cannot, even with a certain alignment. The block size is chosen on musicological grounds and with independent concept supervision, never on test data.
+The only optional extension considered replaces the product of independent concepts within a small block $B_k$ ($\vert B_k\vert\le k$) with a joint distribution $q_{B_k}(u_{B_k}\vert x,\pi,C)$. The $2^{\vert B_k\vert}$ configurations are summed in (2), while the profile topology, the specification and the outer dynamic programme stay the same. For $q(00)=q(11)=1/2$ the joint block gives $P(U_1=U_2)=1$, whereas independent concepts with the same marginals give $1/2$. The joint distribution thus represents dependencies that the product cannot, even with a certain alignment. The block size is chosen on musicological grounds and with independent concept supervision, never on test data.
 
 The difference between full summation and simpler pooling of marginals also appears for two concepts **at the same** landmark, when the position of the landmark is uncertain. If the probabilities of the two concepts, as functions of the alignment, jointly take the value 0.1 or 0.9 with equal weights, full summation gives $\mathbb E[Y^2]=0.41$, while pooling gives $(\mathbb EY)^2=0.25$. The exact condition for the two methods to differ is non-zero mixed moments of the concept probabilities with respect to the alignment. The concepts need not belong to different landmarks.
 
@@ -663,7 +663,7 @@ in bits per judgement, positive in favour of full summation. Each method is cali
 
 Probability clipping for numerical safety is common and declared.
 
-As a secondary mechanism analysis, the subset $\mathcal D_\tau=\lbrace\vertm_{\mathrm{AC}}-m_{\mathrm{Pool}}\vert\gt \tau\rbrace$ is examined. The threshold is set on development data, without test labels. Only on this subset can the two methods differ materially. Melismatic density and alignment entropy are reported as factors that may modify the result, without substituting for the difference in predictions. Contested judgements are kept with the distribution of judges, and results on the consensus subset are also reported together with its coverage.
+As a secondary mechanism analysis, the subset $\mathcal D_\tau=\lbrace\vert m_{\mathrm{AC}}-m_{\mathrm{Pool}}\vert\gt \tau\rbrace$ is examined. The threshold is set on development data, without test labels. Only on this subset can the two methods differ materially. Melismatic density and alignment entropy are reported as factors that may modify the result, without substituting for the difference in predictions. Contested judgements are kept with the distribution of judges, and results on the consensus subset are also reported together with its coverage.
 
 ## P2: the specification as a guide to alignment
 
@@ -1065,7 +1065,7 @@ Before training on musical material, every implementation must verify:
 
 In a single Python run, the dynamic programme for an observed sequence took:
 
-- about 0.09 seconds for $(J,\vertV\vert,n,W)=(4,8,32,2)$;
+- about 0.09 seconds for $(J,\vert V\vert,n,W)=(4,8,32,2)$;
 - about 0.40 seconds for $(8,16,64,2)$.
 
 Summing over emissions with a previous-symbol state for $(4,8,16,2)$ took about 1.6 seconds. These are synthetic cases. The real $J$, $L$ and $W$ have not been measured, and the pilot will record their distributions together with the cost of scoring all candidate segments.
