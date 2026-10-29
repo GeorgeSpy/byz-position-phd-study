@@ -6,11 +6,11 @@
 
 | Έλεγχος | Αρχείο | Αποτέλεσμα |
 |---|---|---|
-| Work αναδρομές / ιστορική αριθμητική | `original_oracles/toy_semimarkov_checks.py` | 291 έλεγχοι PASS, μέγιστη αριθμητική απόκλιση περίπου $3,6\cdot10^{-15}$. |
-| Πρώτο Claude oracle | `original_oracles/claude_dp_oracle.py` | 5 αρχικές ομάδες PASS. Το πρόσθετο global normalization counterexample αποκαλύπτει το ελλιπές END. |
-| Δεύτερο Claude oracle | `original_oracles/claude_ac_ecsi_oracle.py` | 16 ομάδες PASS με τις δικές τους υποθέσεις, συμπεριλαμβάνοντας αναμενόμενη αποτυχία naive prefix reuse. |
+| Ημι-Μαρκοβιανές αναδρομές | `original_oracles/toy_semimarkov_checks.py` | 291 έλεγχοι PASS, μέγιστη αριθμητική απόκλιση περίπου $3,6\cdot10^{-15}$. |
+| Πρωτογενής έλεγχος profile-HMM | `original_oracles/profile_hmm_regression_oracle.py` | 5 αρχικές ομάδες PASS. Το αντιπαράδειγμα ολικής κανονικοποίησης αποκαλύπτει το ελλιπές END. |
+| Έλεγχος στοιχίσεων και λογικής μάζας | `original_oracles/alignment_product_oracle.py` | 16 ομάδες PASS με τις δικές τους υποθέσεις, συμπεριλαμβάνοντας αναμενόμενη αποτυχία naive prefix reuse. |
 | Νέο ανεξάρτητο counterexample | `original_oracles/oracle_Zf_context_counterexample.py` | Αναπαραγωγή και των τριών αποτυχιών του παλιού Z. |
-| Νέα profile/outer/generative suite | `astra_oracle.py` | 221 έλεγχοι PASS· μέγιστη απόκλιση $1,56\cdot10^{-10}$, που περιλαμβάνει finite-difference gradients. |
+| Νέα profile/outer/generative suite | `profile_semantics_oracle.py` | 221 έλεγχοι PASS· μέγιστη απόκλιση $1,56\cdot10^{-10}$, που περιλαμβάνει finite-difference gradients. |
 | Διορθωμένο context product DP | `ecsi_kappa_context_oracle.py` | 308 έλεγχοι PASS· corrected relative Z errors κάτω από $4\cdot10^{-16}$. |
 | Μικρή πραγματική βελτιστοποίηση κ | `bidirectional_learning_oracle.py` | 43 έλεγχοι PASS· EM monotonicity, direct-objective συμφωνία, selected consistency και DP. |
 | Σχεδιασμός ισχύος / transfer | `power_and_transfer_simulation.py` | 50 σενάρια ισχύος και 9 συνθετικά transfer σενάρια· assertions PASS. |
