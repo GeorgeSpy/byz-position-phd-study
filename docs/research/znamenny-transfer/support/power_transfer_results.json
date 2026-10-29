@@ -1,0 +1,959 @@
+{
+  "status": "passed",
+  "synthetic_only": true,
+  "one_sided_alpha": 0.025,
+  "seed_power": 20261029,
+  "seed_transfer": 991,
+  "power": {
+    "replications": 10000,
+    "univariate": [
+      {
+        "groups": 12,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.0,
+        "rejection_probability": 0.0241,
+        "MC_standard_error": 0.001533596752735216,
+        "two_sided_95_coverage": 0.9517,
+        "event_effective_N": 56.47058823529411,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 12,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.02,
+        "rejection_probability": 0.1009,
+        "MC_standard_error": 0.003011962649170803,
+        "two_sided_95_coverage": 0.9517,
+        "event_effective_N": 56.47058823529411,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 12,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.05,
+        "rejection_probability": 0.3971,
+        "MC_standard_error": 0.0048929703657389955,
+        "two_sided_95_coverage": 0.9517,
+        "event_effective_N": 56.47058823529411,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 12,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.1,
+        "rejection_probability": 0.9269,
+        "MC_standard_error": 0.002603005762575259,
+        "two_sided_95_coverage": 0.9517,
+        "event_effective_N": 56.47058823529411,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 12,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.0,
+        "rejection_probability": 0.0226,
+        "MC_standard_error": 0.0014862449327079303,
+        "two_sided_95_coverage": 0.9511,
+        "event_effective_N": 21.333333333333332,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 12,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.02,
+        "rejection_probability": 0.0592,
+        "MC_standard_error": 0.0023599864406390137,
+        "two_sided_95_coverage": 0.9511,
+        "event_effective_N": 21.333333333333332,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 12,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.05,
+        "rejection_probability": 0.1721,
+        "MC_standard_error": 0.0037746733633521193,
+        "two_sided_95_coverage": 0.9511,
+        "event_effective_N": 21.333333333333332,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 12,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.1,
+        "rejection_probability": 0.5482,
+        "MC_standard_error": 0.004976713373301702,
+        "two_sided_95_coverage": 0.9511,
+        "event_effective_N": 21.333333333333332,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 24,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.0,
+        "rejection_probability": 0.0252,
+        "MC_standard_error": 0.001567321281677755,
+        "two_sided_95_coverage": 0.9521,
+        "event_effective_N": 112.94117647058822,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 24,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.02,
+        "rejection_probability": 0.1744,
+        "MC_standard_error": 0.0037945308010345624,
+        "two_sided_95_coverage": 0.9521,
+        "event_effective_N": 112.94117647058822,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 24,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.05,
+        "rejection_probability": 0.7242,
+        "MC_standard_error": 0.004469165022686006,
+        "two_sided_95_coverage": 0.9521,
+        "event_effective_N": 112.94117647058822,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 24,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.1,
+        "rejection_probability": 0.999,
+        "MC_standard_error": 0.0003160696125855823,
+        "two_sided_95_coverage": 0.9521,
+        "event_effective_N": 112.94117647058822,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 24,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.0,
+        "rejection_probability": 0.0247,
+        "MC_standard_error": 0.00155209245858615,
+        "two_sided_95_coverage": 0.9498,
+        "event_effective_N": 42.666666666666664,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 24,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.02,
+        "rejection_probability": 0.0914,
+        "MC_standard_error": 0.0028817709832670603,
+        "two_sided_95_coverage": 0.9498,
+        "event_effective_N": 42.666666666666664,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 24,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.05,
+        "rejection_probability": 0.3449,
+        "MC_standard_error": 0.004753356603496102,
+        "two_sided_95_coverage": 0.9498,
+        "event_effective_N": 42.666666666666664,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 24,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.1,
+        "rejection_probability": 0.8756,
+        "MC_standard_error": 0.0033003733122178762,
+        "two_sided_95_coverage": 0.9498,
+        "event_effective_N": 42.666666666666664,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 48,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.0,
+        "rejection_probability": 0.0241,
+        "MC_standard_error": 0.001533596752735216,
+        "two_sided_95_coverage": 0.9527,
+        "event_effective_N": 225.88235294117644,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 48,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.02,
+        "rejection_probability": 0.3144,
+        "MC_standard_error": 0.004642764693585062,
+        "two_sided_95_coverage": 0.9527,
+        "event_effective_N": 225.88235294117644,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 48,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.05,
+        "rejection_probability": 0.9597,
+        "MC_standard_error": 0.0019666191802176648,
+        "two_sided_95_coverage": 0.9527,
+        "event_effective_N": 225.88235294117644,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 48,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.1,
+        "rejection_probability": 1.0,
+        "MC_standard_error": 0.0,
+        "two_sided_95_coverage": 0.9527,
+        "event_effective_N": 225.88235294117644,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 48,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.0,
+        "rejection_probability": 0.0266,
+        "MC_standard_error": 0.0016091127990293284,
+        "two_sided_95_coverage": 0.9475,
+        "event_effective_N": 85.33333333333333,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 48,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.02,
+        "rejection_probability": 0.147,
+        "MC_standard_error": 0.003541059163583687,
+        "two_sided_95_coverage": 0.9475,
+        "event_effective_N": 85.33333333333333,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 48,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.05,
+        "rejection_probability": 0.6177,
+        "MC_standard_error": 0.004859492874776132,
+        "two_sided_95_coverage": 0.9475,
+        "event_effective_N": 85.33333333333333,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 48,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.1,
+        "rejection_probability": 0.995,
+        "MC_standard_error": 0.0007053367989832945,
+        "two_sided_95_coverage": 0.9475,
+        "event_effective_N": 85.33333333333333,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 96,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.0,
+        "rejection_probability": 0.028,
+        "MC_standard_error": 0.0016497272501841023,
+        "two_sided_95_coverage": 0.9497,
+        "event_effective_N": 451.76470588235287,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 96,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.02,
+        "rejection_probability": 0.557,
+        "MC_standard_error": 0.004967403748438413,
+        "two_sided_95_coverage": 0.9497,
+        "event_effective_N": 451.76470588235287,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 96,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.05,
+        "rejection_probability": 0.9996,
+        "MC_standard_error": 0.0001999599959991888,
+        "two_sided_95_coverage": 0.9497,
+        "event_effective_N": 451.76470588235287,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 96,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.1,
+        "true_delta_bits": 0.1,
+        "rejection_probability": 1.0,
+        "MC_standard_error": 0.0,
+        "two_sided_95_coverage": 0.9497,
+        "event_effective_N": 451.76470588235287,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 96,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.0,
+        "rejection_probability": 0.0281,
+        "MC_standard_error": 0.0016525855499791835,
+        "two_sided_95_coverage": 0.9457,
+        "event_effective_N": 170.66666666666666,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 96,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.02,
+        "rejection_probability": 0.2533,
+        "MC_standard_error": 0.0043490126465670345,
+        "two_sided_95_coverage": 0.9457,
+        "event_effective_N": 170.66666666666666,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 96,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.05,
+        "rejection_probability": 0.8954,
+        "MC_standard_error": 0.0030603731798589536,
+        "two_sided_95_coverage": 0.9457,
+        "event_effective_N": 170.66666666666666,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      },
+      {
+        "groups": 96,
+        "events_per_group": 8,
+        "event_sd": 0.2,
+        "icc": 0.5,
+        "true_delta_bits": 0.1,
+        "rejection_probability": 1.0,
+        "MC_standard_error": 0.0,
+        "two_sided_95_coverage": 0.9457,
+        "event_effective_N": 170.66666666666666,
+        "cluster_SE_formula": "sd(cluster means)/sqrt(G); no second design-effect correction"
+      }
+    ],
+    "six_gate_IUT": [
+      {
+        "groups": 24,
+        "gate_correlation": 0.0,
+        "scenario": "all_positive",
+        "standardized_mean_above_null": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "joint_rejection_probability": 0.0746,
+        "MC_standard_error": 0.002627448191687136
+      },
+      {
+        "groups": 24,
+        "gate_correlation": 0.0,
+        "scenario": "one_boundary_null",
+        "standardized_mean_above_null": [
+          0.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "joint_rejection_probability": 0.0035,
+        "MC_standard_error": 0.0005905717568594015
+      },
+      {
+        "groups": 24,
+        "gate_correlation": 0.0,
+        "scenario": "all_null",
+        "standardized_mean_above_null": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_rejection_probability": 0.0,
+        "MC_standard_error": 0.0
+      },
+      {
+        "groups": 24,
+        "gate_correlation": 0.5,
+        "scenario": "all_positive",
+        "standardized_mean_above_null": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "joint_rejection_probability": 0.2607,
+        "MC_standard_error": 0.004390165258848464
+      },
+      {
+        "groups": 24,
+        "gate_correlation": 0.5,
+        "scenario": "one_boundary_null",
+        "standardized_mean_above_null": [
+          0.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "joint_rejection_probability": 0.0207,
+        "MC_standard_error": 0.00142378053084034
+      },
+      {
+        "groups": 24,
+        "gate_correlation": 0.5,
+        "scenario": "all_null",
+        "standardized_mean_above_null": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_rejection_probability": 0.0001,
+        "MC_standard_error": 9.999499987499375e-05
+      },
+      {
+        "groups": 48,
+        "gate_correlation": 0.0,
+        "scenario": "all_positive",
+        "standardized_mean_above_null": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "joint_rejection_probability": 0.6263,
+        "MC_standard_error": 0.0048378539663780674
+      },
+      {
+        "groups": 48,
+        "gate_correlation": 0.0,
+        "scenario": "one_boundary_null",
+        "standardized_mean_above_null": [
+          0.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "joint_rejection_probability": 0.0157,
+        "MC_standard_error": 0.0012431214743539747
+      },
+      {
+        "groups": 48,
+        "gate_correlation": 0.0,
+        "scenario": "all_null",
+        "standardized_mean_above_null": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_rejection_probability": 0.0,
+        "MC_standard_error": 0.0
+      },
+      {
+        "groups": 48,
+        "gate_correlation": 0.5,
+        "scenario": "all_positive",
+        "standardized_mean_above_null": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "joint_rejection_probability": 0.7426,
+        "MC_standard_error": 0.00437201601094964
+      },
+      {
+        "groups": 48,
+        "gate_correlation": 0.5,
+        "scenario": "one_boundary_null",
+        "standardized_mean_above_null": [
+          0.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "joint_rejection_probability": 0.0238,
+        "MC_standard_error": 0.0015242558840299748
+      },
+      {
+        "groups": 48,
+        "gate_correlation": 0.5,
+        "scenario": "all_null",
+        "standardized_mean_above_null": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_rejection_probability": 0.0006,
+        "MC_standard_error": 0.0002448754785600224
+      },
+      {
+        "groups": 96,
+        "gate_correlation": 0.0,
+        "scenario": "all_positive",
+        "standardized_mean_above_null": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "joint_rejection_probability": 0.9895,
+        "MC_standard_error": 0.0010193012312363777
+      },
+      {
+        "groups": 96,
+        "gate_correlation": 0.0,
+        "scenario": "one_boundary_null",
+        "standardized_mean_above_null": [
+          0.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "joint_rejection_probability": 0.025,
+        "MC_standard_error": 0.0015612494995995996
+      },
+      {
+        "groups": 96,
+        "gate_correlation": 0.0,
+        "scenario": "all_null",
+        "standardized_mean_above_null": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_rejection_probability": 0.0,
+        "MC_standard_error": 0.0
+      },
+      {
+        "groups": 96,
+        "gate_correlation": 0.5,
+        "scenario": "all_positive",
+        "standardized_mean_above_null": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "joint_rejection_probability": 0.9892,
+        "MC_standard_error": 0.0010336034055671464
+      },
+      {
+        "groups": 96,
+        "gate_correlation": 0.5,
+        "scenario": "one_boundary_null",
+        "standardized_mean_above_null": [
+          0.0,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "joint_rejection_probability": 0.0286,
+        "MC_standard_error": 0.0016667945284287442
+      },
+      {
+        "groups": 96,
+        "gate_correlation": 0.5,
+        "scenario": "all_null",
+        "standardized_mean_above_null": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "joint_rejection_probability": 0.0,
+        "MC_standard_error": 0.0
+      }
+    ],
+    "limitations": [
+      "Gaussian independent clusters, equal group sizes, known hypothetical ICC and SD.",
+      "No evidence that real data have these parameters.",
+      "No simulation replaces pilot-based effect margins or source-group audit.",
+      "Test uses t intervals under the simulation assumptions; real ratio/F1 endpoints require paired cluster bootstrap simulation."
+    ]
+  },
+  "transfer": {
+    "replications": 5000,
+    "rows": [
+      {
+        "scenario": "shared_role_law",
+        "target_events_per_role": 2,
+        "source_events_per_role": 100,
+        "prior_strength": 8.0,
+        "expected_test_CE": {
+          "flat": 0.9194973331391159,
+          "Byzantine": 0.7373524339931012,
+          "unrelated": 0.878022380717179,
+          "shuffled_roles": 0.8772462662728902,
+          "role_pooled": 0.8750481207234099
+        },
+        "gain_Byzantine_over": {
+          "flat": {
+            "mean_bits": 0.18214489914601487,
+            "MC_standard_error": 0.0005645232356351434
+          },
+          "unrelated": {
+            "mean_bits": 0.14066994672407773,
+            "MC_standard_error": 0.000897019331078086
+          },
+          "shuffled_roles": {
+            "mean_bits": 0.13989383227978905,
+            "MC_standard_error": 0.0008663014786527724
+          },
+          "role_pooled": {
+            "mean_bits": 0.13769568673030871,
+            "MC_standard_error": 0.0007147912210291394
+          }
+        }
+      },
+      {
+        "scenario": "shared_role_law",
+        "target_events_per_role": 8,
+        "source_events_per_role": 100,
+        "prior_strength": 8.0,
+        "expected_test_CE": {
+          "flat": 0.8224854351113867,
+          "Byzantine": 0.7451147416785786,
+          "unrelated": 0.799064324185143,
+          "shuffled_roles": 0.7991029422536532,
+          "role_pooled": 0.7979597549184979
+        },
+        "gain_Byzantine_over": {
+          "flat": {
+            "mean_bits": 0.07737069343280802,
+            "MC_standard_error": 0.0005778388862987412
+          },
+          "unrelated": {
+            "mean_bits": 0.053949582506564266,
+            "MC_standard_error": 0.0006983913532844564
+          },
+          "shuffled_roles": {
+            "mean_bits": 0.05398820057507455,
+            "MC_standard_error": 0.0006829758656110778
+          },
+          "role_pooled": {
+            "mean_bits": 0.05284501323991922,
+            "MC_standard_error": 0.0006447509501362364
+          }
+        }
+      },
+      {
+        "scenario": "shared_role_law",
+        "target_events_per_role": 32,
+        "source_events_per_role": 100,
+        "prior_strength": 8.0,
+        "expected_test_CE": {
+          "flat": 0.7492421749020745,
+          "Byzantine": 0.7357335028757109,
+          "unrelated": 0.7433939973738655,
+          "shuffled_roles": 0.743239536337792,
+          "role_pooled": 0.743079032066981
+        },
+        "gain_Byzantine_over": {
+          "flat": {
+            "mean_bits": 0.01350867202636357,
+            "MC_standard_error": 0.0003003385125505242
+          },
+          "unrelated": {
+            "mean_bits": 0.00766049449815457,
+            "MC_standard_error": 0.0002768420526762919
+          },
+          "shuffled_roles": {
+            "mean_bits": 0.007506033462081052,
+            "MC_standard_error": 0.0002732914257628567
+          },
+          "role_pooled": {
+            "mean_bits": 0.007345529191270085,
+            "MC_standard_error": 0.0002702087383857608
+          }
+        }
+      },
+      {
+        "scenario": "reversed_role_law",
+        "target_events_per_role": 2,
+        "source_events_per_role": 100,
+        "prior_strength": 8.0,
+        "expected_test_CE": {
+          "flat": 0.9195959818862757,
+          "Byzantine": 1.289577497131018,
+          "unrelated": 0.8773852999528508,
+          "shuffled_roles": 0.8763233032900247,
+          "role_pooled": 0.8742471795568868
+        },
+        "gain_Byzantine_over": {
+          "flat": {
+            "mean_bits": -0.3699815152447423,
+            "MC_standard_error": 0.0021586683642511495
+          },
+          "unrelated": {
+            "mean_bits": -0.4121921971781673,
+            "MC_standard_error": 0.0019270219390388574
+          },
+          "shuffled_roles": {
+            "mean_bits": -0.4132541938409932,
+            "MC_standard_error": 0.0019146378901047873
+          },
+          "role_pooled": {
+            "mean_bits": -0.41533031757413136,
+            "MC_standard_error": 0.0018487187132771017
+          }
+        }
+      },
+      {
+        "scenario": "reversed_role_law",
+        "target_events_per_role": 8,
+        "source_events_per_role": 100,
+        "prior_strength": 8.0,
+        "expected_test_CE": {
+          "flat": 0.8213982339342337,
+          "Byzantine": 0.9510171627727781,
+          "unrelated": 0.7979847272293961,
+          "shuffled_roles": 0.7975634789306819,
+          "role_pooled": 0.7968180887471877
+        },
+        "gain_Byzantine_over": {
+          "flat": {
+            "mean_bits": -0.12961892883854412,
+            "MC_standard_error": 0.0009873689590870736
+          },
+          "unrelated": {
+            "mean_bits": -0.15303243554338183,
+            "MC_standard_error": 0.0007866292115482978
+          },
+          "shuffled_roles": {
+            "mean_bits": -0.15345368384209593,
+            "MC_standard_error": 0.0007781697225726497
+          },
+          "role_pooled": {
+            "mean_bits": -0.1541990740255902,
+            "MC_standard_error": 0.0007454485626502235
+          }
+        }
+      },
+      {
+        "scenario": "reversed_role_law",
+        "target_events_per_role": 32,
+        "source_events_per_role": 100,
+        "prior_strength": 8.0,
+        "expected_test_CE": {
+          "flat": 0.7490062633080896,
+          "Byzantine": 0.7705123399937587,
+          "unrelated": 0.7429700346282297,
+          "shuffled_roles": 0.7429182723442691,
+          "role_pooled": 0.7427238361941306
+        },
+        "gain_Byzantine_over": {
+          "flat": {
+            "mean_bits": -0.02150607668566914,
+            "MC_standard_error": 0.0002499829751232101
+          },
+          "unrelated": {
+            "mean_bits": -0.027542305365529013,
+            "MC_standard_error": 0.00020340226324214346
+          },
+          "shuffled_roles": {
+            "mean_bits": -0.027594067649489663,
+            "MC_standard_error": 0.00019914166398058613
+          },
+          "role_pooled": {
+            "mean_bits": -0.027788503799628144,
+            "MC_standard_error": 0.00019393911698097115
+          }
+        }
+      },
+      {
+        "scenario": "role_independent",
+        "target_events_per_role": 2,
+        "source_events_per_role": 100,
+        "prior_strength": 8.0,
+        "expected_test_CE": {
+          "flat": 0.9894917295330837,
+          "Byzantine": 1.1148859670954094,
+          "unrelated": 0.9530838580549275,
+          "shuffled_roles": 0.9525461169084081,
+          "role_pooled": 0.9500992383638881
+        },
+        "gain_Byzantine_over": {
+          "flat": {
+            "mean_bits": -0.12539423756232582,
+            "MC_standard_error": 0.0016534707577257172
+          },
+          "unrelated": {
+            "mean_bits": -0.16180210904048206,
+            "MC_standard_error": 0.001481382400476514
+          },
+          "shuffled_roles": {
+            "mean_bits": -0.16233985018700153,
+            "MC_standard_error": 0.0014600466668043882
+          },
+          "role_pooled": {
+            "mean_bits": -0.1647867287315213,
+            "MC_standard_error": 0.001459740980623046
+          }
+        }
+      },
+      {
+        "scenario": "role_independent",
+        "target_events_per_role": 8,
+        "source_events_per_role": 100,
+        "prior_strength": 8.0,
+        "expected_test_CE": {
+          "flat": 0.9723300473751014,
+          "Byzantine": 1.0211065485822264,
+          "unrelated": 0.9600035249125489,
+          "shuffled_roles": 0.9596718604602865,
+          "role_pooled": 0.9587574764840371
+        },
+        "gain_Byzantine_over": {
+          "flat": {
+            "mean_bits": -0.04877650120712489,
+            "MC_standard_error": 0.0011459517143036302
+          },
+          "unrelated": {
+            "mean_bits": -0.061103023669677466,
+            "MC_standard_error": 0.000998389852976877
+          },
+          "shuffled_roles": {
+            "mean_bits": -0.06143468812193994,
+            "MC_standard_error": 0.00097835958379881
+          },
+          "role_pooled": {
+            "mean_bits": -0.06234907209818956,
+            "MC_standard_error": 0.0009756511787536745
+          }
+        }
+      },
+      {
+        "scenario": "role_independent",
+        "target_events_per_role": 32,
+        "source_events_per_role": 100,
+        "prior_strength": 8.0,
+        "expected_test_CE": {
+          "flat": 0.9506131148889013,
+          "Byzantine": 0.9575726146065732,
+          "unrelated": 0.9490615133800453,
+          "shuffled_roles": 0.9490496681950348,
+          "role_pooled": 0.9488612634965914
+        },
+        "gain_Byzantine_over": {
+          "flat": {
+            "mean_bits": -0.006959499717671794,
+            "MC_standard_error": 0.0002833199049204922
+          },
+          "unrelated": {
+            "mean_bits": -0.008511101226527816,
+            "MC_standard_error": 0.00024095578727411623
+          },
+          "shuffled_roles": {
+            "mean_bits": -0.00852294641153831,
+            "MC_standard_error": 0.00023932110607282432
+          },
+          "role_pooled": {
+            "mean_bits": -0.008711351109981783,
+            "MC_standard_error": 0.00023757360579166082
+          }
+        }
+      }
+    ],
+    "interpretation": "Known-alignment, observed-role Bernoulli emission submodel. Shows positive and negative transfer under specified truth; no historical or chant inference."
+  }
+}
