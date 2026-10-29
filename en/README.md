@@ -14,6 +14,8 @@
 
 **New research direction — ECSI:** [Musicologically grounded signatures for melodic formula families](docs/research/ecsi/README.md). A Musicology-Informed Machine Learning (MIML) framework with the ECSI-D architecture and the independent P0′–P2′ research protocol.
 
+**Comparative research extension — Byzantine theses and Znamenny popevki:** [Complete English research appendix](../docs/research/znamenny-transfer/research-appendix-en.md) · [Greek edition](../docs/research/znamenny-transfer/research-appendix.md). A0 + ECSI-D[κ] investigates musicological identity, variation, uncertain alignment and potential cross-tradition transfer as a distinct, optional research programme.
+
 **[Short research proposal — English PDF](../documents/short-proposal-en.pdf)** · [Greek short proposal](../documents/short-proposal.pdf) · [Detailed research proposal — Greek PDF](../documents/analytical-proposal.pdf) · [PDF contents (Greek)](../documents/README.md)
 
 How can the same melodic formula be recognised when its melodic form changes? How much information from the older written tradition remains recoverable from an analytical exegesis? The proposal brings Byzantine musicology, symbolic music information retrieval (MIR) and machine learning together around these two questions.
