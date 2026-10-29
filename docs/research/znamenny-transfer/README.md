@@ -7,8 +7,6 @@
 ## Ανάγνωση
 
 - **[Πλήρες αυτοτελές ερευνητικό παράρτημα](research-appendix.md)** — ενιαία επιστημονική αφήγηση, μουσικολογία, μαθηματική προδιαγραφή, P1/P2/E-min, πρωτοτυπία, πηγές, ερευνητικό πρόγραμμα και παραρτήματα.
-- **[PDF του αυτόνομου παραρτήματος](research-appendix.pdf)** — πλήρης ανάγνωση 44 σελίδων.
-- **[LaTeX του αυτόνομου παραρτήματος](research-appendix.tex)** — πλήρης πηγή, ανεξάρτητη μεταγλώττιση με XeLaTeX.
 - **[Τελική αρχιτεκτονική διαιτησία](support/00_ASTRA_FINAL_VERDICT_AND_DECISION_GR.md)** — προέλευση της αρχιτεκτονικής επιλογής.
 - **[Ενιαία μαθηματική προδιαγραφή](support/02_SELECTED_ARCHITECTURE_MATHEMATICAL_SPEC_GR.md)** και **[Πειραματικό πρωτόκολλο](support/03_MINIMAL_DECISIVE_EXPERIMENT_AND_PROTOCOL_GR.md)** — λεπτομερής τεχνική επιβεβαίωση.
 - **[Έλεγχος προηγούμενης τέχνης](support/04_NOVELTY_AND_PRIOR_ART_DIFFERENCE_MATRIX_GR.md)** και **[πηγολογικό/τεχνικό μητρώο](support/SOURCE_ACCESS_AND_UNRESOLVED_EVIDENCE.md)**.
@@ -24,15 +22,7 @@ python run_all_checks.py
 
 Οι δοκιμές χρησιμοποιούν συνθετικούς μικρούς χώρους· δεν μετρούν εμπειρική απόδοση σε μελωδίες. Το `validation_summary.json` συνοδεύει το αρχικό πακέτο. Τα πραγματικά δεδομένα και οι πηγολογικοί περιορισμοί αποτελούν ξεχωριστό στάδιο.
 
-## Μεταγλώττιση LaTeX
-
-```bash
-cd docs/research/znamenny-transfer
-xelatex -interaction=nonstopmode research-appendix.tex
-xelatex -interaction=nonstopmode research-appendix.tex
-```
-
-Απαιτείται XeLaTeX και γραμματοσειρά DejaVu Serif. Ο πηγαίος κώδικας είναι αυτοτελής και δεν εισάγει άλλα αρχεία της πρότασης. Προαιρετικό PDF μπορεί να δημιουργηθεί τοπικά με τις παραπάνω εντολές.
+Το PDF και η πηγή LaTeX έχουν αποσυρθεί προσωρινά για ενιαία επιστημονική και γλωσσική επιμέλεια και επανέλεγχο των παραπομπών. Παραμένει διαθέσιμο το πλήρες κείμενο σε Markdown.
 
 ## Εννοιολογικές διακρίσεις
 
