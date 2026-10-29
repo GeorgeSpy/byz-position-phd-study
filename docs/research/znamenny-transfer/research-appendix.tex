@@ -1,0 +1,2505 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  10pt,
+  a4paper,
+]{report}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+  \setmainfont[]{DejaVu Serif}
+  \setsansfont[]{DejaVu Sans}
+  \setmonofont[]{DejaVu Sans Mono}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{\textbf{#1}}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{greek}
+\ifPDFTeX
+\else
+\babelfont{rm}[]{DejaVu Serif}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Ταυτότητα, παραλλαγή και μουσικολογικά ενημερωμένη μάθηση},
+  pdflang={el-GR},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Ταυτότητα, παραλλαγή και μουσικολογικά ενημερωμένη μάθηση}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Συγκριτική επέκταση της βυζαντινής θέσης στο ζναμένιο μέλος}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\emph{Αυτοτελές ερευνητικό παράρτημα --- εκτενής τεχνική έκδοση}
+
+\textbf{Ερευνητικό πεδίο:} συμβολική ανάκτηση μουσικής πληροφορίας
+(MIR), μουσικολογικά ενημερωμένη μηχανική μάθηση (MIML), ιστορική
+σημειογραφία και διαπαραδοσιακή μεταφορά. \textbf{Καθεστώς:} πλήρης
+σχεδιασμός προς πιλοτική τεκμηρίωση· δεν αποτελεί αναφορά εμπειρικών
+αποτελεσμάτων σε πραγματικό ζναμένιο σώμα. Το παράρτημα είναι ανεξάρτητο
+από την κανονιστική πρόταση και δεν τροποποιεί τις μελέτες M1--M5, τον
+κανόνα επιλογής \(R^\star\), το \(\Delta_{\mathrm{hist}}\) ή το
+\(Q_{\mathrm{real}}\).
+
+\chapter{Περίληψη}\label{ux3c0ux3b5ux3c1ux3afux3bbux3b7ux3c8ux3b7}
+
+Η συγκριτική αυτή επέκταση εξετάζει αν η αναγνώριση της ίδιας μελωδικής
+μονάδας μέσα σε ποικίλες πραγματώσεις μπορεί να γίνει υπολογιστικά
+γενικεύσιμη χωρίς να επιβάλλεται κοινό λεξιλόγιο στη βυζαντινή ψαλτική
+και στο ζναμένιο μέλος. Στη βυζαντινή παράδοση η αναλυτική κατηγορία
+είναι η μουσική θέση και η τεκμηριωμένη οικογένειά της· στο ζναμένιο
+μέλος εξετάζονται οι popevki, οι ιστορικές τους ονομασίες και οι τοπικά
+τεκμηριωμένες μελωδικές οικογένειες. Δεν προϋποτίθεται ιστορική ταύτιση
+των δύο μονάδων ούτε καθολική αντιστοιχία των δομικών τους ρόλων.
+
+Προτείνεται ένας κοινός κορμός A0: συμβολικός κωδικοποιητής,
+προσαρμογείς ανά παράδοση, διακριτές πληροφορίες οικογενειακής
+ταυτότητας και μελωδικής πραγμάτωσης, και ημι-Μαρκοβιανός
+αποκωδικοποιητής. Στον κορμό αυτό διερευνάται η
+\textbf{ECSI-D{[}\(\kappa\){]}}: μια μουσικολογικά ενημερωμένη σύνθεση
+στην οποία ο κανονισμένος πιθανοτικός πυρήνας παραλλαγής \(\kappa\)
+προτείνει λανθάνουσες στοιχίσεις μεταξύ μιας πραγματικής εμφάνισης και
+ενός τοπικού προτύπου, ενώ μουσικολογικές προδιαγραφές εφαρμόζονται σε
+αντίστοιχες διαγνωστικές έννοιες. Η περιθωριοποίηση πάνω στις στοιχίσεις
+επιτρέπει η αβεβαιότητα της πραγμάτωσης να μεταφέρεται στις αποφάσεις
+εφαρμογής της προδιαγραφής. Αντίστροφα, η μουσικολογική γνώση μπορεί να
+ενημερώνει την εκτίμηση της στοίχισης και του πυρήνα, υπό ρητό μηχανισμό
+δειγματοληψίας και ανεξάρτητη εποπτεία.
+
+Χωριστό πείραμα \textbf{E-min} εξετάζει αν μεταφέρεται η ρολο-εξαρτημένη
+κατανομή επιτρεπτής παραλλαγής από τη βυζαντινή ψαλτική στο ζναμένιο
+μέλος, με κοινά τοπικά πρότυπα, ισοσταθμισμένη στόχευση και συγκριτές
+από άσχετες παραδόσεις, ανακατεμένους ρόλους και μοντέλα χωρίς ρόλους.
+Το κυρίως πείραμα \textbf{P1} ελέγχει αν η κοινή περιθωριοποίηση
+βελτιώνει την πρόβλεψη ανεξάρτητων μουσικολογικών κρίσεων έναντι του
+Pool με ίδια ακριβώς πληροφορία στοίχισης. Το \textbf{P2} εξετάζει αν η
+εφαρμογή προδιαγραφών βελτιώνει την ανακτησιμότητα των μουσικών σημείων
+αναφοράς έναντι συγκρίσιμων μεθόδων εκμάθησης.
+
+Η πιθανιστική προδιαγραφή διακρίνει ρητά τους χώρους κανονικοποίησης του
+γεννητικού μοντέλου και του διακριτικού semi-CRF, χειρίζεται τον
+μηχανισμό επιλογής του σώματος και αποφεύγει διπλομετρήσεις της ίδιας
+παρατήρησης ως ανεξάρτητων τεκμηρίων. Τα διαθέσιμα συνθετικά oracles
+ελέγχουν τις αναδρομές αλλά δεν υποκαθιστούν μουσικό corpus ή ανθρώπινη
+επικύρωση. Το πρόγραμμα δημοσιεύσεων εστιάζει σε αναπαραγώγιμο πόρο,
+συγκριτική μουσικολογία της παραλλαγής και ελεγχόμενη MIML, χωρίς να
+εμφανίζεται η σύνθεση γνωστών τεχνικών ως ήδη αποδεδειγμένος νέος
+γενικός αλγόριθμος μηχανικής μάθησης.
+
+\textbf{Λέξεις-κλειδιά:} θέσις, οικογένεια θέσεων, popevka, Znamenny
+chant, \(\kappa\)-kernel, ECSI-D, λανθάνουσα στοίχιση, semi-Markov CRF,
+symbolic MIR, MIML, ιστορική ανάκτηση.
+
+\chapter{Το ερευνητικό ερώτημα και η αφηγηματική
+ενότητα}\label{ux3c4ux3bf-ux3b5ux3c1ux3b5ux3c5ux3bdux3b7ux3c4ux3b9ux3baux3cc-ux3b5ux3c1ux3ceux3c4ux3b7ux3bcux3b1-ux3baux3b1ux3b9-ux3b7-ux3b1ux3c6ux3b7ux3b3ux3b7ux3bcux3b1ux3c4ux3b9ux3baux3ae-ux3b5ux3bdux3ccux3c4ux3b7ux3c4ux3b1}
+
+Η μουσική ταυτότητα δεν ταυτίζεται με μία απομονωμένη ακολουθία φθόγγων.
+Η ίδια αναγνωρίσιμη μονάδα μπορεί να αλλάζει σε διάρκεια, αριθμό
+γεγονότων, δομή ανάπτυξης και γραπτή απόδοση, χωρίς κάθε παραλλαγή να
+είναι αποδεκτή. Συνεπώς η αναγνώριση της οικογένειας, η επιτρεπτή
+μεταβολή της επιφάνειας και τα μουσικολογικά κριτήρια δεν μπορούν να
+εξετάζονται μόνο ως τρεις ασύνδετες εργασίες.
+
+Η επέκταση συνδέει τις τρεις διεργασίες: (α) μια υποψήφια οικογένεια
+προτείνει τοπικό μελωδικό πρότυπο και διαγνωστικούς κανόνες· (β) ο
+πυρήνας παραλλαγής αποδίδει πιθανότητες στις διαφορετικές στοιχίσεις του
+παρατηρούμενου τμήματος με το πρότυπο· (γ) η ισχύς της οικογενειακής
+προδιαγραφής σταθμίζεται πάνω σε όλες τις επιτρεπτές στοιχίσεις.
+Αποκτούμε έτσι ελέγξιμη απόκριση στην ερώτηση «τι αναγνωρίζεται ως η
+ίδια μουσική μονάδα, παρά την παραλλαγή;», καθώς και έναν τρόπο να
+δοκιμάσουμε αν η μουσικολογική γνώση βοηθά αντίστροφα στον εντοπισμό της
+κρυφής δομής.
+
+Το ερώτημα μεταφοράς είναι χωριστό: ακόμη και αν το ίδιο υπολογιστικό
+σχήμα λειτουργεί στις δύο παραδόσεις, δεν έπεται ότι οι κατανομές των
+επιτρεπτών πράξεων είναι ίδιες. Το E-min απομονώνει ακριβώς αυτή την
+υπόθεση. Επομένως η εκτίμηση της ECSI-D{[}\(\kappa\){]} σε τοπικά
+δεδομένα Znamenny μπορεί να είναι ενδιαφέρουσα ακόμη και αν αποτύχει η
+μεταφορά του βυζαντινού prior, και αντίστροφα.
+
+\chapter{Θέση ως προς τη βασική διδακτορική
+πρόταση}\label{ux3b8ux3adux3c3ux3b7-ux3c9ux3c2-ux3c0ux3c1ux3bfux3c2-ux3c4ux3b7-ux3b2ux3b1ux3c3ux3b9ux3baux3ae-ux3b4ux3b9ux3b4ux3b1ux3baux3c4ux3bfux3c1ux3b9ux3baux3ae-ux3c0ux3c1ux3ccux3c4ux3b1ux3c3ux3b7}
+
+Η επέκταση αποτελεί προαιρετικό, πηγολογικά εξαρτώμενο ερευνητικό στάδιο
+από τον μήνα 36 και εξής. Δεν προτείνει νέα προϋπόθεση ολοκλήρωσης της
+διατριβής ούτε αλλαγή των κύριων πρωτοκόλλων Μ1--Μ5. Η βυζαντινή
+οικογενειακή έννοια, ο ιστορικός έλεγχος EISE/Μ2 και η πληροφορία
+πραγματώσεων \(Q_{\mathrm{real}}\) διατηρούν την κανονιστική τους θέση.
+Οι δείκτες \(\Delta_{P1}\), \(\Delta_{P2}\) και E-min είναι πρόσθετα,
+διακριτά εκτιμώμενα μεγέθη, όχι μετονομασία του
+\(\Delta_{\mathrm{hist}}\) ή του \(R^\star\).
+
+Το παρόν κείμενο έχει χαρακτήρα αυτοτελούς τεχνικού παραρτήματος. Μπορεί
+να διαβαστεί χωρίς τα εσωτερικά ιστορικά reports, με διασυνδέσεις προς
+αυτά για αριθμητικό έλεγχο, προέλευση αποφάσεων και ακριβή διατήρηση των
+αρχικών ερευνητικών υποθέσεων.
+
+\chapter{Μουσικολογική αντιστοίχιση, πηγές και ανεξάρτητη
+επισημείωση}\label{ux3bcux3bfux3c5ux3c3ux3b9ux3baux3bfux3bbux3bfux3b3ux3b9ux3baux3ae-ux3b1ux3bdux3c4ux3b9ux3c3ux3c4ux3bfux3afux3c7ux3b9ux3c3ux3b7-ux3c0ux3b7ux3b3ux3adux3c2-ux3baux3b1ux3b9-ux3b1ux3bdux3b5ux3beux3acux3c1ux3c4ux3b7ux3c4ux3b7-ux3b5ux3c0ux3b9ux3c3ux3b7ux3bcux3b5ux3afux3c9ux3c3ux3b7}
+
+\section{Τι τεκμηριώνουν οι ιστορικές
+πηγές}\label{ux3c4ux3b9-ux3c4ux3b5ux3baux3bcux3b7ux3c1ux3b9ux3ceux3bdux3bfux3c5ux3bd-ux3bfux3b9-ux3b9ux3c3ux3c4ux3bfux3c1ux3b9ux3baux3adux3c2-ux3c0ux3b7ux3b3ux3adux3c2}
+
+Το \textbf{KAVZSP.pdf} διαβάστηκε πλήρως, μαζί με το παράρτημα, και
+ελέγχθηκαν οπτικά επιλεγμένες σελίδες με πίνακες/νεύματα. Η εξαγωγή
+κειμένου δεν υποκαθιστά παλαιογραφική μεταγραφή των glyphs. Η μελέτη
+περιγράφει τρεις δισήμαντους Οκτωήχους, \textbf{619/647, 618/644,
+Q.I.188}, τέλους 17ου--αρχών 18ου αιώνα, και αντιπαραβάλλει μελωδικά
+λήμματα του Metallov με ηλεκτρονικές κωδικοποιήσεις της ερευνητικής
+ομάδας. Η ύπαρξη αυτών των κωδικοποιήσεων τότε δεν αποδεικνύει σημερινή
+ανοικτή διάθεσή τους.
+
+Στην εσωτερική σ. 5 ο πίνακας έχει συνολικά \textbf{511} καταλογικές
+εγγραφές ανά glas, \textbf{243} τύπους που εντοπίζονται ακριβώς στο
+619/647, \textbf{29.217} φθόγγους και \textbf{8.600} καλυμμένους
+φθόγγους. Ο επαναϋπολογισμός δίνει \textbf{47,55\% τύπους} και
+\textbf{29,43\% φθογγική κάλυψη}. Το Work είχε στρογγυλοποιήσει τον
+τελευταίο λόγο σε 29,44\%· διορθώνεται εδώ. Στα τρία σώματα εντοπίζονται
+278/511=54,40\% τύποι. Οι κατά προσέγγιση αναφορές περίπου 75\% τύπων
+και 60\% κάλυψης κειμένου έχουν διαφορετικούς παρονομαστές και δεν
+μετατρέπονται σε επίδοση του νέου benchmark. Στον glas 1 το πεζό κείμενο
+δίνει 34,2\%, ενώ ο πίνακας 34,6\%· ο λόγος 1242/3593 συμφωνεί με τον
+πίνακα.
+
+Οι glas 3 και 5 στους πρώτους δύο μάρτυρες έχουν μεταφορά τετάρτης προς
+τα κάτω. Στη συγκεκριμένη ανάλυση ο 3 επαναφέρεται ψηλότερα, ενώ ο 5
+διατηρείται μεταφερμένος. Απαιτείται πεδίο
+\texttt{pitch\_normalization\_provenance} ανά πηγή/glas. Η ενιαία εκ των
+υστέρων κανονικοποίηση από ολόκληρο το σώμα θα αλλοίωνε το baseline και
+μπορεί να χρησιμοποιούσε test πληροφορία.
+
+Οι σσ. 3--4 δείχνουν δύο ουσιώδη όρια του απλού μελωδικού ορισμού. Μία
+note-exact αντιστοίχιση μπορεί να ανήκει σε διαφορετικό νευματικό τύπο
+όταν λείπει χαρακτηριστικό знамя, όπως στο παράδειγμα «хамила». Επίσης
+κοινό каданс μπορεί να συνυπάρχει με διαφορετικά ονομασμένες αναπτύξεις.
+Το подвод και το каданс αποτελούν χρήσιμες υποθέσεις τοπικής οργάνωσης,
+ενώ η ταυτότητα εξετάζεται ανά οικογένεια. Το παράρτημα δίνει πολλαπλές
+νευματικές αποδόσεις και συγκεντρωτικές συχνότητες· χωρίς
+work/locus/folio αυτές δεν αποτελούν έτοιμα ανεξάρτητα train/test
+παραδείγματα.
+
+\section{Καθεστώς πρόσβασης και source
+cards}\label{ux3baux3b1ux3b8ux3b5ux3c3ux3c4ux3ceux3c2-ux3c0ux3c1ux3ccux3c3ux3b2ux3b1ux3c3ux3b7ux3c2-ux3baux3b1ux3b9-source-cards}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Πηγή
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Επαληθευμένο
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Απαιτείται πριν από εκπαίδευση
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+619/647 &
+\href{https://kp.rusneb.ru/item/material/65265e8f8586c2169e04a943}{Επίσημη
+NEB/RNL εγγραφή}, V+57 φύλλα, ψηφιοποίηση 2023. & Ανακτήσιμες εικόνες
+συγκεκριμένων folios, όροι χρήσης/διανομής, quality sample και διπλή
+μεταγραφή. Ο reader δεν έδωσε αναγνώσιμο περιεχόμενο στο εργαλείο. \\
+618/644 & Χρήση στο KAVZSP και στην
+\href{https://doi.org/10.17674/2782-3601.2022.4.098-106}{πρωτογενή
+μελέτη 2022}. & Ακριβής σημερινή καταλογική ταυτότητα και λειτουργικός
+σύνδεσμος εικόνων· έλεγχος τυχόν παλαιών συγχύσεων αριθμών. \\
+Q.I.188 & Ίδιες ερευνητικές πηγές. & Ακριβής εγγραφή, folios,
+χρονολόγηση και συγγένεια μαρτύρων. \\
+Metallov 1899 &
+\href{https://seminaria.ru/metallov-v-m-prot-osmoglasiye-znamennogo-rospeva-opyt-rukovodstva-k-izucheniyu-osmoglasiya-znamennogo-rospeva-po-glasovym-popevkam-m-1899}{Καταλογική
+εγγραφή} και αναλυτική χρήση στο KAVZSP. & Λειτουργικό scan· ο παλιός
+σύνδεσμος glas PDF επέστρεψε 404. Πολιτική external dictionary prior και
+σύγκριση χωρίς αυτό. \\
+Ηλεκτρονικά λεξικά & Παραπομπές της προηγούμενης βιβλιογραφίας. &
+Έκδοση, πραγματική πρόσβαση, schema, loci, άδεια και contamination
+audit. Δεν απογράφηκαν ως διαθέσιμο corpus. \\
+\end{longtable}
+
+Κάθε source card αποθηκεύει ακριβή shelfmark, institution,
+URL/identifier, ημερομηνία πρόσβασης, folio range, χρονολόγηση με
+αβεβαιότητα, εκδοτική/γραφική παράδοση, σχέση αντιγραφής, δικαιώματα ανά
+τύπο παραγώγου, κατάσταση ψηφιοποίησης, OCR/OMR έκδοση, SHA256
+εικόνας/μεταγραφής και υπεύθυνους ελέγχου. Τα δικαιώματα είναι πεδίο
+τεκμηρίου, όχι συμπέρασμα από την ηλικία του χειρογράφου.
+
+Η ποιοτική διαδικασία έχει δύο ανεξάρτητες μεταγραφές επιλεγμένων
+folios, αντιπαραβολή με εικόνα, καταγραφή αβεβαιότητας χαρακτήρων και
+adjudication που διατηρεί τις αρχικές εκδοχές. Το ατομικό γεγονός
+συνδέεται με source glyph span και συλλαβή. Επαληθεύονται round-trip
+αντιστοιχίσεις, πλήθη διάρκειας και συνέπεια pitch policy, χωρίς να
+εξομαλύνονται σιωπηρά ιστορικές αποκλίσεις.
+
+\section{Τοπικοί ρόλοι και δύο τροχιές οικογενειακής
+ετικέτας}\label{ux3c4ux3bfux3c0ux3b9ux3baux3bfux3af-ux3c1ux3ccux3bbux3bfux3b9-ux3baux3b1ux3b9-ux3b4ux3cdux3bf-ux3c4ux3c1ux3bfux3c7ux3b9ux3adux3c2-ux3bfux3b9ux3baux3bfux3b3ux3b5ux3bdux3b5ux3b9ux3b1ux3baux3aeux3c2-ux3b5ux3c4ux3b9ux3baux3adux3c4ux3b1ux3c2}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Αντικείμενο
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Βυζαντινή πλευρά
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Znamenny πλευρά
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Επιτρεπτή κοινή υπόθεση
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Μονάδα ταυτότητας & Θέσις και οικογένεια κατά την κανονιστική πρόταση. &
+Popevka / ιστορικός νευματικός τύπος / μελωδική κατηγορία με χωριστά
+IDs. & Επαναλαμβανόμενη μουσική ταυτότητα μέσα σε μεταβολή, με
+ανεξάρτητη τοπική τεκμηρίωση. \\
+Ρόλοι & Τοπικές λειτουργίες και διαγνωστικά που ορίζει ο βυζαντινός
+ειδικός. & Υποψήφια подвод, каданс, μεταβατική λειτουργία, επιπλέον
+οικογενειακές διακρίσεις. & Μερική αντιστοίχιση λειτουργιών, με
+confidence και εναλλακτικές· καμία εξαναγκασμένη αντιστοίχιση όλων των
+ρόλων. \\
+Συνοπτική/αναλυτική γραφή & Εξήγηση σε συγκεκριμένο ιστορικό πλαίσιο. &
+Fita/litsa και razvod με δική τους περίοδο και πρακτική. & Συγκριτική
+σχέση μόνο όταν τεκμηριώνεται το ίδιο locus και η φύση της ανάπτυξης. \\
+Κλίμακα & Θέση, συλλαβή, φράση μπορούν να διασταυρώνονται. & Popevka,
+tandem repeat, συνδετικό και άλλες μονάδες μπορεί να επικαλύπτονται. &
+Το πλήρες μητρώο κρατά τις επικαλύψεις· το MVP εκπαιδεύεται σε δηλωμένη
+μη επικαλυπτόμενη προβολή. \\
+\end{longtable}
+
+Η τροχιά \textbf{F\_melodic} προκύπτει από ειδικούς που βλέπουν μόνο τις
+προδηλωμένες μελωδικές/κειμενικές πληροφορίες και κρίνουν ταυτότητα
+ανεξάρτητα από τις κάρτες S και τις προβλέψεις. Η τροχιά
+\textbf{F\_historical} διατηρεί την ιστορική ονομασία/νευματική
+ταξινόμηση και τα τεκμήριά της. Ο πίνακας αντιστοίχισης μπορεί να είναι
+πολλά-προς-πολλά. Δεν αναγκάζουμε τον ιστορικό όρο να ικανοποιεί ένα
+σύγχρονο μελωδικό κριτήριο και δεν χρησιμοποιούμε την ιστορική τροχιά ως
+κρυφή είσοδο της μελωδικής αναγνώρισης.
+
+Η ακολουθία αξιολόγησης ακολουθεί το πνεύμα της Μ3a: πρώτα τυφλή κρίση
+ορίων/μέλους/μη μέλους/ανεπίλυτου από δύο ειδικούς που δεν συνέταξαν τις
+κάρτες· έπειτα χωριστή κρίση εφαρμοσιμότητας διαγνωστικών και θέσεων.
+Αναφέρεται συμφωνία ανά τύπο απόφασης, με αβεβαιότητα ανά source
+component. Οι διαφωνίες ταξινομούνται ως όριο, επίπεδο ανάλυσης,
+μελωδική δομή, τροπικό πλαίσιο, ιστορική ονομασία ή πηγολογική
+αβεβαιότητα.
+
+Τα πρότυπα \(\Pi_f\) και οι ρόλοι εκτιμώνται μόνο στο train και παγώνουν
+πριν από το test. Στον recognizer υπάρχει μία κάρτα ανά
+\textbf{υποψήφια} οικογένεια, συνεπώς δεν εισάγεται η σωστή gold F. Αν
+απαιτείται τοπική εποπτεία για κάθε νέα οικογένεια, αναφέρεται ως
+few-shot προϋπόθεση και κοστολογείται. Για άγνωστη οικογένεια χωρίς
+κάρτα, η έξοδος είναι U ή αποχή, σύμφωνα με το evidence state.
+
+\section{Πλήρης έλεγχος
+διαρροής}\label{ux3c0ux3bbux3aeux3c1ux3b7ux3c2-ux3adux3bbux3b5ux3b3ux3c7ux3bfux3c2-ux3b4ux3b9ux3b1ux3c1ux3c1ux3bfux3aeux3c2}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Κίνδυνος
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Υποχρεωτικός χειρισμός
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+F ως ακριβές όνομα αλυσίδας znamena & Καταγραφή
+\texttt{label\_provenance}; χωριστή μελωδική και ιστορική τροχιά. Το
+κύριο P1 δεν παίρνει gold F ως observed feature. \\
+Ίδιος ύμνος σε διαφορετικούς μάρτυρες & Κοινό component εξωτερικού
+split, μαζί με αντιγραφές και μεταγραφικές παραλλαγές. \\
+Λεξικό που περιέχει test loci & Έλεγχος προέλευσης λημμάτων·
+external-prior arm και καθαρό train-only arm. \\
+Πρότυπα/ρόλοι από gold test οικογένειες & Train-only fitting. Η
+candidate-card πρόσβαση ορίζεται ως closed-set ή explicit few-shot
+συνθήκη. \\
+Gold boundaries & Επιτρέπονται σε E-min και AP\_family με γνωστά όρια·
+αποκλείονται από joint segmentation test. \\
+Glas/μήκος/κείμενο ως shortcut & Glas-only, length/position-only και
+text ablations· δύσκολα αρνητικά εντός glas. \\
+Test normalization & Κλειδωμένα train pitch/tempo/token dictionaries·
+χειρογραφική διόρθωση με τεκμήριο πηγής, χωρίς test performance
+feedback. \\
+Επιλογή «καλών» καρτών από test & Card version, reviewer και freeze
+timestamp· επιλογή στο train/dev μόνο. \\
+Calibration / threshold / abstention & Ξεχωριστό dev, ίδια prevalence ή
+δηλωμένη διόρθωση· test μόνο μία φορά. \\
+Pseudo-labels και unlabeled test & Κύριο inductive πρωτόκολλο αποκλείει
+test X από fitting· transductive arm χωριστά. \\
+Pomety / target glyphs στο inverse & Δηλώνεται αν αποτελούν μέρος H. Αν
+ναι, αφαιρούνται από C και κάθε derived feature. \\
+F\_historical στο inverse & Αποκλείεται όταν προκύπτει από τον
+αποκρυμμένο H. Επιτρέπεται μόνο τεκμηριωμένη προοπτική F από ανεξάρτητο
+context. \\
+Ακριβές witness/locus ID & Χρησιμοποιείται για split/audit. Ως model
+feature επιτρέπεται μόνο γενικεύσιμο metadata με αποκλεισμό lookup του
+στόχου. \\
+Ανθρώπινη απομνημόνευση λημμάτων & Καταγραφή πηγών κριτών, ανεξάρτητη
+adjudication και sensitivity χωρίς catalogue-familiar items. \\
+Αποκλεισμός αμφίσημων παραδειγμάτων & Αναφορά ποσοστού/χαρακτηριστικών
+αποκλεισμού, multi-gold και coverage-sensitive metrics. \\
+\end{longtable}
+
+\section{Άγνωστο, συνδετικό, ανεπίλυτο και
+αποχή}\label{ux3acux3b3ux3bdux3c9ux3c3ux3c4ux3bf-ux3c3ux3c5ux3bdux3b4ux3b5ux3c4ux3b9ux3baux3cc-ux3b1ux3bdux3b5ux3c0ux3afux3bbux3c5ux3c4ux3bf-ux3baux3b1ux3b9-ux3b1ux3c0ux3bfux3c7ux3ae}
+
+\textbf{Known F:} τεκμηριωμένο μέλος γνωστής οικογένειας. \textbf{U:}
+έγκυρη μονάδα με οικογένεια εκτός train λεξιλογίου.
+\textbf{O/συνδετικό:} τεκμηριωμένο υλικό εκτός της επιλεγμένης μονάδας.
+\textbf{Unresolved:} εκκρεμής κρίση, με λανθάνουσα εποπτεία.
+\textbf{Abstain:} ενέργεια του μοντέλου όταν το calibrated confidence
+δεν καλύπτει το προκαθορισμένο όριο. Αυτές οι καταστάσεις έχουν
+διαφορετικές εγγραφές και losses.
+
+Για μια έννοια διατηρούνται true, false, unobserved και inapplicable,
+μαζί με confidence. Η διαγραφή πρότυπου σημείου έχει δηλωμένη πολιτική:
+μπορεί να αποτελεί τεκμηριωμένη παραβίαση απαιτούμενου σημείου ή
+επιτρεπτή απουσία· δεν γίνεται αυτόματα false για κάθε γνώρισμα. Το q
+εκπαιδεύεται με τις κατάλληλες μάσκες, και η S καθορίζει applicability
+πριν από αξιολόγηση.
+
+\section{Q\_real: η ακριβής κανονιστική
+πύλη}\label{q_real-ux3b7-ux3b1ux3baux3c1ux3b9ux3b2ux3aeux3c2-ux3baux3b1ux3bdux3bfux3bdux3b9ux3c3ux3c4ux3b9ux3baux3ae-ux3c0ux3cdux3bbux3b7}
+
+Η v16.6.4 §7 ορίζει τρεις δοκιμές σε εμφανίσεις εκτός εκπαίδευσης:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Ανακατασκευή αποκρυμμένων συμβολικών γνωρισμάτων}, με ίδια
+  masking policy και ίδια διαθέσιμη πληροφορία σε όλες τις συνθήκες.
+\item
+  \textbf{Διάκριση δύο πραγματώσεων της ίδιας οικογένειας}, ως προς τη
+  μελωδική και χρονική διάρθρωση, με αντιστοίχιση για μήκος/κείμενο όπου
+  χρειάζεται.
+\item
+  \textbf{Γραμμική πρόβλεψη τοπικών ιδιοτήτων}, όπως έκταση και
+  συλλαβική κατανομή, από probe περιορισμένης χωρητικότητας.
+\end{enumerate}
+
+Οι probes εφαρμόζονται στα frozen \(h_t,z_{id},z_{real}\), με ίδιους
+train/dev/test διαχωρισμούς, parameter budgets και output targets. Ο
+raw-X συγκριτής δηλώνει το πληροφοριακό σημείο αναφοράς. Η διάσταση και
+το pooling καταγράφονται· zero-padding σε μεγαλύτερη διάσταση δεν
+λογίζεται ως πρόσθετη πληροφορία. Η κύρια πύλη είναι προδηλωμένη μη
+κατωτερότητα έναντι της αντίστοιχης βασικής συνθήκης σε \textbf{όλες}
+τις απαιτούμενες δοκιμές, με περιθώρια από pilot/retest και conjoint
+απόφαση.
+
+Το \(Q_{real}\) δεν αντικαθίσταται από λόγο πληροφοριών ή από
+αποτυχία/επιτυχία της ανακατασκευής μόνο. Οικογενειακή έλξη στο
+\(z_{id}\) μπορεί να επηρεάζει τον κοινό h ακόμη και με ξεχωριστό
+\(z_{real}\). Με απολύτως frozen encoder, ίδιο preprocessing και ίδιο
+pooling, οι ίδιες αναπαραστάσεις δίνουν τα ίδια probe δεδομένα· παρ' όλα
+αυτά αναφέρεται η αρχική επάρκεια Q\_real. Αν το σύστημα επιλέγει
+διαφορετικά spans ή αποκλείει εμφανίσεις, αλλάζει η coverage και
+απαιτείται νέα αποτίμηση.
+
+Το \(\log p_\kappa(X)\), οι counts edits και οι περιθωριακές στοίχισης
+εξετάζονται ως πρόσθετες αναπαραστάσεις. Δύο διαφορετικές ακολουθίες
+μπορούν να έχουν ίδια τέτοια σύνοψη. Η ύπαρξη μονοπατιού που παράγει την
+παρατήρηση δεν εγγυάται ότι η τελική αποθηκευμένη αναπαράσταση την
+καθιστά ανακτήσιμη.
+
+\section{Ιστορική ανάκτηση και
+ταυτοποιησιμότητα}\label{ux3b9ux3c3ux3c4ux3bfux3c1ux3b9ux3baux3ae-ux3b1ux3bdux3acux3baux3c4ux3b7ux3c3ux3b7-ux3baux3b1ux3b9-ux3c4ux3b1ux3c5ux3c4ux3bfux3c0ux3bfux3b9ux3b7ux3c3ux3b9ux3bcux3ccux3c4ux3b7ux3c4ux3b1}
+
+Ο στόχος είναι
+
+\[p(H_Z^{(w)}\mid X_Z,C_{adm}),\]
+
+όπου \(H_Z^{(w)}\) είναι η συγκεκριμένη σωζόμενη γραφή του μάρτυρα w και
+το \(C_{adm}\) περιέχει μόνο επιτρεπτά, προοπτικά διαθέσιμα
+συμφραζόμενα. Το witness ID προσδιορίζει ποιος στόχος αξιολογείται· δεν
+συνεπάγεται ότι το μοντέλο δικαιούται απομνημονεύσιμο lookup key.
+Διάρκεια, syllable alignment και pomety δηλώνονται ως observed ή masked
+σε κάθε task.
+
+Με πιθανό σύνολο ιστορικών γραφών \(\mathcal H(X,C)\), exact
+identification είναι δυνατή μόνο αν οι επιτρεπτές παρατηρήσεις
+διακρίνουν τις υποψήφιες επιλογές. Αν \(p(X,C\mid H_1)=p(X,C\mid H_2)\),
+κανένας εκτιμητής αυτών των εισόδων δεν μπορεί να τις ξεχωρίσει καλύτερα
+από ό,τι επιτρέπει το prior. Παράλληλα, πολλές αναλύσεις της διαδρομής κ
+μπορεί να παράγουν την ίδια κατανομή X. Η μοναδική αριθμητική q★ για
+δεδομένες παραμέτρους δεν αποδεικνύει μοναδική ιστορική εξήγηση.
+
+Το multi-gold set \(\mathcal G_o\) περιλαμβάνει αποδεκτές αναγνώσεις της
+\textbf{ίδιας} εικόνας ή τεκμηριωμένα ισοδύναμης μεταγραφής. Η απλή
+εμφάνιση διαφορετικής γραφής σε άλλον μάρτυρα δεν την καθιστά αυτόματα
+gold του συγκεκριμένου w. Η set likelihood
+\(-\log\sum_{H\in\mathcal G_o}p(H\mid X,C)\) χρησιμοποιείται για
+set-valued αλήθεια· όταν υπάρχει κατανομή κριτών χρησιμοποιείται proper
+cross entropy ως προς αυτή, με διαφορετική ερμηνεία.
+
+Προβλέπονται τέσσερις συγκρίσεις: λεξικό/context baseline, raw X
+encoder, frozen probes στις h/z, και ξεχωριστό supervised inverse
+μοντέλο ίδιας διαθέσιμης πληροφορίας. Αναφέρονται exact recovery, token
+edit error, set coverage, log loss, μέγεθος prediction set και
+risk--coverage. Η οικογενειακή ετικέτα που παράγεται από το ίδιο X είναι
+επιτρεπτή υπολογιστική σύνοψη· όμως αν \(R=f(X)\) τότε
+\(I(H;R\mid X,C)=0\). Πλεονέκτημα probe δείχνει προσβασιμότητα
+πληροφορίας σε συγκεκριμένο μοντέλο, όχι δημιουργία νέας ιστορικής
+πληροφορίας.
+
+Η αποχή επιλέγεται σε dev και αναφέρει τόσο επιτυχία στο αποδεκτό
+υποσύνολο όσο και συνολική κάλυψη. Εγγυήσεις conformal coverage θα
+απαιτούσαν κατάλληλη exchangeability σε επίπεδο πηγής· δεν
+προϋποτίθενται για τρεις ιστορικά συγγενείς μάρτυρες. Το βυζαντινό
+\(\Delta_{hist}\) παραμένει συνδεδεμένο με το ανεξάρτητο εκτελεστικό
+\(\Gamma\) της v16.6.4 και δεν χρησιμοποιείται ως όνομα των παραπάνω Z
+metrics.
+
+\section{Έτοιμη δομή
+μητρώου}\label{ux3adux3c4ux3bfux3b9ux3bcux3b7-ux3b4ux3bfux3bcux3ae-ux3bcux3b7ux3c4ux3c1ux3ceux3bfux3c5}
+
+Το corpus\_schema.json (τεχνικό τεκμήριο: \texttt{corpus\_schema.json})
+δίνει μηχανικά ελέγξιμη ελάχιστη εγγραφή χωρίς επινοημένα πραγματικά
+loci. Κάθε εμφάνιση περιέχει source/work/locus/component IDs, dual
+family labels, annotation origin, admissible inputs, selection
+mechanism, pitch policy, candidate boundaries, role landmarks,
+uncertainty και δικαιώματα. Το \texttt{unresolved} είναι επιτρεπτή τιμή
+τεκμηρίου, αλλά ο pipeline validator αποκλείει training όταν λείπει η
+απαραίτητη άδεια ή όταν εμφανίζεται component overlap.
+
+Η απογραφή είναι το πρώτο πραγματικό μουσικολογικό παραδοτέο της
+επόμενης φάσης. Το παρόν ολοκληρώνει τον ορισμό της, χωρίς να εμφανίζει
+τις καταλογικές εγγραφές ή τα συγκεντρωτικά δεδομένα ως ήδη έτοιμο
+εκπαιδευτικό σώμα.
+
+\chapter{\texorpdfstring{Μαθηματική προδιαγραφή του A0 και της
+ECSI-D{[}\(\kappa\){]}}{Μαθηματική προδιαγραφή του A0 και της ECSI-D{[}\textbackslash kappa{]}}}\label{ux3bcux3b1ux3b8ux3b7ux3bcux3b1ux3c4ux3b9ux3baux3ae-ux3c0ux3c1ux3bfux3b4ux3b9ux3b1ux3b3ux3c1ux3b1ux3c6ux3ae-ux3c4ux3bfux3c5-a0-ux3baux3b1ux3b9-ux3c4ux3b7ux3c2-ecsi-dkappa}
+
+\section{Αντικείμενα και διαθέσιμη
+πληροφορία}\label{ux3b1ux3bdux3c4ux3b9ux3baux3b5ux3afux3bcux3b5ux3bdux3b1-ux3baux3b1ux3b9-ux3b4ux3b9ux3b1ux3b8ux3adux3c3ux3b9ux3bcux3b7-ux3c0ux3bbux3b7ux3c1ux3bfux3c6ux3bfux3c1ux3afux3b1}
+
+Η παράδοση είναι \(d\in\{B,Z\}\). Το έργο περιέχει ατομικά συμβολικά
+γεγονότα \(X=(x_1,\ldots,x_T)\). Ένα υποψήφιο τμήμα \(s=(a,b]\) έχει
+μήκος \(n=b-a\), \(1\le n\le L\). Το \(F_d\) είναι το τοπικό λεξιλόγιο
+γνωστών οικογενειών. Το \(C\) περιέχει διαθέσιμα πριν από την πρόβλεψη
+συμφραζόμενα, όπως δηλωμένο glas, κειμενική θέση και εξωτερική προσωδία.
+Τα υπολογισμένα από το ίδιο \(X\) γνωρίσματα παραμένουν συναρτήσεις της
+παρατήρησης και δεν εισάγονται ως εξωγενείς σταθερές σε γεννητική
+κανονικοποίηση.
+
+Για κάθε υποψήφια \(f\), το \(\Pi_f\) είναι σταθεροποιημένο πρότυπο
+\(J_f\) σημείων αναφοράς, με τοπικούς ρόλους \(r_{f,j}\in\mathcal R_d\).
+Προκύπτει αποκλειστικά από train παραδείγματα και ειδικό. Η ύπαρξή του
+αποτελεί ελέγξιμη υπόθεση συγκεκριμένης οικογένειας. Για πολυθετικές
+οικογένειες επιτρέπεται πεπερασμένο μείγμα προτύπων,
+\(p_f=\sum_v\omega_{f,v}p_{f,v}\), με τα ίδια όρια χωρητικότητας σε
+όλους τους συγκριτές. Καμία οικογένεια δεν αποκλείεται επειδή
+αποτυγχάνει ένα μοναδικό consensus· αναφέρεται το αντίστοιχο
+μοντελοποιητικό έλλειμμα.
+
+Στην αναγνώριση, η \(f\) διατρέχει όλους τους υποψηφίους. Ο ρόλος κάθε
+πρότυπου σημείου είναι διαθέσιμος από την υποψήφια κάρτα και η θέση του
+στο παρατηρούμενο τμήμα είναι λανθάνουσα. Gold οικογένεια ή gold
+εσωτερικά όρια χρησιμοποιούνται μόνο στις δηλωμένες συνθήκες
+εποπτείας/αξιολόγησης. Έτσι αποφεύγεται η χρήση της άγνωστης σωστής
+οικογένειας ως εισόδου του recognizer.
+
+Η συμβολική γέφυρα κωδικοποιεί διατονική βαθμίδα/κίνηση, ονομαστική
+διάρκεια και επιτρεπτή συλλαβική πληροφορία. Το native στρώμα κρατά τις
+λεπτότερες διακρίσεις. Το κοινό αλφάβητο \(V\) είναι πεπερασμένο και
+οριστικοποιημένο στο train. Για μη παρατηρημένα σύμβολα χρησιμοποιείται
+κοινή, δηλωμένη πολιτική OOV· οι bits ανά γεγονός αφορούν ακριβώς αυτή
+την κωδικοποίηση.
+
+\section{Ο κανονισμένος
+κ}\label{ux3bf-ux3baux3b1ux3bdux3bfux3bdux3b9ux3c3ux3bcux3adux3bdux3bfux3c2-ux3ba}
+
+Ο κ παραμετροποιεί profile-HMM με καταστάσεις αντιστοίχισης \(M_j\),
+εισαγωγής \(I_j\), διαγραφής \(D_j\), BEGIN και END. Η διαδρομή \(\pi\)
+καταναλώνει μονοτονικά το πρότυπο και την έξοδο. Οι \(M\) εκπέμπουν ένα
+γεγονός, οι \(I\) ένα πρόσθετο γεγονός, οι \(D\) κανένα. Αντικατάσταση
+είναι η διαφορετική εκπομπή στην \(M\). Ανάπτυξη/σύμπτυξη πολλών
+γεγονότων εκφράζεται ως ακολουθία αυτών των πράξεων· ιδιαίτερη
+μουσικολογική ετικέτα πράξης απαιτεί πρόσθετο τεκμήριο και δεν συνάγεται
+μοναδικά από την ίδια διαδρομή.
+
+Κάθε επιτρεπτή εξερχόμενη γραμμή αθροίζει στη μονάδα, \textbf{μαζί με το
+END}. Στην τελευταία στήλη:
+
+\[
+t(M_J,E)+t(M_J,I_J)=1,\quad
+t(I_J,E)+t(I_J,I_J)=1,\quad t(D_J,E)=1.
+\]
+
+Απουσιάζουν σιωπηλοί κύκλοι και κάθε επαναληπτική εισαγωγή έχει
+πιθανότητα μικρότερη του 1. Η παραγοντοποίηση
+
+\[
+p_\kappa(x,\pi\mid f,C)=\prod_{e\in\pi}t_\kappa(e\mid r,C)\prod_{e\in\pi_{\rm emit}}e_\kappa(x_{i(e)}\mid e,\Pi_f,C)
+\]
+
+περιλαμβάνει τον τελικό παράγοντα. Συνεπώς
+\(\sum_{n\ge0}\sum_{x\in V^n,\pi}p_\kappa(x,\pi\mid f,C)=1\). Η απόδειξη
+ακολουθεί από διαδοχική δειγματοληψία κανονισμένων γραμμών και σχεδόν
+βέβαιο τερματισμό. Η εξαντλητική απαρίθμηση ελέγχει μικρά μήκη· η
+άθροιση ως το 100 και η αναλυτική συνθήκη τερματισμού ελέγχουν την ουρά
+στα fixtures.
+
+Ο βασικός συγκριτικός κ έχει κοινές παραμέτρους ανά επικυρωμένο ρόλο και
+τοπικά emissions γύρω από το πρότυπο. Η μεταφορά μπορεί να
+χρησιμοποιήσει Dirichlet prior
+\(\theta_{Z,r}\sim\mathrm{Dir}(\alpha_r\mu_{B,\mu(r)})\) στις γραμμές,
+όπου \(\mu(r)\) είναι τεκμηριωμένη μερική αντιστοίχιση ρόλων. Για μη
+αντιστοιχισμένους ρόλους χρησιμοποιείται τοπικό prior. Όλες οι συνθήκες
+έχουν κοινή topology και κοινό target budget. Η συγκέντρωση \(\alpha_r\)
+ρυθμίζεται στο dev· αναφέρεται και καμπύλη σταθερής συγκέντρωσης ώστε η
+πλήρης προσαρμογή να μην αποκρύπτει την επίδραση της πηγής.
+
+\subsection{Μήκος και
+κανονικοποίηση}\label{ux3bcux3aeux3baux3bfux3c2-ux3baux3b1ux3b9-ux3baux3b1ux3bdux3bfux3bdux3b9ux3baux3bfux3c0ux3bfux3afux3b7ux3c3ux3b7}
+
+Ορίζονται οι ακατέργαστες μάζες:
+
+\[
+A_f(x,n)=\sum_\pi p_\kappa(x,\pi\mid f,C),\qquad
+a_f(n,C)=\sum_{x\in V^n}A_f(x,n).
+\]
+
+Το \textbf{κύριο E-min} χρησιμοποιεί γνωστό μήκος:
+
+\[
+p_\kappa(x\mid f,C,n)=A_f(x,n)/a_f(n,C).
+\]
+
+Η σύγκριση περιεχομένου έτσι κρατά την πληροφορία μήκους κοινή. Η
+δευτερεύουσα πλήρης πρόβλεψη είναι \(\pi_f(n\mid C)A_f/a_f\).
+Εναλλακτικά χρησιμοποιείται το εγγενές μήκος του profile, οπότε η κοινή
+πιθανότητα είναι απλώς \(A_f\). Ο πολλαπλασιασμός του \(A_f\) με
+ανεξάρτητο prior μήκους απαιτεί νέα κανονικοποίηση. Για παράθυρο
+\(1\le n\le L\), ο παρονομαστής είναι
+\(a_f^{[1,L]}=\sum_{n=1}^L a_f(n,C)\). Οι τρεις εκδοχές καταγράφονται
+χωριστά.
+
+\section{Έννοιες, προδιαγραφή και τέσσερις διαφορετικές
+πιθανότητες}\label{ux3adux3bdux3bdux3bfux3b9ux3b5ux3c2-ux3c0ux3c1ux3bfux3b4ux3b9ux3b1ux3b3ux3c1ux3b1ux3c6ux3ae-ux3baux3b1ux3b9-ux3c4ux3adux3c3ux3c3ux3b5ux3c1ux3b9ux3c2-ux3b4ux3b9ux3b1ux3c6ux3bfux3c1ux3b5ux3c4ux3b9ux3baux3adux3c2-ux3c0ux3b9ux3b8ux3b1ux3bdux3ccux3c4ux3b7ux3c4ux3b5ux3c2}
+
+Οι διαγνωστικές μεταβλητές είναι \(U=(U_1,\ldots,U_m)\) και η
+προδιαγραφή \(S_f\subseteq\{0,1\}^m\). Κάθε έννοια δηλώνει το μουσικό
+σημείο αναφοράς ή την περιοχή που την αφορά, παρατηρησιμότητα,
+εφαρμοσιμότητα, πολιτική διαγραφής και απαιτούμενο ιστορικό εκπομπών.
+Αρχικά:
+
+\[
+q(u\mid x,\pi,C)=\prod_jq_j(u_j\mid x,\pi,C),\qquad
+Q_f(x,\pi)=\sum_{u\in S_f}q(u\mid x,\pi,C).
+\]
+
+Η συνθήκη ανεξαρτησίας αφορά τις έννοιες \textbf{δεδομένης της
+στοίχισης}. Η περιθωριοποίησή της δημιουργεί κοινή κατανομή:
+
+\[
+q_f^\star(u\mid x,C)=\sum_\pi p_\kappa(\pi\mid x,f,C)q(u\mid x,\pi,C).
+\]
+
+Με κατανομή στο κοινό χώρο \((x,\pi,u)\) ορίζονται:
+
+\[
+B_f(x,n)=\sum_\pi p_\kappa(x,\pi\mid f,C)Q_f(x,\pi),\quad
+m_f(x)=B_f(x,n)/A_f(x,n)=\sum_{u\in S_f}q_f^\star(u\mid x,C),
+\]
+
+\[
+z_f(n,C)=\sum_{x\in V^n}B_f(x,n),\qquad
+Z_f(n,C)=z_f(n,C)/a_f(n,C).
+\]
+
+Άρα \(B_f\) είναι κοινή μάζα παρατήρησης και αποδοχής, το \(m_f\)
+posterior πιθανότητα αποδοχής δεδομένου του \(x\), το \(z_f\) κοινή μάζα
+μήκους--αποδοχής και το \(Z_f\) prior πιθανότητα αποδοχής
+\textbf{δεδομένου του μήκους}. Για επιλεγμένες εμφανίσεις:
+
+\[
+p^S_f(x\mid n,C)=\frac{B_f(x,n)}{z_f(n,C)}
+=\frac{p_\kappa(x\mid f,n,C)m_f(x)}{Z_f(n,C)}.\tag{1}
+\]
+
+Ομοίως \(Z_f^{[1,L]}=(\sum_{n=1}^L z_f(n,C))/(\sum_{n=1}^La_f(n,C))\). Ο
+έλεγχος O8 του δεύτερου Claude υπολόγιζε αυτή την περιορισμένη μάζα, με
+μήκη 1--5. Η παρούσα ονοματολογία αποτρέπει τη σύγχυσή της με πιθανότητα
+σε όλα τα μήκη.
+
+\subsection{\texorpdfstring{Τι εκφράζει το
+\(r_f\)}{Τι εκφράζει το r\_f}}\label{ux3c4ux3b9-ux3b5ux3baux3c6ux3c1ux3acux3b6ux3b5ux3b9-ux3c4ux3bf-r_f}
+
+Μια προκαθορισμένη κατανομή αναφοράς \(r(u\mid C)\) δίνει
+\(r_f(C)=\sum_{u\in S_f}r(u\mid C)>0\). Σε διακριτικό μοντέλο το
+\(\log m_f-\log r_f\) είναι νόμιμο χαρακτηριστικό. Για γεννητική
+ερμηνεία Bayes factor απαιτούνται
+\(q(u\mid x,C)=r(u\mid C)\ell(x\mid u,C)/p_r(x\mid C)\) και κοινή
+likelihood. Τότε
+
+\[
+\frac{m_f(x)}{r_f(C)}=\frac{p_r(x\mid U\in S_f,C)}{p_r(x\mid C)}.
+\]
+
+Η εμπειρική βαθμονόμηση ενός ταξινομητή ή η χρήση περιθωρίων train δεν
+αρκεί από μόνη της για αυτή την ταυτότητα. Στο profile μοντέλο της (1),
+η αντίστοιχη μάζα είναι \(Z_f\). Με ελεύθερες οικογενειακές μεροληψίες
+και σταθερό \((n,C)\), η αλλαγή \(r_f\leftrightarrow Z_f\) απορροφάται
+ακριβώς από μετατόπιση της μεροληψίας. Αν όλες οι τελικές δομημένες
+βαθμολογίες μείνουν ίδιες, μένουν ίδιες και η βαθμονόμηση και η σύγκριση
+με U. Συνεπώς η δεύτερη Claude υπερβάλλει όταν παρουσιάζει την αλλαγή
+βαθμονόμησης ως αναγκαία: προκύπτει όταν η μετατόπιση δεν απορροφάται,
+όταν \((n,C)\) μεταβάλλεται ή όταν υπάρχουν περιορισμοί/regularization
+στις μεροληψίες.
+
+\subsection{Επικάλυψη
+πληροφοριών}\label{ux3b5ux3c0ux3b9ux3baux3acux3bbux3c5ux3c8ux3b7-ux3c0ux3bbux3b7ux3c1ux3bfux3c6ux3bfux3c1ux3b9ux3ceux3bd}
+
+Η παραγοντοποίηση \(p_\kappa(x,\pi)q(u\mid x,\pi)\) είναι συνεπής ακόμη
+και αν μια έννοια είναι συνάρτηση της εκπομπής. Η δέσμευση σε αυτό το
+γεγονός αλλάζει την κατανομή με τον παρονομαστή της (1). Σε CRF
+επιτρέπονται επίσης συσχετισμένα γνωρίσματα. Ο πίνακας ιδιοκτησίας
+τεκμηρίων εξυπηρετεί την \textbf{απομόνωση της συνεισφοράς}, όχι γενική
+απαγόρευση κοινών εισόδων. Σφάλμα προκύπτει όταν η ίδια παρατήρηση
+πολλαπλασιάζεται σαν δύο ανεξάρτητα τεκμήρια ή όταν της αποδίδεται
+λανθασμένη Bayesian ερμηνεία.
+
+\section{Διορθωμένο product
+DP}\label{ux3b4ux3b9ux3bfux3c1ux3b8ux3c9ux3bcux3adux3bdux3bf-product-dp}
+
+Η προδιαγραφή μεταγλωττίζεται σε ντετερμινιστικό αυτόματο υπολειπόμενων
+λογικών συναρτήσεων. Κατάσταση \(w\), πλάτος \(W_f\), ενημέρωση
+\(\delta(w,u_B)\) για το block εννοιών που κρίνεται σε μια μετάβαση.
+Κάθε λογική ανάθεση καταμετράται μία φορά, ακόμη και αν ικανοποιεί
+περισσότερους εναλλακτικούς κλάδους.
+
+\subsection{Παρατηρημένη
+ακολουθία}\label{ux3c0ux3b1ux3c1ux3b1ux3c4ux3b7ux3c1ux3b7ux3bcux3adux3bdux3b7-ux3b1ux3baux3bfux3bbux3bfux3c5ux3b8ux3afux3b1}
+
+Για σταθερό \(x\), η κατάσταση είναι \((i,j,s,w,v)\): καταναλωμένα
+γεγονότα \(i\), στήλη \(j\), τύπος \(s\in\{M,I,D\}\), λογική κατάσταση
+\(w\) και όποια πεπερασμένα στατιστικά διαδρομής \(v\) χρειάζονται. Το
+παράθυρο των παρατηρημένων συμβόλων διαβάζεται από το ίδιο \(x\). Μια
+ακμή \(e\) δίνει:
+
+\[
+\alpha(s')\mathrel{+}=\alpha(s)\,t_\kappa(e)\,e_\kappa(x_i\mid e)^{\mathbf1_{\rm emit}}
+\sum_{u_B}q_B(u_B\mid x,e,C)\mathbf1\{w'=\delta(w,u_B)\}.\tag{2}
+\]
+
+Οι διαγραφές προηγούνται σύμφωνα με τη μονοτονική σειρά στη στήλη, χωρίς
+σιωπηλούς κύκλους. Το END πολλαπλασιάζει την τελική μάζα. Άθροιση όλων
+των τελικών λογικών καταστάσεων δίνει \(A_f\), άθροιση με την τελική
+αποδοχή δίνει \(B_f\). Η εφαρμογή γίνεται με log-sum-exp. Η επαγωγή στη
+μερική διάταξη \((i,j)\) αποδεικνύει ότι κάθε διαδρομή και κάθε ανάθεση
+εννοιών συνεισφέρουν ακριβώς μία φορά.
+
+\subsection{\texorpdfstring{Άθροιση πάνω στις εκπομπές για
+\(z_f\)}{Άθροιση πάνω στις εκπομπές για z\_f}}\label{ux3acux3b8ux3c1ux3bfux3b9ux3c3ux3b7-ux3c0ux3acux3bdux3c9-ux3c3ux3c4ux3b9ux3c2-ux3b5ux3baux3c0ux3bfux3bcux3c0ux3adux3c2-ux3b3ux3b9ux3b1-z_f}
+
+Όταν το \(q_B\) εξαρτάται από τα τελευταία \(\ell_h\) εκπεμπόμενα
+σύμβολα, χρειάζεται επιπλέον κατάσταση \(h\in V^{\le \ell_h-1}\). Η
+βοηθητική σύνοψη διαδρομής συμβολίζεται εδώ με c, ενώ w παραμένει η
+λογική κατάσταση. Για εκπομπή \(v\):
+
+\[
+\alpha(i+1,j',s',w',h',c')\mathrel{+}=
+\alpha(i,j,s,w,h,c)t_\kappa(e)e_\kappa(v\mid e)
+\sum_{u_B}q_B(u_B\mid h,v,c,e,C)\mathbf1\{w'=\delta(w,u_B)\},\tag{3}
+\]
+
+όπου \(h'=\mathrm{suffix}_{\ell_h-1}(h\oplus v)\) και \(c'\) η
+ενημερωμένη πεπερασμένη σύνοψη. Η άθροιση διατρέχει \textbf{όλα} τα
+\(v\in V\). Οι εισαγωγές ενημερώνουν το \(h\), ακόμη και όταν δεν
+κρίνεται νέα έννοια. Οι διαγραφές διατηρούν το \(h\). Ο τερματισμός
+μπορεί να χρησιμοποιεί \(h\), \(n\) και \(c'\).
+
+Αυτή η κατάσταση διορθώνει το συμπληρωματικό αντιπαράδειγμα. Η
+αντικατάσταση μόνο του τρέχοντος συμβόλου σε μια βοηθητική ακολουθία
+μηδενικών αφήνει το παρελθόν λανθασμένα σταθερό. Στο νέο oracle τα τρία
+relative errors γίνονται \(1,34\), \(3,34\), \(3,41\times10^{-16}\).
+
+Για τελική μέση τιμή συμβόλων, η κατάσταση κρατά \((n,\sum_i x_i)\), με
+αριθμό δυνατών αθροισμάτων έως \(n(V-1)+1\). Για count εισαγωγών κρατά
+προδηλωμένο capped counter. Σχέση δύο μακρινών σημείων απαιτεί
+αποθήκευση της προηγούμενης σχετικής τιμής/θέσης μέχρι να κλείσει η
+σχέση. Για bidirectional encoder \(h_t(X)\) πάνω στο μεταβαλλόμενο
+\(X\), το ακριβές \(z_f\) συνήθως υπερβαίνει αυτό το trellis: επιλέγεται
+πεπερασμένη γεννητική diagnostic διεπαφή ή δηλωμένη αριθμητική
+προσέγγιση. Η διακριτική εκδοχή μπορεί να χρησιμοποιεί ολόκληρο τον
+encoder χωρίς να υπολογίζει γεννητικό \(Z_f\).
+
+\subsection{Prefix reuse και
+κόστος}\label{prefix-reuse-ux3baux3b1ux3b9-ux3baux3ccux3c3ux3c4ux3bfux3c2}
+
+Αν οι εσωτερικοί παράγοντες εξαρτώνται από το τελικό μήκος/τέλος,
+χρειάζεται ξεχωριστή διέλευση ανά τέλος. Έννοιες ολόκληρου τμήματος
+μπορούν να εφαρμοστούν στο τέλος, εφόσον δεν αλλάζουν τους προηγούμενους
+παράγοντες. Η υπόθεση ελέγχεται στο compiler.
+
+Θέτουμε \(b\) μέγιστο μέγεθος τοπικού block, \(H\) αριθμό ιστορικών
+εκπομπών και \(R\) αριθμό επιπλέον στατιστικών καταστάσεων. Για sparse
+profile, ένα παρατηρημένο τμήμα έχει κόστος \(O(nJ_fW_fR2^b)\). Όλα τα
+υποψήφια τέλη από μία αρχή έχουν \(O(LJ_fW_fR2^b)\) υπό prefix reuse·
+για όλο το έργο \(O(TL\sum_fJ_fW_fR2^b)\). Με εξάρτηση εσωτερικών
+παραγόντων από τέλος, το άνω όριο γίνεται \(O(TL^2\sum_fJ_fW_fR2^b)\).
+
+Η γεννητική κανονικοποίηση για μία κλάση \((f,C)\) και μήκη έως \(L\)
+κοστίζει \(O(LJ_fW_fRH|V|2^b)\), με \(H\le |V|^{\ell_h-1}\). Cache ανά
+ακριβώς ίδιο \((f,C,\kappa,q,L)\)· οι ενημερώσεις παραμέτρων ακυρώνουν
+το cache. Η μνήμη μιας rolling διέλευσης είναι \(O(J_fW_fRH)\)· η απλή
+αποθήκευση για gradients \(O(LJ_fW_fRH)\). Οι δοκιμές Python κρατούν όλο
+το trellis για διαφάνεια.
+
+Το \(W_f\) μπορεί να αυξάνει εκθετικά με ανοικτές λογικές εξαρτήσεις. Το
+όριο 16 του Claude είναι μηχανικός προϋπολογισμός, όχι μαθηματική
+σταθερά. Μετριέται το πραγματικό κόστος του γινομένου καταστάσεων. Αν
+χρησιμοποιηθεί MC, το \(\hat m\) μπορεί να είναι αμερόληπτο ενώ το
+\(\log\hat m\) έχει μεροληψία και κίνδυνο μηδενικής εκτίμησης. Η
+εξωτερική DP παραμένει ακριβής μόνο για τις προσεγγισμένες βαθμολογίες
+που της δόθηκαν.
+
+\section{A0 και εξωτερική δομημένη
+πρόβλεψη}\label{a0-ux3baux3b1ux3b9-ux3b5ux3beux3c9ux3c4ux3b5ux3c1ux3b9ux3baux3ae-ux3b4ux3bfux3bcux3b7ux3bcux3adux3bdux3b7-ux3c0ux3c1ux3ccux3b2ux3bbux3b5ux3c8ux3b7}
+
+\[
+h_t=g_\theta(A_d(R_d(X)))_t,\quad r_s=\mathrm{Pool}(h_{a+1:b}),\quad
+z_{\rm id}(s)=q_{\rm id}(r_s),\quad z_{\rm real}(s)=q_{\rm real}(h_{a+1:b}).
+\]
+
+Το \(R_B^\star\) παραμένει η επιλογή της M1. Το \(R_Z\) ορίζεται με
+τοπικό πρωτόκολλο και κοινή ατομική μονάδα αξιολόγησης. Για γνωστή
+οικογένεια:
+
+\[
+\phi(s,f)=\phi^0(s,f)+\beta_\kappa\log\frac{p_\kappa(x_s\mid f,n,C)}{p_0(x_s\mid n,C)}
++\beta_S\left[\log m_f(x_s)-\log r_f(C,n)\right].\tag{4}
+\]
+
+Οι συντελεστές β εφαρμόζονται μετά την περιθωριοποίηση:
+\((\beta_\kappa-\beta_S)\log A+\beta_S\log B\) για το εσωτερικό μέρος,
+με χωριστούς όρους μήκους/υποβάθρου/αναφοράς. Η μεταφορά των β μέσα στο
+άθροισμα διαδρομών δίνει διαφορετικό μοντέλο.
+
+Η \textbf{κύρια αναγνώριση είναι διακριτικό CRF} με dev-tuned \(\beta\),
+σαφή global normalization και εμπειρική βαθμονόμηση. Η επιλογή
+\(r_f=Z_f\) δίνει τον γεννητικά συνεπή όρο όταν
+\(\beta_\kappa=\beta_S=1\). Η επιλογή άλλου θετικού \(r_f\) αποτελεί
+δηλωμένο διακριτικό comparator. Η \(φ^0\) μπορεί να χρησιμοποιεί
+νευρωνικά γνωρίσματα· η πλήρης (4) δεν αποκτά αυτόματα γεννητική
+ερμηνεία επειδή ένας επιμέρους όρος είναι log odds.
+
+Η έξοδος \(y\) είναι σύνολο μη επικαλυπτόμενων τμημάτων με ετικέτα
+\(f\in F_Z\cup\{U\}\). Το \(U\) δηλώνει έγκυρη μονάδα άγνωστης
+οικογένειας με ιδιαίτερη κεφαλή. Κάθε ακάλυπτο γεγονός έχει μοναδική
+απόφαση skip με βαθμό \(\chi_t\). Η ακάλυπτη περιοχή παραμένει δομική
+απόφαση· το τεκμηριωμένο συνδετικό υπόβαθρο παρέχει χωριστούς
+περιορισμούς εποπτείας.
+
+\[
+s(y,X)=\sum_{(s,f)\in y}\phi(s,f)+\sum_{t\notin\cup y}\chi_t,\qquad
+P(y\mid X)=\exp s(y,X)/\mathcal Z(X).
+\]
+
+Ο κενός \(y\) επιτρέπεται. Με \(\alpha_0=0\) σε log-χώρο:
+
+\[
+\alpha_b=\operatorname{LSE}\left(\alpha_{b-1}+\chi_b,
+\{\alpha_a+\phi((a,b],f):\max(0,b-L)\le a<b\}\right).\tag{5}
+\]
+
+Το \(\log\mathcal Z=\alpha_T\). Η Viterbi αντικαθιστά LSE με max και
+κρατά backpointers. Ο backward δείκτης \(\eta_a\) δίνει πιθανότητα
+τμήματος \(\exp(\alpha_a+\phi(s,f)+\eta_b-\alpha_T)\). Κόστος \(O(TLK)\)
+για \(K=|F_Z|+1\), χώρος \(O(T)\) για partition/Viterbi, συν αποθήκευση
+scores. Η παραγωγή νευρωνικών span summaries έχει δικό της κόστος και
+δεν κρύβεται στο κόστος του decoder.
+
+\subsection{O μήκους 1, gap flag και πλήρεις
+μεταβάσεις}\label{o-ux3bcux3aeux3baux3bfux3c5ux3c2-1-gap-flag-ux3baux3b1ux3b9-ux3c0ux3bbux3aeux3c1ux3b5ux3b9ux3c2-ux3bcux3b5ux3c4ux3b1ux3b2ux3acux3c3ux3b5ux3b9ux3c2}
+
+Πλήρης κάλυψη με ρητό O \textbf{μόνο μήκους 1} και βαθμό \(\chi_t\)
+είναι αμφιμονοσήμαντη με skip στη (5). Επιτρεπτά O πολλών μηκών
+δημιουργούν πολλαπλές κωδικοποιήσεις του ίδιου κενού συμπληρώματος: για
+τέσσερα ακάλυπτα γεγονότα υπάρχουν οκτώ κατατμήσεις. Αυτό μεταβάλλει την
+πιθανότητα της μουσικής εξόδου.
+
+Για πρώτο βαθμό με μνήμη της τελευταίας οικογένειας μέσα από gaps,
+ορίζεται \(\alpha_t(f,g)\), \(g\in\{0,1\}\), συν BOS. Skip:
+\(\alpha_{t+1}(f,1)\mathrel{\mathrm{LSE}=}\alpha_t(f,g)+\chi_{t+1}\).
+Νέο τμήμα \((a,b],k\):
+
+\[
+\alpha_b(k,0)\mathrel{\mathrm{LSE}=}\phi((a,b],k)+\operatorname{LSE}_{f,g}[\alpha_a(f,g)+A_a(f,k,g)].\tag{6}
+\]
+
+Αν \(A_a\) ανεξάρτητο από \(b\), η εσωτερική άθροιση υπολογίζεται μία
+φορά ανά \((a,k)\): \(O(TK^2+TLK)\), μαζί με \(O(TK)\) για gaps/BOS/EOS.
+Αν εξαρτάται από το νέο μήκος, κόστος \(O(TLK^2)\). Πρώτος βαθμός σε
+ετικέτες πλήρους κάλυψης με O που διακόπτει τη μνήμη της οικογένειας
+είναι διαφορετικό μοντέλο από την (6).
+
+Με πλήρη εξάρτηση δύο \textbf{γειτονικών} spans, η κατάσταση περιέχει το
+προηγούμενο span και το κόστος είναι \(O(TL^2K^2)\). Με αυθαίρετα gaps
+και βαθμό που εξαρτάται από προηγούμενα όρια/ακριβές μήκος gap, το gap
+bit δεν αρκεί: χρειάζεται προηγούμενο τέλος, και η άμεση υλοποίηση
+φθάνει \(O(T^2L^2K^2)\). Πρόσθετες παραγοντοποιήσεις ή περιορισμένο gap
+μπορούν να μειώσουν το κόστος. Η πρώτη υλοποίηση επιλέγει τη (5).
+
+\subsection{Μερική και αμφίσημη
+εποπτεία}\label{ux3bcux3b5ux3c1ux3b9ux3baux3ae-ux3baux3b1ux3b9-ux3b1ux3bcux3c6ux3afux3c3ux3b7ux3bcux3b7-ux3b5ux3c0ux3bfux3c0ux3c4ux3b5ux3afux3b1}
+
+Το πλήρες μουσικολογικό μητρώο κρατά επικαλύψεις και εναλλακτικές. Μια
+σταθερή προβολή επιλέγει ξένες περιοχές \(W_j\) όπου η μη επικαλυπτόμενη
+loss είναι κατάλληλη. Οι συμβατές έξοδοι \(\mathcal C_j\) ορίζουν
+
+\[
+\mathcal L_{\rm seg}(X)=\frac{\sum_j[\log\mathcal Z_j-\log\mathcal Z_j^{A}]}{\sum_j|W_j|},
+\quad \mathcal Z_j^A=\sum_{y\in\mathcal C_j}\exp s(y,X).
+\]
+
+Άγνωστη επισημείωση αφήνει λανθάνουσα τη δομή. Πλήρως μη περιορισμένη
+περιοχή έχει μηδενική loss. Εναλλακτικά ζεύγη ορίων και κοινές
+δεσμεύσεις κωδικοποιούνται σε αυτόματο επισημείωσης, πολλαπλασιάζοντας
+την κατάσταση της (5). Ο compiler ελέγχει
+\(\mathcal C_j\ne\varnothing\), συμβατότητα ορίων και κάλυψη \(L\). Η
+καταμέτρηση «ακριβώς μία από αυτές τις εμφανίσεις» χρειάζεται counter·
+ανεξάρτητες μάσκες spans δεν καλύπτουν κάθε κοινό περιορισμό.
+
+\section{Γεννητικό posterior και CRF log
+odds}\label{ux3b3ux3b5ux3bdux3bdux3b7ux3c4ux3b9ux3baux3cc-posterior-ux3baux3b1ux3b9-crf-log-odds}
+
+Έστω prior σε tilings μήκους \(T\), με βάρος \((1-\rho)\) ανά O και
+\(\rho\pi_f\pi_f(n)\) ανά οικογενειακό span. Κανονικοποιείται με
+\(C_T=\sum_y w(y)\), δηλαδή δέσμευση σε επίτευξη του τελικού ορίου
+\(T\). Κάθε οικογενειακό span εκπέμπει από κανονισμένο
+\(p_f(x_s\mid n,C)\) και κάθε O από \(q_0(x_t\mid x_{<t},C)\). Τότε
+\(\sum_{X,y}p(X,y\mid T,C)=1\), εφόσον \(C\) εξωγενές και οι emission
+διεπαφές συνεπείς.
+
+Διαίρεση με το κοινό βάρος \((1-\rho)^T\prod_tq_0(x_t\mid x_{<t},C)\)
+δίνει score οικογένειας:
+
+\[
+\phi_G(s,f)=\log\rho+\log\pi_f+\log\pi_f(n)-n\log(1-\rho)
++\log p_f(x_s\mid n,C)-\sum_{t\in s}\log q_0(x_t\mid x_{<t},C).
+\]
+
+Οι O έχουν μηδενικό σχετικό score. Οι κοινοί όροι και το \(C_T\)
+ακυρώνονται στο \(P(y\mid X)\). Αυτή είναι η ακριβής ισοδυναμία με
+semi-CRF για \(\beta=1\). Ο παράγοντας \(-n\log(1-\rho)\) εξαρτάται από
+μήκος. Σε Markov \(q_0\) ο παρονομαστής χρησιμοποιεί την πραγματική
+αριστερή παρατήρηση και στα όρια· επανεκκίνηση του υποβάθρου σε κάθε
+span αλλάζει το μοντέλο. Η εφαρμογή σε \(p_f^S\) χρησιμοποιεί επιπλέον
+\(-\log Z_f\). Οι τρεις λανθασμένες εκδοχές ---παράλειψη survival,
+\(\beta=1/2\), επανεκκίνηση υποβάθρου--- δίνουν μετρήσιμα διαφορετικά
+posteriors στο oracle.
+
+\section{Αμφίδρομη μάθηση και επιλογή
+δείγματος}\label{ux3b1ux3bcux3c6ux3afux3b4ux3c1ux3bfux3bcux3b7-ux3bcux3acux3b8ux3b7ux3c3ux3b7-ux3baux3b1ux3b9-ux3b5ux3c0ux3b9ux3bbux3bfux3b3ux3ae-ux3b4ux3b5ux3afux3b3ux3bcux3b1ux3c4ux3bfux3c2}
+
+Η εκπαίδευση αρχίζει με τοπικά, ανεξάρτητα concept labels για τα \(q_j\)
+και με κανονισμένο κ. Οι semantic heads σταθεροποιούνται πριν από το
+πρώτο πείραμα S→κ: ελεύθερη κοινή μεγιστοποίηση στα θετικά μόνο
+επιτρέπει λύσεις \(q_j\approx1\) που παρακάμπτουν το μουσικό πρόβλημα.
+Μετέπειτα κοινή μάθηση κρατά ανεξάρτητη concept loss, δύσκολα αρνητικά,
+held-out calibration και σταθερή προδιαγραφή.
+
+Για συντομία θέτουμε \(a(x)=p_\kappa(x\mid n,C,f)\), \(b(x)=a(x)m_f(x)\)
+και \(Z=\sum_xb(x)\). Ο στόχος επιλέγεται από την τεκμηριωμένη συλλογή:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Μηχανισμός
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Πιθανοφάνεια ανά καταγραφή
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Αντιπροσωπευτική δειγματοληψία \(X\) και καταγραφή αποδοχής
+\(Y\in\{0,1\}\) & \(\log a(x)+Y\log m(x)+(1-Y)\log(1-m(x))\) \\
+Παρατήρηση \((X,Y=1)\) χωρίς αποκλεισμό των αποτυχιών από το σχέδιο
+συλλογής & Συνεισφορά \(\log b(x)\), μαζί με τις υπόλοιπες
+παρατηρήσεις/εκβάσεις του ίδιου σχεδίου. \\
+Σώμα που συλλέχθηκε με επιλογή \(Y=1\) & \(\log b(x)-\log Z\) \\
+Καθορισμένα \(X\), weak labels εφαρμογής S, χωρίς γεννητικό ισχυρισμό
+για τη συλλογή & \(Y\log m(x)+(1-Y)\log(1-m(x))\) ως conditional
+loss. \\
+Πρόσθετη επιλεκτική συλλογή με γνωστή πιθανότητα \(s(x,y,C)\) & Νέα
+δέσμευση/στάθμιση με τον πλήρη μηχανισμό επιλογής· το \(Z\) μόνο του
+μπορεί να μην αρκεί. \\
+\end{longtable}
+
+Η δέσμευση σε γνωστή οικογένεια F δεν συνεπάγεται αυτομάτως πρόσθετη
+επιλογή μέσω της S. Το απευθείας οικογενειακό μοντέλο του E-min
+εκπαιδεύεται ως \(p_\kappa(X\mid F,C,n)\). Selected-positive likelihood
+χρησιμοποιείται όταν ο κ ορίζει προϋπάρχον πληθυσμό και η καταγραφή
+εξαρτάται επιπλέον από αποδοχή μέσω της ίδιας S. Η οικογενειακή κρίση
+μπορεί να βασίζεται σε πλουσιότερα τεκμήρια: τότε προσδιορίζεται
+ξεχωριστή μεταβλητή επιλογής, αντί να ταυτίζεται αυθαίρετα με
+\(U\in S\).
+
+Και στους δύο πρώτους semantic στόχους, το posterior διαδρομής για
+θετικό δείγμα είναι
+
+\[
+p(\pi\mid x,S,f,C)=\frac{p_\kappa(x,\pi\mid f,C)Q_f(x,\pi)}{B_f(x)}.
+\]
+
+Ο \(Z\) ακυρώνεται στο E-step για δεδομένο \(x\). Στο M-step των
+επιλεγμένων εμφανίσεων παραμένει:
+
+\[
+\nabla_\kappa\ell_{\rm selected}
+=\mathbb E_{\pi\mid x,S}[\nabla\log p_\kappa(x,\pi)]
+-\mathbb E_{X,\pi\mid S,n,C}[\nabla\log p_\kappa(X,\pi)],\tag{7}
+\]
+
+όταν \(q\) σταθερό, με αντίστοιχους όρους prior. Οι κανονικοποιήσεις
+μήκους ακυρώνονται μεταξύ \(b\) και \(Z\). Η (7) έχει θετική και
+αρνητική αναμενόμενη συνεισφορά. Απλή επανακανονικοποίηση expected
+counts όπως στο Baum--Welch γενικά δεν μεγιστοποιεί αυτή την objective.
+Χρησιμοποιείται διαφορίσιμος ακριβής υπολογισμός ή generalized EM με
+πραγματικό έλεγχο αύξησης της σωστής objective.
+
+Με hard diagnostics, η δέσμευση είναι KL projection στο αποδεκτό joint
+support \((\pi,u)\). Με soft \(Q(\pi)\) η marginal ενημέρωση διαδρομών
+είναι αναστάθμιση, όχι καθολικός αποκλεισμός κάθε διαδρομής που μπορεί
+να παραβιάζει τη S. Η ισοδυναμία με posterior regularization απαιτεί τον
+ίδιο χώρο και τους ίδιους περιορισμούς. Η αμφίδρομη εκπαίδευση ελέγχεται
+έναντι της ακριβώς αντίστοιχης constrained/conditional υλοποίησης·
+ισοδύναμοι αλγόριθμοι οφείλουν να συμφωνούν.
+
+\textbf{Όριο ταυτοποιησιμότητας.} Έστω δύο λανθάνουσες στοιχίσεις με
+ίδιο \(p(X)\) και διαφορετικές σταθερές αποδοχές \(Q_0=0,2\),
+\(Q_1=0,8\). Για βάρος μείγματος θ, η παρατηρημένη κατανομή X παραμένει
+ίδια ενώ \(m_θ=0,2+0,6θ\). Ακόμη και η κατανομή επιλεγμένων X παραμένει
+ίδια επειδή \(B_θ(X)/z_θ=p(X)\). Άρα θετικά επιλεγμένα X μόνα τους δεν
+ταυτοποιούν θ ή την ιστορική στοίχιση. Αντιπροσωπευτικά παρατηρημένα Y ή
+ανεξάρτητες σημάνσεις μπορούν να προσθέσουν την ελλείπουσα πληροφορία.
+Το αντιπαράδειγμα ελέγχεται στο learning oracle.
+
+Η συνολική διακριτική εκπαίδευση A0 χρησιμοποιεί
+\(\mathcal L_{\rm seg}+\lambda_F\mathcal L_F+\lambda_{\rm pair}\mathcal L_{\rm pair}^{id}+\lambda_{\rm rec}\mathcal L_{\rm mask}+\lambda_q\mathcal L_q\),
+με ξεχωριστή, δηλωμένη βαθμίδα εκτίμησης κ. Η B2 διατηρεί positive-only
+οικογενειακά ζεύγη. Η κλίση στον κοινό encoder ενεργοποιείται μόνο με
+σταθερό \(Q_{\rm real}\) και κοινές συνθήκες σύγκρισης.
+
+\section{Ισχυρότερη έκφραση στο ίδιο
+σύστημα}\label{ux3b9ux3c3ux3c7ux3c5ux3c1ux3ccux3c4ux3b5ux3c1ux3b7-ux3adux3baux3c6ux3c1ux3b1ux3c3ux3b7-ux3c3ux3c4ux3bf-ux3afux3b4ux3b9ux3bf-ux3c3ux3cdux3c3ux3c4ux3b7ux3bcux3b1}
+
+Η προαιρετική μοναδική επέκταση αντικαθιστά το γινόμενο Bernoulli εντός
+τοπικού block \(B_k\) με \(q_{B_k}(u_{B_k}\mid x,\pi,C)\),
+\(|B_k|\le b\), αθροίζοντας όλες τις \(2^{|B_k|}\) διαμορφώσεις στην
+(2). Η topology του profile, η S και η εξωτερική DP παραμένουν κοινές.
+Για \(q(00)=q(11)=1/2\), ένα joint block δίνει \(P(U_1=U_2)=1\), ενώ οι
+ανεξάρτητες Bernoulli με ίδια περιθώρια δίνουν \(1/2\). Αυτό διορθώνει
+πραγματικό περιορισμό της δεύτερης Claude ακόμη και με μοναδική
+στοίχιση.
+
+Η διαφορά AC--Pool μπορεί να εμφανίζεται και για δύο έννοιες \textbf{στο
+ίδιο} μουσικό σημείο όταν η θέση του είναι αβέβαιη:
+\(Y\in\{0{,}1;0{,}9\}\) με ίσα βάρη δίνει \(E[Y^2]=0,41\) έναντι
+\((EY)^2=0,25\). Επομένως η απαίτηση «διαφορετικών σημείων» της Claude
+§2.4 είναι υπερβολικά ισχυρή. Η ακριβής προϋπόθεση είναι μη μηδενικές
+σχετικές μικτές ροπές των diagnostic probabilities.
+
+Το block μέγεθος επιλέγεται με μουσικολογική αιτιολόγηση και ανεξάρτητη
+concept εποπτεία, όχι με το test. Η γενική ML ερευνητική συνέχεια
+απαιτεί νέο αποτέλεσμα αποδοτικότητας/ταυτοποιησιμότητας για αυτή την
+περιορισμένη οικογένεια σε σχέση με ελεύθερα circuits και
+ελαχιστοποιημένα product automata. Η προδιαγραφή παρέχει ακριβές πεδίο
+για αυτή την έρευνα και τους συγκριτές της.
+
+\section{Αναφορά
+επαλήθευσης}\label{ux3b1ux3bdux3b1ux3c6ux3bfux3c1ux3ac-ux3b5ux3c0ux3b1ux3bbux3aeux3b8ux3b5ux3c5ux3c3ux3b7ux3c2}
+
+Τα astra\_oracle.py (τεχνικό τεκμήριο: \texttt{astra\_oracle.py}) και
+ecsi\_kappa\_context\_oracle.py (τεχνικό τεκμήριο:
+\texttt{ecsi\_kappa\_context\_oracle.py}) ελέγχουν ξεχωριστά εξωτερική
+δομή/γεννητικές πιθανότητες και διορθωμένο semantic product. Το
+bidirectional\_learning\_oracle.py (τεχνικό τεκμήριο:
+\texttt{bidirectional\_learning\_oracle.py}) εκτελεί μικρή εκτίμηση των
+διαφορετικών objectives. Τα ακριβή πλήθη, οι αποκλίσεις και τα stress
+timings αποθηκεύονται στα JSON αποτελεσμάτων. Το 07 (τεχνικό τεκμήριο:
+\texttt{07\_IMPLEMENTATION\_BLUEPRINT\_AND\_TESTS\_GR.md}) ορίζει τα
+επιπλέον production checks πριν από μουσική εκπαίδευση.
+
+\chapter{Προεγγεγραμμένα πειράματα P1, P2 και
+E-min}\label{ux3c0ux3c1ux3bfux3b5ux3b3ux3b3ux3b5ux3b3ux3c1ux3b1ux3bcux3bcux3adux3bdux3b1-ux3c0ux3b5ux3b9ux3c1ux3acux3bcux3b1ux3c4ux3b1-p1-p2-ux3baux3b1ux3b9-e-min}
+
+\section{Δεδομένα, διαχωρισμοί και
+ετικέτες}\label{ux3b4ux3b5ux3b4ux3bfux3bcux3adux3bdux3b1-ux3b4ux3b9ux3b1ux3c7ux3c9ux3c1ux3b9ux3c3ux3bcux3bfux3af-ux3baux3b1ux3b9-ux3b5ux3c4ux3b9ux3baux3adux3c4ux3b5ux3c2}
+
+Η μονάδα καταγραφής είναι εμφάνιση με source ID, έργο, locus, μάρτυρα,
+folio, εύρος γεγονότων και αβεβαιότητα ορίων. Η μονάδα ανεξαρτησίας
+είναι συνδεδεμένη συνιστώσα σχέσεων ίδιου ύμνου/χωρίου, αντιγραφής,
+παράλληλου μάρτυρα και σχεδόν ταυτόσημου αποσπάσματος. Όλες οι σχετικές
+εμφανίσεις τοποθετούνται στην ίδια εξωτερική ομάδα. Κοινό λεξικό
+οικογένειας δεν ενώνει αυτόματα όλα τα έργα: ελέγχεται όμως αν το λεξικό
+αντέγραψε συγκεκριμένη test πηγή.
+
+Ο απογραφικός γράφος οριστικοποιείται πριν από εκπαίδευση. Γίνεται
+εσωτερική ομαδική ανάπτυξη και ένα κλειδωμένο εξωτερικό test. Αν τα
+ανεξάρτητα components επαρκούν, προβλέπονται επιπλέον leave-source-out
+και unseen-family folds. Με τρεις συγγενείς μάρτυρες δεν τεκμηριώνεται
+ισχυρή γενίκευση σε νέες παραδόσεις/πηγές μόνο επειδή υπάρχουν πολλές
+εμφανίσεις. Οι αδύνατες διασταυρώσεις δηλώνονται και η ανάλυση παραμένει
+εκτιμητική.
+
+Τα labels χωρίζονται σε: οικογένεια από ανεξάρτητη μελωδική ανάλυση,
+ιστορικό νευματικό τύπο, εναλλακτά όρια, τοπικούς μουσικούς ρόλους,
+επιμέρους έννοιες, κρίση εφαρμογής S, θέσεις σημείων αναφοράς και γραφή
+H συγκεκριμένου μάρτυρα. Διαφορετικοί κριτές ή χωριστοί τυφλοί κύκλοι
+αποτρέπουν την απλή αναπαραγωγή των καρτών από τους αξιολογητές. Το ποια
+πηγή είδε κάθε κριτής καταγράφεται.
+
+Προβλέπονται κλάσματα \textbf{10\%, 25\%, 50\%, 100\%} των επισημασμένων
+train ομάδων, ένθετα και κοινά σε όλες τις συνθήκες, με ελάχιστη
+τεκμηρίωση οικογένειας μόνο μέσα στο train. Το κύριο confirmatory σημείο
+είναι το \textbf{25\%}, εφόσον ο πιλότος αποδεικνύει ότι σχηματίζεται η
+προδηλωμένη κάλυψη οικογενειών. Διαφορετικά, πριν ανοίξει το test,
+ορίζεται μοναδικό εφικτό κλάσμα και εκδίδεται νέα έκδοση προεγγραφής.
+Δεν επιλέγεται εκ των υστέρων το ευνοϊκότερο σημείο. Πέντε κοινοί σπόροι
+εκπαίδευσης εκτιμούν αλγοριθμική μεταβλητότητα· δεν μετρούν ως πέντε
+ανεξάρτητα μουσικά δείγματα.
+
+\section{P1: κ→S, καθαρή αξία κοινής
+περιθωριοποίησης}\label{p1-ux3bas-ux3baux3b1ux3b8ux3b1ux3c1ux3ae-ux3b1ux3beux3afux3b1-ux3baux3bfux3b9ux3bdux3aeux3c2-ux3c0ux3b5ux3c1ux3b9ux3b8ux3c9ux3c1ux3b9ux3bfux3c0ux3bfux3afux3b7ux3c3ux3b7ux3c2}
+
+Για κάθε υποψήφια οικογένεια f και τμήμα X, οι κριτές δίνουν
+\(Y_S\in\{0,1,?\}\) ή κατανομή κρίσεων. Το \(Y_S\) αφορά την εφαρμογή
+της συγκεκριμένης προδιαγραφής και διακρίνεται από το gold οικογενειακό
+F. Τα δύσκολα αρνητικά περιλαμβάνουν ίδιο glas, συγγενή κατάληξη,
+παρόμοιο μήκος και μελωδική επιφάνεια. Η τυχόν υπερδειγματοληψία τους
+καταγράφεται με βάρη ή αναφέρεται ως διαφορετικός πληθυσμός αξιολόγησης.
+Έτσι η βαθμονόμηση έχει σαφή prevalence αναφοράς.
+
+Οι semantic heads, ο κ, οι κάρτες και το posterior \(p(\pi\mid X,f)\)
+είναι κοινά και παγωμένα στην πρώτη σύγκριση. Για
+\(p_j(\pi)=q_j(U_j=1\mid X,\pi)\):
+
+\[
+m_{AC}=\sum_\pi p(\pi\mid X,f)\sum_{u\in S_f}\prod_jq_j(u_j\mid X,\pi),\qquad
+m_{Pool}=\sum_{u\in S_f}\prod_j\bar q_j(u_j),\quad
+\bar q_j=E_\pi q_j.
+\]
+
+Ο κύριος endpoint είναι
+
+\[
+\Delta_{P1}=\mathrm{LL}_{bits}(Pool)-\mathrm{LL}_{bits}(AC),\quad
+\mathrm{LL}_{bits}(p)=-E[Y_S\log_2p+(1-Y_S)\log_2(1-p)].
+\]
+
+Χρησιμοποιείται ίδια οικογένεια βαθμονομητή με ίδιο dev budget, fitted
+ξεχωριστά ανά μέθοδο. Αναφέρονται και ακατέργαστο log loss, Brier,
+calibration slope/intercept και καμπύλη κάλυψης. Το clipping για
+αριθμητική ασφάλεια είναι κοινό και δηλωμένο, χωρίς να μετατρέπει
+αδύνατες πιθανότητες σε θετικά μουσικά τεκμήρια.
+
+Το υποσύνολο \(\mathcal D_\tau=\{|m_{AC}-m_{Pool}|>\tau\}\) έχει κατώφλι
+από το dev, χωρίς χρήση test labels. Είναι \textbf{δευτερεύουσα ανάλυση
+μηχανισμού}· κύριο μέγεθος παραμένει η συνολική προδηλωμένη κατανομή
+κρίσεων. Η μελισματική πυκνότητα και η εντροπία στοίχισης αναφέρονται ως
+moderators και δεν υποκαθιστούν τη διαφορά προβλέψεων. Αμφισβητούμενες
+κρίσεις διατηρούνται με κατανομή κριτών ή bounds· αναφέρονται και
+αποτελέσματα στο υποσύνολο ομοφωνίας μαζί με την κάλυψή του.
+
+\section{P2: S→κ, έλεγχος της
+μάθησης}\label{p2-sux3ba-ux3adux3bbux3b5ux3b3ux3c7ux3bfux3c2-ux3c4ux3b7ux3c2-ux3bcux3acux3b8ux3b7ux3c3ux3b7ux3c2}
+
+Πριν από εκτίμηση, κάθε dataset δηλώνει αν είναι αντιπροσωπευτικό πάνελ
+με θετικές/αρνητικές κρίσεις, επιλεγμένες αποδεκτές εμφανίσεις ή απλή
+οικογενειακή δειγματοληψία. Η οικογενειακή ετικέτα από μόνη της δεν
+αποδεικνύει επιλογή μέσω της ίδιας S. Το E-min εκτιμά απευθείας
+\(p(X\mid F,C,n)\)· η σημασιολογική δέσμευση είναι πρόσθετο, χωριστά
+τεκμηριωμένο μοντέλο.
+
+Για το κύριο P2 προτιμάται πάνελ υποψήφιων εμφανίσεων με ελεγμένα
+\(Y_S\), ώστε να χρησιμοποιείται conditional semantic objective πάνω στα
+ίδια X. Το selected-positive καθεστώς αποτελεί δεύτερο προδηλωμένο
+σκέλος με ακριβές \(\log B-\log z\). Η μουσική αξιολόγηση χρησιμοποιεί
+κρατημένες σημάνσεις ρόλων/θέσεων που δεν μπήκαν στην εκπαίδευση.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Σύγκριση
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ίδια διαθέσιμη πληροφορία
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Τι απομονώνει
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Απλό EM έναντι S→κ & Ίδια X, πρότυπα, initialization· το EM αγνοεί τις
+διαθέσιμες κρίσεις S. & Συνολικό όφελος αξιοποίησης γνώσης, όχι
+ειδικότητα νέου αλγορίθμου. \\
+S→κ έναντι conditional / constrained βελτιστοποίησης ίδιας objective &
+Ίδια X, q, S, priors, selection model και gradients. & Αριθμητική
+ισοδυναμία· αναμένεται συμφωνία στο ίδιο optimum. \\
+S→κ έναντι A1+γ με direct alignment loss & Ίδια concept και landmark
+labels, ίδια encoder features, κοινός προϋπολογισμός. & Αξία της
+δομημένης σύζευξης έναντι εύκαμπτου μαθημένου εκτιμητή. \\
+Valid έναντι perturbed S & Ίδια λογική μορφή, applicability, συχνότητες
+και ελλείψεις. & Αξία μουσικολογικού περιεχομένου. \\
+Shared κ έναντι ανεξάρτητου κ ανά οικογένεια & Ίδιο target και
+ελεγχόμενη χωρητικότητα. & Αξία κοινής δομής ρόλων έναντι οικογενειακής
+εξειδίκευσης. \\
+\end{longtable}
+
+Το \(\Delta_{P2}\) είναι μείωση μέσου σφάλματος θέσης σε κοινά ατομικά
+γεγονότα, με αποδεκτές εναλλακτικές θέσεις, και συνοδεύεται από
+predictive log loss της στοίχισης και μη κατωτερότητα της κανονισμένης
+CE περιεχομένου. Η διαγραφή σημείου αξιολογείται ως ρητή κατηγορία. Η
+μείωση εντροπίας είναι περιγραφική. Παρουσιάζονται σταθερότητα ανά πηγή
+και προφίλ παραμέτρων/likelihood, ώστε διαφορετικές ιστορικές ερμηνείες
+της ίδιας κατανομής να παραμένουν ορατές.
+
+\section{E-min: μεταφορά της οργάνωσης της
+παραλλαγής}\label{e-min-ux3bcux3b5ux3c4ux3b1ux3c6ux3bfux3c1ux3ac-ux3c4ux3b7ux3c2-ux3bfux3c1ux3b3ux3acux3bdux3c9ux3c3ux3b7ux3c2-ux3c4ux3b7ux3c2-ux3c0ux3b1ux3c1ux3b1ux3bbux3bbux3b1ux3b3ux3aeux3c2}
+
+Το E-min είναι πλήρως συμβολικό πείραμα, με κοινές gold boundaries,
+κοινό target, κοινά train-only πρότυπα \(\Pi_f\), κοινή topology και
+ίδιο αλφάβητο. Όλα τα priors ενημερώνονται με τον ίδιο αριθμό target
+εμφανίσεων και το ίδιο tuning budget. Η οικογένεια είναι γνωστή σε αυτή
+την υπό συνθήκη εργασία· ξεχωριστό πείραμα εξετάζει αναγνώρισή της.
+
+\[
+\mathrm{CE}_{event}(M)=-\frac{\sum_o\log_2p_M(X_o\mid F_o,C_o,n_o)}{\sum_o n_o},\quad
+p_M=A_M/a_M(n).
+\]
+
+Η κύρια CE είναι corpus ratio, με ομαδικό resampling όλων των αριθμητών
+και παρονομαστών. Αναφέρονται και macro-family CE, CE ανά occurrence, CE
+μήκους και πλήρης joint CE. Η εναλλαγή μονάδας δεν επιτρέπεται μετά την
+παρατήρηση αποτελεσμάτων.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Prior
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Κατασκευή
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Κρίσιμος έλεγχος
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Flat & Συμμετρικό prior ίσης συγκέντρωσης. & Τοπική μάθηση χωρίς source
+δομή. \\
+Byzantine & Posterior μέσοι μεταβάσεων/εκπομπών ανά επικυρωμένο ρόλο. &
+Υπόθεση μεταφερόμενης κατανομής παραλλαγής. \\
+Unrelated & Άλλη τεκμηριωμένη παράδοση, ίδια symbol bridge και exposure.
+& Γενική μουσική προεκτίμηση έναντι συγκεκριμένης πηγής. Αν δεν βρεθεί
+συγκρίσιμο σώμα, ο ισχυρισμός ειδικότητας μένει ανοικτός. \\
+Shuffled roles & Ανακατανομή γεγονότων--ρόλων εντός συμβατών strata, με
+διατήρηση περιθωρίων· 10 προκαθορισμένες ανακατανομές. & Σύνδεση ρόλου
+και παραλλαγής. Παγκόσμια μετονομασία ρόλων είναι ανεπαρκής null. \\
+Role-pooled & Ίδιες source εμφανίσεις, κοινός πυρήνας χωρίς ρόλο. &
+Πρόσθετη αξία ρολο-εξάρτησης. \\
+Position-only & Ίδιο source, θέση/σχετικό μήκος/γενική τελικότητα, χωρίς
+μουσικολογική ετικέτα ρόλου. & Γενικές κανονικότητες αρχής--τέλους και
+μελωδικής θέσης. \\
+\end{longtable}
+
+Ορίζονται \(\Delta_{struct}=CE_{flat}-CE_B\),
+\(\Delta_{spec}=CE_{unrelated}-CE_B\),
+\(\Delta_{role}=CE_{shuffle}-CE_B\), \(\Delta_{pool}=CE_{pooled}-CE_B\),
+\(\Delta_{position}=CE_{position}-CE_B\). Η κύρια E-min δήλωση απαιτεί
+συγχρόνως \(\Delta_{struct}>\epsilon_s\) και
+\(\Delta_{pool}>\epsilon_r\). Η ειδικότητα της βυζαντινής πηγής απαιτεί
+επιπλέον το \(\Delta_{spec}\)· η υπεροχή έναντι position-only στηρίζει
+τη μουσικολογική ερμηνεία των ρόλων.
+
+Η έκθεση αντιστοιχίζεται ως προς γεγονότα, μήκη, αριθμό ρόλων,
+έργα/πηγές και ώρες επισημείωσης. Η συγκέντρωση prior ρυθμίζεται στο dev
+και αναφέρεται σταθερή καμπύλη 0/2/8/32 ως \textbf{πλέγμα ευαισθησίας},
+χωρίς ειδική εμπειρική σημασία αυτών των αριθμών. Η τοπική εποπτεία για
+πρότυπα, ρόλους και cards μετράται στο συνολικό κόστος· δεν λογίζεται ως
+δωρεάν πληροφορία.
+
+Θετική μεταφορά δείχνει χρησιμότητα της συγκεκριμένης παραγοντοποιημένης
+prior δομής στο συγκεκριμένο target. Δεν αποδεικνύει ιστορική
+γενεαλογία. Αρνητική μεταφορά μπορεί να οφείλεται σε εσφαλμένη
+αντιστοίχιση ρόλων, αλφάβητο, selection mismatch, ανεπαρκές target ή
+κακή topology. Οι ανταγωνιστικές εξηγήσεις ελέγχονται με τα παραπάνω
+priors, learning curves και calibration/fit diagnostics.
+
+\section{Πλήρης μήτρα με βαθμιδωτή
+ενεργοποίηση}\label{ux3c0ux3bbux3aeux3c1ux3b7ux3c2-ux3bcux3aeux3c4ux3c1ux3b1-ux3bcux3b5-ux3b2ux3b1ux3b8ux3bcux3b9ux3b4ux3c9ux3c4ux3ae-ux3b5ux3bdux3b5ux3c1ux3b3ux3bfux3c0ux3bfux3afux3b7ux3c3ux3b7}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Στάδιο
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Συνθήκες
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Κοινή πληροφορία / στόχος
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Α: συμβολική εφικτότητα & Weighted edit distance, learned substitution
+matrix, family profile-HMM, E-min priors. & Ίδια πρότυπα, boundaries,
+target και alphabet· κανονισμένη CE μόνο για πιθανοτικά μοντέλα. \\
+Β: ισχυρός A0 & Z-scratch, Z-self-supervised, unrelated-source encoder,
+shuffled-source, B1→Z, B2→Z. & Ίδιο target fine-tuning, αρχιτεκτονική,
+masking, exposure και tuning. Shuffling δηλώνει ακριβώς ποιες σχέσεις
+καταστρέφει. \\
+Β υπό πύλη & EISE→Z, matched-edge B2 control. & Μόνο με έγκυρα
+checkpoints και ιστορικά τεκμηριωμένη source εποπτεία. Διαφορετικό
+estimand από E-min. \\
+Γ: γνώση & ECSI-Z F/D × V/P, BK και SupCon/prototype \(B^{\star}\). &
+Ίδιες έννοιες, εφαρμοσιμότητα, τοπικές ετικέτες και κοινός encoder. \\
+Δ: σύνθεση & κ-only, Add, Vit, Pool, Pool2, MC, A1+γ, ECSI-D{[}κ{]}. &
+Ίδιο κ/q/S και πρόσβαση σε alignment summaries. Add απομονώνει το
+συνολικό όφελος πρόσβασης σε στοίχιση. \\
+Ε: μάθηση & Plain EM, valid/perturbed S→κ, ακριβώς ισοδύναμη conditional
+objective, direct landmark learner. & P2, εκπαίδευση και held-out
+landmarks χωριστά. \\
+ΣΤ: μία επέκταση & Τοπικά joint blocks, independent blocks, ελεύθερη
+κοινή κεφαλή/circuit. & Ίδια labels, μέγιστο b και προϋπολογισμός· αξία
+υπολειπόμενης εξάρτησης. \\
+Ζ: ιστορία & Frozen h/z\_id/z\_real probes, raw-X baseline, κ summaries,
+supervised inverse upper reference. & Ίδιο επιτρεπτό C και
+witness-specific H· Q\_real και ιστορική ανάκτηση χωριστά. \\
+\end{longtable}
+
+Το Pool2 λαμβάνει pairwise moments, χωρίς να προϋποθέτει ότι αυτά
+προσδιορίζουν κάθε υψηλότερης τάξης S. Το A1+γ λαμβάνει τα ίδια event
+features και περιθώρια/στατιστικά στοίχισης γ, με παράλληλο έλεγχο ίσων
+παραμέτρων και ίσου χρόνου. Αν δοθεί ολόκληρο το joint \(q^\star\) σε
+comparator, μπορεί να αναπαράγει ακριβώς την ECSI· αυτό είναι όριο
+ισοδυναμίας και χρήσιμος έλεγχος, όχι λόγος απόκρυψης του comparator. Η
+MC χρησιμοποιεί κοινά draws από FFBS και αναφέρει error, bias του log
+και κόστος.
+
+\section{Στατιστική, ισχύς και
+περιθώρια}\label{ux3c3ux3c4ux3b1ux3c4ux3b9ux3c3ux3c4ux3b9ux3baux3ae-ux3b9ux3c3ux3c7ux3cdux3c2-ux3baux3b1ux3b9-ux3c0ux3b5ux3c1ux3b9ux3b8ux3ceux3c1ux3b9ux3b1}
+
+Η νέα επέκταση έχει συνολικό προϋπολογισμό σφάλματος \textbf{0,05},
+χωρισμένο εκ των προτέρων σε 0,025 για την αλυσίδα MIML και 0,025 για
+E-min. Τα κανονιστικά βυζαντινά tests διατηρούν τη δική τους ήδη
+ορισμένη προεγγραφή.
+
+Στο MIML εφαρμόζεται σταθερή σειρά: \textbf{P1 συνολικά → P2 (θέσεις και
+CE μη κατωτερότητας) → G4 (κατάντη όφελος, valid/perturbed, Q\_real)}.
+Κάθε επόμενο confirmatory βήμα ανοίγει μόνο μετά την επιτυχία του
+προηγούμενου. Οι σύνθετες δηλώσεις είναι intersection--union: πρέπει να
+περάσουν όλα τα απαιτούμενα μέλη στο 0,025. Αν P1 αποτύχει, P2 παραμένει
+χρήσιμο ερευνητικά αλλά τα αποτελέσματά του είναι exploratory μέχρι
+ανεξάρτητη επιβεβαίωση. Οι πολλές δευτερεύουσες αντιθέσεις αναφέρονται
+με Holm εντός δηλωμένων οικογενειών ή μόνο με διαστήματα και σαφή
+exploratory σήμανση.
+
+Στο E-min, τα \(\Delta_{struct}\) και \(\Delta_{pool}\) αποτελούν ενιαία
+conjunctive κύρια δήλωση στο 0,025. Μόνο μετά ανοίγει Holm οικογένεια
+για spec/role/position. Δεν μοιράζεται εκ των υστέρων α στους ευνοϊκούς
+κλάδους.
+
+Τα intervals προκύπτουν με paired bootstrap ανεξάρτητων components,
+επανυπολογίζοντας το ακριβές aggregate endpoint. Προτείνεται 10.000
+resamples ως υπολογιστικός προϋπολογισμός, με pilot έλεγχο κάλυψης· δεν
+υποκαθιστά την επάρκεια ομάδων. Με λίγες ομάδες χρησιμοποιούνται
+συντηρητικές αναλύσεις ευαισθησίας και εκτιμητική αναφορά. Η επιλογή
+καλύτερου comparator γίνεται μόνο στο dev. Συστηματική υπεροχή έναντι
+όλων των ισχυρών baselines απαιτεί αντίστοιχη conjoint δήλωση ή διόρθωση
+πολλαπλότητας.
+
+Τα περιθώρια
+\(\epsilon_s,\epsilon_r,\delta_{P1},\delta_{P2},\delta_{real}\)
+ορίζονται \textbf{μετά τον ανεξάρτητο πιλότο και πριν από test}:
+ελάχιστη χρήσιμη βελτίωση, επαναληψιμότητα κριτών, κόστος υπολογισμού
+και ακρίβεια μονάδων. Η μηδενική διαφορά δεν αντικαθιστά αυτόματα το
+περιθώριο πρακτικής ισοδυναμίας. TOST απαιτεί ολόκληρο το κατάλληλο
+διάστημα μέσα στο προδηλωμένο ±δ· μη σημαντικότητα από μόνη της δεν
+σημαίνει ισοδυναμία.
+
+Οι εκτελεσμένες προσομοιώσεις (τεχνικό τεκμήριο:
+\texttt{power\_transfer\_results.json}) χρησιμοποιούν 10.000
+επαναλήψεις, μονόπλευρο α=0,025, υποθετική SD διαφοράς 0,20, 8 γεγονότα
+ανά ομάδα και πραγματική διαφορά 0,05 στην ίδια μονάδα. Για εφαρμογή στο
+P1 η μονάδα γίνεται κρίση, για E-min γεγονός· οι παράμετροι πρέπει να
+επανεκτιμηθούν στον αντίστοιχο πιλότο.
+
+\begin{longtable}[]{@{}rrr@{}}
+\toprule\noalign{}
+Ανεξάρτητες ομάδες & Ισχύς, ICC=0,1 & Ισχύς, ICC=0,5 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+12 & 0,397 & 0,172 \\
+24 & 0,724 & 0,345 \\
+48 & 0,960 & 0,618 \\
+96 & 1,000 & 0,895 \\
+\end{longtable}
+
+Στη συνθετική σύζευξη έξι θετικών πυλών με standardized effect 0,5, η
+κοινή ισχύς με 24 ομάδες είναι 0,075--0,261, με 48 ομάδες 0,626--0,743
+και με 96 περίπου 0,989. Πρόκειται για 50 συνολικά σενάρια ισχύος, όχι
+εκτίμηση διαθέσιμου Znamenny δείγματος. Ο στόχος σχεδιασμού ισχύος ≥0,80
+είναι δηλωμένη απόφαση· ο απαιτούμενος αριθμός πηγών θα προκύψει από τα
+πραγματικά δεδομένα. Αν G είναι αριθμός ανεξάρτητων ομάδων,
+\(SE=sd(\bar d_g)/\sqrt G\)· ο design effect δεν εφαρμόζεται ξανά σε
+αυτή τη διασπορά.
+
+Η δεύτερη προσομοίωση εκτελεί 9 σενάρια γνωστών ρόλων/στοίχισης σε
+κανονισμένο Bernoulli υπομοντέλο. Δείχνει θετική και αρνητική μεταφορά
+ανάλογα με την αληθή δομή. Επαληθεύει τη δυνατότητα των controls να
+διακρίνουν συνθήκες· δεν μετρά πραγματική βυζαντινή ή Znamenny επίδοση.
+
+\section{Πύλες και παρούσα
+κατάσταση}\label{ux3c0ux3cdux3bbux3b5ux3c2-ux3baux3b1ux3b9-ux3c0ux3b1ux3c1ux3bfux3cdux3c3ux3b1-ux3baux3b1ux3c4ux3acux3c3ux3c4ux3b1ux3c3ux3b7}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Πύλη
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+GO
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+AMBER / STOP
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Κατάσταση τώρα
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+G0 πηγές & Δικαιώματα, ανεξάρτητα labels, source components, κατάλληλη
+κάλυψη ρόλων. & AMBER αν ανεπαρκής ισχύς· STOP για μη ελέγξιμη προέλευση
+ή κυκλικούς κύριους στόχους. & Απογραφή σχεδιασμένη, corpus μη
+κατασκευασμένο. \\
+G1 inference & Oracle συμφωνία, κανονικοποίηση, gradients, measured
+memory σε πραγματικά μεγέθη. & Διόρθωση compiler ή με σαφήνεια ελεγμένη
+προσέγγιση. & Συνθετικοί έλεγχοι PASS· πραγματικά μεγέθη εκκρεμούν. \\
+G2 P1 & Κάτω όριο βελτίωσης πάνω από δ. & AMBER αν αβέβαιο· ισοδυναμία
+επιτρέπει φθηνότερο Pool. & Μη εκτελεσμένο σε μουσική. \\
+G3 P2 & Βελτίωση θέσεων και μη κατωτερότητα CE με σωστή objective. &
+Διατήρηση τοπικού κ χωρίς σημασιολογική ενημέρωση. & Συνθετική συνέπεια
+PASS· μουσική εκκρεμεί. \\
+G4 αναγνώριση & Όφελος έναντι dev-selected ισχυρού comparator,
+valid/perturbed και Q\_real. & Περιορισμός δημοσιευτικού ισχυρισμού σε
+calibration/alignment. & Μη εκτελεσμένο. \\
+E-min & Conjunctive struct/pool, με επαρκείς ομάδες και σωστή
+κανονικοποίηση. & Αρνητική ή αβέβαιη μεταφορά αναφέρεται· το τοπικό MIML
+συνεχίζει. & Προσομοιώσεις PASS, μουσική εκκρεμεί. \\
+\end{longtable}
+
+Ο πιλότος 10--20 χωρίων εξετάζει κόστος, ποιότητα, συχνότητες και
+καταλληλότητα της μονάδας. Οι ≥5 κάρτες και ≥100 σημάνσεις του Claude
+χρησιμοποιούνται ως αρχικοί στόχοι εργασίας, όχι ως αυτόματες
+στατιστικές πύλες. Το ερευνητικό πρόγραμμα παραμένει πλήρες και σε
+αρνητικό αποτέλεσμα: επιτρέπει σαφή διάκριση προβλήματος δεδομένων,
+μουσικολογικής υπόθεσης, μοντέλου και μεταφοράς.
+
+\chapter{Προηγούμενη τέχνη, αναγωγές και έλεγχος
+πρωτοτυπίας}\label{ux3c0ux3c1ux3bfux3b7ux3b3ux3bfux3cdux3bcux3b5ux3bdux3b7-ux3c4ux3adux3c7ux3bdux3b7-ux3b1ux3bdux3b1ux3b3ux3c9ux3b3ux3adux3c2-ux3baux3b1ux3b9-ux3adux3bbux3b5ux3b3ux3c7ux3bfux3c2-ux3c0ux3c1ux3c9ux3c4ux3bfux3c4ux3c5ux3c0ux3afux3b1ux3c2}
+
+\section{Τα πλησιέστερα μουσικά
+προηγούμενα}\label{ux3c4ux3b1-ux3c0ux3bbux3b7ux3c3ux3b9ux3adux3c3ux3c4ux3b5ux3c1ux3b1-ux3bcux3bfux3c5ux3c3ux3b9ux3baux3ac-ux3c0ux3c1ux3bfux3b7ux3b3ux3bfux3cdux3bcux3b5ux3bdux3b1}
+
+\textbf{Bountouridis et al., EvoMUSART 2017}, \emph{Melody Retrieval and
+Classification Using Biologically-Inspired Techniques},
+\href{https://webspace.science.uu.nl/~veltk101/publications/art/evomusart2017-melody.pdf}{author
+PDF}, DOI 10.1007/978-3-319-55750-2\_4: η §4.2 περιγράφει profile-HMM με
+M/I/D, αρχικοποίηση από πολλαπλή στοίχιση οικογενειών, ψευδομετρήσεις
+και Baum--Welch. Η §5 εξετάζει μελωδική ομοιότητα. Συνεπώς
+\(\sum_\pi p_\kappa(X,\pi\mid f)\) ως family likelihood έχει άμεσο
+μουσικό προηγούμενο. Η συμβολή μας πρέπει να προκύψει από ανεξάρτητα
+τεκμηριωμένους ρόλους, μεταφορά αυτών των κατανομών και μουσικολογική
+προδιαγραφή που ενημερώνει την αβεβαιότητα της στοίχισης. Ο απλός κ
+οφείλει να συγκριθεί πρώτα με αυτό το baseline.
+
+\textbf{Bountouridis, Brown, Wiering, Veltkamp, Applied Sciences 2017},
+\emph{Melodic Similarity and Applications Using Biologically-Inspired
+Techniques},
+\href{https://webspace.science.uu.nl/~veltk101/publications/art/applsci-07-01242.pdf}{πλήρες
+PDF}, DOI 10.3390/app7121242, §§5--6: μαθημένοι substitution scores από
+συχνότητες σχετικών συμβόλων έχουν μορφή
+\(10\log_{10}[p(x,y)/(q(x)q(y))]\), με δηλωμένη εξομάλυνση/κλιμάκωση. Η
+μελέτη εξετάζει και μεταφορά μεταξύ σωμάτων. Η εκμάθηση μουσικών edit
+costs και η μεταφορά τους δεν μπορούν να αποδοθούν ως νέα ιδέα στον κ. Η
+προτεινόμενη διαφορά είναι η ρητή ρολο-εξάρτηση, η σωστή κανονισμένη
+προβλεπτική σύγκριση και η joint semantic εκτίμηση. Οι δύο δημοσιεύσεις
+έχουν διαφορετική λίστα συγγραφέων: ο Koops συμμετέχει στην EvoMUSART
+εκδοχή.
+
+Το KAVZSP και η γραμμή Bakhmutova--Gusev--Titkova ήδη εξετάζουν δομικές
+μονάδες, επιτρεπτή παραλλαγή και πολλαπλές note/neume αντιστοιχίσεις. Τα
+\href{https://doi.org/10.17674/1997-0854.2015.2.19.005-011}{αποτελέσματα
+του 2015} περιλαμβάνουν έλεγχο άλλων ειδών από τα Octoechoi ανάπτυξης,
+ενώ η \href{https://doi.org/10.17674/2782-3601.2022.4.098-106}{μελέτη
+του 2022} συγκρίνει ομώνυμα χωρία των τριών μαρτύρων. Το νέο benchmark
+χρειάζεται κοινά όρια--οικογένεια, ανεξάρτητα labels και αυστηρή
+απομόνωση πηγών. Η απλή εξωτερική κάλυψη ή το note→neume task έχουν ήδη
+προηγούμενα.
+
+\section{Μήτρα μεθόδων, αναγωγών και
+διαφορών}\label{ux3bcux3aeux3c4ux3c1ux3b1-ux3bcux3b5ux3b8ux3ccux3b4ux3c9ux3bd-ux3b1ux3bdux3b1ux3b3ux3c9ux3b3ux3ceux3bd-ux3baux3b1ux3b9-ux3b4ux3b9ux3b1ux3c6ux3bfux3c1ux3ceux3bd}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Ισχυρό προηγούμενο
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Κοινή πράξη / ακριβής αναγωγή
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Τι μπορεί να προσφέρει η προτεινόμενη σύνθεση
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Αναγκαίος συγκριτής / απόδειξη
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Profile-HMM / pair-HMM & \(A(X)=\sum_\pi\prod t\prod e\),
+forward/backward, Baum--Welch. & Τοπικοί ρόλοι, μερική αντιστοίχιση
+παραδόσεων, S πάνω στη latent correspondence. & Ίδιο profile, πρότυπα,
+alphabet, target labels και αριθμός παραμέτρων. \\
+Weighted edit distance & \(\min_\pi\sum_e c(e)\) αντιστοιχεί σε MAP
+διαδρομή με κατάλληλα log costs, υπό συμβατές topology/priors. &
+Περιθωριοποίηση πολλαπλών διαδρομών και αξιολόγηση uncertainty. &
+Viterbi και learned substitution με ίδια data. Δεν αποκαλείται
+probability ένα αυθαίρετο edit score. \\
+\href{https://proceedings.neurips.cc/paper_files/paper/2004/file/eb06b9db06012a7a4179b8f3cb5384d3-Paper.pdf}{Semi-Markov
+CRF, Sarawagi--Cohen 2004}, §2, εξ. 2--4 &
+\(P(y\mid X)\propto e^{\sum_s\phi(s,y)}\), exact segment DP. &
+Μουσικολογικά σχεδιασμένα span scores και μερική εποπτεία. & Κοινό
+semi-CRF head σε όλα τα encoder baselines. Ο decoder δεν αποτελεί νέα
+πράξη. \\
+\href{https://proceedings.mlr.press/v80/xu18h.html}{Semantic loss, Xu et
+al.~2018} & \(-\log\sum_{u\in S}q(u\mid X)\). & Συγκεκριμένη \(q^\star\)
+που προκύπτει από αβέβαιη μουσική αντιστοίχιση. & Ακριβής ECSI με ίδια
+q, καθώς και Pool/A1+γ. \\
+\href{https://arxiv.org/pdf/2206.00426}{SPL, Ahmed et al.~2022},
+Definition 2.1, εξ. 2 & \(p(y\mid x)=q(y\mid x)c_K(x,y)/Z(x)\),
+constrained normalization σε circuits. & Ρητές insertion/deletion
+θέσεις, τοπική σημασία ρόλων, τεκμηριωμένο sample selection. &
+Circuit/product υλοποίηση ίδιας joint κατανομής οφείλει να συμφωνεί. Δεν
+αποδίδεται νέα κανονικοποίηση. \\
+\href{https://proceedings.mlr.press/v202/zhang23g/zhang23g.pdf}{GeLaTo,
+Zhang et al.~2023}, §§2--3 & HMM πιθανότητες υπό λεξικούς περιορισμούς·
+αναδρομές residual constraints και άθροιση εκπομπών. & Οι περιορισμοί
+αφορούν έννοιες τοποθετημένες σε λανθάνουσες μουσικές αντιστοιχίσεις. &
+Ίδιο finite-state probabilistic μοντέλο. Οι ειδικές lexical παραδοχές
+του GeLaTo διακρίνονται από γενικό DFA. \\
+\href{https://arxiv.org/html/2406.13892v2}{Ctrl-G 2024}, §3.2, εξ. 3--4,
+Θεώρημα 3.2 & Product HMM×DFA και ακριβής μελλοντική μάζα αποδοχής, με
+άθροιση συμβόλων στις ακμές. & Εφαρμογή σε profile με σιωπηλές διαγραφές
+και diagnostic context, μέσα σε joint segment task. & Ισχυρότερο άμεσο
+προηγούμενο της product-DP πράξης· σύγκριση κόστους ανά ακριβή state
+space. \\
+\href{https://ijcai.org/proceedings/2025/662}{NeSyA,
+Manginas--Paliouras--De Raedt 2025}, §3 & Νευρωνική αντίληψη, συμβολικό
+αυτόματο, πιθανοτικές μεταβάσεις και sequence-level supervision. & Η
+μουσική θέση των διαγνωστικών είναι επίσης λανθάνουσα. & Με σταθερή
+στοίχιση η ECSI-D{[}κ{]} ανάγεται σε παρόμοιο weighted automaton. Η
+πρόσθεση λανθάνουσας θέσης δεν αρκεί μόνη για γενική ML πρωτοτυπία. \\
+\href{https://ojs.aaai.org/index.php/AAAI/article/view/33777}{NeSy-MMs,
+De Smet et al.~2025}, επίσημη περίληψη & Ευρύτερα νευροσυμβολικά Markov
+μοντέλα με στοχαστική λανθάνουσα κατάσταση. & Ειδική ακριβής,
+περιορισμένη κατάσταση και μουσικολογικός έλεγχος. & Πλήρης μεθοδολογική
+πρόσβαση πριν από λεπτομερή ισχυρισμό κόστους ή υπεροχής. \\
+\href{https://jmlr.org/papers/volume11/ganchev10a/ganchev10a.pdf}{Posterior
+regularization, Ganchev et al.~2010}, §2, εξ. 2--3 &
+\(\mathcal L(\theta)-\min_{q\in\mathcal Q}KL(q\Vert p_\theta)\) και
+εναλλασσόμενη εκτίμηση. & Μουσικολογικά θεμελιωμένοι περιορισμοί,
+explicit selection likelihood και εξωτερική αξιολόγηση θέσεων. &
+Ισοδύναμη constrained objective με ίδια S. Hard joint support, soft
+weights και selected likelihood διακρίνονται. \\
+\href{https://proceedings.mlr.press/v235/van-krieken24a.html}{van
+Krieken et al.~2024}, επίσημη περίληψη & Η ανεξαρτησία εννοιών
+περιορίζει αβεβαιότητα μεταξύ πολλών έγκυρων αναθέσεων. & Μικρά joint
+blocks αντιμετωπίζουν υπολειπόμενη εξάρτηση στο ίδιο σημείο. & Free
+joint head/circuit με ίδια labels και budget. Η υπέρβαση ανεξαρτησίας
+είναι γνωστό ζητούμενο. \\
+\href{https://arxiv.org/html/2407.12671v1}{GraphMuse 2024}, §§3--4·
+\href{https://ijcai.org/proceedings/2024/0850.pdf}{MusGConv 2024}, §3 &
+Μουσικοί γράφοι, σχετικές τονικές/χρονικές σχέσεις και συνδυασμοί
+γράφου--ακολουθίας. & Στοίχιση και οικογενειακή λογική, με ταυτόχρονη
+διατήρηση πραγμάτωσης. & Graph encoder με ακριβώς ίδια επιτρεπτά
+γνωρίσματα, ίδια heads και κόστος. \\
+\href{https://papers.nips.cc/paper/2020/hash/d89a66c7c80a29b1bdbab0f2a1a94af8-Abstract.html}{SupCon
+2020}, \href{https://arxiv.org/abs/2105.04906}{VICReg},
+\href{https://proceedings.mlr.press/v119/koh20a.html}{CBM 2020} &
+Οικογενειακές/θετικές σχέσεις και ενδιάμεση εποπτεία εννοιών. &
+Διατήρηση πραγματωτικών διαφορών παρά την οικογενειακή έλξη και
+ερμηνεύσιμη correspondence. & \(B^{\star}\), positive-only και concept
+heads με ίδια ζεύγη/labels. Η B2 δεν μετατρέπεται σιωπηρά σε SupCon. \\
+\href{https://jmlr.org/papers/v17/15-239.html}{DANN},
+\href{https://proceedings.mlr.press/v267/xu25i.html}{CUDA 2025},
+\href{https://proceedings.iclr.cc/paper_files/paper/2025/hash/df334022279996b07e0870a629c18857-Abstract-Conference.html}{CONDA
+2025} & Feature/concept adaptation και μεταβολή κατανομής. & Μεταφορά
+κατανομής πράξεων ανά επικυρωμένο ρόλο, με τοπικές οικογένειες και άμεσο
+E-min. & Ίδια source έκθεση και target supervision· induction και
+transductive test adaptation χωριστά. \\
+\href{https://proceedings.mlr.press/v97/titouan19a.html}{FGW, Vayer et
+al.~2019} & Soft coupling δομής/γνωρισμάτων με OT. & Το κ δίνει
+μονοτονικό στοχαστικό edit process με πιθανότητες εξόδου. & OT απαιτεί
+δική του νέα υπόθεση ασύμμετρων οντολογιών. Δεν χρειάζεται στην πρώτη
+επιλεγμένη υλοποίηση. \\
+\href{https://arxiv.org/html/2505.13631v2}{ACE,
+Manolache--Chamon--Niepert 2025}, §§3--4 & Constrained optimization για
+περίπου equivariant δίκτυα υπό ομαδικές δράσεις. & Οι επιτρεπτές
+μουσικές εισαγωγές/διαγραφές είναι μη αντιστρέψιμες στοχαστικές πράξεις.
+& Συγκρίνεται invariance/consistency regularization στο ίδιο admissible
+transformation set· δεν εξισώνεται edit kernel με group action. \\
+Ίδιο repo, \texttt{m-thesis.md}, \texttt{m-thesis-technical.md},
+\texttt{atl.md}, \texttt{ecsi/} & Ήδη μοντέλο παραλλαγής, support
+conditioning και λογική μάζα. & Συγκεκριμένη διορθωμένη υλοποίηση,
+cross-tradition estimands και ελεγχόμενη αμφίδρομη σύνδεση. & Η νέα
+περιγραφή δηλώνεται συνέχεια της διατριβής και διακρίνει καθαρά ό,τι
+προϋπήρχε. \\
+\end{longtable}
+
+\section{Η ελάχιστη μαθηματική διαφορά που όντως
+υπάρχει}\label{ux3b7-ux3b5ux3bbux3acux3c7ux3b9ux3c3ux3c4ux3b7-ux3bcux3b1ux3b8ux3b7ux3bcux3b1ux3c4ux3b9ux3baux3ae-ux3b4ux3b9ux3b1ux3c6ux3bfux3c1ux3ac-ux3c0ux3bfux3c5-ux3ccux3bdux3c4ux3c9ux3c2-ux3c5ux3c0ux3acux3c1ux3c7ux3b5ux3b9}
+
+Για κανόνα \(U_1\land U_2\) και fixed posterior \(p(\pi\mid X)\):
+
+\[m_{AC}-m_{Pool}=\operatorname{Cov}_{\pi}(q_1(\pi),q_2(\pi)).\]
+
+Αυτό είναι ακριβής πληροφοριακή διαφορά έναντι Pool, αλλά γνωστή
+ιδιότητα μιγμάτων. Για OR το πρόσημο αντιστρέφεται· για γενική S
+εισέρχονται οι αντίστοιχες μικτές ροπές. Με μία μόνο έννοια ή
+ντετερμινιστική στοίχιση η διαφορά μηδενίζεται υπό την ανεξάρτητη
+conditional q. Ένας comparator που λαμβάνει όλη την κοινή κατανομή
+μπορεί να υπολογίσει την ίδια μάζα. Επομένως η σύγκριση οφείλει να
+ξεχωρίζει \textbf{πληροφορία που δόθηκε}, \textbf{τρόπο συμπίεσης} και
+\textbf{κόστος αξιοποίησης}.
+
+Στην αντίστροφη κατεύθυνση,
+\(p(\pi\mid X,S)\propto p(\pi\mid X)Q(X,\pi)\) αλλάζει την αντιστοίχιση.
+Αυτό επιτρέπει τη μουσική ταυτότητα να καθορίζει ποιες αμφίβολες
+τοποθετήσεις συμφωνούν με τα διαγνωστικά της οικογένειας. Η αξία του
+μηχανισμού τεκμηριώνεται όταν οι βελτιωμένες τοποθετήσεις συμφωνούν με
+ανεξάρτητους μουσικολόγους και γενικεύονται σε άγνωστα χωρία. Η
+χαμηλότερη entropy μόνη της μπορεί να είναι αυξημένη υπερβεβαιότητα.
+
+Η διόρθωση του \(Z_f\) και η αρνητική φάση του selected gradient είναι
+αναγκαίες για ορθό μοντέλο. Η λογιστική των sufficient statistics
+αποτρέπει ψευδείς ακριβείς ισχυρισμούς όταν τα diagnostics χρησιμοποιούν
+το προηγούμενο εκπεμπόμενο γεγονός ή ολόκληρο encoder context. Πρόκειται
+για ισχυρή τεχνική συμβολή αξιοπιστίας του συγκεκριμένου συστήματος· ο
+θεμελιώδης product-state κανόνας είναι γνωστός.
+
+\section{Η μία προαιρετική επέκταση και η φιλοδοξία
+της}\label{ux3b7-ux3bcux3afux3b1-ux3c0ux3c1ux3bfux3b1ux3b9ux3c1ux3b5ux3c4ux3b9ux3baux3ae-ux3b5ux3c0ux3adux3baux3c4ux3b1ux3c3ux3b7-ux3baux3b1ux3b9-ux3b7-ux3c6ux3b9ux3bbux3bfux3b4ux3bfux3beux3afux3b1-ux3c4ux3b7ux3c2}
+
+Επιλέγεται η \textbf{μάθηση μικρών κοινών diagnostic blocks}, με block
+size b, ίδια S και ίδια profile topology. Το παράδειγμα
+\(q(00)=q(11)=1/2\) αποδεικνύει διαφορά εκφραστικότητας από το
+ανεξάρτητο μοντέλο ακόμη και με βέβαιη στοίχιση. Το οριακό κόστος
+\(2^b\) και το πραγματικό πλάτος residual automaton μετρώνται. Η
+μουσικολογική υπόθεση είναι ότι ορισμένες εναλλακτικές διαμορφώσεις
+χαρακτηρίζουν από κοινού ένα σημείο/μια ζώνη και δεν εξηγούνται πλήρως
+από αβεβαιότητα τοποθέτησης.
+
+Το ακριβές ερευνητικό ερώτημα γενικής ML είναι: \textbf{υπό ποιες
+παραδοχές τοπικής υποστήριξης, παρατηρησιμότητας ρόλων και περιορισμένης
+εξάρτησης μπορεί μια τέτοια factorization να μαθαίνεται και να
+βαθμονομείται με λιγότερα labels ή μικρότερη ακριβή κατάσταση από ένα
+ελεύθερο joint model, διατηρώντας τα ίδια ερωτήματα constraints;}
+
+Ελάχιστο αποδεικτικό πακέτο: (α) θεώρημα αναπαράστασης ή μη
+ταυτοποιησιμότητας με δηλωμένη κλάση μοντέλων, (β) μη τετριμμένο όριο
+sample complexity, approximation error ή state complexity έναντι ισχυρού
+circuit/WFST baseline, (γ) αποτέλεσμα σε τουλάχιστον δεύτερο πεδίο με
+λανθάνουσα αντιστοίχιση, (δ) ίδια διαθέσιμη εποπτεία και μέτρηση
+calibration/compute. Η απλή κατασκευή product automaton ή η ανακάλυψη
+ότι joint Bernoulli είναι εκφραστικότερο δεν πληροί αυτό το κατώφλι.
+
+\section{Κριτήρια δημοσιευτικού
+ισχυρισμού}\label{ux3baux3c1ux3b9ux3c4ux3aeux3c1ux3b9ux3b1-ux3b4ux3b7ux3bcux3bfux3c3ux3b9ux3b5ux3c5ux3c4ux3b9ux3baux3bfux3cd-ux3b9ux3c3ux3c7ux3c5ux3c1ux3b9ux3c3ux3bcux3bfux3cd}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Επίπεδο
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Υπερασπίσιμο αποτέλεσμα
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Τι δεν αρκεί
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Νέα εργασία / benchmark MIR & Ελεγμένο corpus, ανεξάρτητες οικογενειακές
+τροχιές, κοινά όρια--οικογένεια, source holdouts, ισχυρές αναφορές και
+πλήρης αβεβαιότητα. & Επανετικετοποίηση των ίδιων dictionary chains ή
+τυχαίος διαχωρισμός συγγενών εμφανίσεων. \\
+Συνθετική αρχιτεκτονική MIML & P1 και/ή ανεξάρτητα επιβεβαιωμένο P2,
+δίκαιοι Pool/Vit/A1+γ/EM συγκριτές, συγκεκριμένο μουσικολογικό εύρημα
+και Q\_real. & Όφελος μόνο έναντι Add που στερείται πληροφορίας
+στοίχισης. \\
+Μεταφορά οργάνωσης παραλλαγής & E-min struct/pool με
+roles/position/unrelated controls, source-held-out robustness και target
+learning curves. & B2→Z improvement που συγχωνεύει βάρη, ετικέτες και
+πυρήνα. \\
+Γενική ML & Το επιπλέον θεωρητικό/αλγοριθμικό πακέτο της §4 και εκτός
+μουσικής αξιολόγηση. & Νέα ονομασία για semantic loss, constrained HMM ή
+product DP. \\
+Ιστορική μουσικολογία & Επαναλήψιμες σχέσεις ρόλου--παραλλαγής και
+διακρίσεις H σε ελεγμένα loci, με ανεξάρτητη ανάγνωση. & Απόδοση
+ιστορικής συγγένειας από θετικό transfer score. \\
+\end{longtable}
+
+Η αναζήτηση ενημερώθηκε έως 29/10/2026, με έμφαση σε πρωτογενείς πηγές.
+Εντοπίστηκε επίσης η συγγραφική εγγραφή \emph{Melody-Lyrics Matching
+with Contrastive Alignment Loss} (2026), DOI
+10.1109/TASLPRO.2026.3703164, αλλά το
+\href{https://hal.science/hal-05191876v2/file/MLM_TASLP.pdf}{πλήρες
+αρχείο} δεν ανακτήθηκε. Παραμένει πρόσθετος έλεγχος alignment learning
+πριν από υποβολή. Η στοχευμένη ανασκόπηση στηρίζει την παραπάνω
+συγκεκριμένη τοποθέτηση· δεν πιστοποιεί καθολική απουσία συγγενών
+εργασιών.
+
+\chapter{Φάσεις υλοποίησης και πιθανές
+δημοσιεύσεις}\label{ux3c6ux3acux3c3ux3b5ux3b9ux3c2-ux3c5ux3bbux3bfux3c0ux3bfux3afux3b7ux3c3ux3b7ux3c2-ux3baux3b1ux3b9-ux3c0ux3b9ux3b8ux3b1ux3bdux3adux3c2-ux3b4ux3b7ux3bcux3bfux3c3ux3b9ux3b5ux3cdux3c3ux3b5ux3b9ux3c2}
+
+\section{Ενιαία πορεία από την ταυτότητα στην ιστορική
+πληροφορία}\label{ux3b5ux3bdux3b9ux3b1ux3afux3b1-ux3c0ux3bfux3c1ux3b5ux3afux3b1-ux3b1ux3c0ux3cc-ux3c4ux3b7ux3bd-ux3c4ux3b1ux3c5ux3c4ux3ccux3c4ux3b7ux3c4ux3b1-ux3c3ux3c4ux3b7ux3bd-ux3b9ux3c3ux3c4ux3bfux3c1ux3b9ux3baux3ae-ux3c0ux3bbux3b7ux3c1ux3bfux3c6ux3bfux3c1ux3afux3b1}
+
+Η πρώτη υλοποίηση είναι A0 + ECSI-D{[}κ{]} με τοπικό Znamenny κ. Η αρχή
+είναι μουσικολογική: μια οικογένεια διατηρεί διαγνωστικές σχέσεις παρά
+τις μεταβολές της συγκεκριμένης εμφάνισης. Ο κ περιγράφει την κατανομή
+αυτών των μεταβολών και η ECSI εξετάζει την ταυτότητα σε όλες τις
+πιθανές στοιχίσεις. Το E-min ελέγχει αν μέρος αυτής της κατανομής μπορεί
+να μεταφερθεί από βυζαντινά δεδομένα. Το Q\_real και το inverse σκέλος
+εξετάζουν ποια πληροφορία της συγκεκριμένης εμφάνισης και του μάρτυρα
+παραμένει προσβάσιμη.
+
+Το πρόγραμμα ενεργοποιείται από τον \textbf{μήνα 36}, μετά την πρόοδο
+και με διαθέσιμους πόρους του κανονιστικού πυρήνα. Οι παρακάτω χρόνοι
+είναι \textbf{σχεδιαστικές εκτιμήσεις για την επέκταση}, χωρίς δέσμευση
+ότι το σώμα ή οι άδειες είναι ήδη εξασφαλισμένα.
+
+\section{Φάσεις, πόροι και
+παραδοτέα}\label{ux3c6ux3acux3c3ux3b5ux3b9ux3c2-ux3c0ux3ccux3c1ux3bfux3b9-ux3baux3b1ux3b9-ux3c0ux3b1ux3c1ux3b1ux3b4ux3bfux3c4ux3adux3b1}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Φάση
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Διάρκεια / ρόλοι
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Συγκεκριμένο αποτέλεσμα
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Απόφαση εξόδου
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Ε0: πηγές και πιλότος & 4--6 εβδομάδες· Z ειδικός, υπεύθυνος δεδομένων,
+δεύτερος κριτής. & Source cards, άδειες, 10--20 loci, dual labels,
+αβεβαιότητα ορίων, κόστος ανά ελεγμένο γεγονός. & G0: αν το υλικό δεν
+υποστηρίζει ανεξάρτητη αξιολόγηση, συνεχίζει μόνο feasibility/resource
+study. \\
+Ε1: συμβολικό MVP & 4--6 εβδομάδες· ML ερευνητής και ειδικός σε
+εβδομαδιαίο audit. & Train-only πρότυπα, local roles, profile baselines,
+ακριβές observed-B/context-Z, validators. & G1: oracle συμφωνία και
+actual-size benchmark. \\
+Ε2: κλίμακα και προεγγραφή & 3--5 εβδομάδες, παράλληλα με Ε1 όπου
+ανεξάρτητο. & Πραγματικές variance/ICC estimates, margins, power/cost
+simulation, κλειδωμένα components/test. & Επιβεβαιωτική ή εκτιμητική
+κλίμακα, πριν από μουσικό test. \\
+Ε3: P1/P2 και E-min & 6--10 εβδομάδες· κυρίως CPU για κ, expert
+annotation για held-out θέσεις. & Same-information σύγκριση,
+selected-objective audit, learning curves και source-prior αντιθέσεις. &
+G2/G3 και ξεχωριστή E-min απόφαση. \\
+Ε4: A0 και κατάντη αναγνώριση & 6--10 εβδομάδες· κοινά GPU budgets, data
+QA. & Encoder transfer matrix, ECSI-Z, κ-integrated, calibration,
+unknown-family και Q\_real. & G4 και τελικός empirical architecture
+selection. \\
+Ε5: historical probes και σύνθεση & 4--8 εβδομάδες εφόσον υπάρχει
+source-linked H. & Witness-specific ανάκτηση, multi-gold,
+risk--coverage, μουσικολογική ερμηνεία και άρθρο. & Χωριστή ιστορική
+δήλωση με σαφή ταυτοποιησιμότητα. \\
+Ε6: μόνο υπό πύλη & Ένας πρόσθετος ερευνητικός κύκλος. & Μικρά joint
+diagnostic blocks, ίσο-budget circuit/free-head comparator, θεωρητικό
+ερώτημα. & Ενεργοποίηση μόνο με αποδεδειγμένη residual dependence και
+πόρους. \\
+\end{longtable}
+
+Η δυνατότητα παράλληλης προόδου αφορά εργασίες ανθρώπων/υπολογισμών του
+ερευνητικού προγράμματος. Δεν αλλάζει τις εξαρτήσεις των επιβεβαιωτικών
+tests. Η προσθήκη νέων πηγών μετά το test απαιτεί νέο version και νέο
+holdout, όχι επαναχρησιμοποίηση του παλιού ως development set με αδήλωτο
+τρόπο.
+
+Ο υπολογιστικός προϋπολογισμός ορίζεται αρχικά ως έως 20 dev
+configurations ανά βασική οικογένεια μεθόδων και 5 τελικοί κοινοί
+σπόροι, με διακοπή ανεπαρκών συνθηκών από προδηλωμένα dev criteria.
+Αυτοί είναι περιορισμοί πόρων, όχι αριθμοί από πραγματικό benchmark.
+Κάθε run καταγράφει tokens, labeled events, source groups, trainable
+parameters, CPU/GPU time, peak memory και annotation hours. Το πρώτο
+actual-size benchmark μετατρέπει το πλέγμα σε ώρες και επιτρέπει
+προσαρμογή του προϋπολογισμού \textbf{πριν} από το test.
+
+Η κύρια οικονομία προκύπτει από caching των profiles/diagnostics, κοινά
+παγωμένα κ/q για το P1, κοινές προβλέψεις για Pool/Vit/AC και
+ενεργοποίηση neural transfer μόνο αφού επαληθευτεί το συμβολικό
+πρωτόκολλο. Η εκτίμηση του γεννητικού Z περιορίζεται στις συνθήκες που
+χρειάζονται κανονισμένη πυκνότητα· το διακριτικό CRF δεν απαιτεί
+αδικαιολόγητη άθροιση πάνω σε ολόκληρο neural input space.
+
+\section{Προτεινόμενη αλληλουχία υλοποίησης στο
+repo}\label{ux3c0ux3c1ux3bfux3c4ux3b5ux3b9ux3bdux3ccux3bcux3b5ux3bdux3b7-ux3b1ux3bbux3bbux3b7ux3bbux3bfux3c5ux3c7ux3afux3b1-ux3c5ux3bbux3bfux3c0ux3bfux3afux3b7ux3c3ux3b7ux3c2-ux3c3ux3c4ux3bf-repo}
+
+Μετά τη μελλοντική εξουσιοδότηση για αλλαγές, προτείνονται τέσσερα
+μικρά, ελέγξιμα σύνολα εργασιών:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Πηγές και πρωτόκολλο:} versioned source/occurrence schemas,
+  role crosswalk, leakage components, experiment registry και παρούσα
+  απόφαση ως νέα ερευνητική σελίδα. Οι κανονιστικές σελίδες παραμένουν
+  σαφώς διακριτές από το ερευνητικό παράρτημα.
+\item
+  \textbf{Πιθανοτικός πυρήνας:} normalized profile, finite-context
+  diagnostic compiler, observed και emission-summed DP, independent
+  enumeration tests και επιλογή objective από sampling metadata.
+\item
+  \textbf{Συγκριτές και αναφορές:} profile/weighted-edit,
+  Pool/Vit/Add/Pool2/MC/A1+γ interfaces, experiment runner, calibration,
+  group statistics και Q\_real probes.
+\item
+  \textbf{Ενσωμάτωση A0:} adapter/head πρόσβαση στα πραγματικά
+  checkpoints, ημι-Μαρκοβιανή loss και deployment-free reproducible
+  training. EISE μόνο όταν το checkpoint audit περάσει.
+\end{enumerate}
+
+Τα ακριβή interfaces και κριτήρια αποδοχής είναι στο 07 (τεχνικό
+τεκμήριο: \texttt{07\_IMPLEMENTATION\_BLUEPRINT\_AND\_TESTS\_GR.md}). Το
+παρόν πακέτο δεν δημιουργεί branch, commit, PR, ούτε τροποποιεί
+οποιοδήποτε αρχείο της πρότασης.
+
+\section{Δημοσιευτικό πρόγραμμα υπό
+αποδείξεις}\label{ux3b4ux3b7ux3bcux3bfux3c3ux3b9ux3b5ux3c5ux3c4ux3b9ux3baux3cc-ux3c0ux3c1ux3ccux3b3ux3c1ux3b1ux3bcux3bcux3b1-ux3c5ux3c0ux3cc-ux3b1ux3c0ux3bfux3b4ux3b5ux3afux3beux3b5ux3b9ux3c2}
+
+\textbf{Άρθρο πόρων/MIR:} ελεγμένο, νόμιμα διαθέσιμο benchmark με
+provenance, independent labels, source splits και ισχυρά symbolic/neural
+baselines. Μπορεί να είναι ουσιαστικό ακόμη και αν η βυζαντινή μεταφορά
+αποτύχει, αρκεί το αποτέλεσμα να έχει επαρκή ακρίβεια και να
+αποσαφηνίζει ποια διάκριση είναι ή δεν είναι μαθήσιμη από τις
+συγκεκριμένες εισόδους.
+
+\textbf{Άρθρο MIML:} ταυτότητα και παραλλαγή ως αμφίδρομη σχέση, με
+P1/P2, corrected sample-selection likelihood και μουσικολογική ανάλυση
+των περιπτώσεων όπου αλλάζει η στοίχιση. Η claim strength ακολουθεί τις
+πραγματικές πύλες: όφελος calibration δεν παρουσιάζεται ως όφελος joint
+recognition, και local success δεν παρουσιάζεται ως επιτυχία
+cross-tradition transfer.
+
+\textbf{Άρθρο συγκριτικής παραλλαγής:} E-min με
+role-pooled/position/unrelated controls και ιστορικά τεκμηριωμένη
+αντιστοίχιση. Το δημοσιευτικό ενδιαφέρον είναι πού μεταφέρεται η ανεκτή
+παραλλαγή και με πόση τοπική εποπτεία. Ο ιστορικός ισχυρισμός στηρίζεται
+σε πηγές ανεξάρτητα από την predictive διαφορά.
+
+\textbf{Γενικό ML άρθρο:} ενεργοποιείται μόνο αν η κοινή block
+factorization ή η μαθησιακή διαδικασία αποδώσει το πρόσθετο
+θεώρημα/αλγόριθμο και δεύτερο πεδίο αξιολόγησης του 04 §4 (τεχνικό
+τεκμήριο:
+\texttt{04\_NOVELTY\_AND\_PRIOR\_ART\_DIFFERENCE\_MATRIX\_GR.md}). Δεν
+διατηρείται προαποφασισμένος τίτλος «νέας μεθόδου» όταν το αποτέλεσμα
+ανάγεται σε γνωστό circuit/WFST.
+
+Οι παραπάνω άξονες μπορούν να ενοποιηθούν σε λιγότερα άρθρα ανάλογα με
+το μέγεθος των αποτελεσμάτων. Δεν προτείνεται τεχνητός κατακερματισμός
+του ίδιου πειράματος ούτε αλλαγή των υποχρεωτικών δημοσιευτικών στόχων
+της διατριβής.
+
+\section{Έτοιμο σύντομο κείμενο για την
+§Αʹ.4}\label{ux3adux3c4ux3bfux3b9ux3bcux3bf-ux3c3ux3cdux3bdux3c4ux3bfux3bcux3bf-ux3baux3b5ux3afux3bcux3b5ux3bdux3bf-ux3b3ux3b9ux3b1-ux3c4ux3b7ux3bd-ux3b1ux2b9.4}
+
+\begin{quote}
+Από τον μήνα 36, και εφόσον έχει εξασφαλιστεί πηγολογικά ελεγμένο
+συγκριτικό υλικό, εξετάζεται προαιρετικά η γενίκευση του μοντέλου στο
+ζναμένιο μέλος. Η επέκταση συνδυάζει τον υπάρχοντα τμηματικό
+κωδικοποιητή με τοπικές οικογενειακές προδιαγραφές και ρολο-εξαρτημένο
+πιθανοτικό πυρήνα παραλλαγής. Η προδιαγραφή αξιολογείται πάνω στις
+πιθανές στοιχίσεις κάθε εμφάνισης και, με ανεξάρτητη μουσικολογική
+εποπτεία, μπορεί να ενημερώνει την εκτίμησή τους. Χωριστό συμβολικό
+πείραμα ελέγχει αν η κατανομή παραλλαγής που μαθαίνεται στη βυζαντινή
+ψαλτική προσφέρει προβλεπτικό όφελος σε Znamenny οικογένειες, με τοπικά
+πρότυπα, συγκρίσιμη έκθεση και ελέγχους γενικών μουσικών κανονικοτήτων.
+Η αξιολόγηση διαχωρίζει τη μεταφορά αναπαραστάσεων, τη χρήση
+μουσικολογικής γνώσης και τη μεταφορά του πυρήνα, διατηρώντας τις
+δοκιμές πληροφορίας πραγμάτωσης. Η ανάκτηση συγκεκριμένης σωζόμενης
+νευματικής γραφής εξετάζεται μόνο όπου τα τεκμήρια επιτρέπουν ανεξάρτητο
+στόχο και ρητή αποτίμηση αμφισημίας. Η επέκταση παραμένει υπό
+πειραματικές πύλες και δεν μεταβάλλει την R★, τα κύρια εκτιμώμενα μεγέθη
+ή τα υποχρεωτικά πακέτα του βασικού πυρήνα.
+\end{quote}
+
+Το απόσπασμα είναι \textbf{πρόταση προς μελλοντική ένταξη} και δεν έχει
+εισαχθεί στην v16.6.4.
+
+\section{Εκτενής ερευνητική
+περιγραφή}\label{ux3b5ux3baux3c4ux3b5ux3bdux3aeux3c2-ux3b5ux3c1ux3b5ux3c5ux3bdux3b7ux3c4ux3b9ux3baux3ae-ux3c0ux3b5ux3c1ux3b9ux3b3ux3c1ux3b1ux3c6ux3ae}
+
+Η συγκριτική επέκταση εξετάζει την οργάνωση της μουσικής ταυτότητας μέσα
+στη μεταβολή της επιφάνειας. Αφετηρία είναι η διάκριση ανάμεσα στην
+αναγνώριση μιας οικογένειας και στην πληροφορία της συγκεκριμένης
+εμφάνισής της. Η βυζαντινή θέσις και η Znamenny popevka αποτελούν τοπικά
+ορισμένα αντικείμενα· η σύγκρισή τους χρειάζεται ανεξάρτητη
+μουσικολογική τεκμηρίωση και δεν προϋποθέτει κοινό λεξιλόγιο οικογενειών
+ή καθολική αντιστοιχία λειτουργιών.
+
+Το μοντέλο διατηρεί τον κοινό κωδικοποιητή, τους τοπικούς προσαρμογείς
+και τις χωριστές λειτουργίες ταυτότητας και πραγμάτωσης. Για κάθε
+υποψήφια οικογένεια, ένα πρότυπο από δεδομένα εκπαίδευσης ορίζει μουσικά
+σημεία αναφοράς. Ένας κανονισμένος πυρήνας παραλλαγής αποδίδει
+πιθανότητες σε αντιστοιχίσεις, εισαγωγές και διαγραφές υπό τοπικούς
+ρόλους και συμφραζόμενα. Οι ρόλοι παραμένουν ειδικοί για κάθε παράδοση,
+με μερική αντιστοίχιση μόνο όπου αυτή υποστηρίζεται από τα τεκμήρια.
+
+Η μουσικολογική προδιαγραφή εκφράζει αναγκαίες, εναλλακτικές ή
+αποκλειόμενες διαγνωστικές σχέσεις. Επειδή η αντιστοίχιση της
+παρατήρησης προς το πρότυπο είναι αβέβαιη, η ισχύς της προδιαγραφής
+υπολογίζεται ως κοινή πιθανότητα πάνω στις δυνατές στοιχίσεις. Αυτή η
+λειτουργία αποτελεί ECSI-D με κατανομή εννοιών που επάγεται από τον κ. Η
+αντίστροφη επίδραση της προδιαγραφής στην εκτίμηση του κ εξετάζεται με
+ανεξάρτητες κρίσεις και σημάνσεις, ώστε οι καλύτερες εσωτερικές
+αντιστοιχίσεις να μπορούν να ελεγχθούν μουσικολογικά.
+
+Η τεχνική προδιαγραφή διαχωρίζει το διακριτικό μοντέλο αναγνώρισης από
+το γεννητικό μοντέλο περιεχομένου. Το πρώτο κανονικοποιεί όλες τις
+επιτρεπτές εξόδους ορίων και οικογενειών. Το δεύτερο κανονικοποιεί τις
+πιθανές συμβολικές εμφανίσεις και λαμβάνει υπόψη αν το σώμα συλλέχθηκε
+με επιλογή των αποδεκτών εμφανίσεων. Τα διαγνωστικά που εξαρτώνται από
+προηγούμενες εκπομπές απαιτούν αντίστοιχη μνήμη στον δυναμικό
+προγραμματισμό. Η ορθότητα ελέγχεται με ανεξάρτητη απαρίθμηση, ενώ η
+πολυπλοκότητα δηλώνεται βάσει των πραγματικών εξαρτήσεων της
+προδιαγραφής.
+
+Το ελάχιστο πείραμα μεταφοράς κρατά κοινά τα Znamenny δεδομένα, τα
+τοπικά πρότυπα και την εποπτεία. Συγκρίνει επίπεδο prior, βυζαντινό
+prior, άλλης παράδοσης prior και ελέγχους που αφαιρούν τη σύνδεση ρόλου
+και παραλλαγής. Η cross entropy σε bits ανά γεγονός μετρά τη χρησιμότητα
+της μεταφερόμενης κατανομής. Παράλληλα, η αρχιτεκτονική σύνθεση
+συγκρίνεται με μεθόδους που διαθέτουν τις ίδιες έννοιες και την ίδια
+πληροφορία στοίχισης, ώστε το όφελος της κοινής περιθωριοποίησης να
+απομονώνεται από την απλή πρόσβαση σε περισσότερα τεκμήρια.
+
+Η πηγολογική υποδομή διατηρεί τις μελωδικές οικογενειακές κρίσεις
+χωριστά από τις ιστορικές ονομασίες που προκύπτουν από τη γραφή. Οι
+ίδιοι ύμνοι, τα ίδια χωρία και οι συγγενείς μάρτυρες παραμένουν σε
+κοινές ομάδες διαχωρισμού. Οι αμφισημίες ορίων και ανάγνωσης
+καταγράφονται ως πολλαπλές αποδεκτές λύσεις ή ως κατανομές κρίσεων. Η
+ψηφιοποιημένη εικόνα, η δυνατότητα επεξεργασίας και η πραγματική
+διαθεσιμότητα στοιχισμένου σώματος τεκμηριώνονται χωριστά.
+
+Η προστασία της πραγμάτωσης αξιολογείται με τις τρεις προκαθορισμένες
+δοκιμές Q\_real. Η ιστορική ανάκτηση αφορά τη συγκεκριμένη σωζόμενη
+γραφή δεδομένου μάρτυρα, με επιτρεπτές εισόδους, βαθμονόμηση και
+δυνατότητα αποχής. Η αρχιτεκτονική μπορεί να καταστήσει την πληροφορία
+πιο προσιτή σε έναν περιορισμένο εκτιμητή, ενώ η πραγματική
+ταυτοποιησιμότητα εξαρτάται από το αν οι πηγές διακρίνουν τις ιστορικές
+εναλλακτικές.
+
+Η συνεισφορά αξιολογείται ως ερευνητικό πρόγραμμα μουσικολογικά
+ενημερωμένης μάθησης: ένα κοινό αλλά διαψεύσιμο μοντέλο συνδέει
+ταυτότητα, παραλλαγή, μεταφερόμενη δομή και ιστορική πληροφορία. Η
+επιτυχία κάθε σκέλους κρίνεται με δικά του estimands και προκαθορισμένες
+πύλες. Μια ενδεχόμενη γενικότερη ML συμβολή θα απαιτήσει πρόσθετο
+μαθηματικό ή αλγοριθμικό αποτέλεσμα πέρα από τη σύνθεση γνωστών μοντέλων
+και απόδειξη της αξίας του σε περισσότερα πεδία.
+
+\chapter{Τεχνική υλοποίηση, ορθότητα και
+αναπαραγωγιμότητα}\label{ux3c4ux3b5ux3c7ux3bdux3b9ux3baux3ae-ux3c5ux3bbux3bfux3c0ux3bfux3afux3b7ux3c3ux3b7-ux3bfux3c1ux3b8ux3ccux3c4ux3b7ux3c4ux3b1-ux3baux3b1ux3b9-ux3b1ux3bdux3b1ux3c0ux3b1ux3c1ux3b1ux3b3ux3c9ux3b3ux3b9ux3bcux3ccux3c4ux3b7ux3c4ux3b1}
+
+\section{Τι παραδίδεται και τι έχει πράγματι
+εκτελεστεί}\label{ux3c4ux3b9-ux3c0ux3b1ux3c1ux3b1ux3b4ux3afux3b4ux3b5ux3c4ux3b1ux3b9-ux3baux3b1ux3b9-ux3c4ux3b9-ux3adux3c7ux3b5ux3b9-ux3c0ux3c1ux3acux3b3ux3bcux3b1ux3c4ux3b9-ux3b5ux3baux3c4ux3b5ux3bbux3b5ux3c3ux3c4ux3b5ux3af}
+
+Παραδίδονται η ενιαία μαθηματική προδιαγραφή, μικρές ανεξάρτητες
+υλοποιήσεις αναφοράς, τα αρχικά oracles χωρίς αλλαγή, μηχανικά
+αναγνώσιμα αποτελέσματα, schema/protocol και αναπαραγώγιμος runner. Η
+εκτέλεση αφορά \textbf{συνθετικές κατανομές και μικρούς εξαντλητικούς
+χώρους}. Δεν εκπαιδεύτηκε μουσικός encoder, δεν φορτώθηκε πραγματικό
+B1/B2/EISE checkpoint και δεν κατασκευάστηκε νέο corpus από χειρόγραφα.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Έλεγχος
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Αρχείο
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Αποτέλεσμα
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Work αναδρομές / ιστορική αριθμητική &
+\texttt{original\_oracles/toy\_semimarkov\_checks.py} & 291 έλεγχοι
+PASS, μέγιστη αριθμητική απόκλιση περίπου \(3,6\cdot10^{-15}\). \\
+Πρώτο Claude oracle & \texttt{original\_oracles/claude\_dp\_oracle.py} &
+5 αρχικές ομάδες PASS. Το πρόσθετο global normalization counterexample
+αποκαλύπτει το ελλιπές END. \\
+Δεύτερο Claude oracle &
+\texttt{original\_oracles/claude\_ac\_ecsi\_oracle.py} & 16 ομάδες PASS
+με τις δικές τους υποθέσεις, συμπεριλαμβάνοντας αναμενόμενη αποτυχία
+naive prefix reuse. \\
+Νέο ανεξάρτητο counterexample &
+\texttt{original\_oracles/oracle\_Zf\_context\_counterexample.py} &
+Αναπαραγωγή και των τριών αποτυχιών του παλιού Z. \\
+Νέα profile/outer/generative suite & \texttt{astra\_oracle.py} & 221
+έλεγχοι PASS· μέγιστη απόκλιση \(1,56\cdot10^{-10}\), που περιλαμβάνει
+finite-difference gradients. \\
+Διορθωμένο context product DP & \texttt{ecsi\_kappa\_context\_oracle.py}
+& 308 έλεγχοι PASS· corrected relative Z errors κάτω από
+\(4\cdot10^{-16}\). \\
+Μικρή πραγματική βελτιστοποίηση κ &
+\texttt{bidirectional\_learning\_oracle.py} & 43 έλεγχοι PASS· EM
+monotonicity, direct-objective συμφωνία, selected consistency και DP. \\
+Σχεδιασμός ισχύος / transfer &
+\texttt{power\_and\_transfer\_simulation.py} & 50 σενάρια ισχύος και 9
+συνθετικά transfer σενάρια· assertions PASS. \\
+\end{longtable}
+
+Οι αριθμοί είναι πλήθη assertions ή ομάδων, όπως δηλώνονται στα
+αντίστοιχα JSON. Δεν αποτελούν αριθμό ανεξάρτητων μουσικών πειραμάτων.
+Το συνολικό μέγιστο σφάλμα στο context JSON είναι περίπου
+\(8,44\cdot10^{-7}\) λόγω ελέγχου αριθμητικού optimizer μιας MLE, όχι
+λόγω απόκλισης του DP. Τα per-test records επιτρέπουν τον χωριστό
+έλεγχο.
+
+\section{Αρχεία και
+αναπαραγωγή}\label{ux3b1ux3c1ux3c7ux3b5ux3afux3b1-ux3baux3b1ux3b9-ux3b1ux3bdux3b1ux3c0ux3b1ux3c1ux3b1ux3b3ux3c9ux3b3ux3ae}
+
+Απαιτείται Python 3 με NumPy και SciPy. Οι πραγματικές εκδόσεις
+περιβάλλοντος καταγράφονται στο \texttt{validation\_summary.json}. Από
+τον φάκελο του πακέτου:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ExtensionTok{python3}\NormalTok{ run\_all\_checks.py}
+\ExtensionTok{python3}\NormalTok{ package\_qa.py}
+\end{Highlighting}
+\end{Shaded}
+
+Ο πρώτος runner εκτελεί τα οκτώ scripts και αποθηκεύει exit codes,
+χρόνους και logs. Ο δεύτερος ελέγχει σύνταξη Python/JSON, Markdown
+links/fences, manifests και τις βασικές δηλώσεις του πρωτοκόλλου. Τα
+αρχικά αρχεία αντιγράφονται αυτούσια μόνο για αναπαραγωγή και παραμένουν
+ξεχωριστά από τον διορθωμένο κώδικα. Η αναπαραγωγή ενημερώνει τα τοπικά
+result JSON· τα benchmarks μπορεί να διαφέρουν σε χρόνο/μνήμη ανά
+μηχάνημα.
+
+Οι raw πρωτογενείς μελέτες και τα PDF δεν αναδιανέμονται μέσα στο ZIP.
+Το \texttt{source\_manifest.json} καταγράφει τις ταυτότητες και τα
+hashes τους. Τα scripts δεν απαιτούν αυτές τις μελέτες για να τρέξουν,
+διότι περιλαμβάνονται όλα τα μικρά fixtures/oracles που χρησιμοποιούν.
+
+\section{Προτεινόμενα modules
+παραγωγής}\label{ux3c0ux3c1ux3bfux3c4ux3b5ux3b9ux3bdux3ccux3bcux3b5ux3bdux3b1-modules-ux3c0ux3b1ux3c1ux3b1ux3b3ux3c9ux3b3ux3aeux3c2}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Module / interface
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Είσοδοι
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Έξοδοι και contract
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\texttt{data/source\_registry} & Source cards, δικαιώματα, image/token
+hashes. & Versioned records· αποτυχία όταν λείπει απαιτούμενη
+άδεια/προέλευση. \\
+\texttt{data/splits} & Work/locus/copy/parallel edges. & Connected
+components και train/dev/test· μηδενική διατομή. \\
+\texttt{music/role\_inventory} & Τοπικό εγχειρίδιο, expert labels,
+partial crosswalk. & Role IDs ανά παράδοση· αβέβαιη αντιστοίχιση χωριστή
+από βέβαιη. \\
+\texttt{profile/normalized\_profile} & Train-only templates, priors,
+emissions/transitions. & Κανονισμένες γραμμές, END και termination
+certificate. \\
+\texttt{logic/card\_compiler} & S, owners, applicability,
+missing/deletion policy, dependency declarations. & Residual automaton,
+width, context statistics και δυνατότητα prefix reuse. \\
+\texttt{inference/observed\_product} & X, f, κ, q, compiled card. & log
+A, log B, m και posterior marginals· log-space. \\
+\texttt{inference/normalizer\_product} & f,C,n, finite alphabet και
+diagnostic state. & log a, log z, log Z· απαγορεύεται fixed-X diagnostic
+shortcut. \\
+\texttt{learning/sampling\_objective} & Dataset sampling metadata και
+labels. & Joint, conditional-Y ή selected objective, με σωστό
+gradient. \\
+\texttt{models/a0} & R★/R\_Z, adapter, encoder checkpoint. & h, z\_id,
+z\_real και base span scores· checkpoint lineage. \\
+\texttt{inference/segment\_crf} & Span scores, skip scores, annotation
+constraints. & log partition, marginals και Viterbi· empty output
+επιτρεπτό. \\
+\texttt{evaluation/comparators} & Κοινό posterior/q/S και resource
+budget. & Add, Vit, Pool, Pool2, MC, A1+γ, AC· κοινό calibration
+interface. \\
+\texttt{evaluation/probes\_statistics} & Frozen features, group IDs,
+blind labels. & Q\_real, inverse, paired intervals, gates και complete
+coverage ledger. \\
+\end{longtable}
+
+Τα paths είναι προτεινόμενη λογική οργάνωση νέων modules· δεν δηλώνεται
+ότι υπάρχουν ήδη στο GitHub ή ότι γράφτηκε production trainer μέσα στο
+παρόν ZIP.
+
+\section{Ακριβής σειρά
+υπολογισμού}\label{ux3b1ux3baux3c1ux3b9ux3b2ux3aeux3c2-ux3c3ux3b5ux3b9ux3c1ux3ac-ux3c5ux3c0ux3bfux3bbux3bfux3b3ux3b9ux3c3ux3bcux3bfux3cd}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{compile\_card(card):}
+\NormalTok{    validate applicability, owners, deletion/missing policy}
+\NormalTok{    derive residual logical states}
+\NormalTok{    list sufficient emitted{-}history and path statistics}
+\NormalTok{    certify prefix\_reuse only when internal factors ignore final end}
+\NormalTok{    return automaton, state\_contract, measured\_width}
+
+\NormalTok{observed\_scores(X, f, parameters):}
+\NormalTok{    run profile × logical{-}state DP in log space}
+\NormalTok{    sum all terminal states including END {-}\textgreater{} log\_A}
+\NormalTok{    sum accepted terminal states including END {-}\textgreater{} log\_B}
+\NormalTok{    return log\_A, log\_B, exp(log\_B {-} log\_A)}
+
+\NormalTok{generative\_normalizer(f, C, length, parameters):}
+\NormalTok{    reject undeclared full{-}sequence diagnostic dependencies}
+\NormalTok{    initialize profile × logic × emitted\_history × statistics}
+\NormalTok{    for each topologically ordered state:}
+\NormalTok{        for each allowed profile edge:}
+\NormalTok{            if emitting: sum over every vocabulary symbol}
+\NormalTok{            update emitted\_history also for INSERT}
+\NormalTok{            update logical state using the declared diagnostics}
+\NormalTok{            accumulate with logsumexp}
+\NormalTok{    apply END and terminal diagnostics}
+\NormalTok{    return log\_a, log\_z, log\_z {-} log\_a}
+
+\NormalTok{train\_kappa(batch):}
+\NormalTok{    read the recorded sampling regime}
+\NormalTok{    choose the corresponding objective from mathematical spec §7}
+\NormalTok{    keep q fixed for the first semantic learning comparison}
+\NormalTok{    compute exact positive and, when required, negative expectations}
+\NormalTok{    update parameters and verify the correct objective increases}
+
+\NormalTok{decode(X):}
+\NormalTok{    calculate candidate{-}family span scores}
+\NormalTok{    apply beta weights after internal marginalization}
+\NormalTok{    run zero{-}order skip semi{-}CRF forward/backward or Viterbi}
+\NormalTok{    use separately calibrated U and abstention decisions}
+\end{Highlighting}
+\end{Shaded}
+
+Οι β πολλαπλασιάζουν τους ήδη υπολογισμένους log A/log m. Η μεταφορά
+τους μέσα στο άθροισμα διαδρομών αλλάζει το μοντέλο. Ο κενός semantic
+support με \(z=0\) απορρίπτεται ως μη ορίσιμη γεννητική δέσμευση. Η
+χρήση epsilon clipping δηλώνεται ως αλλαγή μοντέλου, αν αλλάζει
+πιθανότητες, και δεν καλύπτει λανθασμένη προδιαγραφή.
+
+\section{Invariants και tests πριν από μουσική
+εφαρμογή}\label{invariants-ux3baux3b1ux3b9-tests-ux3c0ux3c1ux3b9ux3bd-ux3b1ux3c0ux3cc-ux3bcux3bfux3c5ux3c3ux3b9ux3baux3ae-ux3b5ux3c6ux3b1ux3c1ux3bcux3bfux3b3ux3ae}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Invariant
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Έλεγχος αναφοράς
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Επιπλέον production acceptance
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Κάθε transition/emission row αθροίζει στο 1. & Τυχαία profiles, END,
+μικρή απαρίθμηση, μήκη έως 100. & Float32/64, batch shapes, μηδενικές
+πιθανότητες και μεγάλα μήκη. \\
+Κάθε διαδρομή/ανάθεση μετρά μία φορά. & Brute force = DP· 255
+specifications. & Compiler property tests, disjunction overlaps,
+αδύνατο/ταυτολογικό S. \\
+\(B\le A\), \(z\le a\), \(0\le m,Z\le1\). & Ακριβής απαρίθμηση
+observed/global cases. & Όλα τα πραγματικά compiled cards και κάθε
+training checkpoint. \\
+INSERT ενημερώνει emitted context. & Τρεις seed regressions του
+ανεξάρτητου υπομνήματος. & Παράθυρα 2/3, OOV, deleted landmark και
+μακρινά relations. \\
+Prefix reuse μόνο με invariant internal factors. & Αντιπαράδειγμα
+end-dependent diagnostic και διορθωμένες separate passes. & Static
+dependency check και randomized equality με per-span implementation. \\
+Selected density αθροίζει στο 1. & Όλα τα strings μικρού fixed length. &
+Κοινή length conditioning, selection mechanism και gradient checks. \\
+Σωστός selected gradient. & Analytic expectation έναντι finite
+differences. & Autograd έναντι ανεξάρτητου oracle σε κάθε parameter
+family. \\
+Skip ↔ O1 bijection. & Exhaustive tilings και background multiplicity
+counterexample. & U/O/unresolved partial labels, long all-background
+sequence, empty output. \\
+Partial annotation loss. & Constrained partition έναντι enumeration. &
+Alternative boundaries με joint constraints· fully unknown loss=0. \\
+Gap memory συμβατή με factorization. & Zero-order, gap flag, full-span
+insufficiency examples. & Η πρώτη έκδοση παραμένει zero-order· κάθε
+πρόσθετη μετάβαση απαιτεί νέο contract. \\
+Generative/CRF posterior υπό σωστές προϋποθέσεις. & Joint normalization,
+β=1, survival και Markov boundary cases. & Ίδιο background measure,
+horizon και length prior σε integration tests. \\
+Καμία κυκλική είσοδος. & Συνθετικός component leakage detector. &
+Πραγματικό manifest audit, annotation-origin tests και feature
+allowlist. \\
+Q\_real και ιστορικό H χωριστά. & Μη ενέσιμη operation summary,
+ambiguity toy cases. & Frozen probes/actual source-linked H και
+empirical NI gate. \\
+\end{longtable}
+
+\section{Εκτελεσμένη μάθηση και όρια του
+αποτελέσματος}\label{ux3b5ux3baux3c4ux3b5ux3bbux3b5ux3c3ux3bcux3adux3bdux3b7-ux3bcux3acux3b8ux3b7ux3c3ux3b7-ux3baux3b1ux3b9-ux3ccux3c1ux3b9ux3b1-ux3c4ux3bfux3c5-ux3b1ux3c0ux3bfux3c4ux3b5ux3bbux3adux3c3ux3bcux3b1ux3c4ux3bfux3c2}
+
+Το \texttt{bidirectional\_learning\_oracle.py} εκτιμά μία δυαδική
+emission row σε profile δύο στηλών, αλφάβητο δύο συμβόλων και γνωστό
+μήκος 3. Τα diagnostics και η topology είναι σταθερά. Οι fractional
+counts προέρχονται από τον ακριβή πληθυσμό του selected model με αληθή
+θ=0,72· δεν προσποιούνται ανεξάρτητο πραγματικό δείγμα.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Objective
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Εκτίμηση θ
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Ερμηνεία
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Plain EM στο περιεχόμενο & 0,9685563 & Το επιλεγμένο δείγμα δεν είναι
+αντιπροσωπευτικό του αρχικού unconstrained profile. \\
+Positive joint EM & 0,9999999, στο δηλωμένο αριθμητικό όριο &
+Μεγιστοποιεί διαφορετική objective. \\
+Σωστή selected likelihood & 0,71999999997 & Ανακτά την παράμετρο του
+υποτιθέμενου μοντέλου παραγωγής. \\
+\end{longtable}
+
+Οι EM objectives αυξάνουν σε όλες τις εκτελεσμένες επαναλήψεις και
+συμφωνούν με direct one-dimensional optimization της \textbf{ίδιας}
+objective. Το global z από το corrected DP συμφωνεί με την ανεξάρτητη
+απαρίθμηση με απόκλιση \(2,78\cdot10^{-17}\). Οι AC/Pool/Vit
+probabilities υπολογίζονται με το ίδιο αρχικό posterior. Η joint-block
+δοκιμή αναπαράγει πιθανότητα ισότητας 1 έναντι 0,5 για ίδια περιθώρια.
+
+Δεν υλοποιήθηκε neural A1+γ ή πλήρης εκπαίδευση όλων των parameter rows.
+Το παραπάνω είναι ουσιαστικό consistency/selection test και ανεξάρτητος
+μαθησιακός έλεγχος· οι αντίστοιχες μουσικές συγκρίσεις απαιτούν τα
+δεδομένα της G0.
+
+\section{Μετρημένο κόστος και
+MVP}\label{ux3bcux3b5ux3c4ux3c1ux3b7ux3bcux3adux3bdux3bf-ux3baux3ccux3c3ux3c4ux3bfux3c2-ux3baux3b1ux3b9-mvp}
+
+Σε μία εκτέλεση Python, observed product για \((J,|V|,n,W)=(4,8,32,2)\)
+χρειάστηκε περίπου 0,086 s και για \((8,16,64,2)\) περίπου 0,398 s. Η
+άθροιση εκπομπών με previous-symbol state για \((4,8,16,2)\) χρειάστηκε
+περίπου 1,594 s. Η \texttt{tracemalloc} μέτρηση ήταν περίπου 139 kB, 542
+kB και 302 kB αντίστοιχα· μετρά Python allocations, όχι πλήρες RSS ή
+μελλοντική GPU μνήμη. Τα ακριβή run-specific timings παραμένουν στο
+\texttt{ecsi\_kappa\_context\_results.json} και μπορεί να αλλάξουν με
+επανεκτέλεση.
+
+Αυτές οι διαστάσεις είναι \textbf{συνθετικά stress cases}. Δεν έχουν
+μετρηθεί πραγματικά J,L,W στη νέα απογραφή. Ο production πιλότος θα
+καταγράψει την κατανομή τους, τα ανοιχτά logical dependencies, το
+context-state πλήθος και το κόστος όλων των υποψηφίων spans. Οι
+ασυμπτωτικές εκφράσεις του 02 (τεχνικό τεκμήριο:
+\texttt{02\_SELECTED\_ARCHITECTURE\_MATHEMATICAL\_SPEC\_GR.md}) είναι το
+ακριβές συμβόλαιο, όχι υπόσχεση συγκεκριμένου throughput.
+
+Το MVP ολοκληρώνεται όταν: (α) μία πραγματική οικογένεια και hard
+negatives έχουν ελεγμένα records, (β) normalized profile/semantic card
+εκτελούνται με ίδιο αποτέλεσμα σε oracle και compiled DP, (γ)
+Pool/Vit/AC χρησιμοποιούν τα ίδια δεδομένα, (δ) ένας full-work
+zero-order decoder χειρίζεται partial labels/U/skip, (ε) τα reports
+παράγονται με source groups και τις τρεις Q\_real δοκιμές. Η μετάβαση σε
+περισσότερες οικογένειες ακολουθεί την G0--G1. Το frozen symbolic P1
+μπορεί να προηγηθεί του GPU σκέλους χωρίς να αλλάζει η επιλεγμένη τελική
+αρχιτεκτονική.
+
+\chapter{Ερμηνεία των αποτελεσμάτων και όρια του παρόντος
+παραρτήματος}\label{ux3b5ux3c1ux3bcux3b7ux3bdux3b5ux3afux3b1-ux3c4ux3c9ux3bd-ux3b1ux3c0ux3bfux3c4ux3b5ux3bbux3b5ux3c3ux3bcux3acux3c4ux3c9ux3bd-ux3baux3b1ux3b9-ux3ccux3c1ux3b9ux3b1-ux3c4ux3bfux3c5-ux3c0ux3b1ux3c1ux3ccux3bdux3c4ux3bfux3c2-ux3c0ux3b1ux3c1ux3b1ux3c1ux3c4ux3aeux3bcux3b1ux3c4ux3bfux3c2}
+
+Το παράρτημα παραδίδει ορισμένο ερευνητικό αντικείμενο, εκτελέσιμη
+συνθετική υποδομή και πειραματική διαδικασία. Το αποτέλεσμα \textbf{δεν}
+είναι θετική απόδειξη αποτελεσματικότητας σε πραγματικές popevki. Οι
+αριθμητικές δοκιμές ελέγχουν εσωτερικές ταυτότητες, κανονικοποίηση,
+οριακές περιπτώσεις και ισοδυναμία με εξαντλητική απαρίθμηση σε
+πεπερασμένους χώρους. Το επόμενο τεκμήριο είναι η ανεξάρτητη συγκρότηση
+περιπτώσεων, η εφαρμοσιμότητα των προδιαγραφών και η συσχέτιση
+μοντέλου--ειδικού σε κλειδωμένο test.
+
+Το περιορισμένο μέγεθος ενός πιλότου δεν μετατρέπεται σε ισχυρό
+συμπέρασμα γενίκευσης λόγω πολλών μουσικών γεγονότων από τους ίδιους
+μάρτυρες. Οι ομάδες τεκμηρίων είναι η μονάδα στατιστικής ανεξαρτησίας. Η
+επιτυχής μεταφορά prior δεν αποτελεί ένδειξη ιστορικής καταγωγής της
+μιας παράδοσης από την άλλη. Το συμπέρασμα για ιστορικά ζνάμενα αφορά
+συγκεκριμένο σωζόμενο μάρτυρα και όχι μοναδικό αρχέτυπο. Τα όρια
+ταυτοποιησιμότητας και οι εναλλακτικές μουσικολογικές ερμηνείες
+παραμένουν μέρος του αποτελέσματος, όχι θόρυβος που πρέπει να εξαλειφθεί
+εκ των υστέρων.
+
+\chapter{Επιλεγμένη βιβλιογραφία και σύνδεσμοι πρωτογενών
+εργασιών}\label{ux3b5ux3c0ux3b9ux3bbux3b5ux3b3ux3bcux3adux3bdux3b7-ux3b2ux3b9ux3b2ux3bbux3b9ux3bfux3b3ux3c1ux3b1ux3c6ux3afux3b1-ux3baux3b1ux3b9-ux3c3ux3cdux3bdux3b4ux3b5ux3c3ux3bcux3bfux3b9-ux3c0ux3c1ux3c9ux3c4ux3bfux3b3ux3b5ux3bdux3ceux3bd-ux3b5ux3c1ux3b3ux3b1ux3c3ux3b9ux3ceux3bd}
+
+\begin{itemize}
+\tightlist
+\item
+  Bountouridis, D. et al.~(2017). \emph{Melody Retrieval and
+  Classification Using Biologically-Inspired Techniques}. EvoMUSART.
+  DOI:
+  \href{https://doi.org/10.1007/978-3-319-55750-2_4}{10.1007/978-3-319-55750-2\_4}.
+\item
+  Bountouridis, D., Brown, D., Wiering, F., \& Veltkamp, R. C. (2017).
+  \emph{Melodic Similarity and Applications Using Biologically-Inspired
+  Techniques}. \emph{Applied Sciences}, 7, 1242. DOI:
+  \href{https://doi.org/10.3390/app7121242}{10.3390/app7121242}.
+\item
+  Sarawagi, S., \& Cohen, W. W. (2004). \emph{Semi-Markov Conditional
+  Random Fields for Information Extraction}. NeurIPS.
+  \href{https://proceedings.neurips.cc/paper_files/paper/2004/file/eb06b9db06012a7a4179b8f3cb5384d3-Paper.pdf}{Full
+  text}.
+\item
+  Xu, J. et al.~(2018). \emph{A Semantic Loss Function for Deep Learning
+  with Symbolic Knowledge}. ICML.
+  \href{https://proceedings.mlr.press/v80/xu18h.html}{PMLR}.
+\item
+  Ganchev, K. et al.~(2010). \emph{Posterior Regularization for
+  Structured Latent Variable Models}. JMLR.
+  \href{https://jmlr.org/papers/volume11/ganchev10a/ganchev10a.pdf}{Full
+  text}.
+\item
+  Zhang, H. et al.~(2023). \emph{Tractable Control for Autoregressive
+  Language Generation}. ICML.
+  \href{https://proceedings.mlr.press/v202/zhang23g/zhang23g.pdf}{PMLR}.
+\item
+  van Krieken, E. et al.~(2024). \emph{On the Independence Assumption in
+  Neurosymbolic Learning}. ICML.
+  \href{https://proceedings.mlr.press/v235/van-krieken24a.html}{PMLR}.
+\item
+  Manginas, N., Paliouras, G., \& De Raedt, L. (2025). \emph{NeSyA:
+  Neurosymbolic Automata}. IJCAI.
+  \href{https://ijcai.org/proceedings/2025/662}{Official proceedings}.
+\item
+  De Smet, L. et al.~(2025). \emph{Relational Neurosymbolic Markov
+  Models}. AAAI.
+  \href{https://ojs.aaai.org/index.php/AAAI/article/view/33777}{Official
+  venue}.
+\item
+  \emph{Adaptable Logical Control for Large Language Models} (2024).
+  NeurIPS. \href{https://arxiv.org/html/2406.13892v2}{Proceedings}.
+\item
+  Bakhmutova--Gusev--Titkova, μελέτη ζναμένιων μελωδικών μονάδων (2022).
+  \href{https://doi.org/10.17674/2782-3601.2022.4.098-106}{DOI:
+  10.17674/2782-3601.2022.4.098-106}. Η ακριβής εγγραφή
+  συγγραφέων/τίτλου ελέγχεται από το μητρώο πηγών πριν χρησιμοποιηθεί ως
+  τελική βιβλιογραφική εγγραφή.
+\end{itemize}
+
+\chapter{Παράρτημα Α. Αναπαραγώγιμη αριθμητική
+τεκμηρίωση}\label{ux3c0ux3b1ux3c1ux3acux3c1ux3c4ux3b7ux3bcux3b1-ux3b1.-ux3b1ux3bdux3b1ux3c0ux3b1ux3c1ux3b1ux3b3ux3ceux3b3ux3b9ux3bcux3b7-ux3b1ux3c1ux3b9ux3b8ux3bcux3b7ux3c4ux3b9ux3baux3ae-ux3c4ux3b5ux3baux3bcux3b7ux3c1ux3afux3c9ux3c3ux3b7}
+
+Η συνοδευτική υλοποίηση και τα JSON αποτελεσμάτων διαχωρίζουν τις
+συνθετικές δοκιμές από τα μουσικά δεδομένα. Οι 221 έλεγχοι του
+γεννητικού/εξωτερικού μοντέλου, οι 308 έλεγχοι του context-aware
+ECSI--\(\kappa\) και οι 43 έλεγχοι της αμφίδρομης μάθησης αποτελούν 572
+συνθετικές επαληθεύσεις. Τα προηγούμενα oracles επανεκτελέστηκαν
+χωριστά. Η επιτυχία τους δεν αποτελεί μέτρηση αναγνώρισης ή
+μουσικολογικής εγκυρότητας.
+
+Για πιστή αναπαραγωγή, τα συνοδευτικά αρχεία \texttt{astra\_oracle.py},
+\texttt{ecsi\_kappa\_context\_oracle.py},
+\texttt{bidirectional\_learning\_oracle.py},
+\texttt{run\_all\_checks.py}, \texttt{validation\_summary.json},
+\texttt{protocol\_config.json} και \texttt{source\_manifest.json}
+παραμένουν διαθέσιμα στον τεχνικό φάκελο της επέκτασης. Στο GitHub το
+κύριο κείμενο συνδέεται με τα πρωτογενή τεχνικά υπομνήματα και με τις
+εκτελέσιμες δοκιμές. Η ρητή διάκριση ανάμεσα σε αυτά τα στρώματα
+προστατεύει από την εμφάνιση ερευνητικών σχεδιασμών ως πραγματοποιημένων
+εμπειρικών αποτελεσμάτων.
+
+\end{document}

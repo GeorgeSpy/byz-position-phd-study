@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-29",
+  "canonical_proposal_version": "16.6.4",
+  "primary_files": [
+    {
+      "filename": "MASTER_PROMPT_WORK_ASTRA_ZNAMENNY_FINAL_ARCHITECTURE_ARBITRATION_GR.md",
+      "library_file_id": "libfile_e7ba5d35229c8191b27c0e76d4414812",
+      "bytes": 21534,
+      "sha256": "98f80ba74add70872990ec2a24e5628a792031478b97a46ed83763a9702ebeda",
+      "access": "full local read; PDF extraction and selected visual inspection where documented"
+    },
+    {
+      "filename": "CLAUDE_A_INDEPENDENT_ARCHITECTURE_GR.md",
+      "library_file_id": "libfile_b9c55718b6648191b353b452178f1c51",
+      "bytes": 74701,
+      "sha256": "c1c083b2e7c69c434e18db2283f9c110aa35204d39f69928f042f3f538aeef15",
+      "access": "full local read; PDF extraction and selected visual inspection where documented"
+    },
+    {
+      "filename": "CLAUDE_B_EXPERIMENTS_IDENTIFIABILITY_GR.md",
+      "library_file_id": "libfile_53b78235f130819188cd92bd1f054679",
+      "bytes": 45017,
+      "sha256": "a34b6d797944e7bcfb55f71857cf4c24e80c8b2736b0c33dc60ec30588cc5f62",
+      "access": "full local read; PDF extraction and selected visual inspection where documented"
+    },
+    {
+      "filename": "CLAUDE_C_NOVELTY_AND_RECOMMENDATION_GR.md",
+      "library_file_id": "libfile_3acc9785355c819191e3ea28bae0addd",
+      "bytes": 48134,
+      "sha256": "a45384fb3129f299f0b4a132c992a41bb45a3358596fa64aeff101e078f35c56",
+      "access": "full local read; PDF extraction and selected visual inspection where documented"
+    },
+    {
+      "filename": "claude_dp_oracle.py",
+      "library_file_id": "libfile_03e4adbad71c8191b8cdda3f227aba70",
+      "bytes": 13641,
+      "sha256": "178fa84b4d1c8b150fb5a17d33735e42404e2f3f1f33343e5863ea86f1dbd7b2",
+      "access": "full local read; PDF extraction and selected visual inspection where documented"
+    },
+    {
+      "filename": "oracle_Zf_context_counterexample.py",
+      "library_file_id": "libfile_fd417625c8f48191822c6d740d54d58a",
+      "bytes": 1856,
+      "sha256": "54ed29900d51a058219fe4e6e55f1c549244acd8ca0754e0fd5a647ff5109f71",
+      "access": "full local read; PDF extraction and selected visual inspection where documented"
+    },
+    {
+      "filename": "CLAUDE_ROUND2_INDEPENDENT_AUDIT_NOTES_GR.md",
+      "library_file_id": "libfile_6ef3df57caa48191825e7a1de6c51a6e",
+      "bytes": 9194,
+      "sha256": "ceb1d3ad73cd2d40fd04c7a785c11c2df8afe2dc7de91d2c73e01f4dc3027bb4",
+      "access": "full local read; PDF extraction and selected visual inspection where documented"
+    },
+    {
+      "filename": "CLAUDE_ROUND2_WITH_INDEPENDENT_QA_FOR_ASTRA_GR.zip",
+      "library_file_id": "libfile_58d332c9d25c81918f192dee2fe6222b",
+      "bytes": 45830,
+      "sha256": "ea51ef818b8790d9ca64c2fa70740b61d940ccd95efd267646505208ff91eeef",
+      "access": "full local read; PDF extraction and selected visual inspection where documented"
+    },
+    {
+      "filename": "ZNAMENNY_TRANSFER_RESEARCH_PACKAGE_GR.zip",
+      "library_file_id": "libfile_f37432bb02c48191acdebe65f24279d6",
+      "bytes": 90589,
+      "sha256": "96da2253fbd5e69d2dfcb7c9e97433f0e0ab7126cf131297b3efba7bd3ab7072",
+      "access": "full local read; PDF extraction and selected visual inspection where documented"
+    },
+    {
+      "filename": "PROPOSAL_PHD_GR_v16_6_4_GLOSSARY_FOOTNOTES.pdf",
+      "library_file_id": "libfile_1d84b60bc7c081919c5fdaa008b607dd",
+      "bytes": 266146,
+      "sha256": "14b692da84d9aa06597c61004d1b92f142a030f6c75895bde9d6cf990993b053",
+      "access": "full local read; PDF extraction and selected visual inspection where documented"
+    },
+    {
+      "filename": "KAVZSP.pdf",
+      "library_file_id": "libfile_5b8d6c9ad28c81919e9fee5d88fdc24d",
+      "bytes": 415884,
+      "sha256": "018bc9b632fb77d652304ae8b86fc1e7777324ce8655653980ddf6343346c0b5",
+      "access": "full local read; PDF extraction and selected visual inspection where documented"
+    }
+  ],
+  "extracted_files": {
+    "work": [
+      {
+        "path": "00_EXECUTIVE_RESEARCH_DECISION_GR.md",
+        "sha256": "243ad91da41f5e6525c89ded6990875e8b7b83ee475275ffe266364d7ee7b727",
+        "bytes": 12242
+      },
+      {
+        "path": "01_PRIMARY_LITERATURE_EVIDENCE_MATRIX_GR.md",
+        "sha256": "0ffdc31bcee698c4428bf8b5f43685137d1897a0088b29b98bbbb466c47d0743",
+        "bytes": 33080
+      },
+      {
+        "path": "02_MUSICOLOGICAL_CROSSWALK_AND_CORPUS_GR.md",
+        "sha256": "8977865df534695f71163ad57fc18df66da0ad4b7037c9e2451fca85646c806f",
+        "bytes": 21454
+      },
+      {
+        "path": "03_CURRENT_MODEL_AND_ECSI_RECONCILIATION_GR.md",
+        "sha256": "7f64f25537a9ed2127e11f67fb5d113a515c5f5e9deb039f3561d36cf19b3003",
+        "bytes": 13630
+      },
+      {
+        "path": "04_CANDIDATE_ARCHITECTURES_FORMAL_GR.md",
+        "sha256": "a3330b463f206a7df5084f695cc3c3962f29a67e6fe882009e55c25b6c20d3a0",
+        "bytes": 28073
+      },
+      {
+        "path": "05_EXPERIMENTS_BASELINES_STATISTICS_GR.md",
+        "sha256": "15e82e14bd9088f764aa6d2336e67abf74275528ec9b5b06ecb47084ed629f9a",
+        "bytes": 23893
+      },
+      {
+        "path": "06_INVERSE_RECOVERY_AND_IDENTIFIABILITY_GR.md",
+        "sha256": "96c0828fe29870a61d9fee9782bc296749554479058f889ceee02a760d67454d",
+        "bytes": 14350
+      },
+      {
+        "path": "07_NOVELTY_REVIEW_MIR_ML_GR.md",
+        "sha256": "a5f68ab92e2a079582e4b80fb65c73b92b28a87d069f64f7fc5c8197a50a54b1",
+        "bytes": 14059
+      },
+      {
+        "path": "08_ROADMAP_REPO_PROPOSED_CHANGES_GR.md",
+        "sha256": "323efcad2d0d55bbf86c9c2148d8c8676d0f6d95cd2a8010a093ecff6a003b64",
+        "bytes": 12269
+      },
+      {
+        "path": "09_PROPOSAL_EXTENSION_TEXT_GR.md",
+        "sha256": "f27a81f3a9f7663ef8427e65115a523e2216c3409cffd9b9e6236de2b7c18f43",
+        "bytes": 14851
+      },
+      {
+        "path": "10_DECISION_LOG_AND_OPEN_EVIDENCE_GR.md",
+        "sha256": "9e8ca1b7053b91fc9b18b99587a59b46494a0c8a675c6ca13588874e32c7bea8",
+        "bytes": 13306
+      },
+      {
+        "path": "README.md",
+        "sha256": "fc07669a15282cef5d1577eee07a3f306e5626ab7a68b6bf0baa3dd2c4dff02f",
+        "bytes": 4346
+      },
+      {
+        "path": "corpus_schema.json",
+        "sha256": "1e31b0767d257f50f849b68a7e14d061684b3edc7c7b4d4c30b7bf88aed04374",
+        "bytes": 5286
+      },
+      {
+        "path": "package_manifest.json",
+        "sha256": "6a7101fb2ebebfc18337fa38857ac2fa5a503db793fa3b2f61d9605bb7b75963",
+        "bytes": 3202
+      },
+      {
+        "path": "package_qa.json",
+        "sha256": "15245427ea80dc61f09421cc30247a14f862dcb0d4894de769731e4239bce803",
+        "bytes": 719
+      },
+      {
+        "path": "protocol_config.json",
+        "sha256": "8732419cffec4fb32b18aeb572a44d8cbc1f69e0566995008c1b07e085cfa0c4",
+        "bytes": 2265
+      },
+      {
+        "path": "provenance_manifest.json",
+        "sha256": "fb6cb28beaec2252c3a1de347e988c4941e8bbc8beb408eb7aa89eb71e5b1952",
+        "bytes": 3744
+      },
+      {
+        "path": "source_cards.json",
+        "sha256": "1829d7d57af1b1aa104a3defa8d191eddbfc9d6c1b2df5a579de47b9511d8cd6",
+        "bytes": 3263
+      },
+      {
+        "path": "toy_check_results.json",
+        "sha256": "6062f6b79ee60101259c71d95d1c49eb0d476ba8afbf484708ff7d50be44c736",
+        "bytes": 1651
+      },
+      {
+        "path": "toy_semimarkov_checks.py",
+        "sha256": "a82838051f9b20733bdb25ca823c0e22d58ee3af425de1ad6da3943ead5a3198",
+        "bytes": 16208
+      }
+    ],
+    "claude_round2": [
+      {
+        "path": "CLAUDE_AC_ECSI_01_MATH_AND_COMPARATORS_GR.md",
+        "sha256": "d87f4d1d8e23597a98fdd0f9d95b3f43b308101f02772e200e4daa6e672c516a",
+        "bytes": 66186
+      },
+      {
+        "path": "CLAUDE_AC_ECSI_02_FINAL_INDEPENDENT_VERDICT_GR.md",
+        "sha256": "29b92a7c049d3532d0823ba34411bb9259f3f1214facaf4677610f53563df833",
+        "bytes": 18711
+      },
+      {
+        "path": "CLAUDE_ROUND2_INDEPENDENT_AUDIT_NOTES_GR.md",
+        "sha256": "ceb1d3ad73cd2d40fd04c7a785c11c2df8afe2dc7de91d2c73e01f4dc3027bb4",
+        "bytes": 9194
+      },
+      {
+        "path": "claude_ac_ecsi_oracle.py",
+        "sha256": "91744d41d4ee536a4beea1dc479de6c7285602758d82a5980b96b9d60a0ca392",
+        "bytes": 32862
+      },
+      {
+        "path": "claude_ac_ecsi_oracle_output.txt",
+        "sha256": "1794bb69b447f498d15c42b26f3f024b85582107a1dec01746184b226e04e3f6",
+        "bytes": 3108
+      },
+      {
+        "path": "oracle_Zf_context_counterexample.py",
+        "sha256": "54ed29900d51a058219fe4e6e55f1c549244acd8ca0754e0fd5a647ff5109f71",
+        "bytes": 1856
+      }
+    ]
+  },
+  "repository": {
+    "commit": "0278fa5edf8e2ba4e3243c47b3b110ec27429b38",
+    "commit_utc": "2026-10-27T19:33:28Z",
+    "tree": "ca38ac78e73c08af7798d6d63942e33f960cbddc",
+    "read_only": true,
+    "files": [
+      {
+        "path": "docs/appendices/g.md",
+        "sha256_local_utf8": "ba9da26ed60b5c63fcc8a1950464fb56dc61a908df495fb56b22c32462ff2001",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/appendices/g.md"
+      },
+      {
+        "path": "docs/current/atl.md",
+        "sha256_local_utf8": "a7c3408aefbbb2d578a7b632cb67e0496bdfd19407c65ff7bfea3f5ae8edd2f7",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/current/atl.md"
+      },
+      {
+        "path": "docs/current/inverse-problem.md",
+        "sha256_local_utf8": "f224924191fd01d2c241a4709e0c179c73a86f886e4a8aac0b5a4a669983a84f",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/current/inverse-problem.md"
+      },
+      {
+        "path": "docs/current/m-thesis-technical.md",
+        "sha256_local_utf8": "85a80f7d0bb9adb4e360164942cc14de0763f9931180de8917e51a0b96e66c4e",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/current/m-thesis-technical.md"
+      },
+      {
+        "path": "docs/current/m-thesis.md",
+        "sha256_local_utf8": "0fb3a2ef9d87c5bbe965fc09ab7f1044e7b50868bc12c60fe047eb8ea21844b0",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/current/m-thesis.md"
+      },
+      {
+        "path": "docs/current/position-and-family.md",
+        "sha256_local_utf8": "9e55de449657c1fa593ea67a5a03d88ea79edf73d43cd57f65b71489a25ac293",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/current/position-and-family.md"
+      },
+      {
+        "path": "docs/full/06-eise.md",
+        "sha256_local_utf8": "9d099216e19f36d7fb491d6e6ad48ef7cd5deb7ae1745ab84c5f88859c643c38",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/full/06-eise.md"
+      },
+      {
+        "path": "docs/musicology/03-families.md",
+        "sha256_local_utf8": "2a4a04a64492e262272e3e61f5bc984e929c8c7b1572e0332c86c87ce71b2ed1",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/musicology/03-families.md"
+      },
+      {
+        "path": "docs/research/data-transfer.md",
+        "sha256_local_utf8": "b5c4001a4da3edd9f95b4acdc3420837640afe551793a85bd407df5f4873e651",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/research/data-transfer.md"
+      },
+      {
+        "path": "docs/research/ecsi/01-research-question.md",
+        "sha256_local_utf8": "878c915bf843cf64fdb196adde6c69253aafd15c9f117931536a67de743e160b",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/research/ecsi/01-research-question.md"
+      },
+      {
+        "path": "docs/research/ecsi/02-architecture.md",
+        "sha256_local_utf8": "ea86575eead23c25c51b2ef74cc9592345c692e8ac5c4efd6a12268f4e2c6b3b",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/research/ecsi/02-architecture.md"
+      },
+      {
+        "path": "docs/research/ecsi/03-methods-and-gates.md",
+        "sha256_local_utf8": "1bea118bb8a48e92d3cc61c1dd4641f0861c63e3f3beaa62f236e0dca732ea6f",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/research/ecsi/03-methods-and-gates.md"
+      },
+      {
+        "path": "docs/research/ecsi/04-decisions.md",
+        "sha256_local_utf8": "120b19f7d4b2a7d207a5c4011cc5e11b3370bd949dabc964a94d6c377f42bc7a",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/research/ecsi/04-decisions.md"
+      },
+      {
+        "path": "docs/research/ecsi/05-evidence-and-limitations.md",
+        "sha256_local_utf8": "bbaad4f3caa97ad01571ea1c4e94417cb0defc3da8b2bcd1c20bb70ef17bec8e",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/research/ecsi/05-evidence-and-limitations.md"
+      },
+      {
+        "path": "docs/research/ecsi/06-bibliography.md",
+        "sha256_local_utf8": "dc7bdf44adaaa378a11aa1b4b36afd56f421ae3e664294e6b489ef77663dabd2",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/research/ecsi/06-bibliography.md"
+      },
+      {
+        "path": "docs/research/ecsi/07-publication-roadmap.md",
+        "sha256_local_utf8": "d6db990f448d14b89b4e9a70337c292bf20d41fe205382e08c79b7649f1b9a8b",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/research/ecsi/07-publication-roadmap.md"
+      },
+      {
+        "path": "docs/research/ecsi/README.md",
+        "sha256_local_utf8": "762ae8abff75b3f42493cfc34a4f85e14f97063dcc8fd5bb272ced05799578d5",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/research/ecsi/README.md"
+      },
+      {
+        "path": "docs/research/ecsi/signature-card-template.json",
+        "sha256_local_utf8": "4df9e2e80e45a4aee705dbd24f05dcf9b9f0d3c65255bfde6dc5bf88f81e7f50",
+        "url": "https://github.com/GeorgeSpy/byz-position-phd-study/blob/0278fa5edf8e2ba4e3243c47b3b110ec27429b38/docs/research/ecsi/signature-card-template.json"
+      }
+    ]
+  },
+  "original_oracle_copy_checks": [
+    {
+      "path": "original_oracles/claude_dp_oracle.py",
+      "sha256": "178fa84b4d1c8b150fb5a17d33735e42404e2f3f1f33343e5863ea86f1dbd7b2",
+      "matches_original": true
+    },
+    {
+      "path": "original_oracles/claude_ac_ecsi_oracle.py",
+      "sha256": "91744d41d4ee536a4beea1dc479de6c7285602758d82a5980b96b9d60a0ca392",
+      "matches_original": true
+    },
+    {
+      "path": "original_oracles/oracle_Zf_context_counterexample.py",
+      "sha256": "54ed29900d51a058219fe4e6e55f1c549244acd8ca0754e0fd5a647ff5109f71",
+      "matches_original": true
+    },
+    {
+      "path": "original_oracles/toy_semimarkov_checks.py",
+      "sha256": "a82838051f9b20733bdb25ca823c0e22d58ee3af425de1ad6da3943ead5a3198",
+      "matches_original": true
+    }
+  ],
+  "canonical_input_hash_checks": "passed",
+  "standalone_round2_equals_zip": "passed",
+  "source_zip_checks": [
+    {
+      "filename": "CLAUDE_ROUND2_WITH_INDEPENDENT_QA_FOR_ASTRA_GR.zip",
+      "crc_valid": true
+    },
+    {
+      "filename": "ZNAMENNY_TRANSFER_RESEARCH_PACKAGE_GR.zip",
+      "crc_valid": true
+    }
+  ]
+}

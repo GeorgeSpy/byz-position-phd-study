@@ -1,0 +1,137 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-29",
+  "status": "research_design_frozen_pending_pilot_preregistration",
+  "selected_architecture": "A0 + ECSI-D[kappa]",
+  "primary_decoder": "zero_order_skip_semi_CRF",
+  "primary_scoring": "discriminative_CRF",
+  "generative_arm": "normalized_profile_with_explicit_selection_model",
+  "optional_extension": "bounded_local_joint_diagnostic_blocks",
+  "E_min_independent_of_local_MIML": true,
+  "canonical_proposal_unchanged": true,
+  "earliest_thesis_month": 36,
+  "labels": {
+    "primary_family": "independent_melodic_analysis",
+    "secondary_family": "historical_notational_type",
+    "label_fractions": [
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "primary_fraction": 0.25,
+    "fraction_change_rule": "pilot feasibility only, new preregistration version before test"
+  },
+  "split": {
+    "unit": "connected_source_locus_work_component",
+    "test_inductive": true,
+    "group_seed": 20261029,
+    "frozen_after_source_audit": true,
+    "actual_groups": null
+  },
+  "statistics": {
+    "total_new_extension_alpha": 0.05,
+    "MIML_alpha": 0.025,
+    "E_min_alpha": 0.025,
+    "MIML_fixed_sequence": [
+      "P1_overall_calibrated_log_loss_vs_Pool",
+      "P2_landmark_accuracy_AND_CE_noninferiority",
+      "G4_downstream_AND_valid_knowledge_AND_Qreal"
+    ],
+    "E_min_primary_IUT": [
+      "delta_struct > epsilon_struct",
+      "delta_pool > epsilon_role"
+    ],
+    "secondary_policy": "gated Holm or explicitly exploratory",
+    "bootstrap_unit": "independent connected source component",
+    "bootstrap_replicates_budget": 10000,
+    "training_seeds": [
+      11,
+      23,
+      37,
+      53,
+      71
+    ],
+    "target_power_design_choice": 0.8,
+    "margins": {
+      "delta_P1": null,
+      "delta_P2": null,
+      "epsilon_struct": null,
+      "epsilon_role": null,
+      "delta_Qreal_masked": null,
+      "delta_Qreal_pair": null,
+      "delta_Qreal_probe": null
+    },
+    "margin_policy": "estimate meaningful margins from independent pilot/retest and freeze before test; null is not default zero"
+  },
+  "E_min": {
+    "known_boundaries": true,
+    "known_family": true,
+    "length_conditioned": true,
+    "units": "bits_per_atomic_event",
+    "priors": [
+      "flat",
+      "Byzantine",
+      "unrelated",
+      "shuffled_roles",
+      "role_pooled",
+      "position_only"
+    ],
+    "source_exposure_match": [
+      "events",
+      "length",
+      "roles",
+      "works",
+      "sources",
+      "annotation_hours"
+    ],
+    "prior_strength_sensitivity_grid": [
+      0,
+      2,
+      8,
+      32
+    ],
+    "shuffles": 10
+  },
+  "sampling_regimes": [
+    "family_conditional_sample",
+    "representative_X_with_Y",
+    "selected_Y1",
+    "conditional_Y_given_fixed_X",
+    "known_additional_selection"
+  ],
+  "inference": {
+    "END_required": true,
+    "history_declared": true,
+    "insert_updates_history": true,
+    "end_dependent_separate_passes": true,
+    "normalizer_full_neural_history": "unsupported_exact_without_finite_state_representation",
+    "reference_r_in_CRF": "positive reference feature; no automatic Bayes factor",
+    "max_block_size_initial_design_cap": 4,
+    "automaton_width_monitor": 16,
+    "width_cap_policy": "budget signal, not automatic MC or mathematical limit"
+  },
+  "provisional_resource_caps": {
+    "dev_configurations_per_method_family": 20,
+    "final_seeds": 5,
+    "pilot_loci_range": [
+      10,
+      20
+    ],
+    "initial_card_target": 5,
+    "initial_landmark_target": 100,
+    "targets_are_not_power_guarantees": true
+  },
+  "current_gates": {
+    "G0": "pending_real_corpus",
+    "G1_synthetic": "passed",
+    "G1_real_sizes": "pending",
+    "P1": "not_run_on_music",
+    "P2_synthetic": "passed",
+    "P2_music": "not_run",
+    "G4": "not_run",
+    "E_min_music": "not_run",
+    "Q_real": "not_run",
+    "inverse": "not_run"
+  }
+}

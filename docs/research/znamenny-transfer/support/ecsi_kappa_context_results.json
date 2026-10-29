@@ -1,0 +1,1305 @@
+{
+  "status": "passed",
+  "synthetic_only": true,
+  "checks": 308,
+  "max_absolute_error": 8.441985617224645e-07,
+  "Z_regression": [
+    {
+      "seed": 60,
+      "old_relative_error": 0.24122030740329564,
+      "corrected_relative_error": 1.3423078535846988e-16,
+      "enumerated_Z_1_to_4": 0.20677503704911127
+    },
+    {
+      "seed": 61,
+      "old_relative_error": 0.6352369988766202,
+      "corrected_relative_error": 3.336066222597401e-16,
+      "enumerated_Z_1_to_4": 0.02079962878705906
+    },
+    {
+      "seed": 62,
+      "old_relative_error": 0.29413391724294385,
+      "corrected_relative_error": 3.4077884109792566e-16,
+      "enumerated_Z_1_to_4": 0.12217121018813393
+    }
+  ],
+  "selection": {
+    "joint_theta": 0.7999991558014383,
+    "selected_conditional_theta": 0.5333335026846211,
+    "selected_loglik_gain": 0.9640121037495675,
+    "same_landmark_AC": 0.41000000000000003,
+    "same_landmark_Pool": 0.25
+  },
+  "benchmark": [
+    {
+      "mode": "observed_B",
+      "K": 4,
+      "V": 8,
+      "N": 32,
+      "W": 2,
+      "seconds": 0.07565483199982737,
+      "python_peak_traced_bytes": 139112,
+      "max_cell_states": 6,
+      "finite_log_B": true
+    },
+    {
+      "mode": "observed_B",
+      "K": 8,
+      "V": 16,
+      "N": 64,
+      "W": 2,
+      "seconds": 0.34675027699995553,
+      "python_peak_traced_bytes": 535400,
+      "max_cell_states": 6,
+      "finite_log_B": true
+    },
+    {
+      "mode": "summed_Z_previous_symbol",
+      "K": 4,
+      "V": 8,
+      "N": 16,
+      "W": 2,
+      "seconds": 1.4472412109998913,
+      "python_peak_traced_bytes": 300592,
+      "max_cell_states": 48,
+      "finite_log_Z": true
+    }
+  ],
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "details": [
+    {
+      "name": "A_context_seed60_n1",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "Z_context_seed60_n1",
+      "absolute_error": 2.6020852139652106e-18
+    },
+    {
+      "name": "A_context_seed60_n2",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "Z_context_seed60_n2",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "A_context_seed60_n3",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "Z_context_seed60_n3",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "A_context_seed60_n4",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "Z_context_seed60_n4",
+      "absolute_error": 2.0816681711721685e-17
+    },
+    {
+      "name": "conditional_length_window_seed60",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "A_context_seed61_n1",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "Z_context_seed61_n1",
+      "absolute_error": 4.336808689942018e-19
+    },
+    {
+      "name": "A_context_seed61_n2",
+      "absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "Z_context_seed61_n2",
+      "absolute_error": 8.673617379884035e-19
+    },
+    {
+      "name": "A_context_seed61_n3",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "Z_context_seed61_n3",
+      "absolute_error": 2.6020852139652106e-18
+    },
+    {
+      "name": "A_context_seed61_n4",
+      "absolute_error": 6.938893903907228e-18
+    },
+    {
+      "name": "Z_context_seed61_n4",
+      "absolute_error": 2.6020852139652106e-18
+    },
+    {
+      "name": "conditional_length_window_seed61",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "A_context_seed62_n1",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "Z_context_seed62_n1",
+      "absolute_error": 8.673617379884035e-19
+    },
+    {
+      "name": "A_context_seed62_n2",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "Z_context_seed62_n2",
+      "absolute_error": 1.0408340855860843e-17
+    },
+    {
+      "name": "A_context_seed62_n3",
+      "absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "Z_context_seed62_n3",
+      "absolute_error": 6.938893903907228e-18
+    },
+    {
+      "name": "A_context_seed62_n4",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "Z_context_seed62_n4",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "conditional_length_window_seed62",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "terminal_stat_A_n1",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "terminal_stat_Z_n1",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "terminal_stat_A_n2",
+      "absolute_error": 8.326672684688674e-17
+    },
+    {
+      "name": "terminal_stat_Z_n2",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "terminal_stat_A_n3",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "terminal_stat_Z_n3",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "terminal_stat_A_n4",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "terminal_stat_Z_n4",
+      "absolute_error": 4.163336342344337e-17
+    },
+    {
+      "name": "observed_log_A_n1",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "observed_log_B_n1",
+      "absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "observed_log_A_n2",
+      "absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "observed_log_B_n2",
+      "absolute_error": 3.469446951953614e-18
+    },
+    {
+      "name": "observed_log_A_n3",
+      "absolute_error": 6.938893903907228e-18
+    },
+    {
+      "name": "observed_log_B_n3",
+      "absolute_error": 6.938893903907228e-18
+    },
+    {
+      "name": "observed_log_A_n4",
+      "absolute_error": 5.204170427930421e-18
+    },
+    {
+      "name": "observed_log_B_n4",
+      "absolute_error": 2.6020852139652106e-18
+    },
+    {
+      "name": "end_dependent_Z_n1",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "end_dependent_Z_n2",
+      "absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "end_dependent_Z_n3",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "end_dependent_Z_n4",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "conditional_kappa_logit_gradient_including_Z",
+      "absolute_error": 1.1261810928253624e-11
+    },
+    {
+      "name": "ECSI_identity_1",
+      "absolute_error": 6.938893903907228e-18
+    },
+    {
+      "name": "ECSI_identity_2",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_3",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_4",
+      "absolute_error": 3.469446951953614e-17
+    },
+    {
+      "name": "ECSI_identity_5",
+      "absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "ECSI_identity_6",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_7",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_8",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_9",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_10",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_11",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_12",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_13",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_14",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_15",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_16",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_17",
+      "absolute_error": 1.3877787807814457e-17
+    },
+    {
+      "name": "ECSI_identity_18",
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "name": "ECSI_identity_19",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_20",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_21",
+      "absolute_error": 8.326672684688674e-17
+    },
+    {
+      "name": "ECSI_identity_22",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_23",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_24",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_25",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_26",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_27",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_28",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_29",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_30",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_31",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_32",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_33",
+      "absolute_error": 3.0531133177191805e-16
+    },
+    {
+      "name": "ECSI_identity_34",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_35",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_36",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_37",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_38",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_39",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_40",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_41",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_42",
+      "absolute_error": 7.771561172376096e-16
+    },
+    {
+      "name": "ECSI_identity_43",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_44",
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "name": "ECSI_identity_45",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_46",
+      "absolute_error": 7.771561172376096e-16
+    },
+    {
+      "name": "ECSI_identity_47",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_48",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "ECSI_identity_49",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_50",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_51",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_52",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "ECSI_identity_53",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_54",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_55",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_56",
+      "absolute_error": 4.996003610813204e-16
+    },
+    {
+      "name": "ECSI_identity_57",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_58",
+      "absolute_error": 7.771561172376096e-16
+    },
+    {
+      "name": "ECSI_identity_59",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_60",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_61",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_62",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_63",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_64",
+      "absolute_error": 1.0408340855860843e-17
+    },
+    {
+      "name": "ECSI_identity_65",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "ECSI_identity_66",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_67",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_68",
+      "absolute_error": 2.0816681711721685e-17
+    },
+    {
+      "name": "ECSI_identity_69",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_70",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_71",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_72",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_73",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_74",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_75",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_76",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_77",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_78",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_79",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_80",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "ECSI_identity_81",
+      "absolute_error": 4.163336342344337e-17
+    },
+    {
+      "name": "ECSI_identity_82",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_83",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_84",
+      "absolute_error": 4.163336342344337e-17
+    },
+    {
+      "name": "ECSI_identity_85",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_86",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_87",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_88",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_89",
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "name": "ECSI_identity_90",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_91",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_92",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_93",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_94",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_95",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_96",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_97",
+      "absolute_error": 2.498001805406602e-16
+    },
+    {
+      "name": "ECSI_identity_98",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_99",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_100",
+      "absolute_error": 1.942890293094024e-16
+    },
+    {
+      "name": "ECSI_identity_101",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_102",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_103",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_104",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_105",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_106",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_107",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_108",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_109",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_110",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_111",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_112",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_113",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_114",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_115",
+      "absolute_error": 5.551115123125783e-16
+    },
+    {
+      "name": "ECSI_identity_116",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_117",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_118",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_119",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_120",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_121",
+      "absolute_error": 5.551115123125783e-16
+    },
+    {
+      "name": "ECSI_identity_122",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_123",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_124",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_125",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_126",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_127",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_128",
+      "absolute_error": 8.326672684688674e-17
+    },
+    {
+      "name": "ECSI_identity_129",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_130",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_131",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_132",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_133",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_134",
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "name": "ECSI_identity_135",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_136",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_137",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_138",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_139",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_140",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_141",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_142",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_143",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_144",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_145",
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "name": "ECSI_identity_146",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_147",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_148",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_149",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_150",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_151",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_152",
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "name": "ECSI_identity_153",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_154",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_155",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_156",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_157",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_158",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_159",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_160",
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "name": "ECSI_identity_161",
+      "absolute_error": 4.996003610813204e-16
+    },
+    {
+      "name": "ECSI_identity_162",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_163",
+      "absolute_error": 7.771561172376096e-16
+    },
+    {
+      "name": "ECSI_identity_164",
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "name": "ECSI_identity_165",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_166",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_167",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_168",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_169",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_170",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_171",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_172",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_173",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_174",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_175",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_176",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_177",
+      "absolute_error": 3.885780586188048e-16
+    },
+    {
+      "name": "ECSI_identity_178",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_179",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_180",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_181",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_182",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_183",
+      "absolute_error": 7.771561172376096e-16
+    },
+    {
+      "name": "ECSI_identity_184",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_185",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_186",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_187",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_188",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_189",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_190",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_191",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_192",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_193",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "ECSI_identity_194",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_195",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_196",
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "name": "ECSI_identity_197",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_198",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_199",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_200",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_201",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_202",
+      "absolute_error": 5.551115123125783e-16
+    },
+    {
+      "name": "ECSI_identity_203",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_204",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_205",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_206",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_207",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_208",
+      "absolute_error": 1.3877787807814457e-16
+    },
+    {
+      "name": "ECSI_identity_209",
+      "absolute_error": 2.498001805406602e-16
+    },
+    {
+      "name": "ECSI_identity_210",
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "name": "ECSI_identity_211",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_212",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_213",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_214",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_215",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_216",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "ECSI_identity_217",
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "name": "ECSI_identity_218",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_219",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_220",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_221",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_222",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_223",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_224",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_225",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_226",
+      "absolute_error": 7.771561172376096e-16
+    },
+    {
+      "name": "ECSI_identity_227",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_228",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_229",
+      "absolute_error": 3.885780586188048e-16
+    },
+    {
+      "name": "ECSI_identity_230",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_231",
+      "absolute_error": 7.771561172376096e-16
+    },
+    {
+      "name": "ECSI_identity_232",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_233",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_234",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_235",
+      "absolute_error": 5.551115123125783e-16
+    },
+    {
+      "name": "ECSI_identity_236",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_237",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_238",
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "name": "ECSI_identity_239",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_240",
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "name": "ECSI_identity_241",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_242",
+      "absolute_error": 5.551115123125783e-16
+    },
+    {
+      "name": "ECSI_identity_243",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_244",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_245",
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "ECSI_identity_246",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_247",
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "name": "ECSI_identity_248",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_249",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_250",
+      "absolute_error": 4.440892098500626e-16
+    },
+    {
+      "name": "ECSI_identity_251",
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "name": "ECSI_identity_252",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_253",
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "name": "ECSI_identity_254",
+      "absolute_error": 5.551115123125783e-16
+    },
+    {
+      "name": "ECSI_identity_255",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "joint_selection_MLE",
+      "absolute_error": 8.441985617224645e-07
+    },
+    {
+      "name": "conditional_selection_MLE",
+      "absolute_error": 1.6935128777095798e-07
+    },
+    {
+      "name": "selection_objectives_differ",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "constraint_may_increase_alignment_entropy",
+      "absolute_error": 0.0
+    },
+    {
+      "name": "same_landmark_covariance",
+      "absolute_error": 0.0
+    }
+  ],
+  "scope": "Finite-memory diagnostics and mean-of-symbols terminal statistic; benchmark dimensions are design stress cases, not measured corpus sizes."
+}

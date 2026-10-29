@@ -1,0 +1,299 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:astra-znamenny:occurrence:v1",
+  "title": "Znamenny occurrence provenance and admissible-input contract",
+  "type": "object",
+  "required": [
+    "occurrence_id",
+    "source_id",
+    "work_id",
+    "locus_id",
+    "component_id",
+    "split",
+    "rights",
+    "label_provenance",
+    "sampling_regime",
+    "boundaries",
+    "family_labels",
+    "admissible_inputs",
+    "pitch_normalization_provenance",
+    "synthetic"
+  ],
+  "properties": {
+    "occurrence_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "work_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "locus_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "component_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "folio": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "image_sha256": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "token_sha256": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "synthetic": {
+      "type": "boolean"
+    },
+    "split": {
+      "enum": [
+        "train",
+        "dev",
+        "test",
+        "unassigned"
+      ]
+    },
+    "rights": {
+      "type": "object",
+      "required": [
+        "processing",
+        "redistribution",
+        "evidence"
+      ],
+      "properties": {
+        "processing": {
+          "enum": [
+            "permitted",
+            "restricted",
+            "unresolved"
+          ]
+        },
+        "redistribution": {
+          "enum": [
+            "permitted",
+            "restricted",
+            "unresolved"
+          ]
+        },
+        "evidence": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "label_provenance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "label_kind",
+          "origin",
+          "inputs_seen",
+          "annotator_id",
+          "blind_to_model"
+        ],
+        "properties": {
+          "label_kind": {
+            "enum": [
+              "family_melodic",
+              "family_historical",
+              "boundary",
+              "role",
+              "concept",
+              "specification_judgment",
+              "historical_transcription"
+            ]
+          },
+          "origin": {
+            "enum": [
+              "independent_melodic_analysis",
+              "historical_catalogue",
+              "neume_chain",
+              "source_image",
+              "expert_adjudication",
+              "unresolved"
+            ]
+          },
+          "inputs_seen": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "annotator_id": {
+            "type": "string"
+          },
+          "blind_to_model": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "sampling_regime": {
+      "enum": [
+        "family_conditional_sample",
+        "representative_X_with_Y",
+        "selected_Y1",
+        "conditional_Y_given_fixed_X",
+        "known_additional_selection"
+      ]
+    },
+    "selection_evidence": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "boundaries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "start",
+          "end"
+        ],
+        "properties": {
+          "start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "family_labels": {
+      "type": "object",
+      "required": [
+        "melodic",
+        "historical",
+        "evidence_state"
+      ],
+      "properties": {
+        "melodic": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "historical": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_state": {
+          "enum": [
+            "known",
+            "unknown_family",
+            "background",
+            "unresolved"
+          ]
+        }
+      }
+    },
+    "admissible_inputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "pitch_normalization_provenance": {
+      "type": "string"
+    },
+    "landmarks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "role_id",
+          "position_candidates",
+          "status"
+        ],
+        "properties": {
+          "role_id": {
+            "type": "string"
+          },
+          "position_candidates": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "status": {
+            "enum": [
+              "observed",
+              "deleted",
+              "unobserved",
+              "inapplicable",
+              "ambiguous"
+            ]
+          }
+        }
+      }
+    },
+    "historical_target": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "witness_id": {
+          "type": "string"
+        },
+        "multi_gold": {
+          "type": "array"
+        },
+        "pomety_in_target": {
+          "type": "boolean"
+        }
+      }
+    },
+    "card_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "template_training_components": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$comment": "JSON Schema checks syntax. Runtime additionally checks start<end, component split isolation, permitted processing, no target-dependent features, and template train-only provenance. No actual historical records are supplied."
+}
