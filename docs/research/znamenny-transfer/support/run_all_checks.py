@@ -13,11 +13,11 @@ ROOT=Path(__file__).resolve().parent
 
 def main():
     jobs=[
-        ('original_oracles/toy_semimarkov_checks.py',['--output',str(ROOT/'work_oracle_rerun.json')],'work_oracle_rerun.txt'),
-        ('original_oracles/claude_dp_oracle.py',[],'claude_dp_oracle_rerun.txt'),
-        ('original_oracles/claude_ac_ecsi_oracle.py',[],'claude_ac_ecsi_oracle_rerun.txt'),
+        ('original_oracles/toy_semimarkov_checks.py',['--output',str(ROOT/'semimarkov_baseline_results.json')],'semimarkov_baseline_rerun.txt'),
+        ('original_oracles/profile_hmm_regression_oracle.py',[],'profile_hmm_regression_rerun.txt'),
+        ('original_oracles/alignment_product_oracle.py',[],'alignment_product_rerun.txt'),
         ('original_oracles/oracle_Zf_context_counterexample.py',[],'oracle_Zf_context_counterexample_rerun.txt'),
-        ('astra_oracle.py',[],'astra_oracle_run.txt'),
+        ('profile_semantics_oracle.py',[],'profile_semantics_run.txt'),
         ('ecsi_kappa_context_oracle.py',[],'ecsi_kappa_context_run.txt'),
         ('bidirectional_learning_oracle.py',[],'bidirectional_learning_run.txt'),
         ('power_and_transfer_simulation.py',[],'power_and_transfer_run.txt'),

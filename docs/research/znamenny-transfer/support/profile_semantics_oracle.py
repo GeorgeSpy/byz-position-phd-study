@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Exact small-model checks. Synthetic data only. Requires numpy; no training corpus.
-Indices: zero-based half-open spans. Run: python3 astra_oracle.py
+Indices: zero-based half-open spans. Run: python3 profile_semantics_oracle.py
 """
 import importlib.util
 import itertools as it
@@ -126,12 +126,12 @@ def profile_checks():
         x=(0,1,1,0)
         for n,v in enumerate(p.forward(x)):
             check(f'prefix_reuse_J{J}_n{n}',v,p.forward(x[:n])[-1])
-    spec=importlib.util.spec_from_file_location('original_claude',ROOT/'original_oracles/claude_dp_oracle.py')
+    spec=importlib.util.spec_from_file_location('profile_baseline',ROOT/'original_oracles/profile_hmm_regression_oracle.py')
     mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
     bad=mod.Profile(1,2,np.random.default_rng(19))
     masses=[sum(bad.brute(list(x)) for x in it.product(range(2),repeat=n)) for n in range(4)]
     assert sum(masses)>1.2
-    CHECKS.append({'name':'claude_normalization_counterexample_detected','error':0.})
+    CHECKS.append({'name':'baseline_normalization_regression_detected','error':0.})
     return {'seed':19,'profile_columns':1,'alphabet_size':2,'length_masses_0_to_3':masses,'partial_mass':sum(masses),'meaning':'A probability distribution cannot have this partial mass > 1.'}
 
 def outer_checks():
@@ -251,8 +251,8 @@ def leakage_checks():
 
 def main():
     bug=profile_checks();outer_checks();gen=generative_checks();sem=semantic_checks();leakage_checks()
-    report={'status':'passed','synthetic_only':True,'checks':len(CHECKS),'max_numeric_error':max(x['error'] for x in CHECKS),'claude_counterexample':bug,'generative':gen,'semantics':sem,'details':CHECKS}
-    (ROOT/'astra_test_results.json').write_text(json.dumps(report,indent=2)+'\n')
-    print(json.dumps({k:report[k] for k in ['status','synthetic_only','checks','max_numeric_error','claude_counterexample']},indent=2))
+    report={'status':'passed','synthetic_only':True,'checks':len(CHECKS),'max_numeric_error':max(x['error'] for x in CHECKS),'baseline_counterexample':bug,'generative':gen,'semantics':sem,'details':CHECKS}
+    (ROOT/'profile_semantics_results.json').write_text(json.dumps(report,indent=2)+'\n')
+    print(json.dumps({k:report[k] for k in ['status','synthetic_only','checks','max_numeric_error','baseline_counterexample']},indent=2))
 
 if __name__=='__main__':main()

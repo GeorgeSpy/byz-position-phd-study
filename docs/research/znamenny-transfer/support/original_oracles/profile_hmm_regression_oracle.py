@@ -1,5 +1,5 @@
 """
-Test oracle για τις αναδρομές του CLAUDE_A_INDEPENDENT_ARCHITECTURE_GR.md.
+Αριθμητικός έλεγχος αναδρομών ημι-Μαρκοβιανού CRF και profile-HMM σε μικρά συνθετικά παραδείγματα.
 
 Ελέγχει με εξαντλητική απαρίθμηση σε μικρά παραδείγματα:
   O1  ημι-Μαρκοβιανό CRF μηδενικής τάξης με δομική παράλειψη (Z, περιθώρια)
@@ -11,7 +11,7 @@ Test oracle για τις αναδρομές του CLAUDE_A_INDEPENDENT_ARCHITE
   O5  ισοδυναμία: semi-CRF με δυναμικό log-odds = ακριβές posterior γεννητικού
       μοντέλου πολλαπλών τμημάτων (υπόβαθρο p0 + προφίλ)
 
-Εκτέλεση: python3 -I claude_dp_oracle.py   (μόνο numpy)
+Εκτέλεση: python3 -I profile_hmm_regression_oracle.py   (μόνο numpy)
 """
 import itertools
 import math

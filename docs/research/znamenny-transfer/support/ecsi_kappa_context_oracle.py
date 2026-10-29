@@ -16,7 +16,7 @@ import numpy as np
 from scipy.optimize import minimize_scalar
 
 ROOT=Path(__file__).resolve().parent
-spec=importlib.util.spec_from_file_location('claude_fixture',ROOT/'original_oracles/claude_ac_ecsi_oracle.py')
+spec=importlib.util.spec_from_file_location('alignment_fixture',ROOT/'original_oracles/alignment_product_oracle.py')
 c=importlib.util.module_from_spec(spec);spec.loader.exec_module(c)
 TESTS=[]
 

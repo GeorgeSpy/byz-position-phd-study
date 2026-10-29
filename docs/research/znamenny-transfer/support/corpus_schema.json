@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:astra-znamenny:occurrence:v1",
+  "$id": "urn:znamenny-transfer:occurrence:v1",
   "title": "Znamenny occurrence provenance and admissible-input contract",
   "type": "object",
   "required": [
