@@ -1,26 +1,25 @@
----
-title: 'Melodic Identity and Variation: From the Byzantine Thesis to the Popevki of Znamenny Chant'
-subtitle: 'Research appendix for a comparative study in musicologically informed machine learning'
-author: 'Georgios Spyridakis'
-date: 'October 2026'
-lang: en-GB
-toc-title: 'Contents'
+# Melodic Identity and Variation: From the Byzantine Thesis to the Popevki of Znamenny Chant
+
+*Research appendix for a comparative study in musicologically informed machine learning*
+
+Georgios Spyridakis · October 2026
+
 ---
 
 # Abstract
 
-This appendix designs a comparative study around a question shared by two distinct traditions of liturgical chant: how is a melodic unit recognised when its concrete form changes from one occurrence to the next? The point of departure is the Byzantine melodic *thesis*, as studied in the main doctoral proposal. The comparison is with Znamenny chant of the Russian liturgical tradition and its melodic types, the *popevki*. The two units are not taken to be historically or musicologically identical; they pose analogous problems of identity within variation.
+This appendix outlines the methodological design of a pilot comparative study addressing a question shared by two distinct traditions of liturgical chant: how is a melodic unit recognised when its concrete form changes from one occurrence to the next? The point of departure is the Byzantine melodic *thesis*, as studied in the main doctoral proposal. The comparison is with Znamenny chant of the Russian liturgical tradition and its melodic types, the *popevki*. The two units are not taken to be historically or musicologically identical; they pose analogous problems of identity within variation.
 
 The proposed architecture has a common computational backbone: a symbolic encoder, tradition-specific adapters and a semi-Markov decoder that jointly locates the boundaries and the family of each occurrence. Two components are added on top of it:
 
 - a probabilistic variation kernel $\kappa$, which describes how an occurrence aligns with the template of a candidate family through matches, insertions and deletions;
-- a scheme that evaluates the musicological specification of the family over all possible alignments rather than over a single, arbitrarily chosen one.
+- a probabilistic, musicologically constrained inference mechanism ($\text{ECSI-D}[\kappa]$) that evaluates the family specification across all possible alignments rather than a single arbitrarily chosen alignment.
 
 The relationship is bidirectional: the alignment shows where a diagnostic relation is to be judged, and the specification can help estimate the alignment more accurately.
 
 Three experiments make up the evaluation:
 
-- **P1** tests whether full probabilistic summation over alignments predicts the judgements of independent experts better than simpler methods that have exactly the same information.
+- **P1** tests whether exact marginalisation over latent alignments predicts the judgements of independent experts better than simpler methods that have exactly the same information.
 - **P2** tests whether the specifications improve the localisation of independently annotated structural landmarks.
 - **E-min** asks, separately, whether the distribution of admissible variation learned in the Byzantine tradition helps predict Znamenny occurrences.
 
@@ -36,9 +35,9 @@ In Byzantine chant the problem takes a specific form through the concept of the 
 
 Znamenny chant offers a demanding comparative case. Popevki form an important class of recurring melodic formulae, associated with particular combinations of signs in the neumatic notation. The most systematic collections list some five hundred types, and their total number at the height of the tradition has been estimated at around a thousand (Bakhmutova, Gusev and Titkova, 2010). Computational reading of the notation has a long history, chiefly in the group at the Sobolev Institute of Mathematics in Novosibirsk. That work shows repeatedly that the identification of a popevka cannot rest on exact matching of signs or pitches alone.
 
-The comparison of the two traditions does not attempt to assimilate them. The popevka is not defined as an equivalent of the thesis, and Znamenny patterns of expansion and closure are not translations of Byzantine functional roles. The comparative question is a different one: **can a way of learning identity and variation be transferred when the musical categories and their historical interpretations are defined independently in each tradition?** A positive answer would show computational generalisation. It would not prove historical descent or direct influence of one tradition on the other.
+The comparison of the two traditions does not attempt to assimilate them. The popevka is not defined as an equivalent of the thesis, and Znamenny patterns of expansion and closure are not translations of Byzantine functional roles. The comparative question is a different one: **can a computational mechanism for learning melodic identity and variation be transferred when the musical categories and their historical interpretations are defined independently in each tradition?** A positive answer would show computational generalisation. It would not prove historical descent or direct influence of one tradition on the other.
 
-To examine this question, the proposed method does not stop at comparing ready-made vector representations. For each candidate family it takes into account all possible correspondences between the occurrence and the family template. It evaluates the musicological specifications under the uncertainty of those correspondences. Finally, it tests whether the same specifications help locate the structural points of the melody more precisely.
+To examine this question, the proposed approach goes beyond comparing fixed vector embeddings. For each candidate family it takes into account all possible correspondences between the occurrence and the family template. It evaluates the musicological specifications under the uncertainty of those correspondences. Finally, it tests whether the same specifications help locate the structural points of the melody more precisely.
 
 The approach rests on well-known methods of probabilistic sequence modelling and logical inference. Its research value will be judged by its musicological grounding and by comparison with strong reference models, not by the novelty of the individual computational operations.
 
@@ -50,11 +49,11 @@ The exposition follows this logic:
 
 ## Relation to the main doctoral proposal
 
-The extension is an optional stage of the dissertation, scheduled from month 36 and dependent on the availability of sources and experts. It adds no preconditions for completing the dissertation and does not modify its studies. Those studies are:
+The extension is an optional stage of the dissertation, scheduled from month 36 and dependent on the availability of sources and experts. It introduces no new prerequisites for completing the dissertation and leaves its core studies (M1–M5) unchanged. Those studies are:
 
 - M1, which selects the symbolic representation $R^\star$ for joint segmentation and thesis recognition;
 - A2, which examines the value of the content and logical composition of the specifications;
-- M2, which compares encoders without and with relational supervision (B1, B2) and, in its historical strand, with pairs of co-exegeses of the same passage (EISE);
+- M2, which compares encoders without and with relational supervision (B1, B2) and, in its historical strand, with pairs of parallel exegeses (co-exegeses) of the same historical passage (EISE);
 - the extensions M3–M5.
 
 The M2 historical contrast $\Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{\mathrm{B2}}$, which compares supervision from historically linked exegeses of the same passage (EISE) with supervision from different occurrences within the same family (B2), and the realisation-preservation check $Q_{\mathrm{real}}$ keep the definitions given in the main proposal. The quantities introduced here ($\Delta_{\mathrm{P1}}$, $\Delta_{\mathrm{P2}}$ and the E-min contrasts) are additional and distinct; they replace none of these.
@@ -82,7 +81,7 @@ Alongside them stand larger melismatic units:
 
 The stratification of melodic types in repertories outside the eight-mode system has been studied by Grigorjeva (2023).
 
-The principal collection of popevki is V. M. Metallov's *Осмогласие знаменного распева* (1899). It gives the types in staff notation only. Bakhmutova, Gusev and Titkova (2010) examined the collection systematically. They compared it with three two-notation (*dvoeznamenny*) Oktoechoi of the late seventeenth and early eighteenth centuries from the Solovetsky collection of the National Library of Russia (619/647, 618/644 and Q.I.188), that is, manuscripts with parallel neumatic and staff notation.
+The principal collection of popevki is V. M. Metallov's *Osmoglasie znamennogo rospeva* [Осмогласие знаменного роспева; *The Eight Modes of Znamenny Chant*] (1899). It gives the types in staff notation only. Bakhmutova, Gusev and Titkova (2010) examined the collection systematically. They compared it with three two-notation (*dvoeznamenny*) Oktoechoi of the late seventeenth and early eighteenth centuries from the Solovetsky collection of the National Library of Russia (619/647, 618/644 and Q.I.188), that is, manuscripts with parallel neumatic and staff notation.
 
 **Coverage (§3.2 of the study, Oktoechos 619/647, exact search):**
 
@@ -136,7 +135,7 @@ The correspondence between them may be many-to-many. The historical term is not 
 The comparative question of the Introduction breaks down into four sub-questions, each with its own estimand.
 
 1. **Recognition in Znamenny material.** When the family of a popevka is defined by independent musicological judgement, does joint estimation of boundaries and family perform better than exact search, edit distance and dictionaries of fixed sign chains?
-2. **Value of full summation over alignments (P1).** When the application of a specification is judged over all possible alignments, are the experts' blind judgements predicted better? The comparison is with methods that use the same alignment information, compressed more simply.
+2. **Value of marginalising over alignments (P1).** When the application of a specification is judged over all possible alignments, are the experts' blind judgements predicted better? The comparison is with methods that use the same alignment information, compressed more simply.
 3. **The specification as a guide to alignment (P2).** When the variation kernel is estimated under the constraint of the specification, does it locate more precisely the structural points that experts have annotated independently?
 4. **Transfer of the organisation of variation (E-min).** Does the Byzantine distribution of admissible variation per structural role help predict Znamenny occurrences beyond what a flat starting point, an unrelated musical tradition and the general effect of position within the unit provide?
 
@@ -466,7 +465,7 @@ Selected positive examples alone therefore identify **neither** $\theta$ nor the
 ```
 with a separate, explicitly declared stage for estimating the kernel $\kappa$. Condition B2 keeps only positive family pairs. The gradient reaches the shared encoder only if the $Q_{\mathrm{real}}$ gate is checked under common conditions.
 
-## Greater expressiveness within the same system
+## Joint diagnostic blocks: extending expressiveness
 
 The only optional extension considered replaces the product of independent concepts within a small block $B_k$ ($\vert B_k\vert\le k$) with a joint distribution $q_{B_k}(u_{B_k}\vert x,\pi,C)$. The $2^{\vert B_k\vert}$ configurations are summed in (2), while the profile topology, the specification and the outer dynamic programme stay the same. For $q(00)=q(11)=1/2$ the joint block gives $P(U_1=U_2)=1$, whereas independent concepts with the same marginals give $1/2$. The joint distribution thus represents dependencies that the product cannot, even with a certain alignment. The block size is chosen on musicological grounds and with independent concept supervision, never on test data.
 
@@ -629,7 +628,7 @@ Different judges or separate blind rounds prevent those who evaluate from simply
 
 **Annotation budgets.** Four fractions of the annotated training groups are defined: 10%, 25%, 50% and 100%. The fractions are nested and common to all conditions. The main confirmatory point is 25%, provided the pilot shows that it secures the predefined family coverage. Otherwise, before the test set is opened, the smallest feasible fraction is defined and a new version of the pre-registration is issued. Five common training seeds estimate algorithmic variability; they do not count as five independent musical samples.
 
-## P1: the value of full summation
+## P1: the value of marginalising over alignments
 
 For each candidate family and each segment, judges give a specification-applicability judgement, $Y_S\in\lbrace0,1,?\rbrace$, or a distribution of judgements. The judgement concerns the particular specification and is distinct from the family label. Hard negatives share with the positives:
 
@@ -933,7 +932,7 @@ The small size of a pilot does not justify strong generalisation claims because 
 
 Arvanitis, I. (2010). *O rythmos ton ekklesiastikon melon mesa apo tin palaiographiki erevna kai tin exigisi tis palaias simeiografias* [The rhythm of ecclesiastical chants through palaeographic research and the exegesis of the old notation] (Doctoral dissertation). Ionian University. <https://doi.org/10.12681/eadd/21885>
 
-Bakhmutova, I. V., Gusev, V. D., & Miroshnichenko, L. A. (2022). Количественные оценки допустимой вариативности в задаче нотолинейной реконструкции знаменных песнопений [Quantitative estimates of admissible variability in the staff-notation reconstruction of Znamenny chants]. *Проблемы музыкальной науки / Music Scholarship*, 49(4), 98–106. <https://doi.org/10.17674/2782-3601.2022.4.098-106>
+Bakhmutova, I. V., Gusev, V. D., & Miroshnichenko, L. A. (2022). Permissible Variability Quantitative Estimates in the Problem of the Znamenny Chant Note Line Reconstruction [Количественные оценки допустимой вариативности в задаче нотолинейной реконструкции знаменных песнопений]. *Проблемы музыкальной науки / Music Scholarship*, 49(4), 98–106. <https://doi.org/10.17674/2782-3601.2022.4.098-106>
 
 Bakhmutova, I. V., Gusev, V. D., & Titkova, T. N. (2010). Компьютерный анализ и восстановление знаменной составляющей подборки В. М. Металлова [Computer analysis and reconstruction of the Znamenny component of V. M. Metallov's collection]. *Сибирский музыкальный альманах* (Novosibirsk), 62–81.
 
@@ -955,7 +954,7 @@ Karagkounis, K. Ch. (2005). *Paraleipomena peri tou Cheroubikou hymnou* [Supplem
 
 Mavromatis, P. (2005). *The echoi of modern Greek church chant in written and oral transmission: A computational model and its cognitive implications* (Doctoral dissertation). Eastman School of Music, University of Rochester.
 
-Metallov, V. M. (1899). *Осмогласие знаменного распева* [The eight modes of Znamenny chant]. Moscow.
+Metallov, V. M. (1899). *Osmoglasie znamennogo rospeva* [Осмогласие знаменного роспева; The eight modes of Znamenny chant]. Moscow.
 
 Parfentiev, N. P., & Parfentieva, N. V. (2023). Stroganovs' master of church-singing art Faddey Subotin at the court of Tsar Alexei Mikhailovich. *Journal of Siberian Federal University. Humanities & Social Sciences*, 16(7), 1112–1126.
 
@@ -1007,7 +1006,7 @@ Zhang, H., Kung, P.-N., Yoshida, M., Van den Broeck, G., & Peng, N. (2024). Adap
 
 # Technical appendix: numerical checks and reproduction
 
-## What has been executed
+## Scope of executed synthetic checks
 
 The mathematical specification is accompanied by small reference implementations, result files, a draft data schema, protocol settings and a reproducible check suite. All runs concern synthetic distributions and small spaces enumerated exhaustively. To date:
 
