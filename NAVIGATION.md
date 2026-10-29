@@ -18,7 +18,7 @@
 | Παλαιά γραφή από την εξήγηση | [ATL-INV](docs/current/inverse-problem.md) | [Μουσικολογική θεμελίωση](docs/musicology/06-old-notation.md) |
 | Πιθανοτική πραγμάτωση | [Τελεστής Mθέσις](docs/current/m-thesis.md) | [Πλήρης μαθηματική ανάπτυξη](docs/current/m-thesis-technical.md) |
 | **Νέα ερευνητική κατεύθυνση — ECSI** | **[Μουσικολογικά ενημερωμένη μάθηση](docs/research/ecsi/README.md)** | [Αρχιτεκτονική και πειραματικό πρωτόκολλο](docs/research/ecsi/02-architecture.md) · [Π0′–Π2′](docs/research/ecsi/03-methods-and-gates.md) |
-| **Συγκριτική επέκταση Znamenny** | [Επισκόπηση και πλοήγηση](docs/research/znamenny-transfer/README.md) | [Πλήρες ερευνητικό παράρτημα](docs/research/znamenny-transfer/research-appendix.md) · [PDF](docs/research/znamenny-transfer/research-appendix.pdf) · [LaTeX](docs/research/znamenny-transfer/research-appendix.tex) |
+| **Συγκριτική επέκταση Znamenny** | [Επισκόπηση και πλοήγηση](docs/research/znamenny-transfer/README.md) | [Πλήρες ερευνητικό παράρτημα](docs/research/znamenny-transfer/research-appendix.md) |
 | Τι έχει γίνει σε κάθε πεδίο | [Πίνακας συνεισφοράς](docs/review/contribution-matrix.md) | [Επτά αναλυτικές θεματικές συνθέσεις](docs/research/index.md) |
 | Βυζαντινή μουσικολογία | [Αναλυτική ενότητα](docs/musicology/index.md) | [Πηγές, παραλλαγή, οικογένειες, εξήγηση, ρεπερτόριο](docs/musicology/index.md) |
 | Βιβλιογραφία | [Βιβλιογραφία μεθοδολογικής ανάπτυξης](docs/bibliography/methodology.md) | [Βιβλιογραφικό ευρετήριο](docs/bibliography/index.md), [ανά θέμα](docs/bibliography/by-topic.md) |
