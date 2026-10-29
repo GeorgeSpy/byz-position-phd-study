@@ -14,7 +14,7 @@
 
 **Νέα πιλοτική ερευνητική κατεύθυνση — ECSI:** [Μουσικολογικά τεκμηριωμένες προδιαγραφές οικογενειών θέσεων](docs/research/ecsi/README.md). Μουσικολογικά ενημερωμένη μηχανική μάθηση (MIML), αρχιτεκτονική ECSI-D και αυτοτελές πρωτόκολλο Π0′–Π2′.
 
-**Συγκριτική επέκταση — βυζαντινές θέσεις και Znamenny popevki:** [Αυτόνομο ερευνητικό παράρτημα](docs/research/znamenny-transfer/README.md) · [Πλήρες PDF](docs/research/znamenny-transfer/research-appendix.pdf) · [LaTeX](docs/research/znamenny-transfer/research-appendix.tex). Ο προαιρετικός σχεδιασμός A0 + ECSI-D[κ] εξετάζει την ταυτότητα, τη ρολο-εξαρτημένη παραλλαγή και την αμφίδρομη μουσικολογική γείωση· δεν τροποποιεί τα κύρια πρωτόκολλα της πρότασης.
+**Συγκριτική επέκταση — βυζαντινές θέσεις και Znamenny popevki:** [Αυτόνομο ερευνητικό παράρτημα](docs/research/znamenny-transfer/README.md). Ο προαιρετικός σχεδιασμός A0 + ECSI-D[κ] εξετάζει την ταυτότητα, τη ρολο-εξαρτημένη παραλλαγή και την αμφίδρομη μουσικολογική γείωση· δεν τροποποιεί τα κύρια πρωτόκολλα της πρότασης.
 
 **[Σύντομη ερευνητική πρόταση](documents/short-proposal.pdf)** · **[English version](documents/short-proposal-en.pdf)** · **[Αναλυτική ερευνητική πρόταση](documents/analytical-proposal.pdf)** · [Περιεχόμενα και ανάγνωση](documents/README.md)
 
