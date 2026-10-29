@@ -1,5 +1,5 @@
-"""Regression counterexample for sum_emissions=True in claude_ac_ecsi_oracle.py.
-Requires numpy and the original oracle script in the same directory.
+"""Regression counterexample for sum_emissions=True in alignment_product_oracle.py.
+Requires numpy and the alignment reference script in the same directory.
 Run: python -I oracle_Zf_context_counterexample.py
 The discrepancy is EXPECTED and proves the original O8 does not cover
 anchor diagnostics depending on the previous observed symbol x[i-1].
@@ -9,7 +9,7 @@ import itertools
 from pathlib import Path
 import numpy as np
 
-src = Path(__file__).with_name('claude_ac_ecsi_oracle.py')
+src = Path(__file__).with_name('alignment_product_oracle.py')
 specification = importlib.util.spec_from_file_location('source_oracle',src)
 c = importlib.util.module_from_spec(specification)
 specification.loader.exec_module(c)
@@ -31,7 +31,7 @@ for seed in (60, 61, 62):
             A_brute += A
             Z_brute += B
 
-    # Original proposed same-trellis sum_emissions implementation.
+    # Earlier same-trellis sum_emissions implementation.
     ends = c.product_dp(prof, autom, [0]*N, N, sum_emissions=True)
     Z_dp = sum(float(E @ autom.R([0]*N, n)) for n,E in ends.items())
     A_dp = sum(float(E.sum()) for E in ends.values())
