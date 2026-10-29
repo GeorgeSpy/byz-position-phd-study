@@ -4,7 +4,11 @@
 **Language / Γλώσσα:** [Ελληνικά](../../../docs/current/index.md) · **English** · [Translation progress](../translation-status.md)
 <!-- language-switch:end -->
 
-[Home](../../README.md) · [Overview](../start/overview.md) · [Documents and sources](../reference.md)
+[Home](../../README.md) · **[M1–M5, A2 and minimum core](../studies/index.md)** · [Overview](../start/overview.md) · [Documents and sources](../reference.md)
+
+**[Current core research plan — Greek PDF](../../../documents/core-research-plan.pdf)**
+
+**For the revised short research design**, start with the [study hierarchy and feasibility gates](../studies/index.md) or the [A2 guide](../studies/a2.md). The older chapters linked below retain earlier formulations.
 
 The proposal connects **recognition of musical identity** with **the study of historical transmission**. Their common unit is a documented occurrence of a formula in a specific work and source. Family specifications organise recognition and realisation prediction; correspondences between an older witness and an exegesis support historical recovery.
 
@@ -23,6 +27,7 @@ The cognitive study additionally examines how families relate to listeners' cate
 | Question | What is examined | Detailed route |
 |---|---|---|
 | How are formula and family distinguished? | Historical type, analytical category, localised occurrence and symbolic form. | [Definitions](position-and-family.md) |
+| How do validity and logical use of musicological knowledge affect learning? | Matched valid/perturbed family specifications and additive/structured use (A2). | **[A2 study guide](../studies/a2.md)** |
 | Where do formulae occur, and how are they recognised? | Joint boundary estimation and family recognition, with ambiguous boundaries and abstention. | [Recognition (Greek protocol)](../../../docs/full/05-m1.md) |
 | What does the historical relationship between two exegeses teach? | Comparison of historical and family supervision using an independent performance criterion. | [Controlled experiment (Greek)](../../../docs/full/06-eise.md) |
 | How does the same passage change between exegeses? | Learning expansion, contraction and modification in documented historical pairs. | [Historical transformations](atl.md) |

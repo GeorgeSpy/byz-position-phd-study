@@ -8,13 +8,17 @@
 
 [Biography](docs/author/index.md) · [Previous research, MESPI and public code (Greek)](../docs/author/prior-work.md) · [SETN papers and MESPI (Greek catalogue; English papers)](../documents/prior-work/README.md)
 
+**[Current core research plan — Greek PDF (16 pages)](../documents/core-research-plan.pdf)** · [LaTeX source](../documents/core-research-plan.tex)
+
+**[Study map: M1–M5, A2 and minimum core](docs/studies/index.md)** · **[A2 study guide](docs/studies/a2.md)**
+
 **Ten minutes:** [What is new](#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md).
 
-**Selected reading documents:** the Greek short proposal and the 3 English edition, selected on 23 October 2026. [Documents and protocols](docs/reference.md).
+**Current plan:** the [core research plan (Greek)](../documents/core-research-plan.pdf) supersedes the earlier short research design. The [study map](docs/studies/index.md) explains what is required and what is conditional. An English translation of the current 16-page plan has **not yet been published**; the hosted English PDF concerns the earlier proposal. [Documents and sources](docs/reference.md).
 
 **New research direction — ECSI:** [Musicologically grounded signatures for melodic formula families](docs/research/ecsi/README.md). A Musicology-Informed Machine Learning (MIML) framework with the ECSI-D architecture and the independent P0′–P2′ research protocol.
 
-**[Short research proposal — English PDF](../documents/short-proposal-en.pdf)** · [Greek short proposal](../documents/short-proposal.pdf) · [Detailed research proposal — Greek PDF](../documents/analytical-proposal.pdf) · [PDF contents (Greek)](../documents/README.md)
+**[Current core research plan — Greek PDF](../documents/core-research-plan.pdf)** · [Earlier extended research design — Greek PDF](../documents/analytical-proposal.pdf) · [Earlier English proposal](../documents/short-proposal-en.pdf) · [Earlier Greek short proposal](../documents/short-proposal.pdf) · [Document guide](../documents/README.md)
 
 How can the same melodic formula be recognised when its melodic form changes? How much information from the older written tradition remains recoverable from an analytical exegesis? The proposal brings Byzantine musicology, symbolic music information retrieval (MIR) and machine learning together around these two questions.
 
@@ -53,6 +57,8 @@ The provenance of positive pairs becomes an experimental variable: common family
 [Comments and scientific discussion (Greek guide)](../docs/review/feedback.md) · [Shared research notebook](https://github.com/GeorgeSpy/byz-position-phd-study/issues/6)
 
 ## Start with your question
+
+**Start with the [M1–M5 and A2 study map](docs/studies/index.md)** for a direct route to each study, its evidence, and whether it is required or conditional. See the dedicated [A2 guide](docs/studies/a2.md).
 
 | I want to… | Reading route |
 |---|---|

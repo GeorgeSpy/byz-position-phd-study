@@ -4,11 +4,12 @@
 
 | Κείμενο | Ανάγνωση | Περιεχόμενο |
 |---|---|---|
-| **Σύντομη ερευνητική πρόταση** | [Ελληνικά · ](short-proposal.pdf) | Συνολική παρουσίαση του ερευνητικού προβλήματος, των δύο ερευνητικών διαδρομών, της μεθοδολογίας και της συνεισφοράς. |
-| **Short research proposal — English version** | [English ](short-proposal-en.pdf) | Αγγλική έκδοση της σύντομης ερευνητικής πρότασης. |
-| **Αναλυτική ερευνητική πρόταση** | [Άνοιγμα PDF](analytical-proposal.pdf) | Εκτενής μουσικολογική θεμελίωση, μαθηματικός σχεδιασμός, πρωτόκολλα αξιολόγησης, τεχνικά παραρτήματα και βιβλιογραφία. |
+| **Σχέδιο βασικού ερευνητικού πυρήνα (τρέχον)** | **[Άνοιγμα PDF — 16 σελίδες](core-research-plan.pdf)** · [LaTeX](core-research-plan.tex) | Ο υποχρεωτικός κορμός ΠΕ0–Μ1–Α2–Μ2a–Μ3a, η κλιμακωτή Μ2b/EISE, η Μ4-min και οι υπό προϋποθέσεις επεκτάσεις. |
+| **Εκτενής ερευνητικός σχεδιασμός (προγενέστερη έκδοση)** | [Άνοιγμα παλαιότερου PDF](analytical-proposal.pdf) | Διατηρείται αυτούσιος: εκτενής μουσικολογική θεμελίωση, μαθηματική ανάπτυξη, πρωτόκολλα και παραρτήματα μιας προηγούμενης αρχιτεκτονικής. |
+| **Προγενέστερη σύντομη ερευνητική πρόταση** | [Ελληνικά — παλαιότερο PDF](short-proposal.pdf) | Προηγούμενη σύντομη παρουσίαση του προγράμματος· δεν ταυτίζεται με το τρέχον σχέδιο βασικού πυρήνα. |
+| **Earlier short research proposal — English** | [English — earlier PDF](short-proposal-en.pdf) | Αγγλική απόδοση της προηγούμενης σύντομης πρότασης, όχι ακόμη μετάφραση του νεότερου βασικού πυρήνα. |
 
-Οι [θεματικές επεξηγήσεις](../docs/current/index.md) δίνουν επιπλέον πρόσβαση στην ATL, στην αντίστροφη ιστορική ανάκτηση και στον τελεστή Mθέσις. Τα [αναλυτικά κεφάλαια](../docs/full/index.md) προσφέρουν συνδεδεμένη ανάγνωση επιμέρους ενοτήτων.
+Για μια γρήγορη ανάγνωση του σημερινού σχεδιασμού, ξεκινήστε από τον [χάρτη Μ1–Μ5, Α2 και ελάχιστου κορμού](../docs/studies/index.md) και τον [αυτοτελή οδηγό Α2](../docs/studies/a2.md). Οι [θεματικές επεξηγήσεις](../docs/current/index.md) αναπτύσσουν επίσης την ATL, την αντίστροφη ανάκτηση και τον τελεστή Μθέσις. Τα [προγενέστερα αναλυτικά κεφάλαια](../docs/full/index.md) παραμένουν προσβάσιμα.
 
 [Παρατήρηση στη σύντομη πρόταση](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A3%CF%8D%CE%BD%CF%84%CE%BF%CE%BC%CE%B7+%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AE+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2Fmain%2Fdocuments%2Fshort-proposal.pdf) · [Παρατήρηση στην αναλυτική πρόταση](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%91%CE%BD%CE%B1%CE%BB%CF%85%CF%84%CE%B9%CE%BA%CE%AE+%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AE+%CF%80%CF%81%CF%8C%CF%84%CE%B1%CF%83%CE%B7&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F2a4982bfbc9453edc5923766692c5a74dc90709a%2Fdocuments%2Fanalytical-proposal.pdf)
 
@@ -16,9 +17,9 @@
 
 Η [συλλογή SETN 2026 και MESPI](prior-work/README.md) παρέχει τα τρία χειρόγραφα των εργασιών που υποβλήθηκαν στο SETN και το πλήρες paper MESPI. Συνδέεται με το [βιογραφικό](../docs/author/index.md), τη [μεθοδολογική παρουσίαση](../docs/author/prior-work.md) και τον αντίστοιχο δημόσιο κώδικα.
 
-## Περιεχόμενα της σύντομης πρότασης
+## Περιεχόμενα της προγενέστερης σύντομης πρότασης
 
-Τα τρέχοντα αρχεία είναι οι βελτιωμένες εκδόσεις που εμημερώιηκε στις 23 Οκτωβρίου 2026. Οι σύνδεσμοι παραπέμπουν στη φυσική σελίδα κάθε PDF.
+Οι σύνδεσμοι που ακολουθούν αφορούν **το προγενέστερο PDF `short-proposal.pdf`**, όπως είχε επιλεγεί στις 23 Οκτωβρίου 2026. **Δεν** αντιστοιχούν στη σελιδοποίηση του σημερινού 16σέλιδου [Σχεδίου βασικού ερευνητικού πυρήνα](core-research-plan.pdf).
 
 | Ενότητα | Απευθείας ανάγνωση |
 |---|---|
@@ -31,7 +32,7 @@
 | Συνεισφορά και προοπτικές | [Κίνδυνοι και εναλλακτικές](short-proposal.pdf#page=31) · [Συνεισφορά](short-proposal.pdf#page=31) · [Μεταφορά σε άλλες παραδόσεις και βιβλιογραφία](short-proposal.pdf#page=34) |
 | Υποψήφιος | [Βιογραφικό σημείωμα](short-proposal.pdf#page=38) |
 
-## English version — contents
+## Earlier English version — contents
 
 [Open the complete English proposal · 34 pages](short-proposal-en.pdf). Page links use physical PDF page numbers, including the cover.
 
