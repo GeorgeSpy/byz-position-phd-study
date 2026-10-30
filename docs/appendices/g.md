@@ -45,7 +45,7 @@
 
 Έστω $X=(e_1,\ldots,e_T)$ η ακολουθία ατομικών γεγονότων στην οριστικοποιημένη αναπαράσταση. Ο κοινός κωδικοποιητής παράγει τοπικές καταστάσεις
 
-$$h_t=g_{\theta}\!\big(R^{\star}(X)\big)_t.$$
+$$h_t=g_{\theta}\big(R^{\star}(X)\big)_t.$$
 
 Η υποψήφια κατάτμηση ορίζεται στο κοινό επίπεδο ατομικών γεγονότων:
 
@@ -55,7 +55,7 @@ $$\mathcal S_X=\lbrace (a,b):1\le a\le b\le T,\ b-a+1\le L_{\max}\rbrace .$$
 
 Για κάθε υποψήφιο τμήμα $s=(a,b)$ ορίζεται σύνοψη ανεξάρτητη από την οικογενειακή αντιστοίχιση,
 
-$$r_s=g_{\mathrm{seg}}(h_a,\ldots,h_b), \qquad z_{\mathrm{id}}(s)=\mathrm{Normalize}\!\big(q_{\mathrm{id}}(r_s)\big).$$
+$$r_s=g_{\mathrm{seg}}(h_a,\ldots,h_b), \qquad z_{\mathrm{id}}(s)=\mathrm{Normalize}\big(q_{\mathrm{id}}(r_s)\big).$$
 
 Η απλή αρχική υλοποίηση του $g_{\mathrm{seg}}$ χρησιμοποιεί τον μέσο όρο των τοπικών καταστάσεων μαζί με τις καταστάσεις αρχής και τέλους,
 
@@ -77,11 +77,11 @@ $$\mathcal Y_{\mathrm{seg}}(X)=\big\lbrace y\subseteq\mathcal S_X\times\mathcal 
 
 και περιλαμβάνει και την κενή έξοδο $y=\varnothing$. Για γνωστή οικογένεια $F$ ορίζεται
 
-$$\phi_{\theta}(s,F)=\psi_{\mathrm{seg}}(r_s) -\frac{d\!\left(z_{\mathrm{id}}(s),p_F\right)}{\tau}, \qquad \tau\gt 0,$$
+$$\phi_{\theta}(s,F)=\psi_{\mathrm{seg}}(r_s) -\frac{d\left(z_{\mathrm{id}}(s),p_F\right)}{\tau}, \qquad \tau\gt 0,$$
 
 ενώ για έγκυρο τμήμα χωρίς ασφαλή οικογενειακή απόδοση χρησιμοποιείται
 
-$$\phi_{\theta}(s,\varnothing_F)= \psi_{\mathrm{seg}}(r_s)+\psi_{\mathrm{nov}}\!\big(\nu_s\big), \qquad \nu_s=\min_F d\!\big(z_{\mathrm{id}}(s),p_F\big).$$
+$$\phi_{\theta}(s,\varnothing_F)= \psi_{\mathrm{seg}}(r_s)+\psi_{\mathrm{nov}}\big(\nu_s\big), \qquad \nu_s=\min_F d\big(z_{\mathrm{id}}(s),p_F\big).$$
 
 Κάθε ατομικό γεγονός που δεν καλύπτεται από επιλεγμένη εμφάνιση έχει μία μοναδική δομική απόφαση παράλειψης με βαθμό $\chi_{\theta,t}$. Επομένως
 
@@ -89,7 +89,7 @@ $$\mathrm{score}_{\theta}(y,X) = \sum_{(s,f)\in y}\phi_{\theta}(s,f) + \sum_{t\n
 
 και
 
-$$P_{\theta}(y\vert X) = \frac{\exp\!\left(\mathrm{score}_{\theta}(y,X)\right)} {\displaystyle\sum_{y'\in\mathcal Y_{\mathrm{seg}}(X)} \exp\!\left(\mathrm{score}_{\theta}(y',X)\right)}.$$
+$$P_{\theta}(y\vert X) = \frac{\exp\left(\mathrm{score}_{\theta}(y,X)\right)} {\displaystyle\sum_{y'\in\mathcal Y_{\mathrm{seg}}(X)} \exp\left(\mathrm{score}_{\theta}(y',X)\right)}.$$
 
 Η κατασκευή δίνει μία μοναδική δομική αναπαράσταση σε κάθε έξοδο: το ακάλυπτο συμπλήρωμα δεν τεμαχίζεται σε εναλλακτικές ισοδύναμες περιοχές. Η δομική παράλειψη $\chi_{\theta,t}$ δεν αποτελεί μουσικολογική απόδοση υποβάθρου. Το τεκμηριωμένο υπόβαθρο παραμένει χωριστή κατάσταση αναφοράς για εποπτεία και βαθμονόμηση, ενώ η αποχή παραμένει μεταγενέστερος κανόνας απόφασης. Η $\psi_{\mathrm{nov}}$ και οι αντίστοιχοι κανόνες βαθμονόμησης οριστικοποιούνται αποκλειστικά στα δεδομένα ανάπτυξης με οικογένειες που έχουν εξαιρεθεί από την οικογενειακή εκπαίδευση. Δεν χρησιμοποιείται πρόσθετος πίνακας μετάβασης μεταξύ διαδοχικών οικογενειών στην αρχική προδιαγραφή. Ένας κοινός ασθενής όρος μήκους εξετάζεται μόνο ως ανάλυση αφαίρεσης συνιστώσας· δεν χρησιμοποιείται εξ αρχής οικογενειακά ειδική κατανομή μήκους.
 
@@ -101,11 +101,11 @@ $$\Pi_{\mathrm{seg}}(A_X^{\mathrm{mus}}) =\lbrace (W_j,A_j)\rbrace _{j=1}^{J_X}$
 
 Για κάθε $W_j$ έστω $\mathcal Y_j$ ο αντίστοιχος χώρος επιτρεπτών μη επικαλυπτόμενων εξόδων και $\mathcal C_j(A_j)\subseteq\mathcal Y_j$ οι έξοδοι που ικανοποιούν τους εφαρμοστέους περιορισμούς της αναφοράς. Οι περιοχές εφαρμογής είναι ξένες ανά δύο. Κάθε κοινός περιορισμός μεταξύ εμφανίσεων εξετάζεται μέσα στην ίδια περιοχή· περιπτώσεις των οποίων οι αποδεκτές αναλύσεις εξαρτώνται μεταξύ τους διατηρούνται σε κοινή περιοχή ή καταγράφονται ως κοινή εξαίρεση από τον συγκεκριμένο δομημένο όρο. Οι περιορισμοί διατηρούν τα επιτρεπτά ζεύγη $\mathcal B_x$, τις επιτρεπτές οικογενειακές αποδόσεις και τους κοινούς περιορισμούς μεταξύ εμφανίσεων, αποκλείουν επιλεγμένες εμφανίσεις μέσα σε τεκμηριωμένο υπόβαθρο και δεν επιβάλλουν αρνητική ετικέτα σε μη ελεγμένες ή ανεπίλυτες περιοχές. Ορίζονται
 
-$$Z_{\theta,j}(X)= \sum_{y\in\mathcal Y_j} \exp\!\big(\mathrm{score}_{\theta,j}(y,X)\big), \qquad Z_{\theta,j}^{A}(X)= \sum_{y\in\mathcal C_j(A_j)} \exp\!\big(\mathrm{score}_{\theta,j}(y,X)\big),$$
+$$Z_{\theta,j}(X)= \sum_{y\in\mathcal Y_j} \exp\big(\mathrm{score}_{\theta,j}(y,X)\big), \qquad Z_{\theta,j}^{A}(X)= \sum_{y\in\mathcal C_j(A_j)} \exp\big(\mathrm{score}_{\theta,j}(y,X)\big),$$
 
 όπου $\mathrm{score}_{\theta,j}$ είναι η προηγούμενη βαθμολόγηση περιορισμένη σε επιλεγμένα τμήματα που περιέχονται στο $W_j$ και σε παραλείψεις γεγονότων $t\in W_j$. Η αντίστοιχη τοπική πιθανότητα είναι
 
-$$P_{\theta,j}(y\vert X)= \frac{\exp\!\left(\mathrm{score}_{\theta,j}(y,X)\right)} {Z_{\theta,j}(X)},$$
+$$P_{\theta,j}(y\vert X)= \frac{\exp\left(\mathrm{score}_{\theta,j}(y,X)\right)} {Z_{\theta,j}(X)},$$
 
 και
 
@@ -113,7 +113,7 @@ $$\mathcal L_j =-\log\frac{Z_{\theta,j}^{A}(X)}{Z_{\theta,j}(X)}.$$
 
 Ισοδύναμα, για κάθε περιοχή
 
-$$\mathcal L_{\mathrm{seg},j}^{\mathrm{partial}} =-\log\!\sum_{y\in\mathcal C_j(A_j)}P_{\theta,j}(y\vert X).$$
+$$\mathcal L_{\mathrm{seg},j}^{\mathrm{partial}} =-\log\sum_{y\in\mathcal C_j(A_j)}P_{\theta,j}(y\vert X).$$
 
 Πριν από τη χρήση μιας περιοχής απαιτείται $\mathcal C_j(A_j)\neq\varnothing$. Ως συνοπτικός έλεγχος συμβατότητας γράφεται
 
@@ -139,7 +139,7 @@ $$\mathcal L_{X,\mathrm{seg}}^{\mathrm{partial}} = \frac{\displaystyle\sum_{j=1}
 
 Για κάθε συνθήκη $m$ ορίζεται το σύνολο σχεσιακών ακμών $E_m$: για την B2 είναι οι αντιστοιχισμένες ενδοοικογενειακές σχέσεις και για την EISE οι τεκμηριωμένες εξηγητικές σχέσεις. Η σχεσιακή απώλεια εφαρμόζεται μόνο στην προβολή ταυτότητας,
 
-$$\mathcal L_{\mathrm{pairs}}^{\mathrm{id}} =\sum_{(i,j)\in E_m}\omega_{ij} d\!\big(z_{\mathrm{id}}^{i},z_{\mathrm{id}}^{j}\big), \qquad \sum_{(i,j)\in E_m}\omega_{ij}=1.$$
+$$\mathcal L_{\mathrm{pairs}}^{\mathrm{id}} =\sum_{(i,j)\in E_m}\omega_{ij} d\big(z_{\mathrm{id}}^{i},z_{\mathrm{id}}^{j}\big), \qquad \sum_{(i,j)\in E_m}\omega_{ij}=1.$$
 
 Τα βάρη, η έκθεση κάθε εμφάνισης και η δειγματοληψία ακμών ακολουθούν κοινό κανόνα στις δύο συνθήκες. Το επιβεβαιωτικό $P^{\star}$ χρησιμοποιείται αποκλειστικά στον έλεγχο $\boldsymbol{\Delta}_{\mathrm{ext}}$ και ποτέ ως αρνητικό παράδειγμα κατά την εκπαίδευση.
 
