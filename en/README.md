@@ -8,11 +8,19 @@
 
 [Research biography](docs/author/index.md) · [Prior work and public code (Greek)](../docs/author/prior-work.md) · [Unpublished manuscripts](../documents/prior-work/README.md)
 
-> **Status (October 2026).** Proposal in preparation for the Department of Music Technology and Acoustics, Hellenic Mediterranean University; not yet submitted. The current core research plan is in Greek ([PDF](../documents/core-research-plan.pdf)). The English short proposal reflects an earlier version; the core research questions are unchanged.
+> **Status (October 2026).** Proposal in preparation for the Department of Music Technology and Acoustics, Hellenic Mediterranean University; not yet submitted.
 
-**Start here:** [English short proposal (PDF)](../documents/short-proposal-en.pdf) · [What is new](#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md)
+## The core research programme
 
-How can the same melodic formula be recognised when its melodic form changes? How much information from the older written tradition remains recoverable from an analytical exegesis? The proposal brings Byzantine musicology, symbolic music information retrieval (MIR) and machine learning together around these two questions.
+**Central question:** how can a melodic formula and its family be recognised in continuous notation when the realisation varies, and what does the musicological knowledge that defines the family contribute to that recognition? The core is limited to three studies on a shared symbolic infrastructure:
+
+- **M1 — Joint segmentation and recognition.** Boundaries and family are estimated together; input units of the notation and feature layers are compared.
+- **A2 — The value of musicological knowledge.** Valid versus deliberately perturbed family specifications, used either additively or as structured logical constraints.
+- **M2 — Identity and realisation.** Learning from occurrences of the same family without losing their variation; a historical strand using exegeses of the same passage, only where the sources allow it.
+
+Evaluation rests on blind judgements by independent specialists (M3a). M5-min applies the final model to complete works held out from training. Listening studies, performance timing, the full M5 and the comparison with Znamenny chant are [conditional extensions](#further-directions-outside-the-doctoral-core).
+
+**[Core research plan (Greek PDF)](../documents/core-research-plan.pdf)** — the current version; an English translation is in preparation. · [Earlier English short proposal (PDF)](../documents/short-proposal-en.pdf) · **Quick route:** [What is new](#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md)
 
 A **melodic formula** (*thesis*) is the historically grounded musical formation studied here. Its **family**, **occurrence** and **realisation** have distinct analytical roles. [Definitions](docs/current/position-and-family.md).
 
@@ -48,6 +56,7 @@ The provenance of positive pairs becomes an experimental variable: common family
 
 ## Further directions (outside the doctoral core)
 
+- **Listening and performance validation.** Auditory family recognition (M3b), musical expectation (M3c) and recorded performance variation (full M4), developed in [Appendix A (Greek)](../docs/full/07-validation.md). M4-min is required only if the confirmatory historical strand of M2 is activated.
 - **Musicologically grounded family signatures.** A pilot direction in musicology-informed machine learning that encodes independently validated criteria for formula families. [Overview (ECSI)](docs/research/ecsi/README.md).
 - **Optional comparison with Znamenny chant.** Asks whether a method for recognising melodic identity amid variation can be evaluated when Byzantine *theseis* and Znamenny *popevki* are defined independently by each tradition. Conditional on sources and specialist annotation. [English research appendix](../docs/research/znamenny-transfer/research-appendix-en.md) · [Greek edition](../docs/research/znamenny-transfer/research-appendix.md).
 
