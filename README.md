@@ -6,6 +6,10 @@
 
 **Ερευνητική πρόταση — Γεώργιος Σπυριδάκης**
 
+**[Σχέδιο βασικού ερευνητικού πυρήνα — νεότερο PDF (18 σελίδες)](documents/core-research-plan.pdf)** · [Πηγαίο LaTeX](documents/core-research-plan.tex) · [Πλήρης κατάλογος εκδόσεων](documents/README.md)
+
+Η νεότερη εκδοχή περιλαμβάνει μουσικό παράδειγμα πραγματώσεων από την παλαιότερη εκτενή πρόταση, γλωσσάρι και [συγκριτική πιλοτική επέκταση για τις ζναμένιες ποπέβκι](docs/research/znamenny-transfer/README.md). Ο [προγενέστερος εκτενής σχεδιασμός](documents/analytical-proposal.pdf) παραμένει ανέπαφος.
+
 [Βιογραφικό](docs/author/index.md) · [Προγενέστερη εργασία, νευρωνικού τελεστή MESPI και δημόσιος κώδικας](docs/author/prior-work.md) · [Paper SETN και MESPI](documents/prior-work/README.md)
 
 **Συνοπτικά:** [Τι είναι νέο](#τι-είναι-νέο) → [Θέση και οικογένεια](docs/current/position-and-family.md#ένα-σχηματικό-παράδειγμα) → [Το αντίστροφο πρόβλημα](docs/current/inverse-problem.md).
