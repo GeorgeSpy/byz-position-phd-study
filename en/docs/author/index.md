@@ -16,7 +16,7 @@ He is currently developing a **PhD research proposal in symbolic MIR and musicol
 
 The proposed doctoral research investigates the Byzantine melodic formula (*thesis*, plural *theseis*) as a computational unit. It addresses the joint segmentation of musical notation and recognition of formula families, the experimental contribution of independently validated musicological specifications, and representation learning from related formula occurrences and historically documented exegeses. Independent musicological evaluation and the descriptive characterization of complete musical works form part of the core research design.
 
-The plan also outlines optional extensions, including a comparison with Znamenny chant; these are conditional and not part of the doctoral core.
+The plan also includes conditional extensions, such as the probabilistic operator Mθέσις for the realisations of a family and a comparison with Znamenny chant, which can broaden the core as far as data and sources allow.
 
 **Research material:** [Current core research plan (Greek, PDF)](../../../documents/core-research-plan.pdf) · [Earlier English-language research proposal (PDF)](../../../documents/short-proposal-en.pdf) · [Znamenny comparative research appendix (English)](../../../docs/research/znamenny-transfer/research-appendix-en.md)
 

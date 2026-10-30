@@ -18,7 +18,7 @@
 - **A2 — The value of musicological knowledge.** Valid versus deliberately perturbed family specifications, used either additively or as structured logical constraints.
 - **M2 — Identity and realisation.** Learning from occurrences of the same family without losing their variation; a historical strand using exegeses of the same passage, only where the sources allow it.
 
-Evaluation rests on blind judgements by independent specialists (M3a). M5-min applies the final model to complete works held out from training. Listening studies, performance timing, the full M5 and the comparison with Znamenny chant are [conditional extensions](#further-directions-outside-the-doctoral-core).
+Evaluation rests on blind judgements by independent specialists (M3a). M5-min applies the final model to complete works held out from training. The core is deliberately limited so that it is feasible. The probabilistic operator Mθέσις, listening studies, performance timing, the full M5 and the comparison with Znamenny chant are designed as [conditional extensions](#conditional-extensions) that would broaden the core as far as data and sources allow.
 
 **[Core research plan (Greek PDF)](../documents/core-research-plan.pdf)** — the current version; an English translation is in preparation. · [Earlier English short proposal (PDF)](../documents/short-proposal-en.pdf) · **Quick route:** [What is new](#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md)
 
@@ -54,11 +54,15 @@ The provenance of positive pairs becomes an experimental variable: common family
 
 [Musical evidence and schematic examples](docs/examples/index.md).
 
-## Further directions (outside the doctoral core)
+## Conditional extensions
 
+The following designs are developed to broaden the core as far as possible. Each is activated by pre-specified criteria: sufficient data and sources, independent documentation and, where needed, collaboration with specialists.
+
+- **The probabilistic operator Mθέσις.** A musicologically constrained model of realisations: the family specification defines the space of admissible realisations, and the contribution of the empirically learned distribution within that space is measured separately. [Overview](docs/current/m-thesis.md) · [Technical note](docs/current/m-thesis-technical.md).
 - **Listening and performance validation.** Auditory family recognition (M3b), musical expectation (M3c) and recorded performance variation (full M4), developed in [Appendix A (Greek)](../docs/full/07-validation.md). M4-min is required only if the confirmatory historical strand of M2 is activated.
 - **Musicologically grounded family signatures.** A pilot direction in musicology-informed machine learning that encodes independently validated criteria for formula families. [Overview (ECSI)](docs/research/ecsi/README.md).
-- **Optional comparison with Znamenny chant.** Asks whether a method for recognising melodic identity amid variation can be evaluated when Byzantine *theseis* and Znamenny *popevki* are defined independently by each tradition. Conditional on sources and specialist annotation. [English research appendix](../docs/research/znamenny-transfer/research-appendix-en.md) · [Greek edition](../docs/research/znamenny-transfer/research-appendix.md).
+- **Full M5.** Family sequences and functional roles in complete works, with a possible focus on Nikolaos Protopsaltis of Smyrna, given sufficient documentation and independence of sources.
+- **Comparison with Znamenny chant.** Asks whether a method for recognising melodic identity amid variation can be evaluated when Byzantine *theseis* and Znamenny *popevki* are defined independently by each tradition. Conditional on sources and specialist annotation. [English research appendix](../docs/research/znamenny-transfer/research-appendix-en.md) · [Greek edition](../docs/research/znamenny-transfer/research-appendix.md).
 
 **All documents:** [Greek short proposal](../documents/short-proposal.pdf) · [Detailed proposal (Greek)](../documents/analytical-proposal.pdf) · [PDF contents (Greek)](../documents/README.md) · [Documents and protocols](docs/reference.md)
 
