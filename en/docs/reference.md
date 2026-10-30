@@ -26,7 +26,7 @@ The **38-page** Greek short proposal and **34-page** English edition were select
 
 The online reader of 23 October 2026 adopts **two co-primary historical comparisons**, total recovery and added value beyond rules, with a shared Holm correction. This follows T19.1 of the separate technical appendix v1.1 dated 22 October 2026, submitted by the author as <code>ANNEX_MTHESIS_ATL_INV_EISE_TECHNICAL_GR_v1_1_2026-10-22.md</code>. The full arrangement appears in [historical recovery](current/inverse-problem.md#two-co-primary-historical-comparisons). The historical-supervision comparison using independent performances and the two human hypotheses retain their separate protocols.
 
-In the reading texts, the Study 1 feature factor is denoted $`\Phi`$ and the grid $`U\times\Phi`$. $`F`$ denotes a formula family. In the archived PDFs and LaTeX, the same feature factor appears as $`F`$ in $`U\times F`$; this is a correspondence in notation, with the same twelve conditions.
+In the reading texts, the Study 1 feature factor is denoted $\Phi$ and the grid $U\times\Phi$. $F$ denotes a formula family. In the archived PDFs and LaTeX, the same feature factor appears as $F$ in $U\times F$; this is a correspondence in notation, with the same twelve conditions.
 
 The selected PDFs preserve the content of the recorded submissions. Newer clarifications in the online reader are recorded here for incorporation into the next unified edition of the main text and appendices.
 

@@ -967,7 +967,7 @@
     },
     {
       "source": "docs/current/atl.md",
-      "source_blob_sha": "3fa41895cbf3a2d23896f58e2a9e849f64d3f999",
+      "source_blob_sha": "490f101c5bc528e0471979ce51e3759dc1a8fe8f",
       "target": "en/docs/current/atl.md",
       "status": "translated"
     },
@@ -979,13 +979,13 @@
     },
     {
       "source": "docs/current/inverse-problem.md",
-      "source_blob_sha": "ce7fd82fa282bd8512fd7571fb62f22b93ab43eb",
+      "source_blob_sha": "6ee93fd68e83e1d98de82ee6bfa06c68913a04f7",
       "target": "en/docs/current/inverse-problem.md",
       "status": "translated"
     },
     {
       "source": "docs/current/m-thesis-technical.md",
-      "source_blob_sha": "9a714ce00cf12d004bd0a1b7e35d9ca8a6ae1d89",
+      "source_blob_sha": "ac4d55a3ee72da689c36b6445c2e955ce5174538",
       "target": "en/docs/current/m-thesis-technical.md",
       "status": "translated"
     },

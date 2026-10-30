@@ -30,12 +30,12 @@ The same family framework supports musicological annotation, recognition of vari
 
 | Object | Meaning | Symbol on this page |
 |---|---|---|
-| Named historical formula | A type named or described in a specified source or analysis, such as the Lygisma formula. | $`T_{\mathrm{hist}}`$ |
-| Formula family | An analytical category with a stable identifier, a versioned specification and a register of occurrences judged to be members. | $`F`$ |
-| Formula occurrence | A localised passage in a particular work and source, with boundaries and syllabic correspondence. | $`o`$ |
-| Symbolic realisation | The content of an occurrence in a declared symbolic representation and at a specified level of analysis. | $`X=R(o)`$ |
+| Named historical formula | A type named or described in a specified source or analysis, such as the Lygisma formula. | $T_{\mathrm{hist}}$ |
+| Formula family | An analytical category with a stable identifier, a versioned specification and a register of occurrences judged to be members. | $F$ |
+| Formula occurrence | A localised passage in a particular work and source, with boundaries and syllabic correspondence. | $o$ |
+| Symbolic realisation | The content of an occurrence in a declared symbolic representation and at a specified level of analysis. | $X=R(o)$ |
 
-$`T_{\mathrm{hist}}`$ is distinguished from the timing layer $`T`$ of Study 1 (M1). $`F`$ denotes a family; the feature-set factor in M1 is denoted by $`\Phi`$ in the grid $`U\times\Phi`$.
+$T_{\mathrm{hist}}$ is distinguished from the timing layer $T$ of Study 1 (M1). $F$ denotes a family; the feature-set factor in M1 is denoted by $\Phi$ in the grid $U\times\Phi$.
 
 ## A schematic example
 
@@ -52,9 +52,9 @@ A second occurrence may differ in extent, density or syllabic distribution. Memb
 
 ### Boundaries and musical context
 
-For fully determined boundaries, write $`o=(w,s,[a,b),\ell_o)`$, where $`w`$ is the work, $`s`$ the source and $`\ell_o`$ the syllabic correspondence. Where boundaries admit several documented analyses, a set of acceptable pairs $`\mathcal B_o`$ is recorded, with the alternative realisation for each pair. The common mapping retains compatibility between the boundaries of different occurrences.
+For fully determined boundaries, write $o=(w,s,[a,b),\ell_o)$, where $w$ is the work, $s$ the source and $\ell_o$ the syllabic correspondence. Where boundaries admit several documented analyses, a set of acceptable pairs $\mathcal B_o$ is recorded, with the alternative realisation for each pair. The common mapping retains compatibility between the boundaries of different occurrences.
 
-The **context** $`C`$ records the mode, functional role, text, prosody and permitted neighbouring material of an occurrence. A family specification may constrain these fields. The particular context value belongs to the occurrence, while its permitted range belongs to the specification's scope.
+The **context** $C$ records the mode, functional role, text, prosody and permitted neighbouring material of an occurrence. A family specification may constrain these fields. The particular context value belongs to the occurrence, while its permitted range belongs to the specification's scope.
 
 ## Two organisational relationships
 
@@ -67,9 +67,7 @@ A family is the occurrence's category. Graphic notation is connected to atomic e
 
 The relationship between historical names and analytical families is recorded as a documented correspondence:
 
-```math
-\mu\subseteq\mathcal T_{\mathrm{hist}}\times\mathcal F.
-```
+$$\mu\subseteq\mathcal T_{\mathrm{hist}}\times\mathcal F.$$
 
 | Correspondence | Analytical case |
 |---|---|
@@ -84,35 +82,27 @@ Every correspondence records its source, notational stage, genre and justificati
 
 The **family specification** organises diagnostic relationships and their application rules:
 
-```math
-\sigma_{F,v}=(\mathcal D_F,\mathcal S_F,\mathcal A_F,\Gamma_F,v).
-```
+$$\sigma_{F,v}=(\mathcal D_F,\mathcal S_F,\mathcal A_F,\Gamma_F,v).$$
 
-- $`\mathcal D_F`$ contains diagnostic predicates on $`(X,C)`$, with a stated notational level, source and judgement rule.
-- $`\mathcal S_F`$ contains the minimal sufficient configurations of these predicates.
-- $`\mathcal A_F`$ contains exclusion criteria.
-- $`\Gamma_F`$ specifies scope: modes, genres, periods and level of analysis. Here it denotes the specification's domain of applicability.
-- $`v`$ identifies the version.
+- $\mathcal D_F$ contains diagnostic predicates on $(X,C)$, with a stated notational level, source and judgement rule.
+- $\mathcal S_F$ contains the minimal sufficient configurations of these predicates.
+- $\mathcal A_F$ contains exclusion criteria.
+- $\Gamma_F$ specifies scope: modes, genres, periods and level of analysis. Here it denotes the specification's domain of applicability.
+- $v$ identifies the version.
 
 Experts develop the specification from identified sources and development examples. Every revision has a justification and version; examples used to revise it remain development material. Diagnostic relationships from older notation are applied to New Method realisations through documented correspondence between the levels.
 
-The **polythetic character** is examined through the alternative combinations of diagnostic relationships supporting membership. Multiple sufficient configurations can coexist with shared mandatory features: for example, $`\{d_1,d_2\}`$ and $`\{d_1,d_3\}`$ both require $`d_1`$. The inventory records shared, alternative and uncertain features. The [comparative study of tune families (Greek synthesis)](../../../docs/musicology/03-families.md) provides a methodological precedent.
+The **polythetic character** is examined through the alternative combinations of diagnostic relationships supporting membership. Multiple sufficient configurations can coexist with shared mandatory features: for example, $\lbrace d_1,d_2\rbrace$ and $\lbrace d_1,d_3\rbrace$ both require $d_1$. The inventory records shared, alternative and uncertain features. The [comparative study of tune families (Greek synthesis)](../../../docs/musicology/03-families.md) provides a methodological precedent.
 
-For expert $`r`$, judgement uses the specification and the occurrence's permitted evidence:
+For expert $r$, judgement uses the specification and the occurrence's permitted evidence:
 
-```math
-J_r(o;\sigma_{F,v})\in
-\{\text{member},\text{non-member},\text{ambiguous}\}.
-```
+$$J_r(o;\sigma_{F,v})\in \lbrace \text{member},\text{non-member},\text{ambiguous}\rbrace .$$
 
-Missing necessary evidence and unresolved disagreements are retained as ambiguity. After the declared procedure for combining judgements, the membership register in the inventoried corpus $`D`$ is
+Missing necessary evidence and unresolved disagreements are retained as ambiguity. After the declared procedure for combining judgements, the membership register in the inventoried corpus $D$ is
 
-```math
-\mathcal E^{D}_{F,v}
-=\{o\in D:J^*(o;\sigma_{F,v})=\text{member}\}.
-```
+$$\mathcal E^{D}_{F,v} =\lbrace o\in D:J^*(o;\sigma_{F,v})=\text{member}\rbrace .$$
 
-Within this corpus, the family is described by its specification and register, $`F=(\sigma_{F,v},\mathcal E^{D}_{F,v})`$. Computational models receive $`F`$ as a category identifier. The evaluation register is kept separate from training data. Independent experts test the finalised specification on new occurrences: this is the meaning of a **testable analytical hypothesis**.
+Within this corpus, the family is described by its specification and register, $F=(\sigma_{F,v},\mathcal E^{D}_{F,v})$. Computational models receive $F$ as a category identifier. The evaluation register is kept separate from training data. Independent experts test the finalised specification on new occurrences: this is the meaning of a **testable analytical hypothesis**.
 
 ## Musicological criteria for identity and family membership
 
@@ -141,7 +131,7 @@ Judgements of **shared family**, **perceived melodic similarity**, **common func
 
 ### Separating family and exegetical supervision
 
-The family relationship concerns **identity at the type level**, potentially across distinct passages. **Co-exegesis** concerns different exegetical renderings of **the same particular passage**. A family specification may itself draw on historical evidence; what differs between B2 and EISE is the **provenance and topology of positive relational pairs**, under common family supervision and architecture ([M2](../../../docs/full/06-eise.md), [matching protocol F.1](../../../docs/appendices/f.md)). The contrast $\Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{B2}$ evaluates agreement with the independent performance criterion on the common eligible support. On its own, it does not identify a “pure effect of the exegete”, because sharing the composition locus is an intrinsic property of the historical pairs.
+The family relationship concerns **identity at the type level**, potentially across distinct passages. **Co-exegesis** concerns different exegetical renderings of **the same particular passage**. A family specification may itself draw on historical evidence; what differs between B2 and EISE is the **provenance and topology of positive relational pairs**, under common family supervision and architecture ([M2](../../../docs/full/06-eise.md), [matching protocol F.1](../../../docs/appendices/f.md)). The contrast $\Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{\mathrm{B2}}$ evaluates agreement with the independent performance criterion on the common eligible support. On its own, it does not identify a “pure effect of the exegete”, because sharing the composition locus is an intrinsic property of the historical pairs.
 
 <a id="κριτήρια-μουσικολογικής-οριοθέτησης"></a>
 
@@ -165,9 +155,9 @@ Each experiment records the fields available to the annotator and the informatio
 
 | Use of the label | Research target |
 |---|---|
-| Description of a known realisation, with a label assigned from $`X`$ itself | Describe the distribution and the specification's selectivity. |
-| Prospective prediction, with $`F`$ documented outside the masked target | Predict variants or masked material using external family information. |
-| Family recognition from observed $`X`$ | Evaluate family classification under its own protocol. |
+| Description of a known realisation, with a label assigned from $X$ itself | Describe the distribution and the specification's selectivity. |
+| Prospective prediction, with $F$ documented outside the masked target | Predict variants or masked material using external family information. |
+| Family recognition from observed $X$ | Evaluate family classification under its own protocol. |
 
 When a label is assigned from the diagnostic features of the same realisation, predicting those features incorporates the annotation rule. The result is reported as a description of that selectivity. Empirical preferences are studied on a common admissible set and independent realisations; prospective prediction uses family information available outside the target.
 

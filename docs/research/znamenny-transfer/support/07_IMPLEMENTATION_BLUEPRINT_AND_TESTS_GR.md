@@ -127,7 +127,7 @@ decode(X):
 
 ## 7. Μετρημένο κόστος και MVP
 
-Σε μία εκτέλεση Python, observed product για $(J,|V|,n,W)=(4,8,32,2)$ χρειάστηκε περίπου 0,086 s και για $(8,16,64,2)$ περίπου 0,398 s. Η άθροιση εκπομπών με previous-symbol state για $(4,8,16,2)$ χρειάστηκε περίπου 1,594 s. Η `tracemalloc` μέτρηση ήταν περίπου 139 kB, 542 kB και 302 kB αντίστοιχα· μετρά Python allocations, όχι πλήρες RSS ή μελλοντική GPU μνήμη. Τα ακριβή run-specific timings παραμένουν στο `ecsi_kappa_context_results.json` και μπορεί να αλλάξουν με επανεκτέλεση.
+Σε μία εκτέλεση Python, observed product για $(J,\vert V\vert ,n,W)=(4,8,32,2)$ χρειάστηκε περίπου 0,086 s και για $(8,16,64,2)$ περίπου 0,398 s. Η άθροιση εκπομπών με previous-symbol state για $(4,8,16,2)$ χρειάστηκε περίπου 1,594 s. Η `tracemalloc` μέτρηση ήταν περίπου 139 kB, 542 kB και 302 kB αντίστοιχα· μετρά Python allocations, όχι πλήρες RSS ή μελλοντική GPU μνήμη. Τα ακριβή run-specific timings παραμένουν στο `ecsi_kappa_context_results.json` και μπορεί να αλλάξουν με επανεκτέλεση.
 
 Αυτές οι διαστάσεις είναι **συνθετικά stress cases**. Δεν έχουν μετρηθεί πραγματικά J,L,W στη νέα απογραφή. Ο production πιλότος θα καταγράψει την κατανομή τους, τα ανοιχτά logical dependencies, το context-state πλήθος και το κόστος όλων των υποψηφίων spans. Οι ασυμπτωτικές εκφράσεις του [02](02_SELECTED_ARCHITECTURE_MATHEMATICAL_SPEC_GR.md) είναι το ακριβές συμβόλαιο, όχι υπόσχεση συγκεκριμένου throughput.
 

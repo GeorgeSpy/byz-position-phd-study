@@ -13,7 +13,7 @@ This appendix outlines the methodological design of a pilot comparative study ad
 The proposed architecture has a common computational backbone: a symbolic encoder, tradition-specific adapters and a semi-Markov decoder that jointly locates the boundaries and the family of each occurrence. Two components are added on top of it:
 
 - a probabilistic variation kernel $\kappa$, which describes how an occurrence aligns with the template of a candidate family through matches, insertions and deletions;
-- a probabilistic, musicologically constrained inference mechanism ($\text{ECSI-D}[\kappa]$) that evaluates the family specification across all possible alignments rather than a single arbitrarily chosen alignment.
+- a probabilistic, musicologically constrained inference mechanism $(\text{ECSI-D}[\kappa])$ that evaluates the family specification across all possible alignments rather than a single arbitrarily chosen alignment.
 
 The relationship is bidirectional: the alignment shows where a diagnostic relation is to be judged, and the specification can help estimate the alignment more accurately.
 
@@ -56,7 +56,7 @@ The extension is an optional stage of the dissertation, scheduled from month 36 
 - M2, which compares encoders without and with relational supervision (B1, B2) and, in its historical strand, with pairs of parallel exegeses (co-exegeses) of the same historical passage (EISE);
 - the extensions M3–M5.
 
-The M2 historical contrast $\Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{\mathrm{B2}}$, which compares supervision from historically linked exegeses of the same passage (EISE) with supervision from different occurrences within the same family (B2), and the realisation-preservation check $Q_{\mathrm{real}}$ keep the definitions given in the main proposal. The quantities introduced here ($\Delta_{\mathrm{P1}}$, $\Delta_{\mathrm{P2}}$ and the E-min contrasts) are additional and distinct; they replace none of these.
+The M2 historical contrast $\Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{\mathrm{B2}}$, which compares supervision from historically linked exegeses of the same passage (EISE) with supervision from different occurrences within the same family (B2), and the realisation-preservation check $Q_{\mathrm{real}}$ keep the definitions given in the main proposal. The quantities introduced here $(\Delta_{\mathrm{P1}}$, $\Delta_{\mathrm{P2}}$ and the E-min contrasts) are additional and distinct; they replace none of these.
 
 # The musical unit in the two traditions
 
@@ -125,8 +125,8 @@ The comparison is organised so that each tradition keeps its own vocabulary:
 
 Family labels follow two separate paths:
 
-- The **melodic** label ($F_{\mathrm{mel}}$) is given by experts who see only the predefined melodic and textual information. They judge without access to the family specifications or to model predictions.
-- The **historical** label ($F_{\mathrm{hist}}$) keeps the historical name or neumatic classification together with its evidence.
+- The **melodic** label $(F_{\mathrm{mel}})$ is given by experts who see only the predefined melodic and textual information. They judge without access to the family specifications or to model predictions.
+- The **historical** label $(F_{\mathrm{hist}})$ keeps the historical name or neumatic classification together with its evidence.
 
 The correspondence between them may be many-to-many. The historical term is not required to satisfy a modern melodic criterion. The historical label is never used as a hidden input to melodic recognition.
 
@@ -163,30 +163,29 @@ The kernel $\kappa$ is a profile hidden Markov model (profile HMM) with three ki
 - Assigning a more specific musicological name to a composite operation requires additional evidence and does not follow uniquely from the alignment.
 
 The probabilities of the outgoing transitions of each state sum to one, including the transition to the end. In the last column $J=J_f$:
-```math
-t(M_J,\mathrm{END})+t(M_J,I_J)=1,\qquad t(I_J,\mathrm{END})+t(I_J,I_J)=1,\qquad t(D_J,\mathrm{END})=1.
-```
+
+$$t(M_J,\mathrm{END})+t(M_J,I_J)=1,\qquad t(I_J,\mathrm{END})+t(I_J,I_J)=1,\qquad t(D_J,\mathrm{END})=1.$$
+
 There are no cycles of silent states, and every insert self-transition has probability $t(I_j,I_j)\lt 1$. The joint probability of sequence and alignment is
-```math
-p_\kappa(x,\pi\vert f,C)=\prod_{e\in\pi}t_\kappa(e\vert r,C)\prod_{e\in\pi_{\mathrm{emit}}}e_\kappa\big(x_{i(e)}\vert e,\Pi_f,C\big),
-```
+
+$$p_\kappa(x,\pi\vert f,C)=\prod_{e\in\pi}t_\kappa(e\vert r,C)\prod_{e\in\pi_{\mathrm{emit}}}e_\kappa\big(x_{i(e)}\vert e,\Pi_f,C\big),$$
+
 where the first product includes the transition to the end. Because each step is drawn from a locally normalised distribution and the chain terminates almost surely, the distribution is normalised over all lengths, sequences and alignments:
-```math
-\sum_{n\ge0}\sum_{x\in V^n}\sum_\pi p_\kappa(x,\pi\vert f,C)=1.
-```
+
+$$\sum_{n\ge0}\sum_{x\in V^n}\sum_\pi p_\kappa(x,\pi\vert f,C)=1.$$
 
 Transition parameters are shared per validated role, while emission distributions are defined around the template. For transfer from the Byzantine tradition a Dirichlet prior is used:
-```math
-\theta_{Z,r}\sim\mathrm{Dir}\big(\alpha_r\,\mu_{B,\mu(r)}\big).
-```
+
+$$\theta_{Z,r}\sim\mathrm{Dir}\big(\alpha_r\,\mu_{B,\mu(r)}\big).$$
+
 Here $\mu(r)$ is the documented partial mapping of Znamenny role $r$ to a Byzantine role, and $\mu_{B,\mu(r)}$ the mean transition probabilities estimated in the Byzantine tradition. Roles without a mapping get a local, non-informative distribution. All comparison conditions share the same topology and the same number of parameters on the Znamenny material. The concentration $\alpha_r$ is chosen on development data, and the full curve for fixed values of it is also reported, so that full adaptation to the Znamenny material does not hide the effect of the source.
 
 ### Length and normalisation
 
 We define the marginal probability of a sequence of length $n$ and the total mass of that length:
-```math
-A_f(x,n)=\sum_\pi p_\kappa(x,\pi\vert f,C),\qquad a_f(n,C)=\sum_{x\in V^n}A_f(x,n).
-```
+
+$$A_f(x,n)=\sum_\pi p_\kappa(x,\pi\vert f,C),\qquad a_f(n,C)=\sum_{x\in V^n}A_f(x,n).$$
+
 In E-min the length is treated as known, and the conditional distribution $p_\kappa(x\vert f,C,n)=A_f(x,n)/a_f(n,C)$ is used, so that length information is common to all comparisons.
 
 The full prediction, which includes length, is $\pi_f(n\vert C)\,A_f/a_f$. Alternatively the intrinsic length of the profile is used, in which case the joint probability is simply $A_f$. Multiplying $A_f$ by an independent length distribution requires renormalisation. For a window of lengths $1\le n\le L$ the denominator is $\sum_{n=1}^La_f(n,C)$. The three versions are reported separately.
@@ -201,29 +200,24 @@ The diagnostic concepts $U=(U_1,\ldots,U_N)$ are binary variables, such as "the 
 - what emission history it needs.
 
 For a given alignment $\pi$ we define
-```math
-q(u\vert x,\pi,C)=\prod_{j=1}^Nq_j(u_j\vert x,\pi,C),\qquad Q_f(x,\pi)=\sum_{u\in S_f}q(u\vert x,\pi,C).
-```
+
+$$q(u\vert x,\pi,C)=\prod_{j=1}^Nq_j(u_j\vert x,\pi,C),\qquad Q_f(x,\pi)=\sum_{u\in S_f}q(u\vert x,\pi,C).$$
+
 Independence of the concepts is assumed only **given the alignment**. When the alignment is marginalised, the result is a joint distribution over the concepts that in general does not factorise:
-```math
-q^\star_f(u\vert x,C)=\sum_\pi p_\kappa(\pi\vert x,f,C)\,q(u\vert x,\pi,C).
-```
+
+$$q^\star_f(u\vert x,C)=\sum_\pi p_\kappa(\pi\vert x,f,C)\,q(u\vert x,\pi,C).$$
+
 On the joint space $(x,\pi,u)$ four distinct quantities are defined:
-```math
-\begin{gathered}
-B_f(x,n)=\sum_\pi p_\kappa(x,\pi\vert f,C)\,Q_f(x,\pi),\\
-m_f(x)=\frac{B_f(x,n)}{A_f(x,n)}=\sum_{u\in S_f}q^\star_f(u\vert x,C),\\
-z_f(n,C)=\sum_{x\in V^n}B_f(x,n),\qquad Z_f(n,C)=\frac{z_f(n,C)}{a_f(n,C)}.
-\end{gathered}
-```
+
+$$\begin{gathered} B_f(x,n)=\sum_\pi p_\kappa(x,\pi\vert f,C)\,Q_f(x,\pi),\\ m_f(x)=\frac{B_f(x,n)}{A_f(x,n)}=\sum_{u\in S_f}q^\star_f(u\vert x,C),\\ z_f(n,C)=\sum_{x\in V^n}B_f(x,n),\qquad Z_f(n,C)=\frac{z_f(n,C)}{a_f(n,C)}. \end{gathered}$$
+
 $B_f$ is the joint probability of observing $x$ and satisfying the specification. $m_f$ is the probability of satisfaction given $x$. $z_f$ is the joint mass of length and satisfaction, and $Z_f$ the prior probability of satisfaction given the length.
 
 If the corpus consists of occurrences selected precisely because they satisfy the specification, their correct distribution is
 **(1)**
 
-```math
-p^S_f(x\vert n,C)=\frac{B_f(x,n)}{z_f(n,C)}=\frac{p_\kappa(x\vert f,n,C)\,m_f(x)}{Z_f(n,C)}.
-```
+$$p^S_f(x\vert n,C)=\frac{B_f(x,n)}{z_f(n,C)}=\frac{p_\kappa(x\vert f,n,C)\,m_f(x)}{Z_f(n,C)}.$$
+
 For a window of lengths $[1,L]$ the corresponding probability of satisfaction is $Z^{[1,L]}_f(C)=\sum_{n=1}^Lz_f(n,C)/\sum_{n=1}^La_f(n,C)$. The notation distinguishes this restricted quantity from the mass over all possible lengths.
 
 ### The reference mass $r_f$ and the normalisation $Z_f$
@@ -231,9 +225,9 @@ For a window of lengths $[1,L]$ the corresponding probability of satisfaction is
 The first form of this approach, the ECSI of the main proposal (Evidence-Conditioned Selective Invariance), compares the mass $m_f$ with a reference mass $r_f(C)=\sum_{u\in S_f}r(u\vert C)$. This mass derives from a predefined reference distribution $r$ over the concepts and corrects the bias towards broader specifications. In a discriminative model the difference $\log m_f-\log r_f$ is a perfectly legitimate feature.
 
 The ratio $m_f/r_f$ acquires the meaning of a Bayes factor, however, only when $q$ is a posterior under the same reference distribution, that is, $q(u\vert x,C)=r(u\vert C)\,\ell(x\vert u,C)/p_r(x\vert C)$, with a common likelihood $\ell$. The well-known encompassing-prior identity then holds (Klugkist, Kato and Hoijtink, 2005):
-```math
-\frac{m_f(x)}{r_f(C)}=\frac{p_r(x\vert U\in S_f,C)}{p_r(x\vert C)}.
-```
+
+$$\frac{m_f(x)}{r_f(C)}=\frac{p_r(x\vert U\in S_f,C)}{p_r(x\vert C)}.$$
+
 Simple empirical calibration of a classifier, or use of training frequencies, is not enough for this identity to hold. In the model of equation (1) the corresponding normalising mass is $Z_f(n,C)$, not an $r_f$ independent of $\kappa$.
 
 The difference between the two choices is a constant for each pair $(f,C)$. If the model has a free bias per family and $(n,C)$ stay fixed, the constant is absorbed and the final scores are unchanged. Calibration and the comparison with the unknown family are then unchanged as well. Recalibration is needed in the following cases:
@@ -271,9 +265,8 @@ For a fixed sequence $x$, the state of the dynamic programme comprises:
 A transition $e$ updates the mass as follows:
 **(2)**
 
-```math
-\alpha(\sigma')+=\alpha(\sigma)\,t_\kappa(e)\,e_\kappa(x_i\vert e)^{\mathbf 1_{\mathrm{emit}}}\sum_{u_{[e]}}q_{[e]}(u_{[e]}\vert x,e,C)\,\mathbf 1\lbrace w'=\delta(w,u_{[e]})\rbrace.
-```
+$$\alpha(\sigma')+=\alpha(\sigma)\,t_\kappa(e)\,e_\kappa(x_i\vert e)^{\mathbf 1_{\mathrm{emit}}}\sum_{u_{[e]}}q_{[e]}(u_{[e]}\vert x,e,C)\,\mathbf 1\lbrace w'=\delta(w,u_{[e]})\rbrace.$$
+
 Deletions are computed in column order, since there are no cycles of silent states, and the transition to the end multiplies the final mass. Summing over all final logical states gives $A_f(x,n)$; summing only over accepting states gives $B_f(x,n)$. Induction on the partial order $(i,j)$ proves that each alignment and each concept assignment contributes exactly once. The implementation works in log space.
 
 ### Summing over emissions for $z_f$
@@ -281,9 +274,8 @@ Deletions are computed in column order, since there are no cycles of silent stat
 To compute $z_f$ the sequence is not given, and every possible emission must be summed. If the concepts depend on the last $\ell_h$ emitted symbols, the state also includes the history $h\in V^{\le\ell_h-1}$. For each candidate emission $v\in V$:
 **(3)**
 
-```math
-\begin{aligned}\alpha(i{+}1,j',\sigma',w',h',c')+=\;&\alpha(i,j,\sigma,w,h,c)\,t_\kappa(e)\,e_\kappa(v\vert e)\\&\times\sum_{u_{[e]}}q_{[e]}(u_{[e]}\vert h,v,c,e,C)\,\mathbf 1\lbrace w'=\delta(w,u_{[e]})\rbrace,\end{aligned}
-```
+$$\begin{aligned}\alpha(i{+}1,j',\sigma',w',h',c')+=\;&\alpha(i,j,\sigma,w,h,c)\,t_\kappa(e)\,e_\kappa(v\vert e)\\&\times\sum_{u_{[e]}}q_{[e]}(u_{[e]}\vert h,v,c,e,C)\,\mathbf 1\lbrace w'=\delta(w,u_{[e]})\rbrace,\end{aligned}$$
+
 with $h'$ the suffix of length $\ell_h-1$ of $h\oplus v$ and $c'$ the updated statistics. Insertions update the history even when no new concept is judged; deletions leave it unchanged. If the history is not updated on insertions, concepts that depend on preceding symbols are computed incorrectly. This error is caught by the numerical checks.
 
 Some concepts need additional state:
@@ -322,9 +314,9 @@ The outer dynamic programme remains exact only with respect to the scores it is 
 ## The A0 backbone and structured prediction
 
 The common backbone, called A0, computes local states and two representations for each segment:
-```math
-\begin{gathered}h_t=g_\theta\big(A_d(R_d(X))\big)_t,\qquad r_s=\mathrm{Pool}(h_{a+1:b}),\\ z_{\mathrm{id}}(s)=q_{\mathrm{id}}(r_s),\qquad z_{\mathrm{real}}(s)=q_{\mathrm{real}}(h_{a+1:b}).\end{gathered}
-```
+
+$$\begin{gathered}h_t=g_\theta\big(A_d(R_d(X))\big)_t,\qquad r_s=\mathrm{Pool}(h_{a+1:b}),\\ z_{\mathrm{id}}(s)=q_{\mathrm{id}}(r_s),\qquad z_{\mathrm{real}}(s)=q_{\mathrm{real}}(h_{a+1:b}).\end{gathered}$$
+
 The symbols mean the following:
 
 - $R_d$ is the symbolic representation of the tradition: for the Byzantine it is the $R_B^\star$ selected by M1; for the Znamenny it is defined by a local protocol at the same elementary unit.
@@ -335,9 +327,8 @@ The symbols mean the following:
 For each known family $f$, the segment score is
 **(4)**
 
-```math
-\phi(s,f)=\phi^0(s,f)+\beta_\kappa\log\frac{p_\kappa(x_s\vert f,n,C)}{p_0(x_s\vert n,C)}+\beta_S\big[\log m_f(x_s)-\log r_f(C,n)\big],
-```
+$$\phi(s,f)=\phi^0(s,f)+\beta_\kappa\log\frac{p_\kappa(x_s\vert f,n,C)}{p_0(x_s\vert n,C)}+\beta_S\big[\log m_f(x_s)-\log r_f(C,n)\big],$$
+
 where $\phi^0$ is the base score of the backbone and $p_0$ a background model. The coefficients $\beta_\kappa,\beta_S$ are applied **after** marginalisation. The term equals $(\beta_\kappa-\beta_S)\log A_f+\beta_S\log B_f$, plus the length, background and reference terms. Moving the coefficients inside the sum over alignments would define a different model.
 
 The main recogniser is a discriminative semi-Markov CRF (semi-CRF):
@@ -349,15 +340,14 @@ The main recogniser is a discriminative semi-Markov CRF (semi-CRF):
 The choice $r_f=Z_f$ reproduces the generatively consistent term when $\beta_\kappa=\beta_S=1$. Any other positive value of $r_f$ defines an explicitly declared discriminative comparison model. The base score $\phi^0$ may contain neural features. Equation (4) does not acquire a generative interpretation merely because one of its terms has the form of a log probability ratio.
 
 The output $y$ is a set of non-overlapping segments labelled $f\in F_Z\cup\lbrace U\rbrace$, where $U$ denotes a valid melodic unit of unknown family, with its own prediction head. Every event not covered by a segment receives a single skip decision with score $\chi_t$. Documented connective material acts as an independent constraint during supervision. The score and probability of a segmentation are
-```math
-s(y,X)=\sum_{(s,f)\in y}\phi(s,f)+\sum_{t\notin\cup y}\chi_t,\qquad P(y\vert X)=\frac{\exp s(y,X)}{\mathcal Z(X)},
-```
+
+$$s(y,X)=\sum_{(s,f)\in y}\phi(s,f)+\sum_{t\notin\cup y}\chi_t,\qquad P(y\vert X)=\frac{\exp s(y,X)}{\mathcal Z(X)},$$
+
 and the empty segmentation is allowed. With $\alpha_0=0$ in log space, the forward recursion is
 **(5)**
 
-```math
-\alpha_b=\mathrm{LSE}\Big(\alpha_{b-1}+\chi_b,\ \big\lbrace\alpha_a+\phi((a,b],f):\ \max(0,b-L)\le a\lt b,\ f\in F_Z\cup\lbrace U\rbrace\big\rbrace\Big),
-```
+$$\alpha_b=\mathrm{LSE}\Big(\alpha_{b-1}+\chi_b,\ \big\lbrace\alpha_a+\phi((a,b],f):\ \max(0,b-L)\le a\lt b,\ f\in F_Z\cup\lbrace U\rbrace\big\rbrace\Big),$$
+
 where LSE is the log-sum-exp operation, and $\log\mathcal Z(X)=\alpha_T$.
 
 - Viterbi decoding replaces LSE with a maximum and keeps back-pointers.
@@ -371,9 +361,8 @@ where LSE is the log-sum-exp operation, and $\log\mathcal Z(X)=\alpha_T$.
 **First-order transitions.** To carry the memory of the last family across gaps, the state $\alpha_t(f,g)$ is defined with a gap flag $g\in\lbrace0,1\rbrace$ and an initial BOS state. A skip updates $\alpha_{t+1}(f,1)\leftarrow\mathrm{LSE}(\alpha_{t+1}(f,1),\ \alpha_t(f,g)+\chi_{t+1})$. A new segment $(a,b]$ labelled $f$ is added as
 **(6)**
 
-```math
-\alpha_b(f,0)\leftarrow\mathrm{LSE}\Big(\alpha_b(f,0),\ \phi((a,b],f)+\mathrm{LSE}_{f',g}\big[\alpha_a(f',g)+T_a(f',f,g)\big]\Big).
-```
+$$\alpha_b(f,0)\leftarrow\mathrm{LSE}\Big(\alpha_b(f,0),\ \phi((a,b],f)+\mathrm{LSE}_{f',g}\big[\alpha_a(f',g)+T_a(f',f,g)\big]\Big).$$
+
 The cost depends on the form of the transition $T_a$:
 
 - If $T_a$ does not depend on the end $b$, the inner sum is computed once per $(a,f)$, at cost $\mathcal O(TK^2+TLK)$.
@@ -384,9 +373,9 @@ The cost depends on the form of the transition $T_a$:
 A first-order model in which background resets the family memory is different from (6). The first implementation uses the zero-order recursion (5).
 
 **Partial supervision.** The full musicological register keeps overlaps and alternative readings. A fixed projection selects disjoint windows $W_j$, on which the non-overlapping segment loss is applied. If $\mathcal C_j$ are the outputs consistent with the annotation of the window, the segmentation loss is
-```math
-\mathcal L_{\mathrm{seg}}(X)=\frac{\sum_j\big[\log\mathcal Z_j-\log\mathcal Z^A_j\big]}{\sum_j\vert W_j\vert},\qquad \mathcal Z^A_j=\sum_{y\in\mathcal C_j}\exp s(y,X).
-```
+
+$$\mathcal L_{\mathrm{seg}}(X)=\frac{\sum_j\big[\log\mathcal Z_j-\log\mathcal Z^A_j\big]}{\sum_j\vert W_j\vert},\qquad \mathcal Z^A_j=\sum_{y\in\mathcal C_j}\exp s(y,X).$$
+
 A fully unannotated region contributes zero loss. Alternative boundaries and joint constraints are encoded in a finite annotation automaton that extends the state space of (5). The compiler checks:
 
 - that $\mathcal C_j\neq\emptyset$;
@@ -405,9 +394,9 @@ Consider a prior over valid segmentations of length $T$ with the following weigh
 The distribution is normalised by the constant $C_T$ that constrains the segmentation to end exactly at $T$. Each segment emits from the normalised distribution $p_f(x_s\vert n,C)$, and each background position from $q_0(x_t\vert x_{\lt t},C)$. Then $\sum_{X,y}p(X,y\vert T,C)=1$, provided $C$ is exogenous.
 
 Dividing by the common weight $(1-\rho)^T\prod_tq_0(x_t\vert x_{\lt t},C)$ yields the score
-```math
-\begin{aligned}\phi_G(s,f)=\;&\log\rho+\log\pi_f+\log\pi_f(n)-n\log(1-\rho)\\&+\log p_f(x_s\vert n,C)-\sum_{t\in s}\log q_0(x_t\vert x_{\lt t},C),\end{aligned}
-```
+
+$$\begin{aligned}\phi_G(s,f)=\;&\log\rho+\log\pi_f+\log\pi_f(n)-n\log(1-\rho)\\&+\log p_f(x_s\vert n,C)-\sum_{t\in s}\log q_0(x_t\vert x_{\lt t},C),\end{aligned}$$
+
 with $\chi_t=0$. The common terms and $C_T$ cancel in $P(y\vert X)$, which thus coincides exactly with the semi-CRF for $\beta=1$. Three points need care:
 
 - The term $-n\log(1-\rho)$ depends linearly on length.
@@ -416,7 +405,7 @@ with $\chi_t=0$. The common terms and $C_T$ cancel in $P(y\vert X)$, which thus 
 
 ## Bidirectional learning and the selection mechanism
 
-**Initialisation.** Training starts from local concept labels for the classifiers $q_j$ and a normalised kernel $\kappa$. The concept classifiers stay fixed in the first comparison where the specification trains the kernel, because unconstrained joint maximisation on positive examples alone leads to degenerate solutions ($q_j\approx1$) that bypass the musicological problem. Later joint training keeps:
+**Initialisation.** Training starts from local concept labels for the classifiers $q_j$ and a normalised kernel $\kappa$. The concept classifiers stay fixed in the first comparison where the specification trains the kernel, because unconstrained joint maximisation on positive examples alone leads to degenerate solutions $(q_j\approx1)$ that bypass the musicological problem. Later joint training keeps:
 
 - an independent concept loss;
 - hard negative examples;
@@ -436,17 +425,16 @@ With the shorthand $a(x)=p_\kappa(x\vert n,C,f)$, $b(x)=a(x)\,m_f(x)$ and $Z=\su
 Conditioning on a known family does not imply that the occurrences were selected through the specification itself. In E-min the family model is trained directly as $p_\kappa(X\vert F,C,n)$. The likelihood of selected positives is used only when the kernel defines a pre-existing population of candidates and inclusion in the corpus depends on acceptance through the same specification. If the family judgement rests on richer evidence, a separate selection variable is defined.
 
 **E-step.** For a positive example, the alignment has the conditional distribution
-```math
-p(\pi\vert x,S,f,C)=\frac{p_\kappa(x,\pi\vert f,C)\,Q_f(x,\pi)}{B_f(x,n)},
-```
+
+$$p(\pi\vert x,S,f,C)=\frac{p_\kappa(x,\pi\vert f,C)\,Q_f(x,\pi)}{B_f(x,n)},$$
+
 and the constant $Z$ cancels.
 
 **M-step.** For selected occurrences, the gradient with respect to the kernel parameters (with $q$ fixed) keeps the negative term of the normalisation:
 **(7)**
 
-```math
-\nabla_\kappa\ell_{\mathrm{sel}}=\mathbb E_{\pi\vert x,S}\big[\nabla_\kappa\log p_\kappa(x,\pi)\big]-\mathbb E_{X,\pi\vert S,n,C}\big[\nabla_\kappa\log p_\kappa(X,\pi)\big],
-```
+$$\nabla_\kappa\ell_{\mathrm{sel}}=\mathbb E_{\pi\vert x,S}\big[\nabla_\kappa\log p_\kappa(x,\pi)\big]-\mathbb E_{X,\pi\vert S,n,C}\big[\nabla_\kappa\log p_\kappa(X,\pi)\big],$$
+
 plus the prior terms. Simple renormalisation of expected counts, as in Baum–Welch, in general does **not** maximise this function. Either exact differentiable computation is used, or generalised EM with a check that the correct function increases monotonically.
 
 **Deterministic and probabilistic rules.** With deterministic diagnostic rules, conditioning amounts to a Kullback–Leibler projection onto the set of admissible pairs $(\pi,u)$. With probabilistic $Q_f$ it is a reweighting of alignments, not an exclusion. Exact equivalence with posterior regularisation presupposes the same variable space and the same constraints.
@@ -460,14 +448,14 @@ plus the prior terms. Simple renormalisation of expected counts, as in Baum–We
 Selected positive examples alone therefore identify **neither** $\theta$ nor the alignment. The missing information comes from representatively observed judgements $Y\in\lbrace0,1\rbrace$ or from independent landmark annotations.
 
 **Total loss.** Discriminative training of the backbone minimises
-```math
-\mathcal L_{\mathrm{total}}=\mathcal L_{\mathrm{seg}}+\lambda_F\mathcal L_F+\lambda_{\mathrm{pair}}\mathcal L^{\mathrm{id}}_{\mathrm{pair}}+\lambda_{\mathrm{rec}}\mathcal L_{\mathrm{mask}}+\lambda_q\mathcal L_q,
-```
+
+$$\mathcal L_{\mathrm{total}}=\mathcal L_{\mathrm{seg}}+\lambda_F\mathcal L_F+\lambda_{\mathrm{pair}}\mathcal L^{\mathrm{id}}_{\mathrm{pair}}+\lambda_{\mathrm{rec}}\mathcal L_{\mathrm{mask}}+\lambda_q\mathcal L_q,$$
+
 with a separate, explicitly declared stage for estimating the kernel $\kappa$. Condition B2 keeps only positive family pairs. The gradient reaches the shared encoder only if the $Q_{\mathrm{real}}$ gate is checked under common conditions.
 
 ## Joint diagnostic blocks: extending expressiveness
 
-The only optional extension considered replaces the product of independent concepts within a small block $B_k$ ($\vert B_k\vert\le k$) with a joint distribution $q_{B_k}(u_{B_k}\vert x,\pi,C)$. The $2^{\vert B_k\vert}$ configurations are summed in (2), while the profile topology, the specification and the outer dynamic programme stay the same. For $q(00)=q(11)=1/2$ the joint block gives $P(U_1=U_2)=1$, whereas independent concepts with the same marginals give $1/2$. The joint distribution thus represents dependencies that the product cannot, even with a certain alignment. The block size is chosen on musicological grounds and with independent concept supervision, never on test data.
+The only optional extension considered replaces the product of independent concepts within a small block $B_k$ $(\vert B_k\vert\le k)$ with a joint distribution $q_{B_k}(u_{B_k}\vert x,\pi,C)$. The $2^{\vert B_k\vert}$ configurations are summed in (2), while the profile topology, the specification and the outer dynamic programme stay the same. For $q(00)=q(11)=1/2$ the joint block gives $P(U_1=U_2)=1$, whereas independent concepts with the same marginals give $1/2$. The joint distribution thus represents dependencies that the product cannot, even with a certain alignment. The block size is chosen on musicological grounds and with independent concept supervision, never on test data.
 
 The difference between full summation and simpler pooling of marginals also appears for two concepts **at the same** landmark, when the position of the landmark is uncertain. If the probabilities of the two concepts, as functions of the alignment, jointly take the value 0.1 or 0.9 with equal weights, full summation gives $\mathbb E[Y^2]=0.41$, while pooling gives $(\mathbb EY)^2=0.25$. The exact condition for the two methods to differ is non-zero mixed moments of the concept probabilities with respect to the alignment. The concepts need not belong to different landmarks.
 
@@ -517,8 +505,8 @@ The templates $\Pi_f$ and the roles are estimated only on training data and lock
 Five states are distinguished, with separate records and separate losses:
 
 - **known family**: a documented member of a known family;
-- **unknown family** ($U$): a valid unit outside the training vocabulary;
-- **connective or background** ($O$): documented material outside the analytical unit;
+- **unknown family** $(U)$: a valid unit outside the training vocabulary;
+- **connective or background** $(O)$: documented material outside the analytical unit;
 - **unresolved**: a pending judgement, treated as latent supervision;
 - **abstention**: a model decision when the calibrated confidence does not reach the predefined threshold.
 
@@ -557,7 +545,7 @@ Historical corpora have many hidden routes from the label to the input. The main
 | Judges' familiarity with the catalogue | Record of each judge's sources, independent resolution of disagreements, analysis without the familiar entries |
 | Exclusion of ambiguous examples | Report of proportion and characteristics; multiple acceptable answers and coverage-sensitive measures |
 
-## Preservation of realisation information ($Q_{\mathrm{real}}$)
+## Preservation of realisation information $(Q_{\mathrm{real}})$
 
 The main proposal (§7) defines three tests on held-out occurrences:
 
@@ -574,9 +562,9 @@ The log-likelihood of the kernel, operation counts and alignment marginals are e
 ## Historical recovery and identifiability
 
 Historical recovery targets the distribution
-```math
-p\big(H^{(w)}_Z\vert X_Z,C_{\mathrm{adm}}\big),
-```
+
+$$p\big(H^{(w)}_Z\vert X_Z,C_{\mathrm{adm}}\big),$$
+
 where:
 
 - $H^{(w)}_Z$ is the surviving notation of the particular witness $w$;
@@ -641,19 +629,17 @@ If they are over-represented, the weighting is recorded, so that calibration has
 The concept classifiers, the kernel, the specifications and the alignment distribution $p(\pi\vert X,f)$ are shared and fixed in the comparison. With $p_j(\pi)=q_j(U_j=1\vert X,\pi)$, two ways of computing are compared:
 
 - **full summation (AC):**
-```math
-m_{\mathrm{AC}}=\sum_\pi p(\pi\vert X,f)\sum_{u\in S_f}\prod_jq_j(u_j\vert X,\pi);
-```
+
+$$m_{\mathrm{AC}}=\sum_\pi p(\pi\vert X,f)\sum_{u\in S_f}\prod_jq_j(u_j\vert X,\pi);$$
+
 - **pooling of marginals (Pool):**
-```math
-m_{\mathrm{Pool}}=\sum_{u\in S_f}\prod_j\bar q_j(u_j),\qquad \bar q_j=\mathbb E_\pi q_j.
-```
+
+$$m_{\mathrm{Pool}}=\sum_{u\in S_f}\prod_j\bar q_j(u_j),\qquad \bar q_j=\mathbb E_\pi q_j.$$
 
 The two methods receive exactly the same inputs and differ only in how they combine the same posterior. The main quantity is
-```math
-\Delta_{\mathrm{P1}}=\mathrm{LL}(\mathrm{Pool})-\mathrm{LL}(\mathrm{AC}),\qquad
-\mathrm{LL}(p)=-\mathbb E\big[Y_S\log_2p+(1-Y_S)\log_2(1-p)\big],
-```
+
+$$\Delta_{\mathrm{P1}}=\mathrm{LL}(\mathrm{Pool})-\mathrm{LL}(\mathrm{AC}),\qquad \mathrm{LL}(p)=-\mathbb E\big[Y_S\log_2p+(1-Y_S)\log_2(1-p)\big],$$
+
 in bits per judgement, positive in favour of full summation. Each method is calibrated separately, with the same calibrator family and the same development budget. Also reported are:
 
 - raw log loss and the Brier score;
@@ -698,9 +684,9 @@ E-min is a purely symbolic experiment. All conditions share:
 - topology and alphabet.
 
 Each prior is updated with the same number of Znamenny occurrences and the same tuning budget. The family is known in this conditional task; its recognition is examined separately. The measure is cross-entropy per event:
-```math
-\mathrm{CE}_{\mathrm{event}}(M)=-\frac{\sum_o\log_2p_M(X_o\vert F_o,C_o,n_o)}{\sum_on_o},\qquad p_M=A_M/a_M(n).
-```
+
+$$\mathrm{CE}_{\mathrm{event}}(M)=-\frac{\sum_o\log_2p_M(X_o\vert F_o,C_o,n_o)}{\sum_on_o},\qquad p_M=A_M/a_M(n).$$
+
 The main measurement is a corpus-level ratio, with group resampling of numerators and denominators. Also reported are the mean per family, the value per occurrence, the entropy of the length and the full joint entropy. The unit of measurement does not change after the results have been seen.
 
 | Prior | Construction | What it tests |
@@ -763,7 +749,7 @@ If a comparison model is given the full joint distribution $q^\star$, it can rep
 
 **Error allocation.** The extension has a total type I error budget of 0.05. It is split in advance into 0.025 for the P1–P2 chain and 0.025 for E-min. The tests of the main proposal keep their own pre-registration.
 
-**P1–P2 chain.** The order is fixed: P1 overall, then P2 (positions and non-inferiority of the entropy), then downstream recognition (valid versus perturbed specification and $Q_{\mathrm{real}}$). Each confirmatory step opens only if the previous one succeeded. Compound claims require all their members to pass at 0.025. If P1 fails, P2 remains scientifically useful but exploratory, pending independent confirmation. Secondary contrasts are reported with Holm correction within declared families or with intervals only.
+**P1–P2 chain.** The order is fixed: P1 overall, then P2 (positions and non-inferiority of the entropy), then downstream recognition (valid versus perturbed specification and $Q_{\mathrm{real}})$. Each confirmatory step opens only if the previous one succeeded. Compound claims require all their members to pass at 0.025. If P1 fails, P2 remains scientifically useful but exploratory, pending independent confirmation. Secondary contrasts are reported with Holm correction within declared families or with intervals only.
 
 **E-min.** $\Delta_{\mathrm{struct}}$ and $\Delta_{\mathrm{pool}}$ form a single conjunctive claim at 0.025. Only after it does a Holm family open for the remaining contrasts.
 
@@ -854,9 +840,9 @@ The computational operations of the scheme are also well known.
 - **Music graphs.** Libraries and graph convolution layers for symbolic music (Karystinaios and Widmer, 2024; Karystinaios, Foscarin and Widmer, 2024) provide an alternative encoder with the same admissible features.
 
 The minimal mathematical difference between full summation and pooling of marginals can be written exactly. For a conjunctive rule $U_1\wedge U_2$ and a fixed alignment posterior,
-```math
-m_{\mathrm{AC}}-m_{\mathrm{Pool}}=\mathrm{Cov}_\pi\big(q_1(\pi),q_2(\pi)\big),
-```
+
+$$m_{\mathrm{AC}}-m_{\mathrm{Pool}}=\mathrm{Cov}_\pi\big(q_1(\pi),q_2(\pi)\big),$$
+
 while for a disjunctive rule the sign is reversed, and for a general specification higher-order mixed moments appear. With a single concept or a certain alignment the difference vanishes. This is a known property of mixtures. The experimental comparison must therefore distinguish three things:
 
 - the information available;
@@ -1025,7 +1011,7 @@ The mathematical specification is accompanied by small reference implementations
 | Kernel estimation | `bidirectional_learning_oracle.py` | 43 checks passed; EM monotonicity, agreement with direct optimisation, selected-sample consistency |
 | Power and transfer | `power_and_transfer_simulation.py` | 50 power scenarios and 9 transfer scenarios; all checks passed |
 
-The first four files are in the `original_oracles/` subfolder. The numbers correspond to programmatic checks or groups of checks, as recorded in the result files. They are not independent musical experiments. The largest overall deviation in the file of the product dynamic programme with history (about $8.44\times10^{-7}$) is due to the convergence tolerance of a numerical optimiser, not to an error in the recursion.
+The first four files are in the `original_oracles/` subfolder. The numbers correspond to programmatic checks or groups of checks, as recorded in the result files. They are not independent musical experiments. The largest overall deviation in the file of the product dynamic programme with history (about $8.44\times10^{-7})$ is due to the convergence tolerance of a numerical optimiser, not to an error in the recursion.
 
 ## Small-scale kernel estimation
 

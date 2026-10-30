@@ -19,17 +19,11 @@
 
 For a shared finite semantic space `Ω` of diagnostic configurations:
 
-\[
-\phi_F(z,c)=\mathbf 1[z\in S_F(c)],\qquad
-m_F(x,c)=\sum_{z\in\Omega}q_\theta(z\mid x,c)\phi_F(z,c).
-\]
+$$\phi_F(z,c)=\mathbf 1[z\in S_F(c)],\qquad m_F(x,c)=\sum_{z\in\Omega}q_\theta(z\vert x,c)\phi_F(z,c).$$
 
 When the admissible set of a broader family contains that of a more specific family, raw membership mass `m_F` favours the broader signature. The proposed correction uses a shared semantic space and requires independent empirical calibration. A candidate score uses a reference probability `r_F>0`:
 
-\[
-s_F=\log\pi_F(c)+\beta(\log m_F-\log r_F)+b_\gamma(d_F,c),\quad
-p(F\mid x,c)=\operatorname{softmax}_{F}s_F.
-\]
+$$s_F=\log\pi_F(c)+\beta(\log m_F-\log r_F)+b_\gamma(d_F,c),\quad p(F\vert x,c)=\mathrm{softmax}_{F}s_F.$$
 
 This is a **candidate scoring architecture**. Reading its output as an exact **Bayesian posterior** additionally requires a specified generative model and calibration evidence. The probability of a union of sufficient branches, the infimum distance to a union of continuous sets, and an epistemic mixture are mathematically distinct objects.
 
