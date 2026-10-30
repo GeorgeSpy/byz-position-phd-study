@@ -41,11 +41,11 @@ Subsequent work addresses representation learning and the structural identifiabi
 
 ## Unpublished manuscripts
 
-**Three conference manuscripts (submitted to SETN 2026, not accepted):**
+**Three conference manuscripts based on the MSc thesis (originally submitted to SETN 2026):**
 
 - *[Calibrated Pseudo-Noisy Supervision for ESPI Denoising with Severity-Controlled Evaluation](../../../documents/prior-work/setn-calibrated-espi-supervision.pdf)*.
 - *[Interpretable ESPI Mode Classification under Data Scarcity with Frequency-Prior Hybrid Random Forests](../../../documents/prior-work/setn-espi-mode-classification.pdf)*.
-- *[When Attention Becomes Invisible - and When It Helps: ECA, Supervision Realism, and Downstream ESPI Denoising](../../../documents/prior-work/setn-espi-attention-denoising.pdf)* (revised paper).
+- *[Beyond Reconstruction: Functional Neutralization of Channel Attention and Conditional Predictive Utility in ESPI Denoising](../../../documents/prior-work/setn-espi-attention-denoising.pdf)* — revised and extended version (August 2026), with M. Kaliakatsos-Papakostas and Y. Orfanos.
 
 **Additional manuscript (full text available):** *[Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../../documents/prior-work/mespi-inverse-geometry.pdf)*.
 
