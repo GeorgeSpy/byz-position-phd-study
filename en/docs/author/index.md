@@ -4,7 +4,7 @@
 **Language / Γλώσσα:** [Ελληνικά](../../../docs/author/index.md) · **English**
 <!-- language-switch:end -->
 
-[Home](../../README.md) · [Current PhD research plan (Greek PDF)](../../../documents/core-research-plan.pdf) · [Earlier English proposal](../../../documents/short-proposal-en.pdf) · [Research papers](../../../documents/prior-work/README.md) · [Public code](../../../docs/author/prior-work.md#public-repositories)
+[Home](../../README.md) · [Current PhD research plan (Greek PDF)](../../../documents/core-research-plan.pdf) · [Earlier English proposal](../../../documents/short-proposal-en.pdf) · [Manuscripts](../../../documents/prior-work/README.md) · [Public code](../../../docs/author/prior-work.md#public-repositories)
 
 **Research interests:** Symbolic Music Information Retrieval (MIR) · Musicology-informed machine learning · Melodic formula recognition and variation · Representation learning · Computational analysis of historical chant · Scientific imaging and inverse problems
 
@@ -16,7 +16,7 @@ He is currently developing a **PhD research proposal in symbolic MIR and musicol
 
 The proposed doctoral research investigates the Byzantine melodic formula (*thesis*, plural *theseis*) as a computational unit. It addresses the joint segmentation of musical notation and recognition of formula families, the experimental contribution of independently validated musicological specifications, and representation learning from related formula occurrences and historically documented exegeses. Independent musicological evaluation and the descriptive characterization of complete musical works form part of the core research design.
 
-The research plan also describes conditional extensions in auditory categorization, musical expectation, performance timing and comparative analysis of Znamenny chant. These directions examine how musical identity and variation can be represented and evaluated across different sources, performers and chant traditions.
+The plan also outlines optional extensions, including a comparison with Znamenny chant; these are conditional and not part of the doctoral core.
 
 **Research material:** [Current core research plan (Greek, PDF)](../../../documents/core-research-plan.pdf) · [Earlier English-language research proposal (PDF)](../../../documents/short-proposal-en.pdf) · [Znamenny comparative research appendix (English)](../../../docs/research/znamenny-transfer/research-appendix-en.md)
 
@@ -39,17 +39,17 @@ His MSc research examined automated recognition of instrumental vibration modes 
 
 Subsequent work addresses representation learning and the structural identifiability and inversion of a time-averaged ESPI Bessel observation operator. These studies contribute experience in controlled model comparison, uncertainty, inverse problems and the relationship between physically meaningful structures and learned representations.
 
-## Research papers
+## Unpublished manuscripts
 
-**Three papers submitted to SETN 2026:**
+**Three conference manuscripts (submitted to SETN 2026, not accepted):**
 
 - *[Calibrated Pseudo-Noisy Supervision for ESPI Denoising with Severity-Controlled Evaluation](../../../documents/prior-work/setn-calibrated-espi-supervision.pdf)*.
 - *[Interpretable ESPI Mode Classification under Data Scarcity with Frequency-Prior Hybrid Random Forests](../../../documents/prior-work/setn-espi-mode-classification.pdf)*.
 - *[When Attention Becomes Invisible - and When It Helps: ECA, Supervision Realism, and Downstream ESPI Denoising](../../../documents/prior-work/setn-espi-attention-denoising.pdf)* (revised paper).
 
-**Additional research paper (full text available):** *[Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../../documents/prior-work/mespi-inverse-geometry.pdf)*.
+**Additional manuscript (full text available):** *[Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../../documents/prior-work/mespi-inverse-geometry.pdf)*.
 
-The [research-paper catalogue](../../../documents/prior-work/README.md) records the status and provenance of the files. Research code and documentation are described in [Prior work and public repositories](../../../docs/author/prior-work.md).
+The [manuscript catalogue](../../../documents/prior-work/README.md) records the status and provenance of the files. Research code and documentation are described in [Prior work and public repositories](../../../docs/author/prior-work.md).
 
 ## Contact and research links
 
