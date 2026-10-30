@@ -29,13 +29,13 @@ The research plan also describes conditional extensions in auditory categorizati
 | Byzantine music | Diploma in Byzantine Music, Byzantine Music School of the Metropolis of Rethymno. |
 | Teaching | Secondary-school physics teacher in Greece, with substantial experience in science education and practical laboratory teaching. |
 
-He has studied Byzantine chant since 1998, initially in Thessaloniki and, since 2013, at the Byzantine Music School of the Metropolis of Rethymno. His training follows the teaching lineage of Simon Karas and Lycourgos Angelopoulos. He also sings in the school's choir under E. Kapaidonakis, a founding member of the Greek Byzantine Choir.
+He has studied Byzantine chant since 1998, initially in Thessaloniki and, since 2013, at the Byzantine Music School of the Metropolis of Rethymno. His training follows the teaching lineage of Simon Karas and Lycourgos Angelopoulos. He continues to sing and study in the school's choir under E. Kapaidonakis, a founding member of the Greek Byzantine Choir.
 
 This combined background informs the definition of melodic units, the interpretation of notation and the design of musicologically meaningful evaluation criteria. The proposal includes independent expert evaluation to assess those criteria.
 
 ## Previous computational research
 
-His MSc research examined automated recognition of instrumental vibration modes from ESPI images. The work combined experimental measurements, physically calibrated generation of synthetic training examples, image denoising, classical and neural classification methods, and tests of generalization across measurement conditions. The corresponding code and research papers are available through the links below.
+His MSc research examined automated recognition of instrumental vibration modes from ESPI images. His master's thesis was supervised by M. Kaliakatsos-Papakostas and Y. Orfanos. The work combined experimental measurements, physically calibrated generation of synthetic training examples, image denoising, classical and neural classification methods, and tests of generalization across measurement conditions. The corresponding code and research papers are available through the links below.
 
 Subsequent work addresses representation learning and the structural identifiability and inversion of a time-averaged ESPI Bessel observation operator. These studies contribute experience in controlled model comparison, uncertainty, inverse problems and the relationship between physically meaningful structures and learned representations.
 
