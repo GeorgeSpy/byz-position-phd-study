@@ -1,22 +1,16 @@
-# The Byzantine Melodic Formulae (thesis) as a Computational Unit
+# The Byzantine Melodic Formula (*thesis*) as a Computational Unit
 
 <!-- language-switch:start -->
 **Language / Γλώσσα:** [Ελληνικά](../README.md) · **English** · [Translation progress](docs/translation-status.md)
 <!-- language-switch:end -->
 
-**Research proposal — Georgios Spyridakis**
+**PhD research proposal — Georgios Spyridakis**
 
-[Biography](docs/author/index.md) · [Previous research, MESPI and public code (Greek)](../docs/author/prior-work.md) · [SETN papers and MESPI (Greek catalogue; English papers)](../documents/prior-work/README.md)
+[Research biography](docs/author/index.md) · [Prior work and public code (Greek)](../docs/author/prior-work.md) · [Unpublished manuscripts](../documents/prior-work/README.md)
 
-**Ten minutes:** [What is new](#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md).
+> **Status (October 2026).** Proposal in preparation for the Department of Music Technology and Acoustics, Hellenic Mediterranean University; not yet submitted. The current core research plan is in Greek ([PDF](../documents/core-research-plan.pdf)). The English short proposal reflects an earlier version; the core research questions are unchanged.
 
-**Selected reading documents:** the Greek short proposal and the 3 English edition, selected on 23 October 2026. [Documents and protocols](docs/reference.md).
-
-**New research direction — ECSI:** [Musicologically grounded signatures for melodic formula families](docs/research/ecsi/README.md). A Musicology-Informed Machine Learning (MIML) framework with the ECSI-D architecture and the independent P0′–P2′ research protocol.
-
-**Comparative research extension — Byzantine theses and Znamenny popevki:** [Complete English research appendix](../docs/research/znamenny-transfer/research-appendix-en.md) · [Greek edition](../docs/research/znamenny-transfer/research-appendix.md). A0 + ECSI-D[κ] investigates musicological identity, variation, uncertain alignment and potential cross-tradition transfer as a distinct, optional research programme.
-
-**[Short research proposal — English PDF](../documents/short-proposal-en.pdf)** · [Greek short proposal](../documents/short-proposal.pdf) · [Detailed research proposal — Greek PDF](../documents/analytical-proposal.pdf) · [PDF contents (Greek)](../documents/README.md)
+**Start here:** [English short proposal (PDF)](../documents/short-proposal-en.pdf) · [What is new](#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md)
 
 How can the same melodic formula be recognised when its melodic form changes? How much information from the older written tradition remains recoverable from an analytical exegesis? The proposal brings Byzantine musicology, symbolic music information retrieval (MIR) and machine learning together around these two questions.
 
@@ -51,6 +45,13 @@ The provenance of positive pairs becomes an experimental variable: common family
 | **What does exegesis retain from older notation?** | A specific older passage and one or two confirmed analytical exegeses of it. | Which older notational distinctions can be recovered beyond metrophonia and known rules. |
 
 [Musical evidence and schematic examples](docs/examples/index.md).
+
+## Further directions (outside the doctoral core)
+
+- **Musicologically grounded family signatures.** A pilot direction in musicology-informed machine learning that encodes independently validated criteria for formula families. [Overview (ECSI)](docs/research/ecsi/README.md).
+- **Optional comparison with Znamenny chant.** Asks whether a method for recognising melodic identity amid variation can be evaluated when Byzantine *theseis* and Znamenny *popevki* are defined independently by each tradition. Conditional on sources and specialist annotation. [English research appendix](../docs/research/znamenny-transfer/research-appendix-en.md) · [Greek edition](../docs/research/znamenny-transfer/research-appendix.md).
+
+**All documents:** [Greek short proposal](../documents/short-proposal.pdf) · [Detailed proposal (Greek)](../documents/analytical-proposal.pdf) · [PDF contents (Greek)](../documents/README.md) · [Documents and protocols](docs/reference.md)
 
 [Comments and scientific discussion (Greek guide)](../docs/review/feedback.md) · [Shared research notebook](https://github.com/GeorgeSpy/byz-position-phd-study/issues/6)
 
