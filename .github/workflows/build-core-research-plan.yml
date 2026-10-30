@@ -8,6 +8,9 @@ on:
       - documents/core-research-plan.tex
       - docs/assets/formula-variation.png
       - .github/workflows/build-core-research-plan.yml
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened]
   workflow_dispatch:
 
 permissions:
@@ -20,6 +23,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
+          ref: ${{ github.head_ref || github.ref_name }}
       - name: Compile Greek proposal with XeLaTeX
         uses: xu-cheng/latex-action@v4
         with:
