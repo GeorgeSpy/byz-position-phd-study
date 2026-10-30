@@ -11,7 +11,7 @@
 - **[Πλήρες ελληνικό ερευνητικό παράρτημα](research-appendix.md)** · **[Complete English research appendix](research-appendix-en.md)** — επιστημονική αφήγηση, μουσικολογία, μαθηματική προδιαγραφή, P1/P2/E-min, πηγές και ερευνητικό πρόγραμμα. Οι μαθηματικοί τύποι εμφανίζονται εγγενώς στο GitHub.
 - **[Αρχιτεκτονική και μαθηματική θεμελίωση](support/02_SELECTED_ARCHITECTURE_MATHEMATICAL_SPEC_GR.md)** — πλήρης τεχνική προδιαγραφή και ορισμοί.
 - **[Πειραματικό πρωτόκολλο](support/03_MINIMAL_DECISIVE_EXPERIMENT_AND_PROTOCOL_GR.md)** και **[τεχνικό ευρετήριο](support/README.md)** — συγκριτές και αναπαραγωγιμότητα.
-- **[Έλεγχος προηγούμενης τέχνης](support/04_NOVELTY_AND_PRIOR_ART_DIFFERENCE_MATRIX_GR.md)** και **[πηγολογικό/τεχνικό μητρώο](support/SOURCE_ACCESS_AND_UNRESOLVED_EVIDENCE.md)**.
+- **[Έλεγχος prior art](support/04_NOVELTY_AND_PRIOR_ART_DIFFERENCE_MATRIX_GR.md)** και **[πηγολογικό/τεχνικό μητρώο](support/SOURCE_ACCESS_AND_UNRESOLVED_EVIDENCE.md)**.
 - **[Αναπαραγωγιμότητα και δοκιμές](support/07_IMPLEMENTATION_BLUEPRINT_AND_TESTS_GR.md)**, [προδιαγραφή σώματος](support/corpus_schema.json) και [ρυθμίσεις πρωτοκόλλου](support/protocol_config.json).
 
 ## Ελάχιστη αναπαραγωγή συνθετικών ελέγχων
