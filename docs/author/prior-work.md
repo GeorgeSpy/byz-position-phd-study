@@ -8,13 +8,13 @@
 
 ## Αδημοσίευτα χειρόγραφα: SETN 2026 και MESPI
 
-Στη [συλλογή papers](../../documents/prior-work/README.md) περιλαμβάνονται οι τρεις εργασίες που υποβλήθηκαν στο SETN 2026 και δεν έγιναν δεκτές, καθώς και το αδημοσίευτο χειρόγραφο MESPI. Κάθε εργασία συνοδεύεται από σύντομη περιγραφή, σύνδεσμο στον σχετικό κώδικα και πρόσβαση στο πλήρες PDF.
+Στη [συλλογή papers](../../documents/prior-work/README.md) περιλαμβάνονται οι τρεις εργασίες που υποβλήθηκαν αρχικά στο SETN 2026, η τρίτη στην αναθεωρημένη και διευρυμένη εκδοχή της (Αύγουστος 2026), καθώς και το αδημοσίευτο χειρόγραφο MESPI. Κάθε εργασία συνοδεύεται από σύντομη περιγραφή, σύνδεσμο στον σχετικό κώδικα και πρόσβαση στο πλήρες PDF.
 
 | Αντικείμενο | Πλήρες κείμενο |
 |---|---|
 | Βαθμονομημένη συνθετική εποπτεία για ESPI | [χειρόγραφο](../../documents/prior-work/setn-calibrated-espi-supervision.pdf) |
 | Ερμηνεύσιμη ταξινόμηση τρόπων ταλάντωσης | [χειρόγραφο](../../documents/prior-work/setn-espi-mode-classification.pdf) |
-| Προσοχή καναλιών και αποθορυβοποίηση | [αναθεωρημένο χειρόγραφο](../../documents/prior-work/setn-espi-attention-denoising.pdf) |
+| Λειτουργική εξουδετέρωση της προσοχής καναλιών και υπό συνθήκη προβλεπτική χρησιμότητα | [αναθεωρημένο χειρόγραφο (2026)](../../documents/prior-work/setn-espi-attention-denoising.pdf) |
 | Προσδιοειαμός και γεωμετρία αντιστροφής MESPI | [Πλήρες paper](../../documents/prior-work/mespi-inverse-geometry.pdf) |
 
 ## Μεταπτυχιακή έρευνα: ταλαντώσεις μουσικών οργάνων
@@ -75,7 +75,7 @@ $$
 - [Νευρωνικά μοντέλα ταξινόμησης](https://github.com/GeorgeSpy/ESPI-CNN-Particle-Detection/blob/master/README.md).
 - [Κατεύθυνση ανάπτυξης αναπαραστάσεων και τελεστή παρατήρησης](https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/README.md).
 - [Πλήρες χειρόγραφο MESPI](../../documents/prior-work/mespi-inverse-geometry.pdf).
-- [Τρία χειρόγραφα SETN 2026](../../documents/prior-work/README.md).
+- [Αδημοσίευτες εργασίες SETN 2026 και MESPI](../../documents/prior-work/README.md).
 - [Προδιαγραφή του M_ESPI](https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/docs/MESPI_OPERATOR_SPEC.md).
 
 [Βιογραφικό](index.md) · [Σύνοψη της πρότασης](../start/overview.md) · [Σχολιασμός της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%A0%CF%81%CE%BF%CE%B3%CE%B5%CE%BD%CE%AD%CF%83%CF%84%CE%B5%CF%81%CE%B7+%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1+%CE%BA%CE%B1%CE%B9+%CE%B4%CE%B7%CE%BC%CF%8C%CF%83%CE%B9%CE%B1+%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%B7%CF%84%CE%B9%CE%BA%CE%AC+%CE%AD%CF%81%CE%B3%CE%B1&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F2a4982bfbc9453edc5923766692c5a74dc90709a%2Fdocs%2Fauthor%2Fprior-work.md)
