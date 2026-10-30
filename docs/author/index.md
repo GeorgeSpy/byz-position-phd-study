@@ -47,7 +47,7 @@
 - *[Interpretable ESPI Mode Classification under Data Scarcity with Frequency-Prior Hybrid Random Forests](../../documents/prior-work/setn-espi-mode-classification.pdf)*.
 - *[When Attention Becomes Invisible - and When It Helps: ECA, Supervision Realism, and Downstream ESPI Denoising](../../documents/prior-work/setn-espi-attention-denoising.pdf)* (αναθεωρημένο paper).
 
-**Επιπλέον χειρόγραφο, διαθέσιμο σε πλήρες κείμενο:** *[Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../documents/prior-work/mespi-inverse-geometry.pdf)*.
+**Επιπλέον paper, διαθέσιμο σε πλήρες κείμενο:** *[Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../documents/prior-work/mespi-inverse-geometry.pdf)*.
 
 Η [συλλογή ερευνητικών εργασιών](../../documents/prior-work/README.md) περιλαμβάνει τα πλήρη κείμενα και τεκμηριώνει την κατάστασή τους. Τα [δημόσια ερευνητικά αποθετήρια](prior-work.md#public-repositories) παρέχουν τις συναφείς υλοποιήσεις και την υπολογιστική τεκμηρίωση.
 
