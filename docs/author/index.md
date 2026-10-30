@@ -39,9 +39,9 @@
 
 Η ερευνητική συνέχεια αφορά τη μάθηση αναπαραστάσεων και τη δομική προσδιορισιμότητα και αντιστροφή ενός χρονικά ολοκληρωμένου τελεστή παρατήρησης ESPI με συνάρτηση Bessel. Η γραμμή αυτή παρέχει εμπειρία στον ελεγχόμενο σχεδιασμό συγκρίσεων, στην αβεβαιότητα, στα αντίστροφα προβλήματα και στη σύνδεση φυσικά ερμηνεύσιμων δομών με εκμαθημένες αναπαραστάσεις.
 
-## Αδημοσίευτα χειρόγραφα
+## Αδημοσίευτα paper
 
-**Τρεις εργασίες συνεδρίου (υποβλήθηκαν στο SETN 2026, δεν έγιναν δεκτές):**
+**Τρεις εργασίες συνεμδρίου βασισμένα στη διπλωματική εργασία του μεταπτυχιακού  (υποβλήθηκαν αρχικα στο SETN 2026):**
 
 - *[Calibrated Pseudo-Noisy Supervision for ESPI Denoising with Severity-Controlled Evaluation](../../documents/prior-work/setn-calibrated-espi-supervision.pdf)*.
 - *[Interpretable ESPI Mode Classification under Data Scarcity with Frequency-Prior Hybrid Random Forests](../../documents/prior-work/setn-espi-mode-classification.pdf)*.
