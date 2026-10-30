@@ -6,15 +6,15 @@
 
 <a id="manuscripts"></a>
 
-## Papers SETN 2026 και MESPI
+## Αδημοσίευτα χειρόγραφα: SETN 2026 και MESPI
 
-Στη [συλλογή papers](../../documents/prior-work/README.md) περιλαμβάνονται οι τρεις εργασίες που υποβλήθηκαν στο SETN 2026 και το πλήρες MESPI. Κάθε εργασία συνοδεύεται από σύντομη περιγραφή, σύνδεσμο στον σχετικό κώδικα και πρόσβαση στο πλήρες PDF.
+Στη [συλλογή papers](../../documents/prior-work/README.md) περιλαμβάνονται οι τρεις εργασίες που υποβλήθηκαν στο SETN 2026 και δεν έγιναν δεκτές, καθώς και το αδημοσίευτο χειρόγραφο MESPI. Κάθε εργασία συνοδεύεται από σύντομη περιγραφή, σύνδεσμο στον σχετικό κώδικα και πρόσβαση στο πλήρες PDF.
 
 | Αντικείμενο | Πλήρες κείμενο |
 |---|---|
-| Βαθμονομημένη συνθετική εποπτεία για ESPI | [paper SETN](../../documents/prior-work/setn-calibrated-espi-supervision.pdf) |
-| Ερμηνεύσιμη ταξινόμηση τρόπων ταλάντωσης | [paper SETN](../../documents/prior-work/setn-espi-mode-classification.pdf) |
-| Προσοχή καναλιών και αποθορυβοποίηση | [Αναθεωρημένο paper SETN](../../documents/prior-work/setn-espi-attention-denoising.pdf) |
+| Βαθμονομημένη συνθετική εποπτεία για ESPI | [χειρόγραφο](../../documents/prior-work/setn-calibrated-espi-supervision.pdf) |
+| Ερμηνεύσιμη ταξινόμηση τρόπων ταλάντωσης | [χειρόγραφο](../../documents/prior-work/setn-espi-mode-classification.pdf) |
+| Προσοχή καναλιών και αποθορυβοποίηση | [αναθεωρημένο χειρόγραφο](../../documents/prior-work/setn-espi-attention-denoising.pdf) |
 | Προσδιοειαμός και γεωμετρία αντιστροφής MESPI | [Πλήρες paper](../../documents/prior-work/mespi-inverse-geometry.pdf) |
 
 ## Μεταπτυχιακή έρευνα: ταλαντώσεις μουσικών οργάνων
