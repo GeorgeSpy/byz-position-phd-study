@@ -37,17 +37,17 @@
 
 Η μεταπτυχιακή του εργασία εξέτασε την αυτόματη αναγνώριση τρόπων ταλάντωσης μουσικών οργάνων από εικόνες Electronic Speckle Pattern Interferometry (ESPI), με επιβλέποντες τον Μ. Καλιακάτσο-Παπακώστα και τον Ι. Ορφανό. Συνδύασε πειραματικές μετρήσεις, παραγωγή συνθετικών δεδομένων με φυσική βαθμονόμηση, αποθορυβοποίηση εικόνων, κλασικές και νευρωνικές μεθόδους ταξινόμησης και ελέγχους γενίκευσης μεταξύ συνθηκών μέτρησης. Ο σχετικός κώδικας και οι ερευνητικές εργασίες διατίθενται στους συνδέσμους που ακολουθούν.
 
-Η ερευνητική συνέχεια αφορά τη μάθηση αναπαραστάσεων το δομικό προσδιορισμό και αντιστροφή ενός χρονικά ολοκληρωμένου τελεστή παρατήρησης ESPI με συνάρτηση Bessel. Η γραμμή αυτή παρέχει εμπειρία στον ελεγχόμενο σχεδιασμό συγκρίσεων, στην αβεβαιότητα, στα αντίστροφα προβλήματα και στη σύνδεση φυσικά ερμηνεύσιμων δομών με εκμαθημένες αναπαραστάσεις.
+Η ερευνητική συνέχεια αφορά τη μάθηση αναπαραστάσεων, καθώς και τον δομικό προσδιορισμό και την αντιστροφή ενός χρονικά ολοκληρωμένου τελεστή παρατήρησης ESPI με συνάρτηση Bessel. Η γραμμή αυτή παρέχει εμπειρία στον ελεγχόμενο σχεδιασμό συγκρίσεων, στην αβεβαιότητα, στα αντίστροφα προβλήματα και στη σύνδεση φυσικά ερμηνεύσιμων δομών με εκμαθημένες αναπαραστάσεις.
 
-## Αδημοσίευτα paper
+## Αδημοσίευτες εργασίες
 
-**Τρεις εργασίες συνεμδρίου βασισμένα στη διπλωματική εργασία του μεταπτυχιακού  (υποβλήθηκαν αρχικα στο SETN 2026):**
+**Τρεις εργασίες συνεδρίου βασισμένες στη μεταπτυχιακή διπλωματική εργασία (υποβλήθηκαν αρχικά στο SETN 2026):**
 
 - *[Calibrated Pseudo-Noisy Supervision for ESPI Denoising with Severity-Controlled Evaluation](../../documents/prior-work/setn-calibrated-espi-supervision.pdf)*.
 - *[Interpretable ESPI Mode Classification under Data Scarcity with Frequency-Prior Hybrid Random Forests](../../documents/prior-work/setn-espi-mode-classification.pdf)*.
-- *[When Attention Becomes Invisible - and When It Helps: ECA, Supervision Realism, and Downstream ESPI Denoising](../../documents/prior-work/setn-espi-attention-denoising.pdf)* (αναθεωρημένο paper).
+- *[Beyond Reconstruction: Functional Neutralization of Channel Attention and Conditional Predictive Utility in ESPI Denoising](../../documents/prior-work/setn-espi-attention-denoising.pdf)* — αναθεωρημένη και διευρυμένη εκδοχή (Αύγουστος 2026), με τους Μ. Καλιακάτσο-Παπακώστα και Ι. Ορφανό.
 
-**Επιπλέον paper, διαθέσιμο σε πλήρες κείμενο:** *[Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../documents/prior-work/mespi-inverse-geometry.pdf)*.
+**Επιπλέον εργασία, διαθέσιμη σε πλήρες κείμενο:** *[Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../documents/prior-work/mespi-inverse-geometry.pdf)*.
 
 Η [συλλογή ερευνητικών εργασιών](../../documents/prior-work/README.md) περιλαμβάνει τα πλήρη κείμενα και τεκμηριώνει την κατάστασή τους. Τα [δημόσια ερευνητικά αποθετήρια](prior-work.md#public-repositories) παρέχουν τις συναφείς υλοποιήσεις και την υπολογιστική τεκμηρίωση.
 
