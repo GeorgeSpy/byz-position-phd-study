@@ -1,4 +1,4 @@
-# The Byzantine Melodic Formula as a Computational Unit
+# The Byzantine Melodic Formulae (thesis) as a Computational Unit
 
 <!-- language-switch:start -->
 **Language / Γλώσσα:** [Ελληνικά](../README.md) · **English** · [Translation progress](docs/translation-status.md)
