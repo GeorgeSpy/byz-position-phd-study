@@ -75,6 +75,30 @@
       "git_sha": "c82e161b1583990184fcf9716aa54fa86e204504",
       "status_basis": "author statement and the supplied manuscript",
       "selected_on": "2026-10-21"
+    },
+    {
+      "id": "msc-thesis",
+      "original_filename": "Διπλωματική Εργασία (PDF)",
+      "path": "msc-thesis-bouzouki-espi.pdf",
+      "title": "Αυτόματη Ταξινόμηση των Τρόπων Δόνησης σε Όργανα της Οικογένειας του Μπουζουκιού μέσω Τεχνικών Μηχανικής Μάθησης και Προηγμένης Επεξεργασίας Συμβολομετρικών Εικόνων",
+      "title_en": "Automated Classification of Vibration Modes in Bouzouki Family Instruments via Machine Learning Techniques and Advanced Interferometric Image Processing",
+      "status": "msc_thesis",
+      "status_label": "Μεταπτυχιακή διπλωματική εργασία (Μάρτιος 2026)",
+      "authors": [
+        "Γεώργιος Σπυριδάκης"
+      ],
+      "supervisor": "Μάξιμος Καλιακάτσος-Παπακώστας",
+      "committee": [
+        "Μάξιμος Καλιακάτσος-Παπακώστας",
+        "Ιωάννης Ορφανός",
+        "Ευάγγελος Κασέλουρης"
+      ],
+      "institution": "Ελληνικό Μεσογειακό Πανεπιστήμιο — ΠΜΣ Μουσική Τεχνολογία και Εφαρμογές",
+      "pages": 283,
+      "bytes": 7538792,
+      "sha256": "3830be3bebb38997fed5675c8a9eed54e6affc34b8fa826aee99bd7d8d19a7c7",
+      "git_sha": "269636d58086841b8902cb191be2d789d4977227",
+      "selected_on": "2026-10-30"
     }
   ]
 }
