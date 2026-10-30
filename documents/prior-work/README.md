@@ -1,4 +1,4 @@
-# Αδημοσίευτα χειρόγραφα: SETN 2026 και MESPI
+# Αδημοσίευτα paper: SETN 2026 και MESPI
 
 [Προγενέστερη εργασία](../../docs/author/prior-work.md) · [Βιογραφικό](../../docs/author/index.md) · [Ερευνητική πρόταση](../README.md) · [Αρχική σελίδα](../../README.md)
 
