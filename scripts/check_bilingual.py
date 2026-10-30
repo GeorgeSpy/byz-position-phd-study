@@ -11,6 +11,7 @@ import hashlib
 import json
 import re
 import sys
+from check_markdown_math import math_spans
 
 ROOT = Path(__file__).resolve().parents[1]
 SWITCH = re.compile(
@@ -46,7 +47,7 @@ def anchors(text):
 
 
 def equations(text):
-    blocks = re.findall(r"^" + chr(96)*3 + r"math\n([\s\S]*?)\n" + chr(96)*3, text, re.M)
+    blocks = [tex.strip() for _, kind, tex in math_spans(text) if kind == 'display']
     for old, new in LABELS.items():
         blocks = [x.replace(old, new) for x in blocks]
     return blocks

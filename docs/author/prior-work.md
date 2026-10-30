@@ -49,11 +49,7 @@
 
 Το πλήρες paper [Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../documents/prior-work/mespi-inverse-geometry.pdf), του Georgios Spyridakis, αναπτύσσει έναν πιθανοτικό τελεστή παρατήρησης και εξετάζει την πληροφορία που επιτρέπει την αντιστροφή του. Ο πυρήνας γράφεται
 
-$$
-\mu(W)=A+B\,J_0\!\bigl(cW\bigr)^2,
-\qquad
-I\sim p\!\left(I\mid\mu(W),\eta\right).
-$$
+$$\mu(W)=A+B\,J_0\!\bigl(cW\bigr)^2, \qquad I\sim p\!\big(I\vert\mu(W),\eta\big).$$
 
 Η $\mu(W)$ είναι η μέση τιμή του βαθμονομημένου στατιστικού μεγέθους δεύτερης τάξης που ορίζει το paper. Το $W$ είναι το προσημασμένο πεδίο πλάτους ταλάντωσης, το $A$ ο όρος υποβάθρου του συγκεκριμένου μεγέθους, το $B$ ο συντελεστής διαμόρφωσης με τις ίδιες μονάδες με τη $\mu$, το $c$ ο συντελεστής οπτικής ευαισθησίας και το $\eta$ οι παράμετροι του στατιστικού μοντέλου και της μέτρησης. Η $J_0$ είναι η συνάρτηση Bessel πρώτου είδους και μηδενικής τάξης.
 
