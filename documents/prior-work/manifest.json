@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_on": "2026-10-30",
+  "updated_on": "2026-10-31",
   "collection": "Prior research manuscripts supplied by the author",
   "status_policy": "Submission status follows the author statement; PDF authorship labels are preserved. MESPI is recorded as a full research manuscript.",
   "documents": [
@@ -99,6 +99,25 @@
       "sha256": "3830be3bebb38997fed5675c8a9eed54e6affc34b8fa826aee99bd7d8d19a7c7",
       "git_sha": "269636d58086841b8902cb191be2d789d4977227",
       "selected_on": "2026-10-30"
+    },
+    {
+      "id": "interwar-romania-paper",
+      "original_filename": "ergasia_romania.pdf",
+      "path": "byzantine-music-interwar-romania.pdf",
+      "title": "Βυζαντινή μουσική, εθνική ταυτότητα και εκπαίδευση στη Ρουμανία του Μεσοπολέμου (1918–1940): Η Τρανσυλβανία σε συγκριτική προοπτική",
+      "title_en": "Byzantine chant, national identity and education in interwar Romania (1918–1940): Transylvania in comparative perspective",
+      "status": "course_paper",
+      "status_label": "Εργασία μαθήματος ΠΜΣ (Φεβρουάριος 2022)",
+      "authors": [
+        "Γεώργιος Σπυριδάκης"
+      ],
+      "institution": "Πανεπιστήμιο Κρήτης — ΠΜΣ Πολιτισμική Ανάλυση και Εκπαίδευση",
+      "course": "Ιστορική Έρευνα",
+      "pages": 63,
+      "bytes": 314063,
+      "sha256": "91cc3706e9a113b158798b490eb45ce69250111c021898a795413fd99d0a33e5",
+      "git_sha": "ccd58ef749f7196e43122fadc6f09e7f27606e4d",
+      "selected_on": "2026-10-31"
     }
   ]
 }
