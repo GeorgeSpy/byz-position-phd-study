@@ -211,6 +211,8 @@ Starts and ends remain paired: the admissible alternatives `(4,11)` and `(6,13)`
 
 The $B_x$ sets are constructed before access to predictions from the compared models. The sources supporting each alternative pair, the independently recorded assessments, and the procedure for resolving disagreements are retained. The tolerance $\tau_b$ is used for diagnostic boundary F1 and a separate tolerant segment F1, without affecting J.
 
+PE0 verifies the $B_x$ sets through inter-annotator agreement and common atomic-event coordinates. Exact F1 and diagnostic tolerance-based F1 using $\tau_b$ are reported side by side to assess small boundary discrepancies.
+
 ### 9.2 Maximum-cardinality matching with correct family identity
 
 The primary matching procedure uses **edges jointly compatible in boundaries and family**, one-to-one, maximizing the number of successful matches with deterministic tie-breaking. The earlier geometric matching that ignores the label is retained separately **for diagnostic boundary F1**.
@@ -222,6 +224,8 @@ TP=m,\qquad FP=P-m,\qquad FN=X-m,\qquad F_{1,\mathrm{seg+fam}}=\frac{2m}{P+X}.
 $$
 
 For corpus-level micro-F1, TP/FP/FN are summed before calculating the ratio. An empty region with $P=X=0$ creates no artificial success in the numerator of corpus-level micro-F1. A fully empty standalone case is handled by a prespecified convention.
+
+**Exhaustively annotated scoring regions.** Representation selection and confirmatory complete-recognition evaluation use prespecified, non-overlapping scoring cores $C$, exhaustively annotated for occurrences under the declared annotation scheme. Each core has fully annotated contextual margins covering the prespecified maximum segment length $L_{\max}$. Predictions and reference occurrences count toward $P$ and $X$, respectively, when they start within $C$; complete boundaries are assessed even when extending into the annotated context. Predictions starting outside $C$ are excluded from its score. A prediction beginning within $C$ that exceeds $L_{\max}$ is recorded as invalid and as a false positive. Partially annotated material remains available for training under the separate partial-supervision objective.
 
 ### 9.3 When bipartite matching suffices and when global compatibility optimization is necessary
 
@@ -250,6 +254,10 @@ $G_A(R)$ is macro recall across known families **on complete gold-reference segm
 $$
 \widehat G_A(R)=\frac{1}{n_{\mathrm{rep}}}\sum_{r=1}^{n_{\mathrm{rep}}}\frac{1}{|\mathcal F|}\sum_{f\in\mathcal F}\frac{TP_{f,r}^{\mathrm{gold}}(R,A)}{n_f}.
 $$
+
+**Alternative gold segments for $G_A$.** For every occurrence $x$ with multiple admissible pairs in $B_x$, the primary family-adequacy test uses one musicologically prespecified pair $b_x^0\in B_x$. All selected pairs jointly form a globally admissible analysis and are finalized before examining model predictions. Each occurrence contributes weight one to family recall. A separate sensitivity analysis considers other admissible boundaries using prespecified aggregation with total weight one per occurrence.
+
+**Pilot threshold.** The two specialists record their assessments independently. Pilot medoid performance is measured on groups separate from those used for the main representation ranking and external evaluation, with a common known-family vocabulary and documented uncertainty.
 
 $g_{\min}$ is determined before ranking from independent expert assessments and a pilot medoid model:
 
@@ -280,7 +288,7 @@ Sensitivity analysis selects at most **one** $R_{\mathrm{sens}}$ among admissibl
 
 The unit of independence is the prespecified work–source group, with common draws across representations and training initializations. Resampling retains the pairing structure across the entire grid. The short proposal specifies **five shared training initializations**; any increase is decided and fixed before the main ranking.
 
-If a bootstrap sample has $n_f^{(b)}=0$ for a family, that family's recall is **undefined** in that sample. The event is explicitly recorded rather than automatically replaced with `0`. Feasible resampling procedures and their simultaneous coverage are evaluated in PE0/PE1. If reliability is insufficient, the conservative fallback reports **the whole grid as the uncertainty set**, while retaining one operational representation. A prespecified pilot criterion, such as coverage below `0.90` against nominal `0.95`, is an **operational readiness warning**, not automatic proof of nominal coverage.
+If a bootstrap draw has $n_f^{(b)}=0$ for any family, its recall is **undefined** in that draw. The draw is flagged as unsuitable for the simultaneous region involving $G_A$: recall is neither replaced by zero nor recalculated on a reduced family set. PE1 records missing-family frequency and the number of independent groups per family, and tests alternative resampling schemes for coverage of the same population estimand. Resampling conditioned on every family being present requires separate calibration. If coverage is inadequate or missing-family draws occur too often, the conservative fallback reports **the whole grid as the uncertainty set**, retaining one operational $R^\star$. PE1 prespecifies activation criteria (for example, coverage below `0.90` against nominal `0.95`, or missing-family draws above `5%`) and Monte Carlo precision for estimated coverage. This fallback concerns the selection set and does not automatically establish coverage of individual intervals.
 
 Nested group-wise evaluation repeats training, tuning, and selection within each external validation fold, thereby measuring **generalization of the selection procedure**. The final single representation is then selected on the full development corpus and fixed before independent A2/M2 evaluation. Closed historical and performance-based cases do not enter representation selection.
 
@@ -295,6 +303,8 @@ $$
 $$
 
 It is accompanied by $\Delta_{A-B}$ and a separate boundary-F1 contrast $\Delta_{A-C}^{\mathrm{bnd}}$. Joint resampling operates on the **complete paired profile** for each group because the twelve contrasts share works and random initializations.
+
+B/C results at the selected $R^\star$ are descriptive because the representation was selected using A's performance. The primary architecture comparison uses the entire grid.
 
 For A2, A's baseline segment score remains the reference. In M2, **$B0=A(R^\star)$**, while B1/B2/EISE are compared using the same input and compatible shared segmental infrastructure. The earlier analytical draft allowed **replacing A with B/C at a later stage** if practical equivalence was found; this belongs to an earlier design decision. The final specification retains A as the common infrastructure and B/C as comparators.
 
@@ -343,7 +353,7 @@ The complete evaluator implementation will be checked against a small exhaustive
 
 PE0/PE1 specify the implementation of rule J through the following deliverables:
 
-1. **Musicological reference annotation.** Document occurrences, gather independent specialist assessments, finalize $B_x$ sets, and define compatibility relations $\mathcal C_{\mathrm{legal}}$.
+1. **Musicological reference annotation.** Document occurrences, gather independent specialist assessments, finalize $B_x$ sets, choose one globally compatible reference pair per occurrence for $G_A$, define relations $\mathcal C_{\mathrm{legal}}$, and prespecify exhaustively annotated scoring cores with context margins.
 2. **Shared representation and decoding.** Verify the projection of $u_1/u_3$ onto atomic events, maintain a common output schema, and implement matching with tests T1–T8.
 3. **Family adequacy.** Record independent assessments from two specialists and evaluate the medoid model on an appropriate pilot corpus to predetermine $g_{\mathrm{use}}$, $\delta_{\mathrm{use}}$, and $g_{\min}$.
 4. **Statistical calibration.** Assess independent work–source groups, the number of shared initializations, resampling frequency with $n_f^{(b)}=0$, simultaneous coverage of the 78-dimensional region, and conservative procedures when coverage is inadequate.
