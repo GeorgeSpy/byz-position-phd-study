@@ -20,7 +20,7 @@
 
 Evaluation rests on blind judgements by independent specialists (M3a). M5-min applies the final model to complete works held out from training. The core is deliberately limited so that it is feasible. The probabilistic operator Mθέσις, listening studies, performance timing, the full M5 and the comparison with Znamenny chant are designed as [conditional extensions](#conditional-extensions) that would broaden the core as far as data and sources allow.
 
-**[Core research plan (Greek PDF)](../documents/core-research-plan.pdf)** — the current version; an English translation is in preparation. · [Earlier English short proposal (PDF)](../documents/short-proposal-en.pdf) · **Quick route:** [What is new](#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md)
+**[Core research plan (Greek PDF)](../documents/core-research-plan.pdf)** — the current version; an English translation is in preparation. · [Musicological memorandum (Greek PDF)](../documents/musicological-memorandum.pdf) · [Earlier English short proposal (PDF)](../documents/short-proposal-en.pdf) · **Quick route:** [What is new](#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md)
 
 A **melodic formula** (*thesis*) is the historically grounded musical formation studied here. Its **family**, **occurrence** and **realisation** have distinct analytical roles. [Definitions](docs/current/position-and-family.md).
 
