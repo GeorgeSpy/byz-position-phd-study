@@ -24,6 +24,10 @@ Metrophonia describes the course of quantitative movements, but can give differe
 
 The <code>old_witness_reading</code> relation connects $`H`$ to the witness actually read. The <code>actual_exemplar_of_exegete</code> relation—whether the exegete used precisely that witness—is recorded separately and may remain unknown. This distinction supports the historical interpretation of the result.
 
+### The colour of the cheironomic sign by evidence level
+
+Gheorghiță (2009, pp. 250–251) counts the red or black colour of the cheironomic sign in the older codices among the factors of variation; according to Apostolos Konstas, it indicates a simple or compound, shorter or longer development of the thesis. Because the New Method does not carry the old sign or its colour, colour is **not used** as an input feature in studies fed only by New Method material (M1, M2a, M5-min); its possible effect is examined only as a hypothesis on temporal expansion $`Q_x`$ and internal distribution $`p_x`$. When a passage is linked to a specific older witness, colour is recorded at the **source level**, and only where the reading is certain. It can then be tested whether colour predicts the extent of the exegesis in the forward channel and, conversely, whether the simple or compound function of the great hypostasis can be recovered probabilistically from the analytical notation.
+
 ## Probabilistic formulation
 
 A forward historical channel $`q_\phi(X_G\mid H,M,Z)`$ and prior $`p(H\mid M,Z)`$ determine the inverse distribution:
