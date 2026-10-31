@@ -43,6 +43,8 @@ Subsequent work addresses representation learning and the structural identifiabi
 
 **MSc thesis (March 2026, in Greek), supervised by M. Kaliakatsos-Papakostas:** *[Automated Classification of Vibration Modes in Bouzouki Family Instruments via Machine Learning Techniques and Advanced Interferometric Image Processing](../../../documents/prior-work/msc-thesis-bouzouki-espi.pdf)*.
 
+**Historical research paper (February 2022, in Greek), course “Historical Research”, MA programme “Cultural Analysis and Education”, University of Crete:** *[Byzantine chant, national identity and education in interwar Romania (1918–1940): Transylvania in comparative perspective](../../../documents/prior-work/byzantine-music-interwar-romania.pdf)*.
+
 **Three conference manuscripts derived from the MSc thesis (originally submitted to SETN 2026):**
 
 - *[Calibrated Pseudo-Noisy Supervision for ESPI Denoising with Severity-Controlled Evaluation](../../../documents/prior-work/setn-calibrated-espi-supervision.pdf)*.
