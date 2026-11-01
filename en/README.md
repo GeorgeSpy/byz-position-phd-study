@@ -88,3 +88,7 @@ The short proposal presents the research problem, methodology and expected contr
 [All reading routes](NAVIGATION.md) · [Reading paths](docs/start/reading-paths.md) · [Thematic index (Greek)](../docs/topics.md) · [Research roadmap (Greek)](../docs/roadmap.md) · [Questions and evidence (Greek)](../docs/start/review-guide.md)
 
 [Terminology](TERMINOLOGY.md) · [English translation progress](docs/translation-status.md)
+
+## License and rights
+
+Original author-owned research writing is proposed under **[CC BY-NC 4.0](../LICENSE)**, while specified project-authored code is proposed under **[MIT](../LICENSE-CODE)**. PDFs, third-party works, figures and other resources are reviewed separately. See [Licensing and third-party materials](../LICENSING.md) for exact scope and exceptions.
