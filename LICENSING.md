@@ -1,10 +1,10 @@
-# Licensing and third-party materials / Άδειες και υλικό τρίτων
+# Licensing and third-party materials
 
-**Status:** This document defines the license coverage when it appears on the repository's default branch. In a pull-request branch, it is a proposed policy for the repository owner's review. Verify the rights in each included work before merging.
+**Scope:** This document defines the licensing terms and exclusions for the repository. They apply only to material for which the respective licensor holds the necessary rights. Third-party rights and separate file-specific licenses remain unaffected.
 
 **Copyright (where applicable): © 2026 George Spyridakis.** Attribution must also acknowledge any other named authors and rightsholders of individual works.
 
-## 1. Original research writing / Πρωτότυπα ερευνητικά κείμενα
+## 1. Original research writing
 
 The original research prose, methodological explanations and author's textual documentation to which George Spyridakis holds the necessary rights are made available under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** license:
 
@@ -16,9 +16,8 @@ The covered written material includes original author-owned text in `README.md`,
 
 **Meaning:** Noncommercial redistribution and adaptation are allowed with appropriate attribution and required notices. Commercial uses require separate permission from the appropriate copyright holder(s).
 
-**Ελληνικά:** Τα πρωτότυπα ερευνητικά κείμενα και η τεκμηρίωση του δημιουργού καλύπτονται από την CC BY-NC 4.0, στο μέτρο που διαθέτει τα δικαιώματα αδειοδότησης. Η μη εμπορική αναδιανομή και προσαρμογή επιτρέπονται με αναφορά της πηγής και τήρηση των όρων της άδειας. Για εμπορική χρήση απαιτείται χωριστή άδεια των δικαιούχων.
 
-## 2. Project-authored source code / Πρωτότυπος κώδικας έργου
+## 2. Project-authored source code
 
 The repository-owner-authored Python utilities under `scripts/*.py` and `docs/research/znamenny-transfer/support/*.py` are offered under the [MIT License](LICENSE-CODE), **only to the extent the licensor owns or is authorized to license each contribution**.
 
@@ -30,9 +29,8 @@ These exclusions remain outside that grant pending a file-level provenance revie
 
 The MIT license does not override pre-existing licenses or rights of contributors and other authors. Further source-code files may be included only after their authorship and licensing have been checked.
 
-**Ελληνικά:** Για τα παραπάνω πρωτότυπα αρχεία Python εφαρμόζεται η MIT, εφόσον ο δημιουργός διαθέτει τα σχετικά δικαιώματα. Ο εισαγόμενος κώδικας, οι πρωτογενείς εξωτερικές υλοποιήσεις και τα επιμέρους δικαιώματα τρίτων διατηρούν τους δικούς τους όρους.
 
-## 3. Excluded pending separate rights review / Εξαιρέσεις έως χωριστό έλεγχο
+## 3. Excluded pending separate rights review
 
 The two licenses above **do not grant rights** to third-party material, including:
 
@@ -43,13 +41,12 @@ The two licenses above **do not grant rights** to third-party material, includin
 
 Public accessibility does not itself grant permission to republish or alter this excluded material. Existing statutory exceptions and individual rights remain unaffected.
 
-**Ελληνικά:** Τα PDF παλαιότερων ή συνυπογεγραμμένων εργασιών, οι εικόνες, τα μουσικά παραδείγματα, οι πηγές αρχείων, τα εξωτερικά δεδομένα και τα έργα τρίτων χρειάζονται αυτοτελή έλεγχο προέλευσης και δικαιωμάτων. Η δημόσια πρόσβαση δεν υποκαθιστά τη σχετική άδεια.
 
-## 4. Specific proposal PDFs / Συγκεκριμένα PDF της ερευνητικής πρότασης
+## 4. Specific proposal PDFs
 
 A stricter **CC BY-NC-ND 4.0** license may be selected for an explicitly identified author-owned PDF *only after* the copyright status and any coauthor or publisher obligations have been verified. No blanket BY-NC-ND grant is applied to the PDF collection through this document.
 
-## 5. Attribution and requests / Αναφορά πηγής και αιτήματα
+## 5. Attribution and requests
 
 Suggested attribution for material covered by CC BY-NC 4.0:
 

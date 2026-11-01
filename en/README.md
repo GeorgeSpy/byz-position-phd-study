@@ -91,4 +91,4 @@ The short proposal presents the research problem, methodology and expected contr
 
 ## License and rights
 
-Original author-owned research writing is proposed under **[CC BY-NC 4.0](../LICENSE)**, while specified project-authored code is proposed under **[MIT](../LICENSE-CODE)**. PDFs, third-party works, figures and other resources are reviewed separately. See [Licensing and third-party materials](../LICENSING.md) for exact scope and exceptions.
+Original author-owned research writing is licensed under **[CC BY-NC 4.0](../LICENSE)**, while specified project-authored code is licensed under **[MIT](../LICENSE-CODE)**. PDFs, third-party works, figures and other resources are reviewed separately. See [Licensing and third-party materials](../LICENSING.md) for exact scope and exceptions.
