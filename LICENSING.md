@@ -1,6 +1,6 @@
 # Licensing and third-party materials / Άδειες και υλικό τρίτων
 
-**Status:** Proposed licensing scheme for review. The applicable grants take effect for the specified material when this proposal is merged and published as the repository's licensing notice. The repository owner should review this document and verify the rights in each included work before merging.
+**Status:** This document defines the license coverage when it appears on the repository's default branch. In a pull-request branch, it is a proposed policy for the repository owner's review. Verify the rights in each included work before merging.
 
 **Copyright (where applicable): © 2026 George Spyridakis.** Attribution must also acknowledge any other named authors and rightsholders of individual works.
 
