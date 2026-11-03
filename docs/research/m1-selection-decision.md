@@ -261,9 +261,8 @@ $$
 $$
 
 $$
-\mathcal R^\star=\left\{R\in\widehat{\mathcal A}^{+}:L_{iR}\le0\quad\text{για κάθε }i\in\widehat{\mathcal A}^{-}\setminus\{R\}\right\}.
+\mathcal{R}^\star = \left\lbrace R \in \widehat{\mathcal{A}}^{+} : L_{iR} \le 0 \quad \text{για κάθε } i \in \widehat{\mathcal{A}}^{-} \setminus \lbrace R \rbrace \right\rbrace.
 $$
-
 Το $L_{iR}$ είναι το κάτω όριο της διαφοράς $J(R_i)-J(R)$. Αν το $\widehat{\mathcal A}^{-}$ είναι κενό, το σύνολο ισούται με $\widehat{\mathcal A}^{+}$. Εφόσον η κοινή περιοχή καλύπτει τα πραγματικά μεγέθη, κάθε πραγματικά επιλέξιμο άριστο R περιέχεται στο $\mathcal R^\star$. Η θεωρητική ιδιότητα εξαρτάται από την **πραγματική κοινή κάλυψη** της υπολογιστικής διαδικασίας.
 
 Η ευαισθησία επιλέγει έως **μία** $R_{\mathrm{sens}}$ από τα επιλέξιμα μέλη του συνόλου αβεβαιότητας, προτιμώντας διαφορετικό U και έπειτα υψηλότερο J. Η ευαισθησία είναι περιγραφική· η κύρια $\Delta_{\mathrm{hist}}$ υπολογίζεται στη μοναδική $R^\star$. Διατηρείται επίσης η αναφορά της οικογενειακής απώλειας $\Delta_G^{\mathrm{loss}}$.
