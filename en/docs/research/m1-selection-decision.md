@@ -193,3 +193,106 @@ For S6 specifically, empirical coverage of the simultaneous region at nominal 0.
 
 The generator produces controlled synthetic predictions and correlations. Empirical evaluation will measure corresponding quantities on genuinely annotated works and sources, including family-identity evidence, relational historical supervision, and the independent criteria used in A2/M2.
 
+## 9. Evaluation specification: complete boundary pairs, families, and legal analyses
+
+### 9.1 The set of admissible boundary pairs
+
+Each reference occurrence $x$ has a family $f_x$ and a documented, fixed set of admissible **complete** start–end pairs:
+
+$$
+B_x=\{(s_1,e_1),\ldots,(s_k,e_k)\}.
+$$
+
+Start and end coordinates remain paired: $(4,11)$ and $(6,13)$ do **not** imply an additional $(4,13)$. A prediction $y$ with $(\hat s_y,\hat e_y,\hat f_y)$ matches $x$ correctly only if $(\hat s_y,\hat e_y)\in B_x$ **and** $\hat f_y=f_x$. The primary metric uses **$\tau=0$** additional tolerance. Musicologically admissible boundary alternatives are already specified in $B_x$.
+
+The sets $B_x$ are constructed before the predictions of the compared models are examined. For each alternative pair, the sources, independent judgements, and disagreement-resolution procedure are retained. Boundary tolerance $\tau_b$ is used for diagnostic boundary F1 and a separate tolerant segment-F1; it does not alter J.
+
+### 9.2 Maximum-cardinality matching with correct family labels
+
+The principal evaluation uses **edges that jointly satisfy boundary and family criteria**, with one-to-one maximum-cardinality matching and deterministic tie-breaking. Geometric matching that disregards labels is performed separately **for diagnostic boundary F1**.
+
+Let $P$ denote the number of predictions, $X$ the number of reference occurrences, and $m$ the maximum number of correct matches. For a fixed reference count,
+
+$$
+TP=m,\qquad FP=P-m,\qquad FN=X-m,\qquad F_{1,\mathrm{seg+fam}}=\frac{2m}{P+X}.
+$$
+
+Corpus-wide micro-F1 aggregates TP/FP/FN **before** taking the ratio. An empty region with $P=X=0$ contributes no artificial success to the numerator of corpus-level micro-F1. An entirely empty, standalone evaluation case follows a prespecified convention.
+
+### 9.3 When bipartite matching suffices and when global compatibility must be enforced
+
+If the number of reference occurrences is fixed and local boundary alternatives can coexist, maximum **bipartite matching** over admissible, family-consistent edges is sufficient. If musicological evidence links adjacent choices through additional constraints, evaluation must consider the set of **globally legal complete analyses** $\mathcal C_{\mathrm{legal}}$. With fixed $X$, the objective is:
+
+$$
+m^\star=\max_{c\in\mathcal C_{\mathrm{legal}}}m(c),\qquad F_1=\frac{2m^\star}{P+X}.
+$$
+
+For alternative analyses with **different numbers of reference occurrences**, the more general definition applies:
+
+$$
+F_{1,\mathrm{seg+fam}}^\star=\max_{c\in\mathcal C_{\mathrm{legal}}}\frac{2m(c)}{P+X(c)}.
+$$
+
+The constraint structure determines whether bipartite matching, dynamic programming, or integer programming is appropriate. The general expression with variable $X(c)$ requires an explicitly prespecified evaluation regime and musicological verification of alternative **occurrences**, beyond alternative boundaries for a single occurrence.
+
+In the main non-overlapping semi-CRF pathway, decoded predictions cannot overlap. Examples involving overlapping predictions test the evaluator's response to outputs prohibited by that decoder and provide input-validity checks. **Non-overlapping** predictions may also require global compatibility when alternative reference analyses are interdependent.
+
+## 10. Family adequacy and statistical uncertainty
+
+### 10.1 Known boundaries and known families
+
+$G_A(R)$ denotes macro recall across known families **on complete gold-standard segments**, using forced-choice classification over a common vocabulary of known families. Abstention and unknown-family outputs are disabled for this specific test, so that representation-specific rejection thresholds cannot change eligibility. Open-set recognition, abstention, coverage, and their calibration are evaluated separately where they form part of the task.
+
+$$
+\widehat G_A(R)=\frac{1}{n_{\mathrm{rep}}}\sum_{r=1}^{n_{\mathrm{rep}}}\frac{1}{|\mathcal F|}\sum_{f\in\mathcal F}\frac{TP_{f,r}^{\mathrm{gold}}(R,A)}{n_f}.
+$$
+
+The threshold $g_{\min}$ is fixed before ranking, using independent specialist assessments and a pilot medoid:
+
+$$
+g_{\min}=\max\{g_{\mathrm{use}},\widehat G_0^{\mathrm{pilot}}+\delta_{\mathrm{use}}\}.
+$$
+
+An empty eligible set triggers the prespecified review of corpus and annotation readiness. Exact ties are resolved by preferring fewer additional feature layers and then the fixed, prespecified order of input units U.
+
+### 10.2 One operational R and one uncertainty set
+
+Exactly one R is selected for operational use. The simultaneous uncertainty region covers **66** pairwise J differences among the twelve representations and **12** G values: **78** quantities in total. Writing $L$ and $U$ for lower and upper confidence bounds, define:
+
+$$
+\widehat{\mathcal A}^{-}=\{R:L_G(R)\ge g_{\min}\},\qquad
+\widehat{\mathcal A}^{+}=\{R:U_G(R)\ge g_{\min}\},
+$$
+
+$$
+\mathcal R^\star=\left\{R\in\widehat{\mathcal A}^{+}:L_{iR}\le0\quad\text{για κάθε }i\in\widehat{\mathcal A}^{-}\setminus\{R\}\right\}.
+$$
+
+Here $L_{iR}$ is the lower bound of the difference $J(R_i)-J(R)$. If $\widehat{\mathcal A}^{-}$ is empty, the set equals $\widehat{\mathcal A}^{+}$. Whenever the simultaneous region covers the underlying population quantities, every truly eligible optimal representation lies in $\mathcal R^\star$. This theoretical property depends on the **actual simultaneous coverage** achieved by the estimation procedure.
+
+The sensitivity analysis selects at most **one** $R_{\mathrm{sens}}$ from eligible members of the uncertainty set, preferring a different U and then a higher J. This analysis is descriptive; the primary $\Delta_{\mathrm{hist}}$ is calculated with the single $R^\star$. Lost family recall $\Delta_G^{\mathrm{loss}}$ is also reported.
+
+### 10.3 Bootstrap inference with few independent groups
+
+The independent sampling unit is a prespecified work–source group. Each resample is shared across all representations and initialisations, retaining the pairing of the entire grid. The core proposal specifies **five common random initialisations**. Any increase is decided and fixed before the main ranking.
+
+If a bootstrap sample has $n_f^{(b)}=0$ for a family, that family's recall is **undefined** in the sample. This event is recorded rather than replaced automatically by zero. Feasibility and simultaneous coverage of the resampling procedure are evaluated in WP0/WP1. If reliability is inadequate, the conservative fallback reports **the entire grid as the uncertainty set**, while retaining a single operational R. A preregistered pilot trigger, such as coverage below 0.90 against a nominal 0.95, is a **warning/readiness criterion**, not proof of nominal coverage.
+
+Nested group-based validation repeats training, tuning, and selection within each outer evaluation fold, measuring **generalisation of the selection procedure**. The final operational R is then selected on the complete development corpus and fixed before independent A2/M2 evaluation. Held-out historical and performance cases play no role in selection.
+
+## 11. Architectural comparisons and continuity from M1 to A2 and M2
+
+M1 includes **36 architecture–representation conditions** (12 R × 3 architectures), before replication and any shared-classifier accounting. A/B/C provide a separate test of how joint family information affects segmentation.
+
+The main architectural contrast compares A with C, averaged across all representations:
+
+$$
+\Delta_{A-C}=\frac{1}{12}\sum_{R\in U\times\Phi}\left[F_{1,\mathrm{seg+fam}}(R,A)-F_{1,\mathrm{seg+fam}}(R,C)\right].
+$$
+
+It is accompanied by $\Delta_{A-B}$ and a separate boundary-F1 contrast $\Delta_{A-C}^{\mathrm{bnd}}$. Resampling is performed on each group's **complete paired profile**, because the twelve differences share works and random initialisations.
+
+A2 retains the selected architecture A as its common infrastructure. In [M2](m2-eise-research-design.md), A uses the same $R^\star$; symbolic recognition is assessed separately using $\mathrm{B0}_{\mathrm{sym}}$, and historical performance descriptions using $\mathrm{B0}_{\mathrm{profile}}$. B1, B2, and EISE are trained from shared initial weights in each replicate, according to the M2 protocol. The earlier policy of subsequently selecting B or C as the main architecture belongs to a preceding design stage. In the revised protocol, B/C remain independent architectural comparators.
+
+$G$ isolates discrimination between families at known boundaries. By contrast, M5-min processes complete works with predicted boundaries, open-set recognition, and possible abstention. Its metrics are reported separately.
+
