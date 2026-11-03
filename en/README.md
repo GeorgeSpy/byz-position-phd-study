@@ -8,7 +8,7 @@
 
 [Research biography](docs/author/index.md) · [Prior work and public code (Greek)](../docs/author/prior-work.md) · [Unpublished manuscripts](../documents/prior-work/README.md)
 
-> **Status (October 2026).** The proposal is under development and is being discussed with the Department of Music Technology and Acoustics at Hellenic Mediterranean University; it has not yet been submitted.
+> **Status (November 2026).** The proposal is under development and is being discussed with the Department of Music Technology and Acoustics at Hellenic Mediterranean University; it has not yet been submitted.
 
 ## The core research programme
 
@@ -18,7 +18,7 @@
   [Revised M1 methodology — representation selection and synthetic validation](docs/research/m1-selection-decision.md).
 - **A2 — The value of musicological knowledge.** Valid versus deliberately perturbed family specifications, used either additively or as structured logical constraints.
 - **M2 — Identity and realisation.** Learning from occurrences of the same family without losing their variation; a historical strand using exegeses of the same passage, only where the sources allow it.  
-  [Revised M2 methodology — EISE architecture and historical supervision](docs/research/m2-eise-research-design.md).
+  [Revised M2 methodology — family-based and historical supervision](docs/research/m2-eise-research-design.md).
 
 Evaluation rests on blind judgements by independent specialists (M3a). M5-min applies the final model to complete works held out from training. The core is deliberately limited so that it is feasible. The probabilistic operator Mθέσις, listening studies, performance timing, the full M5 and the comparison with Znamenny chant are designed as [conditional extensions](#conditional-extensions) that would broaden the core as far as data and sources allow.
 
