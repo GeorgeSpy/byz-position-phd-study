@@ -26,6 +26,8 @@ The English edition is being developed as a parallel reader. Both revised core s
 | [docs/start/reading-paths.md](../../docs/start/reading-paths.md) | [Reading paths](start/reading-paths.md) |
 | [docs/research/m1-selection-decision.md](../../docs/research/m1-selection-decision.md) | [M1 — revised representation design and selection rule J](research/m1-selection-decision.md) |
 | [docs/research/m2-eise-research-design.md](../../docs/research/m2-eise-research-design.md) | [M2 — revised EISE research design and evaluation](research/m2-eise-research-design.md) |
+| [docs/research/a2-knowledge-design.md](../../docs/research/a2-knowledge-design.md) | [A2 — musicological knowledge as an experimental variable](research/a2-knowledge-design.md) |
+| [docs/appendices/k.md](../../docs/appendices/k.md) | [Appendix K — A2 technical protocol v16.5](appendices/k.md) |
 | [docs/research/ecsi/README.md](../../docs/research/ecsi/README.md) | [ECSI overview and contribution](research/ecsi/README.md) |
 | [docs/research/ecsi/01-research-question.md](../../docs/research/ecsi/01-research-question.md) | [ECSI research question and ontology](research/ecsi/01-research-question.md) |
 | [docs/research/ecsi/02-architecture.md](../../docs/research/ecsi/02-architecture.md) | [ECSI-D probabilistic architecture](research/ecsi/02-architecture.md) |
