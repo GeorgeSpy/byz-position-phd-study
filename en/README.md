@@ -1,4 +1,4 @@
-# The Byzantine Melodic Formula (*thesis*) as a Computational Unit
+# The Melodic Formula (*Thesis*) as a Computational Unit of Byzantine Music
 
 <!-- language-switch:start -->
 **Language / Γλώσσα:** [Ελληνικά](../README.md) · **English** · [Translation progress](docs/translation-status.md)
@@ -8,7 +8,7 @@
 
 [Research biography](docs/author/index.md) · [Prior work and public code (Greek)](../docs/author/prior-work.md) · [Unpublished manuscripts](../documents/prior-work/README.md)
 
-> **Status (October 2026).** Proposal in preparation for the Department of Music Technology and Acoustics, Hellenic Mediterranean University; not yet submitted.
+> **Status (October 2026).** The proposal is under development and is being discussed with the Department of Music Technology and Acoustics at Hellenic Mediterranean University; it has not yet been submitted.
 
 ## The core research programme
 
@@ -79,7 +79,7 @@ The following designs are developed to broaden the core as far as possible. Each
 | examine the operator's definition and contribution | [Mthesis](docs/current/m-thesis.md) |
 | explore the new Musicology-Informed Machine Learning research direction | **[ECSI — Musical Formula Family Signatures](docs/research/ecsi/README.md)** |
 | explore Byzantine notation and formulae | [Musicological documentation (Greek)](../docs/musicology/index.md) |
-| understand the contribution and its relationship to previous research | [Contributions by field](docs/review/contribution-matrix.md) |
+| understand the contribution and its relationship with previous research | [Contributions by field](docs/review/contribution-matrix.md) |
 | read a full chapter or technical appendix | [Detailed chapters and appendices (Greek)](../docs/full/index.md) |
 | find a particular reference | [Methodological bibliography (Greek notes; original-language titles)](../docs/bibliography/methodology.md) · [Bibliographic index (Greek)](../docs/bibliography/index.md) |
 
