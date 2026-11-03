@@ -14,7 +14,7 @@ Start with the [short research proposal in English](../documents/short-proposal-
 |---|---|---|
 | Overall design | [Overview](docs/start/overview.md) | [Method map](docs/current/index.md) |
 | Formula identity and MIR | [Musical example](docs/examples/index.md), [identity route](docs/start/overview.md#the-route-of-musical-identity) | [Detailed protocols (Greek)](../docs/full/index.md) |
-| **Revised M1 and M2 methodology (Greek)** | [M1 — representation selection](../docs/research/m1-selection-decision.md) | [M2 — EISE architecture and historical supervision](../docs/research/m2-eise-research-design.md) |
+| **Revised M1 and M2 methodology** | [M1 — representation selection](docs/research/m1-selection-decision.md) | [M2 — EISE architecture and historical supervision](docs/research/m2-eise-research-design.md) |
 | Historical transformations | [ATL](docs/current/atl.md) | [Exegesis and sources (Greek)](../docs/musicology/04-exegesis.md) |
 | Older notation from exegesis | [ATL-INV](docs/current/inverse-problem.md) | [Musicological foundations (Greek)](../docs/musicology/06-old-notation.md) |
 | Probabilistic realisation | [Mthesis operator](docs/current/m-thesis.md) | [Full mathematical development](docs/current/m-thesis-technical.md) |
