@@ -1,0 +1,362 @@
+[
+  {
+    "seed": 5000,
+    "C": 100.0,
+    "fixed_families": 6,
+    "final_temperature": 14.052130992365344,
+    "final_base_AP": 0.6331557400439696,
+    "methods": {
+      "A_base_training_groups": {
+        "lambda_hat": 1.5622448346858513,
+        "lambda_below_point1": false,
+        "lambda_at_upper": false,
+        "wF": [
+          0.7999999999999999,
+          0.10000000000000023,
+          0.1
+        ],
+        "wD": [
+          0.8,
+          0.10000000000000021,
+          0.1
+        ],
+        "AP_F": 0.8178922174337883,
+        "AP_D": 0.8933434249435174,
+        "delta_logic": 0.07545120750972911
+      },
+      "B_held_out_head_groups": {
+        "lambda_hat": 1.8154942417178075,
+        "lambda_below_point1": false,
+        "lambda_at_upper": false,
+        "wF": [
+          0.7999999999999999,
+          0.10000000000000002,
+          0.10000000000000002
+        ],
+        "wD": [
+          0.8,
+          0.10000000000000006,
+          0.10000000000000002
+        ],
+        "AP_F": 0.8178922174337883,
+        "AP_D": 0.8982751423365248,
+        "delta_logic": 0.08038292490273657
+      },
+      "C_group_crossfit_ensemble_sensitivity": {
+        "lambda_hat": 1.9388388805281818,
+        "lambda_below_point1": false,
+        "lambda_at_upper": false,
+        "wF": [
+          0.8,
+          0.1,
+          0.10000000000000012
+        ],
+        "wD": [
+          0.8,
+          0.10000000000000024,
+          0.1
+        ],
+        "AP_F": 0.8418559821091457,
+        "AP_D": 0.9106813424262944,
+        "delta_logic": 0.0688253603171487
+      }
+    },
+    "crossfit_temperatures": [
+      8.993557422402308,
+      10.13438793753837,
+      9.662752466428339,
+      9.30275240878103,
+      10.579013306330372
+    ],
+    "crossfit_base_AP": 0.6734926179169727,
+    "scope": "grouped synthetic logistic prototype; C uses five additional bases and an ensemble"
+  },
+  {
+    "seed": 5001,
+    "C": 100.0,
+    "fixed_families": 6,
+    "final_temperature": 16.242350647023407,
+    "final_base_AP": 0.6180148377389412,
+    "methods": {
+      "A_base_training_groups": {
+        "lambda_hat": 1.197340234398144,
+        "lambda_below_point1": false,
+        "lambda_at_upper": false,
+        "wF": [
+          0.8,
+          0.1,
+          0.10000000000000005
+        ],
+        "wD": [
+          0.8,
+          0.1,
+          0.10000000000000005
+        ],
+        "AP_F": 0.8577955187128891,
+        "AP_D": 0.9136883417283371,
+        "delta_logic": 0.05589282301544807
+      },
+      "B_held_out_head_groups": {
+        "lambda_hat": 2.0,
+        "lambda_below_point1": false,
+        "lambda_at_upper": true,
+        "wF": [
+          0.8,
+          0.1,
+          0.10000000000000009
+        ],
+        "wD": [
+          0.8,
+          0.10000000000000006,
+          0.1
+        ],
+        "AP_F": 0.8577955187128891,
+        "AP_D": 0.924051256536381,
+        "delta_logic": 0.06625573782349192
+      },
+      "C_group_crossfit_ensemble_sensitivity": {
+        "lambda_hat": 1.5657404787193756,
+        "lambda_below_point1": false,
+        "lambda_at_upper": false,
+        "wF": [
+          0.8,
+          0.1,
+          0.10000000000000005
+        ],
+        "wD": [
+          0.8,
+          0.1,
+          0.10000000000000042
+        ],
+        "AP_F": 0.8958886390203654,
+        "AP_D": 0.9423836860270569,
+        "delta_logic": 0.04649504700669149
+      }
+    },
+    "crossfit_temperatures": [
+      10.239023836134828,
+      11.467044868316572,
+      12.354370135513777,
+      11.146597695804232,
+      11.338000115967509
+    ],
+    "crossfit_base_AP": 0.6614125806711666,
+    "scope": "grouped synthetic logistic prototype; C uses five additional bases and an ensemble"
+  },
+  {
+    "seed": 5002,
+    "C": 100.0,
+    "fixed_families": 6,
+    "final_temperature": 6.5186916087227,
+    "final_base_AP": 0.6249098767610068,
+    "methods": {
+      "A_base_training_groups": {
+        "lambda_hat": 1.0085436131905952,
+        "lambda_below_point1": false,
+        "lambda_at_upper": false,
+        "wF": [
+          0.8,
+          0.10000000000000031,
+          0.1
+        ],
+        "wD": [
+          0.8,
+          0.1,
+          0.10000000000000019
+        ],
+        "AP_F": 0.8015756829338981,
+        "AP_D": 0.8306110285679735,
+        "delta_logic": 0.029035345634075393
+      },
+      "B_held_out_head_groups": {
+        "lambda_hat": 0.8484156787110668,
+        "lambda_below_point1": false,
+        "lambda_at_upper": false,
+        "wF": [
+          0.7999999999999999,
+          0.1,
+          0.10000000000000017
+        ],
+        "wD": [
+          0.8,
+          0.1,
+          0.1000000000000002
+        ],
+        "AP_F": 0.8015756829338981,
+        "AP_D": 0.8271455111067637,
+        "delta_logic": 0.025569828172865572
+      },
+      "C_group_crossfit_ensemble_sensitivity": {
+        "lambda_hat": 1.498268977198392,
+        "lambda_below_point1": false,
+        "lambda_at_upper": false,
+        "wF": [
+          0.8,
+          0.1,
+          0.1
+        ],
+        "wD": [
+          0.8,
+          0.10000000000000014,
+          0.1
+        ],
+        "AP_F": 0.8102692638207992,
+        "AP_D": 0.8450249136535338,
+        "delta_logic": 0.0347556498327346
+      }
+    },
+    "crossfit_temperatures": [
+      14.779363270829126,
+      20.628184577021187,
+      20.857077038022588,
+      20.35789613846528,
+      22.5733961554138
+    ],
+    "crossfit_base_AP": 0.6375341556967541,
+    "scope": "grouped synthetic logistic prototype; C uses five additional bases and an ensemble"
+  },
+  {
+    "seed": 5003,
+    "C": 100.0,
+    "fixed_families": 6,
+    "final_temperature": 15.687200154058967,
+    "final_base_AP": 0.6441250180521606,
+    "methods": {
+      "A_base_training_groups": {
+        "lambda_hat": 1.3179448721702238,
+        "lambda_below_point1": false,
+        "lambda_at_upper": false,
+        "wF": [
+          0.8,
+          0.10000000000000009,
+          0.1
+        ],
+        "wD": [
+          0.8,
+          0.10000000000000045,
+          0.1
+        ],
+        "AP_F": 0.9104971408523506,
+        "AP_D": 0.9434319889581942,
+        "delta_logic": 0.032934848105843684
+      },
+      "B_held_out_head_groups": {
+        "lambda_hat": 2.0,
+        "lambda_below_point1": false,
+        "lambda_at_upper": true,
+        "wF": [
+          0.8,
+          0.10000000000000002,
+          0.1
+        ],
+        "wD": [
+          0.8,
+          0.1,
+          0.10000000000000038
+        ],
+        "AP_F": 0.9104971408523506,
+        "AP_D": 0.9449260645691083,
+        "delta_logic": 0.034428923716757764
+      },
+      "C_group_crossfit_ensemble_sensitivity": {
+        "lambda_hat": 1.8860532244775008,
+        "lambda_below_point1": false,
+        "lambda_at_upper": false,
+        "wF": [
+          0.8,
+          0.1,
+          0.10000000000000007
+        ],
+        "wD": [
+          0.8,
+          0.1,
+          0.10000000000000075
+        ],
+        "AP_F": 0.9391435465759904,
+        "AP_D": 0.9626497937185398,
+        "delta_logic": 0.02350624714254934
+      }
+    },
+    "crossfit_temperatures": [
+      10.893319204871997,
+      13.535968116594448,
+      11.977593389816972,
+      13.999548514856317,
+      12.612796028590772
+    ],
+    "crossfit_base_AP": 0.7030198531232551,
+    "scope": "grouped synthetic logistic prototype; C uses five additional bases and an ensemble"
+  },
+  {
+    "seed": 5004,
+    "C": 100.0,
+    "fixed_families": 6,
+    "final_temperature": 14.259305762145031,
+    "final_base_AP": 0.6729246579671512,
+    "methods": {
+      "A_base_training_groups": {
+        "lambda_hat": 1.1697474073547136,
+        "lambda_below_point1": false,
+        "lambda_at_upper": false,
+        "wF": [
+          0.7806523081338512,
+          0.11934769186614885,
+          0.10000000000000002
+        ],
+        "wD": [
+          0.7108637771213984,
+          0.1891362228786017,
+          0.10000000000000002
+        ],
+        "AP_F": 0.7868775166830887,
+        "AP_D": 0.84315932229745,
+        "delta_logic": 0.05628180561436136
+      },
+      "B_held_out_head_groups": {
+        "lambda_hat": 2.0,
+        "lambda_below_point1": false,
+        "lambda_at_upper": true,
+        "wF": [
+          0.7999999999999999,
+          0.1,
+          0.10000000000000013
+        ],
+        "wD": [
+          0.8,
+          0.10000000000000013,
+          0.10000000000000007
+        ],
+        "AP_F": 0.7866726794033184,
+        "AP_D": 0.8558827912815818,
+        "delta_logic": 0.06921011187826343
+      },
+      "C_group_crossfit_ensemble_sensitivity": {
+        "lambda_hat": 1.67600315858252,
+        "lambda_below_point1": false,
+        "lambda_at_upper": false,
+        "wF": [
+          0.7999999999999999,
+          0.10000000000000009,
+          0.1
+        ],
+        "wD": [
+          0.8,
+          0.1,
+          0.10000000000000002
+        ],
+        "AP_F": 0.8329127962238824,
+        "AP_D": 0.8871212523893283,
+        "delta_logic": 0.054208456165445895
+      }
+    },
+    "crossfit_temperatures": [
+      7.460349014241186,
+      9.118356189893289,
+      9.53755023603524,
+      10.050920226390552,
+      11.848568397057656
+    ],
+    "crossfit_base_AP": 0.7356924982267317,
+    "scope": "grouped synthetic logistic prototype; C uses five additional bases and an ensemble"
+  }
+]

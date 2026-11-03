@@ -16,7 +16,8 @@
 
 - **M1 — Joint segmentation and recognition.** Boundaries and family are estimated together; input units of the notation and feature layers are compared.  
   [Revised M1 methodology — representation selection and synthetic validation](docs/research/m1-selection-decision.md).
-- **A2 — The value of musicological knowledge.** Valid versus deliberately perturbed family specifications, used either additively or as structured logical constraints.
+- **A2 — The value of musicological knowledge.** Valid versus deliberately perturbed family specifications, used either additively or as structured logical constraints.  
+  [A2 explanation, detailed methodology and feasibility tools](docs/research/a2-knowledge-design.md).
 - **M2 — Identity and realisation.** Learning from occurrences of the same family without losing their variation; a historical strand using exegeses of the same passage, only where the sources allow it.  
   [Revised M2 methodology — family-based and historical supervision](docs/research/m2-eise-research-design.md).
 
