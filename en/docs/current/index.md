@@ -23,8 +23,8 @@ The cognitive study additionally examines how families relate to listeners' cate
 | Question | What is examined | Detailed route |
 |---|---|---|
 | How are formula and family distinguished? | Historical type, analytical category, localised occurrence and symbolic form. | [Definitions](position-and-family.md) |
-| Where do formulae occur, and how are they recognised? | Joint boundary estimation and family recognition, with ambiguous boundaries and abstention. | [Revised M1 design (Greek)](../../../docs/research/m1-selection-decision.md) · [Earlier chapter](../../../docs/full/05-m1.md) |
-| What does the historical relationship between two exegeses teach? | Comparison of historical and family supervision using an independent performance criterion. | [Revised M2 design (Greek)](../../../docs/research/m2-eise-research-design.md) · [Earlier chapter](../../../docs/full/06-eise.md) |
+| Where do formulae occur, and how are they recognised? | Joint boundary estimation and family recognition, with ambiguous boundaries and abstention. | [Revised M1 design](../research/m1-selection-decision.md) · [Earlier chapter](../../../docs/full/05-m1.md) |
+| What does the historical relationship between two exegeses teach? | Comparison of historical and family supervision using an independent performance criterion. | [Revised M2 design](../research/m2-eise-research-design.md) · [Earlier chapter](../../../docs/full/06-eise.md) |
 | How does the same passage change between exegeses? | Learning expansion, contraction and modification in documented historical pairs. | [Historical transformations](atl.md) |
 | What does exegesis reveal about older notation? | Recovering a specific older choice beyond metrophonia and known rules. | [Inverse problem](inverse-problem.md) |
 | What does family identity predict? | A distribution of possible realisations given musical context. | [Probabilistic operator](m-thesis.md) · [Technical note](m-thesis-technical.md) |

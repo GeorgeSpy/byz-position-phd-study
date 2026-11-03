@@ -22,7 +22,7 @@ For a connected presentation in plain language, read the [overview](overview.md)
 
 1. [Overview of the two routes](overview.md) and [illustrative example](../examples/index.md).
 2. [Symbolic MIR (Greek synthesis)](../../../docs/research/symbolic-mir.md) and [representation learning (Greek synthesis)](../../../docs/research/machine-learning.md).
-3. [M1 and M2 (Greek protocols)](../../../docs/full/index.md), [mathematical protocol (Greek)](../../../docs/appendices/g.md), [independent M4 (Greek)](../../../docs/full/07-validation.md).
+3. [Revised M1 methodology](../research/m1-selection-decision.md) and [revised M2–EISE design](../research/m2-eise-research-design.md), followed by the [detailed mathematical protocol (Greek)](../../../docs/appendices/g.md) and [independent M4 (Greek)](../../../docs/full/07-validation.md).
 4. [Forward ATL](../current/atl.md), [inverse problem and R4](../current/inverse-problem.md).
 5. [Probabilistic Mthesis operator](../current/m-thesis.md) and [contributions by field](../review/contribution-matrix.md).
 
