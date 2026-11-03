@@ -11,7 +11,7 @@
 | Πληροφορία πέρα από κανόνες και δεύτερη εξήγηση | [Τρέχουσα διάκριση](current/index.md) | [Δrec, Δrule και Δ2ex](current/inverse-problem.md#τρεις-διαφορές-πρόβλεψης) |
 | Ιστορική μάθηση μετασχηματισμών | [Δύο διαδρομές](current/index.md) | [ATL και στοίχιση μεταβλητού μήκους](current/atl.md) |
 | Τον τελεστή Mθέσις και τη Δfamily | [Σύνοψη](start/overview.md#η-ιστορική-διαδρομή-και-ο-τελεστής) | [Πιθανοτικός ορισμός και Π0–Π2](current/m-thesis.md) |
-| Τη διαγνωστική μουσικολογική γνώση A2 | [Πίνακας συνεισφοράς](review/contribution-matrix.md) | [Τρέχουσα πηγή](../sources/proposal-v878-candidate.tex#L705) |
+| Τη διαγνωστική μουσικολογική γνώση A2 | [Σχεδιασμός Α2](research/a2-knowledge-design.md) · [Παράρτημα K](appendices/k.md) · [Πίνακας συνεισφοράς](review/contribution-matrix.md) | [Τρέχουσα πηγή](../sources/proposal-v878-candidate.tex#L705) |
 | Το ερευνητικό κενό | [Πεδία](research/index.md) | [Κεφάλαιο 2](full/02-literature.md), [νεότερο κείμενο](research/positioning-source.md) |
 | Την υπολογιστική καινοτομία | [Μάθηση](research/machine-learning.md) | [Κεφάλαια 4 και 6](full/06-eise.md), [G.1](appendices/g.md#r180) |
 | Μονάδες u1/u2/u3 και N/T/M/L | [Συμβολική ανάκτηση μουσικής πληροφορίας](research/symbolic-mir.md) | [M1](full/05-m1.md), [B](appendices/b.md) |

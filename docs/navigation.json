@@ -33,7 +33,9 @@
     "short_proposal_en_pdf": "documents/short-proposal-en.pdf",
     "position_and_family": "docs/current/position-and-family.md",
     "m_thesis_technical": "docs/current/m-thesis-technical.md",
-    "knowledge_contributions": "docs/review/knowledge-contributions.md"
+    "knowledge_contributions": "docs/review/knowledge-contributions.md",
+    "a2_revised": "docs/research/a2-knowledge-design.md",
+    "a2_protocol": "docs/appendices/k.md"
   },
   "routes": [
     {
@@ -70,6 +72,7 @@
         "docs/research/symbolic-mir.md",
         "docs/research/machine-learning.md",
         "docs/research/m1-selection-decision.md",
+        "docs/research/a2-knowledge-design.md",
         "docs/research/m2-eise-research-design.md",
         "docs/full/05-m1.md",
         "docs/full/06-eise.md",

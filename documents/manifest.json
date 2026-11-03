@@ -75,12 +75,12 @@
       "role": "musicological_memorandum",
       "path": "musicological-memorandum.pdf",
       "source_tex": "musicological-memorandum.tex",
-      "bytes": 199179,
-      "sha256": "22acb9982b2050fe33180f04b0b25bbf0bec43f300d72e79764cc881fe788eb6",
+      "bytes": 177045,
+      "sha256": "4daffe1465edfb7314e73a70151f21e253bf7349673803bb17c9567ca9b87787",
       "pages": 23,
       "title": "Μουσικολογικό υπόμνημα: Η μουσική θέση ως υπολογιστική μονάδα της βυζαντινής μουσικής",
       "language": "el",
-      "selected_on": "2026-10-31"
+      "selected_on": "2026-11-03"
     }
   ]
 }

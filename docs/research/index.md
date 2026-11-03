@@ -6,7 +6,7 @@
 
 [Παλαιά γραφή και inverse problem](../current/inverse-problem.md) · [Ιστορικοί μετασχηματισμοί ATL](../current/atl.md) · [Mθέσις](../current/m-thesis.md) · [Μουσικολογικό πλαίσιο](../musicology/06-old-notation.md)
 
-**Αναθεωρημένος σχεδιασμός των βασικών υπολογιστικών μελετών:** [Μ1 — αναπαραστάσεις και κριτήριο J](m1-selection-decision.md) · [Μ2 — οικογενειακή και ιστορική εποπτεία μέσω EISE](m2-eise-research-design.md).
+**Αναθεωρημένος σχεδιασμός των βασικών υπολογιστικών μελετών:** [Μ1 — αναπαραστάσεις και κριτήριο J](m1-selection-decision.md) · [Α2 — η μουσικολογική γνώση ως πειραματική μεταβλητή](a2-knowledge-design.md) · [Μ2 — οικογενειακή και ιστορική εποπτεία μέσω EISE](m2-eise-research-design.md).
 
 [Συγκεντρωτικός πίνακας προηγούμενης έρευνας, συνεισφοράς και ελέγχων](../review/contribution-matrix.md) · [Βιβλιογραφία ανά θέμα](../bibliography/by-topic.md)
 

@@ -1,0 +1,1 @@
+generator acceptance regression tests: 5/5 PASS

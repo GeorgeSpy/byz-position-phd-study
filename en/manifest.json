@@ -108,6 +108,12 @@
       "status": "pending"
     },
     {
+      "source": "docs/appendices/k.md",
+      "source_blob_sha": "28afef6d4ead5fe921cd454eb11eeaf7ab8e0281",
+      "target": "en/docs/appendices/k.md",
+      "status": "translated"
+    },
+    {
       "source": "docs/author/index.md",
       "source_blob_sha": "ce3968784f34023e0563064858669f658759f05e",
       "target": "en/docs/author/index.md",
@@ -1155,6 +1161,12 @@
       "source": "docs/reference.md",
       "source_blob_sha": "687c649cb1cccb37ee6d5c1a819ba978c933c468",
       "target": "en/docs/reference.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/research/a2-knowledge-design.md",
+      "source_blob_sha": "c16865d2820fbc6d0165230c4ab717bf27d7d678",
+      "target": "en/docs/research/a2-knowledge-design.md",
       "status": "translated"
     },
     {

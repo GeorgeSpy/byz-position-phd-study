@@ -30,9 +30,11 @@
       ]
     },
     {
-      "title": "Revised M1 and M2 methodology",
+      "title": "Revised M1, A2 and M2 methodology",
       "pages": [
         "en/docs/research/m1-selection-decision.md",
+        "en/docs/research/a2-knowledge-design.md",
+        "en/docs/appendices/k.md",
         "en/docs/research/m2-eise-research-design.md"
       ]
     },
@@ -118,6 +120,14 @@
     {
       "el": "docs/research/m2-eise-research-design.md",
       "en": "en/docs/research/m2-eise-research-design.md"
+    },
+    {
+      "el": "docs/research/a2-knowledge-design.md",
+      "en": "en/docs/research/a2-knowledge-design.md"
+    },
+    {
+      "el": "docs/appendices/k.md",
+      "en": "en/docs/appendices/k.md"
     }
   ]
 }
