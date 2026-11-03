@@ -265,7 +265,7 @@ $$
 $$
 
 $$
-\mathcal R^\star=\left\{R\in\widehat{\mathcal A}^{+}:L_{iR}\le0\quad\text{για κάθε }i\in\widehat{\mathcal A}^{-}\setminus\{R\}\right\}.
+\mathcal R^\star=\left\{R\in\widehat{\mathcal A}^{+}:L_{iR}\le0\quad\text{for every }i\in\widehat{\mathcal A}^{-}\setminus\{R\}\right\}.
 $$
 
 Here $L_{iR}$ is the lower bound of the difference $J(R_i)-J(R)$. If $\widehat{\mathcal A}^{-}$ is empty, the set equals $\widehat{\mathcal A}^{+}$. Whenever the simultaneous region covers the underlying population quantities, every truly eligible optimal representation lies in $\mathcal R^\star$. This theoretical property depends on the **actual simultaneous coverage** achieved by the estimation procedure.
@@ -296,3 +296,63 @@ A2 retains the selected architecture A as its common infrastructure. In [M2](m2-
 
 $G$ isolates discrimination between families at known boundaries. By contrast, M5-min processes complete works with predicted boundaries, open-set recognition, and possible abstention. Its metrics are reported separately.
 
+## 12. Reproducibility and technical evidence
+
+### 12.1 Registry of synthetic studies
+
+Each synthetic study has a separate package of code and results. The table records the **exact SHA-256 hashes** of the original compressed packages, which were rechecked when the Greek methodological document was prepared. File names in the first column are proposed publication names. Renaming an outer file without changing its contents preserves its hash.
+
+| Study and proposed file | Contents | SHA-256 |
+| --- | --- | --- |
+| **A** — m1_sim_marginal_gate.zip | Marginal model, 148 settings, seven main scenarios, and selection-region checks | 12129537468fb7e8280b615c4f7adf8cdfe6764b5727b7ccfb9d239bf8e076df |
+| **B** — m1_sim_occurrence_4R.zip | Occurrence generator, numerical counterexamples, and scenarios S1–S4 | 346d5828f157aac444d8fbfc9ede90eef1af9ed45a8b51355f16592e75b87e4e |
+| **C** — m1_sim_segment_12R.zip | Complete segment generator, scenarios S0–S7, CSV results, and tests | 55b9ee74ae305dda289fcec7c5cf9e04e4e59007a3fc0219ed9208a0ee0c84a6 |
+
+Publishing reproducible packages requires a final review of their contents and metadata. If internal files are edited or the archives are repackaged, the hashes must be recalculated and the table updated to match the published artefacts. Until then, these are **proposed file names**, rather than active download links in the repository.
+
+### 12.2 Reproduction checks and interpretation
+
+The synthetic study deliverables document reruns of earlier models, numerical checks, and validation of the segmental metric. The following additional small-scale checks were also rerun in the original working environment:
+
+- **12/12** segmental simulation tests passed, covering match counts, $B_x$, families, tie-breaking, and basic statistical constructions.
+- The tests for the marginal methodology and the historical reference program completed successfully.
+- **8/8** numerical matching checks passed on small, explicitly defined cases.
+
+These executions verify particular computations. The simulations assess the **sensitivity of the design**: synthetic performance values arise from prespecified generative mechanisms, while the main scientific hypotheses are evaluated on real data in M1, A2, and M2.
+
+### 12.3 Minimum matching test suite
+
+| ID | Test case | Expected result |
+| --- | --- | --- |
+| T1 | Prediction $(4,13)$ when $B_x=\{(4,11),(6,13)\}$ | Reject the recombined inadmissible pair. |
+| T2 | A boundary shifted by one event beyond $B_x$ | Failure under the primary metric with $\tau=0$. |
+| T3 | An admissible boundary pair with an incorrect family | Record the prediction as FP and the corresponding occurrence as FN. |
+| T4 | Reverse the order of two competing predictions | Preserve the same maximum number of correct matches. |
+| T5 | Incompatible alternative boundaries of adjacent occurrences | Select from globally legal analyses. |
+| T6 | Overlapping segments returned by a non-overlapping decoder | Validate the input and explicitly handle the illegal output. |
+| T7 | Interdependent reference choices without prediction overlap | Enforce additional compatibility constraints. |
+| T8 | Alternative analyses with different occurrence counts | Maximise F1 with the appropriate denominator $P+X(c)$. |
+
+The full evaluator will be tested against a small exhaustive reference implementation that enumerates globally legal analyses, with T1–T8 included in automated testing.
+
+## 13. Parameter finalisation and WP0/WP1 checks
+
+WP0/WP1 operationalise rule J through the following deliverables:
+
+1. **Musicological reference.** Record documented occurrences and independent specialist judgements, fix the sets $B_x$, and define compatibility relations $\mathcal C_{\mathrm{legal}}$.
+2. **Shared representation and decoding.** Validate the projection of $u_1/u_3$ onto atomic events, fix the output format, and implement matching with tests T1–T8.
+3. **Family adequacy.** Record independent assessments by two specialists and evaluate the medoid model on a suitable pilot corpus to prespecify $g_{\mathrm{use}}$, $\delta_{\mathrm{use}}$, and $g_{\min}$.
+4. **Statistical calibration.** Check the independence of work–source groups, the number of shared initialisations, the frequency of samples with $n_f^{(b)}=0$, simultaneous coverage over the region of 78 quantities, and a conservative procedure when coverage is inadequate.
+5. **Data partitions and generalisation.** Use nested group-based cross-validation, finalise one $R^\star$ on the complete development corpus, and evaluate A2/M2 independently without consulting held-out test sets for representation selection.
+
+Rule J is the common selection criterion throughout. These procedures specify its parameters, the quality of the reference annotations, and the reliability requirements for empirical evaluation.
+
+**Integrating the specification into the research documents.** Harmonisation of the short proposal with detailed Sections 5.4, 6.1, E.1, E.3, G.5.1, and J.4 is an ongoing editorial step. The common requirements are rule J, a clear distinction between principal and diagnostic metrics, and a fixed architecture A for A2/M2.
+
+## 14. Concluding methodological choice
+
+M1 establishes a unified approach to symbolic representation selection for the study of Byzantine melodic formulae. The grid $U\times\Phi$ examines the contributions of input granularity and cumulative feature layers. Rule J evaluates successful recognition of an entire formula with the correct family identity under the prespecified architecture A. The requirement $G_A\ge g_{\min}$ establishes minimum family adequacy on known boundaries; the simultaneous uncertainty region records statistically compatible selections.
+
+Synthetic Studies A, B, and C identify mechanisms affecting selection under O, N, and J. The separate A/B/C comparison retains the ability to study how joint boundary-and-family learning affects performance. With one operational $R^\star$, A2 and M2 can estimate their respective contrasts using comparable inputs and the shared segmental infrastructure.
+
+The final empirical evaluation will assess generalisation and statistical stability on independent works and sources, following the requirements established in WP0/WP1.
