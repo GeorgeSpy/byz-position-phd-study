@@ -14,7 +14,7 @@
 |---|---|---|
 | Συνολικό σχέδιο | [Σύνοψη](docs/start/overview.md) | [Μεθοδολογικός χάρτης](docs/current/index.md) |
 | Ταυτότητα θέσης και MIR | [Μουσικό παράδειγμα](docs/examples/index.md), [M1–M5](docs/start/overview.md#η-διαδρομή-της-μουσικής-ταυτότητας) | [Παλαιότερο αναλυτικό πρωτόκολλο](docs/full/index.md) |
-| **Αναθεωρημένες μελέτες Μ1 και Μ2** | [Μ1 — επιλογή αναπαράστασης](docs/research/m1-selection-decision.md) | [Μ2 — αρχιτεκτονική EISE και ιστορική εποπτεία](docs/research/m2-eise-research-design.md) |
+| **Αναθεωρημένες μελέτες Μ1 και Μ2** | [Μ1 — επιλογή αναπαράστασης](docs/research/m1-selection-decision.md) | [Μ2 — οικογενειακή και ιστορική εποπτεία](docs/research/m2-eise-research-design.md) |
 | Ιστορικοί μετασχηματισμοί | [ATL](docs/current/atl.md) | [Εξήγηση και πηγές](docs/musicology/04-exegesis.md) |
 | Παλαιά γραφή από την εξήγηση | [ATL-INV](docs/current/inverse-problem.md) | [Μουσικολογική θεμελίωση](docs/musicology/06-old-notation.md) |
 | Πιθανοτική πραγμάτωση | [Τελεστής Mθέσις](docs/current/m-thesis.md) | [Πλήρης μαθηματική ανάπτυξη](docs/current/m-thesis-technical.md) |
