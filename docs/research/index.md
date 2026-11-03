@@ -6,6 +6,8 @@
 
 [Παλαιά γραφή και inverse problem](../current/inverse-problem.md) · [Ιστορικοί μετασχηματισμοί ATL](../current/atl.md) · [Mθέσις](../current/m-thesis.md) · [Μουσικολογικό πλαίσιο](../musicology/06-old-notation.md)
 
+**Αναθεωρημένος σχεδιασμός των βασικών υπολογιστικών μελετών:** [Μ1 — αναπαραστάσεις και κριτήριο J](m1-selection-decision.md) · [Μ2 — οικογενειακή και ιστορική εποπτεία μέσω EISE](m2-eise-research-design.md).
+
 [Συγκεντρωτικός πίνακας προηγούμενης έρευνας, συνεισφοράς και ελέγχων](../review/contribution-matrix.md) · [Βιβλιογραφία ανά θέμα](../bibliography/by-topic.md)
 
 **Συγκριτική πιλοτική επέκταση:** [Βυζαντινή θέση και ζναμένιες ποπέβκι](znamenny-transfer/README.md) · [Πλήρης ελληνική ανάπτυξη](znamenny-transfer/research-appendix.md) · [English research appendix](znamenny-transfer/research-appendix-en.md). Η υπό όρους μεταφορά με πυρήνα κ / ECSI-D[κ] δεν αντικαθιστά τον βασικό ερευνητικό πυρήνα.

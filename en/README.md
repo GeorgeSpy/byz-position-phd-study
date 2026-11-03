@@ -14,9 +14,11 @@
 
 **Central question:** how can a melodic formula and its family be recognised in continuous notation when the realisation varies, and what does the musicological knowledge that defines the family contribute to that recognition? The core is limited to three studies on a shared symbolic infrastructure:
 
-- **M1 — Joint segmentation and recognition.** Boundaries and family are estimated together; input units of the notation and feature layers are compared.
+- **M1 — Joint segmentation and recognition.** Boundaries and family are estimated together; input units of the notation and feature layers are compared.  
+  [Detailed M1 design revision — selection criterion and synthetic checks (Greek)](../docs/research/m1-selection-decision.md).
 - **A2 — The value of musicological knowledge.** Valid versus deliberately perturbed family specifications, used either additively or as structured logical constraints.
-- **M2 — Identity and realisation.** Learning from occurrences of the same family without losing their variation; a historical strand using exegeses of the same passage, only where the sources allow it.
+- **M2 — Identity and realisation.** Learning from occurrences of the same family without losing their variation; a historical strand using exegeses of the same passage, only where the sources allow it.  
+  [Revised M2 research design — EISE architecture and evaluation protocol (Greek)](../docs/research/m2-eise-research-design.md).
 
 Evaluation rests on blind judgements by independent specialists (M3a). M5-min applies the final model to complete works held out from training. The core is deliberately limited so that it is feasible. The probabilistic operator Mθέσις, listening studies, performance timing, the full M5 and the comparison with Znamenny chant are designed as [conditional extensions](#conditional-extensions) that would broaden the core as far as data and sources allow.
 
