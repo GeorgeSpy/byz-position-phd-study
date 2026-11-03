@@ -30,6 +30,13 @@
       ]
     },
     {
+      "title": "Revised M1 and M2 methodology",
+      "pages": [
+        "en/docs/research/m1-selection-decision.md",
+        "en/docs/research/m2-eise-research-design.md"
+      ]
+    },
+    {
       "title": "Examples, terminology and sources",
       "pages": [
         "en/docs/examples/index.md",
@@ -103,6 +110,14 @@
     {
       "el": "docs/start/reading-paths.md",
       "en": "en/docs/start/reading-paths.md"
+    },
+    {
+      "el": "docs/research/m1-selection-decision.md",
+      "en": "en/docs/research/m1-selection-decision.md"
+    },
+    {
+      "el": "docs/research/m2-eise-research-design.md",
+      "en": "en/docs/research/m2-eise-research-design.md"
     }
   ]
 }
