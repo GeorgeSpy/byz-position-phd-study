@@ -24,6 +24,7 @@ The English edition is being developed as a parallel reader. Both revised core s
 | [docs/review/knowledge-contributions.md](../../docs/review/knowledge-contributions.md) | [What the dissertation will establish](review/knowledge-contributions.md) |
 | [docs/start/overview.md](../../docs/start/overview.md) | [Overview of the research proposal](start/overview.md) |
 | [docs/start/reading-paths.md](../../docs/start/reading-paths.md) | [Reading paths](start/reading-paths.md) |
+| [docs/start/research-summary.md](../../docs/start/research-summary.md) | [Summary of the core research](start/research-summary.md) |
 | [docs/research/m1-selection-decision.md](../../docs/research/m1-selection-decision.md) | [M1 — revised representation design and selection rule J](research/m1-selection-decision.md) |
 | [docs/research/m2-eise-research-design.md](../../docs/research/m2-eise-research-design.md) | [M2 — revised EISE research design and evaluation](research/m2-eise-research-design.md) |
 | [docs/research/a2-knowledge-design.md](../../docs/research/a2-knowledge-design.md) | [A2 — musicological knowledge as an experimental variable](research/a2-knowledge-design.md) |

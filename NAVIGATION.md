@@ -12,6 +12,7 @@
 
 | Αντικείμενο | Πρώτη ανάγνωση | Εμβάθυνση |
 |---|---|---|
+| Ερευνητικός πυρήνας | [Σύνοψη του ερευνητικού πυρήνα](docs/start/research-summary.md) | [Συνοπτικό σχέδιο (PDF)](documents/core-research-plan.pdf) |
 | Συνολικό σχέδιο | [Σύνοψη](docs/start/overview.md) | [Μεθοδολογικός χάρτης](docs/current/index.md) |
 | Ταυτότητα θέσης και MIR | [Μουσικό παράδειγμα](docs/examples/index.md), [M1–M5](docs/start/overview.md#η-διαδρομή-της-μουσικής-ταυτότητας) | [Παλαιότερο αναλυτικό πρωτόκολλο](docs/full/index.md) |
 | **Αναθεωρημένες μελέτες Μ1 και Μ2** | [Μ1 — επιλογή αναπαράστασης](docs/research/m1-selection-decision.md) | [Μ2 — αρχιτεκτονική EISE και ιστορική εποπτεία](docs/research/m2-eise-research-design.md) |

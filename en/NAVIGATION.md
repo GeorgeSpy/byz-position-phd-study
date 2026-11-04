@@ -12,6 +12,7 @@ Start with the [short research proposal in English](../documents/short-proposal-
 
 | Topic | First reading | Further study |
 |---|---|---|
+| Core research | [Summary of the core research](docs/start/research-summary.md) | [Core research plan (Greek PDF)](../documents/core-research-plan.pdf) |
 | Overall design | [Overview](docs/start/overview.md) | [Method map](docs/current/index.md) |
 | Formula identity and MIR | [Musical example](docs/examples/index.md), [identity route](docs/start/overview.md#the-route-of-musical-identity) | [Detailed protocols (Greek)](../docs/full/index.md) |
 | **Revised M1 and M2 methodology** | [M1 — representation selection](docs/research/m1-selection-decision.md) | [M2 — EISE architecture and historical supervision](docs/research/m2-eise-research-design.md) |

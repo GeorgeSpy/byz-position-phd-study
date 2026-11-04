@@ -4,6 +4,7 @@
   "base_commit": "f007b8341dadeab38f256a63ca806be34fa4cfc4",
   "verified_date": "2026-10-23",
   "entrypoints": {
+    "research_summary": "docs/start/research-summary.md",
     "overview": "docs/start/overview.md",
     "navigation": "NAVIGATION.md",
     "review_guide": "docs/start/review-guide.md",
@@ -52,6 +53,7 @@
       "label": "Συνολική κατανόηση",
       "pages": [
         "documents/README.md",
+        "docs/start/research-summary.md",
         "docs/start/overview.md",
         "docs/current/index.md",
         "docs/current/position-and-family.md",
