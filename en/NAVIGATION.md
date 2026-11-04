@@ -27,7 +27,7 @@ Start with the [short research proposal in English](../documents/short-proposal-
 | Bibliography | [Methodological bibliography (Greek notes)](../docs/bibliography/methodology.md) | [Bibliographic index (Greek)](../docs/bibliography/index.md), [by topic (Greek)](../docs/bibliography/by-topic.md) |
 | Biography and previous research | [Biography](docs/author/index.md) | [Previous research and code (Greek)](../docs/author/prior-work.md), [SETN and MESPI papers](../documents/prior-work/README.md) |
 | Comments and discussion | [Shared notebook](https://github.com/GeorgeSpy/byz-position-phd-study/issues/6) | [Commenting guide (Greek)](../docs/review/feedback.md) |
-| Chapters and data | [Questions and evidence (Greek)](../docs/start/review-guide.md) | [Appendices A–J (Greek)](../docs/full/index.md), [sources and adequacy (Greek)](../docs/full/08-data.md) |
+| Chapters and data | [Questions and evidence (Greek)](../docs/start/review-guide.md) | [Appendices A–L (Greek)](../docs/full/index.md), [sources and adequacy (Greek)](../docs/full/08-data.md) |
 
 The [reading paths](docs/start/reading-paths.md) organise the evidence by topic. The [thematic index (Greek)](../docs/topics.md), [bibliographic index (Greek)](../docs/bibliography/index.md) and [methodological bibliography (Greek notes)](../docs/bibliography/methodology.md) lead to studies, measurements and full references.
 

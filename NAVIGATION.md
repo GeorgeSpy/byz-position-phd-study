@@ -28,7 +28,7 @@
 | Βιβλιογραφία | [Βιβλιογραφία μεθοδολογικής ανάπτυξης](docs/bibliography/methodology.md) | [Βιβλιογραφικό ευρετήριο](docs/bibliography/index.md), [ανά θέμα](docs/bibliography/by-topic.md) |
 | Βιογραφικό και ερευνητική πορεία | [Βιογραφικό](docs/author/index.md) | [Προγενέστερη εργασία, MESPI και δημόσια αποθετήρια](docs/author/prior-work.md), [paper SETN και MESPI](documents/prior-work/README.md) |
 | Παρατηρήσεις και συζήτηση | [Κοινό σημειωματάριο](docs/review/feedback.md) | [Ημερολόγιο αποφάσεων](docs/review/decisions.md) |
-| Κεφάλαια και δεδομένα | [Ερωτήματα και τεκμήρια](docs/start/review-guide.md) | [Παραρτήματα A–J](docs/full/index.md), [πηγές και επάρκεια](docs/full/08-data.md) |
+| Κεφάλαια και δεδομένα | [Ερωτήματα και τεκμήρια](docs/start/review-guide.md) | [Παραρτήματα A–L](docs/full/index.md), [πηγές και επάρκεια](docs/full/08-data.md) |
 
 Οι [διαδρομές ανάγνωσης](docs/start/reading-paths.md) οργανώνουν τα ίδια τεκμήρια κατά θέμα. Το [θεματικό ευρετήριο](docs/topics.md) εντοπίζει όρους, μελέτες και μετρήσεις. Το [βιβλιογραφικό ευρετήριο](docs/bibliography/index.md) και η [βιβλιογραφία μεθοδολογικής ανάπτυξης](docs/bibliography/methodology.md) οδηγούν στις πλήρεις εγγραφές και στις σχετικές ενότητες.
 

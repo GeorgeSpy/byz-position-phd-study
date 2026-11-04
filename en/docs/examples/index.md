@@ -24,7 +24,7 @@ Family recognition uses declared musical relations and application criteria. A c
 | Shared family | Active family specification and independent family judgement | Eligible family supervision |
 | Parallel exegesis of a shared passage | Specific work, passage, sources, exegetes and historical relationship | Historical edge for EISE, after family eligibility |
 
-[Example in the original text (Greek)](../../../docs/full/01-introduction.md#r004) · [Original proposal PDF (Greek)](../../../sources/proposal-v871e-candidate.pdf#page=7) · [Catalogue bibliography entry (Greek)](../../../docs/bibliography/entries/b126.md)
+[Example in the original text (Greek)](../../../docs/full/01-introduction.md#r004) · [Original proposal PDF (Greek)](../../../documents/analytical-proposal.pdf#page=7) · [Catalogue bibliography entry (Greek)](../../../docs/bibliography/entries/b126.md)
 
 <a id="inverse-example"></a>
 
