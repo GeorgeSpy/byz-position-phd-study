@@ -1,0 +1,55 @@
+{
+  "scenario": "h1_null",
+  "M": 300,
+  "G": 12,
+  "R": 5,
+  "perturbations": 10,
+  "seed": 20261109,
+  "concentration": 2.0,
+  "ties": false,
+  "valid": 299,
+  "invalid_reasons": {
+    "undefined_fixed_family_AP": 1
+  },
+  "probability_valid": 0.9966666666666667,
+  "probability_valid_mc95": [
+    0.9815687479519322,
+    0.9999156108676822
+  ],
+  "false_rejections": 8,
+  "fwer_given_valid": 0.026755852842809364,
+  "fwer_given_valid_mc95": [
+    0.011620535505368767,
+    0.052037006185334855
+  ],
+  "fwer_all": 0.02666666666666667,
+  "fwer_all_mc95": [
+    0.01158156775433392,
+    0.05186581196093096
+  ],
+  "contrasts": [
+    {
+      "name": "knowledge",
+      "exact_zero_null": true,
+      "rejections": 8,
+      "rejection_rate_given_valid": 0.026755852842809364,
+      "rejection_rate_all": 0.02666666666666667,
+      "coverage_95_given_valid": 0.959866220735786,
+      "coverage_mc95": [
+        0.930944312495664,
+        0.9790931632573404
+      ]
+    },
+    {
+      "name": "logic_valid",
+      "exact_zero_null": false,
+      "rejections": 299,
+      "rejection_rate_given_valid": 1.0,
+      "rejection_rate_all": 0.9966666666666667,
+      "coverage_95_given_valid": null,
+      "coverage_mc95": null
+    }
+  ],
+  "seconds": 81.59864330291748,
+  "scope": "synthetic score panels; fixed family set; no model fitting"
+}

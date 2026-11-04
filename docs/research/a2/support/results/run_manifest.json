@@ -1,0 +1,32 @@
+{
+  "date_utc": "2026-11-03",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0"
+  },
+  "commands": [
+    "python -m unittest discover -s docs/research/a2/support -p test_feasibility.py -v",
+    "python docs/research/a2/support/feasibility_stats.py --scenario both_null --M 300 --R 5 --G 12 --seed 20261108 --output docs/research/a2/support/results/stats_both_null_R5.json",
+    "python docs/research/a2/support/feasibility_stats.py --scenario h1_null --M 300 --R 5 --G 12 --seed 20261109 --output docs/research/a2/support/results/stats_h1_null_R5.json",
+    "python docs/research/a2/support/feasibility_stats.py --scenario h2_null --M 300 --R 5 --G 12 --seed 20261106 --output docs/research/a2/support/results/stats_h2_null_R5.json",
+    "python docs/research/a2/support/feasibility_stats.py --scenario h2_null --M 300 --R 5 --G 8 --concentration .2 --ties --seed 20261110 --output docs/research/a2/support/results/stats_sparse_R5.json",
+    "python docs/research/a2/support/feasibility_heads.py --repeats 5 --output docs/research/a2/support/results/heads_grouped_5.json",
+    "python docs/research/a2/support/feasibility_generator.py --seed 400 --families 4 --seconds 30 --output docs/research/a2/support/results/generator_400.json",
+    "python docs/research/a2/support/feasibility_generator.py --seed 401 --families 4 --seconds 15 --output docs/research/a2/support/results/generator_401.json",
+    "python docs/research/a2/support/feasibility_generator.py --seed 402 --families 4 --small-bank --seconds 15 --output docs/research/a2/support/results/generator_402.json",
+    "python docs/research/a2/support/feasibility_generator.py --seed 600 --families 6 --seconds 15 --output docs/research/a2/support/results/generator_600.json",
+    "python docs/research/a2/support/feasibility_generator.py --seed 601 --families 6 --small-bank --seconds 15 --output docs/research/a2/support/results/generator_601.json"
+  ],
+  "source_sha256": {
+    "feasibility_generator.py": "a32db01ece59067a7b26bc36e327ed23a6a339512ba1bb57641faf883e2bdf1b",
+    "feasibility_heads.py": "a9f024e7854dd79e60f2e54395a4eefac424394d293f6cebce0a0574d65adba8",
+    "feasibility_stats.py": "81d2bfeaffa84c185572554c28d2c437ad6e665f82e810da7d8fb263e3921b55",
+    "synthetic_concepts.py": "be461dc620049f2bb54055371fe6be38aea20982de8c241ba6cf40c9ef206254",
+    "synthetic_scores.py": "3792ddf6c733fae0630c8f78c99ee5f6691686186b720d7888b02ed132515e95",
+    "test_feasibility.py": "71dd9db5baab96d6fa073b8f339e630344f44b80fee657f5a99988770d4ffaf9"
+  },
+  "scope": "pilot subsystem runs; no calibration certification; elapsed times environment-dependent"
+}

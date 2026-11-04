@@ -8,7 +8,7 @@
 
 [Research biography](docs/author/index.md) · [Prior work and public code (Greek)](../docs/author/prior-work.md) · [Unpublished manuscripts](../documents/prior-work/README.md)
 
-> **Status (October 2026).** The proposal is under development and is being discussed with the Department of Music Technology and Acoustics at Hellenic Mediterranean University; it has not yet been submitted.
+> **Status (November 2026).** The proposal is under development and is being discussed with the Department of Music Technology and Acoustics at Hellenic Mediterranean University; it has not yet been submitted.
 
 ## The core research programme
 
@@ -19,7 +19,7 @@
 - **A2 — The value of musicological knowledge.** Valid versus deliberately perturbed family specifications, used either additively or as structured logical constraints.  
   [A2 research design — valid and perturbed knowledge, logical composition and technical protocol](docs/research/a2-knowledge-design.md).
 - **M2 — Identity and realisation.** Learning from occurrences of the same family without losing their variation; a historical strand using exegeses of the same passage, only where the sources allow it.  
-  [Revised M2 methodology — EISE architecture and historical supervision](docs/research/m2-eise-research-design.md).
+  [Revised M2 methodology — family-based and historical supervision](docs/research/m2-eise-research-design.md).
 
 Evaluation rests on blind judgements by independent specialists (M3a). M5-min applies the final model to complete works held out from training. The core is deliberately limited so that it is feasible. The probabilistic operator Mθέσις, listening studies, performance timing, the full M5 and the comparison with Znamenny chant are designed as [conditional extensions](#conditional-extensions) that would broaden the core as far as data and sources allow.
 
@@ -84,9 +84,9 @@ The following designs are developed to broaden the core as far as possible. Each
 | explore the new Musicology-Informed Machine Learning research direction | **[ECSI — Musical Formula Family Signatures](docs/research/ecsi/README.md)** |
 | explore Byzantine notation and formulae | [Musicological documentation (Greek)](../docs/musicology/index.md) |
 | understand the contribution and its relationship with previous research | [Contributions by field](docs/review/contribution-matrix.md) |
-| see which works and sources have been catalogued for the corpus | [Preliminary corpus inventory (Greek)](../docs/research/corpus/README.md) |
 | read a full chapter or technical appendix | [Detailed chapters and appendices (Greek)](../docs/full/index.md) |
 | find a particular reference | [Methodological bibliography (Greek notes; original-language titles)](../docs/bibliography/methodology.md) · [Bibliographic index (Greek)](../docs/bibliography/index.md) |
+| see which works and sources have been catalogued for the corpus | [Preliminary corpus inventory (Greek)](../docs/research/corpus/README.md) |
 
 The short proposal presents the research problem, methodology and expected contribution. The detailed proposal develops the musicological foundations, mathematical design and evaluation protocols. The thematic pages connect the questions with their evidence and references. [Documents and sources](docs/reference.md).
 
