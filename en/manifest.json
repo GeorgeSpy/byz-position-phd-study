@@ -1266,6 +1266,12 @@
       "status": "translated"
     },
     {
+      "source": "docs/start/research-summary.md",
+      "source_blob_sha": "fabac121894207c38d2bd558497642e818a7d85c",
+      "target": "en/docs/start/research-summary.md",
+      "status": "translated"
+    },
+    {
       "source": "docs/start/review-guide.md",
       "source_blob_sha": "7d073a6aeb4c7330a5560dc8dee8fd66ce5c8cca",
       "target": "en/docs/start/review-guide.md",
