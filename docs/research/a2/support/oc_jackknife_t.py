@@ -166,7 +166,7 @@ def run(a):
                dev_min_groups_per_family_min=(int(np.min(dmin)) if dmin else None),
                dev_some_family_below_2_groups_rate=(float(np.mean(np.array(dmin) < 2)) if dmin else None),
                mean_prevalence=(np.mean(prev, 0).round(4) if prev else None),
-               per_rep_index_estimate_se=(np.hstack([np.array(idx)[:, None], est, ses]).round(6) if len(est) else None),
+               per_rep_index_estimate_se=(np.hstack([np.array(idx)[:, None], est, ses]) if len(est) else None),
                seconds=round(time.time() - t0, 1), env=s.environment())
     return out
 

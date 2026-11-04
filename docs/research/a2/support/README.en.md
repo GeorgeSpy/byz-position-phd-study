@@ -21,7 +21,7 @@ This folder contains the synthetic checks behind this revision's decisions on th
 | `heads_allocation.py` | Where to fit the heads $(w,\lambda)$: on the base's groups, on the internal development set, or by grouped cross-fitting, recording each fold's groups and convergence. |
 | `summarize.py` | Produces `results/summary.md`. |
 | `run_all.sh` | Full reproduction (about 35–40 minutes on one core). |
-| `results/*.jsonl` | One line per scenario or bank, with seed, configuration, software versions and the individual reference values. `oc_jackknife_t.jsonl` also holds the estimates and standard errors of every dataset. The intermediate `oc_jackknife_t_a.jsonl` and `_b.jsonl` are created during the run. |
+| `results/*.jsonl` | One line per scenario or bank, with seed, configuration, software versions and the individual reference values. `oc_jackknife_t.jsonl` also holds the estimates and standard errors of every dataset, at full numerical precision, so that every decision can be reconstructed exactly (§7 of the summary). The intermediate `oc_jackknife_t_a.jsonl` and `_b.jsonl` are created during the run. |
 | `results/earlier_batches/` | The two earlier runs, in which the reference and the datasets shared one random stream. Kept for the record and not used in the current results. |
 
 ## Main results
@@ -78,6 +78,7 @@ A second independent check found the following, which are corrected here:
 5. **Termination.** Target reached, proposals exhausted, time limit and infeasibility from an immovable family are recorded separately.
 6. **Heads.** The groups of each cross-fitting fold and the convergence of the bases are recorded. The independent check found a deviation of up to about 0.0021 in the cross-fitted $\Delta_{\mathrm{logic}}$ with another scikit-learn version; the recorded groups now allow a side-by-side comparison.
 7. **Use of the penalty.** The standard deviation of $\hat\lambda$ and the share $\hat\lambda<0.1$ are reported.
+8. **Storage precision.** Estimates and standard errors were stored with six decimals. Near the Holm threshold, rounding moved a reconstructed $p$ from 0.0249972 to 0.0250009 and changed the decision; in the scenario where only $H_2$ is true ($G=12$) the 34 false rejections were reconstructed as 33. Values are now stored without rounding and the summary verifies every decision.
 
 ### After the first independent check
 
