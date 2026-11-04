@@ -1170,6 +1170,18 @@
       "status": "translated"
     },
     {
+      "source": "docs/research/m1-selection-decision.md",
+      "source_blob_sha": "3385100afe3822652f437feb8c2ef019b7ec253c",
+      "target": "en/docs/research/m1-selection-decision.md",
+      "status": "translated"
+    },
+    {
+      "source": "docs/research/m2-eise-research-design.md",
+      "source_blob_sha": "a63b328aa4a97705c97d329cc675d3d4b4cca10f",
+      "target": "en/docs/research/m2-eise-research-design.md",
+      "status": "translated"
+    },
+    {
       "source": "docs/research/cognition.md",
       "source_blob_sha": "67488ad6bf3b5f8f1da371127bb86cbd6c81989d",
       "target": "en/docs/research/cognition.md",

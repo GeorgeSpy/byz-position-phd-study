@@ -43,7 +43,7 @@ sections=manifest['sections']
 assert len([s for s in sections if s['kind']=='chapter'])==10
 assert len([s for s in sections if s['kind']=='appendix'])==10
 assert len(list((ROOT/'docs/bibliography/entries').glob('b*.md')))==135
-assert len(list((ROOT/'docs/research').glob('*.md')))==9
+assert len(list((ROOT/'docs/research').glob('*.md')))==12
 for s in sections:
  if not (ROOT/s['path']).is_file():errors.append('missing section '+s['path'])
  for h in s['headings']:
