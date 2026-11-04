@@ -1,6 +1,8 @@
 # Terminology
 
-[Ελληνικά](../TERMINOLOGY_GR.md) · **English**
+<!-- language-switch:start -->
+**Language / Γλώσσα:** [Ελληνικά](../TERMINOLOGY_GR.md) · **English**
+<!-- language-switch:end -->
 
 | Term | Definition |
 |---|---|
