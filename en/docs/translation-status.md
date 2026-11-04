@@ -10,6 +10,7 @@ The English edition is being developed as a parallel reader. Both revised core s
 |---|---|
 | [NAVIGATION.md](../../NAVIGATION.md) | [Guide to the proposal](../NAVIGATION.md) |
 | [README.md](../../README.md) | [The Byzantine Melodic Formula as a Computational Unit](../README.md) |
+| [docs/research/corpus/README.md](../../docs/research/corpus/README.md) | [Complete preliminary corpus inventory and English-readable datasets](research/corpus/README.md) |
 | [TERMINOLOGY_GR.md](../../TERMINOLOGY_GR.md) | [Terminology of the research proposal](../TERMINOLOGY.md) |
 | [docs/author/index.md](../../docs/author/index.md) | [Biography — Georgios Spyridakis](author/index.md) |
 | [docs/current/atl.md](../../docs/current/atl.md) | [ATL: learning historical transformations](current/atl.md) |

@@ -36,7 +36,9 @@
     "m_thesis_technical": "docs/current/m-thesis-technical.md",
     "knowledge_contributions": "docs/review/knowledge-contributions.md",
     "a2_revised": "docs/research/a2-knowledge-design.md",
-    "a2_protocol": "docs/appendices/k.md"
+    "a2_protocol": "docs/appendices/k.md",
+    "corpus_inventory": "docs/research/corpus/README.md",
+    "corpus_inventory_en": "en/docs/research/corpus/README.md"
   },
   "routes": [
     {

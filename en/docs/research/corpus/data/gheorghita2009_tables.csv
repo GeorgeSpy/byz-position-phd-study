@@ -1,0 +1,69 @@
+mode,table,formula,schema,printed_pages,rows,max_example_cited_7_2_9,separate_CC_GP_rows,mode_en,schema_en
+α΄,1,1,Κύλισμα,153,6,5,2,Mode I (first),Kylisma
+α΄,2,2,Παρακάλεσμα,154,3,3,0,Mode I (first),Parakalesma
+α΄,3,3,Παρακλητική,155,8,8,2,Mode I (first),Paraklitiki
+α΄,4,4,Επέγερμα,156,1,0,1,Mode I (first),Epegerma
+α΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),157–158,10,10,1,Mode I (first),Oligon–hyporroe–oligon–epistrophe (eteron)
+α΄,6,6,Αργοσύνθετον / γοργοσύνθετον,159,1,1,0,Mode I (first),Argosyntheton / gorgosyntheton
+α΄,7,7,Ξηρόν κλάσμα,159,3,3,0,Mode I (first),Xiron klasma
+α΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,160,10,10,0,Mode I (first),Ison with klasma–epistrophe–eteron
+α΄,9,9,Πίασμα,161,9,9,1,Mode I (first),Piasma
+β΄,1,1,Κύλισμα,162–163,11,11,0,Mode II (second),Kylisma
+β΄,2,3,Παρακλητική,163–164,12,12,0,Mode II (second),Paraklitiki
+β΄,3,4,Επέγερμα,164,1,0,1,Mode II (second),Epegerma
+β΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),165,5,5,0,Mode II (second),Oligon–hyporroe–oligon–epistrophe (eteron)
+β΄,5,6,Αργοσύνθετον / γοργοσύνθετον,166,2,2,0,Mode II (second),Argosyntheton / gorgosyntheton
+β΄,6,7,Ξηρόν κλάσμα,166,1,1,1,Mode II (second),Xiron klasma
+β΄,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,167,7,7,2,Mode II (second),Ison with klasma–epistrophe–eteron
+β΄,8,9,Πίασμα,168,9,9,2,Mode II (second),Piasma
+β΄,9,10,Σύναγμα,169,3,3,0,Mode II (second),Synagma
+γ΄,1,1,Κύλισμα,170,3,3,0,Mode III (third),Kylisma
+γ΄,2,2,Παρακάλεσμα,171,5,5,0,Mode III (third),Parakalesma
+γ΄,3,3,Παρακλητική,172,6,6,0,Mode III (third),Paraklitiki
+γ΄,4,4,Επέγερμα,173,4,0,2,Mode III (third),Epegerma
+γ΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),174,2,2,0,Mode III (third),Oligon–hyporroe–oligon–epistrophe (eteron)
+γ΄,6,6,Αργοσύνθετον / γοργοσύνθετον,174,2,2,0,Mode III (third),Argosyntheton / gorgosyntheton
+γ΄,7,7,Ξηρόν κλάσμα,174,1,1,0,Mode III (third),Xiron klasma
+γ΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,175,7,7,1,Mode III (third),Ison with klasma–epistrophe–eteron
+γ΄,9,9,Πίασμα,176,8,8,3,Mode III (third),Piasma
+γ΄,10,10,Σύναγμα,177,2,2,0,Mode III (third),Synagma
+γ΄,11,11,Τρομικόν / ψήφιστον παρακάλεσμα,177,1,0,0,Mode III (third),Tromikon parakalesma / psephiston–parakalesma (naming to verify)
+δ΄,1,1,Κύλισμα,178,4,4,0,Mode IV (fourth),Kylisma
+δ΄,2,3,Παρακλητική,179,5,5,1,Mode IV (fourth),Paraklitiki
+δ΄,3,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),180,5,5,1,Mode IV (fourth),Oligon–hyporroe–oligon–epistrophe (eteron)
+δ΄,4,7,Ξηρόν κλάσμα,181,6,6,0,Mode IV (fourth),Xiron klasma
+δ΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,182,7,7,0,Mode IV (fourth),Ison with klasma–epistrophe–eteron
+δ΄,6,9,Πίασμα,183,7,7,0,Mode IV (fourth),Piasma
+δ΄,7,10,Σύναγμα,183,1,0,0,Mode IV (fourth),Synagma
+πλ. α΄,1,1,Κύλισμα,184,6,5,0,Plagal of Mode I,Kylisma
+πλ. α΄,2,2,Παρακάλεσμα,185,4,4,0,Plagal of Mode I,Parakalesma
+πλ. α΄,3,3,Παρακλητική,186,9,9,1,Plagal of Mode I,Paraklitiki
+πλ. α΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),187,5,5,0,Plagal of Mode I,Oligon–hyporroe–oligon–epistrophe (eteron)
+πλ. α΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,188,9,9,1,Plagal of Mode I,Ison with klasma–epistrophe–eteron
+πλ. α΄,6,9,Πίασμα,189,4,3,1,Plagal of Mode I,Piasma
+πλ. α΄,7,10,Σύναγμα,190,2,2,0,Plagal of Mode I,Synagma
+πλ. α΄,8,11,Τρομικόν / ψήφιστον παρακάλεσμα,190,2,2,0,Plagal of Mode I,Tromikon parakalesma / psephiston–parakalesma (naming to verify)
+πλ. β΄,1,1,Κύλισμα,191,10,10,0,Plagal of Mode II,Kylisma
+πλ. β΄,2,3,Παρακλητική,192,4,4,0,Plagal of Mode II,Paraklitiki
+πλ. β΄,3,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),193,4,2,2,Plagal of Mode II,Oligon–hyporroe–oligon–epistrophe (eteron)
+πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,194,14,14,1,Plagal of Mode II,Ison with klasma–epistrophe–eteron
+πλ. β΄,5,9,Πίασμα,195,12,12,1,Plagal of Mode II,Piasma
+βαρύς,1,1,Κύλισμα,196,8,8,0,Varys (grave mode),Kylisma
+βαρύς,2,3,Παρακλητική,197,9,9,0,Varys (grave mode),Paraklitiki
+βαρύς,3,4,Επέγερμα,198,2,0,1,Varys (grave mode),Epegerma
+βαρύς,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),198,2,2,1,Varys (grave mode),Oligon–hyporroe–oligon–epistrophe (eteron)
+βαρύς,5,6,Αργοσύνθετον / γοργοσύνθετον,199,5,5,0,Varys (grave mode),Argosyntheton / gorgosyntheton
+βαρύς,6,7,Ξηρόν κλάσμα,199,2,2,0,Varys (grave mode),Xiron klasma
+βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,200,14,14,1,Varys (grave mode),Ison with klasma–epistrophe–eteron
+βαρύς,8,9,Πίασμα,201,2,0,0,Varys (grave mode),Piasma
+βαρύς,9,10,Σύναγμα,201,1,0,0,Varys (grave mode),Synagma
+βαρύς,10,11,Τρομικόν / ψήφιστον παρακάλεσμα,201,1,0,0,Varys (grave mode),Tromikon parakalesma / psephiston–parakalesma (naming to verify)
+πλ. δ΄,1,1,Κύλισμα,202,4,4,0,Plagal of Mode IV,Kylisma
+πλ. δ΄,2,2,Παρακάλεσμα,202,2,2,0,Plagal of Mode IV,Parakalesma
+πλ. δ΄,3,3,Παρακλητική,203,7,7,2,Plagal of Mode IV,Paraklitiki
+πλ. δ΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),204,2,2,2,Plagal of Mode IV,Oligon–hyporroe–oligon–epistrophe (eteron)
+πλ. δ΄,5,6,Αργοσύνθετον / γοργοσύνθετον,204,1,1,0,Plagal of Mode IV,Argosyntheton / gorgosyntheton
+πλ. δ΄,6,8,Ίσον με κλάσμα–επιστροφή–έτερον,205,10,10,0,Plagal of Mode IV,Ison with klasma–epistrophe–eteron
+πλ. δ΄,7,9,Πίασμα,206,1,0,0,Plagal of Mode IV,Piasma
+πλ. δ΄,8,10,Σύναγμα,206,1,0,0,Plagal of Mode IV,Synagma
+πλ. δ΄,9,11,Τρομικόν / ψήφιστον παρακάλεσμα,206,1,0,0,Plagal of Mode IV,Tromikon parakalesma / psephiston–parakalesma (naming to verify)
