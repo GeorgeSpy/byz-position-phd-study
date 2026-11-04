@@ -37,7 +37,7 @@ All conditions share R★, encoder, observable musical concepts and contexts, oc
 
 **Primary identification endpoint:** group-balanced **MacroAP_hard** evaluated over independent provenance groups.
 
-**Compulsory complementary gate:** `Q_real`, preservation of realisation information, assessed both against an absolute threshold and by non-inferiority within a preregistered **intersection–union test (IUT)** framework. Results with gold/expert and predicted boundaries are reported separately. Superiority, non-inferiority and equivalence margins, together with power calculations, are set using development data after P0′—**before the protected final test sets are examined**. A failure to establish superiority does not itself establish equivalence; that requires a separate, preregistered equivalence test.
+**Compulsory complementary gate:** $`Q_{\mathrm{real}}`$, preservation of realisation information, assessed both against an absolute threshold and by non-inferiority within a preregistered **intersection–union test (IUT)** framework. Results with gold/expert and predicted boundaries are reported separately. Superiority, non-inferiority and equivalence margins, together with power calculations, are set using development data after P0′—**before the protected final test sets are examined**. A failure to establish superiority does not itself establish equivalence; that requires a separate, preregistered equivalence test.
 
 **GO:** valid new musicological application, no leakage, reliable compiler and calibration checks.
 
