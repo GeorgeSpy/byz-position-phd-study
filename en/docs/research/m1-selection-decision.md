@@ -1,4 +1,4 @@
-# M1 — Revision of the representation design and selection criterion $R^\star$
+# M1 — Revision of the representation design and selection criterion $`R^\star`$
 
 **Methodological documentation · 31 October 2026**
 
@@ -18,25 +18,25 @@ A melodic formula is treated as a variable-length segment with a family identity
 
 The revision progressed from rule **O**, which prioritised boundary F1, to **N**, which averaged complete-recognition F1 over architectures A/B/C, and finally to **J**. Rule J selects the representation according to recognition of an entire formula with the correct family in the prespecified architecture A, subject to a separate family-adequacy requirement. Its final specification is:
 
-$$
+```math
 \widehat J(R)=\frac{1}{n_{\mathrm{rep}}}\sum_{r=1}^{n_{\mathrm{rep}}} F_{1,\mathrm{seg+fam}}^{(r)}(R,A),
-$$
+```
 
-$$
+```math
 \widehat{\mathcal A}_{\mathrm{dec}}=\{R\in U\times\Phi:\widehat G_A(R)\ge g_{\min}\},
 \qquad
 R^\star=\underset{R\in\widehat{\mathcal A}_{\mathrm{dec}}}{\arg\max}\,\widehat J(R).
-$$
+```
 
-$\widehat G_A$ measures macro-averaged recall across known families on documented boundaries. The threshold $g_{\min}$ is set through a specialist procedure and a pilot reference model before the twelve representations are compared. The operational choice of a single $R^\star$ is accompanied by a separate statistical uncertainty set $\mathcal R^\star$ and at most one sensitivity representation $R_{\mathrm{sens}}$. Architectures B/C are evaluated independently across the complete grid, keeping input selection tied to the principal architecture.
+$`\widehat G_A`$ measures macro-averaged recall across known families on documented boundaries. The threshold $`g_{\min}`$ is set through a specialist procedure and a pilot reference model before the twelve representations are compared. The operational choice of a single $`R^\star`$ is accompanied by a separate statistical uncertainty set $`\mathcal R^\star`$ and at most one sensitivity representation $`R_{\mathrm{sens}}`$. Architectures B/C are evaluated independently across the complete grid, keeping input selection tied to the principal architecture.
 
 The same representation is subsequently used in A2 and M2, allowing the contribution of musicological knowledge and relational supervision to be examined on a fixed input. In M2's historical comparison, the primary contrast is:
 
-$$
+```math
 \Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{\mathrm{B2}_{\mathrm{main}}}.
-$$
+```
 
-$\mathrm{B2}_{\mathrm{main}}$ and EISE share segmental infrastructure and a matched protocol. Their comparison investigates what the documented exegetical relationship of the same passage contributes to an independent performance-based criterion.
+$`\mathrm{B2}_{\mathrm{main}}`$ and EISE share segmental infrastructure and a matched protocol. Their comparison investigates what the documented exegetical relationship of the same passage contributes to an independent performance-based criterion.
 
 The choice of J is developed below through numerical counterexamples, three complementary synthetic sensitivity studies, and separate algorithmic and statistical checks. The discussion follows the reasoning from candidate representations and selection rules to the final evaluation protocol.
 
@@ -44,16 +44,16 @@ The choice of J is developed below through numerical counterexamples, three comp
 
 The candidate representation space is:
 
-$$
+```math
 \mathcal R=U\times\Phi,\qquad |U|=3,\quad |\Phi|=4,\quad |\mathcal R|=12.
-$$
+```
 
-Earlier documentation denoted the feature set by F. The current research reader uses **$\Phi$** for the feature axis and reserves **F** for a formula family. This changes the notation while retaining all twelve experimental conditions.
+Earlier documentation denoted the feature set by F. The current research reader uses **$`\Phi`$** for the feature axis and reserves **F** for a formula family. This changes the notation while retaining all twelve experimental conditions.
 
 | Factor | Levels | Research purpose |
 | --- | --- | --- |
 | Input unit U | u1: notational symbol · u2: atomic melodic event · u3: compound neumatic unit with a specified grouping rule | Compares the informational and structural granularity of the input. |
-| Feature layers $\Phi$ | N · N+T · N+T+M · N+T+M+L | Measures successive contributions of temporal (T), modal (M), and textual/prosodic (L) information beyond the initial notational/melodic description N. |
+| Feature layers $`\Phi`$ | N · N+T · N+T+M · N+T+M+L | Measures successive contributions of temporal (T), modal (M), and textual/prosodic (L) information beyond the initial notational/melodic description N. |
 
 **u3** is constructed by a prespecified grouping procedure independent of family labels and model predictions. The common output resolution is the atomic event sequence. Even when the input uses larger units, candidate boundaries are projected onto the same atomic coordinates. The projection, reproducibility of grouping, and preservation of permitted information therefore require explicit verification.
 
@@ -69,11 +69,11 @@ The changing selection rule reflects a more precise formulation of the research 
 | --- | --- | --- |
 | Up to analytical version v8.68i | Initial selection | Priority given to boundary F1, with a requirement for simultaneous statistical superiority to identify a single representation. Several representations could be carried into M2 when performance was indistinguishable. |
 | **7 October 2026** | **Simulation Study A** | One operational choice using a constrained argmax, a separate uncertainty set, and at most one sensitivity analysis; exploration of family-adequacy and non-inferiority criteria. |
-| October 2026, analytical version v8.71e | Rule **O** | Boundary micro-F1 as the primary measure, family criterion $G$, a simultaneous uncertainty region, and separate reporting of lost family recall. |
+| October 2026, analytical version v8.71e | Rule **O** | Boundary micro-F1 as the primary measure, family criterion $`G`$, a simultaneous uncertainty region, and separate reporting of lost family recall. |
 | 22–26 October 2026 | Intermediate core drafts | Stronger emphasis on the shared semi-Markov architecture and complete-formula evaluation while retaining the initial selection criterion. |
 | **30 October 2026** | Rule **N** | Inclusion of architectures A/B/C and their mean complete-formula F1 in the selection rule, with a family-adequacy requirement for all three. |
 | **31 October 2026** | **Simulation Studies B and C** | Examination of representation–architecture interactions, dependence between localisation and labels, and behaviour with few independent groups. Formulation of rule **J**. |
-| **31 October 2026** | Algorithmic and statistical validation | Definition of complete admissible boundary pairs $B_x$, compatible matching, the uncertainty set $\mathcal R^\star$, families absent from bootstrap samples, and the common role of A in A2/M2. |
+| **31 October 2026** | Algorithmic and statistical validation | Definition of complete admissible boundary pairs $`B_x`$, compatible matching, the uncertainty set $`\mathcal R^\star`$, families absent from bootstrap samples, and the common role of A in A2/M2. |
 
 Earlier versions remain useful for reconstructing how the decision was reached. The operative specification appears in Sections 9–11 and is intended to be carried into the main research proposal as its source documents are harmonised.
 
@@ -81,17 +81,17 @@ Earlier versions remain useful for reconstructing how the decision was reached. 
 
 ### 4.1 Rule O — priority to boundary localisation
 
-$$
+```math
 R_O^\star=\underset{R:\widehat G_{e_0}(R)\ge g_{\min}}{\arg\max}\widehat M_{\mathrm{bnd}}(R,e_0).
-$$
+```
 
-$M_{\mathrm{bnd}}$ is boundary micro-F1, with the prespecified tolerance when applicable; $G$ is macro recall over known families in externally bounded occurrences. The common estimator $e_0$ was left for a later stage in the initial specification; the final design explicitly sets $e_0=A$. Rule O directly targets boundary accuracy. Complete-formula recognition is reported as a separate outcome.
+$`M_{\mathrm{bnd}}`$ is boundary micro-F1, with the prespecified tolerance when applicable; $`G`$ is macro recall over known families in externally bounded occurrences. The common estimator $`e_0`$ was left for a later stage in the initial specification; the final design explicitly sets $`e_0=A`$. Rule O directly targets boundary accuracy. Complete-formula recognition is reported as a separate outcome.
 
 ### 4.2 Rule N — mean performance across A/B/C
 
-$$
+```math
 R_N^\star=\underset{R:\min_{a\in\{A,B,C\}}\widehat{\mathrm{Rec}}_{\mathrm{fam}}(R,a)\ge r_{\min}}{\arg\max}\frac{1}{3}\sum_{a\in\{A,B,C\}}\widehat F_{1,\mathrm{seg+fam}}(R,a).
-$$
+```
 
 Rule N estimates mean complete-formula recognition across three specified architectures. This is a coherent objective when transferability to A/B/C with equal weighting is the aim. In the present research design, B/C act as **comparators**, while A supplies the shared infrastructure for A2/M2. Selection by the A/B/C average may therefore differ from the input that best serves the main model. The minimum criterion also requires adequacy under B/C and left ambiguity over whether recall was measured at known or predicted boundaries.
 
@@ -99,9 +99,9 @@ Rule N estimates mean complete-formula recognition across three specified archit
 
 Rule J retains O's constrained argmax and family threshold while using the measure that directly reflects the full recognition task:
 
-$$
+```math
 R_J^\star=\underset{R:\widehat G_A(R)\ge g_{\min}}{\arg\max}\widehat F_{1,\mathrm{seg+fam}}(R,A).
-$$
+```
 
 This produces one operational input for A2/M2. Architectural comparisons are carried out separately across all representations. A remains the common segmental model for the downstream studies, while B/C provide independent comparators.
 
@@ -135,11 +135,11 @@ Rule O selects R1, whereas J selects R2. This reversal occurs even with exact en
 | R1 | **0.92** | 0.60 | 0.60 | 0.707 |
 | R2 | 0.85 | 0.85 | 0.85 | **0.850** |
 
-With adequate G for both representations, N selects R2. A then performs 0.07 below the available R1, which J selects. This example isolates the representation–architecture interaction $R\times a$, examined separately in the architectural comparison.
+With adequate G for both representations, N selects R2. A then performs 0.07 below the available R1, which J selects. This example isolates the representation–architecture interaction $`R\times a`$, examined separately in the architectural comparison.
 
 ### 5.3 The minimum criterion makes A depend on weaknesses in B/C
 
-If macro family recall for a representation is $(A,B,C)=(0.90,0.60,0.60)$ with threshold $0.70$, N excludes it even though A satisfies the criterion. If all candidate representations show similar weaknesses in B/C, N may produce an empty eligible set. J evaluates family adequacy under A, the architecture used in subsequent studies.
+If macro family recall for a representation is $`(A,B,C)=(0.90,0.60,0.60)`$ with threshold $`0.70`$, N excludes it even though A satisfies the criterion. If all candidate representations show similar weaknesses in B/C, N may produce an empty eligible set. J evaluates family adequacy under A, the architecture used in subsequent studies.
 
 ### 5.4 Joint success depends on the alignment of boundaries and family labels
 
@@ -149,19 +149,19 @@ A case study compared two representations with high boundary accuracy and high G
 
 The first study examined the decision rules over a grid of twelve representations using synthetic marginal measures of boundary performance and family recall. Its principal concern was how to choose **one operational representation** when several exhibit statistically similar performance.
 
-The procedure had three distinct levels: (a) operational selection through point-estimate eligibility and maximisation of the primary measure; (b) construction of an uncertainty set $\mathcal R^\star$ containing statistically compatible optimal choices; and (c) evaluation of the main historical comparison with one $R^\star$, alongside at most one additional representation for descriptive sensitivity analysis.
+The procedure had three distinct levels: (a) operational selection through point-estimate eligibility and maximisation of the primary measure; (b) construction of an uncertainty set $`\mathcal R^\star`$ containing statistically compatible optimal choices; and (c) evaluation of the main historical comparison with one $`R^\star`$, alongside at most one additional representation for descriptive sensitivity analysis.
 
-The simulation covered **148 parameter combinations** and seven principal scenarios. In synthetic settings with a moderate number of independent groups, requiring a certified lower bound $L_G(R)\ge g_{\min}$ for eligibility frequently led to an empty set. For example, in a particular setting with sixteen groups and threshold 0.70, the probability that $\widehat{\mathcal A}^{-}$ was empty was approximately 0.673. Operational selection therefore retains the point-estimate criterion $\widehat G(R)\ge g_{\min}$, while the simultaneous uncertainty region is evaluated separately.
+The simulation covered **148 parameter combinations** and seven principal scenarios. In synthetic settings with a moderate number of independent groups, requiring a certified lower bound $`L_G(R)\ge g_{\min}`$ for eligibility frequently led to an empty set. For example, in a particular setting with sixteen groups and threshold 0.70, the probability that $`\widehat{\mathcal A}^{-}`$ was empty was approximately 0.673. Operational selection therefore retains the point-estimate criterion $`\widehat G(R)\ge g_{\min}`$, while the simultaneous uncertainty region is evaluated separately.
 
-The direction of the statistical non-inferiority criterion was also checked. For a difference of $-0.10$, standard error 0.05, and multiplier 1.645, the **lower** confidence bound is $-0.18225$. Certifying non-inferiority against a margin of 0.04 requires the lower bound to be at least $-0.04$. Operational selection and non-inferiority certification thus serve different purposes in the protocol.
+The direction of the statistical non-inferiority criterion was also checked. For a difference of $`-0.10`$, standard error 0.05, and multiplier 1.645, the **lower** confidence bound is $`-0.18225`$. Certifying non-inferiority against a margin of 0.04 requires the lower bound to be at least $`-0.04`$. Operational selection and non-inferiority certification thus serve different purposes in the protocol.
 
-Study A's generator produced **marginal counts**. It did not represent the joint information for both endpoints and the family label of an individual occurrence, or the three architectures A/B/C. Two further synthetic studies were developed to assess complete recognition and representation–architecture interactions. The size of $\mathcal R^\star$ is treated as a random outcome of each scenario, with no universally predetermined range.
+Study A's generator produced **marginal counts**. It did not represent the joint information for both endpoints and the family label of an individual occurrence, or the three architectures A/B/C. Two further synthetic studies were developed to assess complete recognition and representation–architecture interactions. The size of $`\mathcal R^\star`$ is treated as a random outcome of each scenario, with no universally predetermined range.
 
 ## 7. Simulation Study B: occurrence-level modelling and localisation–family dependence
 
-The second study used a synthetic generator at the **occurrence level**. For each family, representation, and architecture, success in detecting a complete segment and correctly identifying its family was simulated, allowing positive or negative dependence within the Fréchet bounds. The design included interactions $R\times a$ and shared random effects for work–source groups.
+The second study used a synthetic generator at the **occurrence level**. For each family, representation, and architecture, success in detecting a complete segment and correctly identifying its family was simulated, allowing positive or negative dependence within the Fréchet bounds. The design included interactions $`R\times a`$ and shared random effects for work–source groups.
 
-The experiment used four representative representations, three architectures, eight families, sixteen groups, and approximately 290 occurrences per synthetic sample. It ran **2,000 Monte Carlo replicates**. The population reference was the best eligible representation according to A's joint segment-and-family F1. $P(\text{target})$ denotes the probability of choosing that representation; expected **regret** measures the shortfall from its population-optimal value under the same criterion.
+The experiment used four representative representations, three architectures, eight families, sixteen groups, and approximately 290 occurrences per synthetic sample. It ran **2,000 Monte Carlo replicates**. The population reference was the best eligible representation according to A's joint segment-and-family F1. $`P(\text{target})`$ denotes the probability of choosing that representation; expected **regret** measures the shortfall from its population-optimal value under the same criterion.
 
 | Scenario | O: selection probability / regret | N: selection probability / regret | J: selection probability / regret | Controlled mechanism |
 | --- | --- | --- | --- | --- |
@@ -174,7 +174,7 @@ In S1, averaging A/B/C reduces selection noise. In S2, architectural differences
 
 ## 8. Simulation Study C: complete segments across all twelve representations
 
-The third study extended synthetic generation to **complete segments**, with start–end coordinates, family predictions, and admissible boundary pairs $B_x$. It included all twelve representations in $U\times\Phi$, eight scenarios S0–S7, **100 Monte Carlo replicates per scenario**, and **199 bootstrap resamples** per synthetic dataset. The shared evaluation criterion was A's population-level F1 for complete segments with correct family labels, estimated from a separate large synthetic reference sample.
+The third study extended synthetic generation to **complete segments**, with start–end coordinates, family predictions, and admissible boundary pairs $`B_x`$. It included all twelve representations in $`U\times\Phi`$, eight scenarios S0–S7, **100 Monte Carlo replicates per scenario**, and **199 bootstrap resamples** per synthetic dataset. The shared evaluation criterion was A's population-level F1 for complete segments with correct family labels, estimated from a separate large synthetic reference sample.
 
 | Scenario | Mechanism | O under A | N | J |
 | --- | --- | ---: | ---: | ---: |
@@ -197,53 +197,53 @@ The generator produces controlled synthetic predictions and correlations. Empiri
 
 ### 9.1 The set of admissible boundary pairs
 
-Each reference occurrence $x$ has a family $f_x$ and a documented, fixed set of admissible **complete** start–end pairs:
+Each reference occurrence $`x`$ has a family $`f_x`$ and a documented, fixed set of admissible **complete** start–end pairs:
 
-$$
+```math
 B_x=\{(s_1,e_1),\ldots,(s_k,e_k)\}.
-$$
+```
 
-Start and end coordinates remain paired: $(4,11)$ and $(6,13)$ do **not** imply an additional $(4,13)$. A prediction $y$ with $(\hat s_y,\hat e_y,\hat f_y)$ matches $x$ correctly only if $(\hat s_y,\hat e_y)\in B_x$ **and** $\hat f_y=f_x$. The primary metric uses **$\tau=0$** additional tolerance. Musicologically admissible boundary alternatives are already specified in $B_x$.
+Start and end coordinates remain paired: $`(4,11)`$ and $`(6,13)`$ do **not** imply an additional $`(4,13)`$. A prediction $`y`$ with $`(\hat s_y,\hat e_y,\hat f_y)`$ matches $`x`$ correctly only if $`(\hat s_y,\hat e_y)\in B_x`$ **and** $`\hat f_y=f_x`$. The primary metric uses **$`\tau=0`$** additional tolerance. Musicologically admissible boundary alternatives are already specified in $`B_x`$.
 
-The sets $B_x$ are constructed before the predictions of the compared models are examined. For each alternative pair, the sources, independent judgements, and disagreement-resolution procedure are retained. Boundary tolerance $\tau_b$ is used for diagnostic boundary F1 and a separate tolerant segment-F1; it does not alter J.
+The sets $`B_x`$ are constructed before the predictions of the compared models are examined. For each alternative pair, the sources, independent judgements, and disagreement-resolution procedure are retained. Boundary tolerance $`\tau_b`$ is used for diagnostic boundary F1 and a separate tolerant segment-F1; it does not alter J.
 
 ### 9.2 Maximum-cardinality matching with correct family labels
 
 The principal evaluation uses **edges that jointly satisfy boundary and family criteria**, with one-to-one maximum-cardinality matching and deterministic tie-breaking. Geometric matching that disregards labels is performed separately **for diagnostic boundary F1**.
 
-Let $P$ denote the number of predictions, $X$ the number of reference occurrences, and $m$ the maximum number of correct matches. For a fixed reference count,
+Let $`P`$ denote the number of predictions, $`X`$ the number of reference occurrences, and $`m`$ the maximum number of correct matches. For a fixed reference count,
 
-$$
+```math
 TP=m,\qquad FP=P-m,\qquad FN=X-m,\qquad F_{1,\mathrm{seg+fam}}=\frac{2m}{P+X}.
-$$
+```
 
-Corpus-wide micro-F1 aggregates TP/FP/FN **before** taking the ratio. An empty region with $P=X=0$ contributes no artificial success to the numerator of corpus-level micro-F1. An entirely empty, standalone evaluation case follows a prespecified convention.
+Corpus-wide micro-F1 aggregates TP/FP/FN **before** taking the ratio. An empty region with $`P=X=0`$ contributes no artificial success to the numerator of corpus-level micro-F1. An entirely empty, standalone evaluation case follows a prespecified convention.
 
 ### 9.3 When bipartite matching suffices and when global compatibility must be enforced
 
-If the number of reference occurrences is fixed and local boundary alternatives can coexist, maximum **bipartite matching** over admissible, family-consistent edges is sufficient. If musicological evidence links adjacent choices through additional constraints, evaluation must consider the set of **globally legal complete analyses** $\mathcal C_{\mathrm{legal}}$. With fixed $X$, the objective is:
+If the number of reference occurrences is fixed and local boundary alternatives can coexist, maximum **bipartite matching** over admissible, family-consistent edges is sufficient. If musicological evidence links adjacent choices through additional constraints, evaluation must consider the set of **globally legal complete analyses** $`\mathcal C_{\mathrm{legal}}`$. With fixed $`X`$, the objective is:
 
-$$
+```math
 m^\star=\max_{c\in\mathcal C_{\mathrm{legal}}}m(c),\qquad F_1=\frac{2m^\star}{P+X}.
-$$
+```
 
 For alternative analyses with **different numbers of reference occurrences**, the more general definition applies:
 
-$$
+```math
 F_{1,\mathrm{seg+fam}}^\star=\max_{c\in\mathcal C_{\mathrm{legal}}}\frac{2m(c)}{P+X(c)}.
-$$
+```
 
 The preceding expression describes a standalone evaluation case. **At corpus level**, when alternative legal reference analyses yield different occurrence counts, the compatible analysis is selected jointly over all evaluation cases, maximising a single micro-F1 ratio:
 
-$$
+```math
 F_{1,\mathrm{seg+fam}}^{\mathrm{corpus}}=
 \max_{c\in\mathcal C_{\mathrm{legal}}^{\mathrm{corpus}}}
 \frac{2M(c)}{P_{\mathrm{total}}+X(c)}.
-$$
+```
 
-Here $M(c)$ is the total number of correct matches, $P_{\mathrm{total}}$ the total number of predictions, and $X(c)$ the total number of reference occurrences in the selected globally legal corpus analysis. This rule prevents a separate denominator from being optimised within each individual region.
+Here $`M(c)`$ is the total number of correct matches, $`P_{\mathrm{total}}`$ the total number of predictions, and $`X(c)`$ the total number of reference occurrences in the selected globally legal corpus analysis. This rule prevents a separate denominator from being optimised within each individual region.
 
-The constraint structure determines whether bipartite matching, dynamic programming, or integer programming is appropriate. The general expression with variable $X(c)$ requires an explicitly prespecified evaluation regime and musicological verification of alternative **occurrences**, beyond alternative boundaries for a single occurrence.
+The constraint structure determines whether bipartite matching, dynamic programming, or integer programming is appropriate. The general expression with variable $`X(c)`$ requires an explicitly prespecified evaluation regime and musicological verification of alternative **occurrences**, beyond alternative boundaries for a single occurrence.
 
 In the main non-overlapping semi-CRF pathway, decoded predictions cannot overlap. Examples involving overlapping predictions test the evaluator's response to outputs prohibited by that decoder and provide input-validity checks. **Non-overlapping** predictions may also require global compatibility when alternative reference analyses are interdependent.
 
@@ -251,42 +251,42 @@ In the main non-overlapping semi-CRF pathway, decoded predictions cannot overlap
 
 ### 10.1 Known boundaries and known families
 
-$G_A(R)$ denotes macro recall across known families **on complete gold-standard segments**, using forced-choice classification over a common vocabulary of known families. Abstention and unknown-family outputs are disabled for this specific test, so that representation-specific rejection thresholds cannot change eligibility. Open-set recognition, abstention, coverage, and their calibration are evaluated separately where they form part of the task.
+$`G_A(R)`$ denotes macro recall across known families **on complete gold-standard segments**, using forced-choice classification over a common vocabulary of known families. Abstention and unknown-family outputs are disabled for this specific test, so that representation-specific rejection thresholds cannot change eligibility. Open-set recognition, abstention, coverage, and their calibration are evaluated separately where they form part of the task.
 
-$$
+```math
 \widehat G_A(R)=\frac{1}{n_{\mathrm{rep}}}\sum_{r=1}^{n_{\mathrm{rep}}}\frac{1}{|\mathcal F|}\sum_{f\in\mathcal F}\frac{TP_{f,r}^{\mathrm{gold}}(R,A)}{n_f}.
-$$
+```
 
-The threshold $g_{\min}$ is fixed before ranking, using independent specialist assessments and a pilot medoid:
+The threshold $`g_{\min}`$ is fixed before ranking, using independent specialist assessments and a pilot medoid:
 
-$$
+```math
 g_{\min}=\max\{g_{\mathrm{use}},\widehat G_0^{\mathrm{pilot}}+\delta_{\mathrm{use}}\}.
-$$
+```
 
 An empty eligible set triggers the prespecified review of corpus and annotation readiness. Exact ties are resolved by preferring fewer additional feature layers and then the fixed, prespecified order of input units U.
 
 ### 10.2 One operational R and one uncertainty set
 
-Exactly one R is selected for operational use. The simultaneous uncertainty region covers **66** pairwise J differences among the twelve representations and **12** G values: **78** quantities in total. Writing $L$ and $U$ for lower and upper confidence bounds, define:
+Exactly one R is selected for operational use. The simultaneous uncertainty region covers **66** pairwise J differences among the twelve representations and **12** G values: **78** quantities in total. Writing $`L`$ and $`U`$ for lower and upper confidence bounds, define:
 
-$$
+```math
 \widehat{\mathcal A}^{-}=\{R:L_G(R)\ge g_{\min}\},\qquad
 \widehat{\mathcal A}^{+}=\{R:U_G(R)\ge g_{\min}\},
-$$
+```
 
-$$
+```math
 \mathcal R^\star=\left\{R\in\widehat{\mathcal A}^{+}:L_{iR}\le0\quad\text{for every }i\in\widehat{\mathcal A}^{-}\setminus\{R\}\right\}.
-$$
+```
 
-Here $L_{iR}$ is the lower bound of the difference $J(R_i)-J(R)$. If $\widehat{\mathcal A}^{-}$ is empty, the set equals $\widehat{\mathcal A}^{+}$. Whenever the simultaneous region covers the underlying population quantities, every truly eligible optimal representation lies in $\mathcal R^\star$. This theoretical property depends on the **actual simultaneous coverage** achieved by the estimation procedure.
+Here $`L_{iR}`$ is the lower bound of the difference $`J(R_i)-J(R)`$. If $`\widehat{\mathcal A}^{-}`$ is empty, the set equals $`\widehat{\mathcal A}^{+}`$. Whenever the simultaneous region covers the underlying population quantities, every truly eligible optimal representation lies in $`\mathcal R^\star`$. This theoretical property depends on the **actual simultaneous coverage** achieved by the estimation procedure.
 
-The sensitivity analysis selects at most **one** $R_{\mathrm{sens}}$ from eligible members of the uncertainty set, preferring a different U and then a higher J. This analysis is descriptive; the primary $\Delta_{\mathrm{hist}}$ is calculated with the single $R^\star$. Lost family recall $\Delta_G^{\mathrm{loss}}$ is also reported.
+The sensitivity analysis selects at most **one** $`R_{\mathrm{sens}}`$ from eligible members of the uncertainty set, preferring a different U and then a higher J. This analysis is descriptive; the primary $`\Delta_{\mathrm{hist}}`$ is calculated with the single $`R^\star`$. Lost family recall $`\Delta_G^{\mathrm{loss}}`$ is also reported.
 
 ### 10.3 Bootstrap inference with few independent groups
 
 The independent sampling unit is a prespecified work–source group. Each resample is shared across all representations and initialisations, retaining the pairing of the entire grid. The core proposal specifies **five common random initialisations**. Any increase is decided and fixed before the main ranking.
 
-If a bootstrap sample has $n_f^{(b)}=0$ for a family, that family's recall is **undefined** in the sample. This event is recorded rather than replaced automatically by zero. Feasibility and simultaneous coverage of the resampling procedure are evaluated in WP0/WP1. If reliability is inadequate, the conservative fallback reports **the entire grid as the uncertainty set**, while retaining a single operational R. A preregistered pilot trigger, such as coverage below 0.90 against a nominal 0.95, is a **warning/readiness criterion**, not proof of nominal coverage.
+If a bootstrap sample has $`n_f^{(b)}=0`$ for a family, that family's recall is **undefined** in the sample. This event is recorded rather than replaced automatically by zero. Feasibility and simultaneous coverage of the resampling procedure are evaluated in WP0/WP1. If reliability is inadequate, the conservative fallback reports **the entire grid as the uncertainty set**, while retaining a single operational R. A preregistered pilot trigger, such as coverage below 0.90 against a nominal 0.95, is a **warning/readiness criterion**, not proof of nominal coverage.
 
 Nested group-based validation repeats training, tuning, and selection within each outer evaluation fold, measuring **generalisation of the selection procedure**. The final operational R is then selected on the complete development corpus and fixed before independent A2/M2 evaluation. Held-out historical and performance cases play no role in selection.
 
@@ -296,15 +296,15 @@ M1 includes **36 architecture–representation conditions** (12 R × 3 architect
 
 The main architectural contrast compares A with C, averaged across all representations:
 
-$$
+```math
 \Delta_{A-C}=\frac{1}{12}\sum_{R\in U\times\Phi}\left[F_{1,\mathrm{seg+fam}}(R,A)-F_{1,\mathrm{seg+fam}}(R,C)\right].
-$$
+```
 
-It is accompanied by $\Delta_{A-B}$ and a separate boundary-F1 contrast $\Delta_{A-C}^{\mathrm{bnd}}$. Resampling is performed on each group's **complete paired profile**, because the twelve differences share works and random initialisations.
+It is accompanied by $`\Delta_{A-B}`$ and a separate boundary-F1 contrast $`\Delta_{A-C}^{\mathrm{bnd}}`$. Resampling is performed on each group's **complete paired profile**, because the twelve differences share works and random initialisations.
 
-A2 retains the selected architecture A as its common infrastructure. In [M2](m2-eise-research-design.md), A uses the same $R^\star$; symbolic recognition is assessed separately using $\mathrm{B0}_{\mathrm{sym}}$, and historical performance descriptions using $\mathrm{B0}_{\mathrm{profile}}$. B1, B2, and EISE are trained from shared initial weights in each replicate, according to the M2 protocol. The earlier policy of subsequently selecting B or C as the main architecture belongs to a preceding design stage. In the revised protocol, B/C remain independent architectural comparators.
+A2 retains the selected architecture A as its common infrastructure. In [M2](m2-eise-research-design.md), A uses the same $`R^\star`$; symbolic recognition is assessed separately using $`\mathrm{B0}_{\mathrm{sym}}`$, and historical performance descriptions using $`\mathrm{B0}_{\mathrm{profile}}`$. B1, B2, and EISE are trained from shared initial weights in each replicate, according to the M2 protocol. The earlier policy of subsequently selecting B or C as the main architecture belongs to a preceding design stage. In the revised protocol, B/C remain independent architectural comparators.
 
-$G$ isolates discrimination between families at known boundaries. By contrast, M5-min processes complete works with predicted boundaries, open-set recognition, and possible abstention. Its metrics are reported separately.
+$`G`$ isolates discrimination between families at known boundaries. By contrast, M5-min processes complete works with predicted boundaries, open-set recognition, and possible abstention. Its metrics are reported separately.
 
 ## 12. Reproducibility and technical evidence
 
@@ -324,7 +324,7 @@ Publishing reproducible packages requires a final review of their contents and m
 
 The synthetic study deliverables document reruns of earlier models, numerical checks, and validation of the segmental metric. The following additional small-scale checks were also rerun in the original working environment:
 
-- **12/12** segmental simulation tests passed, covering match counts, $B_x$, families, tie-breaking, and basic statistical constructions.
+- **12/12** segmental simulation tests passed, covering match counts, $`B_x`$, families, tie-breaking, and basic statistical constructions.
 - The tests for the marginal methodology and the historical reference program completed successfully.
 - **8/8** numerical matching checks passed on small, explicitly defined cases.
 
@@ -334,14 +334,14 @@ These executions verify particular computations. The simulations assess the **se
 
 | ID | Test case | Expected result |
 | --- | --- | --- |
-| T1 | Prediction $(4,13)$ when $B_x=\{(4,11),(6,13)\}$ | Reject the recombined inadmissible pair. |
-| T2 | A boundary shifted by one event beyond $B_x$ | Failure under the primary metric with $\tau=0$. |
+| T1 | Prediction $`(4,13)`$ when $`B_x=\{(4,11),(6,13)\}`$ | Reject the recombined inadmissible pair. |
+| T2 | A boundary shifted by one event beyond $`B_x`$ | Failure under the primary metric with $`\tau=0`$. |
 | T3 | An admissible boundary pair with an incorrect family | Record the prediction as FP and the corresponding occurrence as FN. |
 | T4 | Reverse the order of two competing predictions | Preserve the same maximum number of correct matches. |
 | T5 | Incompatible alternative boundaries of adjacent occurrences | Select from globally legal analyses. |
 | T6 | Overlapping segments returned by a non-overlapping decoder | Validate the input and explicitly handle the illegal output. |
 | T7 | Interdependent reference choices without prediction overlap | Enforce additional compatibility constraints. |
-| T8 | Alternative analyses with different occurrence counts | Maximise F1 with the appropriate denominator $P+X(c)$. |
+| T8 | Alternative analyses with different occurrence counts | Maximise F1 with the appropriate denominator $`P+X(c)`$. |
 
 The full evaluator will be tested against a small exhaustive reference implementation that enumerates globally legal analyses, with T1–T8 included in automated testing.
 
@@ -349,11 +349,11 @@ The full evaluator will be tested against a small exhaustive reference implement
 
 WP0/WP1 operationalise rule J through the following deliverables:
 
-1. **Musicological reference.** Record documented occurrences and independent specialist judgements, fix the sets $B_x$, and define compatibility relations $\mathcal C_{\mathrm{legal}}$.
-2. **Shared representation and decoding.** Validate the projection of $u_1/u_3$ onto atomic events, fix the output format, and implement matching with tests T1–T8.
-3. **Family adequacy.** Record independent assessments by two specialists and evaluate the medoid model on a suitable pilot corpus to prespecify $g_{\mathrm{use}}$, $\delta_{\mathrm{use}}$, and $g_{\min}$.
-4. **Statistical calibration.** Check the independence of work–source groups, the number of shared initialisations, the frequency of samples with $n_f^{(b)}=0$, simultaneous coverage over the region of 78 quantities, and a conservative procedure when coverage is inadequate.
-5. **Data partitions and generalisation.** Use nested group-based cross-validation, finalise one $R^\star$ on the complete development corpus, and evaluate A2/M2 independently without consulting held-out test sets for representation selection.
+1. **Musicological reference.** Record documented occurrences and independent specialist judgements, fix the sets $`B_x`$, and define compatibility relations $`\mathcal C_{\mathrm{legal}}`$.
+2. **Shared representation and decoding.** Validate the projection of $`u_1/u_3`$ onto atomic events, fix the output format, and implement matching with tests T1–T8.
+3. **Family adequacy.** Record independent assessments by two specialists and evaluate the medoid model on a suitable pilot corpus to prespecify $`g_{\mathrm{use}}`$, $`\delta_{\mathrm{use}}`$, and $`g_{\min}`$.
+4. **Statistical calibration.** Check the independence of work–source groups, the number of shared initialisations, the frequency of samples with $`n_f^{(b)}=0`$, simultaneous coverage over the region of 78 quantities, and a conservative procedure when coverage is inadequate.
+5. **Data partitions and generalisation.** Use nested group-based cross-validation, finalise one $`R^\star`$ on the complete development corpus, and evaluate A2/M2 independently without consulting held-out test sets for representation selection.
 
 Rule J is the common selection criterion throughout. These procedures specify its parameters, the quality of the reference annotations, and the reliability requirements for empirical evaluation.
 
@@ -361,8 +361,8 @@ Rule J is the common selection criterion throughout. These procedures specify it
 
 ## 14. Concluding methodological choice
 
-M1 establishes a unified approach to symbolic representation selection for the study of Byzantine melodic formulae. The grid $U\times\Phi$ examines the contributions of input granularity and cumulative feature layers. Rule J evaluates successful recognition of an entire formula with the correct family identity under the prespecified architecture A. The requirement $G_A\ge g_{\min}$ establishes minimum family adequacy on known boundaries; the simultaneous uncertainty region records statistically compatible selections.
+M1 establishes a unified approach to symbolic representation selection for the study of Byzantine melodic formulae. The grid $`U\times\Phi`$ examines the contributions of input granularity and cumulative feature layers. Rule J evaluates successful recognition of an entire formula with the correct family identity under the prespecified architecture A. The requirement $`G_A\ge g_{\min}`$ establishes minimum family adequacy on known boundaries; the simultaneous uncertainty region records statistically compatible selections.
 
-Synthetic Studies A, B, and C identify mechanisms affecting selection under O, N, and J. The separate A/B/C comparison retains the ability to study how joint boundary-and-family learning affects performance. With one operational $R^\star$, A2 and M2 can estimate their respective contrasts using comparable inputs and the shared segmental infrastructure.
+Synthetic Studies A, B, and C identify mechanisms affecting selection under O, N, and J. The separate A/B/C comparison retains the ability to study how joint boundary-and-family learning affects performance. With one operational $`R^\star`$, A2 and M2 can estimate their respective contrasts using comparable inputs and the shared segmental infrastructure.
 
 The final empirical evaluation will assess generalisation and statistical stability on independent works and sources, following the requirements established in WP0/WP1.

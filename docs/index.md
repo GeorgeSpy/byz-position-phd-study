@@ -13,7 +13,7 @@
 | Ερευνητικό σώμα | [Προκαταρκτική απογραφή Gheorghiță](research/corpus/README.md), [αγγλική έκδοση](../en/docs/research/corpus/README.md) · 338 γραμμές μεταδεδομένων | [ΠΕ0 και δεδομένα](full/08-data.md), [αγγλικό λεξικό πεδίων](../en/docs/research/corpus/data/README.md) |
 | Πεδία και συνεισφορά | [Προηγούμενη έρευνα](research/index.md), [τοποθέτηση](review/contribution-matrix.md), [μουσικολογική τεκμηρίωση](musicology/index.md) |
 | Εκτενές αναγνωστήριο | [Κεφάλαια και παραρτήματα](full/index.md), [θεματικός οδηγός](topics.md) |
-| Ερευνητής και προγενέστερη εργασία | [Βιογραφικό](author/index.md), [MESPI και δημόσιος ερευνητικός κώδικας](author/prior-work.md), [χειρόγραφα SETN και MESPI](../documents/prior-work/README.md) |
+| Ερευνητής και προγενέστερη εργασία | [Βιογραφικό](author/index.md), [MESPI και δημόσιος ερευνητικός κώδικας](author/prior-work.md), [paper SETN και MESPI](../documents/prior-work/README.md) |
 | Πηγές | [Βιβλιογραφία μεθοδολογικής ανάπτυξης](bibliography/methodology.md), [εκτενής βιβλιογραφία](bibliography/index.md), [πηγές και τεκμηρίωση](reference.md) |
 
 ---

@@ -10,7 +10,7 @@ A numerical reference framework has been developed for admissible diagnostic con
 
 The N5 failure is a known scaling problem in an auxiliary generalised least-squares (GLS) implementation. It is **not counted as a passing check** and does not, by itself, determine the validity of the musicological formulation. Synthetic demonstrations involving reasoning shortcuts and reference-normalised scores do not replace independent expert judgements or real occurrences.
 
-**Work outstanding until the exploratory inventory is completed:** direct examination of manuscript and theoretical sources; fully documented family-signature cards; authentic, independently assessed passage pairs and family judgements; source permissions; independent annotations; held-out `MacroAP_hard` and `Q_real` results; runtime measurements on realistic inputs; and a possible new ML identifiability guarantee.
+**Work outstanding until the exploratory inventory is completed:** direct examination of manuscript and theoretical sources; fully documented family-signature cards; authentic, independently assessed passage pairs and family judgements; source permissions; independent annotations; held-out $`\mathrm{MacroAP}_{\mathrm{hard}}`$ and $`Q_{\mathrm{real}}`$ results; runtime measurements on realistic inputs; and a possible new ML identifiability guarantee.
 
 Claims of methodological originality are assessed against existing work on semantic loss, infimum loss, structured prediction, concept bottlenecks, learning from crowds, and neuro-symbolic identifiability. Exact summation over an event is **not in itself presented as a novel, general-purpose ML loss**.
 

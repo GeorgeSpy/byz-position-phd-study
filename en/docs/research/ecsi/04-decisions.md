@@ -13,7 +13,7 @@
 | ECSI-D with dependent diagnostics | **Architecture design default for the pilot** | Inadequate or effectively independent anchors, intractable inference, or new empirical evidence |
 | ECSI-F (factored model) | Mandatory ablation | If dependence yields no reliably demonstrated benefit under predeclared tests, reconsider the simpler model; a non-significant difference alone is not proof of equivalence |
 | Continuous R1 component | Conditional on μ2 and μ6 | Activate only for documented continuous core measures with explicit units and tolerances |
-| Cross-family comparability | Proposed common-reference, calibrated scorer | Inconsistent shared semantics, invalid `r_F`, or calibration failure |
+| Cross-family comparability | Proposed common-reference, calibrated scorer | Inconsistent shared semantics, invalid $`r_F`$, or calibration failure |
 | Prediction without the true family label | Mandatory leakage check | Redesign if candidate-conditioned alignment requires an oracle label |
 | Synthetic test results | Establish algorithmic correctness only | They do not demonstrate MIR performance on real musical sources |
 | Real-world pilot and publications | **Not yet completed** | Completion of source-backed P0′/P1′/P2′ and sufficient statistical evidence |

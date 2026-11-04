@@ -11,8 +11,8 @@
 ## Components
 
 1. A musically legitimate input encoded through representation **R★**, together with context `c`.
-2. A shared encoder and a **dependent diagnostic distribution** `q_θ(z|x,c)`. The simpler factored distribution is a mandatory comparator rather than an untested default.
-3. A documented family signature `σ_F` specifying requirements, supporting relationships, exclusions, contextual rules, and alternative sufficient branches.
+2. A shared encoder and a **dependent diagnostic distribution** $`q_\theta(z\mid x,c)`$. The simpler factored distribution is a mandatory comparator rather than an untested default.
+3. A documented family signature $`\sigma_F`$ specifying requirements, supporting relationships, exclusions, contextual rules, and alternative sufficient branches.
 4. **Exact membership probability**, with any overlap among sufficient branches counted **once**.
 5. Scores that are comparable across candidate families under explicit calibration assumptions.
 6. A separate expert-judgement observation model and an independent realisation-information branch `v`.
@@ -24,7 +24,7 @@ For a shared finite semantic space `Ω` of diagnostic configurations:
 m_F(x,c)=\sum_{z\in\Omega}q_\theta(z\mid x,c)\phi_F(z,c).
 \]
 
-When the admissible set of a broader family contains that of a more specific family, raw membership mass `m_F` favours the broader signature. The proposed correction uses a shared semantic space and requires independent empirical calibration. A candidate score uses a reference probability `r_F>0`:
+When the admissible set of a broader family contains that of a more specific family, raw membership mass $`m_F`$ favours the broader signature. The proposed correction uses a shared semantic space and requires independent empirical calibration. A candidate score uses a reference probability $`r_F>0`$:
 
 \[
 s_F=\log\pi_F(c)+\beta(\log m_F-\log r_F)+b_\gamma(d_F,c),\quad
