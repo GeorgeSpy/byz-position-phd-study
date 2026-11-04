@@ -8,7 +8,7 @@
 
 > **Status:** Research specification. Synthetic and numerical checks support choices in the protocol. Budgets are initial estimates. Confirmatory evaluation requires real, independently annotated occurrences, enough independent work–source groups and a successful calibration of the statistical procedure in WP0.
 >
-> **Technical protocol:** [Appendix K — A2 v16.5](../appendices/k.md). **Synthetic checks:** [`a2/support/`](../../../docs/research/a2/support/README.en.md).
+> **Technical protocol:** [Appendix K — A2 technical protocol](../appendices/k.md). **Synthetic checks:** [`a2/support/`](../../../docs/research/a2/support/README.en.md).
 >
 > **Related texts:** [Revised M1](m1-selection-decision.md) · [Revised M2](m2-eise-research-design.md) · [Musical position and family](../current/position-and-family.md) · [ECSI](ecsi/README.md) · [Core research plan (LaTeX)](../../../documents/core-research-plan.tex) · [Musicological memorandum (LaTeX)](../../../documents/musicological-memorandum.tex).
 
@@ -31,7 +31,7 @@
 15. [Computational budget](#15-computational-budget)
 16. [What different outcomes mean](#16-what-different-outcomes-mean)
 17. [Relation to M2a, M2b–EISE, Mthesis and ECSI](#17-relation-to-m2a-m2beise-mthesis-and-ecsi)
-18. [Decisions in v16.5 and open questions](#18-decisions-in-v165-and-open-questions)
+18. [Decisions in this revision and open questions](#18-decisions-in-this-revision-and-open-questions)
 19. [Why the experiment matters internationally](#19-why-the-experiment-matters-internationally)
 20. [Core bibliography](#20-core-bibliography)
 21. [Run registry and glossary](#21-run-registry-and-glossary)
@@ -75,7 +75,7 @@ The stages below describe the logic of the decisions, not necessarily their exac
 - information parity across conditions;
 - independent judgements.
 
-**Eighth decision — a calibrated statistical procedure (v16.5).** Synthetic checks showed that the per-dataset bootstrap-t gives lower coverage with few groups. They also showed that the strict rule on undefined resamples requires near-ubiquitous family presence. The primary candidate procedure became the jackknife with a Student $t(G-1)$ reference distribution. Its confirmatory use depends on calibration in WP0, before the independent test set is opened (§13).
+**Eighth decision — a calibrated statistical procedure.** Synthetic checks showed that the per-dataset bootstrap-t gives lower coverage with few groups. They also showed that the strict rule on undefined resamples requires near-ubiquitous family presence. The primary candidate procedure became the jackknife with a Student $t(G-1)$ reference distribution. Its confirmatory use depends on calibration in WP0, before the independent test set is opened (§13).
 
 ## 3. Musicological ontology and criteria
 
@@ -508,7 +508,7 @@ The A2 of the core programme uses the additive score with and without a logical 
 | Mthesis | Distribution of realisations given $F,C$ | Prediction $p_\theta(x\mid F,C)$ and related checks |
 | ECSI-D | Dependent concepts and exact union of sufficient branches | Structured versus flat knowledge and strong reference models, under its own protocol |
 
-## 18. Decisions in v16.5 and open questions
+## 18. Decisions in this revision and open questions
 
 ### 18.1 What has been specified
 
@@ -519,7 +519,7 @@ The A2 of the core programme uses the additive score with and without a logical 
 - Ten active perturbations, five replicates, $B_K$, $B^\star$ and 120 main fits per final split are foreseen.
 - The two one-sided primary tests use the Holm correction with $\alpha=0.025$.
 
-### 18.2 Decisions in v16.5
+### 18.2 Decisions in this revision
 
 1. **Single technical reference:** [Appendix K](../appendices/k.md) is the A2 protocol for this version.
 2. **$\lambda$:** remains $[0,2]$ without a positive lower bound; the distribution of $\hat\lambda$, the share with $\hat\lambda<0.1$ and the frequency at 2 are reported.
@@ -589,7 +589,7 @@ Page numbers of historical examples are checked against the primary source befor
 
 - [Core research plan — A2 section and appendix](../../../documents/core-research-plan.tex): equations $\ell_F,\ell_D$, primary estimands, $B_K$, $B^\star$, perturbations, replicates and statistical status.
 - [Musicological memorandum — A2 section](../../../documents/musicological-memorandum.tex): musical interpretation of the relations, logical examples and the distinction between content and structure.
-- [Appendix K — A2 technical protocol v16.5](../appendices/k.md) and [synthetic checks](../../../docs/research/a2/support/README.en.md).
+- [Appendix K — A2 technical protocol](../appendices/k.md) and [synthetic checks](../../../docs/research/a2/support/README.en.md).
 - [Revised M1](m1-selection-decision.md) · [Revised M2](m2-eise-research-design.md) · [Musical position and family](../current/position-and-family.md) · [ECSI](ecsi/README.md).
 
 ## 21. Run registry and glossary
@@ -600,7 +600,7 @@ The operational order of execution and the required technical checks are given i
 
 ```yaml
 experiment: A2_knowledge_factorial
-protocol_version: A2-v16.5
+protocol_version: A2-2026-11-03
 source_commit: <git commit>
 representation_id: <R_star manifest>
 m1_checkpoint_id: <M1 weights>
@@ -619,8 +619,8 @@ unknown_semantics_version: <version>
 head_fit: {split: D_int, w: <values>, lambda_hat: <value>}
 BK_version: <version>
 Bstar_version: <version>
-metric_definition_id: AP_fam-v16.5
-statistical_plan_id: jackknife-t-G-1-v16.5
+metric_definition_id: AP_fam-2026-11-03
+statistical_plan_id: jackknife-t-G-1-2026-11-03
 wallclock_seconds: <measured>
 memory_peak_mb: <measured>
 notes: <registered deviations>

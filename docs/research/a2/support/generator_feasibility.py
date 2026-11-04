@@ -1,4 +1,4 @@
-"""Feasibility of the constrained bijective perturbation generator (protocol v16.5 §5).
+"""Feasibility of the constrained bijective perturbation generator (A2 protocol, Appendix K §K.5).
 
 Synthetic concept banks and family specifications. Each proposal is a universal
 permutation tau of concept identities within type blocks (categorical variables:

@@ -1,4 +1,4 @@
-"""Sensitivity sub-study: per-dataset paired cluster bootstrap-t (protocol v16.5 §8, sensitivity).
+"""Sensitivity sub-study: per-dataset paired cluster bootstrap-t (A2 protocol, Appendix K §K.8, sensitivity).
 
 Each dataset: B group-bootstrap draws; each draw has an inner delete-one-draw jackknife
 (one copy removed when a group was drawn several times). T_b = (theta_b - theta_hat)/SE_b.

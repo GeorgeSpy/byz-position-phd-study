@@ -1,6 +1,6 @@
 """A2 design-stage simulations: shared synthetic generator and pooled AP_fam.
 
-Protocol v16.5 §6–§8. AP_fam is one-vs-rest average precision per family, with
+A2 protocol (Appendix K), §K.6–§K.8. AP_fam is one-vs-rest average precision per family, with
 tie blocks inserted simultaneously (AP = sum_k (R_k - R_{k-1}) P_k), equal weight
 per occurrence and macro mean over the frozen family set F0. S is the mean over
 the R replicate bases. Contrasts:

@@ -1,12 +1,12 @@
-# A2 — Synthetic design checks (v16.5)
+# A2 — Synthetic design checks
 
 <!-- language-switch:start -->
 **Language / Γλώσσα:** [Ελληνικά](README.md) · **English**
 <!-- language-switch:end -->
 
-[A2 research design](../../../../en/docs/research/a2-knowledge-design.md) · [Appendix K — technical protocol v16.5](../../../../en/docs/appendices/k.md)
+[A2 research design](../../../../en/docs/research/a2-knowledge-design.md) · [Appendix K — A2 technical protocol](../../../../en/docs/appendices/k.md)
 
-This folder contains the synthetic checks behind the v16.5 decisions on the statistical procedure, the composition of H, the perturbation generator and head fitting. The data are **synthetic**, with arbitrary noise, prevalence and clustering parameters. The checks show mechanisms and orders of magnitude. They do not estimate performance on the real corpus and do not replace the operating-characteristics study of §K.8, which runs in WP0 with the pilot's sizes and at least 5000 replications per critical scenario.
+This folder contains the synthetic checks behind this revision's decisions on the statistical procedure, the composition of H, the perturbation generator and head fitting. The data are **synthetic**, with arbitrary noise, prevalence and clustering parameters. The checks show mechanisms and orders of magnitude. They do not estimate performance on the real corpus and do not replace the operating-characteristics study of §K.8, which runs in WP0 with the pilot's sizes and at least 5000 replications per critical scenario.
 
 ## Files
 
@@ -67,7 +67,7 @@ In the sparse scenario the coverage rule raises the issued datasets from 498 to 
 
 ## Corrections
 
-### Against the package of 3/11 (evening)
+### After the second independent check
 
 A second independent check found the following, which are corrected here:
 
@@ -79,7 +79,9 @@ A second independent check found the following, which are corrected here:
 6. **Heads.** The groups of each cross-fitting fold and the convergence of the bases are recorded. The independent check found a deviation of up to about 0.0021 in the cross-fitted $\Delta_{\mathrm{logic}}$ with another scikit-learn version; the recorded groups now allow a side-by-side comparison.
 7. **Use of the penalty.** The standard deviation of $\hat\lambda$ and the share $\hat\lambda<0.1$ are reported.
 
-### Against the package of 3/11 (morning)
+### After the first independent check
+
+The first independent check of the synthetic studies found the following, which were corrected:
 
 1. Null $H_2$ was set to zero while the true value was about $-0.0025$. It is now constructed exactly by a per-group F/D swap.
 2. Datasets with an undefined resample were dropped from the denominators. Planned, defined and issued datasets are now reported separately.
@@ -91,7 +93,7 @@ A second independent check found the following, which are corrected here:
 8. In head fitting, all splits are by group, the temperature is consistent and an undefined AP counts as undefined.
 9. Every result line records seed, configuration and software versions.
 
-The qualitative conclusions of the earlier packages stand: lower coverage and power of the per-dataset bootstrap-t with few groups, the need for a constrained sampler and underestimation of $\lambda$ when heads are fitted on the base's groups. The numerical results in this folder replace the earlier ones.
+The qualitative conclusions of the earlier runs stand: lower coverage and power of the per-dataset bootstrap-t with few groups, the need for a constrained sampler and underestimation of $\lambda$ when heads are fitted on the base's groups. The numerical results in this folder replace the earlier ones.
 
 ## Reproduction
 

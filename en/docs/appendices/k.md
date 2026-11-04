@@ -1,4 +1,4 @@
-# K · A2 — Technical protocol v16.5
+# K · A2 — Technical protocol
 
 <!-- language-switch:start -->
 **Language / Γλώσσα:** [Ελληνικά](../../../docs/appendices/k.md) · **English**
@@ -6,13 +6,13 @@
 
 [A2 research design](../research/a2-knowledge-design.md) · [Synthetic checks](../../../docs/research/a2/support/README.en.md) · [Revised M1](../research/m1-selection-decision.md) · [Revised M2](../research/m2-eise-research-design.md)
 
-**Date:** 3 November 2026. **Status:** preregistrable technical protocol. The mathematical checks and the synthetic design checks have been run; no model has been trained on the real corpus. v16.5 replaces v16.4 (27 October 2026). Acceptance of the real perturbation set, calibration of the statistical procedure and confirmatory status are decided in WP0, before the independent test set H is opened. The Greek text is the reference version.
+**Date:** 3 November 2026. **Status:** preregistrable technical protocol. The mathematical checks and the synthetic design checks have been run; no model has been trained on the real corpus. This revision replaces the previous one, of 27 October 2026. Acceptance of the real perturbation set, calibration of the statistical procedure and confirmatory status are decided in WP0, before the independent test set H is opened. The Greek text is the reference version.
 
-This appendix is the companion A2 technical protocol cited by the [core research plan](../../../documents/core-research-plan.tex): §§3–10 there correspond to §§K.3–K.10. The [design page](../research/a2-knowledge-design.md) explains the question and the rationale. This appendix defines the scores, the generator, the estimands, the splits, the statistical procedure and the records. The synthetic checks behind the v16.5 decisions are in [`docs/research/a2/support/`](../../../docs/research/a2/support/README.en.md).
+This appendix is the companion A2 technical protocol cited by the [core research plan](../../../documents/core-research-plan.tex): §§3–10 there correspond to §§K.3–K.10. The [design page](../research/a2-knowledge-design.md) explains the question and the rationale. This appendix defines the scores, the generator, the estimands, the splits, the statistical procedure and the records. The synthetic checks behind the decisions of this revision are in [`docs/research/a2/support/`](../../../docs/research/a2/support/README.en.md).
 
 **In this appendix**
 
-- [K.0 · Changes from v16.4](#k0--changes-from-v164)
+- [K.0 · Changes from the previous revision](#k0--changes-from-the-previous-revision)
 - [K.1 · Question, population and units](#k1--question-population-and-units)
 - [K.2 · Data and independent judgement](#k2--data-and-independent-judgement)
 - [K.3 · Shared input, bases and model family](#k3--shared-input-bases-and-model-family)
@@ -25,7 +25,7 @@ This appendix is the companion A2 technical protocol cited by the [core research
 - [K.10 · Criteria, fallbacks and timeline](#k10--criteria-fallbacks-and-timeline)
 - [K.11 · Reproducibility and sources](#k11--reproducibility-and-sources)
 
-## K.0 · Changes from v16.4
+## K.0 · Changes from the previous revision
 
 1. **Five bases.** Each replicate $r=1,\dots,5$ has its own base $b_r$ and temperature $T_r$, shared by the conditions and by $B_K$ within the replicate (§K.3).
 2. **Heads on the internal development set.** $(w,\lambda)$ and the head of $B_K$ are fitted on the internal development groups $\mathcal{D} _ {\mathrm{int}}$, where the temperature is also fitted. The base is trained on the separate groups $\mathcal{D} _ {\mathrm{base}}$ (§K.3, §K.7).
@@ -197,7 +197,7 @@ The certificate covers exactly the family of heads that is fitted: $W$ with lowe
 
 ### Feasibility and stopping
 
-The v16.4 example, with primal and dual checks, gives $d_F=d_D=0.8$; the identity mapping gives $d_F=0$. In 16 synthetic banks of v16.5, with uniform choice among the compatible images, the constrained sampler found ten accepted P in 10 of the 11 banks without an immovable family, with 16–191 proposals. None of the 5 banks with an immovable family succeeded. LP residuals and duality gaps were below $10^{-14}$ and the smallest conservative dual bound was 0.1. The bank without an immovable family that failed exhausted the 100,000 proposals with nine accepted P. A preference for non-identity images did not improve feasibility and increased duplicate proposals in the poor banks; the main setting is therefore uniform choice ([results](../../../docs/research/a2/support/README.en.md)). These checks do not prove that ten such P exist in the corpus. All checks are repeated in the real pilot. If ten accepted P are not found within the prespecified limit of 100,000 proposals, confirmatory A2 stops. The termination reason is recorded separately: target reached, 100,000 proposals exhausted, or proven infeasibility because of an immovable family. The time limit of the synthetic checks is a practical limit of the simulation and does not replace the proposal limit. The available comparisons are reported descriptively and M1, M2 and M3a continue as planned. The model family and the acceptance rules are not relaxed silently.
+The example of the previous revision, with primal and dual checks, gives $d_F=d_D=0.8$; the identity mapping gives $d_F=0$. In 16 synthetic banks, with uniform choice among the compatible images, the constrained sampler found ten accepted P in 10 of the 11 banks without an immovable family, with 16–191 proposals. None of the 5 banks with an immovable family succeeded. LP residuals and duality gaps were below $10^{-14}$ and the smallest conservative dual bound was 0.1. The bank without an immovable family that failed exhausted the 100,000 proposals with nine accepted P. A preference for non-identity images did not improve feasibility and increased duplicate proposals in the poor banks; the main setting is therefore uniform choice ([results](../../../docs/research/a2/support/README.en.md)). These checks do not prove that ten such P exist in the corpus. All checks are repeated in the real pilot. If ten accepted P are not found within the prespecified limit of 100,000 proposals, confirmatory A2 stops. The termination reason is recorded separately: target reached, 100,000 proposals exhausted, or proven infeasibility because of an immovable family. The time limit of the synthetic checks is a practical limit of the simulation and does not replace the proposal limit. The available comparisons are reported descriptively and M1, M2 and M3a continue as planned. The model family and the acceptance rules are not relaxed silently.
 
 No label-dependent acceptance filter is applied, such as requiring a drop in AP. Even on training data only, such a filter would define perturbations that are unfavourable to the labels by construction, and a different estimand. Correlations with training labels are reported as diagnostics after the set is finalised. The ten P are not exchangeable with the musicologically chosen V and do not constitute a randomisation null distribution. A universal $\tau$ can preserve the overall score distribution on a uniform Boolean cube; check T13 tests this symmetry.
 
@@ -341,7 +341,7 @@ report bootstrap-t sensitivity, failed gates, missingness, uncertainty and the r
 
 ## K.11 · Reproducibility and sources
 
-Source hashes, splits, the specification compiler version, the rejection ledger, LP witnesses and residuals, configurations, parameter counts, optimisation residuals, run times, seeds, predictions before labels are joined and the exact metric version are saved. The mathematical checks T13–T27 of v16.4 (29/29 passed with Python 3.12.14, NumPy 2.3.5 and SciPy 1.17.0) belong to an earlier package that is not yet in the repository. Until it is added, references to T13–T27 point to that package and cannot be reproduced here on their own. T25 and T27 are procedure and interface checks; they do not prove corpus code that has not yet been written. The repository runs `test_ap.py` (AP with weights and ties) and `test_generator.py` (acceptance rules of the generator). The synthetic design checks of v16.5, with seeds, configurations and software versions on every result line, are in [`docs/research/a2/support/`](../../../docs/research/a2/support/README.en.md).
+Source hashes, splits, the specification compiler version, the rejection ledger, LP witnesses and residuals, configurations, parameter counts, optimisation residuals, run times, seeds, predictions before labels are joined and the exact metric version are saved. The mathematical checks T13–T27 of the previous revision (29/29 passed with Python 3.12.14, NumPy 2.3.5 and SciPy 1.17.0) belong to an earlier package that is not yet in the repository. Until it is added, references to T13–T27 point to that package and cannot be reproduced here on their own. T25 and T27 are procedure and interface checks; they do not prove corpus code that has not yet been written. The repository runs `test_ap.py` (AP with weights and ties) and `test_generator.py` (acceptance rules of the generator). The synthetic design checks of this revision, with seeds, configurations and software versions on every result line, are in [`docs/research/a2/support/`](../../../docs/research/a2/support/README.en.md).
 
 **Primary references.**
 
