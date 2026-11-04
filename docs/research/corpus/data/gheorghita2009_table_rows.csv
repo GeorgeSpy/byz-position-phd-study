@@ -1,0 +1,339 @@
+row_id,mode,table,formula,schema,row_seq,row_nr_ocr,printed_page,composer,petros_set,new_method_lines,exegete_per_line,exegete_configuration,anonymous_bar955_line,work_key_hypothesis,verification
+G09-E1-T01-01,α΄,1,1,Κύλισμα,1,,153,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|α΄|,CHECKED_VISUALLY
+G09-E1-T01-02,α΄,1,1,Κύλισμα,2,,153,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|α΄|,CHECKED_VISUALLY
+G09-E1-T01-03,α΄,1,1,Κύλισμα,3,2,153,PB,,1,CC+GP,CC_GP_SAME,no,PB|α΄|,CHECKED_VISUALLY
+G09-E1-T01-04,α΄,1,1,Κύλισμα,4,,153,PB,,1,CC+GP,CC_GP_SAME,no,PB|α΄|,CHECKED_VISUALLY
+G09-E1-T01-05,α΄,1,1,Κύλισμα,5,,153,PLP,S3,1,GP,GP_ONLY,no,PLP|α΄|S3,CHECKED_VISUALLY
+G09-E1-T01-06,α΄,1,1,Κύλισμα,6,6,153,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,CHECKED_VISUALLY
+G09-E1-T02-01,α΄,2,2,Παρακάλεσμα,1,,154,DP,,1,CC+GP,CC_GP_SAME,no,DP|α΄|,OCR_DRAFT
+G09-E1-T02-02,α΄,2,2,Παρακάλεσμα,2,,154,PLP,,1,GP,GP_ONLY,no,PLP|α΄|,OCR_DRAFT
+G09-E1-T02-03,α΄,2,2,Παρακάλεσμα,3,,154,PLP,S3,1,GP,GP_ONLY,no,PLP|α΄|S3,OCR_DRAFT
+G09-E1-T03-01,α΄,3,3,Παρακλητική,1,7,155,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|α΄|,OCR_DRAFT
+G09-E1-T03-02,α΄,3,3,Παρακλητική,2,2,155,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|α΄|,OCR_DRAFT
+G09-E1-T03-03,α΄,3,3,Παρακλητική,3,,155,PLP,S2,1,GP,GP_ONLY,no,PLP|α΄|S2,OCR_DRAFT
+G09-E1-T03-04,α΄,3,3,Παρακλητική,4,,155,PLP,S2,1,GP,GP_ONLY,no,PLP|α΄|S2,OCR_DRAFT
+G09-E1-T03-05,α΄,3,3,Παρακλητική,5,,155,PLP,S3,1,GP,GP_ONLY,no,PLP|α΄|S3,OCR_DRAFT
+G09-E1-T03-06,α΄,3,3,Παρακλητική,6,,155,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T03-07,α΄,3,3,Παρακλητική,7,,155,PLP,S4,2,GP | A,GP_ONLY,yes,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T03-08,α΄,3,3,Παρακλητική,8,,155,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T04-01,α΄,4,4,Επέγερμα,1,1,156,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|α΄|,OCR_DRAFT
+G09-E1-T05-01,α΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),1,,157,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|α΄|,OCR_DRAFT
+G09-E1-T05-02,α΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),2,2,157,DP,,1,CC+GP,CC_GP_SAME,no,DP|α΄|,OCR_DRAFT
+G09-E1-T05-03,α΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),3,3,157,DP,,1,CC+GP,CC_GP_SAME,no,DP|α΄|,OCR_DRAFT
+G09-E1-T05-04,α΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),4,4,157,PB,,1,GP,GP_ONLY,no,PB|α΄|,OCR_DRAFT
+G09-E1-T05-05,α΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),5,,158,PB,,1,CC+GP,CC_GP_SAME,no,PB|α΄|,OCR_DRAFT
+G09-E1-T05-06,α΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),6,6,158,PB,,1,CC+GP,CC_GP_SAME,no,PB|α΄|,OCR_DRAFT
+G09-E1-T05-07,α΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),7,,158,PLP,S3,1,GP,GP_ONLY,no,PLP|α΄|S3,OCR_DRAFT
+G09-E1-T05-08,α΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),8,8,158,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T05-09,α΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),9,9,158,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T05-10,α΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),10,40,158,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T06-01,α΄,6,6,Αργοσύνθετον / γοργοσύνθετον,1,4,159,PB,,1,CC+GP,CC_GP_SAME,no,PB|α΄|,OCR_DRAFT
+G09-E1-T07-01,α΄,7,7,Ξηρόν κλάσμα,1,,159,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T07-02,α΄,7,7,Ξηρόν κλάσμα,2,2,159,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T07-03,α΄,7,7,Ξηρόν κλάσμα,3,3,159,PB,,1,CC+GP,CC_GP_SAME,no,PB|α΄|,OCR_DRAFT
+G09-E1-T08-01,α΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,1,,160,PLP,S2,1,GP,GP_ONLY,no,PLP|α΄|S2,OCR_DRAFT
+G09-E1-T08-02,α΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,2,3,160,PLP,S2,1,GP,GP_ONLY,no,PLP|α΄|S2,OCR_DRAFT
+G09-E1-T08-03,α΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,3,,160,PLP,S2,1,GP,GP_ONLY,no,PLP|α΄|S2,OCR_DRAFT
+G09-E1-T08-04,α΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,4,,160,PLP,S3,1,GP,GP_ONLY,no,PLP|α΄|S3,OCR_DRAFT
+G09-E1-T08-05,α΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,5,,160,PLP,S3,1,GP,GP_ONLY,no,PLP|α΄|S3,OCR_DRAFT
+G09-E1-T08-06,α΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,6,3,160,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T08-07,α΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,7,,160,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T08-08,α΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,8,,160,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T08-09,α΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,9,,160,PB,,1,CC+GP,CC_GP_SAME,no,PB|α΄|,OCR_DRAFT
+G09-E1-T08-10,α΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,10,,160,PB,,1,CC+GP,CC_GP_SAME,no,PB|α΄|,OCR_DRAFT
+G09-E1-T09-01,α΄,9,9,Πίασμα,1,,161,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|α΄|,OCR_DRAFT
+G09-E1-T09-02,α΄,9,9,Πίασμα,2,2,161,PLP,S2,1,GP,GP_ONLY,no,PLP|α΄|S2,OCR_DRAFT
+G09-E1-T09-03,α΄,9,9,Πίασμα,3,3,161,PLP,S2,1,GP,GP_ONLY,no,PLP|α΄|S2,OCR_DRAFT
+G09-E1-T09-04,α΄,9,9,Πίασμα,4,,161,PLP,S2,1,GP,GP_ONLY,no,PLP|α΄|S2,OCR_DRAFT
+G09-E1-T09-05,α΄,9,9,Πίασμα,5,,161,PLP,S3,1,GP,GP_ONLY,no,PLP|α΄|S3,OCR_DRAFT
+G09-E1-T09-06,α΄,9,9,Πίασμα,6,,161,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T09-07,α΄,9,9,Πίασμα,7,,161,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T09-08,α΄,9,9,Πίασμα,8,,161,PLP,S4,1,GP,GP_ONLY,no,PLP|α΄|S4,OCR_DRAFT
+G09-E1-T09-09,α΄,9,9,Πίασμα,9,,161,PB,,1,CC+GP,CC_GP_SAME,no,PB|α΄|,OCR_DRAFT
+G09-E2-T01-01,β΄,1,1,Κύλισμα,1,1,162,PLP,S2,2,GP | A,GP_ONLY,yes,PLP|β΄|S2,OCR_DRAFT
+G09-E2-T01-02,β΄,1,1,Κύλισμα,2,2,162,PB,,1,CC+GP,CC_GP_SAME,no,PB|β΄|,OCR_DRAFT
+G09-E2-T01-03,β΄,1,1,Κύλισμα,3,3,162,PB,,1,CC+GP,CC_GP_SAME,no,PB|β΄|,OCR_DRAFT
+G09-E2-T01-04,β΄,1,1,Κύλισμα,4,,162,DP,,1,CC+GP,CC_GP_SAME,no,DP|β΄|,OCR_DRAFT
+G09-E2-T01-05,β΄,1,1,Κύλισμα,5,,162,DP,,1,CC+GP,CC_GP_SAME,no,DP|β΄|,OCR_DRAFT
+G09-E2-T01-06,β΄,1,1,Κύλισμα,6,,162,DP,,2,CC+GP | A,CC_GP_SAME,yes,DP|β΄|,OCR_DRAFT
+G09-E2-T01-07,β΄,1,1,Κύλισμα,7,7,162,PB,,2,CC+GP | A,CC_GP_SAME,yes,PB|β΄|,OCR_DRAFT
+G09-E2-T01-08,β΄,1,1,Κύλισμα,8,,162,DP,,1,CC+GP,CC_GP_SAME,no,DP|β΄|,OCR_DRAFT
+G09-E2-T01-09,β΄,1,1,Κύλισμα,9,,162,PB,,2,CC+GP | A,CC_GP_SAME,yes,PB|β΄|,OCR_DRAFT
+G09-E2-T01-10,β΄,1,1,Κύλισμα,10,10,163,PLP,S4,1,GP,GP_ONLY,no,PLP|β΄|S4,OCR_DRAFT
+G09-E2-T01-11,β΄,1,1,Κύλισμα,11,11,163,PLP,S4,2,GP | A,GP_ONLY,yes,PLP|β΄|S4,OCR_DRAFT
+G09-E2-T02-01,β΄,2,3,Παρακλητική,1,7,163,UNREAD,,1,GP,GP_ONLY,no,,OCR_DRAFT
+G09-E2-T02-02,β΄,2,3,Παρακλητική,2,2,163,PLP,S2,1,GP,GP_ONLY,no,PLP|β΄|S2,OCR_DRAFT
+G09-E2-T02-03,β΄,2,3,Παρακλητική,3,,163,PLP,S2,1,GP,GP_ONLY,no,PLP|β΄|S2,OCR_DRAFT
+G09-E2-T02-04,β΄,2,3,Παρακλητική,4,,163,PLP,S2,1,GP,GP_ONLY,no,PLP|β΄|S2,OCR_DRAFT
+G09-E2-T02-05,β΄,2,3,Παρακλητική,5,,163,PLP,S4,1,GP,GP_ONLY,no,PLP|β΄|S4,OCR_DRAFT
+G09-E2-T02-06,β΄,2,3,Παρακλητική,6,,163,PLP,S4,1,GP,GP_ONLY,no,PLP|β΄|S4,OCR_DRAFT
+G09-E2-T02-07,β΄,2,3,Παρακλητική,7,7,163,PLP,S4,1,GP,GP_ONLY,no,PLP|β΄|S4,OCR_DRAFT
+G09-E2-T02-08,β΄,2,3,Παρακλητική,8,,164,PLP,S4,1,GP,GP_ONLY,no,PLP|β΄|S4,OCR_DRAFT
+G09-E2-T02-09,β΄,2,3,Παρακλητική,9,,164,PB,,1,CC+GP,CC_GP_SAME,no,PB|β΄|,OCR_DRAFT
+G09-E2-T02-10,β΄,2,3,Παρακλητική,10,10,164,PB,,1,CC+GP,CC_GP_SAME,no,PB|β΄|,OCR_DRAFT
+G09-E2-T02-11,β΄,2,3,Παρακλητική,11,11,164,PB,,1,CC+GP,CC_GP_SAME,no,PB|β΄|,OCR_DRAFT
+G09-E2-T02-12,β΄,2,3,Παρακλητική,12,12,164,PB,,1,CC+GP,CC_GP_SAME,no,PB|β΄|,OCR_DRAFT
+G09-E2-T03-01,β΄,3,4,Επέγερμα,1,1,164,DP,,3,CC | GP | A,CC_GP_SEPARATE,yes,DP|β΄|,CHECKED_VISUALLY
+G09-E2-T04-01,β΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),1,,165,DP,,1,CC+GP,CC_GP_SAME,no,DP|β΄|,OCR_DRAFT
+G09-E2-T04-02,β΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),2,2,165,DP,,1,CC+GP,CC_GP_SAME,no,DP|β΄|,OCR_DRAFT
+G09-E2-T04-03,β΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),3,,165,PLP,S2,1,GP,GP_ONLY,no,PLP|β΄|S2,OCR_DRAFT
+G09-E2-T04-04,β΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),4,,165,PLP,S2,1,GP,GP_ONLY,no,PLP|β΄|S2,OCR_DRAFT
+G09-E2-T04-05,β΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),5,,165,PB,,1,CC+GP,CC_GP_SAME,no,PB|β΄|,OCR_DRAFT
+G09-E2-T05-01,β΄,5,6,Αργοσύνθετον / γοργοσύνθετον,1,,166,PLP,S4,1,GP,GP_ONLY,no,PLP|β΄|S4,OCR_DRAFT
+G09-E2-T05-02,β΄,5,6,Αργοσύνθετον / γοργοσύνθετον,2,2,166,PB,,1,CC+GP,CC_GP_SAME,no,PB|β΄|,OCR_DRAFT
+G09-E2-T06-01,β΄,6,7,Ξηρόν κλάσμα,1,1,166,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|β΄|,OCR_DRAFT
+G09-E2-T07-01,β΄,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,1,1,167,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|β΄|,CHECKED_VISUALLY
+G09-E2-T07-02,β΄,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,2,2,167,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|β΄|,CHECKED_VISUALLY
+G09-E2-T07-03,β΄,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,3,3,167,PLP,S4,1,GP,GP_ONLY,no,PLP|β΄|S4,CHECKED_VISUALLY
+G09-E2-T07-04,β΄,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,4,4,167,PB,,1,CC+GP,CC_GP_SAME,no,PB|β΄|,CHECKED_VISUALLY
+G09-E2-T07-05,β΄,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,5,5,167,PB,,2,CC+GP | A,CC_GP_SAME,yes,PB|β΄|,CHECKED_VISUALLY
+G09-E2-T07-06,β΄,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,6,6,167,PB,,2,CC+GP | A,CC_GP_SAME,yes,PB|β΄|,CHECKED_VISUALLY
+G09-E2-T07-07,β΄,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,7,7,167,PB,,2,CC+GP | A,CC_GP_SAME,yes,PB|β΄|,CHECKED_VISUALLY
+G09-E2-T08-01,β΄,8,9,Πίασμα,1,1,168,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|β΄|,CHECKED_VISUALLY
+G09-E2-T08-02,β΄,8,9,Πίασμα,2,2,168,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|β΄|,CHECKED_VISUALLY
+G09-E2-T08-03,β΄,8,9,Πίασμα,3,3,168,PLP,S2,1,GP,GP_ONLY,no,PLP|β΄|S2,CHECKED_VISUALLY
+G09-E2-T08-04,β΄,8,9,Πίασμα,4,4,168,PLP,S2,1,GP,GP_ONLY,no,PLP|β΄|S2,CHECKED_VISUALLY
+G09-E2-T08-05,β΄,8,9,Πίασμα,5,5,168,PLP,S2,1,GP,GP_ONLY,no,PLP|β΄|S2,CHECKED_VISUALLY
+G09-E2-T08-06,β΄,8,9,Πίασμα,6,6,168,PLP,S2,1,GP,GP_ONLY,no,PLP|β΄|S2,CHECKED_VISUALLY
+G09-E2-T08-07,β΄,8,9,Πίασμα,7,7,168,PLP,S3,1,GP,GP_ONLY,no,PLP|β΄|S3,CHECKED_VISUALLY
+G09-E2-T08-08,β΄,8,9,Πίασμα,8,8,168,PB,,1,CC+GP,CC_GP_SAME,no,PB|β΄|,CHECKED_VISUALLY
+G09-E2-T08-09,β΄,8,9,Πίασμα,9,9,168,PB,,1,CC+GP,CC_GP_SAME,no,PB|β΄|,CHECKED_VISUALLY
+G09-E2-T09-01,β΄,9,10,Σύναγμα,1,,169,PLP,S2,1,GP,GP_ONLY,no,PLP|β΄|S2,OCR_DRAFT
+G09-E2-T09-02,β΄,9,10,Σύναγμα,2,2,169,PLP,S4,1,GP,GP_ONLY,no,PLP|β΄|S4,OCR_DRAFT
+G09-E2-T09-03,β΄,9,10,Σύναγμα,3,3,169,PLP,S4,1,GP,GP_ONLY,no,PLP|β΄|S4,OCR_DRAFT
+G09-E3-T01-01,γ΄,1,1,Κύλισμα,1,,170,DP,,1,CC+GP,CC_GP_SAME,no,DP|γ΄|,OCR_DRAFT
+G09-E3-T01-02,γ΄,1,1,Κύλισμα,2,2,170,PB,,1,GP,GP_ONLY,no,PB|γ΄|,OCR_DRAFT
+G09-E3-T01-03,γ΄,1,1,Κύλισμα,3,,170,PLP,S3,1,GP,GP_ONLY,no,PLP|γ΄|S3,OCR_DRAFT
+G09-E3-T02-01,γ΄,2,2,Παρακάλεσμα,1,,171,DP,,1,CC+GP,CC_GP_SAME,no,DP|γ΄|,OCR_DRAFT
+G09-E3-T02-02,γ΄,2,2,Παρακάλεσμα,2,3,171,PLP,,1,GP,GP_ONLY,no,PLP|γ΄|,OCR_DRAFT
+G09-E3-T02-03,γ΄,2,2,Παρακάλεσμα,3,3,171,PB,,1,CC+GP,CC_GP_SAME,no,PB|γ΄|,OCR_DRAFT
+G09-E3-T02-04,γ΄,2,2,Παρακάλεσμα,4,,171,PLP,S3,1,GP,GP_ONLY,no,PLP|γ΄|S3,OCR_DRAFT
+G09-E3-T02-05,γ΄,2,2,Παρακάλεσμα,5,2,171,PLP,S4,1,GP,GP_ONLY,no,PLP|γ΄|S4,OCR_DRAFT
+G09-E3-T03-01,γ΄,3,3,Παρακλητική,1,7,172,DP,,2,GP | A,GP_ONLY,yes,DP|γ΄|,OCR_DRAFT
+G09-E3-T03-02,γ΄,3,3,Παρακλητική,2,,172,PLP,S3,1,GP,GP_ONLY,no,PLP|γ΄|S3,OCR_DRAFT
+G09-E3-T03-03,γ΄,3,3,Παρακλητική,3,3,172,PLP,S3,1,GP,GP_ONLY,no,PLP|γ΄|S3,OCR_DRAFT
+G09-E3-T03-04,γ΄,3,3,Παρακλητική,4,4,172,PLP,S3,1,GP,GP_ONLY,no,PLP|γ΄|S3,OCR_DRAFT
+G09-E3-T03-05,γ΄,3,3,Παρακλητική,5,5,172,PLP,S4,1,GP,GP_ONLY,no,PLP|γ΄|S4,OCR_DRAFT
+G09-E3-T03-06,γ΄,3,3,Παρακλητική,6,6,172,PB,,1,CC+GP,CC_GP_SAME,no,PB|γ΄|,OCR_DRAFT
+G09-E3-T04-01,γ΄,4,4,Επέγερμα,1,,173,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|γ΄|,OCR_DRAFT
+G09-E3-T04-02,γ΄,4,4,Επέγερμα,2,2,173,DP,,1,GP,GP_ONLY,no,DP|γ΄|,OCR_DRAFT
+G09-E3-T04-03,γ΄,4,4,Επέγερμα,3,,173,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|γ΄|,OCR_DRAFT
+G09-E3-T04-04,γ΄,4,4,Επέγερμα,4,4,173,PLP,S2,1,GP,GP_ONLY,no,PLP|γ΄|S2,OCR_DRAFT
+G09-E3-T05-01,γ΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),1,1,174,DP,,1,CC+GP,CC_GP_SAME,no,DP|γ΄|,CHECKED_VISUALLY
+G09-E3-T05-02,γ΄,5,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),2,2,174,PLP,S2,1,GP,GP_ONLY,no,PLP|γ΄|S2,CHECKED_VISUALLY
+G09-E3-T06-01,γ΄,6,6,Αργοσύνθετον / γοργοσύνθετον,1,1,174,PLP,S2,1,GP,GP_ONLY,no,PLP|γ΄|S2,CHECKED_VISUALLY
+G09-E3-T06-02,γ΄,6,6,Αργοσύνθετον / γοργοσύνθετον,2,2,174,PB,,1,CC+GP,CC_GP_SAME,no,PB|γ΄|,CHECKED_VISUALLY
+G09-E3-T07-01,γ΄,7,7,Ξηρόν κλάσμα,1,,174,PLP,S4,1,GP,GP_ONLY,no,PLP|γ΄|S4,CHECKED_VISUALLY
+G09-E3-T08-01,γ΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,1,,175,DP,,1,CC+GP,CC_GP_SAME,no,DP|γ΄|,OCR_DRAFT
+G09-E3-T08-02,γ΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,2,2,175,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|γ΄|,OCR_DRAFT
+G09-E3-T08-03,γ΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,3,3,175,PLP,S2,1,GP,GP_ONLY,no,PLP|γ΄|S2,OCR_DRAFT
+G09-E3-T08-04,γ΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,4,4,175,PLP,S2,1,GP,GP_ONLY,no,PLP|γ΄|S2,OCR_DRAFT
+G09-E3-T08-05,γ΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,5,5,175,PLP,S3,1,GP,GP_ONLY,no,PLP|γ΄|S3,OCR_DRAFT
+G09-E3-T08-06,γ΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,6,6,175,PLP,S4,1,GP,GP_ONLY,no,PLP|γ΄|S4,OCR_DRAFT
+G09-E3-T08-07,γ΄,8,8,Ίσον με κλάσμα–επιστροφή–έτερον,7,7,175,PB,,1,CC+GP,CC_GP_SAME,no,PB|γ΄|,OCR_DRAFT
+G09-E3-T09-01,γ΄,9,9,Πίασμα,1,,176,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|γ΄|,OCR_DRAFT
+G09-E3-T09-02,γ΄,9,9,Πίασμα,2,2,176,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|γ΄|,OCR_DRAFT
+G09-E3-T09-03,γ΄,9,9,Πίασμα,3,3,176,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|γ΄|,OCR_DRAFT
+G09-E3-T09-04,γ΄,9,9,Πίασμα,4,4,176,PLP,S2,1,GP,GP_ONLY,no,PLP|γ΄|S2,OCR_DRAFT
+G09-E3-T09-05,γ΄,9,9,Πίασμα,5,5,176,PLP,S2,1,GP,GP_ONLY,no,PLP|γ΄|S2,OCR_DRAFT
+G09-E3-T09-06,γ΄,9,9,Πίασμα,6,,176,PLP,S3,1,GP,GP_ONLY,no,PLP|γ΄|S3,OCR_DRAFT
+G09-E3-T09-07,γ΄,9,9,Πίασμα,7,7,176,PLP,S3,1,,UNREAD,no,PLP|γ΄|S3,OCR_DRAFT
+G09-E3-T09-08,γ΄,9,9,Πίασμα,8,8,176,UNREAD,,1,CC,CC_ONLY,no,,OCR_DRAFT
+G09-E3-T10-01,γ΄,10,10,Σύναγμα,1,1,177,PLP,S2,1,GP,GP_ONLY,no,PLP|γ΄|S2,OCR_DRAFT
+G09-E3-T10-02,γ΄,10,10,Σύναγμα,2,2,177,PB,,1,CC+GP,CC_GP_SAME,no,PB|γ΄|,OCR_DRAFT
+G09-E3-T11-01,γ΄,11,11,Τρομικόν / ψήφιστον παρακάλεσμα,1,,177,PLP,S4,1,,UNREAD,no,PLP|γ΄|S4,OCR_DRAFT
+G09-E4-T01-01,δ΄,1,1,Κύλισμα,1,,178,PB,,1,CC+GP,CC_GP_SAME,no,PB|δ΄|,OCR_DRAFT
+G09-E4-T01-02,δ΄,1,1,Κύλισμα,2,,178,PLP,S3,1,GP,GP_ONLY,no,PLP|δ΄|S3,OCR_DRAFT
+G09-E4-T01-03,δ΄,1,1,Κύλισμα,3,,178,PLP,S4,1,GP,GP_ONLY,no,PLP|δ΄|S4,OCR_DRAFT
+G09-E4-T01-04,δ΄,1,1,Κύλισμα,4,4,178,PLP,S4,1,GP,GP_ONLY,no,PLP|δ΄|S4,OCR_DRAFT
+G09-E4-T02-01,δ΄,2,3,Παρακλητική,1,1,179,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|δ΄|,OCR_DRAFT
+G09-E4-T02-02,δ΄,2,3,Παρακλητική,2,2,179,PLP,S2,1,GP,GP_ONLY,no,PLP|δ΄|S2,OCR_DRAFT
+G09-E4-T02-03,δ΄,2,3,Παρακλητική,3,,179,PLP,S4,1,GP,GP_ONLY,no,PLP|δ΄|S4,OCR_DRAFT
+G09-E4-T02-04,δ΄,2,3,Παρακλητική,4,4,179,PB,,1,CC+GP,CC_GP_SAME,no,PB|δ΄|,OCR_DRAFT
+G09-E4-T02-05,δ΄,2,3,Παρακλητική,5,,179,PB,,1,CC+GP,CC_GP_SAME,no,PB|δ΄|,OCR_DRAFT
+G09-E4-T03-01,δ΄,3,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),1,,180,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|δ΄|,OCR_DRAFT
+G09-E4-T03-02,δ΄,3,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),2,2,180,DP,,1,CC+GP,CC_GP_SAME,no,DP|δ΄|,OCR_DRAFT
+G09-E4-T03-03,δ΄,3,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),3,,180,DP,,1,CC+GP,CC_GP_SAME,no,DP|δ΄|,OCR_DRAFT
+G09-E4-T03-04,δ΄,3,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),4,4,180,PLP,S2,1,GP,GP_ONLY,no,PLP|δ΄|S2,OCR_DRAFT
+G09-E4-T03-05,δ΄,3,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),5,,180,PLP,S2,1,GP,GP_ONLY,no,PLP|δ΄|S2,OCR_DRAFT
+G09-E4-T04-01,δ΄,4,7,Ξηρόν κλάσμα,1,,181,PLP,S2,1,GP,GP_ONLY,no,PLP|δ΄|S2,OCR_DRAFT
+G09-E4-T04-02,δ΄,4,7,Ξηρόν κλάσμα,2,2,181,PLP,S2,1,GP,GP_ONLY,no,PLP|δ΄|S2,OCR_DRAFT
+G09-E4-T04-03,δ΄,4,7,Ξηρόν κλάσμα,3,3,181,PLP,S4,1,GP,GP_ONLY,no,PLP|δ΄|S4,OCR_DRAFT
+G09-E4-T04-04,δ΄,4,7,Ξηρόν κλάσμα,4,4,181,PB,,1,CC+GP,CC_GP_SAME,no,PB|δ΄|,OCR_DRAFT
+G09-E4-T04-05,δ΄,4,7,Ξηρόν κλάσμα,5,,181,PB,,1,CC+GP,CC_GP_SAME,no,PB|δ΄|,OCR_DRAFT
+G09-E4-T04-06,δ΄,4,7,Ξηρόν κλάσμα,6,,181,PB,,1,CC+GP,CC_GP_SAME,no,PB|δ΄|,OCR_DRAFT
+G09-E4-T05-01,δ΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,1,1,182,DP,,1,CC+GP,CC_GP_SAME,no,DP|δ΄|,OCR_DRAFT
+G09-E4-T05-02,δ΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,2,2,182,DP,,2,A | GP,GP_ONLY,yes,DP|δ΄|,OCR_DRAFT
+G09-E4-T05-03,δ΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,3,3,182,PLP,S4,1,GP,GP_ONLY,no,PLP|δ΄|S4,OCR_DRAFT
+G09-E4-T05-04,δ΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,4,4,182,PLP,S4,1,GP,GP_ONLY,no,PLP|δ΄|S4,OCR_DRAFT
+G09-E4-T05-05,δ΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,5,,182,PLP,S4,1,GP,GP_ONLY,no,PLP|δ΄|S4,OCR_DRAFT
+G09-E4-T05-06,δ΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,6,6,182,PLP,S4,1,GP,GP_ONLY,no,PLP|δ΄|S4,OCR_DRAFT
+G09-E4-T05-07,δ΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,7,2,182,PB,,1,CC+GP,CC_GP_SAME,no,PB|δ΄|,OCR_DRAFT
+G09-E4-T06-01,δ΄,6,9,Πίασμα,1,1,183,DP,,1,GP,GP_ONLY,no,DP|δ΄|,OCR_DRAFT
+G09-E4-T06-02,δ΄,6,9,Πίασμα,2,2,183,DP,,1,GP,GP_ONLY,no,DP|δ΄|,OCR_DRAFT
+G09-E4-T06-03,δ΄,6,9,Πίασμα,3,3,183,PLP,S3,1,GP,GP_ONLY,no,PLP|δ΄|S3,OCR_DRAFT
+G09-E4-T06-04,δ΄,6,9,Πίασμα,4,4,183,PLP,S3,1,GP,GP_ONLY,no,PLP|δ΄|S3,OCR_DRAFT
+G09-E4-T06-05,δ΄,6,9,Πίασμα,5,5,183,PLP,S3,1,GP,GP_ONLY,no,PLP|δ΄|S3,OCR_DRAFT
+G09-E4-T06-06,δ΄,6,9,Πίασμα,6,6,183,PLP,S4,1,GP,GP_ONLY,no,PLP|δ΄|S4,OCR_DRAFT
+G09-E4-T06-07,δ΄,6,9,Πίασμα,7,7,183,PB,,1,CC+GP,CC_GP_SAME,no,PB|δ΄|,OCR_DRAFT
+G09-E4-T07-01,δ΄,7,10,Σύναγμα,1,7,183,PB,,1,CC+GP,CC_GP_SAME,no,PB|δ΄|,OCR_DRAFT
+G09-E5-T01-01,πλ. α΄,1,1,Κύλισμα,1,,184,DP,,2,CC+GP | A,CC_GP_SAME,yes,DP|πλ. α΄|,OCR_DRAFT
+G09-E5-T01-02,πλ. α΄,1,1,Κύλισμα,2,7,184,DP,,1,CC+GP,CC_GP_SAME,no,DP|πλ. α΄|,OCR_DRAFT
+G09-E5-T01-03,πλ. α΄,1,1,Κύλισμα,3,3,184,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. α΄|S2,OCR_DRAFT
+G09-E5-T01-04,πλ. α΄,1,1,Κύλισμα,4,4,184,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. α΄|,OCR_DRAFT
+G09-E5-T01-05,πλ. α΄,1,1,Κύλισμα,5,5,184,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. α΄|,OCR_DRAFT
+G09-E5-T01-06,πλ. α΄,1,1,Κύλισμα,6,6,184,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. α΄|S4,OCR_DRAFT
+G09-E5-T02-01,πλ. α΄,2,2,Παρακάλεσμα,1,,185,PLP,,1,GP,GP_ONLY,no,PLP|πλ. α΄|,OCR_DRAFT
+G09-E5-T02-02,πλ. α΄,2,2,Παρακάλεσμα,2,,185,PLP,,1,GP,GP_ONLY,no,PLP|πλ. α΄|,OCR_DRAFT
+G09-E5-T02-03,πλ. α΄,2,2,Παρακάλεσμα,3,,185,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. α΄|,OCR_DRAFT
+G09-E5-T02-04,πλ. α΄,2,2,Παρακάλεσμα,4,4,185,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. α΄|S3,OCR_DRAFT
+G09-E5-T03-01,πλ. α΄,3,3,Παρακλητική,1,,186,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|πλ. α΄|,OCR_DRAFT
+G09-E5-T03-02,πλ. α΄,3,3,Παρακλητική,2,,186,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. α΄|S2,OCR_DRAFT
+G09-E5-T03-03,πλ. α΄,3,3,Παρακλητική,3,,186,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. α΄|S3,OCR_DRAFT
+G09-E5-T03-04,πλ. α΄,3,3,Παρακλητική,4,,186,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. α΄|S3,OCR_DRAFT
+G09-E5-T03-05,πλ. α΄,3,3,Παρακλητική,5,7,186,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. α΄|S4,OCR_DRAFT
+G09-E5-T03-06,πλ. α΄,3,3,Παρακλητική,6,6,186,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. α΄|S4,OCR_DRAFT
+G09-E5-T03-07,πλ. α΄,3,3,Παρακλητική,7,,186,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. α΄|S4,OCR_DRAFT
+G09-E5-T03-08,πλ. α΄,3,3,Παρακλητική,8,8,186,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. α΄|S4,OCR_DRAFT
+G09-E5-T03-09,πλ. α΄,3,3,Παρακλητική,9,9,186,PB,,1,GP,GP_ONLY,no,PB|πλ. α΄|,OCR_DRAFT
+G09-E5-T04-01,πλ. α΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),1,,187,DP,,1,CC+GP,CC_GP_SAME,no,DP|πλ. α΄|,OCR_DRAFT
+G09-E5-T04-02,πλ. α΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),2,2,187,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. α΄|S2,OCR_DRAFT
+G09-E5-T04-03,πλ. α΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),3,3,187,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. α΄|S2,OCR_DRAFT
+G09-E5-T04-04,πλ. α΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),4,4,187,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. α΄|S4,OCR_DRAFT
+G09-E5-T04-05,πλ. α΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),5,5,187,PB,,1,GP,GP_ONLY,no,PB|πλ. α΄|,OCR_DRAFT
+G09-E5-T05-01,πλ. α΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,1,,188,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|πλ. α΄|,OCR_DRAFT
+G09-E5-T05-02,πλ. α΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,2,2,188,DP,,1,GP,GP_ONLY,no,DP|πλ. α΄|,OCR_DRAFT
+G09-E5-T05-03,πλ. α΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,3,3,188,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. α΄|S2,OCR_DRAFT
+G09-E5-T05-04,πλ. α΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,4,4,188,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. α΄|S2,OCR_DRAFT
+G09-E5-T05-05,πλ. α΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,5,5,188,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. α΄|S3,OCR_DRAFT
+G09-E5-T05-06,πλ. α΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,6,6,188,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. α΄|S4,OCR_DRAFT
+G09-E5-T05-07,πλ. α΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,7,,188,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. α΄|S4,OCR_DRAFT
+G09-E5-T05-08,πλ. α΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,8,8,188,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. α΄|,OCR_DRAFT
+G09-E5-T05-09,πλ. α΄,5,8,Ίσον με κλάσμα–επιστροφή–έτερον,9,,188,PB,,1,GP,GP_ONLY,no,PB|πλ. α΄|,OCR_DRAFT
+G09-E5-T06-01,πλ. α΄,6,9,Πίασμα,1,,189,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|πλ. α΄|,OCR_DRAFT
+G09-E5-T06-02,πλ. α΄,6,9,Πίασμα,2,2,189,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. α΄|S2,OCR_DRAFT
+G09-E5-T06-03,πλ. α΄,6,9,Πίασμα,3,3,189,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. α΄|S4,OCR_DRAFT
+G09-E5-T06-04,πλ. α΄,6,9,Πίασμα,4,4,189,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. α΄|,OCR_DRAFT
+G09-E5-T07-01,πλ. α΄,7,10,Σύναγμα,1,4,190,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. α΄|S2,OCR_DRAFT
+G09-E5-T07-02,πλ. α΄,7,10,Σύναγμα,2,2,190,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. α΄|,OCR_DRAFT
+G09-E5-T08-01,πλ. α΄,8,11,Τρομικόν / ψήφιστον παρακάλεσμα,1,1,190,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. α΄|S4,OCR_DRAFT
+G09-E5-T08-02,πλ. α΄,8,11,Τρομικόν / ψήφιστον παρακάλεσμα,2,2,190,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. α΄|,OCR_DRAFT
+G09-E6-T01-01,πλ. β΄,1,1,Κύλισμα,1,,191,DP,,2,GP | CC+GP,CC_GP_SAME,no,DP|πλ. β΄|,OCR_DRAFT
+G09-E6-T01-02,πλ. β΄,1,1,Κύλισμα,2,2,191,DP,,1,CC+GP,CC_GP_SAME,no,DP|πλ. β΄|,OCR_DRAFT
+G09-E6-T01-03,πλ. β΄,1,1,Κύλισμα,3,,191,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. β΄|S2,OCR_DRAFT
+G09-E6-T01-04,πλ. β΄,1,1,Κύλισμα,4,,191,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. β΄|S2,OCR_DRAFT
+G09-E6-T01-05,πλ. β΄,1,1,Κύλισμα,5,,191,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. β΄|,OCR_DRAFT
+G09-E6-T01-06,πλ. β΄,1,1,Κύλισμα,6,,191,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. β΄|,OCR_DRAFT
+G09-E6-T01-07,πλ. β΄,1,1,Κύλισμα,7,,191,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. β΄|,OCR_DRAFT
+G09-E6-T01-08,πλ. β΄,1,1,Κύλισμα,8,8,191,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. β΄|S3,OCR_DRAFT
+G09-E6-T01-09,πλ. β΄,1,1,Κύλισμα,9,9,191,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. β΄|S3,OCR_DRAFT
+G09-E6-T01-10,πλ. β΄,1,1,Κύλισμα,10,10,191,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. β΄|S4,OCR_DRAFT
+G09-E6-T02-01,πλ. β΄,2,3,Παρακλητική,1,,192,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. β΄|S2,OCR_DRAFT
+G09-E6-T02-02,πλ. β΄,2,3,Παρακλητική,2,,192,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. β΄|S3,OCR_DRAFT
+G09-E6-T02-03,πλ. β΄,2,3,Παρακλητική,3,,192,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. β΄|S4,OCR_DRAFT
+G09-E6-T02-04,πλ. β΄,2,3,Παρακλητική,4,,192,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. β΄|S4,OCR_DRAFT
+G09-E6-T03-01,πλ. β΄,3,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),1,1,193,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|πλ. β΄|,OCR_DRAFT
+G09-E6-T03-02,πλ. β΄,3,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),2,2,193,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|πλ. β΄|,OCR_DRAFT
+G09-E6-T03-03,πλ. β΄,3,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),3,3,193,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. β΄|S2,OCR_DRAFT
+G09-E6-T03-04,πλ. β΄,3,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),4,4,193,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. β΄|S3,OCR_DRAFT
+G09-E6-T04-01,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,1,,194,DP,,1,CC+GP,CC_GP_SAME,no,DP|πλ. β΄|,OCR_DRAFT
+G09-E6-T04-02,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,2,,194,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|πλ. β΄|,OCR_DRAFT
+G09-E6-T04-03,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,3,,194,DP,,1,GP,GP_ONLY,no,DP|πλ. β΄|,OCR_DRAFT
+G09-E6-T04-04,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,4,,194,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. β΄|S2,OCR_DRAFT
+G09-E6-T04-05,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,5,,194,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. β΄|S2,OCR_DRAFT
+G09-E6-T04-06,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,6,,194,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. β΄|S3,OCR_DRAFT
+G09-E6-T04-07,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,7,,194,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. β΄|S4,OCR_DRAFT
+G09-E6-T04-08,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,8,,194,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. β΄|S4,OCR_DRAFT
+G09-E6-T04-09,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,9,,194,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. β΄|S4,OCR_DRAFT
+G09-E6-T04-10,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,10,10,194,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. β΄|S4,OCR_DRAFT
+G09-E6-T04-11,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,11,11,194,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. β΄|,OCR_DRAFT
+G09-E6-T04-12,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,12,12,194,PB,,1,GP,GP_ONLY,no,PB|πλ. β΄|,OCR_DRAFT
+G09-E6-T04-13,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,13,13,194,PB,,1,GP,GP_ONLY,no,PB|πλ. β΄|,OCR_DRAFT
+G09-E6-T04-14,πλ. β΄,4,8,Ίσον με κλάσμα–επιστροφή–έτερον,14,14,194,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. β΄|,OCR_DRAFT
+G09-E6-T05-01,πλ. β΄,5,9,Πίασμα,1,1,195,DP,,1,GP,GP_ONLY,no,DP|πλ. β΄|,OCR_DRAFT
+G09-E6-T05-02,πλ. β΄,5,9,Πίασμα,2,2,195,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|πλ. β΄|,OCR_DRAFT
+G09-E6-T05-03,πλ. β΄,5,9,Πίασμα,3,8,195,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. β΄|S2,OCR_DRAFT
+G09-E6-T05-04,πλ. β΄,5,9,Πίασμα,4,4,195,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. β΄|S2,OCR_DRAFT
+G09-E6-T05-05,πλ. β΄,5,9,Πίασμα,5,,195,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. β΄|S2,OCR_DRAFT
+G09-E6-T05-06,πλ. β΄,5,9,Πίασμα,6,6,195,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. β΄|S2,OCR_DRAFT
+G09-E6-T05-07,πλ. β΄,5,9,Πίασμα,7,,195,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. β΄|S3,OCR_DRAFT
+G09-E6-T05-08,πλ. β΄,5,9,Πίασμα,8,8,195,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. β΄|S3,OCR_DRAFT
+G09-E6-T05-09,πλ. β΄,5,9,Πίασμα,9,9,195,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. β΄|S4,OCR_DRAFT
+G09-E6-T05-10,πλ. β΄,5,9,Πίασμα,10,10,195,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. β΄|S4,OCR_DRAFT
+G09-E6-T05-11,πλ. β΄,5,9,Πίασμα,11,11,195,PB,,1,GP,GP_ONLY,no,PB|πλ. β΄|,OCR_DRAFT
+G09-E6-T05-12,πλ. β΄,5,9,Πίασμα,12,12,195,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. β΄|,OCR_DRAFT
+G09-E7-T01-01,βαρύς,1,1,Κύλισμα,1,,196,DP,,1,CC+GP,CC_GP_SAME,no,DP|βαρύς|,OCR_DRAFT
+G09-E7-T01-02,βαρύς,1,1,Κύλισμα,2,2,196,DP,,1,CC+GP,CC_GP_SAME,no,DP|βαρύς|,OCR_DRAFT
+G09-E7-T01-03,βαρύς,1,1,Κύλισμα,3,,196,PLP,S2,1,GP,GP_ONLY,no,PLP|βαρύς|S2,OCR_DRAFT
+G09-E7-T01-04,βαρύς,1,1,Κύλισμα,4,,196,PB,,1,GP,GP_ONLY,no,PB|βαρύς|,OCR_DRAFT
+G09-E7-T01-05,βαρύς,1,1,Κύλισμα,5,5,196,PLP,S3,1,GP,GP_ONLY,no,PLP|βαρύς|S3,OCR_DRAFT
+G09-E7-T01-06,βαρύς,1,1,Κύλισμα,6,6,196,PLP,S41,1,GP,GP_ONLY,no,PLP|βαρύς|S41,OCR_DRAFT
+G09-E7-T01-07,βαρύς,1,1,Κύλισμα,7,,196,PLP,S41,1,GP,GP_ONLY,no,PLP|βαρύς|S41,OCR_DRAFT
+G09-E7-T01-08,βαρύς,1,1,Κύλισμα,8,8,196,PLP,S42,1,GP,GP_ONLY,no,PLP|βαρύς|S42,OCR_DRAFT
+G09-E7-T02-01,βαρύς,2,3,Παρακλητική,1,,197,DP,,1,CC+GP,CC_GP_SAME,no,DP|βαρύς|,OCR_DRAFT
+G09-E7-T02-02,βαρύς,2,3,Παρακλητική,2,2,197,DP,,1,CC+GP,CC_GP_SAME,no,DP|βαρύς|,OCR_DRAFT
+G09-E7-T02-03,βαρύς,2,3,Παρακλητική,3,,197,PLP,S2,1,GP,GP_ONLY,no,PLP|βαρύς|S2,OCR_DRAFT
+G09-E7-T02-04,βαρύς,2,3,Παρακλητική,4,4,197,PLP,S3,1,GP,GP_ONLY,no,PLP|βαρύς|S3,OCR_DRAFT
+G09-E7-T02-05,βαρύς,2,3,Παρακλητική,5,5,197,PLP,S41,1,GP,GP_ONLY,no,PLP|βαρύς|S41,OCR_DRAFT
+G09-E7-T02-06,βαρύς,2,3,Παρακλητική,6,6,197,PLP,S41,1,GP,GP_ONLY,no,PLP|βαρύς|S41,OCR_DRAFT
+G09-E7-T02-07,βαρύς,2,3,Παρακλητική,7,7,197,PLP,S42,1,GP,GP_ONLY,no,PLP|βαρύς|S42,OCR_DRAFT
+G09-E7-T02-08,βαρύς,2,3,Παρακλητική,8,8,197,PB,,1,CC+GP,CC_GP_SAME,no,PB|βαρύς|,OCR_DRAFT
+G09-E7-T02-09,βαρύς,2,3,Παρακλητική,9,9,197,PB,,1,CC+GP,CC_GP_SAME,no,PB|βαρύς|,OCR_DRAFT
+G09-E7-T03-01,βαρύς,3,4,Επέγερμα,1,1,198,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|βαρύς|,OCR_DRAFT
+G09-E7-T03-02,βαρύς,3,4,Επέγερμα,2,2,198,PLP,,1,GP,GP_ONLY,no,PLP|βαρύς|,OCR_DRAFT
+G09-E7-T04-01,βαρύς,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),1,,198,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|βαρύς|,OCR_DRAFT
+G09-E7-T04-02,βαρύς,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),2,2,198,PLP,S4,1,GP,GP_ONLY,no,PLP|βαρύς|S4,OCR_DRAFT
+G09-E7-T05-01,βαρύς,5,6,Αργοσύνθετον / γοργοσύνθετον,1,1,199,PLP,S41,1,GP,GP_ONLY,no,PLP|βαρύς|S41,OCR_DRAFT
+G09-E7-T05-02,βαρύς,5,6,Αργοσύνθετον / γοργοσύνθετον,2,2,199,PLP,S41,1,GP,GP_ONLY,no,PLP|βαρύς|S41,OCR_DRAFT
+G09-E7-T05-03,βαρύς,5,6,Αργοσύνθετον / γοργοσύνθετον,3,,199,PLP,S42,1,GP,GP_ONLY,no,PLP|βαρύς|S42,OCR_DRAFT
+G09-E7-T05-04,βαρύς,5,6,Αργοσύνθετον / γοργοσύνθετον,4,4,199,PLP,S42,1,GP,GP_ONLY,no,PLP|βαρύς|S42,OCR_DRAFT
+G09-E7-T05-05,βαρύς,5,6,Αργοσύνθετον / γοργοσύνθετον,5,5,199,PLP,S42,1,GP,GP_ONLY,no,PLP|βαρύς|S42,OCR_DRAFT
+G09-E7-T06-01,βαρύς,6,7,Ξηρόν κλάσμα,1,,199,DP,,1,CC+GP,CC_GP_SAME,no,DP|βαρύς|,OCR_DRAFT
+G09-E7-T06-02,βαρύς,6,7,Ξηρόν κλάσμα,2,2,199,PLP,S41,1,GP,GP_ONLY,no,PLP|βαρύς|S41,OCR_DRAFT
+G09-E7-T07-01,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,1,,200,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|βαρύς|,OCR_DRAFT
+G09-E7-T07-02,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,2,7,200,PLP,S2,1,GP,GP_ONLY,no,PLP|βαρύς|S2,OCR_DRAFT
+G09-E7-T07-03,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,3,,200,PLP,S2,1,GP,GP_ONLY,no,PLP|βαρύς|S2,OCR_DRAFT
+G09-E7-T07-04,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,4,,200,PLP,S2,1,GP,GP_ONLY,no,PLP|βαρύς|S2,OCR_DRAFT
+G09-E7-T07-05,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,5,,200,PLP,S41,1,GP,GP_ONLY,no,PLP|βαρύς|S41,OCR_DRAFT
+G09-E7-T07-06,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,6,,200,PLP,S41,1,GP,GP_ONLY,no,PLP|βαρύς|S41,OCR_DRAFT
+G09-E7-T07-07,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,7,,200,PLP,S41,1,GP,GP_ONLY,no,PLP|βαρύς|S41,OCR_DRAFT
+G09-E7-T07-08,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,8,,200,PLP,S41,1,GP,GP_ONLY,no,PLP|βαρύς|S41,OCR_DRAFT
+G09-E7-T07-09,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,9,,200,PB,,1,CC+GP,CC_GP_SAME,no,PB|βαρύς|,OCR_DRAFT
+G09-E7-T07-10,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,10,10,200,PB,,1,GP,GP_ONLY,no,PB|βαρύς|,OCR_DRAFT
+G09-E7-T07-11,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,11,11,200,PB,,1,CC+GP,CC_GP_SAME,no,PB|βαρύς|,OCR_DRAFT
+G09-E7-T07-12,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,12,12,200,PB,,1,CC+GP,CC_GP_SAME,no,PB|βαρύς|,OCR_DRAFT
+G09-E7-T07-13,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,13,13,200,PB,,1,CC+GP,CC_GP_SAME,no,PB|βαρύς|,OCR_DRAFT
+G09-E7-T07-14,βαρύς,7,8,Ίσον με κλάσμα–επιστροφή–έτερον,14,14,200,PB,,1,CC+GP,CC_GP_SAME,no,PB|βαρύς|,OCR_DRAFT
+G09-E7-T08-01,βαρύς,8,9,Πίασμα,1,1,201,PLP,S2,1,CC+GP,CC_GP_SAME,no,PLP|βαρύς|S2,CHECKED_VISUALLY
+G09-E7-T08-02,βαρύς,8,9,Πίασμα,2,2,201,PLP,S42,1,GP,GP_ONLY,no,PLP|βαρύς|S42,CHECKED_VISUALLY
+G09-E7-T09-01,βαρύς,9,10,Σύναγμα,1,,201,PLP,S41,1,GP,GP_ONLY,no,PLP|βαρύς|S41,CHECKED_VISUALLY
+G09-E7-T10-01,βαρύς,10,11,Τρομικόν / ψήφιστον παρακάλεσμα,1,15,201,PLP,S41,2,GP | A,GP_ONLY,yes,PLP|βαρύς|S41,CHECKED_VISUALLY
+G09-E8-T01-01,πλ. δ΄,1,1,Κύλισμα,1,1,202,DP,,2,GP | A,GP_ONLY,yes,DP|πλ. δ΄|,OCR_DRAFT
+G09-E8-T01-02,πλ. δ΄,1,1,Κύλισμα,2,2,202,PLP,S3,2,GP | A,GP_ONLY,yes,PLP|πλ. δ΄|S3,OCR_DRAFT
+G09-E8-T01-03,πλ. δ΄,1,1,Κύλισμα,3,3,202,PLP,S41,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S41,OCR_DRAFT
+G09-E8-T01-04,πλ. δ΄,1,1,Κύλισμα,4,4,202,PLP,S41,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S41,OCR_DRAFT
+G09-E8-T02-01,πλ. δ΄,2,2,Παρακάλεσμα,1,,202,DP,,1,CC+GP,CC_GP_SAME,no,DP|πλ. δ΄|,OCR_DRAFT
+G09-E8-T02-02,πλ. δ΄,2,2,Παρακάλεσμα,2,2,202,PLP,S4,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S4,OCR_DRAFT
+G09-E8-T03-01,πλ. δ΄,3,3,Παρακλητική,1,1,203,DP,,3,CC | GP | A,CC_GP_SEPARATE,yes,DP|πλ. δ΄|,OCR_DRAFT
+G09-E8-T03-02,πλ. δ΄,3,3,Παρακλητική,2,2,203,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|πλ. δ΄|,OCR_DRAFT
+G09-E8-T03-03,πλ. δ΄,3,3,Παρακλητική,3,3,203,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S3,OCR_DRAFT
+G09-E8-T03-04,πλ. δ΄,3,3,Παρακλητική,4,4,203,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S3,OCR_DRAFT
+G09-E8-T03-05,πλ. δ΄,3,3,Παρακλητική,5,5,203,PLP,S3,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S3,OCR_DRAFT
+G09-E8-T03-06,πλ. δ΄,3,3,Παρακλητική,6,6,203,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. δ΄|,OCR_DRAFT
+G09-E8-T03-07,πλ. δ΄,3,3,Παρακλητική,7,,203,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. δ΄|,OCR_DRAFT
+G09-E8-T04-01,πλ. δ΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),1,,204,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|πλ. δ΄|,OCR_DRAFT
+G09-E8-T04-02,πλ. δ΄,4,5,Ολίγον–υπορροή–ολίγον–επιστροφή (σχήμα 5),2,2,204,DP,,2,CC | GP,CC_GP_SEPARATE,no,DP|πλ. δ΄|,OCR_DRAFT
+G09-E8-T05-01,πλ. δ΄,5,6,Αργοσύνθετον / γοργοσύνθετον,1,1,204,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. δ΄|,OCR_DRAFT
+G09-E8-T06-01,πλ. δ΄,6,8,Ίσον με κλάσμα–επιστροφή–έτερον,1,4,205,DP,,1,CC+GP,CC_GP_SAME,no,DP|πλ. δ΄|,OCR_DRAFT
+G09-E8-T06-02,πλ. δ΄,6,8,Ίσον με κλάσμα–επιστροφή–έτερον,2,2,205,PLP,S41,1,,UNREAD,no,PLP|πλ. δ΄|S41,OCR_DRAFT
+G09-E8-T06-03,πλ. δ΄,6,8,Ίσον με κλάσμα–επιστροφή–έτερον,3,,205,PLP,S41,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S41,OCR_DRAFT
+G09-E8-T06-04,πλ. δ΄,6,8,Ίσον με κλάσμα–επιστροφή–έτερον,4,4,205,PLP,S41,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S41,OCR_DRAFT
+G09-E8-T06-05,πλ. δ΄,6,8,Ίσον με κλάσμα–επιστροφή–έτερον,5,8,205,PLP,S42,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S42,OCR_DRAFT
+G09-E8-T06-06,πλ. δ΄,6,8,Ίσον με κλάσμα–επιστροφή–έτερον,6,6,205,PLP,S42,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S42,OCR_DRAFT
+G09-E8-T06-07,πλ. δ΄,6,8,Ίσον με κλάσμα–επιστροφή–έτερον,7,,205,PLP,S42,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S42,OCR_DRAFT
+G09-E8-T06-08,πλ. δ΄,6,8,Ίσον με κλάσμα–επιστροφή–έτερον,8,8,205,PLP,S42,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S42,OCR_DRAFT
+G09-E8-T06-09,πλ. δ΄,6,8,Ίσον με κλάσμα–επιστροφή–έτερον,9,,205,PLP,S42,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S42,OCR_DRAFT
+G09-E8-T06-10,πλ. δ΄,6,8,Ίσον με κλάσμα–επιστροφή–έτερον,10,10,205,PB,,1,CC+GP,CC_GP_SAME,no,PB|πλ. δ΄|,OCR_DRAFT
+G09-E8-T07-01,πλ. δ΄,7,9,Πίασμα,1,1,206,PLP,S41,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S41,CHECKED_VISUALLY
+G09-E8-T08-01,πλ. δ΄,8,10,Σύναγμα,1,,206,PLP,S2,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S2,CHECKED_VISUALLY
+G09-E8-T09-01,πλ. δ΄,9,11,Τρομικόν / ψήφιστον παρακάλεσμα,1,,206,PLP,S41,1,GP,GP_ONLY,no,PLP|πλ. δ΄|S41,CHECKED_VISUALLY
