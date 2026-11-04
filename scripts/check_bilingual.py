@@ -45,11 +45,23 @@ def anchors(text):
     return result
 
 
+def normalize_equation(x):
+    """Compare structure, not language or spacing: \\text{...} labels, decimal
+    commas and equivalent brace/font spellings may differ between GR and EN."""
+    for old, new in LABELS.items():
+        x = x.replace(old, new)
+    x = re.sub(r"\\text\{[^{}]*\}", r"\\text{}", x)
+    x = x.replace("{,}", ".").replace(r"\lbrace", r"\{").replace(r"\rbrace", r"\}")
+    x = re.sub(r"\\(mathcal|mathrm|mathbf|operatorname)\{([A-Za-z])\}", r"\\\1 \2", x)
+    x = x.replace(r"\operatorname{tr}", r"\mathrm{tr}").replace(r"\left\{", r"\{").replace(r"\right\}", r"\}")
+    x = re.sub(r"\\[,;!]|\\quad|\\qquad", "", x)
+    x = re.sub(r"\s+", "", x)
+    return x.rstrip(".,;")
+
+
 def equations(text):
     blocks = re.findall(r"^" + chr(96)*3 + r"math\n([\s\S]*?)\n" + chr(96)*3, text, re.M)
-    for old, new in LABELS.items():
-        blocks = [x.replace(old, new) for x in blocks]
-    return blocks
+    return [normalize_equation(x) for x in blocks]
 
 
 def main():

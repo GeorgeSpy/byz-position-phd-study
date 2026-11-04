@@ -109,7 +109,7 @@
     },
     {
       "source": "docs/appendices/k.md",
-      "source_blob_sha": "fcd9a4c775b2acf4332823f11c4a9974dc91ff36",
+      "source_blob_sha": "cbcc845e40455f04cdc5a40255a34468681391df",
       "target": "en/docs/appendices/k.md",
       "status": "translated"
     },
@@ -973,7 +973,7 @@
     },
     {
       "source": "docs/current/atl.md",
-      "source_blob_sha": "3fa41895cbf3a2d23896f58e2a9e849f64d3f999",
+      "source_blob_sha": "896995cb7fe107b5b729e321f36d790a820cc7d6",
       "target": "en/docs/current/atl.md",
       "status": "translated"
     },
@@ -1009,7 +1009,7 @@
     },
     {
       "source": "docs/examples/index.md",
-      "source_blob_sha": "fc87c7985d52ff26a3c38b0d358ddd78cefcf90f",
+      "source_blob_sha": "4cc277d945d29840ecefa009477ff7a11be60957",
       "target": "en/docs/examples/index.md",
       "status": "translated"
     },
@@ -1165,19 +1165,19 @@
     },
     {
       "source": "docs/research/a2-knowledge-design.md",
-      "source_blob_sha": "67d9cf4a28059215f9b8d1422939343af82b942e",
+      "source_blob_sha": "422376e7432d95c498892b6dd52a74eba29fc5c8",
       "target": "en/docs/research/a2-knowledge-design.md",
       "status": "translated"
     },
     {
       "source": "docs/research/m1-selection-decision.md",
-      "source_blob_sha": "3385100afe3822652f437feb8c2ef019b7ec253c",
+      "source_blob_sha": "7c44f33f0691cf88d8bace2f00f8637272c5262e",
       "target": "en/docs/research/m1-selection-decision.md",
       "status": "translated"
     },
     {
       "source": "docs/research/m2-eise-research-design.md",
-      "source_blob_sha": "a63b328aa4a97705c97d329cc675d3d4b4cca10f",
+      "source_blob_sha": "f1974e27d6f180ef05ee73e13905408a8f6ccf21",
       "target": "en/docs/research/m2-eise-research-design.md",
       "status": "translated"
     },
