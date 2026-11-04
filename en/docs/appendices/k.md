@@ -244,17 +244,17 @@ The sequence controls the FWER at 0.025 in the strong sense provided every indiv
 
 ### Primary candidate uncertainty procedure on H
 
-The primary candidate procedure uses the pooled $\mathrm{AP} _ {\mathrm{fam}}$ on a fixed $\mathcal{F} _ 0$, equal weight per occurrence and a mean over families. For each primary contrast $\theta$, the original estimate and the delete-one-group standard error over independent work–source groups are computed:
+The primary candidate procedure uses the pooled $\mathrm{AP_{fam}}$ on a fixed $\mathcal{F} _ 0$, equal weight per occurrence and a mean over families. For each primary contrast $\theta$, the original estimate and the delete-one-group standard error over independent work–source groups are computed:
 
 $$
-\hat\theta=\theta(\text{all }G\text{ groups}),\qquad \hat\theta_{(-g)}=\theta(\text{all except }g),\qquad \bar\theta_{(\cdot)}=\frac1G\sum_{g=1}^G\hat\theta_{(-g)},
+\hat{\theta} = \theta(\text{all } G \text{ groups}), \qquad \hat{\theta}_{(-g)} = \theta(\text{all except } g), \qquad \bar{\theta}_{(\cdot)} = \frac{1}{G}\sum_{g=1}^G \hat{\theta}_{(-g)},,
 $$
 
 $$
-\mathrm{SE} _ J=\Big[\frac{G-1}{G}\sum_{g=1}^G\big(\hat\theta_{(-g)}-\bar\theta_{(\cdot)}\big)^2\Big]^{1/2},\qquad T=\frac{\hat\theta}{\mathrm{SE} _ J},\qquad p=1-F_{t,G-1}(T).
+\mathrm{SE} _ J = \Big[\frac{G-1}{G}\sum_{g=1}^G \big(\hat{\theta}_{(-g)} - \bar{\theta}_{(\cdot)}\big)^2\Big]^{1/2}, \qquad T = \frac{\hat{\theta}}{\mathrm{SE} _ J}, \qquad p = 1 - F_{t,G-1}(T).
 $$
 
-The numerator is the original estimate $\hat\theta$; it is neither the mean $\bar\theta_{(\cdot)}$ nor the bias-corrected jackknife estimate. Each deletion recomputes the pooled AP and exactly the same contrasts, with all occurrences, labels, paired predictions of all conditions, all P and all replicates of the group. P and replicates do not become artificial independent units. The one-sided lower bound is $\hat\theta-t_{0.975,G-1}\thinspace \mathrm{SE} _ J$. The $t(G-1)$ reference is a prespecified approximation that requires empirical calibration. Related $t$-based approaches for few groups have been studied by Ibragimov and Müller (2010); the jackknife variance goes back to Efron and Stein (1981). The conditional interpretation does not include the uncertainty of retraining.
+The numerator is the original estimate $\hat{\theta}$; it is neither the mean $\bar{\theta}_{(\cdot)}$ nor the bias-corrected jackknife estimate. Each deletion recomputes the pooled AP and exactly the same contrasts, with all occurrences, labels, paired predictions of all conditions, all P and all replicates of the group. P and replicates do not become artificial independent units. The one-sided lower bound is $\hat{\theta} - t_{0.975,G-1}\mathrm{SE} _ J$. The $t(G-1)$ reference is a prespecified approximation that requires empirical calibration. Related $t$-based approaches for few groups have been studied by Ibragimov and Müller (2010); the jackknife variance goes back to Efron and Stein (1981). The conditional interpretation does not include the uncertainty of retraining.
 
 **Issuance rule.** A confirmatory $p$ is issued only if the original estimate and all $G$ deletion estimates are defined, i.e. every family of $\mathcal{F} _ 0$ has positives in every deletion sample. In addition, $\mathrm{SE} _ J$ must be finite and positive for all contrasts of the test family. Otherwise no confirmatory $p$ is issued and the contrasts are reported as estimates. The issuance probability and the denominators of all rates are recorded.
 
