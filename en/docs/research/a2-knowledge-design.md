@@ -138,7 +138,7 @@ The analogy with physics-informed machine learning concerns the explicit use of 
 
 M1 examines **three kinds of input unit** combined with **four levels of cumulative features**, twelve representations in total. The information groups are $`N`$ (notation), $`T`$ (time), $`M`$ (modal features) and $`L`$ (text and prosody).
 
-The main architecture **A** scores variable-length segments with a semi-Markov CRF of order zero in family transitions and estimates boundaries and family jointly. It thus scores the whole musical position rather than isolated events (Sarawagi and Cohen, 2004).
+The main architecture **A** scores variable-length segments with a semi-Markov CRF of order zero in family transitions and estimates boundaries and family jointly. It thus scores the whole musical position rather than isolated events (Sarawagi and Cohen, 2004). The encoder is chosen before the grid, on internal, independent development splits: TCN-S as the initial choice and a BiGRU with matched context width as the comparison model.
 
 ### 5.2 Selection rule J
 

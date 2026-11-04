@@ -20,7 +20,7 @@ This distinction leads to two connected studies. **M2a** investigates relational
 
 ## 2. From M1 to M2: architecture and initialisation
 
-M1 compares twelve representations in the $`U\times\Phi`$ grid and selects one operational $`R^\star`$ using rule J. Selection is performed with the prespecified architecture A, which combines a trainable neural encoder with a segmental semi-CRF of zero order with respect to label transitions between adjacent segments. M1's architectures B and C are evaluated across the complete grid as separate, descriptive comparisons.
+M1 compares twelve representations in the $`U\times\Phi`$ grid and selects one operational $`R^\star`$ using rule J. Selection is performed with the prespecified architecture A, which combines a trainable neural encoder with a segmental semi-CRF of zero order with respect to label transitions between adjacent segments. The encoder is chosen in the preliminary encoder comparison, with TCN-S as the initial candidate and a BiGRU with matched context width as the comparator. M1's architectures B and C are evaluated across the complete grid as separate, descriptive comparisons.
 
 M2 carries forward the **selected input representation** and **architecture configuration**, recorded as `A_M1_selected`. The identifier `m1_checkpoint_id` records the trained M1 weights for reproducibility. B1, B2, and EISE are **trained from scratch using identical initial weights in each replicate with matched random initialisation**; their shared starting point is recorded as `m2_init_checkpoint_id`.
 
@@ -172,7 +172,7 @@ Implementation is organised into distinct, reproducible stages:
 
 1. **WP0 — source inventory.** Works, sources, family specifications, historical pairs, witness independence, access rights, and performance coverage.
 2. **Mathematical implementation checks (G-ORACLE).** Following the initial source inventory and before the main training runs, exhaustive enumeration, segmental decoding, partial annotations, obligation weighting, and gradients are verified.
-3. **M1.** Architecture A is fixed, $`R^\star`$ is selected, and architectural comparators are evaluated.
+3. **Preliminary encoder comparison and M1.** TCN-S and BiGRU are compared before the M1 grid, architecture A is fixed, $`R^\star`$ is selected, and architectural comparators are evaluated.
 4. **M2a — family-relational learning.** Paired B1–$`\mathrm{B2}_{\mathrm{fam}}`$ evaluation using $`\Delta_{\mathrm{famrel}}`$ and $`Q_{\mathrm{real}}`$.
 5. **M2b — historical supervision.** Historical and performance adequacy gates, $`\mathrm{B2}_{\mathrm{main}}`$–EISE matching, common initialisation, and external evaluation.
 6. **Reproducibility and reporting.** Recording sources, annotations, initial weights, checks, protocol versions, and statistical uncertainty.

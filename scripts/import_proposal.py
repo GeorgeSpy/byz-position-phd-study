@@ -271,7 +271,7 @@ for ref in refs:
     else:
         # Existing cards keep their edited text; only the section routes follow the new source.
         old_card=entry.read_text(encoding='utf-8');k=old_card.find('## Σχετικές ενότητες της πρότασης')
-        if k>=0:entry.write_text(old_card[:k]+f'## Σχετικές ενότητες της πρότασης\n\n{note}\n\n{related}\n')
+        if k>=0:entry.write_text((old_card[:k]+f'## Σχετικές ενότητες της πρότασης\n\n{note}\n\n{related}').rstrip('\n')+'\n')
 
 index='# Πλήρης βιβλιογραφία\n\nΗ υποψήφια πρόταση περιλαμβάνει **135 εγγραφές**: 24 στην ελληνόγλωσση και 111 στην ξενόγλωσση ενότητα. Κάθε εγγραφή έχει σταθερή σελίδα, διαθέσιμους συνδέσμους της πηγής και πρόσβαση σε σχετικές ενότητες.\n\n[Αρχική σειρά και πλήρες κείμενο](source-list.md) · [Θεματικοί χάρτες](../research/index.md) · [Νεότερες προτεινόμενες προσθήκες](supplementary.md)\n\n'
 for language in ['Ελληνόγλωσση Βιβλιογραφία','Ξενόγλωσση Βιβλιογραφία']:
@@ -309,3 +309,7 @@ for section in sections:
     t=path.read_text(encoding='utf-8')
     if '\x00TRAILER\x00' in t:path.write_text(t.replace('\x00TRAILER\x00',''))
 print(json.dumps(manifest['statistics'],ensure_ascii=False))
+# GitHub-safe math on every generated page.
+subprocess.run(['python3',str(ROOT/'scripts/github_math.py')]+[str(ROOT/s['path']) for s in sections if s['path'] not in PRESERVE],check=True)
+# Repository text that documents the M1/M2 design in more detail than the PDF.
+subprocess.run(['python3',str(ROOT/'scripts/apply_reader_detail.py')],check=True)
