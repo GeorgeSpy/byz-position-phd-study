@@ -33,10 +33,10 @@ $\widehat G_A$ measures macro-averaged recall across known families on documente
 The same representation is subsequently used in A2 and M2, allowing the contribution of musicological knowledge and relational supervision to be examined on a fixed input. In M2's historical comparison, the primary contrast is:
 
 $$
-\Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{\mathrm{B2}}.
+\Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{\mathrm{B2}_{\mathrm{main}}}.
 $$
 
-B2 and EISE share segmental infrastructure and a matched protocol. Their comparison investigates what the documented exegetical relationship of the same passage contributes to an independent performance-based criterion.
+$\mathrm{B2}_{\mathrm{main}}$ and EISE share segmental infrastructure and a matched protocol. Their comparison investigates what the documented exegetical relationship of the same passage contributes to an independent performance-based criterion.
 
 The choice of J is developed below through numerical counterexamples, three complementary synthetic sensitivity studies, and separate algorithmic and statistical checks. The discussion follows the reasoning from candidate representations and selection rules to the final evaluation protocol.
 
@@ -229,9 +229,19 @@ $$
 
 For alternative analyses with **different numbers of reference occurrences**, the more general definition applies:
 
-$$
+$
 F_{1,\mathrm{seg+fam}}^\star=\max_{c\in\mathcal C_{\mathrm{legal}}}\frac{2m(c)}{P+X(c)}.
-$$
+$
+
+The preceding expression describes a standalone evaluation case. **At corpus level**, when alternative legal reference analyses yield different occurrence counts, the compatible analysis is selected jointly over all evaluation cases, maximising a single micro-F1 ratio:
+
+$
+F_{1,\mathrm{seg+fam}}^{\mathrm{corpus}}=
+\max_{c\in\mathcal C_{\mathrm{legal}}^{\mathrm{corpus}}}
+\frac{2M(c)}{P_{\mathrm{total}}+X(c)}.
+$
+
+Here $M(c)$ is the total number of correct matches, $P_{\mathrm{total}}$ the total number of predictions, and $X(c)$ the total number of reference occurrences in the selected globally legal corpus analysis. This rule prevents a separate denominator from being optimised within each individual region.
 
 The constraint structure determines whether bipartite matching, dynamic programming, or integer programming is appropriate. The general expression with variable $X(c)$ requires an explicitly prespecified evaluation regime and musicological verification of alternative **occurrences**, beyond alternative boundaries for a single occurrence.
 
