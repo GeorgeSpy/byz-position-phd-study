@@ -8,13 +8,13 @@
 
 ## Αδημοσίευτα paper: SETN 2026 και MESPI
 
-Στη [συλλογή papers](../../documents/prior-work/README.md) περιλαμβάνονται οι τρεις εργασίες που υποβλήθηκαν αρχικά στο SETN 2026, η τρίτη στην αναθεωρημένη και διευρυμένη εκδοχή της (Αύγουστος 2026), καθώς και το αδημοσίευτο χειρόγραφο MESPI. Κάθε εργασία συνοδεύεται από σύντομη περιγραφή, σύνδεσμο στον σχετικό κώδικα και πρόσβαση στο πλήρες PDF.
+Στη [συλλογή paper](../../documents/prior-work/README.md) περιλαμβάνονται οι τρεις εργασίες που υποβλήθηκαν αρχικά στο SETN 2026, η τρίτη στην αναθεωρημένη και διευρυμένη εκδοχή της (Αύγουστος 2026), καθώς και το αδημοσίευτο paper MESPI. Κάθε εργασία συνοδεύεται από σύντομη περιγραφή, σύνδεσμο στον σχετικό κώδικα και πρόσβαση στο πλήρες PDF.
 
 | Αντικείμενο | Πλήρες κείμενο |
 |---|---|
-| Βαθμονομημένη συνθετική εποπτεία για ESPI | [χειρόγραφο](../../documents/prior-work/setn-calibrated-espi-supervision.pdf) |
-| Ερμηνεύσιμη ταξινόμηση τρόπων ταλάντωσης | [χειρόγραφο](../../documents/prior-work/setn-espi-mode-classification.pdf) |
-| Λειτουργική εξουδετέρωση της προσοχής καναλιών και υπό συνθήκη προβλεπτική χρησιμότητα | [αναθεωρημένο χειρόγραφο (2026)](../../documents/prior-work/setn-espi-attention-denoising.pdf) |
+| Βαθμονομημένη συνθετική εποπτεία για ESPI | [paper](../../documents/prior-work/setn-calibrated-espi-supervision.pdf) |
+| Ερμηνεύσιμη ταξινόμηση τρόπων ταλάντωσης | [paper](../../documents/prior-work/setn-espi-mode-classification.pdf) |
+| Λειτουργική εξουδετέρωση της προσοχής καναλιών και υπό συνθήκη προβλεπτική χρησιμότητα | [αναθεωρημένο paper (2026)](../../documents/prior-work/setn-espi-attention-denoising.pdf) |
 | Προσδιορισιμότητα και γεωμετρία αντιστροφής MESPI | [Πλήρες paper](../../documents/prior-work/mespi-inverse-geometry.pdf) |
 
 ### Η μεταπτυχιακή διπλωματική εργασία
@@ -75,7 +75,7 @@ $$
 
 Η μελέτη συνδέει τέσσερα ερωτήματα: ποιες μορφές πεδίου παράγουν την ίδια οπτική παρατήρηση, πώς η μηχανική ομαλότητα περιορίζει τις επιλέξιμες λύσεις, πώς η πληροφορία Fisher περιγράφει την τοπική αβεβαιότητα και ποια πρόσθετη μέτρηση επιτρέπει την ανάκτηση προσήμου και απόλυτου μεγέθους. Η αντιστροφή εξετάζει ρητά τους διαφορετικούς κλάδους του τελεστή και συνοδεύεται από αριθμητικές δοκιμές των προβλέψεων του μοντέλου.
 
-Το [Enhanced ESPI Encoder](https://github.com/GeorgeSpy/enhanced-espi-encoder) οργανώνει τη συναφή υπολογιστική ανάπτυξη προς μάθηση αναπαραστάσεων συνεπών με το μοντέλο παρατήρησης. Η [προδιαγραφή υλοποίησης](https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/docs/MESPI_OPERATOR_SPEC.md) και το [πλήρες χειρόγραφο](../../documents/prior-work/mespi-inverse-geometry.pdf) παρέχουν πρόσβαση στην υπολογιστική κατεύθυνση και στη μαθηματική θεμελίωση αντίστοιχα.
+Το [Enhanced ESPI Encoder](https://github.com/GeorgeSpy/enhanced-espi-encoder) οργανώνει τη συναφή υπολογιστική ανάπτυξη προς μάθηση αναπαραστάσεων συνεπών με το μοντέλο παρατήρησης. Η [προδιαγραφή υλοποίησης](https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/docs/MESPI_OPERATOR_SPEC.md) και το [πλήρες paper](../../documents/prior-work/mespi-inverse-geometry.pdf) παρέχουν πρόσβαση στην υπολογιστική κατεύθυνση και στη μαθηματική θεμελίωση αντίστοιχα.
 
 ## Μεθοδολογική συνέχεια με την πρόταση για τη μουσική θέση
 
@@ -90,7 +90,7 @@ $$
 - [Παραγωγή δεδομένων με φυσική βαθμονόμηση](https://github.com/GeorgeSpy/ESPI-pseydonoisy-generator/blob/master/README.md).
 - [Νευρωνικά μοντέλα ταξινόμησης](https://github.com/GeorgeSpy/ESPI-CNN-Particle-Detection/blob/master/README.md).
 - [Κατεύθυνση ανάπτυξης αναπαραστάσεων και τελεστή παρατήρησης](https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/README.md).
-- [Πλήρες χειρόγραφο MESPI](../../documents/prior-work/mespi-inverse-geometry.pdf).
+- [Πλήρες paper MESPI](../../documents/prior-work/mespi-inverse-geometry.pdf).
 - [Αδημοσίευτες εργασίες SETN 2026 και MESPI](../../documents/prior-work/README.md).
 - [Προδιαγραφή του M_ESPI](https://github.com/GeorgeSpy/enhanced-espi-encoder/blob/main/docs/MESPI_OPERATOR_SPEC.md).
 

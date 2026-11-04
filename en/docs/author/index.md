@@ -4,7 +4,7 @@
 **Language / Γλώσσα:** [Ελληνικά](../../../docs/author/index.md) · **English**
 <!-- language-switch:end -->
 
-[Home](../../README.md) · [Current PhD research plan (Greek PDF)](../../../documents/core-research-plan.pdf) · [Earlier English proposal](../../../documents/short-proposal-en.pdf) · [Manuscripts](../../../documents/prior-work/README.md) · [Public code](../../../docs/author/prior-work.md#public-repositories)
+[Home](../../README.md) · [Current PhD research plan (Greek PDF)](../../../documents/core-research-plan.pdf) · [Earlier English proposal](../../../documents/short-proposal-en.pdf) · [Papers](../../../documents/prior-work/README.md) · [Public code](../../../docs/author/prior-work.md#public-repositories)
 
 **Research interests:** Symbolic Music Information Retrieval (MIR) · Musicology-informed machine learning · Melodic formula recognition and variation · Representation learning · Computational analysis of historical chant · Scientific imaging and inverse problems
 
@@ -39,21 +39,21 @@ His MSc research examined automated recognition of instrumental vibration modes 
 
 Subsequent work addresses representation learning and the structural identifiability and inversion of a time-averaged ESPI Bessel observation operator. These studies contribute experience in controlled model comparison, uncertainty, inverse problems and the relationship between physically meaningful structures and learned representations.
 
-## Unpublished manuscripts
+## Unpublished papers
 
 **MSc thesis (March 2026, in Greek), supervised by M. Kaliakatsos-Papakostas:** *[Automated Classification of Vibration Modes in Bouzouki Family Instruments via Machine Learning Techniques and Advanced Interferometric Image Processing](../../../documents/prior-work/msc-thesis-bouzouki-espi.pdf)*.
 
 **Historical research paper (February 2022, in Greek), course “Historical Research”, MA programme “Cultural Analysis and Education”, University of Crete:** *[Byzantine chant, national identity and education in interwar Romania (1918–1940): Transylvania in comparative perspective](../../../documents/prior-work/byzantine-music-interwar-romania.pdf)*.
 
-**Three conference manuscripts derived from the MSc thesis (originally submitted to SETN 2026):**
+**Three conference papers derived from the MSc thesis (originally submitted to SETN 2026):**
 
 - *[Calibrated Pseudo-Noisy Supervision for ESPI Denoising with Severity-Controlled Evaluation](../../../documents/prior-work/setn-calibrated-espi-supervision.pdf)*.
 - *[Interpretable ESPI Mode Classification under Data Scarcity with Frequency-Prior Hybrid Random Forests](../../../documents/prior-work/setn-espi-mode-classification.pdf)*.
 - *[Beyond Reconstruction: Functional Neutralization of Channel Attention and Conditional Predictive Utility in ESPI Denoising](../../../documents/prior-work/setn-espi-attention-denoising.pdf)* — revised and extended version (August 2026), with M. Kaliakatsos-Papakostas and Y. Orfanos.
 
-**Additional manuscript (full text available):** *[Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../../documents/prior-work/mespi-inverse-geometry.pdf)*.
+**Additional paper (full text available):** *[Structural identifiability, Fisher geometry, and branch-aware inversion of a time-averaged ESPI Bessel operator](../../../documents/prior-work/mespi-inverse-geometry.pdf)*.
 
-The [manuscript catalogue](../../../documents/prior-work/README.md) records the status and provenance of the files. Research code and documentation are described in [Prior work and public repositories](../../../docs/author/prior-work.md).
+The [paper catalogue](../../../documents/prior-work/README.md) records the status and provenance of the files. Research code and documentation are described in [Prior work and public repositories](../../../docs/author/prior-work.md).
 
 ## Contact and research links
 

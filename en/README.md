@@ -6,7 +6,7 @@
 
 **PhD research proposal — Georgios Spyridakis**
 
-[Research biography](docs/author/index.md) · [Prior work and public code (Greek)](../docs/author/prior-work.md) · [Unpublished manuscripts](../documents/prior-work/README.md)
+[Research biography](docs/author/index.md) · [Prior work and public code (Greek)](../docs/author/prior-work.md) · [Unpublished papers](../documents/prior-work/README.md)
 
 > **Status (November 2026).** The proposal is under development and is being discussed with the Department of Music Technology and Acoustics at Hellenic Mediterranean University; it has not yet been submitted.
 

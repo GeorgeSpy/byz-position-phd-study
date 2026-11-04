@@ -56,7 +56,7 @@ The table links to the [methodological source text (Greek)](../../sources/propos
 
 ## Biography and research trajectory
 
-The [biography](author/index.md) presents the author's physics, music and computational training. [Prior work (Greek)](../../docs/author/prior-work.md) connects the public ESPI repositories and MESPI development with related methodological questions in the proposal. The [three SETN 2026 manuscripts and full MESPI paper (Greek catalogue)](../../documents/prior-work/README.md) provide access to the research texts.
+The [biography](author/index.md) presents the author's physics, music and computational training. [Prior work (Greek)](../../docs/author/prior-work.md) connects the public ESPI repositories and MESPI development with related methodological questions in the proposal. The [three SETN 2026 papers and full MESPI paper (Greek catalogue)](../../documents/prior-work/README.md) provide access to the research texts.
 
 ## Bibliography and musical evidence
 
