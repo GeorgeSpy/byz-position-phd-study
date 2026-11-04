@@ -109,7 +109,7 @@
     },
     {
       "source": "docs/appendices/k.md",
-      "source_blob_sha": "28afef6d4ead5fe921cd454eb11eeaf7ab8e0281",
+      "source_blob_sha": "a63c0e0fdafcabd5e0036bcfbd61ade7c2e54471",
       "target": "en/docs/appendices/k.md",
       "status": "translated"
     },
@@ -1165,7 +1165,7 @@
     },
     {
       "source": "docs/research/a2-knowledge-design.md",
-      "source_blob_sha": "c16865d2820fbc6d0165230c4ab717bf27d7d678",
+      "source_blob_sha": "c99f85b91bfc3bfbad1a929b20fe3fd71392fcae",
       "target": "en/docs/research/a2-knowledge-design.md",
       "status": "translated"
     },

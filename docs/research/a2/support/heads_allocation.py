@@ -1,8 +1,8 @@
-"""Where to fit the knowledge heads (w, lambda) on a frozen base (protocol v16.5 §7).
+"""Where to fit the knowledge heads (w, lambda) on a frozen base (A2 protocol, Appendix K §K.7).
 
 Occurrences belong to work-source groups; all splits are by group.
-  A_train  heads on the base's own training groups (v16.4), temperature on internal development
-  B_dev    heads on the internal development groups, where the temperature is also fitted (v16.5)
+  A_train  heads on the base's own training groups (previous revision), temperature on internal development
+  B_dev    heads on the internal development groups, where the temperature is also fitted (current revision)
   C_cross  sensitivity only: grouped 5-fold cross-fitting on training groups; heads and temperature
            on out-of-fold logits; on H the five fold models' logits are averaged (a model
            combination, which itself can change the scores), scaled by the same temperature.

@@ -1,4 +1,4 @@
-"""Regression tests for the acceptance rules of the perturbation generator (protocol v16.5 §K.5).
+"""Regression tests for the acceptance rules of the perturbation generator (A2 protocol, Appendix K §K.5).
 
 1. A swap inside one alternative group leaves the family's canonical card unchanged and
    must be rejected even when another family changes.

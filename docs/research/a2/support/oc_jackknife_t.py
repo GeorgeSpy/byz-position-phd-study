@@ -1,4 +1,4 @@
-"""Operating characteristics of the primary candidate procedure of protocol v16.5 §8.
+"""Operating characteristics of the primary candidate procedure of the A2 protocol, Appendix K §K.8.
 
 For each contrast theta in {Delta_know, Delta_logic}:
   theta_hat  original pooled estimate on all G groups (not the jackknife mean, not bias-corrected)
