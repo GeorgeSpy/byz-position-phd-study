@@ -56,7 +56,7 @@ The extension is an optional stage of the dissertation, scheduled from month 36 
 - M2, which compares encoders without and with relational supervision (B1, B2) and, in its historical strand, with pairs of parallel exegeses (co-exegeses) of the same historical passage (EISE);
 - the extensions M3–M5.
 
-The M2 historical contrast $\Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{\mathrm{B2}}$, which compares supervision from historically linked exegeses of the same passage (EISE) with supervision from different occurrences within the same family (B2), and the realisation-preservation check $Q_{\mathrm{real}}$ keep the definitions given in the main proposal. The quantities introduced here ($\Delta_{\mathrm{P1}}$, $\Delta_{\mathrm{P2}}$ and the E-min contrasts) are additional and distinct; they replace none of these.
+The M2 historical contrast $\Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{\mathrm{B2_{main}}}$, which compares supervision from historically linked exegeses of the same passage (EISE) with supervision from different occurrences within the same family (B2), and the realisation-preservation check $Q_{\mathrm{real}}$ keep the definitions given in the main proposal. The quantities introduced here ($\Delta_{\mathrm{P1}}$, $\Delta_{\mathrm{P2}}$ and the E-min contrasts) are additional and distinct; they replace none of these.
 
 # The musical unit in the two traditions
 

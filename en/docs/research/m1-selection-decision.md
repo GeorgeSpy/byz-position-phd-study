@@ -229,17 +229,17 @@ $$
 
 For alternative analyses with **different numbers of reference occurrences**, the more general definition applies:
 
-$
+$$
 F_{1,\mathrm{seg+fam}}^\star=\max_{c\in\mathcal C_{\mathrm{legal}}}\frac{2m(c)}{P+X(c)}.
-$
+$$
 
 The preceding expression describes a standalone evaluation case. **At corpus level**, when alternative legal reference analyses yield different occurrence counts, the compatible analysis is selected jointly over all evaluation cases, maximising a single micro-F1 ratio:
 
-$
+$$
 F_{1,\mathrm{seg+fam}}^{\mathrm{corpus}}=
 \max_{c\in\mathcal C_{\mathrm{legal}}^{\mathrm{corpus}}}
 \frac{2M(c)}{P_{\mathrm{total}}+X(c)}.
-$
+$$
 
 Here $M(c)$ is the total number of correct matches, $P_{\mathrm{total}}$ the total number of predictions, and $X(c)$ the total number of reference occurrences in the selected globally legal corpus analysis. This rule prevents a separate denominator from being optimised within each individual region.
 
