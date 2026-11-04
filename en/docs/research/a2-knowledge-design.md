@@ -138,7 +138,7 @@ The analogy with physics-informed machine learning concerns the explicit use of 
 
 M1 examines **three kinds of input unit** combined with **four levels of cumulative features**, twelve representations in total. The information groups are $`N`$ (notation), $`T`$ (time), $`M`$ (modal features) and $`L`$ (text and prosody).
 
-The main architecture **A** scores variable-length segments with a semi-Markov CRF of order zero in family transitions and estimates boundaries and family jointly. It thus scores the whole musical position rather than isolated events (Sarawagi and Cohen, 2004). The encoder is chosen before the grid, on internal, independent development splits: TCN-S as the initial choice and a BiGRU with matched context width as the comparison model.
+The main architecture **A** scores variable-length segments with a semi-Markov CRF of order zero in family transitions and estimates boundaries and family jointly. It thus scores the whole musical position rather than isolated events (Sarawagi and Cohen, 2004).
 
 ### 5.2 Selection rule J
 
@@ -435,7 +435,7 @@ The main specification uses **five replicates** and **ten perturbations**. Per f
 
 The number concerns the **main run**, mostly small parametric heads on a fixed base. The five bases $`b_r`$, pre-training, configuration trials, hyperparameter search, calibration simulations, full retraining and sensitivity analyses cost extra.
 
-For initial musicological and symbolic annotation the core plan foresees roughly **2–4 hours per work** and **1–2 hours** of second judgement for works in the relevant subset. For 40–60 works the first annotation corresponds to **80–240 hours**. These are initial estimates to be replaced by WP0 measurements. Before the confirmatory run, training time, memory and cost per perturbation and replicate must be measured.
+For initial musicological and symbolic annotation the core plan foresees roughly **2–4 hours per work** and **1–2 hours** of second judgement for works in the relevant subset. For the 40–60 development works and the 60–80 test works the first annotation corresponds to **200–560 hours**. These are initial estimates to be replaced by WP0 measurements. Before the confirmatory run, training time, memory and cost per perturbation and replicate must be measured.
 
 ## 16. What different outcomes mean
 

@@ -57,7 +57,7 @@ The corpus and protocol allow symbolic MIR researchers to compare systems using 
 
 The central experiment asks **what an attested historical relationship adds within the same family category**. The two conditions share architecture and family supervision and match exposure to data, difficulty characteristics and computational budget. The controlled difference is the choice of positive relations: shared family or verified co-exegesis of a specific passage.
 
-Independent temporal variation in contemporary performances judges whether this difference leads to musically useful representations. Learning curves additionally examine how benefit changes with available historical material. The result will show which musical structure is learned from a shared historical passage and how much supervision of this kind is needed. [Estimating and interpreting the difference (Greek)](../../../docs/full/06-eise.md#τι-μαθαίνουμε-από-τη-σύγκριση-των-δύο-πηγών-εποπτείας).
+Independent temporal variation in contemporary performances judges whether this difference leads to musically useful representations. Learning curves additionally examine how benefit changes with available historical material. The result will show which musical structure is learned from a shared historical passage and how much supervision of this kind is needed. [Estimating and interpreting the difference (Greek)](../../../docs/full/06-eise.md#r047).
 
 The contribution to representation learning is a controlled way to assess the value of relational provenance in small corpora with rich documentation. Application in another domain requires its own relations and external criterion. [B2–EISE comparison (Greek)](../../../docs/full/06-eise.md).
 

@@ -109,7 +109,7 @@
     },
     {
       "source": "docs/appendices/k.md",
-      "source_blob_sha": "cbcc845e40455f04cdc5a40255a34468681391df",
+      "source_blob_sha": "91dd26c592dcd71b2e87c872c37a642dcde0c32b",
       "target": "en/docs/appendices/k.md",
       "status": "translated"
     },
@@ -1165,7 +1165,7 @@
     },
     {
       "source": "docs/research/a2-knowledge-design.md",
-      "source_blob_sha": "422376e7432d95c498892b6dd52a74eba29fc5c8",
+      "source_blob_sha": "f25e496b906ac8a9565d7dbf88a5032aad79b753",
       "target": "en/docs/research/a2-knowledge-design.md",
       "status": "translated"
     },
@@ -1177,7 +1177,7 @@
     },
     {
       "source": "docs/research/m2-eise-research-design.md",
-      "source_blob_sha": "f1974e27d6f180ef05ee73e13905408a8f6ccf21",
+      "source_blob_sha": "a92d2d60cb02f1433b99707feb7ef1f304b6f3aa",
       "target": "en/docs/research/m2-eise-research-design.md",
       "status": "translated"
     },
@@ -1255,7 +1255,7 @@
     },
     {
       "source": "docs/review/knowledge-contributions.md",
-      "source_blob_sha": "cc51069bf598818d9b5c0ae686a0b38cb0ccc9a8",
+      "source_blob_sha": "aa977524af55dc2ba65b080babecb117bf888624",
       "target": "en/docs/review/knowledge-contributions.md",
       "status": "translated"
     },

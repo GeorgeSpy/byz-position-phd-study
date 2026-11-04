@@ -266,7 +266,12 @@ for ref in refs:
     related='\n'.join(f'- [{s["number"]} {s["title"]}]({os.path.relpath(ROOT/s["path"],ROOT/"docs/bibliography/entries")})' for s in ref['matches'])
     note='Οι παρακάτω σύνδεσμοι είναι αυτόματος εντοπισμός ονόματος και έτους μέσα σε ολόκληρη την ενότητα. Η ακριβής χρήση εξετάζεται στο κείμενό της.' if related else 'Η εγγραφή περιλαμβάνεται στη βιβλιογραφία της πρότασης. Η πλοήγηση μπορεί να συνεχιστεί από τους θεματικούς χάρτες ή την αναζήτηση ονόματος στο πλήρες κείμενο.'
     card=f'# {title}\n\n[Πλήρης βιβλιογραφία](../index.md) · [Αρχική σειρά εγγραφών](../source-list.md) · [Πεδία έρευνας](../../research/index.md)\n\n{full}\n**Σταθερό αναγνωριστικό:** `{ref["id"]}` · **Κατηγορία πηγής:** {ref["language"]} · **Αρίθμηση πρωτοτύπου:** {ref["source_number"]}\n\n## Σχετικές ενότητες της πρότασης\n\n{note}\n\n{related}\n'
-    if ref['id'] in new_ids:(ROOT/f'docs/bibliography/entries/{ref["id"]}.md').write_text(card)
+    entry=ROOT/f'docs/bibliography/entries/{ref["id"]}.md'
+    if ref['id'] in new_ids or not entry.exists():entry.write_text(card)
+    else:
+        # Existing cards keep their edited text; only the section routes follow the new source.
+        old_card=entry.read_text(encoding='utf-8');k=old_card.find('## Σχετικές ενότητες της πρότασης')
+        if k>=0:entry.write_text(old_card[:k]+f'## Σχετικές ενότητες της πρότασης\n\n{note}\n\n{related}\n')
 
 index='# Πλήρης βιβλιογραφία\n\nΗ υποψήφια πρόταση περιλαμβάνει **135 εγγραφές**: 24 στην ελληνόγλωσση και 111 στην ξενόγλωσση ενότητα. Κάθε εγγραφή έχει σταθερή σελίδα, διαθέσιμους συνδέσμους της πηγής και πρόσβαση σε σχετικές ενότητες.\n\n[Αρχική σειρά και πλήρες κείμενο](source-list.md) · [Θεματικοί χάρτες](../research/index.md) · [Νεότερες προτεινόμενες προσθήκες](supplementary.md)\n\n'
 for language in ['Ελληνόγλωσση Βιβλιογραφία','Ξενόγλωσση Βιβλιογραφία']:
