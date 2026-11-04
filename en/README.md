@@ -84,7 +84,7 @@ The following designs are developed to broaden the core as far as possible. Each
 | explore the new Musicology-Informed Machine Learning research direction | **[ECSI — Musical Formula Family Signatures](docs/research/ecsi/README.md)** |
 | explore Byzantine notation and formulae | [Musicological documentation (Greek)](../docs/musicology/index.md) |
 | understand the contribution and its relationship with previous research | [Contributions by field](docs/review/contribution-matrix.md) |
-| see which works and sources have been catalogued for the corpus | [Preliminary corpus inventory (Greek)](../docs/research/corpus/README.md) |
+| see which works and sources have been catalogued for the corpus | [Preliminary corpus inventory](docs/research/corpus/README.md) · [Greek edition](../docs/research/corpus/README.md) |
 | read a full chapter or technical appendix | [Detailed chapters and appendices (Greek)](../docs/full/index.md) |
 | find a particular reference | [Methodological bibliography (Greek notes; original-language titles)](../docs/bibliography/methodology.md) · [Bibliographic index (Greek)](../docs/bibliography/index.md) |
 
