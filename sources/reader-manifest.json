@@ -1,6 +1,6 @@
 {
-  "source_sha256": "9ec266b50899733b2b96e2b3839b86fd08bf62cc1e64ce5ce8fcfbd4ce1fe261",
-  "pdf_sha256": "d597bf75b7a9dac5fa296dec3ac7847cb1671a6150407ff769a8394673f0f527",
+  "source_sha256": "debacfd19ebb0e28509bbb177bbaba8758c846364b26bb6a5d58ae13449f00d2",
+  "pdf_sha256": "4a80b274b288e6ba152ea07a417d267d6a039e966ce9840a9d143d057ff08ca7",
   "sections": [
     {
       "path": "docs/full/00-abstract.md",
@@ -39,7 +39,7 @@
         {
           "level": 2,
           "anchor": "r006",
-          "title": "1.2 · Όροι και επίπεδα ανάλυσης"
+          "title": "1.2 · Όροι και κλίμακες ανάλυσης"
         },
         {
           "level": 4,
@@ -122,7 +122,7 @@
         {
           "level": 4,
           "anchor": "r022",
-          "title": "Τοποθέτηση στο MIR και στη μηχανική μάθηση."
+          "title": "Θέση στο MIR και στη μηχανική μάθηση."
         }
       ]
     },
@@ -196,7 +196,7 @@
         {
           "level": 2,
           "anchor": "r033",
-          "title": "5.1 · Ενιαίο συμβολικό επίπεδο αναφοράς και $U\\times F$"
+          "title": "5.1 · Ενιαίο συμβολικό επίπεδο αναφοράς και U\\times\\Phi"
         },
         {
           "level": 4,
@@ -211,7 +211,7 @@
         {
           "level": 2,
           "anchor": "r036",
-          "title": "5.3 · Επαγόμενη κατάτμηση και οικογένειες"
+          "title": "5.3 · Επαγόμενη τμηματοποίηση και οικογένειες"
         },
         {
           "level": 4,
@@ -221,20 +221,48 @@
         {
           "level": 2,
           "anchor": "r038",
-          "title": "5.4 · Επιλογή στα σύνολα ανάπτυξης και οριστικοποίηση της εισόδου του EISE"
+          "title": "5.4 · Επιλογή αναπαράστασης με τον κανόνα J"
+        }
+      ]
+    },
+    {
+      "path": "docs/full/06-a2.md",
+      "number": "6",
+      "kind": "chapter",
+      "title": "Α2: μουσικολογική γνώση ως ελεγχόμενη πειραματική μεταβλητή",
+      "headings": [
+        {
+          "level": 1,
+          "anchor": "r217",
+          "title": "6 · Α2: μουσικολογική γνώση ως ελεγχόμενη πειραματική μεταβλητή"
+        },
+        {
+          "level": 2,
+          "anchor": "r218",
+          "title": "6.1 · Κοινή είσοδος και δύο τρόποι αξιοποίησης των προδιαγραφών"
+        },
+        {
+          "level": 2,
+          "anchor": "r219",
+          "title": "6.2 · Παραγοντικός σχεδιασμός και κύρια εκτιμώμενα μεγέθη"
+        },
+        {
+          "level": 2,
+          "anchor": "r220",
+          "title": "6.3 · Μοντέλα αναφοράς, στατιστική διαδικασία και εφικτότητα"
         }
       ]
     },
     {
       "path": "docs/full/06-eise.md",
-      "number": "6",
+      "number": "7",
       "kind": "chapter",
-      "title": "EISE και κύρια ελεγχόμενη σύγκριση B2–EISE",
+      "title": "Μ2: οικογενειακή μάθηση και ιστορική εποπτεία B2–EISE",
       "headings": [
         {
           "level": 1,
           "anchor": "r039",
-          "title": "6 · EISE και κύρια ελεγχόμενη σύγκριση B2–EISE"
+          "title": "7 · Μ2: οικογενειακή μάθηση και ιστορική εποπτεία B2–EISE"
         },
         {
           "level": 4,
@@ -243,8 +271,13 @@
         },
         {
           "level": 2,
+          "anchor": "r221",
+          "title": "7.1 · Μ2a: κοινή οικογενειακή ταυτότητα και διατήρηση της πραγμάτωσης"
+        },
+        {
+          "level": 2,
           "anchor": "r041",
-          "title": "6.1 · Μαθησιακό πρόβλημα και βασική αρχιτεκτονική"
+          "title": "7.2 · Μ2b: μαθησιακό πρόβλημα και κοινή τμηματική αρχιτεκτονική"
         },
         {
           "level": 4,
@@ -259,32 +292,32 @@
         {
           "level": 2,
           "anchor": "r044",
-          "title": "6.2 · Τέσσερις συγκρίσιμες συνθήκες: $B0/B1/B2/\\mathrm{EISE}$"
+          "title": "7.3 · Συμβολικές βάσεις και αντιστοιχισμένες νευρωνικές συνθήκες"
         },
         {
           "level": 2,
           "anchor": "r045",
-          "title": "6.3 · Σύγκριση ιστορικού και ανεξάρτητου εκτελεστικού προφίλ"
+          "title": "7.4 · Σύγκριση ιστορικού και ανεξάρτητου εκτελεστικού προφίλ"
         },
         {
           "level": 3,
           "anchor": "r046",
-          "title": "6.3.1 · Αναγκαίο ανεξάρτητο εκτελεστικό κριτήριο για τη M2"
+          "title": "7.4.1 · Αναγκαίο ανεξάρτητο εκτελεστικό κριτήριο για τη M2"
         },
         {
           "level": 3,
           "anchor": "r047",
-          "title": "6.3.2 · Μέτρο συμφωνίας και συγκριτικές αντιθέσεις"
+          "title": "7.4.2 · Μέτρο συμφωνίας και συγκριτικές αντιθέσεις"
         },
         {
           "level": 2,
           "anchor": "r048",
-          "title": "6.4 · Σύνδεση του EISE με την ανθρώπινη γνωσιακή αξιολόγηση"
+          "title": "7.5 · Σύνδεση του EISE με την ανθρώπινη γνωσιακή αξιολόγηση"
         },
         {
           "level": 2,
           "anchor": "r049",
-          "title": "6.5 · Μάθηση τεκμηριωμένων μετασχηματισμών"
+          "title": "7.6 · Μάθηση τεκμηριωμένων μετασχηματισμών"
         },
         {
           "level": 4,
@@ -295,34 +328,34 @@
     },
     {
       "path": "docs/full/07-validation.md",
-      "number": "7",
+      "number": "8",
       "kind": "chapter",
       "title": "Μουσικολογική και γνωσιακή επικύρωση της μονάδας",
       "headings": [
         {
           "level": 1,
           "anchor": "r051",
-          "title": "7 · Μουσικολογική και γνωσιακή επικύρωση της μονάδας"
+          "title": "8 · Μουσικολογική και γνωσιακή επικύρωση της μονάδας"
         },
         {
           "level": 2,
           "anchor": "r052",
-          "title": "7.1 · M3a: μουσικολογική θεμελίωση και ανεξάρτητη επικύρωση"
+          "title": "8.1 · M3a: μουσικολογική θεμελίωση και ανεξάρτητη επικύρωση"
         },
         {
           "level": 4,
           "anchor": "r053",
-          "title": "Έλεγχος διακριτικής επάρκειας των προδιαγραφών οικογενειών."
+          "title": "Έλεγχος διακριτικής επάρκειας των υπογραφών."
         },
         {
           "level": 3,
           "anchor": "r054",
-          "title": "7.1.1 · Μουσικολογική αναγνώριση και ιστορική οργάνωση"
+          "title": "8.1.1 · Μουσικολογική αναγνώριση και ιστορική οργάνωση"
         },
         {
           "level": 3,
           "anchor": "r055",
-          "title": "7.1.2 · Πληροφοριακή και τροπική οργάνωση"
+          "title": "8.1.2 · Πληροφοριακή και τροπική οργάνωση"
         },
         {
           "level": 4,
@@ -347,55 +380,60 @@
         {
           "level": 2,
           "anchor": "r060",
-          "title": "7.2 · M3c: ιεραρχική μουσική πρόβλεψη και ένδειξη λατρευτικού πλαισίου"
+          "title": "8.2 · M3c: ιεραρχική μουσική πρόβλεψη και ένδειξη λατρευτικού πλαισίου"
         },
         {
           "level": 2,
           "anchor": "r061",
-          "title": "7.3 · M3b: κατηγορική αναπαράσταση της οικογένειας θέσεων"
+          "title": "8.3 · M3b: κατηγορική αναπαράσταση της οικογένειας θέσεων"
         },
         {
           "level": 2,
           "anchor": "r062",
-          "title": "7.4 · Ενισχυτικές ανθρώπινες αναλύσεις"
+          "title": "8.4 · Ενισχυτικές ανθρώπινες αναλύσεις"
         },
         {
           "level": 2,
           "anchor": "r063",
-          "title": "7.5 · Ευρύτερη εκτελεστική ανάλυση M4"
+          "title": "8.5 · Ευρύτερη εκτελεστική ανάλυση M4"
         },
         {
           "level": 2,
           "anchor": "r064",
-          "title": "7.6 · M3ν: νευρική επέκταση"
+          "title": "8.6 · M3ν: νευρική επέκταση"
         },
         {
           "level": 2,
           "anchor": "r065",
-          "title": "7.7 · Σύνθεση ανεξάρτητων μεθόδων"
+          "title": "8.7 · Σύνθεση ανεξάρτητων μεθόδων"
         }
       ]
     },
     {
       "path": "docs/full/08-data.md",
-      "number": "8",
+      "number": "9",
       "kind": "chapter",
       "title": "Δεδομένα και δυνατότητα υλοποίησης",
       "headings": [
         {
           "level": 1,
           "anchor": "r066",
-          "title": "8 · Δεδομένα και δυνατότητα υλοποίησης"
+          "title": "9 · Δεδομένα και δυνατότητα υλοποίησης"
         },
         {
           "level": 2,
           "anchor": "r067",
-          "title": "8.1 · Συμβολικά σώματα, Άγιος Αντώνιος και ΔΑΜΑΣΚΗΝΟΣ"
+          "title": "9.1 · Συμβολικά σώματα, Άγιος Αντώνιος και ΔΑΜΑΣΚΗΝΟΣ"
         },
         {
           "level": 2,
           "anchor": "r068",
-          "title": "8.2 · ΠΕ0: απογραφή, επάρκεια και οριστικοποίηση του επιπέδου ανάλυσης"
+          "title": "9.2 · ΠΕ0: απογραφή, επάρκεια και οριστικοποίηση κλίμακας"
+        },
+        {
+          "level": 4,
+          "anchor": "r222",
+          "title": "Τέσσερα προκαθορισμένα κριτήρια ετοιμότητας του βασικού πυρήνα."
         },
         {
           "level": 4,
@@ -410,7 +448,7 @@
         {
           "level": 4,
           "anchor": "r071",
-          "title": "Πιλοτική συγκρότηση προδιαγραφών οικογενειών."
+          "title": "Πιλοτική συγκρότηση οικογενειακών υπογραφών."
         },
         {
           "level": 4,
@@ -420,35 +458,40 @@
         {
           "level": 2,
           "anchor": "r073",
-          "title": "8.3 · Κριτήρια επάρκειας για αξιόπιστη εκτίμηση"
+          "title": "9.3 · Κριτήρια επάρκειας για αξιόπιστη εκτίμηση"
         },
         {
           "level": 2,
           "anchor": "r074",
-          "title": "8.4 · Λίγα τεκμηριωμένα ζεύγη: στρατηγική εκτίμησης"
+          "title": "9.4 · Λίγα τεκμηριωμένα ζεύγη: στρατηγική εκτίμησης"
         },
         {
           "level": 2,
           "anchor": "r075",
-          "title": "8.5 · Πρόσβαση, διάθεση δεδομένων και εφικτότητα της έρευνας"
+          "title": "9.5 · Πρόσβαση, διάθεση δεδομένων και εφικτότητα της έρευνας"
         },
         {
           "level": 2,
           "anchor": "r076",
-          "title": "8.6 · Συμπληρωματική ανάλυση κοινού κειμενικού χωρίου"
+          "title": "9.6 · Συμπληρωματική ανάλυση κοινού κειμενικού χωρίου"
         }
       ]
     },
     {
       "path": "docs/full/09-nikolaos.md",
-      "number": "9",
+      "number": "10",
       "kind": "chapter",
       "title": "Ιστορική εφαρμογή και χαρακτηρισμός πλήρους έργου: Νικόλαος Πρωτοψάλτης Σμύρνης",
       "headings": [
         {
           "level": 1,
           "anchor": "r077",
-          "title": "9 · Ιστορική εφαρμογή και χαρακτηρισμός πλήρους έργου: Νικόλαος Πρωτοψάλτης Σμύρνης"
+          "title": "10 · Ιστορική εφαρμογή και χαρακτηρισμός πλήρους έργου: Νικόλαος Πρωτοψάλτης Σμύρνης"
+        },
+        {
+          "level": 4,
+          "anchor": "r223",
+          "title": "Ελάχιστη εφαρμογή Μ5-min και πλήρης ιστορική σύγκριση."
         },
         {
           "level": 4,
@@ -458,7 +501,7 @@
         {
           "level": 2,
           "anchor": "r079",
-          "title": "9.1 · M5a: χαρακτηρισμός έργου ως προς τεκμηριωμένο περιβάλλον αναφοράς"
+          "title": "10.1 · M5a: χαρακτηρισμός έργου ως προς τεκμηριωμένο περιβάλλον αναφοράς"
         },
         {
           "level": 4,
@@ -473,30 +516,30 @@
         {
           "level": 2,
           "anchor": "r082",
-          "title": "9.2 · M5b: εφαρμογή στον Νικόλαο Πρωτοψάλτη Σμύρνης"
+          "title": "10.2 · M5b: εφαρμογή στον Νικόλαο Πρωτοψάλτη Σμύρνης"
         },
         {
           "level": 2,
           "anchor": "r083",
-          "title": "9.3 · Ανεξάρτητη δημοσιευμένη μελέτη περίπτωσης"
+          "title": "10.3 · Ανεξάρτητη δημοσιευμένη μελέτη περίπτωσης"
         }
       ]
     },
     {
       "path": "docs/full/10-contribution.md",
-      "number": "10",
+      "number": "11",
       "kind": "chapter",
       "title": "Κεντρική συνεισφορά, πρόγραμμα και συμπέρασμα",
       "headings": [
         {
           "level": 1,
           "anchor": "r084",
-          "title": "10 · Κεντρική συνεισφορά, πρόγραμμα και συμπέρασμα"
+          "title": "11 · Κεντρική συνεισφορά, πρόγραμμα και συμπέρασμα"
         },
         {
           "level": 2,
           "anchor": "r085",
-          "title": "10.1 · Αναμενόμενη υπολογιστική, γνωσιακή και μουσικολογική γνώση"
+          "title": "11.1 · Αναμενόμενη υπολογιστική, γνωσιακή και μουσικολογική γνώση"
         },
         {
           "level": 4,
@@ -516,7 +559,7 @@
         {
           "level": 2,
           "anchor": "r089",
-          "title": "10.2 · Πακέτα εργασίας, χρονοδιάγραμμα και παραδοτέα"
+          "title": "11.2 · Πακέτα εργασίας, χρονοδιάγραμμα και παραδοτέα"
         },
         {
           "level": 4,
@@ -526,12 +569,12 @@
         {
           "level": 2,
           "anchor": "r091",
-          "title": "10.3 · Μελλοντικές κατευθύνσεις"
+          "title": "11.3 · Μελλοντικές κατευθύνσεις"
         },
         {
           "level": 2,
           "anchor": "r092",
-          "title": "10.4 · Συμπέρασμα"
+          "title": "11.4 · Συμπέρασμα"
         }
       ]
     },
@@ -567,12 +610,12 @@
         {
           "level": 2,
           "anchor": "r096",
-          "title": "B.2 · Μονάδες και πεδία $N/T/M/L$"
+          "title": "B.2 · Μονάδες και πεδία N/T/M/L"
         },
         {
           "level": 2,
           "anchor": "r097",
-          "title": "B.3 · Επαγόμενη κατάτμηση και οικογένειες"
+          "title": "B.3 · Επαγόμενη τμηματοποίηση και οικογένειες"
         },
         {
           "level": 2,
@@ -640,12 +683,12 @@
         {
           "level": 2,
           "anchor": "r110",
-          "title": "C.5 · Απογραφή, επάρκεια και οριστικοποίηση του επιπέδου ανάλυσης"
+          "title": "C.5 · Απογραφή, επάρκεια και οριστικοποίηση κλίμακας"
         },
         {
           "level": 4,
           "anchor": "r111",
-          "title": "Κριτήριο επάρκειας $G_{\\mathrm{perf}}$ για το ανεξάρτητο εκτελεστικό κριτήριο (επαρκής/οριακή/ανεπαρκής)."
+          "title": "Πύλη G_{\\mathrm{perf}} για το ανεξάρτητο εκτελεστικό κριτήριο (GREEN/AMBER/RED)."
         },
         {
           "level": 2,
@@ -680,7 +723,7 @@
         {
           "level": 2,
           "anchor": "r118",
-          "title": "C.12 · Ρόλος του ερευνητή"
+          "title": "C.12 · Θέση του ερευνητή"
         },
         {
           "level": 2,
@@ -720,7 +763,7 @@
         {
           "level": 3,
           "anchor": "r126",
-          "title": "C.13.6 · Υπολογιστική αναπαράσταση, κατάτμηση και μελωδική συγγένεια"
+          "title": "C.13.6 · Υπολογιστική αναπαράσταση, τμηματοποίηση και μελωδική συγγένεια"
         },
         {
           "level": 3,
@@ -796,42 +839,27 @@
         {
           "level": 2,
           "anchor": "r138",
-          "title": "E.1 · Επιλογή αναπαράστασης"
+          "title": "E.1 · Επιλογή αναπαράστασης: ακριβές πρωτόκολλο J"
         },
         {
           "level": 4,
-          "anchor": "r139",
-          "title": "Μέτρα επιλογής."
+          "anchor": "r224",
+          "title": "Πλήρης αναγνώριση και νόμιμη αντιστοίχιση."
         },
         {
           "level": 4,
-          "anchor": "r140",
-          "title": "Οικογενειακό ελάχιστο $g_{\\min}$."
+          "anchor": "r225",
+          "title": "Επιλογή στην A και οικογενειακή επάρκεια."
         },
         {
           "level": 4,
-          "anchor": "r141",
-          "title": "Λειτουργική επιλογή."
+          "anchor": "r226",
+          "title": "Ταυτόχρονη αβεβαιότητα και σύνολο υποψηφίων επιλογών."
         },
         {
           "level": 4,
-          "anchor": "r142",
-          "title": "Αβεβαιότητα της επιλογής."
-        },
-        {
-          "level": 4,
-          "anchor": "r143",
-          "title": "Επαναδειγματοληψία και επαναλήψεις εκπαίδευσης."
-        },
-        {
-          "level": 4,
-          "anchor": "r144",
-          "title": "Οικογενειακή απώλεια."
-        },
-        {
-          "level": 4,
-          "anchor": "r145",
-          "title": "Μετάβαση στη M2."
+          "anchor": "r227",
+          "title": "Οικογενειακή απώλεια και ευαισθησία."
         },
         {
           "level": 2,
@@ -871,12 +899,12 @@
         {
           "level": 2,
           "anchor": "r153",
-          "title": "E.9 · Πρόσθετη εξωτερική εγκυρότητα και $\\Delta_{\\mathrm{ext}}$"
+          "title": "E.9 · Πρόσθετη εξωτερική εγκυρότητα και \\Delta_{\\mathrm{ext}}"
         },
         {
           "level": 2,
           "anchor": "r154",
-          "title": "E.10 · Διπλή διατήρηση και $\\Delta V$"
+          "title": "E.10 · Διπλή διατήρηση και \\Delta V"
         },
         {
           "level": 2,
@@ -904,7 +932,7 @@
         {
           "level": 1,
           "anchor": "r158",
-          "title": "F · Αντιστοίχιση και επαναδειγματοληψία"
+          "title": "F · Αντιστοίχιση και αναδειγματοληψία"
         },
         {
           "level": 2,
@@ -914,17 +942,17 @@
         {
           "level": 4,
           "anchor": "r160",
-          "title": "Δευτερεύον μοντέλο αναφοράς αυτόματης αντιστοίχισης βάσει μελωδικής ομοιότητας $B2_{\\mathrm{sim}}$."
+          "title": "Δευτερεύων συγκριτής αυτόματης αντιστοίχισης βάσει μελωδικής ομοιότητας B2_{\\mathrm{sim}}."
         },
         {
           "level": 4,
           "anchor": "r161",
-          "title": "Δευτερεύον μοντέλο αναφοράς ενδοοικογενειακής εποπτείας με αντιστοιχισμένο περιβάλλον."
+          "title": "Δευτερεύων συγκριτής ενδοοικογενειακής εποπτείας με αντιστοιχισμένο περιβάλλον."
         },
         {
           "level": 4,
           "anchor": "r162",
-          "title": "Υποχρεωτική ευαισθησία ως προς το κειμενικό στρώμα όταν $L\\subset R^\\star$."
+          "title": "Υποχρεωτική ευαισθησία ως προς το κειμενικό στρώμα όταν L\\subset R^\\star."
         },
         {
           "level": 2,
@@ -944,7 +972,7 @@
         {
           "level": 2,
           "anchor": "r166",
-          "title": "F.5 · Κοινή επαναδειγματοληψία και κοινά προφίλ"
+          "title": "F.5 · Κοινή αναδειγματοληψία και κοινά προφίλ"
         },
         {
           "level": 2,
@@ -964,7 +992,7 @@
         {
           "level": 4,
           "anchor": "r170",
-          "title": "Περιβάλλον αναφοράς και οριστικοποίηση του μοντέλου."
+          "title": "Περιβάλλον αναφοράς και κλείδωμα του μοντέλου."
         },
         {
           "level": 4,
@@ -974,7 +1002,7 @@
         {
           "level": 4,
           "anchor": "r172",
-          "title": "Χρονικός δείκτης ενδοοικογενειακής πραγμάτωσης."
+          "title": "Χρονικό διαγνωστικό ενδοοικογενειακής πραγμάτωσης."
         },
         {
           "level": 4,
@@ -1022,7 +1050,7 @@
         {
           "level": 2,
           "anchor": "r180",
-          "title": "G.1 · Βιβλιογραφική και αρχιτεκτονική θεμελίωση της επιλογής EISE"
+          "title": "G.1 · Βιβλιογραφική θεμελίωση της κοινής τμηματικής αρχιτεκτονικής A"
         },
         {
           "level": 2,
@@ -1037,7 +1065,7 @@
         {
           "level": 2,
           "anchor": "r183",
-          "title": "G.4 · Λανθάνουσα μετρική και μουσική αντιστοίχιση $u$"
+          "title": "G.4 · Λανθάνουσα μετρική και μουσική αντιστοίχιση u"
         },
         {
           "level": 2,
@@ -1070,7 +1098,7 @@
         {
           "level": 2,
           "anchor": "r189",
-          "title": "H.1 · Έλεγχοι επαλήθευσης αναπαραστάσεων"
+          "title": "H.1 · Διαγνωστικοί έλεγχοι αναπαραστάσεων"
         },
         {
           "level": 2,
@@ -1221,6 +1249,76 @@
       ]
     },
     {
+      "path": "docs/appendices/k.md",
+      "number": "K",
+      "kind": "appendix",
+      "title": "Α2: τεχνικό πρωτόκολλο μουσικολογικά ενημερωμένης μάθησης",
+      "headings": []
+    },
+    {
+      "path": "docs/appendices/l.md",
+      "number": "L",
+      "kind": "appendix",
+      "title": "Μουσικό και μαθηματικό παράδειγμα του κανόνα J",
+      "headings": [
+        {
+          "level": 1,
+          "anchor": "r234",
+          "title": "L · Μουσικό και μαθηματικό παράδειγμα του κανόνα J"
+        },
+        {
+          "level": 2,
+          "anchor": "r235",
+          "title": "L.1 · Πραγματικό καταλογογραφικό τεκμήριο και ανεξάρτητη οικογενειακή κρίση"
+        },
+        {
+          "level": 2,
+          "anchor": "r236",
+          "title": "L.2 · Πλήρη αποδεκτά ζεύγη, ακριβής οικογένεια και νόμιμη αντιστοίχιση"
+        },
+        {
+          "level": 2,
+          "anchor": "r237",
+          "title": "L.3 · Αντιπαραδείγματα O–N–J από τη μαθηματική τεκμηρίωση του GitHub"
+        },
+        {
+          "level": 4,
+          "anchor": "r238",
+          "title": "Ακριβή όρια έναντι επιτυχών μεμονωμένων άκρων."
+        },
+        {
+          "level": 4,
+          "anchor": "r239",
+          "title": "Μέση επίδοση A/B/C έναντι της κύριας αρχιτεκτονικής A."
+        },
+        {
+          "level": 2,
+          "anchor": "r240",
+          "title": "L.4 · Ο κανόνας J, η οικογενειακή επάρκεια και τα 78 μεγέθη κοινής αβεβαιότητας"
+        },
+        {
+          "level": 2,
+          "anchor": "r241",
+          "title": "L.5 · Η δομημένη οικογενειακή γνώση στην Α2: μικρό αριθμητικό παράδειγμα"
+        },
+        {
+          "level": 2,
+          "anchor": "r242",
+          "title": "L.6 · Σύνδεση με Μ2: ίδιος νευρωνικός κορμός, διαφορετική πηγή σχέσεων"
+        },
+        {
+          "level": 2,
+          "anchor": "r243",
+          "title": "L.7 · Δοκιμές ορθότητας του μαθηματικού παραδείγματος"
+        },
+        {
+          "level": 4,
+          "anchor": "r244",
+          "title": "Αντιστοίχιση προς την ενεργή τεκμηρίωση του αποθετηρίου."
+        }
+      ]
+    },
+    {
       "path": "docs/bibliography/source-list.md",
       "number": "",
       "kind": "bibliography",
@@ -1363,7 +1461,7 @@
       "docs/full/05-m1.md",
       "r032"
     ],
-    "ενιαίο-συμβολικό-επίπεδο-αναφοράς-και-utimes-f": [
+    "ενιαίο-συμβολικό-επίπεδο-αναφοράς-και-utimesphi": [
       "docs/full/05-m1.md",
       "r033"
     ],
@@ -1383,9 +1481,25 @@
       "docs/full/05-m1.md",
       "r037"
     ],
-    "επιλογή-στα-σύνολα-ανάπτυξης-και-οριστικοποίηση-της-εισόδου-του-eise": [
+    "επιλογή-αναπαράστασης-με-τον-κανόνα-j": [
       "docs/full/05-m1.md",
       "r038"
+    ],
+    "sec:a2": [
+      "docs/full/06-a2.md",
+      "r217"
+    ],
+    "κοινή-είσοδος-και-δύο-τρόποι-αξιοποίησης-των-προδιαγραφών": [
+      "docs/full/06-a2.md",
+      "r218"
+    ],
+    "παραγοντικός-σχεδιασμός-και-κύρια-εκτιμώμενα-μεγέθη": [
+      "docs/full/06-a2.md",
+      "r219"
+    ],
+    "μοντέλα-αναφοράς-στατιστική-διαδικασία-και-εφικτότητα": [
+      "docs/full/06-a2.md",
+      "r220"
     ],
     "sec:eise": [
       "docs/full/06-eise.md",
@@ -1395,7 +1509,11 @@
       "docs/full/06-eise.md",
       "r040"
     ],
-    "μαθησιακό-πρόβλημα-και-βασική-αρχιτεκτονική": [
+    "sec:m2a": [
+      "docs/full/06-eise.md",
+      "r221"
+    ],
+    "sec:m2b": [
       "docs/full/06-eise.md",
       "r041"
     ],
@@ -1407,7 +1525,7 @@
       "docs/full/06-eise.md",
       "r043"
     ],
-    "τέσσερις-συγκρίσιμες-συνθήκες-b0b1b2mathrmeise": [
+    "συμβολικές-βάσεις-και-αντιστοιχισμένες-νευρωνικές-συνθήκες": [
       "docs/full/06-eise.md",
       "r044"
     ],
@@ -1507,6 +1625,10 @@
       "docs/full/08-data.md",
       "r068"
     ],
+    "τέσσερα-προκαθορισμένα-κριτήρια-ετοιμότητας-του-βασικού-πυρήνα.": [
+      "docs/full/08-data.md",
+      "r222"
+    ],
     "στοχευμένες-περιπτώσεις-παραλλαγής.": [
       "docs/full/08-data.md",
       "r069"
@@ -1542,6 +1664,10 @@
     "sec:nikolaos": [
       "docs/full/09-nikolaos.md",
       "r077"
+    ],
+    "ελάχιστη-εφαρμογή-μ5-min-και-πλήρης-ιστορική-σύγκριση.": [
+      "docs/full/09-nikolaos.md",
+      "r223"
     ],
     "από-το-λεξιλόγιο-στη-μορφή-του-έργου.": [
       "docs/full/09-nikolaos.md",
@@ -1787,33 +1913,21 @@
       "docs/appendices/e.md",
       "r138"
     ],
-    "μέτρα-επιλογής.": [
+    "πλήρης-αναγνώριση-και-νόμιμη-αντιστοίχιση.": [
       "docs/appendices/e.md",
-      "r139"
+      "r224"
     ],
-    "οικογενειακό-ελάχιστο-g_min.": [
+    "επιλογή-στην-a-και-οικογενειακή-επάρκεια.": [
       "docs/appendices/e.md",
-      "r140"
+      "r225"
     ],
-    "λειτουργική-επιλογή.": [
+    "ταυτόχρονη-αβεβαιότητα-και-σύνολο-υποψηφίων-επιλογών.": [
       "docs/appendices/e.md",
-      "r141"
+      "r226"
     ],
-    "αβεβαιότητα-της-επιλογής.": [
+    "οικογενειακή-απώλεια-και-ευαισθησία.": [
       "docs/appendices/e.md",
-      "r142"
-    ],
-    "αναδειγματοληψία-και-επαναλήψεις-εκπαίδευσης.": [
-      "docs/appendices/e.md",
-      "r143"
-    ],
-    "οικογενειακή-απώλεια.": [
-      "docs/appendices/e.md",
-      "r144"
-    ],
-    "μετάβαση-στη-m2.": [
-      "docs/appendices/e.md",
-      "r145"
+      "r227"
     ],
     "app:stats-multiplicity": [
       "docs/appendices/e.md",
@@ -2095,6 +2209,74 @@
       "docs/appendices/j.md",
       "r215"
     ],
+    "app:a2": [
+      "docs/appendices/k.md",
+      "r228"
+    ],
+    "μητρώο-προδιαγραφών-και-τυφλή-εφαρμογή": [
+      "docs/appendices/k.md",
+      "r229"
+    ],
+    "κοινός-πίνακας-εννοιών-λογική-σύνθεση-και-ελλείψεις": [
+      "docs/appendices/k.md",
+      "r230"
+    ],
+    "παραγοντικός-πειραματικός-σχεδιασμός-και-συγκριτές": [
+      "docs/appendices/k.md",
+      "r231"
+    ],
+    "πρωτεύοντα-μεγέθη-και-οικογένεια-υποθέσεων": [
+      "docs/appendices/k.md",
+      "r232"
+    ],
+    "κριτήρια-ετοιμότητας-μαθηματική-επιθεώρηση-και-τεκμήρια": [
+      "docs/appendices/k.md",
+      "r233"
+    ],
+    "app:worked-examples": [
+      "docs/appendices/l.md",
+      "r234"
+    ],
+    "πραγματικό-καταλογογραφικό-τεκμήριο-και-ανεξάρτητη-οικογενειακή-κρίση": [
+      "docs/appendices/l.md",
+      "r235"
+    ],
+    "πλήρη-αποδεκτά-ζεύγη-ακριβής-οικογένεια-και-νόμιμη-αντιστοίχιση": [
+      "docs/appendices/l.md",
+      "r236"
+    ],
+    "αντιπαραδείγματα-onj-από-τη-μαθηματική-τεκμηρίωση-του-github": [
+      "docs/appendices/l.md",
+      "r237"
+    ],
+    "ακριβή-όρια-έναντι-επιτυχών-μεμονωμένων-άκρων.": [
+      "docs/appendices/l.md",
+      "r238"
+    ],
+    "μέση-επίδοση-abc-έναντι-της-κύριας-αρχιτεκτονικής-a.": [
+      "docs/appendices/l.md",
+      "r239"
+    ],
+    "ο-κανόνας-j-η-οικογενειακή-επάρκεια-και-τα-78-μεγέθη-κοινής-αβεβαιότητας": [
+      "docs/appendices/l.md",
+      "r240"
+    ],
+    "η-δομημένη-οικογενειακή-γνώση-στην-α2-μικρό-αριθμητικό-παράδειγμα": [
+      "docs/appendices/l.md",
+      "r241"
+    ],
+    "σύνδεση-με-μ2-ίδιος-νευρωνικός-κορμός-διαφορετική-πηγή-σχέσεων": [
+      "docs/appendices/l.md",
+      "r242"
+    ],
+    "δοκιμές-ορθότητας-του-μαθηματικού-παραδείγματος": [
+      "docs/appendices/l.md",
+      "r243"
+    ],
+    "αντιστοίχιση-προς-την-ενεργή-τεκμηρίωση-του-αποθετηρίου.": [
+      "docs/appendices/l.md",
+      "r244"
+    ],
     "βιβλιογραφία": [
       "docs/bibliography/source-list.md",
       "r216"
@@ -2366,9 +2548,17 @@
       "year": "2022"
     },
     {
-      "id": "b034",
+      "id": "b136",
       "language": "Ξενόγλωσση Βιβλιογραφία",
       "source_number": 10,
+      "text": "Bauckhage, C., Schulz, D., & von Rueden, L. (2025). Introduction and Overview. In D. Schulz & C. Bauckhage (eds.), Informed Machine Learning, 1–14. Springer. https://doi.org/10.1007/978-3-031-83097-6_1.",
+      "author": "Bauckhage",
+      "year": "2025"
+    },
+    {
+      "id": "b034",
+      "language": "Ξενόγλωσση Βιβλιογραφία",
+      "source_number": 11,
       "text": "Ballen, G. A., Mühlová, K. H., & Hajič Jr., J. (2026). What Did the Dove Sing to Pope Gregory? Ancestral Melody Reconstruction in Gregorian Chant Using Bayesian Phylogenetics. PLOS ONE, 21(5), e0350014. https://doi.org/10.1371/journal.pone.0350014.",
       "author": "Ballen",
       "year": "2026"
@@ -2376,7 +2566,7 @@
     {
       "id": "b035",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 11,
+      "source_number": 12,
       "text": "Bernardi, S., Benna, M. K., Rigotti, M., Munuera, J., Fusi, S., & Salzman, C. D. (2020). The Geometry of Abstraction in Hippocampus and Prefrontal Cortex. Cell, 183(4), 954–967.e21. https://doi.org/10.1016/j.cell.2020.09.031.",
       "author": "Bernardi",
       "year": "2020"
@@ -2384,7 +2574,7 @@
     {
       "id": "b036",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 12,
+      "source_number": 13,
       "text": "Bouris, N. G., Georgaki, A., & Chaldaeakes, A. G. (2018). Encoding Byzantine Music Notation (ca. 1600-1814). Proceedings of SMC 2018.",
       "author": "Bouris",
       "year": "2018"
@@ -2392,7 +2582,7 @@
     {
       "id": "b037",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 13,
+      "source_number": 14,
       "text": "Cambouropoulos, E. (2001). The Local Boundary Detection Model (LBDM) and Its Application in the Study of Expressive Timing. Proceedings of ICMC.",
       "author": "Cambouropoulos",
       "year": "2001"
@@ -2400,7 +2590,7 @@
     {
       "id": "b038",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 14,
+      "source_number": 15,
       "text": "Byros, V. (2012). Meyer’s Anvil: Revisiting the Schema Concept. Music Analysis, 31(3), 273–346. https://doi.org/10.1111/j.1468-2249.2012.00344.x.",
       "author": "Byros",
       "year": "2012"
@@ -2408,7 +2598,7 @@
     {
       "id": "b039",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 15,
+      "source_number": 16,
       "text": "Cambouropoulos, E. (2006). Musical Parallelism and Melodic Segmentation: A Computational Approach. Music Perception, 23(3), 249–268. https://doi.org/10.1525/mp.2006.23.3.249.",
       "author": "Cambouropoulos",
       "year": "2006"
@@ -2416,7 +2606,7 @@
     {
       "id": "b040",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 16,
+      "source_number": 17,
       "text": "Cambouropoulos, E. (2009). How Similar Is Similar? Musicae Scientiae, Discussion Forum 4B, 7–24. https://jyx.jyu.fi/handle/123456789/22619.",
       "author": "Cambouropoulos",
       "year": "2009"
@@ -2424,7 +2614,7 @@
     {
       "id": "b041",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 17,
+      "source_number": 18,
       "text": "Chaldaeakes, A. G. (2010). Daniel the Protopsaltes (+1789): His Life and Work. A Preliminary Paper. Muzica, 3, 39–53.",
       "author": "Chaldaeakes",
       "year": "2010"
@@ -2432,7 +2622,7 @@
     {
       "id": "b042",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 18,
+      "source_number": 19,
       "text": "Chryssochoidis, G., Delviniotis, D., & Kouroupetroglou, G. (2007). A Semi-Automated Tagging Methodology for Orthodox Ecclesiastic Chant Acoustic Corpora. Proceedings of the 4th Sound and Music Computing Conference (SMC 2007), Lefkada, Greece, 126–133.",
       "author": "Chryssochoidis",
       "year": "2007"
@@ -2440,7 +2630,7 @@
     {
       "id": "b043",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 19,
+      "source_number": 20,
       "text": "Conklin, D., & Anagnostopoulou, C. (2006). Segmental Pattern Discovery in Music. INFORMS Journal on Computing, 18(3), 285-293.",
       "author": "Conklin",
       "year": "2006"
@@ -2448,7 +2638,7 @@
     {
       "id": "b044",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 20,
+      "source_number": 21,
       "text": "Conomos, D. E. (1974). Byzantine Trisagia and Cheroubika of the Fourteenth and Fifteenth Centuries: A Study of Late Byzantine Liturgical Chant. Thessaloniki: Patriarchal Institute for Patristic Studies.",
       "author": "Conomos",
       "year": "1974"
@@ -2456,7 +2646,7 @@
     {
       "id": "b045",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 21,
+      "source_number": 22,
       "text": "Conomos, D. E. (1985a). The Late Byzantine and Slavonic Communion Cycle: Liturgy and Music. Dumbarton Oaks Studies 21. Washington, DC: Dumbarton Oaks Research Library and Collection.",
       "author": "Conomos",
       "year": "1985a"
@@ -2464,7 +2654,7 @@
     {
       "id": "b046",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 22,
+      "source_number": 23,
       "text": "Conomos, D. E. (Ed.). (1985b). The Treatise of Manuel Chrysaphes, the Lampadarios: On the Theory of the Art of Chanting and on Certain Erroneous Views That Some Hold About It. Monumenta Musicae Byzantinae, Corpus Scriptorum de Re Musica, 2. Vienna: Verlag der Österreichischen Akademie der Wissenschaften.",
       "author": "Conomos",
       "year": "1985b"
@@ -2472,7 +2662,7 @@
     {
       "id": "b047",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 23,
+      "source_number": 24,
       "text": "Cornelissen, B., Zuidema, W., & Burgoyne, J. A. (2020a). Mode Classification and Natural Units in Plainchant. Proceedings of ISMIR 2020.",
       "author": "Cornelissen",
       "year": "2020a"
@@ -2480,7 +2670,7 @@
     {
       "id": "b048",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 24,
+      "source_number": 25,
       "text": "Cornelissen, B., Zuidema, W., & Burgoyne, J. A. (2020b). Studying Large Plainchant Corpora Using chant21. Proceedings of DLfM 2020.",
       "author": "Cornelissen",
       "year": "2020b"
@@ -2488,7 +2678,7 @@
     {
       "id": "b049",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 25,
+      "source_number": 26,
       "text": "Dalitz, C., Michalakis, G. K., & Pranzas, C. (2008). Optical Recognition of Psaltic Byzantine Chant Notation. International Journal on Document Analysis and Recognition, 11, 143-158.",
       "author": "Dalitz",
       "year": "2008"
@@ -2496,7 +2686,7 @@
     {
       "id": "b050",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 26,
+      "source_number": 27,
       "text": "Davani, A. M., Díaz, M., & Prabhakaran, V. (2022). Dealing with Disagreements: Looking Beyond the Majority Vote in Subjective Annotations. Transactions of the Association for Computational Linguistics, 10, 92–110. https://doi.org/10.1162/tacl_a_00449.",
       "author": "Davani",
       "year": "2022"
@@ -2504,7 +2694,7 @@
     {
       "id": "b051",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 27,
+      "source_number": 28,
       "text": "Delviniotis, D., Kouroupetroglou, G., & Theodoridis, S. (2008). Acoustic Analysis of Musical Intervals in Modern Byzantine Chant Scales. Journal of the Acoustical Society of America, 124(4), EL262-EL269.",
       "author": "Delviniotis",
       "year": "2008"
@@ -2512,7 +2702,7 @@
     {
       "id": "b052",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 28,
+      "source_number": 29,
       "text": "Delviniotis, D., & Kouroupetroglou, G. (2011). DAMASKINOS: The Prototype Corpus of Greek Orthodox Ecclesiastical Chant Voices. Proceedings of Crossroads: Greece as an Intercultural Pole of Musical Thought and Creativity, Thessaloniki, Greece.",
       "author": "Delviniotis",
       "year": "2011"
@@ -2520,7 +2710,7 @@
     {
       "id": "b053",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 29,
+      "source_number": 30,
       "text": "Delviniotis, D. (2021). New Method of Byzantine Music Intervals’ Measuring and Its Application in the Fourth Mode. Series Musicologica Balcanica, 1(2), 209-232.",
       "author": "Delviniotis",
       "year": "2021"
@@ -2528,7 +2718,7 @@
     {
       "id": "b054",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 30,
+      "source_number": 31,
       "text": "Di Liberto, G. M., Pelofi, C., Bianco, R., Patel, P., Mehta, A. D., Herrero, J. L., de Cheveigné, A., Shamma, S., & Mesgarani, N. (2020). Cortical Encoding of Melodic Expectations in Human Temporal Cortex. eLife, 9, e51784. https://doi.org/10.7554/eLife.51784.",
       "author": "Di Liberto",
       "year": "2020"
@@ -2536,7 +2726,7 @@
     {
       "id": "b055",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 31,
+      "source_number": 32,
       "text": "Dvořáková, A., Eipert, T., Lacoste, D., & Hajič Jr., J. (2026). Making Chant Computing Easy: CantusCorpus v1.0 and the PyCantus Library. arXiv:2603.11933. https://arxiv.org/abs/2603.11933.",
       "author": "Dvořáková",
       "year": "2026"
@@ -2544,7 +2734,7 @@
     {
       "id": "b056",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 32,
+      "source_number": 33,
       "text": "Effland, T., & Collins, M. (2021). Partially Supervised Named Entity Recognition via the Expected Entity Ratio Loss. Transactions of the Association for Computational Linguistics, 9, 1320–1335. https://doi.org/10.1162/tacl_a_00429.",
       "author": "Effland",
       "year": "2021"
@@ -2552,7 +2742,7 @@
     {
       "id": "b057",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 33,
+      "source_number": 34,
       "text": "Finkensiep, C., Déguernel, K., Neuwirth, M., & Rohrmeier, M. (2020). Voice-Leading Schema Recognition Using Rhythm and Pitch Features. Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR 2020), 520–526. https://doi.org/10.5281/zenodo.4245482.",
       "author": "Finkensiep",
       "year": "2020"
@@ -2560,7 +2750,7 @@
     {
       "id": "b058",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 34,
+      "source_number": 35,
       "text": "Fradet, N., Gutowski, N., Chhel, F., & Briot, J.-P. (2023). Byte Pair Encoding for Symbolic Music. Proceedings of EMNLP 2023.",
       "author": "Fradet",
       "year": "2023"
@@ -2568,7 +2758,7 @@
     {
       "id": "b059",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 35,
+      "source_number": 36,
       "text": "Gezerlis, V. G., & Theodoridis, S. (2002). Optical Character Recognition of the Orthodox Hellenic Byzantine Music Notation. Pattern Recognition, 35(4), 895-914.",
       "author": "Gezerlis",
       "year": "2002"
@@ -2576,7 +2766,7 @@
     {
       "id": "b060",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 36,
+      "source_number": 37,
       "text": "Gheorghiță, N. (2010). “Observations on the Technique of Transcription (Exegesis) into the New Method of Analytical Music Notation of the Sunday Koinonikon of the 18th Century. Studii şi Cercetări de Istoria Artei. Teatru, Muzică, Cinematografie, s.n., 4(48), 9–26. The same study is reprinted as chapter XIV of the author’s 2010 volume, pp. 225–248.",
       "author": "Gheorghiță",
       "year": "2010"
@@ -2584,7 +2774,7 @@
     {
       "id": "b061",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 37,
+      "source_number": 38,
       "text": "Gheorghiță, N. (2010). Byzantine Chant between Constantinople and the Danubian Principalities: Studies in Byzantine Musicology. Bucharest: Editura Sophia. Ιδίως κεφ. XI, σσ. 171–190· κεφ. XIII, σσ. 201–224· κεφ. XIV, σσ. 225–248.",
       "author": "Gheorghiță",
       "year": "2010"
@@ -2592,7 +2782,7 @@
     {
       "id": "b062",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 38,
+      "source_number": 39,
       "text": "Gingras, B., Pearce, M. T., Goodchild, M., Dean, R. T., Wiggins, G. A., & McAdams, S. (2016). Linking Melodic Expectation to Expressive Performance Timing and Perceived Musical Tension. Journal of Experimental Psychology: Human Perception and Performance, 42(4), 594–609. https://doi.org/10.1037/xhp0000141.",
       "author": "Gingras",
       "year": "2016"
@@ -2600,7 +2790,7 @@
     {
       "id": "b063",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 39,
+      "source_number": 40,
       "text": "Gjerdingen, R. O. (2007). Music in the Galant Style. Oxford: Oxford University Press. https://doi.org/10.1093/oso/9780195313710.001.0001.",
       "author": "Gjerdingen",
       "year": "2007"
@@ -2608,7 +2798,7 @@
     {
       "id": "b064",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 40,
+      "source_number": 41,
       "text": "Grigorjeva, V. (2023). Principles of Stratification of Melodic Formulas of Old Russian Out-of-Ichos Chants (with Opekalovo Sepulchral Chants). St. Tikhons’ University Review. Series V: Christian Art, 50, 9-23. https://doi.org/10.15382/sturv202350.9-23.",
       "author": "Grigorjeva",
       "year": "2023"
@@ -2616,7 +2806,7 @@
     {
       "id": "b065",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 41,
+      "source_number": 42,
       "text": "Gusev, V. D., Bakhmutova, I. V., Miroshnichenko, L. A., & Titkova, T. N. (2020). Possible Approaches to Deciphering Russian Ancient Znamenny Chant. Journal of New Music Research, 49(3), 298–306. https://doi.org/10.1080/09298215.2020.1762666.",
       "author": "Gusev",
       "year": "2020"
@@ -2624,7 +2814,7 @@
     {
       "id": "b066",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 42,
+      "source_number": 43,
       "text": "Hajič Jr., J., Ballen, G. A., Mühlová, K. H., & Vlhová-Wörner, H. (2023). Towards Building a Phylogeny of Gregorian Chant Melodies. Proceedings of the 24th International Society for Music Information Retrieval Conference (ISMIR 2023), 571-578.",
       "author": "Hajič Jr.",
       "year": "2023"
@@ -2632,7 +2822,7 @@
     {
       "id": "b067",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 43,
+      "source_number": 44,
       "text": "Hajič Jr., J., Lanz, V., & Ballen, G. A. (2025). Genome of Melody: Applying Bioinformatics to Study the Evolution of Gregorian Chant. Philosophical Transactions of the Royal Society B: Biological Sciences, 380(1940), 20240274.",
       "author": "Hajič Jr.",
       "year": "2025"
@@ -2640,7 +2830,7 @@
     {
       "id": "b068",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 44,
+      "source_number": 45,
       "text": "Hannick, C., & Wolfram, G. (Eds.). (1985). Gabriel Hieromonachos: Abhandlung über den Kirchengesang. Monumenta Musicae Byzantinae, Corpus Scriptorum de Re Musica, 1. Wien: Verlag der Österreichischen Akademie der Wissenschaften.",
       "author": "Hannick",
       "year": "1985"
@@ -2648,7 +2838,7 @@
     {
       "id": "b069",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 45,
+      "source_number": 46,
       "text": "Hannick, C. (Ed.). (1991). Rhythm in Byzantine Chant: Acta of the Congress Held at Hernen Castle in November 1986. Hernen, Holland: A. A. Bredius Foundation.",
       "author": "Hannick",
       "year": "1991"
@@ -2656,7 +2846,7 @@
     {
       "id": "b070",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 46,
+      "source_number": 47,
       "text": "Arvanitis, I. (2003). The Rhythmical and Metrical Structure of the Byzantine Heirmoi and Stichera as a Means to and as a Result of a New Rhythmical Interpretation of Byzantine Chant. Acta Musicae Byzantinae, 6, 14–29.",
       "author": "Arvanitis",
       "year": "2003"
@@ -2664,7 +2854,7 @@
     {
       "id": "b071",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 47,
+      "source_number": 48,
       "text": "Hansen, N. C., Kragness, H. E., Vuust, P., Trainor, L. J., & Pearce, M. T. (2021). Predictive Uncertainty Underlies Auditory Boundary Perception. Psychological Science, 32(9), 1416–1425. https://doi.org/10.1177/0956797621997349.",
       "author": "Hansen",
       "year": "2021"
@@ -2672,7 +2862,7 @@
     {
       "id": "b072",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 48,
+      "source_number": 49,
       "text": "Hariharan, B., & Girshick, R. (2017). Low-Shot Visual Recognition by Shrinking and Hallucinating Features. Proceedings of the IEEE International Conference on Computer Vision (ICCV). https://openaccess.thecvf.com/content_iccv_2017/html/Hariharan_Low-Shot_Visual_Recognition_ICCV_2017_paper.html.",
       "author": "Hariharan",
       "year": "2017"
@@ -2680,7 +2870,7 @@
     {
       "id": "b073",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 49,
+      "source_number": 50,
       "text": "Herbst, C. T. (2020). Electroglottography – An Update. Journal of Voice, 34(4), 503–526. https://doi.org/10.1016/j.jvoice.2018.12.014.",
       "author": "Herbst",
       "year": "2020"
@@ -2688,7 +2878,7 @@
     {
       "id": "b074",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 50,
+      "source_number": 51,
       "text": "Herff, S. A., Harasim, D., Cecchetti, G., Finkensiep, C., & Rohrmeier, M. A. (2021). Hierarchical Syntactic Structure Predicts Listeners’ Sequence Completion in Music. Proceedings of the Annual Meeting of the Cognitive Science Society, 43.",
       "author": "Herff",
       "year": "2021"
@@ -2696,7 +2886,7 @@
     {
       "id": "b075",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 51,
+      "source_number": 52,
       "text": "Holzapfel, A. (2010). Similarity Methods for Computational Ethnomusicology. Doctoral dissertation, Department of Computer Science, University of Crete. https://doi.org/10.12681/eadd/30917.",
       "author": "Holzapfel",
       "year": "2010"
@@ -2704,7 +2894,7 @@
     {
       "id": "b076",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 52,
+      "source_number": 53,
       "text": "Janssen, B., Burgoyne, J. A., & Honing, H. (2017). Predicting Variation of Folk Songs: A Corpus Analysis Study on the Memorability of Melodies. Frontiers in Psychology, 8, 621. https://doi.org/10.3389/fpsyg.2017.00621.",
       "author": "Janssen",
       "year": "2017"
@@ -2712,7 +2902,7 @@
     {
       "id": "b077",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 53,
+      "source_number": 54,
       "text": "Janssen, B., van Kranenburg, P., & Volk, A. (2017). Finding Occurrences of Melodic Segments in Folk Songs Employing Symbolic Similarity Measures. Journal of New Music Research, 46(2), 118–134. https://doi.org/10.1080/09298215.2017.1316292.",
       "author": "Janssen",
       "year": "2017"
@@ -2720,7 +2910,7 @@
     {
       "id": "b078",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 54,
+      "source_number": 55,
       "text": "Kaliakatsos-Papakostas, M., Makris, D., Soiledis, K., Tsamis, K.-T., Katsouros, V., & Cambouropoulos, E. (2025). HarmonyTok: Comparing Methods for Harmony Tokenization for Machine Learning. Information, 16(9), 759. https://doi.org/10.3390/info16090759.",
       "author": "Kaliakatsos-Papakostas",
       "year": "2025"
@@ -2728,7 +2918,7 @@
     {
       "id": "b079",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 55,
+      "source_number": 56,
       "text": "Kanakis, S. (2021). Addressing the Modality of Church Melodies, According to the Variety in the Choice of the Isokratema: Case Studies. Series Musicologica Balcanica, 1(2), 233-261.",
       "author": "Kanakis",
       "year": "2021"
@@ -2736,7 +2926,7 @@
     {
       "id": "b080",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 56,
+      "source_number": 57,
       "text": "Karas, S. I. (1982). Μέθοδος της Ελληνικής Μουσικής: Θεωρητικόν, Τόμοι Α’–Β’. Αθήνα: Σύλλογος προς Διάδοσιν της Εθνικής Μουσικής.",
       "author": "Karas",
       "year": "1982"
@@ -2744,7 +2934,7 @@
     {
       "id": "b081",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 57,
+      "source_number": 58,
       "text": "Karsdorp, F., van Kranenburg, P., & Manjavacas, E. (2019). Learning Similarity Metrics for Melody Retrieval. Proceedings of the 20th International Society for Music Information Retrieval Conference (ISMIR 2019), 478–485.",
       "author": "Karsdorp",
       "year": "2019"
@@ -2752,7 +2942,7 @@
     {
       "id": "b082",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 58,
+      "source_number": 59,
       "text": "Katsiavalos, A., Collins, T., & Battey, B. (2019). An Initial Computational Model for Musical Schemata Theory. Proceedings of the 20th International Society for Music Information Retrieval Conference (ISMIR 2019), 166–172.",
       "author": "Katsiavalos",
       "year": "2019"
@@ -2760,15 +2950,31 @@
     {
       "id": "b083",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 59,
+      "source_number": 60,
       "text": "Kern, P., Heilbron, M., de Lange, F. P., & Spaak, E. (2022). Cortical Activity During Naturalistic Music Listening Reflects Short-Range Predictions Based on Long-Term Experience. eLife, 11, e80935. https://doi.org/10.7554/eLife.80935.",
       "author": "Kern",
       "year": "2022"
     },
     {
+      "id": "b137",
+      "language": "Ξενόγλωσση Βιβλιογραφία",
+      "source_number": 61,
+      "text": "Khosla, P., Teterwak, P., Wang, C., Sarna, A., Tian, Y., Isola, P., Maschinot, A., Liu, C., & Krishnan, D. (2020). Supervised Contrastive Learning. Advances in Neural Information Processing Systems, 33, 18661–18673.",
+      "author": "Khosla",
+      "year": "2020"
+    },
+    {
+      "id": "b138",
+      "language": "Ξενόγλωσση Βιβλιογραφία",
+      "source_number": 62,
+      "text": "Koh, P. W., Nguyen, T., Tang, Y. S., Mussmann, S., Pierson, E., Kim, B., & Liang, P. (2020). Concept Bottleneck Models. Proceedings of ICML 2020, PMLR 119, 5338–5348.",
+      "author": "Koh",
+      "year": "2020"
+    },
+    {
       "id": "b084",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 60,
+      "source_number": 63,
       "text": "Koelsch, S., Rohrmeier, M., Torrecuso, R., & Jentschke, S. (2013). Processing of Hierarchical Syntactic Structure in Music. Proceedings of the National Academy of Sciences, 110(38), 15443–15448. https://doi.org/10.1073/pnas.1300272110.",
       "author": "Koelsch",
       "year": "2013"
@@ -2776,7 +2982,7 @@
     {
       "id": "b085",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 61,
+      "source_number": 64,
       "text": "Kokkinidis, K., Panagi, A., & Manitsaris, A. (2016). Finding the Optimum Training Solution for Byzantine Music Recognition-A Max/Msp Approach. 2016 5th International Conference on Modern Circuits and Systems Technologies (MOCAST). IEEE.",
       "author": "Kokkinidis",
       "year": "2016"
@@ -2784,7 +2990,7 @@
     {
       "id": "b086",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 62,
+      "source_number": 65,
       "text": "Kong, L., Dyer, C., & Smith, N. A. (2016). Segmental Recurrent Neural Networks. 4th International Conference on Learning Representations (ICLR 2016).",
       "author": "Kong",
       "year": "2016"
@@ -2792,7 +2998,7 @@
     {
       "id": "b087",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 63,
+      "source_number": 66,
       "text": "Lanz, V., & Hajič Jr., J. (2023). Text Boundaries Do Not Provide a Better Segmentation of Gregorian Antiphons. Proceedings of DLfM 2023.",
       "author": "Lanz",
       "year": "2023"
@@ -2800,7 +3006,7 @@
     {
       "id": "b088",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 64,
+      "source_number": 67,
       "text": "Lanz, V., & Hajič Jr., J. (2025). Gregorian Melody, Modality, and Memory: Segmenting Chant with Bayesian Nonparametrics. Proceedings of the 26th International Society for Music Information Retrieval Conference (ISMIR 2025), 638–646.",
       "author": "Lanz",
       "year": "2025"
@@ -2808,7 +3014,7 @@
     {
       "id": "b089",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 65,
+      "source_number": 68,
       "text": "Lind, T. T. (2011). The Past Is Always Present: The Revival of the Byzantine Musical Tradition at Mount Athos. Lanham, MD: Scarecrow Press. https://doi.org/10.5771/9780810881488.",
       "author": "Lind",
       "year": "2011"
@@ -2816,7 +3022,7 @@
     {
       "id": "b090",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 66,
+      "source_number": 69,
       "text": "Lingas, A. (2003). Performance Practice and the Politics of Transcribing Byzantine Chant. Acta Musicae Byzantinae, 6, 56-76.",
       "author": "Lingas",
       "year": "2003"
@@ -2824,15 +3030,23 @@
     {
       "id": "b091",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 67,
+      "source_number": 70,
       "text": "Mahajan, D., Tople, S., & Sharma, A. (2021). Domain Generalization Using Causal Matching. Proceedings of the 38th International Conference on Machine Learning (ICML), PMLR 139. https://proceedings.mlr.press/v139/mahajan21b.html.",
       "author": "Mahajan",
       "year": "2021"
     },
     {
+      "id": "b139",
+      "language": "Ξενόγλωσση Βιβλιογραφία",
+      "source_number": 71,
+      "text": "Marconato, E., Teso, S., Vergari, A., & Passerini, A. (2023). Not All Neuro-Symbolic Concepts Are Created Equal: Analysis and Mitigation of Reasoning Shortcuts. Advances in Neural Information Processing Systems, 36.",
+      "author": "Marconato",
+      "year": "2023"
+    },
+    {
       "id": "b092",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 68,
+      "source_number": 72,
       "text": "Mavromatis, P. (2005a). A Hidden Markov Model of Melody Production in Greek Church Chant. Computing in Musicology, 14, 93-112.",
       "author": "Mavromatis",
       "year": "2005a"
@@ -2840,7 +3054,7 @@
     {
       "id": "b093",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 69,
+      "source_number": 73,
       "text": "Mavromatis, P. (2005b). The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications. Doctoral dissertation, Eastman School of Music, University of Rochester.",
       "author": "Mavromatis",
       "year": "2005b"
@@ -2848,7 +3062,7 @@
     {
       "id": "b094",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 70,
+      "source_number": 74,
       "text": "Mavromatis, P. (2009a). Minimum Description Length Modelling of Musical Structure. Journal of Mathematics and Music, 3(3), 117-136.",
       "author": "Mavromatis",
       "year": "2009a"
@@ -2856,7 +3070,7 @@
     {
       "id": "b095",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 71,
+      "source_number": 75,
       "text": "Mavromatis, P. (2009b). HMM Analysis of Musical Structure: Identification of Latent Variables Through Topology-Sensitive Model Selection. Mathematics and Computation in Music 2009.",
       "author": "Mavromatis",
       "year": "2009b"
@@ -2864,7 +3078,7 @@
     {
       "id": "b096",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 72,
+      "source_number": 76,
       "text": "Mavromatis, P. (2009c). A Multi-tiered Approach for Analyzing Expressive Timing in Music Performance. In T. Klouche & T. Noll (Eds.), Mathematics and Computation in Music: MCM 2009, 193–204. Berlin/Heidelberg: Springer. https://doi.org/10.1007/978-3-642-02394-1_18.",
       "author": "Mavromatis",
       "year": "2009c"
@@ -2872,7 +3086,7 @@
     {
       "id": "b097",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 73,
+      "source_number": 77,
       "text": "Mavromatis, P. (2019). Hierarchical Structural Patterns in Improvised Music: Implications for Cognition. Paper presented at the 42nd Annual Meeting of the Society for Music Theory, Columbus, Ohio, 7 November 2019. Published abstract in the official conference program, pp. 56–57.",
       "author": "Mavromatis",
       "year": "2019"
@@ -2880,7 +3094,7 @@
     {
       "id": "b098",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 74,
+      "source_number": 78,
       "text": "Mongeau, M., & Sankoff, D. (1990). Comparison of Musical Sequences. Computers and the Humanities, 24(3), 161–175. https://doi.org/10.1007/BF00117340.",
       "author": "Mongeau",
       "year": "1990"
@@ -2888,7 +3102,7 @@
     {
       "id": "b099",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 75,
+      "source_number": 79,
       "text": "Neanes Project (2026). Byzantine Chant OCR. Open-source OCR toolset for Byzantine chant notation, GPL-3.0. https://github.com/neanes/byzantine-chant-ocr.",
       "author": "Neanes Project",
       "year": "2026"
@@ -2896,7 +3110,7 @@
     {
       "id": "b100",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 76,
+      "source_number": 80,
       "text": "Neanes Project (2026). Neanes — A Byzantine Chant Scorewriter. Open-source software, GPL-3.0. https://github.com/neanes/neanes.",
       "author": "Neanes Project",
       "year": "2026"
@@ -2904,7 +3118,7 @@
     {
       "id": "b101",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 77,
+      "source_number": 81,
       "text": "Neuwirth, M., Finkensiep, C., & Rohrmeier, M. (2023). Musical Schemata: Modelling Challenges and Pattern Finding (BachBeatles). In B. Schneider, B. Löffler, T. Mager, & C. Hein (Eds.), Mixing Methods: Practical Insights from the Humanities in the Digital Age, 147–164. Bielefeld: Bielefeld University Press. https://doi.org/10.1515/9783839469132-016.",
       "author": "Neuwirth",
       "year": "2023"
@@ -2912,7 +3126,7 @@
     {
       "id": "b102",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 78,
+      "source_number": 82,
       "text": "Nuttall, T., Casado, M. G., Ferraro, A., Conklin, D., & Caro Repetto, R. (2021). A Computational Exploration of Melodic Patterns in Arab-Andalusian Music. Journal of Mathematics and Music, 15(2), 168-180. https://doi.org/10.1080/17459737.2021.1917010.",
       "author": "Nuttall",
       "year": "2021"
@@ -2920,7 +3134,7 @@
     {
       "id": "b103",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 79,
+      "source_number": 83,
       "text": "Nuttall, T., Plaja-Roglans, G., Pearson, L., & Serra, X. (2022). In Search of Sañcāras: Tradition-Informed Repeated Melodic Pattern Recognition in Carnatic Music. Proceedings of the 23rd International Society for Music Information Retrieval Conference (ISMIR 2022), 337-344.",
       "author": "Nuttall",
       "year": "2022"
@@ -2928,7 +3142,7 @@
     {
       "id": "b104",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 80,
+      "source_number": 84,
       "text": "Park, D., Nam, J., & Park, J. (2020). Novelty and Influence of Creative Works, and Quantifying Patterns of Advances Based on Probabilistic Reference Networks. EPJ Data Science, 9, 2. https://doi.org/10.1140/epjds/s13688-019-0214-8.",
       "author": "Park",
       "year": "2020"
@@ -2936,7 +3150,7 @@
     {
       "id": "b105",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 81,
+      "source_number": 85,
       "text": "Panteli, M., & Purwins, H. (2013). A Quantitative Comparison of Chrysanthine Theory and Performance Practice of Scale Tuning, Steps, and Prominence of the Octoechos in Byzantine Chant. Journal of New Music Research, 42(3), 205-221.",
       "author": "Panteli",
       "year": "2013"
@@ -2944,7 +3158,7 @@
     {
       "id": "b106",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 82,
+      "source_number": 86,
       "text": "Papaioannou, C., Benetos, E., & Potamianos, A. (2025). Universal Music Representations? Evaluating Foundation Models on World Music Corpora. Proceedings of the 26th International Society for Music Information Retrieval Conference (ISMIR 2025). https://arxiv.org/abs/2506.17055.",
       "author": "Papaioannou",
       "year": "2025"
@@ -2952,7 +3166,7 @@
     {
       "id": "b107",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 83,
+      "source_number": 87,
       "text": "Papay, S., Klinger, R., & Padó, S. (2022). Constraining Linear-chain CRFs to Regular Languages. International Conference on Learning Representations (ICLR). https://arxiv.org/abs/2106.07306.",
       "author": "Papay",
       "year": "2022"
@@ -2960,7 +3174,7 @@
     {
       "id": "b108",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 84,
+      "source_number": 88,
       "text": "Paschalidou, S. (2024). Effort in Hindustani Dhrupad Singing: Using Interviews to Develop Effort Inference Models of Acoustic and Movement Features. Yearbook for Traditional Music, 56(1), 57–79. https://doi.org/10.1017/ytm.2024.7.",
       "author": "Paschalidou",
       "year": "2024"
@@ -2968,7 +3182,7 @@
     {
       "id": "b109",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 85,
+      "source_number": 89,
       "text": "Pearce, M. T. (2018). Statistical Learning and Probabilistic Prediction in Music Cognition: Mechanisms of Stylistic Enculturation. Annals of the New York Academy of Sciences, 1423(1), 378–395. https://doi.org/10.1111/nyas.13654.",
       "author": "Pearce",
       "year": "2018"
@@ -2976,7 +3190,7 @@
     {
       "id": "b110",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 86,
+      "source_number": 90,
       "text": "Pearce, M. T., & Wiggins, G. A. (2001). Towards a Framework for the Evaluation of Machine Compositions. In Proceedings of the AISB’01 Symposium on Artificial Intelligence and Creativity in the Arts and Sciences, 22–32.",
       "author": "Pearce",
       "year": "2001"
@@ -2984,7 +3198,7 @@
     {
       "id": "b111",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 87,
+      "source_number": 91,
       "text": "Pearce, M. T., Müllensiefen, D., & Wiggins, G. A. (2010). The Role of Expectation and Probabilistic Learning in Auditory Boundary Perception: A Model Comparison. Perception, 39(10), 1365–1389. https://doi.org/10.1068/p6507.",
       "author": "Pearce",
       "year": "2010"
@@ -2992,7 +3206,7 @@
     {
       "id": "b112",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 88,
+      "source_number": 92,
       "text": "Plank, B. (2022). The Problem of Human Label Variation: On Ground Truth in Data, Modeling and Evaluation. In Proceedings of EMNLP 2022, 10671-10682.",
       "author": "Plank",
       "year": "2022"
@@ -3000,7 +3214,7 @@
     {
       "id": "b113",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 89,
+      "source_number": 93,
       "text": "Polykarpidis, P., Kalofonos, D., Balageorgos, D., & Anagnostopoulou, C. (2022). Three Related Corpora in Middle Byzantine Music Notation and a Preliminary Comparative Analysis. Proceedings of ISMIR 2022, 306-313.",
       "author": "Polykarpidis",
       "year": "2022"
@@ -3008,7 +3222,7 @@
     {
       "id": "b114",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 90,
+      "source_number": 94,
       "text": "Popescu, T., & Rohrmeier, M. (2024). Core Principles of Melodic Organisation Emerge from Transmission Chains with Random Melodies. Evolution and Human Behavior, 45(6), 106619. https://doi.org/10.1016/j.evolhumbehav.2024.106619.",
       "author": "Popescu",
       "year": "2024"
@@ -3016,7 +3230,7 @@
     {
       "id": "b115",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 91,
+      "source_number": 95,
       "text": "Rabinovitch, G., & Carter-Enyi, A. (2024). Melodic Organization and Sequential Ordering of Galant Schemata: Implications for Eighteenth-Century European Musicianship. Music Theory Online, 30(1). https://doi.org/10.30535/mto.30.1.7.",
       "author": "Rabinovitch",
       "year": "2024"
@@ -3024,7 +3238,7 @@
     {
       "id": "b116",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 92,
+      "source_number": 96,
       "text": "Raasted, J. (1966). Intonation Formulas and Modal Signatures in Byzantine Musical Manuscripts. Monumenta Musicae Byzantinae, Subsidia 7. Copenhagen: Ejnar Munksgaard.",
       "author": "Raasted",
       "year": "1966"
@@ -3032,7 +3246,7 @@
     {
       "id": "b117",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 93,
+      "source_number": 97,
       "text": "Ristad, E. S., & Yianilos, P. N. (1998). Learning String-Edit Distance. IEEE Transactions on Pattern Analysis and Machine Intelligence, 20(5), 522–532. https://doi.org/10.1109/34.682181.",
       "author": "Ristad",
       "year": "1998"
@@ -3040,7 +3254,7 @@
     {
       "id": "b118",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 94,
+      "source_number": 98,
       "text": "Ryabinets, K. (2025). Melodic Formula / Constellation as a Structural Unit of the Sacred Monody on the Material of Ukrainian Notoline Irmologions of the XVI–XVIII Centuries. National Academy of Managerial Staff of Culture and Arts Herald. https://doi.org/10.32461/2226-3209.1.2025.328001.",
       "author": "Ryabinets",
       "year": "2025"
@@ -3048,7 +3262,7 @@
     {
       "id": "b119",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 95,
+      "source_number": 99,
       "text": "Sarawagi, S., & Cohen, W. W. (2004). Semi-Markov Conditional Random Fields for Information Extraction. Advances in Neural Information Processing Systems 17, 1185–1192.",
       "author": "Sarawagi",
       "year": "2004"
@@ -3056,7 +3270,7 @@
     {
       "id": "b120",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 96,
+      "source_number": 100,
       "text": "Savage, P. E., Passmore, S., Chiba, G., Currie, T. E., Suzuki, H., & Atkinson, Q. D. (2022). Sequence Alignment of Folk Song Melodies Reveals Cross-Cultural Regularities of Musical Evolution. Current Biology, 32(6), 1395–1402.e8. https://doi.org/10.1016/j.cub.2022.01.039.",
       "author": "Savage",
       "year": "2022"
@@ -3064,7 +3278,7 @@
     {
       "id": "b121",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 97,
+      "source_number": 101,
       "text": "Schindler, A., Herdener, M., & Bartels, A. (2013). Coding of Melodic Gestalt in Human Auditory Cortex. Cerebral Cortex, 23(12), 2987–2993. https://doi.org/10.1093/cercor/bhs289.",
       "author": "Schindler",
       "year": "2013"
@@ -3072,7 +3286,7 @@
     {
       "id": "b122",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 98,
+      "source_number": 102,
       "text": "Schiødt, N. (1971). A Computer-Aided Analysis of Thirty-Five Byzantine Hymns. In E. Wellesz & M. Velimirović (Eds.), Studies in Eastern Chant, Vol. 2, 129-154.",
       "author": "Schiødt",
       "year": "1971"
@@ -3080,7 +3294,7 @@
     {
       "id": "b123",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 99,
+      "source_number": 103,
       "text": "Serra, X. (2017). The Computational Study of a Musical Culture Through Its Digital Traces. Acta Musicologica, 89(1), 24–44.",
       "author": "Serra",
       "year": "2017"
@@ -3088,7 +3302,7 @@
     {
       "id": "b124",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 100,
+      "source_number": 104,
       "text": "Smith, J. B. L., Burgoyne, J. A., Fujinaga, I., De Roure, D., & Downie, J. S. (2011). Design and Creation of a Large-Scale Database of Structural Annotations. In Proceedings of ISMIR 2011, 555-560.",
       "author": "Smith",
       "year": "2011"
@@ -3096,7 +3310,7 @@
     {
       "id": "b125",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 101,
+      "source_number": 105,
       "text": "St. Anthony’s Greek Orthodox Monastery. (n.d.-a). Byzantine Music Formulae. Διαδικτυακή ειρμολογική/στιχηραρική συλλογή με περισσότερες από 10.000 δηλωμένες φόρμουλες, με αρχεία κατά ήχο και είδος, πρόσβαση Σεπτέμβριος 2026. https://stanthonysmonastery.org/pages/byzantine-music-formulae.",
       "author": "St. Anthony’s Greek Orthodox Monastery",
       "year": "χ.χ.-a"
@@ -3104,7 +3318,7 @@
     {
       "id": "b126",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 102,
+      "source_number": 106,
       "text": "St. Anthony’s Greek Orthodox Monastery. (n.d.-b). Papadic Formulae. Χωριστή διαδικτυακή συλλογή παπαδικών μελωδικών τύπων από 758 συνθέσεις, με μεταδεδομένα των αρχείων Word προέλευσης ανά φόρμουλα (τίτλος και συνθέτης), πρόσβαση Σεπτέμβριος 2026. https://stanthonysmonastery.org/pages/papadic-formulae.",
       "author": "St. Anthony’s Greek Orthodox Monastery",
       "year": "χ.χ.-b"
@@ -3112,7 +3326,7 @@
     {
       "id": "b127",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 103,
+      "source_number": 107,
       "text": "Tofan, M. V. (2024). Stability and Flexibility in the Transmission of Melodic Archetypes in Greek Liturgical Chant. Bulletin of the Transilvania University of Braşov, Series VIII: Performing Arts, 17(66), 193-202.",
       "author": "Tofan",
       "year": "2024"
@@ -3120,7 +3334,7 @@
     {
       "id": "b128",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 104,
+      "source_number": 108,
       "text": "Troelsgård, C. (2011). Byzantine Neumes: A New Introduction to the Middle Byzantine Musical Notation. MMB Subsidia 9.",
       "author": "Troelsgård",
       "year": "2011"
@@ -3128,7 +3342,7 @@
     {
       "id": "b129",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 105,
+      "source_number": 109,
       "text": "Tsuboi, Y., Kashima, H., Mori, S., Oda, H., & Matsumoto, Y. (2008). Training Conditional Random Fields Using Incomplete Annotations. Proceedings of the 22nd International Conference on Computational Linguistics (COLING 2008), 897–904. https://aclanthology.org/C08-1113/.",
       "author": "Tsuboi",
       "year": "2008"
@@ -3136,7 +3350,7 @@
     {
       "id": "b130",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 106,
+      "source_number": 110,
       "text": "Tzanetakis, G. (2014). Computational Ethnomusicology: A Music Information Retrieval Perspective. In A. Georgaki & G. Kouroupetroglou (Eds.), Proceedings of ICMC|SMC|2014, Athens, Greece.",
       "author": "Tzanetakis",
       "year": "2014"
@@ -3144,7 +3358,7 @@
     {
       "id": "b131",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 107,
+      "source_number": 111,
       "text": "Uma, A., Fornaciari, T., Hovy, D., Paun, S., Plank, B., & Poesio, M. (2021). Learning from Disagreement: A Survey. Journal of Artificial Intelligence Research, 72, 1385-1470.",
       "author": "Uma",
       "year": "2021"
@@ -3152,44 +3366,68 @@
     {
       "id": "b132",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 108,
+      "source_number": 112,
       "text": "Urbano, J., Schedl, M., & Serra, X. (2013). Evaluation in Music Information Retrieval. Journal of Intelligent Information Systems, 41(3), 345-369.",
       "author": "Urbano",
       "year": "2013"
     },
     {
+      "id": "b140",
+      "language": "Ξενόγλωσση Βιβλιογραφία",
+      "source_number": 113,
+      "text": "van Krieken, E., Minervini, P., Ponti, E. M., & Vergari, A. (2024). On the Independence Assumption in Neurosymbolic Learning. Proceedings of ICML 2024, PMLR 235, 49078–49097.",
+      "author": "van Krieken",
+      "year": "2024"
+    },
+    {
       "id": "b133",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 109,
+      "source_number": 114,
       "text": "Volk, A., & van Kranenburg, P. (2012). Melodic Similarity among Folk Songs: An Annotation Study on Similarity-Based Categorization in Music. Musicae Scientiae, 16(3), 317–339. https://doi.org/10.1177/1029864912448329.",
       "author": "Volk",
       "year": "2012"
     },
     {
+      "id": "b141",
+      "language": "Ξενόγλωσση Βιβλιογραφία",
+      "source_number": 115,
+      "text": "von Rueden, L., Mayer, S., Beckh, K., et al. (2023). Informed Machine Learning: A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems. IEEE Transactions on Knowledge and Data Engineering, 35(1), 614–633.",
+      "author": "von Rueden",
+      "year": "2023"
+    },
+    {
       "id": "b134",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 110,
+      "source_number": 116,
       "text": "Yan, Y., Cwitkowitz, F., & Duan, Z. (2021). Skipping the Frame-Level: Event-Based Piano Transcription With Neural Semi-CRFs. Advances in Neural Information Processing Systems, 34, 20583–20595.",
       "author": "Yan",
       "year": "2021"
     },
     {
+      "id": "b142",
+      "language": "Ξενόγλωσση Βιβλιογραφία",
+      "source_number": 117,
+      "text": "Xu, J., Zhang, Z., Friedman, T., Liang, Y., & Van den Broeck, G. (2018). A Semantic Loss Function for Deep Learning with Symbolic Knowledge. Proceedings of ICML 2018, PMLR 80, 5502–5511.",
+      "author": "Xu",
+      "year": "2018"
+    },
+    {
       "id": "b135",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 111,
+      "source_number": 118,
       "text": "Zaratiana, U., Tomeh, N., El Khbir, N., Holat, P., & Charnois, T. (2023). Filtered Semi-Markov CRF. Findings of the Association for Computational Linguistics: EMNLP 2023, 222–235. https://doi.org/10.18653/v1/2023.findings-emnlp.17.",
       "author": "Zaratiana",
       "year": "2023"
     }
   ],
   "statistics": {
-    "major_sections": 10,
-    "appendices": 10,
-    "bibliography_entries": 135,
-    "tables": 17,
+    "major_sections": 11,
+    "appendices": 12,
+    "bibliography_entries": 142,
+    "tables": 18,
     "figures": 3,
-    "internal_cross_references": 113,
-    "math_nodes": 1092,
+    "internal_cross_references": 104,
+    "math_nodes": 1342,
     "footnotes": 28
   }
 }

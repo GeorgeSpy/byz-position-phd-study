@@ -1,6 +1,6 @@
 [Αναλυτικός χάρτης](../full/index.md) · [Σύνοψη](../start/overview.md) · [Βιβλιογραφία](../bibliography/index.md)
 
-Μεταγραφή προγενέστερου αναλυτικού κειμένου. [Πρωτότυπο PDF](../../sources/proposal-v871e-candidate.pdf) · [Προέλευση κειμένου](../reference.md).
+Κειμενική απόδοση της αναλυτικής ερευνητικής πρότασης (3 Νοεμβρίου 2026), με [ορολογική επιμέλεια](../../TERMINOLOGY_GR.md). [Πρωτότυπο PDF](../../documents/analytical-proposal.pdf) · [Προέλευση κειμένου](../reference.md).
 
 <a id="r216"></a>
 
@@ -76,213 +76,227 @@
 
 9.  Arvanitis, I. V. (2022). “The Transcriptions of the Three Teachers: An Old or a New Sound?” *Epistēmēs Metron Logos*, 5, 143–149. <https://doi.org/10.12681/eml.28005>.
 
-10. Ballen, G. A., Mühlová, K. H., & Hajič Jr., J. (2026). “What Did the Dove Sing to Pope Gregory? Ancestral Melody Reconstruction in Gregorian Chant Using Bayesian Phylogenetics.” *PLOS ONE*, 21(5), e0350014. <https://doi.org/10.1371/journal.pone.0350014>.
+10. Bauckhage, C., Schulz, D., & von Rueden, L. (2025). “Introduction and Overview.” In D. Schulz & C. Bauckhage (eds.), *Informed Machine Learning*, 1–14. Springer. <https://doi.org/10.1007/978-3-031-83097-6_1>.
 
-11. Bernardi, S., Benna, M. K., Rigotti, M., Munuera, J., Fusi, S., & Salzman, C. D. (2020). “The Geometry of Abstraction in Hippocampus and Prefrontal Cortex.” *Cell*, 183(4), 954–967.e21. <https://doi.org/10.1016/j.cell.2020.09.031>.
+11. Ballen, G. A., Mühlová, K. H., & Hajič Jr., J. (2026). “What Did the Dove Sing to Pope Gregory? Ancestral Melody Reconstruction in Gregorian Chant Using Bayesian Phylogenetics.” *PLOS ONE*, 21(5), e0350014. <https://doi.org/10.1371/journal.pone.0350014>.
 
-12. Bouris, N. G., Georgaki, A., & Chaldaeakes, A. G. (2018). “Encoding Byzantine Music Notation (ca. 1600-1814).” *Proceedings of SMC 2018*.
+12. Bernardi, S., Benna, M. K., Rigotti, M., Munuera, J., Fusi, S., & Salzman, C. D. (2020). “The Geometry of Abstraction in Hippocampus and Prefrontal Cortex.” *Cell*, 183(4), 954–967.e21. <https://doi.org/10.1016/j.cell.2020.09.031>.
 
-13. Cambouropoulos, E. (2001). “The Local Boundary Detection Model (LBDM) and Its Application in the Study of Expressive Timing.” *Proceedings of ICMC*.
+13. Bouris, N. G., Georgaki, A., & Chaldaeakes, A. G. (2018). “Encoding Byzantine Music Notation (ca. 1600-1814).” *Proceedings of SMC 2018*.
 
-14. Byros, V. (2012). “Meyer’s Anvil: Revisiting the Schema Concept.” *Music Analysis*, 31(3), 273–346. <https://doi.org/10.1111/j.1468-2249.2012.00344.x>.
+14. Cambouropoulos, E. (2001). “The Local Boundary Detection Model (LBDM) and Its Application in the Study of Expressive Timing.” *Proceedings of ICMC*.
 
-15. Cambouropoulos, E. (2006). “Musical Parallelism and Melodic Segmentation: A Computational Approach.” *Music Perception*, 23(3), 249–268. <https://doi.org/10.1525/mp.2006.23.3.249>.
+15. Byros, V. (2012). “Meyer’s Anvil: Revisiting the Schema Concept.” *Music Analysis*, 31(3), 273–346. <https://doi.org/10.1111/j.1468-2249.2012.00344.x>.
 
-16. Cambouropoulos, E. (2009). “How Similar Is Similar?” *Musicae Scientiae*, Discussion Forum 4B, 7–24. <https://jyx.jyu.fi/handle/123456789/22619>.
+16. Cambouropoulos, E. (2006). “Musical Parallelism and Melodic Segmentation: A Computational Approach.” *Music Perception*, 23(3), 249–268. <https://doi.org/10.1525/mp.2006.23.3.249>.
 
-17. Chaldaeakes, A. G. (2010). “Daniel the Protopsaltes (+1789): His Life and Work. A Preliminary Paper.” *Muzica*, 3, 39–53.
+17. Cambouropoulos, E. (2009). “How Similar Is Similar?” *Musicae Scientiae*, Discussion Forum 4B, 7–24. <https://jyx.jyu.fi/handle/123456789/22619>.
 
-18. Chryssochoidis, G., Delviniotis, D., & Kouroupetroglou, G. (2007). “A Semi-Automated Tagging Methodology for Orthodox Ecclesiastic Chant Acoustic Corpora.” *Proceedings of the 4th Sound and Music Computing Conference (SMC 2007)*, Lefkada, Greece, 126–133.
+18. Chaldaeakes, A. G. (2010). “Daniel the Protopsaltes (+1789): His Life and Work. A Preliminary Paper.” *Muzica*, 3, 39–53.
 
-19. Conklin, D., & Anagnostopoulou, C. (2006). “Segmental Pattern Discovery in Music.” *INFORMS Journal on Computing*, 18(3), 285-293.
+19. Chryssochoidis, G., Delviniotis, D., & Kouroupetroglou, G. (2007). “A Semi-Automated Tagging Methodology for Orthodox Ecclesiastic Chant Acoustic Corpora.” *Proceedings of the 4th Sound and Music Computing Conference (SMC 2007)*, Lefkada, Greece, 126–133.
 
-20. Conomos, D. E. (1974). *Byzantine Trisagia and Cheroubika of the Fourteenth and Fifteenth Centuries: A Study of Late Byzantine Liturgical Chant*. Thessaloniki: Patriarchal Institute for Patristic Studies.
+20. Conklin, D., & Anagnostopoulou, C. (2006). “Segmental Pattern Discovery in Music.” *INFORMS Journal on Computing*, 18(3), 285-293.
 
-21. Conomos, D. E. (1985a). *The Late Byzantine and Slavonic Communion Cycle: Liturgy and Music*. Dumbarton Oaks Studies 21. Washington, DC: Dumbarton Oaks Research Library and Collection.
+21. Conomos, D. E. (1974). *Byzantine Trisagia and Cheroubika of the Fourteenth and Fifteenth Centuries: A Study of Late Byzantine Liturgical Chant*. Thessaloniki: Patriarchal Institute for Patristic Studies.
 
-22. Conomos, D. E. (Ed.). (1985b). *The Treatise of Manuel Chrysaphes, the Lampadarios: On the Theory of the Art of Chanting and on Certain Erroneous Views That Some Hold About It*. Monumenta Musicae Byzantinae, Corpus Scriptorum de Re Musica, 2. Vienna: Verlag der Österreichischen Akademie der Wissenschaften.
+22. Conomos, D. E. (1985a). *The Late Byzantine and Slavonic Communion Cycle: Liturgy and Music*. Dumbarton Oaks Studies 21. Washington, DC: Dumbarton Oaks Research Library and Collection.
 
-23. Cornelissen, B., Zuidema, W., & Burgoyne, J. A. (2020a). “Mode Classification and Natural Units in Plainchant.” *Proceedings of ISMIR 2020*.
+23. Conomos, D. E. (Ed.). (1985b). *The Treatise of Manuel Chrysaphes, the Lampadarios: On the Theory of the Art of Chanting and on Certain Erroneous Views That Some Hold About It*. Monumenta Musicae Byzantinae, Corpus Scriptorum de Re Musica, 2. Vienna: Verlag der Österreichischen Akademie der Wissenschaften.
 
-24. Cornelissen, B., Zuidema, W., & Burgoyne, J. A. (2020b). “Studying Large Plainchant Corpora Using chant21.” *Proceedings of DLfM 2020*.
+24. Cornelissen, B., Zuidema, W., & Burgoyne, J. A. (2020a). “Mode Classification and Natural Units in Plainchant.” *Proceedings of ISMIR 2020*.
 
-25. Dalitz, C., Michalakis, G. K., & Pranzas, C. (2008). “Optical Recognition of Psaltic Byzantine Chant Notation.” *International Journal on Document Analysis and Recognition*, 11, 143-158.
+25. Cornelissen, B., Zuidema, W., & Burgoyne, J. A. (2020b). “Studying Large Plainchant Corpora Using chant21.” *Proceedings of DLfM 2020*.
 
-26. Davani, A. M., Díaz, M., & Prabhakaran, V. (2022). “Dealing with Disagreements: Looking Beyond the Majority Vote in Subjective Annotations.” *Transactions of the Association for Computational Linguistics*, 10, 92–110. <https://doi.org/10.1162/tacl_a_00449>.
+26. Dalitz, C., Michalakis, G. K., & Pranzas, C. (2008). “Optical Recognition of Psaltic Byzantine Chant Notation.” *International Journal on Document Analysis and Recognition*, 11, 143-158.
 
-27. Delviniotis, D., Kouroupetroglou, G., & Theodoridis, S. (2008). “Acoustic Analysis of Musical Intervals in Modern Byzantine Chant Scales.” *Journal of the Acoustical Society of America*, 124(4), EL262-EL269.
+27. Davani, A. M., Díaz, M., & Prabhakaran, V. (2022). “Dealing with Disagreements: Looking Beyond the Majority Vote in Subjective Annotations.” *Transactions of the Association for Computational Linguistics*, 10, 92–110. <https://doi.org/10.1162/tacl_a_00449>.
 
-28. Delviniotis, D., & Kouroupetroglou, G. (2011). “DAMASKINOS: The Prototype Corpus of Greek Orthodox Ecclesiastical Chant Voices.” *Proceedings of Crossroads: Greece as an Intercultural Pole of Musical Thought and Creativity*, Thessaloniki, Greece.
+28. Delviniotis, D., Kouroupetroglou, G., & Theodoridis, S. (2008). “Acoustic Analysis of Musical Intervals in Modern Byzantine Chant Scales.” *Journal of the Acoustical Society of America*, 124(4), EL262-EL269.
 
-29. Delviniotis, D. (2021). “New Method of Byzantine Music Intervals’ Measuring and Its Application in the Fourth Mode.” *Series Musicologica Balcanica*, 1(2), 209-232.
+29. Delviniotis, D., & Kouroupetroglou, G. (2011). “DAMASKINOS: The Prototype Corpus of Greek Orthodox Ecclesiastical Chant Voices.” *Proceedings of Crossroads: Greece as an Intercultural Pole of Musical Thought and Creativity*, Thessaloniki, Greece.
 
-30. Di Liberto, G. M., Pelofi, C., Bianco, R., Patel, P., Mehta, A. D., Herrero, J. L., de Cheveigné, A., Shamma, S., & Mesgarani, N. (2020). “Cortical Encoding of Melodic Expectations in Human Temporal Cortex.” *eLife*, 9, e51784. <https://doi.org/10.7554/eLife.51784>.
+30. Delviniotis, D. (2021). “New Method of Byzantine Music Intervals’ Measuring and Its Application in the Fourth Mode.” *Series Musicologica Balcanica*, 1(2), 209-232.
 
-31. Dvořáková, A., Eipert, T., Lacoste, D., & Hajič Jr., J. (2026). “Making Chant Computing Easy: CantusCorpus v1.0 and the PyCantus Library.” arXiv:2603.11933. <https://arxiv.org/abs/2603.11933>.
+31. Di Liberto, G. M., Pelofi, C., Bianco, R., Patel, P., Mehta, A. D., Herrero, J. L., de Cheveigné, A., Shamma, S., & Mesgarani, N. (2020). “Cortical Encoding of Melodic Expectations in Human Temporal Cortex.” *eLife*, 9, e51784. <https://doi.org/10.7554/eLife.51784>.
 
-32. Effland, T., & Collins, M. (2021). “Partially Supervised Named Entity Recognition via the Expected Entity Ratio Loss.” *Transactions of the Association for Computational Linguistics*, 9, 1320–1335. <https://doi.org/10.1162/tacl_a_00429>.
+32. Dvořáková, A., Eipert, T., Lacoste, D., & Hajič Jr., J. (2026). “Making Chant Computing Easy: CantusCorpus v1.0 and the PyCantus Library.” arXiv:2603.11933. <https://arxiv.org/abs/2603.11933>.
 
-33. Finkensiep, C., Déguernel, K., Neuwirth, M., & Rohrmeier, M. (2020). “Voice-Leading Schema Recognition Using Rhythm and Pitch Features.” *Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR 2020)*, 520–526. <https://doi.org/10.5281/zenodo.4245482>.
+33. Effland, T., & Collins, M. (2021). “Partially Supervised Named Entity Recognition via the Expected Entity Ratio Loss.” *Transactions of the Association for Computational Linguistics*, 9, 1320–1335. <https://doi.org/10.1162/tacl_a_00429>.
 
-34. Fradet, N., Gutowski, N., Chhel, F., & Briot, J.-P. (2023). “Byte Pair Encoding for Symbolic Music.” *Proceedings of EMNLP 2023*.
+34. Finkensiep, C., Déguernel, K., Neuwirth, M., & Rohrmeier, M. (2020). “Voice-Leading Schema Recognition Using Rhythm and Pitch Features.” *Proceedings of the 21st International Society for Music Information Retrieval Conference (ISMIR 2020)*, 520–526. <https://doi.org/10.5281/zenodo.4245482>.
 
-35. Gezerlis, V. G., & Theodoridis, S. (2002). “Optical Character Recognition of the Orthodox Hellenic Byzantine Music Notation.” *Pattern Recognition*, 35(4), 895-914.
+35. Fradet, N., Gutowski, N., Chhel, F., & Briot, J.-P. (2023). “Byte Pair Encoding for Symbolic Music.” *Proceedings of EMNLP 2023*.
 
-36. Gheorghiță, N. (2010). “Observations on the Technique of Transcription (Exegesis) into the New Method of Analytical Music Notation of the Sunday Koinonikon of the 18th Century. *Studii şi Cercetări de Istoria Artei. Teatru, Muzică, Cinematografie*, s.n., 4(48), 9–26. The same study is reprinted as chapter XIV of the author’s 2010 volume, pp. 225–248.
+36. Gezerlis, V. G., & Theodoridis, S. (2002). “Optical Character Recognition of the Orthodox Hellenic Byzantine Music Notation.” *Pattern Recognition*, 35(4), 895-914.
 
-37. Gheorghiță, N. (2010). *Byzantine Chant between Constantinople and the Danubian Principalities: Studies in Byzantine Musicology*. Bucharest: Editura Sophia. Ιδίως κεφ. XI, σσ. 171–190· κεφ. XIII, σσ. 201–224· κεφ. XIV, σσ. 225–248.
+37. Gheorghiță, N. (2010). “Observations on the Technique of Transcription (Exegesis) into the New Method of Analytical Music Notation of the Sunday Koinonikon of the 18th Century. *Studii şi Cercetări de Istoria Artei. Teatru, Muzică, Cinematografie*, s.n., 4(48), 9–26. The same study is reprinted as chapter XIV of the author’s 2010 volume, pp. 225–248.
 
-38. Gingras, B., Pearce, M. T., Goodchild, M., Dean, R. T., Wiggins, G. A., & McAdams, S. (2016). “Linking Melodic Expectation to Expressive Performance Timing and Perceived Musical Tension.” *Journal of Experimental Psychology: Human Perception and Performance*, 42(4), 594–609. <https://doi.org/10.1037/xhp0000141>.
+38. Gheorghiță, N. (2010). *Byzantine Chant between Constantinople and the Danubian Principalities: Studies in Byzantine Musicology*. Bucharest: Editura Sophia. Ιδίως κεφ. XI, σσ. 171–190· κεφ. XIII, σσ. 201–224· κεφ. XIV, σσ. 225–248.
 
-39. Gjerdingen, R. O. (2007). *Music in the Galant Style*. Oxford: Oxford University Press. <https://doi.org/10.1093/oso/9780195313710.001.0001>.
+39. Gingras, B., Pearce, M. T., Goodchild, M., Dean, R. T., Wiggins, G. A., & McAdams, S. (2016). “Linking Melodic Expectation to Expressive Performance Timing and Perceived Musical Tension.” *Journal of Experimental Psychology: Human Perception and Performance*, 42(4), 594–609. <https://doi.org/10.1037/xhp0000141>.
 
-40. Grigorjeva, V. (2023). “Principles of Stratification of Melodic Formulas of Old Russian Out-of-Ichos Chants (with ‘Opekalovo’ ‘Sepulchral’ Chants).” *St. Tikhons’ University Review. Series V: Christian Art*, 50, 9-23. <https://doi.org/10.15382/sturv202350.9-23>.
+40. Gjerdingen, R. O. (2007). *Music in the Galant Style*. Oxford: Oxford University Press. <https://doi.org/10.1093/oso/9780195313710.001.0001>.
 
-41. Gusev, V. D., Bakhmutova, I. V., Miroshnichenko, L. A., & Titkova, T. N. (2020). “Possible Approaches to Deciphering Russian Ancient Znamenny Chant.” *Journal of New Music Research*, 49(3), 298–306. <https://doi.org/10.1080/09298215.2020.1762666>.
+41. Grigorjeva, V. (2023). “Principles of Stratification of Melodic Formulas of Old Russian Out-of-Ichos Chants (with ‘Opekalovo’ ‘Sepulchral’ Chants).” *St. Tikhons’ University Review. Series V: Christian Art*, 50, 9-23. <https://doi.org/10.15382/sturv202350.9-23>.
 
-42. Hajič Jr., J., Ballen, G. A., Mühlová, K. H., & Vlhová-Wörner, H. (2023). “Towards Building a Phylogeny of Gregorian Chant Melodies.” *Proceedings of the 24th International Society for Music Information Retrieval Conference (ISMIR 2023)*, 571-578.
+42. Gusev, V. D., Bakhmutova, I. V., Miroshnichenko, L. A., & Titkova, T. N. (2020). “Possible Approaches to Deciphering Russian Ancient Znamenny Chant.” *Journal of New Music Research*, 49(3), 298–306. <https://doi.org/10.1080/09298215.2020.1762666>.
 
-43. Hajič Jr., J., Lanz, V., & Ballen, G. A. (2025). “Genome of Melody: Applying Bioinformatics to Study the Evolution of Gregorian Chant.” *Philosophical Transactions of the Royal Society B: Biological Sciences*, 380(1940), 20240274.
+43. Hajič Jr., J., Ballen, G. A., Mühlová, K. H., & Vlhová-Wörner, H. (2023). “Towards Building a Phylogeny of Gregorian Chant Melodies.” *Proceedings of the 24th International Society for Music Information Retrieval Conference (ISMIR 2023)*, 571-578.
 
-44. Hannick, C., & Wolfram, G. (Eds.). (1985). *Gabriel Hieromonachos: Abhandlung über den Kirchengesang*. Monumenta Musicae Byzantinae, Corpus Scriptorum de Re Musica, 1. Wien: Verlag der Österreichischen Akademie der Wissenschaften.
+44. Hajič Jr., J., Lanz, V., & Ballen, G. A. (2025). “Genome of Melody: Applying Bioinformatics to Study the Evolution of Gregorian Chant.” *Philosophical Transactions of the Royal Society B: Biological Sciences*, 380(1940), 20240274.
 
-45. Hannick, C. (Ed.). (1991). *Rhythm in Byzantine Chant: Acta of the Congress Held at Hernen Castle in November 1986*. Hernen, Holland: A. A. Bredius Foundation.
+45. Hannick, C., & Wolfram, G. (Eds.). (1985). *Gabriel Hieromonachos: Abhandlung über den Kirchengesang*. Monumenta Musicae Byzantinae, Corpus Scriptorum de Re Musica, 1. Wien: Verlag der Österreichischen Akademie der Wissenschaften.
 
-46. Arvanitis, I. (2003). “The Rhythmical and Metrical Structure of the Byzantine Heirmoi and Stichera as a Means to and as a Result of a New Rhythmical Interpretation of Byzantine Chant.” *Acta Musicae Byzantinae*, 6, 14–29.
+46. Hannick, C. (Ed.). (1991). *Rhythm in Byzantine Chant: Acta of the Congress Held at Hernen Castle in November 1986*. Hernen, Holland: A. A. Bredius Foundation.
 
-47. Hansen, N. C., Kragness, H. E., Vuust, P., Trainor, L. J., & Pearce, M. T. (2021). “Predictive Uncertainty Underlies Auditory Boundary Perception.” *Psychological Science*, 32(9), 1416–1425. <https://doi.org/10.1177/0956797621997349>.
+47. Arvanitis, I. (2003). “The Rhythmical and Metrical Structure of the Byzantine Heirmoi and Stichera as a Means to and as a Result of a New Rhythmical Interpretation of Byzantine Chant.” *Acta Musicae Byzantinae*, 6, 14–29.
 
-48. Hariharan, B., & Girshick, R. (2017). “Low-Shot Visual Recognition by Shrinking and Hallucinating Features.” *Proceedings of the IEEE International Conference on Computer Vision (ICCV)*. <https://openaccess.thecvf.com/content_iccv_2017/html/Hariharan_Low-Shot_Visual_Recognition_ICCV_2017_paper.html>.
+48. Hansen, N. C., Kragness, H. E., Vuust, P., Trainor, L. J., & Pearce, M. T. (2021). “Predictive Uncertainty Underlies Auditory Boundary Perception.” *Psychological Science*, 32(9), 1416–1425. <https://doi.org/10.1177/0956797621997349>.
 
-49. Herbst, C. T. (2020). “Electroglottography – An Update.” *Journal of Voice*, 34(4), 503–526. <https://doi.org/10.1016/j.jvoice.2018.12.014>.
+49. Hariharan, B., & Girshick, R. (2017). “Low-Shot Visual Recognition by Shrinking and Hallucinating Features.” *Proceedings of the IEEE International Conference on Computer Vision (ICCV)*. <https://openaccess.thecvf.com/content_iccv_2017/html/Hariharan_Low-Shot_Visual_Recognition_ICCV_2017_paper.html>.
 
-50. Herff, S. A., Harasim, D., Cecchetti, G., Finkensiep, C., & Rohrmeier, M. A. (2021). “Hierarchical Syntactic Structure Predicts Listeners’ Sequence Completion in Music.” *Proceedings of the Annual Meeting of the Cognitive Science Society*, 43.
+50. Herbst, C. T. (2020). “Electroglottography – An Update.” *Journal of Voice*, 34(4), 503–526. <https://doi.org/10.1016/j.jvoice.2018.12.014>.
 
-51. Holzapfel, A. (2010). *Similarity Methods for Computational Ethnomusicology*. Doctoral dissertation, Department of Computer Science, University of Crete. <https://doi.org/10.12681/eadd/30917>.
+51. Herff, S. A., Harasim, D., Cecchetti, G., Finkensiep, C., & Rohrmeier, M. A. (2021). “Hierarchical Syntactic Structure Predicts Listeners’ Sequence Completion in Music.” *Proceedings of the Annual Meeting of the Cognitive Science Society*, 43.
 
-52. Janssen, B., Burgoyne, J. A., & Honing, H. (2017). “Predicting Variation of Folk Songs: A Corpus Analysis Study on the Memorability of Melodies.” *Frontiers in Psychology*, 8, 621. <https://doi.org/10.3389/fpsyg.2017.00621>.
+52. Holzapfel, A. (2010). *Similarity Methods for Computational Ethnomusicology*. Doctoral dissertation, Department of Computer Science, University of Crete. <https://doi.org/10.12681/eadd/30917>.
 
-53. Janssen, B., van Kranenburg, P., & Volk, A. (2017). “Finding Occurrences of Melodic Segments in Folk Songs Employing Symbolic Similarity Measures.” *Journal of New Music Research*, 46(2), 118–134. <https://doi.org/10.1080/09298215.2017.1316292>.
+53. Janssen, B., Burgoyne, J. A., & Honing, H. (2017). “Predicting Variation of Folk Songs: A Corpus Analysis Study on the Memorability of Melodies.” *Frontiers in Psychology*, 8, 621. <https://doi.org/10.3389/fpsyg.2017.00621>.
 
-54. Kaliakatsos-Papakostas, M., Makris, D., Soiledis, K., Tsamis, K.-T., Katsouros, V., & Cambouropoulos, E. (2025). “HarmonyTok: Comparing Methods for Harmony Tokenization for Machine Learning.” *Information*, 16(9), 759. <https://doi.org/10.3390/info16090759>.
+54. Janssen, B., van Kranenburg, P., & Volk, A. (2017). “Finding Occurrences of Melodic Segments in Folk Songs Employing Symbolic Similarity Measures.” *Journal of New Music Research*, 46(2), 118–134. <https://doi.org/10.1080/09298215.2017.1316292>.
 
-55. Kanakis, S. (2021). “Addressing the Modality of Church Melodies, According to the Variety in the Choice of the Isokratema: Case Studies.” *Series Musicologica Balcanica*, 1(2), 233-261.
+55. Kaliakatsos-Papakostas, M., Makris, D., Soiledis, K., Tsamis, K.-T., Katsouros, V., & Cambouropoulos, E. (2025). “HarmonyTok: Comparing Methods for Harmony Tokenization for Machine Learning.” *Information*, 16(9), 759. <https://doi.org/10.3390/info16090759>.
 
-56. Karas, S. I. (1982). *Μέθοδος της Ελληνικής Μουσικής: Θεωρητικόν*, Τόμοι Α’–Β’. Αθήνα: Σύλλογος προς Διάδοσιν της Εθνικής Μουσικής.
+56. Kanakis, S. (2021). “Addressing the Modality of Church Melodies, According to the Variety in the Choice of the Isokratema: Case Studies.” *Series Musicologica Balcanica*, 1(2), 233-261.
 
-57. Karsdorp, F., van Kranenburg, P., & Manjavacas, E. (2019). “Learning Similarity Metrics for Melody Retrieval.” *Proceedings of the 20th International Society for Music Information Retrieval Conference (ISMIR 2019)*, 478–485.
+57. Karas, S. I. (1982). *Μέθοδος της Ελληνικής Μουσικής: Θεωρητικόν*, Τόμοι Α’–Β’. Αθήνα: Σύλλογος προς Διάδοσιν της Εθνικής Μουσικής.
 
-58. Katsiavalos, A., Collins, T., & Battey, B. (2019). “An Initial Computational Model for Musical Schemata Theory.” *Proceedings of the 20th International Society for Music Information Retrieval Conference (ISMIR 2019)*, 166–172.
+58. Karsdorp, F., van Kranenburg, P., & Manjavacas, E. (2019). “Learning Similarity Metrics for Melody Retrieval.” *Proceedings of the 20th International Society for Music Information Retrieval Conference (ISMIR 2019)*, 478–485.
 
-59. Kern, P., Heilbron, M., de Lange, F. P., & Spaak, E. (2022). “Cortical Activity During Naturalistic Music Listening Reflects Short-Range Predictions Based on Long-Term Experience.” *eLife*, 11, e80935. <https://doi.org/10.7554/eLife.80935>.
+59. Katsiavalos, A., Collins, T., & Battey, B. (2019). “An Initial Computational Model for Musical Schemata Theory.” *Proceedings of the 20th International Society for Music Information Retrieval Conference (ISMIR 2019)*, 166–172.
 
-60. Koelsch, S., Rohrmeier, M., Torrecuso, R., & Jentschke, S. (2013). “Processing of Hierarchical Syntactic Structure in Music.” *Proceedings of the National Academy of Sciences*, 110(38), 15443–15448. <https://doi.org/10.1073/pnas.1300272110>.
+60. Kern, P., Heilbron, M., de Lange, F. P., & Spaak, E. (2022). “Cortical Activity During Naturalistic Music Listening Reflects Short-Range Predictions Based on Long-Term Experience.” *eLife*, 11, e80935. <https://doi.org/10.7554/eLife.80935>.
 
-61. Kokkinidis, K., Panagi, A., & Manitsaris, A. (2016). “Finding the Optimum Training Solution for Byzantine Music Recognition-A Max/Msp Approach.” *2016 5th International Conference on Modern Circuits and Systems Technologies (MOCAST)*. IEEE.
+61. Khosla, P., Teterwak, P., Wang, C., Sarna, A., Tian, Y., Isola, P., Maschinot, A., Liu, C., & Krishnan, D. (2020). “Supervised Contrastive Learning.” *Advances in Neural Information Processing Systems*, 33, 18661–18673.
 
-62. Kong, L., Dyer, C., & Smith, N. A. (2016). “Segmental Recurrent Neural Networks.” *4th International Conference on Learning Representations (ICLR 2016)*.
+62. Koh, P. W., Nguyen, T., Tang, Y. S., Mussmann, S., Pierson, E., Kim, B., & Liang, P. (2020). “Concept Bottleneck Models.” *Proceedings of ICML 2020*, PMLR 119, 5338–5348.
 
-63. Lanz, V., & Hajič Jr., J. (2023). “Text Boundaries Do Not Provide a Better Segmentation of Gregorian Antiphons.” *Proceedings of DLfM 2023*.
+63. Koelsch, S., Rohrmeier, M., Torrecuso, R., & Jentschke, S. (2013). “Processing of Hierarchical Syntactic Structure in Music.” *Proceedings of the National Academy of Sciences*, 110(38), 15443–15448. <https://doi.org/10.1073/pnas.1300272110>.
 
-64. Lanz, V., & Hajič Jr., J. (2025). “Gregorian Melody, Modality, and Memory: Segmenting Chant with Bayesian Nonparametrics.” *Proceedings of the 26th International Society for Music Information Retrieval Conference (ISMIR 2025)*, 638–646.
+64. Kokkinidis, K., Panagi, A., & Manitsaris, A. (2016). “Finding the Optimum Training Solution for Byzantine Music Recognition-A Max/Msp Approach.” *2016 5th International Conference on Modern Circuits and Systems Technologies (MOCAST)*. IEEE.
 
-65. Lind, T. T. (2011). *The Past Is Always Present: The Revival of the Byzantine Musical Tradition at Mount Athos*. Lanham, MD: Scarecrow Press. <https://doi.org/10.5771/9780810881488>.
+65. Kong, L., Dyer, C., & Smith, N. A. (2016). “Segmental Recurrent Neural Networks.” *4th International Conference on Learning Representations (ICLR 2016)*.
 
-66. Lingas, A. (2003). “Performance Practice and the Politics of Transcribing Byzantine Chant.” *Acta Musicae Byzantinae*, 6, 56-76.
+66. Lanz, V., & Hajič Jr., J. (2023). “Text Boundaries Do Not Provide a Better Segmentation of Gregorian Antiphons.” *Proceedings of DLfM 2023*.
 
-67. Mahajan, D., Tople, S., & Sharma, A. (2021). “Domain Generalization Using Causal Matching.” *Proceedings of the 38th International Conference on Machine Learning (ICML)*, PMLR 139. <https://proceedings.mlr.press/v139/mahajan21b.html>.
+67. Lanz, V., & Hajič Jr., J. (2025). “Gregorian Melody, Modality, and Memory: Segmenting Chant with Bayesian Nonparametrics.” *Proceedings of the 26th International Society for Music Information Retrieval Conference (ISMIR 2025)*, 638–646.
 
-68. Mavromatis, P. (2005a). “A Hidden Markov Model of Melody Production in Greek Church Chant.” *Computing in Musicology*, 14, 93-112.
+68. Lind, T. T. (2011). *The Past Is Always Present: The Revival of the Byzantine Musical Tradition at Mount Athos*. Lanham, MD: Scarecrow Press. <https://doi.org/10.5771/9780810881488>.
 
-69. Mavromatis, P. (2005b). *The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications*. Doctoral dissertation, Eastman School of Music, University of Rochester.
+69. Lingas, A. (2003). “Performance Practice and the Politics of Transcribing Byzantine Chant.” *Acta Musicae Byzantinae*, 6, 56-76.
 
-70. Mavromatis, P. (2009a). “Minimum Description Length Modelling of Musical Structure.” *Journal of Mathematics and Music*, 3(3), 117-136.
+70. Mahajan, D., Tople, S., & Sharma, A. (2021). “Domain Generalization Using Causal Matching.” *Proceedings of the 38th International Conference on Machine Learning (ICML)*, PMLR 139. <https://proceedings.mlr.press/v139/mahajan21b.html>.
 
-71. Mavromatis, P. (2009b). “HMM Analysis of Musical Structure: Identification of Latent Variables Through Topology-Sensitive Model Selection.” *Mathematics and Computation in Music 2009*.
+71. Marconato, E., Teso, S., Vergari, A., & Passerini, A. (2023). “Not All Neuro-Symbolic Concepts Are Created Equal: Analysis and Mitigation of Reasoning Shortcuts.” *Advances in Neural Information Processing Systems*, 36.
 
-72. Mavromatis, P. (2009c). “A Multi-tiered Approach for Analyzing Expressive Timing in Music Performance.” In T. Klouche & T. Noll (Eds.), *Mathematics and Computation in Music: MCM 2009*, 193–204. Berlin/Heidelberg: Springer. <https://doi.org/10.1007/978-3-642-02394-1_18>.
+72. Mavromatis, P. (2005a). “A Hidden Markov Model of Melody Production in Greek Church Chant.” *Computing in Musicology*, 14, 93-112.
 
-73. Mavromatis, P. (2019). “Hierarchical Structural Patterns in Improvised Music: Implications for Cognition.” Paper presented at the 42nd Annual Meeting of the Society for Music Theory, Columbus, Ohio, 7 November 2019. Published abstract in the official conference program, pp. 56–57.
+73. Mavromatis, P. (2005b). *The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications*. Doctoral dissertation, Eastman School of Music, University of Rochester.
 
-74. Mongeau, M., & Sankoff, D. (1990). “Comparison of Musical Sequences.” *Computers and the Humanities*, 24(3), 161–175. <https://doi.org/10.1007/BF00117340>.
+74. Mavromatis, P. (2009a). “Minimum Description Length Modelling of Musical Structure.” *Journal of Mathematics and Music*, 3(3), 117-136.
 
-75. Neanes Project (2026). “Byzantine Chant OCR.” Open-source OCR toolset for Byzantine chant notation, GPL-3.0. <https://github.com/neanes/byzantine-chant-ocr>.
+75. Mavromatis, P. (2009b). “HMM Analysis of Musical Structure: Identification of Latent Variables Through Topology-Sensitive Model Selection.” *Mathematics and Computation in Music 2009*.
 
-76. Neanes Project (2026). “Neanes — A Byzantine Chant Scorewriter.” Open-source software, GPL-3.0. <https://github.com/neanes/neanes>.
+76. Mavromatis, P. (2009c). “A Multi-tiered Approach for Analyzing Expressive Timing in Music Performance.” In T. Klouche & T. Noll (Eds.), *Mathematics and Computation in Music: MCM 2009*, 193–204. Berlin/Heidelberg: Springer. <https://doi.org/10.1007/978-3-642-02394-1_18>.
 
-77. Neuwirth, M., Finkensiep, C., & Rohrmeier, M. (2023). “Musical Schemata: Modelling Challenges and Pattern Finding (BachBeatles).” In B. Schneider, B. Löffler, T. Mager, & C. Hein (Eds.), *Mixing Methods: Practical Insights from the Humanities in the Digital Age*, 147–164. Bielefeld: Bielefeld University Press. <https://doi.org/10.1515/9783839469132-016>.
+77. Mavromatis, P. (2019). “Hierarchical Structural Patterns in Improvised Music: Implications for Cognition.” Paper presented at the 42nd Annual Meeting of the Society for Music Theory, Columbus, Ohio, 7 November 2019. Published abstract in the official conference program, pp. 56–57.
 
-78. Nuttall, T., Casado, M. G., Ferraro, A., Conklin, D., & Caro Repetto, R. (2021). “A Computational Exploration of Melodic Patterns in Arab-Andalusian Music.” *Journal of Mathematics and Music*, 15(2), 168-180. <https://doi.org/10.1080/17459737.2021.1917010>.
+78. Mongeau, M., & Sankoff, D. (1990). “Comparison of Musical Sequences.” *Computers and the Humanities*, 24(3), 161–175. <https://doi.org/10.1007/BF00117340>.
 
-79. Nuttall, T., Plaja-Roglans, G., Pearson, L., & Serra, X. (2022). “In Search of Sañcāras: Tradition-Informed Repeated Melodic Pattern Recognition in Carnatic Music.” *Proceedings of the 23rd International Society for Music Information Retrieval Conference (ISMIR 2022)*, 337-344.
+79. Neanes Project (2026). “Byzantine Chant OCR.” Open-source OCR toolset for Byzantine chant notation, GPL-3.0. <https://github.com/neanes/byzantine-chant-ocr>.
 
-80. Park, D., Nam, J., & Park, J. (2020). “Novelty and Influence of Creative Works, and Quantifying Patterns of Advances Based on Probabilistic Reference Networks.” *EPJ Data Science*, 9, 2. <https://doi.org/10.1140/epjds/s13688-019-0214-8>.
+80. Neanes Project (2026). “Neanes — A Byzantine Chant Scorewriter.” Open-source software, GPL-3.0. <https://github.com/neanes/neanes>.
 
-81. Panteli, M., & Purwins, H. (2013). “A Quantitative Comparison of Chrysanthine Theory and Performance Practice of Scale Tuning, Steps, and Prominence of the Octoechos in Byzantine Chant.” *Journal of New Music Research*, 42(3), 205-221.
+81. Neuwirth, M., Finkensiep, C., & Rohrmeier, M. (2023). “Musical Schemata: Modelling Challenges and Pattern Finding (BachBeatles).” In B. Schneider, B. Löffler, T. Mager, & C. Hein (Eds.), *Mixing Methods: Practical Insights from the Humanities in the Digital Age*, 147–164. Bielefeld: Bielefeld University Press. <https://doi.org/10.1515/9783839469132-016>.
 
-82. Papaioannou, C., Benetos, E., & Potamianos, A. (2025). “Universal Music Representations? Evaluating Foundation Models on World Music Corpora.” *Proceedings of the 26th International Society for Music Information Retrieval Conference (ISMIR 2025)*. <https://arxiv.org/abs/2506.17055>.
+82. Nuttall, T., Casado, M. G., Ferraro, A., Conklin, D., & Caro Repetto, R. (2021). “A Computational Exploration of Melodic Patterns in Arab-Andalusian Music.” *Journal of Mathematics and Music*, 15(2), 168-180. <https://doi.org/10.1080/17459737.2021.1917010>.
 
-83. Papay, S., Klinger, R., & Padó, S. (2022). “Constraining Linear-chain CRFs to Regular Languages.” *International Conference on Learning Representations (ICLR)*. <https://arxiv.org/abs/2106.07306>.
+83. Nuttall, T., Plaja-Roglans, G., Pearson, L., & Serra, X. (2022). “In Search of Sañcāras: Tradition-Informed Repeated Melodic Pattern Recognition in Carnatic Music.” *Proceedings of the 23rd International Society for Music Information Retrieval Conference (ISMIR 2022)*, 337-344.
 
-84. Paschalidou, S. (2024). “Effort in Hindustani Dhrupad Singing: Using Interviews to Develop Effort Inference Models of Acoustic and Movement Features.” *Yearbook for Traditional Music*, 56(1), 57–79. <https://doi.org/10.1017/ytm.2024.7>.
+84. Park, D., Nam, J., & Park, J. (2020). “Novelty and Influence of Creative Works, and Quantifying Patterns of Advances Based on Probabilistic Reference Networks.” *EPJ Data Science*, 9, 2. <https://doi.org/10.1140/epjds/s13688-019-0214-8>.
 
-85. Pearce, M. T. (2018). “Statistical Learning and Probabilistic Prediction in Music Cognition: Mechanisms of Stylistic Enculturation.” *Annals of the New York Academy of Sciences*, 1423(1), 378–395. <https://doi.org/10.1111/nyas.13654>.
+85. Panteli, M., & Purwins, H. (2013). “A Quantitative Comparison of Chrysanthine Theory and Performance Practice of Scale Tuning, Steps, and Prominence of the Octoechos in Byzantine Chant.” *Journal of New Music Research*, 42(3), 205-221.
 
-86. Pearce, M. T., & Wiggins, G. A. (2001). “Towards a Framework for the Evaluation of Machine Compositions.” In *Proceedings of the AISB’01 Symposium on Artificial Intelligence and Creativity in the Arts and Sciences*, 22–32.
+86. Papaioannou, C., Benetos, E., & Potamianos, A. (2025). “Universal Music Representations? Evaluating Foundation Models on World Music Corpora.” *Proceedings of the 26th International Society for Music Information Retrieval Conference (ISMIR 2025)*. <https://arxiv.org/abs/2506.17055>.
 
-87. Pearce, M. T., Müllensiefen, D., & Wiggins, G. A. (2010). “The Role of Expectation and Probabilistic Learning in Auditory Boundary Perception: A Model Comparison.” *Perception*, 39(10), 1365–1389. <https://doi.org/10.1068/p6507>.
+87. Papay, S., Klinger, R., & Padó, S. (2022). “Constraining Linear-chain CRFs to Regular Languages.” *International Conference on Learning Representations (ICLR)*. <https://arxiv.org/abs/2106.07306>.
 
-88. Plank, B. (2022). “The ‘Problem’ of Human Label Variation: On Ground Truth in Data, Modeling and Evaluation.” In *Proceedings of EMNLP 2022*, 10671-10682.
+88. Paschalidou, S. (2024). “Effort in Hindustani Dhrupad Singing: Using Interviews to Develop Effort Inference Models of Acoustic and Movement Features.” *Yearbook for Traditional Music*, 56(1), 57–79. <https://doi.org/10.1017/ytm.2024.7>.
 
-89. Polykarpidis, P., Kalofonos, D., Balageorgos, D., & Anagnostopoulou, C. (2022). “Three Related Corpora in Middle Byzantine Music Notation and a Preliminary Comparative Analysis.” *Proceedings of ISMIR 2022*, 306-313.
+89. Pearce, M. T. (2018). “Statistical Learning and Probabilistic Prediction in Music Cognition: Mechanisms of Stylistic Enculturation.” *Annals of the New York Academy of Sciences*, 1423(1), 378–395. <https://doi.org/10.1111/nyas.13654>.
 
-90. Popescu, T., & Rohrmeier, M. (2024). “Core Principles of Melodic Organisation Emerge from Transmission Chains with Random Melodies.” *Evolution and Human Behavior*, 45(6), 106619. <https://doi.org/10.1016/j.evolhumbehav.2024.106619>.
+90. Pearce, M. T., & Wiggins, G. A. (2001). “Towards a Framework for the Evaluation of Machine Compositions.” In *Proceedings of the AISB’01 Symposium on Artificial Intelligence and Creativity in the Arts and Sciences*, 22–32.
 
-91. Rabinovitch, G., & Carter-Enyi, A. (2024). “Melodic Organization and Sequential Ordering of Galant Schemata: Implications for Eighteenth-Century European Musicianship.” *Music Theory Online*, 30(1). <https://doi.org/10.30535/mto.30.1.7>.
+91. Pearce, M. T., Müllensiefen, D., & Wiggins, G. A. (2010). “The Role of Expectation and Probabilistic Learning in Auditory Boundary Perception: A Model Comparison.” *Perception*, 39(10), 1365–1389. <https://doi.org/10.1068/p6507>.
 
-92. Raasted, J. (1966). *Intonation Formulas and Modal Signatures in Byzantine Musical Manuscripts*. Monumenta Musicae Byzantinae, Subsidia 7. Copenhagen: Ejnar Munksgaard.
+92. Plank, B. (2022). “The ‘Problem’ of Human Label Variation: On Ground Truth in Data, Modeling and Evaluation.” In *Proceedings of EMNLP 2022*, 10671-10682.
 
-93. Ristad, E. S., & Yianilos, P. N. (1998). “Learning String-Edit Distance.” *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 20(5), 522–532. <https://doi.org/10.1109/34.682181>.
+93. Polykarpidis, P., Kalofonos, D., Balageorgos, D., & Anagnostopoulou, C. (2022). “Three Related Corpora in Middle Byzantine Music Notation and a Preliminary Comparative Analysis.” *Proceedings of ISMIR 2022*, 306-313.
 
-94. Ryabinets, K. (2025). “Melodic Formula / Constellation as a Structural Unit of the Sacred Monody on the Material of Ukrainian Notoline Irmologions of the XVI–XVIII Centuries.” *National Academy of Managerial Staff of Culture and Arts Herald*. <https://doi.org/10.32461/2226-3209.1.2025.328001>.
+94. Popescu, T., & Rohrmeier, M. (2024). “Core Principles of Melodic Organisation Emerge from Transmission Chains with Random Melodies.” *Evolution and Human Behavior*, 45(6), 106619. <https://doi.org/10.1016/j.evolhumbehav.2024.106619>.
 
-95. Sarawagi, S., & Cohen, W. W. (2004). “Semi-Markov Conditional Random Fields for Information Extraction.” *Advances in Neural Information Processing Systems 17*, 1185–1192.
+95. Rabinovitch, G., & Carter-Enyi, A. (2024). “Melodic Organization and Sequential Ordering of Galant Schemata: Implications for Eighteenth-Century European Musicianship.” *Music Theory Online*, 30(1). <https://doi.org/10.30535/mto.30.1.7>.
 
-96. Savage, P. E., Passmore, S., Chiba, G., Currie, T. E., Suzuki, H., & Atkinson, Q. D. (2022). “Sequence Alignment of Folk Song Melodies Reveals Cross-Cultural Regularities of Musical Evolution.” *Current Biology*, 32(6), 1395–1402.e8. <https://doi.org/10.1016/j.cub.2022.01.039>.
+96. Raasted, J. (1966). *Intonation Formulas and Modal Signatures in Byzantine Musical Manuscripts*. Monumenta Musicae Byzantinae, Subsidia 7. Copenhagen: Ejnar Munksgaard.
 
-97. Schindler, A., Herdener, M., & Bartels, A. (2013). “Coding of Melodic Gestalt in Human Auditory Cortex.” *Cerebral Cortex*, 23(12), 2987–2993. <https://doi.org/10.1093/cercor/bhs289>.
+97. Ristad, E. S., & Yianilos, P. N. (1998). “Learning String-Edit Distance.” *IEEE Transactions on Pattern Analysis and Machine Intelligence*, 20(5), 522–532. <https://doi.org/10.1109/34.682181>.
 
-98. Schiødt, N. (1971). “A Computer-Aided Analysis of Thirty-Five Byzantine Hymns.” In E. Wellesz & M. Velimirović (Eds.), *Studies in Eastern Chant*, Vol. 2, 129-154.
+98. Ryabinets, K. (2025). “Melodic Formula / Constellation as a Structural Unit of the Sacred Monody on the Material of Ukrainian Notoline Irmologions of the XVI–XVIII Centuries.” *National Academy of Managerial Staff of Culture and Arts Herald*. <https://doi.org/10.32461/2226-3209.1.2025.328001>.
 
-99. Serra, X. (2017). “The Computational Study of a Musical Culture Through Its Digital Traces.” *Acta Musicologica*, 89(1), 24–44.
+99. Sarawagi, S., & Cohen, W. W. (2004). “Semi-Markov Conditional Random Fields for Information Extraction.” *Advances in Neural Information Processing Systems 17*, 1185–1192.
 
-100. Smith, J. B. L., Burgoyne, J. A., Fujinaga, I., De Roure, D., & Downie, J. S. (2011). “Design and Creation of a Large-Scale Database of Structural Annotations.” In *Proceedings of ISMIR 2011*, 555-560.
+100. Savage, P. E., Passmore, S., Chiba, G., Currie, T. E., Suzuki, H., & Atkinson, Q. D. (2022). “Sequence Alignment of Folk Song Melodies Reveals Cross-Cultural Regularities of Musical Evolution.” *Current Biology*, 32(6), 1395–1402.e8. <https://doi.org/10.1016/j.cub.2022.01.039>.
 
-101. St. Anthony’s Greek Orthodox Monastery. (n.d.-a). *Byzantine Music Formulae*. Διαδικτυακή ειρμολογική/στιχηραρική συλλογή με περισσότερες από 10.000 δηλωμένες φόρμουλες, με αρχεία κατά ήχο και είδος, πρόσβαση Σεπτέμβριος 2026. <https://stanthonysmonastery.org/pages/byzantine-music-formulae>.
+101. Schindler, A., Herdener, M., & Bartels, A. (2013). “Coding of Melodic Gestalt in Human Auditory Cortex.” *Cerebral Cortex*, 23(12), 2987–2993. <https://doi.org/10.1093/cercor/bhs289>.
 
-102. St. Anthony’s Greek Orthodox Monastery. (n.d.-b). *Papadic Formulae*. Χωριστή διαδικτυακή συλλογή παπαδικών μελωδικών τύπων από 758 συνθέσεις, με μεταδεδομένα των αρχείων Word προέλευσης ανά φόρμουλα (τίτλος και συνθέτης), πρόσβαση Σεπτέμβριος 2026. <https://stanthonysmonastery.org/pages/papadic-formulae>.
+102. Schiødt, N. (1971). “A Computer-Aided Analysis of Thirty-Five Byzantine Hymns.” In E. Wellesz & M. Velimirović (Eds.), *Studies in Eastern Chant*, Vol. 2, 129-154.
 
-103. Tofan, M. V. (2024). “Stability and Flexibility in the Transmission of Melodic Archetypes in Greek Liturgical Chant.” *Bulletin of the Transilvania University of Braşov, Series VIII: Performing Arts*, 17(66), 193-202.
+103. Serra, X. (2017). “The Computational Study of a Musical Culture Through Its Digital Traces.” *Acta Musicologica*, 89(1), 24–44.
 
-104. Troelsgård, C. (2011). *Byzantine Neumes: A New Introduction to the Middle Byzantine Musical Notation*. MMB Subsidia 9.
+104. Smith, J. B. L., Burgoyne, J. A., Fujinaga, I., De Roure, D., & Downie, J. S. (2011). “Design and Creation of a Large-Scale Database of Structural Annotations.” In *Proceedings of ISMIR 2011*, 555-560.
 
-105. Tsuboi, Y., Kashima, H., Mori, S., Oda, H., & Matsumoto, Y. (2008). “Training Conditional Random Fields Using Incomplete Annotations.” *Proceedings of the 22nd International Conference on Computational Linguistics (COLING 2008)*, 897–904. <https://aclanthology.org/C08-1113/>.
+105. St. Anthony’s Greek Orthodox Monastery. (n.d.-a). *Byzantine Music Formulae*. Διαδικτυακή ειρμολογική/στιχηραρική συλλογή με περισσότερες από 10.000 δηλωμένες φόρμουλες, με αρχεία κατά ήχο και είδος, πρόσβαση Σεπτέμβριος 2026. <https://stanthonysmonastery.org/pages/byzantine-music-formulae>.
 
-106. Tzanetakis, G. (2014). “Computational Ethnomusicology: A Music Information Retrieval Perspective.” In A. Georgaki & G. Kouroupetroglou (Eds.), *Proceedings of ICMC\|SMC\|2014*, Athens, Greece.
+106. St. Anthony’s Greek Orthodox Monastery. (n.d.-b). *Papadic Formulae*. Χωριστή διαδικτυακή συλλογή παπαδικών μελωδικών τύπων από 758 συνθέσεις, με μεταδεδομένα των αρχείων Word προέλευσης ανά φόρμουλα (τίτλος και συνθέτης), πρόσβαση Σεπτέμβριος 2026. <https://stanthonysmonastery.org/pages/papadic-formulae>.
 
-107. Uma, A., Fornaciari, T., Hovy, D., Paun, S., Plank, B., & Poesio, M. (2021). “Learning from Disagreement: A Survey.” *Journal of Artificial Intelligence Research*, 72, 1385-1470.
+107. Tofan, M. V. (2024). “Stability and Flexibility in the Transmission of Melodic Archetypes in Greek Liturgical Chant.” *Bulletin of the Transilvania University of Braşov, Series VIII: Performing Arts*, 17(66), 193-202.
 
-108. Urbano, J., Schedl, M., & Serra, X. (2013). “Evaluation in Music Information Retrieval.” *Journal of Intelligent Information Systems*, 41(3), 345-369.
+108. Troelsgård, C. (2011). *Byzantine Neumes: A New Introduction to the Middle Byzantine Musical Notation*. MMB Subsidia 9.
 
-109. Volk, A., & van Kranenburg, P. (2012). “Melodic Similarity among Folk Songs: An Annotation Study on Similarity-Based Categorization in Music.” *Musicae Scientiae*, 16(3), 317–339. <https://doi.org/10.1177/1029864912448329>.
+109. Tsuboi, Y., Kashima, H., Mori, S., Oda, H., & Matsumoto, Y. (2008). “Training Conditional Random Fields Using Incomplete Annotations.” *Proceedings of the 22nd International Conference on Computational Linguistics (COLING 2008)*, 897–904. <https://aclanthology.org/C08-1113/>.
 
-110. Yan, Y., Cwitkowitz, F., & Duan, Z. (2021). “Skipping the Frame-Level: Event-Based Piano Transcription With Neural Semi-CRFs.” *Advances in Neural Information Processing Systems*, 34, 20583–20595.
+110. Tzanetakis, G. (2014). “Computational Ethnomusicology: A Music Information Retrieval Perspective.” In A. Georgaki & G. Kouroupetroglou (Eds.), *Proceedings of ICMC\|SMC\|2014*, Athens, Greece.
 
-111. Zaratiana, U., Tomeh, N., El Khbir, N., Holat, P., & Charnois, T. (2023). “Filtered Semi-Markov CRF.” *Findings of the Association for Computational Linguistics: EMNLP 2023*, 222–235. <https://doi.org/10.18653/v1/2023.findings-emnlp.17>.
+111. Uma, A., Fornaciari, T., Hovy, D., Paun, S., Plank, B., & Poesio, M. (2021). “Learning from Disagreement: A Survey.” *Journal of Artificial Intelligence Research*, 72, 1385-1470.
+
+112. Urbano, J., Schedl, M., & Serra, X. (2013). “Evaluation in Music Information Retrieval.” *Journal of Intelligent Information Systems*, 41(3), 345-369.
+
+113. van Krieken, E., Minervini, P., Ponti, E. M., & Vergari, A. (2024). “On the Independence Assumption in Neurosymbolic Learning.” *Proceedings of ICML 2024*, PMLR 235, 49078–49097.
+
+114. Volk, A., & van Kranenburg, P. (2012). “Melodic Similarity among Folk Songs: An Annotation Study on Similarity-Based Categorization in Music.” *Musicae Scientiae*, 16(3), 317–339. <https://doi.org/10.1177/1029864912448329>.
+
+115. von Rueden, L., Mayer, S., Beckh, K., et al. (2023). “Informed Machine Learning: A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems.” *IEEE Transactions on Knowledge and Data Engineering*, 35(1), 614–633.
+
+116. Yan, Y., Cwitkowitz, F., & Duan, Z. (2021). “Skipping the Frame-Level: Event-Based Piano Transcription With Neural Semi-CRFs.” *Advances in Neural Information Processing Systems*, 34, 20583–20595.
+
+117. Xu, J., Zhang, Z., Friedman, T., Liang, Y., & Van den Broeck, G. (2018). “A Semantic Loss Function for Deep Learning with Symbolic Knowledge.” *Proceedings of ICML 2018*, PMLR 80, 5502–5511.
+
+118. Zaratiana, U., Tomeh, N., El Khbir, N., Holat, P., & Charnois, T. (2023). “Filtered Semi-Markov CRF.” *Findings of the Association for Computational Linguistics: EMNLP 2023*, 222–235. <https://doi.org/10.18653/v1/2023.findings-emnlp.17>.
 
 ---
 
-[Προηγούμενη: J Υλοποίηση και αναπαραγωγιμότητα](../appendices/j.md)
+[Προηγούμενη: L Μουσικό και μαθηματικό παράδειγμα του κανόνα J](../appendices/l.md)
 
 ---
 

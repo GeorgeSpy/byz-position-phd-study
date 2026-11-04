@@ -5,8 +5,13 @@ import fitz
 ROOT = Path(__file__).resolve().parents[1]
 import tempfile
 WORK = Path(tempfile.mkdtemp(prefix='byz-reader-'))
-SOURCE = ROOT / 'sources/proposal-v871e-candidate.tex'
-PDF = ROOT / 'sources/proposal-v871e-candidate.pdf'
+SOURCE = ROOT / 'documents/analytical-proposal.tex'
+PDF = ROOT / 'documents/analytical-proposal.pdf'
+# Earlier import: anchors and bibliography identifiers are kept stable across sources.
+OLD_MANIFEST = json.loads((ROOT/'sources/reader-manifest.json').read_text(encoding='utf-8')) if (ROOT/'sources/reader-manifest.json').exists() else {'targets':{}}
+# Pages maintained separately from the PDF text (A2 technical protocol v16.5).
+PRESERVE = {'docs/appendices/k.md'}
+EXPECTED = {'tables':20,'images':3,'appendices':12,'references':142}
 for directory in ['docs/full','docs/appendices','docs/bibliography/entries','docs/research','docs/musicology','docs/start','docs/examples','docs/assets','sources','scripts']:
     (ROOT / directory).mkdir(parents=True, exist_ok=True)
 
@@ -114,35 +119,48 @@ def inject(blocks):
     return result
 ast['blocks']=inject(ast['blocks'])
 (WORK/'injected_ast.json').write_text(json.dumps(ast,ensure_ascii=False))
-assert sum(o.get('t')=='Table' for o in traverse(ast))==17
-assert sum(o.get('t')=='Image' for o in traverse(ast))==3
+assert sum(o.get('t')=='Table' for o in traverse(ast))==EXPECTED['tables']
+assert sum(o.get('t')=='Image' for o in traverse(ast))==EXPECTED['images']
 
 # Split at original major sections, keeping the abstract and every appendix.
-slugs=['introduction','literature','questions','architecture','m1','eise','validation','data','nikolaos','contribution']
+# File names are kept stable for links; chapter 6 (A2) is new in the 3 November 2026 source.
+chapter_files=['01-introduction','02-literature','03-questions','04-architecture','05-m1','06-a2','06-eise','07-validation','08-data','09-nikolaos','10-contribution']
 sections=[];current=None;main=0;appendix=0
 for b in ast['blocks']:
     if b['t']=='Header' and b['c'][0]==1:
         title=plain(b['c'][2])
         if title=='Περίληψη': path='docs/full/00-abstract.md';number='';kind='abstract'
         elif title=='Βιβλιογραφία': path='docs/bibliography/source-list.md';number='';kind='bibliography'
-        elif main<10:
-            main+=1;number=str(main);kind='chapter';path=f'docs/full/{main:02d}-{slugs[main-1]}.md'
+        elif main<len(chapter_files):
+            main+=1;number=str(main);kind='chapter';path=f'docs/full/{chapter_files[main-1]}.md'
         else:
             number=chr(65+appendix);appendix+=1;kind='appendix';path=f'docs/appendices/{number.lower()}.md'
         current={'path':path,'number':number,'kind':kind,'title':title,'blocks':[],'headings':[]}
         sections.append(current)
     if current is not None: current['blocks'].append(b)
-assert main==10 and appendix==10
+assert main==len(chapter_files) and appendix==EXPECTED['appendices']
 
 # Stable ASCII targets preserve cross-chapter references in GitHub as well as HTML.
 targets={};counter=0
+old_targets=OLD_MANIFEST.get('targets',{})
+used=set();fresh=[max([int(v[1][1:]) for v in old_targets.values()]+[0])]
+# Headings renamed in the 3 November 2026 source keep the anchor of their predecessor.
+ANCHOR_ALIASES={'ενιαίο-συμβολικό-επίπεδο-αναφοράς-και-utimesphi':'r033','επιλογή-αναπαράστασης-με-τον-κανόνα-j':'r038','sec:m2b':'r041','συμβολικές-βάσεις-και-αντιστοιχισμένες-νευρωνικές-συνθήκες':'r044'}
+for _label,_anchor in ANCHOR_ALIASES.items():
+    _path=next(v[0] for v in old_targets.values() if v[1]==_anchor)
+    old_targets.setdefault(_label,[_path,_anchor])
+def anchor_for(old,path):
+    prev=old_targets.get(old)
+    if prev and prev[0]==path and prev[1] not in used:
+        used.add(prev[1]);return prev[1]
+    fresh[0]+=1;a=f'r{fresh[0]:03d}';used.add(a);return a
 for section in sections:
     sub=0;subsub=0
     for obj in traverse(section['blocks']):
         typ=obj.get('t')
         if typ=='Header':
             level,attr,content=obj['c']
-            old=attr[0];counter+=1;anchor=f'r{counter:03d}';attr[0]=anchor
+            old=attr[0];counter+=1;anchor=anchor_for(old,section['path']);attr[0]=anchor
             targets[old]=(section['path'],anchor)
             number=section['number']
             if level==2:sub+=1;subsub=0;number+=f'.{sub}'
@@ -151,7 +169,7 @@ for section in sections:
             if number:obj['c'][2]=inlines(number+' · ')+content
             section['headings'].append({'level':level,'anchor':anchor,'title':plain(obj['c'][2])})
         elif typ in ('Span','Div') and obj['c'][0][0]:
-            old=obj['c'][0][0];counter+=1;anchor=f'r{counter:03d}'
+            old=obj['c'][0][0];counter+=1;anchor=anchor_for(old,section['path'])
             obj['c'][0][0]=anchor;targets[old]=(section['path'],anchor)
 
 missing=[];link_count=0
@@ -162,9 +180,10 @@ for section in sections:
             if '#'+old in original_refs:obj['c'][1]=copy.deepcopy(original_refs['#'+old])
             if old in targets:
                 path,anchor=targets[old]
+                if path in PRESERVE:anchor=''
                 relative=os.path.relpath(ROOT/path,ROOT/section['path']).replace('\\','/')
                 relative=os.path.relpath(ROOT/path,(ROOT/section['path']).parent).replace('\\','/')
-                obj['c'][2][0]=relative+'#'+anchor;link_count+=1
+                obj['c'][2][0]=relative+('#'+anchor if anchor else '');link_count+=1
                 obj['c'][0]=['',[],[]]
             else:missing.append(old)
 assert not missing,missing
@@ -185,7 +204,8 @@ pages={}
 for i,section in enumerate(sections):
     path=ROOT/section['path'];number=section['number']
     nav='[Αναλυτικός χάρτης](../full/index.md) · [Σύνοψη](../start/overview.md) · [Βιβλιογραφία](../bibliography/index.md)'
-    meta='Μεταφορά του πλήρους κειμένου της υποψήφιας v8.71e. [Πρωτότυπο PDF](../../sources/proposal-v871e-candidate.pdf) · [Προέλευση και έκδοση](../reference.md).'
+    meta='Κειμενική απόδοση της αναλυτικής ερευνητικής πρότασης (3 Νοεμβρίου 2026), με [ορολογική επιμέλεια](../../TERMINOLOGY_GR.md). [Πρωτότυπο PDF](../../documents/analytical-proposal.pdf) · [Προέλευση κειμένου](../reference.md).'
+    if section['kind']=='bibliography': meta=meta.replace('../../TERMINOLOGY_GR.md','../../TERMINOLOGY_GR.md')
     toc='\n'.join(f'- [{h["title"]}](#{h["anchor"]})' for h in section['headings'] if h['level'] in (2,3))
     body=md(emit_anchors(section['blocks']))
     if toc:
@@ -194,8 +214,17 @@ for i,section in enumerate(sections):
     previous=sections[i-1] if i else None;following=sections[i+1] if i+1<len(sections) else None
     footer=[]
     for label,other in [('Προηγούμενη',previous),('Επόμενη',following)]:
-        if other:footer.append(f'[{label}: {other["number"]} {other["title"]}]({os.path.relpath(ROOT/other["path"],path.parent)})')
-    path.write_text(body+'\n---\n\n'+' · '.join(footer)+'\n')
+        if other:footer.append(f'[{label}: {(other["number"]+" ") if other["number"] else ""}{other["title"]}]({os.path.relpath(ROOT/other["path"],path.parent)})')
+    if section['path'] in PRESERVE:
+        pages[section['path']]=plain(section['blocks']);continue
+    trailer=''
+    if path.exists():
+        old_text=path.read_text(encoding='utf-8');k=old_text.rfind('\n---\n\n[Σχολιασμός')
+        if k>=0:trailer=old_text[k:]
+    if not trailer:
+        title_q=__import__('urllib.parse').parse.quote_plus('Παρατήρηση: '+(number+' · ' if number else '')+section['title'])
+        trailer='\n---\n\n[Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title='+title_q+'&location='+__import__('urllib.parse').parse.quote_plus('https://github.com/GeorgeSpy/byz-position-phd-study/blob/main/'+section['path'])+')\n'
+    path.write_text(body+'\n---\n\n'+' · '.join(footer)+'\n'+'\x00TRAILER\x00'+trailer)
     pages[section['path']]=plain(section['blocks'])
 
 # Complete bibliography: preserve source order and add stable per-entry pages.
@@ -205,8 +234,22 @@ for b in bibsection['blocks']:
     if b['t']=='Para':language=plain(b)
     if b['t']=='OrderedList':
         for local_i,blocks in enumerate(b['c'][1],1):
-            refs.append({'id':f'b{len(refs)+1:03d}','language':language,'source_number':local_i,'blocks':blocks,'text':plain(blocks)})
-assert len(refs)==135,len(refs)
+            refs.append({'id':None,'language':language,'source_number':local_i,'blocks':blocks,'text':plain(blocks)})
+assert len(refs)==EXPECTED['references'],len(refs)
+def refkey(t):return re.sub(r'[^\w]','',unicodedata.normalize('NFC',t).casefold())[:60]
+existing={}
+for card in sorted((ROOT/'docs/bibliography/entries').glob('b*.md')):
+    lines=card.read_text(encoding='utf-8').split('\n')
+    first=next(l for l in lines[3:] if l.strip())
+    existing[refkey(re.sub(r'[*_“”"<>]','',first))]=card.stem
+next_id=max([int(v[1:]) for v in existing.values()]+[0])
+new_ids=set()
+for ref in refs:
+    k=refkey(re.sub(r'[*_“”"<>]','',ref['text']))
+    if k in existing: ref['id']=existing[k]
+    else:
+        next_id+=1;ref['id']=f'b{next_id:03d}';new_ids.add(ref['id'])
+assert len({r['id'] for r in refs})==len(refs)
 
 def fold(s):return ''.join(c for c in unicodedata.normalize('NFD',s.casefold()) if not unicodedata.combining(c))
 for ref in refs:
@@ -223,7 +266,7 @@ for ref in refs:
     related='\n'.join(f'- [{s["number"]} {s["title"]}]({os.path.relpath(ROOT/s["path"],ROOT/"docs/bibliography/entries")})' for s in ref['matches'])
     note='Οι παρακάτω σύνδεσμοι είναι αυτόματος εντοπισμός ονόματος και έτους μέσα σε ολόκληρη την ενότητα. Η ακριβής χρήση εξετάζεται στο κείμενό της.' if related else 'Η εγγραφή περιλαμβάνεται στη βιβλιογραφία της πρότασης. Η πλοήγηση μπορεί να συνεχιστεί από τους θεματικούς χάρτες ή την αναζήτηση ονόματος στο πλήρες κείμενο.'
     card=f'# {title}\n\n[Πλήρης βιβλιογραφία](../index.md) · [Αρχική σειρά εγγραφών](../source-list.md) · [Πεδία έρευνας](../../research/index.md)\n\n{full}\n**Σταθερό αναγνωριστικό:** `{ref["id"]}` · **Κατηγορία πηγής:** {ref["language"]} · **Αρίθμηση πρωτοτύπου:** {ref["source_number"]}\n\n## Σχετικές ενότητες της πρότασης\n\n{note}\n\n{related}\n'
-    (ROOT/f'docs/bibliography/entries/{ref["id"]}.md').write_text(card)
+    if ref['id'] in new_ids:(ROOT/f'docs/bibliography/entries/{ref["id"]}.md').write_text(card)
 
 index='# Πλήρης βιβλιογραφία\n\nΗ υποψήφια πρόταση περιλαμβάνει **135 εγγραφές**: 24 στην ελληνόγλωσση και 111 στην ξενόγλωσση ενότητα. Κάθε εγγραφή έχει σταθερή σελίδα, διαθέσιμους συνδέσμους της πηγής και πρόσβαση σε σχετικές ενότητες.\n\n[Αρχική σειρά και πλήρες κείμενο](source-list.md) · [Θεματικοί χάρτες](../research/index.md) · [Νεότερες προτεινόμενες προσθήκες](supplementary.md)\n\n'
 for language in ['Ελληνόγλωσση Βιβλιογραφία','Ξενόγλωσση Βιβλιογραφία']:
@@ -233,9 +276,12 @@ for language in ['Ελληνόγλωσση Βιβλιογραφία','Ξενόγ
         summary=ref['text'].replace('|','\\|')
         index+=f'| [{ref["author"]}](entries/{ref["id"]}.md) | {ref["year"]} | {summary} |\n'
     index+='\n'
-(ROOT/'docs/bibliography/index.md').write_text(index)
+(WORK/'bibliography_index_generated.md').write_text(index)
+print('new bibliography ids',sorted(new_ids))
 
 # Topic-to-section targets are exported for the editorial layer.
+for _s in sections:
+    if _s['path'] in PRESERVE:_s['headings']=[]
 manifest={'source_sha256':hashlib.sha256(SOURCE.read_bytes()).hexdigest(),'pdf_sha256':hashlib.sha256(PDF.read_bytes()).hexdigest(),'sections':[{k:v for k,v in s.items() if k!='blocks'} for s in sections],'targets':targets,'bibliography':[{k:v for k,v in r.items() if k not in ('blocks','matches')} for r in refs],'statistics':{'major_sections':main,'appendices':appendix,'bibliography_entries':len(refs),'tables':len(tables),'figures':len(figures),'internal_cross_references':link_count,'math_nodes':sum(o.get('t')=='Math' for o in traverse(ast)),'footnotes':sum(o.get('t')=='Note' for o in traverse(ast))}}
 (WORK/'reader_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
 (ROOT/'sources/reader-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
@@ -249,6 +295,12 @@ for section in sections:
             links.append(f'[{ref["author"]} ({ref["year"]})](../bibliography/entries/{ref["id"]}.md)')
     if links:
         path=ROOT/section['path']
-        path.write_text(path.read_text()+'\n<details>\n<summary>Βιβλιογραφικές διαδρομές της ενότητας</summary>\n\nΑυτόματος εντοπισμός ονόματος και έτους· η ακριβής χρήση ελέγχεται στο κείμενο.\n\n'+' · '.join(links)+'\n\n</details>\n')
+        if section['path'] in PRESERVE:continue
+        path.write_text(path.read_text().replace('\x00TRAILER\x00','\n<details>\n<summary>Βιβλιογραφικές διαδρομές της ενότητας</summary>\n\nΑυτόματος εντοπισμός ονόματος και έτους· η ακριβής χρήση ελέγχεται στο κείμενο.\n\n'+' · '.join(links)+'\n\n</details>\n\x00TRAILER\x00',1))
 
+for section in sections:
+    path=ROOT/section['path']
+    if section['path'] in PRESERVE or not path.exists():continue
+    t=path.read_text(encoding='utf-8')
+    if '\x00TRAILER\x00' in t:path.write_text(t.replace('\x00TRAILER\x00',''))
 print(json.dumps(manifest['statistics'],ensure_ascii=False))

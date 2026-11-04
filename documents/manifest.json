@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-04",
   "selection_basis": "author instruction: latest uploaded document takes precedence over filename version",
   "documents": [
     {
@@ -58,18 +58,29 @@
     {
       "role": "analytical_proposal",
       "path": "analytical-proposal.pdf",
-      "original_filename": "Erevnitiki_Protasi_Spyridakis_v8_71g_Dual_Track_CANDIDATE(1).pdf",
-      "library_file_id": "libfile_59dd69212ecc8191b550b796e556e106",
-      "uploaded_at": "2026-10-20T17:10:39.096506Z",
-      "bytes": 975983,
-      "base64_chars": 1301312,
-      "sha256": "fe8c9d165e5c1a07166dde0eecffd95848bc969171c39b6de5af085f4670f067",
-      "git_sha": "f62aec0cfdcb3bf63a32fd3eb057c05a9e4202c5",
+      "source": "analytical-proposal.tex",
+      "original_filename": "EXTENDED_PROPOSAL_HARMONIZED_2026-11-03.pdf",
+      "bytes": 793609,
+      "sha256": "4a80b274b288e6ba152ea07a417d267d6a039e966ce9840a9d143d057ff08ca7",
+      "git_sha": "8eedcc24ff514072336825eb0f557ed85d9d3ce4",
       "pages": 150,
       "title": "Αναλυτική ερευνητική πρόταση",
+      "language": "el",
+      "selected_on": "2026-11-04",
       "legacy_paths": [
         "technical-manual.pdf"
-      ]
+      ],
+      "supersedes": {
+        "original_filename": "Erevnitiki_Protasi_Spyridakis_v8_71g_Dual_Track_CANDIDATE(1).pdf",
+        "library_file_id": "libfile_59dd69212ecc8191b550b796e556e106",
+        "uploaded_at": "2026-10-20T17:10:39.096506Z",
+        "bytes": 975983,
+        "base64_chars": 1301312,
+        "sha256": "fe8c9d165e5c1a07166dde0eecffd95848bc969171c39b6de5af085f4670f067",
+        "git_sha": "f62aec0cfdcb3bf63a32fd3eb057c05a9e4202c5",
+        "pages": 150,
+        "title": "Αναλυτική ερευνητική πρόταση"
+      }
     },
     {
       "role": "musicological_memorandum",

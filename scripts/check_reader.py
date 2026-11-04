@@ -40,20 +40,20 @@ for path in ROOT.rglob('*.md'):
   if parsed.fragment and dest.suffix=='.md' and unquote(parsed.fragment) not in anchors.get(dest,set()):errors.append(f'{path.relative_to(ROOT)} -> missing anchor {url}')
 
 sections=manifest['sections']
-assert len([s for s in sections if s['kind']=='chapter'])==10
-assert len([s for s in sections if s['kind']=='appendix'])==10
-assert len(list((ROOT/'docs/bibliography/entries').glob('b*.md')))==135
+assert len([s for s in sections if s['kind']=='chapter'])==11
+assert len([s for s in sections if s['kind']=='appendix'])==12
+assert len(list((ROOT/'docs/bibliography/entries').glob('b*.md')))==142
 assert len(list((ROOT/'docs/research').glob('*.md')))==12
 for s in sections:
  if not (ROOT/s['path']).is_file():errors.append('missing section '+s['path'])
  for h in s['headings']:
   if h['anchor'] not in anchors.get((ROOT/s['path']).resolve(),set()):errors.append('missing heading '+h['anchor'])
-for filename,key in [('proposal-v871e-candidate.tex','source_sha256'),('proposal-v871e-candidate.pdf','pdf_sha256')]:
- if hashlib.sha256((ROOT/'sources'/filename).read_bytes()).hexdigest()!=manifest[key]:errors.append('source hash mismatch '+filename)
+for filename,key in [('analytical-proposal.tex','source_sha256'),('analytical-proposal.pdf','pdf_sha256')]:
+ if hashlib.sha256((ROOT/'documents'/filename).read_bytes()).hexdigest()!=manifest[key]:errors.append('source hash mismatch '+filename)
 for image in ['formula-variation.png','proposal-figure-2-page.png','proposal-figure-3-page.png']:
  if not (ROOT/'docs/assets'/image).is_file():errors.append('missing image '+image)
 if errors:
  for error in errors:print(error)
  print(f'FAILED: {len(errors)} problems, {checked} local links checked')
  sys.exit(1)
-print(f'PASS: {checked} local links; 10 chapters, 10 appendices, 135 bibliography entries; all source hashes match.')
+print(f'PASS: {checked} local links; 11 chapters, 12 appendices, 142 bibliography entries; all source hashes match.')
