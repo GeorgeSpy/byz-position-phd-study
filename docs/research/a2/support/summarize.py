@@ -140,6 +140,32 @@ if any(h for _, h in hs_all):
             out.append(f"| {'υπερπροσαρμοσμένη (C=100)' if C == 100 else 'κανονικοποιημένη (C=0,05)'} | {a} | {np.median(lam):.2f} ({np.quantile(lam, .1):.2f}–{np.quantile(lam, .9):.2f}) | "
                        f"{lam.std(ddof=1):.2f} | {(lam < .1).mean():.2f} | {(lam >= 2 - 1e-3).mean():.2f} | {dl.mean():.4f} ± {dl.std(ddof=1) / np.sqrt(len(dl)):.4f} | {und}/{len(hs)} | {conv:.2f} |")
     out.append('')
+# reconstruction of every decision from the stored estimates and standard errors
+from scipy.stats import t as _t
+def _holm(p, alpha=.025):
+    rej = np.zeros(2, bool); i = int(np.argmin(p))
+    if p[i] <= alpha / 2:
+        rej[i] = True
+        if p[1 - i] <= alpha:
+            rej[1 - i] = True
+    return rej
+jk = load('oc_jackknife_t.jsonl')
+if jk:
+    ok = 0; near = 0; nrep = 0
+    for r in jk:
+        a = np.array(r['per_rep_index_estimate_se'] or np.zeros((0, 5)), float)
+        G = r['cfg']['G']
+        rej = np.zeros((r['M_planned'], 2), bool)
+        for row in a:
+            pv = 1 - _t.cdf(row[1:3] / row[3:5], G - 1)
+            rej[int(row[0])] = _holm(pv)
+            near += int((np.abs(pv - .025) < 1e-5).any() or (np.abs(pv - .0125) < 1e-5).any())
+        nrep += len(a)
+        ok += int(np.array_equal(rej.sum(0), np.array(r['rejections'])))
+    out += ['## 7. Ανακατασκευή των αποφάσεων', '',
+            f'Από τις αποθηκευμένες εκτιμήσεις και τα τυπικά σφάλματα, με πλήρη αριθμητική ακρίβεια, ξαναϋπολογίζονται τα $p$ και εφαρμόζεται ξανά η διόρθωση Holm για {nrep} εκδοθέντα δείγματα. '
+            f'Οι απορρίψεις ταυτίζονται με τις καταγεγραμμένες σε {ok} από τα {len(jk)} σενάρια. '
+            f'Σε {near} δείγματα κάποιο $p$ απέχει λιγότερο από $10^{{-5}}$ από ένα όριο του Holm· γι’ αυτό οι τιμές δεν στρογγυλοποιούνται.', '']
 for name in ('test_ap.txt', 'test_generator.txt'):
     p = RES / name
     if p.exists():
