@@ -4,9 +4,9 @@
 **Language / Γλώσσα:** [Ελληνικά](../../../docs/start/research-summary.md) · **English**
 <!-- language-switch:end -->
 
-[Home](../../README.md) · [Core research plan (PDF, Greek)](../../../documents/core-research-plan.pdf) · [M1](../research/m1-selection-decision.md) · [A2](../research/a2-knowledge-design.md) · [M2](../research/m2-eise-research-design.md)
+[Home](../../README.md) · [Core research plan (PDF, Greek)](../../../documents/core-research-plan.pdf) · [Preliminary corpus inventory](../research/corpus/README.md) · [Detailed M1 design](../research/m1-selection-decision.md) · [A2](../research/a2-knowledge-design.md) · [M2a/M2b](../research/m2-eise-research-design.md)
 
-This page presents the core of the proposal, the studies M1, A2 and M2a, in three sections: research questions, proposed approach and expected contributions. Technical specifications are in the detailed page of each study and in the appendices. Their numerical values are initial proposals and will be set together with the supervisory team after the pilot study.
+This summary covers M1, A2 and M2a, together with the historical study M2b, whose confirmatory evaluation depends on sufficient source and performance evidence. The [detailed proposal (PDF, Greek)](../../../documents/analytical-proposal.pdf) develops the musicological foundations. The linked study pages explain the revised designs and technical checks. The corpus targets will be reviewed after the pilot.
 
 ## The musical problem
 
@@ -28,7 +28,7 @@ The question is divided into three studies that use the same corpus and the same
 
 **RQ3 — Identity and realisation (M2a).** Does learning from pairs of real occurrences of the same family, in different works, help to recognise the family? And does it do so without losing the musically important information of the particular realisation?
 
-The core is deliberately limited, so that it is feasible within the doctorate. A historical strand of M2 (M2b) uses, where the sources allow, **exegeses**: historical renderings of the same older passage in the New Method, such as those of Gregorios the Protopsaltes and Chourmouzios the Archivist. This strand and the other extensions are activated only if prespecified criteria of data and source sufficiency are met.
+**Historical question (M2b/EISE).** What does learning from two historically documented exegeses of the **same passage** add to learning from occurrences of the same family in different works? For each condition, the learned profile of written variation is compared with timing variability across independent chanters in the corresponding musical regions.
 
 ## 2. Proposed approach
 
@@ -36,7 +36,9 @@ The core is deliberately limited, so that it is feasible within the doctorate. A
 
 The works are encoded from files of Neanes, open-source software for writing Byzantine notation. The public *Papadic Formulae* catalogue of St Anthony's Monastery in Arizona, with formulae from 758 compositions, serves as a guide for locating material and candidate families. It is not, however, a ready corpus of complete works, so the inventory of available works, sources and licences is the first step of the work.
 
-The target is 40–60 complete works with 8–12 families and at least 25–30 occurrences per family from at least five independent works. Experts annotate the boundaries and the family of each occurrence, and at least 30% of occurrences, together with all hard cases, are annotated blind by a second expert. The pilot study of the first six months tests the whole chain on three families, the parakletike, the kylisma and the piasma, starting from Gheorghiță's comparisons in Koinonika. It also measures annotation time and expert agreement, so that the scale of the corpus is decided on the basis of measurements.
+The [preliminary inventory](../research/corpus/README.md) records metadata from Gheorghiță’s (2009) study of **42 Sunday Koinonika** and **11 formulaic formations**. It catalogues **338 rows across 68 tables**, which help locate passages for M1 and document candidate family specifications for A2. **Thirty-five rows record separate renderings by Gregorios and Chourmouzios** across Daniel’s eight Koinonika. Eligibility for M2b depends on identifying the witnesses and passages and checking historical dependencies. Complete works will be encoded from New Method sources.
+
+The target is 40–60 complete works with 8–12 families and at least 25–30 occurrences per family from at least five independent works. Experts annotate the boundaries and the family of each occurrence, and at least 30% of occurrences, together with all hard cases, are annotated blind by a second expert. The pilot study of the first six months tests the whole chain on three candidate families, the parakletike, the kylisma and the piasma, starting from Gheorghiță's comparisons in Koinonika. It also measures annotation time and expert agreement, so that the scale of the corpus is decided on the basis of measurements.
 
 ### Representing the music
 
@@ -46,11 +48,13 @@ On this form M1 compares twelve readings of the notation. It combines three inpu
 
 ### Models
 
-**M1** uses as its main model a semi-CRF, a probabilistic model that scores whole candidate segments rather than single signs. It therefore decides jointly where a formula begins and ends and to which family it belongs. The model is compared with two-stage solutions that first find boundaries and then the family. It is also compared with an event-level Transformer, with general segmentation cues (local discontinuities as in LBDM, unexpectedness as in IDyOM, repetition of melodic structures) and with unsupervised statistical segmentation.
+**M1** uses as its main model a semi-CRF, a probabilistic model that scores whole candidate segments rather than single signs. It therefore decides jointly where a formula begins and ends and to which family it belongs. The model is compared with two-stage solutions that first find boundaries and then the family. It is also compared with an event-level Transformer, with general segmentation cues (local discontinuities as in LBDM, unexpectedness as in IDyOM, repetition of melodic structures) and with unsupervised statistical segmentation. Rule J selects the representation that best recognises complete formulae, subject to a minimum requirement for family recognition given the boundaries. [M1 methodology and synthetic checks](../research/m1-selection-decision.md)
 
-**A2** keeps the M1 model fixed and adds only the musicological knowledge. Family specifications are written as logical rules over musical concepts, e.g. cadence, internal development or modal change, which are extracted automatically from the notation. Four conditions cross a valid or deliberately perturbed specification with its additive or logical use. The perturbed specifications keep the form, frequencies and overlaps of the valid ones, so that the comparison concerns content only. Two strong reference models learn from the same concepts without a specification.
+**A2** uses the same trained M1 base in all four experimental conditions within each run. Family specifications combine concepts extracted from the notation, such as cadence, internal development or modal change. The experiment crosses valid or deliberately perturbed specifications with additive or structured logical use. Perturbations preserve the structure and overlaps of the specifications and match concepts with similar frequencies. [A2 research design](../research/a2-knowledge-design.md) · [Technical protocol and synthetic checks](../appendices/k.md)
 
-**M2a** compares three graded conditions. The first is the symbolic M1 model, without representation learning. The second adds a neural encoder that learns from family labels and from reconstructing the realisation. The third adds a term that brings together the representations of occurrences of the same family from different works. The encoder keeps family identity and the information of the particular realisation separate, so that it can be tested whether better recognition comes at the expense of variation.
+**M2a** uses a symbolic reference model with fixed features and compares two neural conditions. The first learns to locate and recognise formulae and reconstruct features of their realisation. The second adds learning from pairs of occurrences of the same family in different works. Recognition is evaluated alongside the preservation of differences between realisations.
+
+**M2b** compares EISE with a matched family-based condition using the same architecture, initialisation and training protocol. EISE uses verified co-exegeses of the same passage as positive pairs. The family-based condition uses pairs of occurrences from the same family in different works. [Detailed M2a and M2b design](../research/m2-eise-research-design.md)
 
 ### Evaluation
 
@@ -59,6 +63,8 @@ Works that share historical material, e.g. copies or renderings of the same pass
 M1 measures how many occurrences are found with acceptable boundaries and the correct family. A2 and M2a measure how well the model ranks the real occurrences of each family, with average precision. M2a also measures how much information of the realisation is kept in the representations.
 
 Independent experts judge, blind to the source of the proposals, the recognitions and the hard cases (M3a). Finally, the final model is applied to complete works outside training to map how formulae are organised (M5-min). A statistical test is prespecified for the main comparisons of A2. If the data are insufficient, results are reported as estimates with their uncertainty.
+
+Pilot training for **M2b** requires eligible historical pairs. The confirmatory comparison additionally requires sufficient independent performances of the corresponding passages (M4-min) and checks of statistical adequacy. The inventory of historical relationships remains a deliverable in its own right.
 
 ### The approach at a glance
 
