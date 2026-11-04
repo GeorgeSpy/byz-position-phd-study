@@ -141,7 +141,7 @@ for b in ast['blocks']:
 assert main==len(chapter_files) and appendix==EXPECTED['appendices']
 
 # Stable ASCII targets preserve cross-chapter references in GitHub as well as HTML.
-targets={};counter=0
+targets={};counter=0;anchor_numbers={}
 old_targets=OLD_MANIFEST.get('targets',{})
 used=set();fresh=[max([int(v[1][1:]) for v in old_targets.values()]+[0])]
 # Headings renamed in the 3 November 2026 source keep the anchor of their predecessor.
@@ -166,7 +166,7 @@ for section in sections:
             if level==2:sub+=1;subsub=0;number+=f'.{sub}'
             elif level==3:subsub+=1;number+=f'.{sub}.{subsub}'
             elif level>=4:number=''
-            if number:obj['c'][2]=inlines(number+' · ')+content
+            if number:obj['c'][2]=inlines(number+' · ')+content;anchor_numbers[anchor]=number
             section['headings'].append({'level':level,'anchor':anchor,'title':plain(obj['c'][2])})
         elif typ in ('Span','Div') and obj['c'][0][0]:
             old=obj['c'][0][0];counter+=1;anchor=anchor_for(old,section['path'])
@@ -184,6 +184,9 @@ for section in sections:
                 relative=os.path.relpath(ROOT/path,ROOT/section['path']).replace('\\','/')
                 relative=os.path.relpath(ROOT/path,(ROOT/section['path']).parent).replace('\\','/')
                 obj['c'][2][0]=relative+('#'+anchor if anchor else '');link_count+=1
+                # Cross-references show the number of the target heading (E.1, not 16.1).
+                if anchor in anchor_numbers and re.fullmatch(r'\d+(\.\d+)*',plain(obj['c'][1]).strip()):
+                    obj['c'][1]=inlines(anchor_numbers[anchor])
                 obj['c'][0]=['',[],[]]
             else:missing.append(old)
 assert not missing,missing

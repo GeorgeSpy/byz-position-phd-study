@@ -8,6 +8,8 @@ detail than the PDF, that text is kept in sources/reader-detail/:
                       <a id="anchor">; the heading line of the generated page
                       (number and title from the PDF) is kept.
   <page>-append.md.txt    is added at the end of the page body, before the footer.
+  substitutions.json.txt  exact phrase replacements [{page, old, new, count}],
+                          applied last; each must match the expected count.
 
 The script also refreshes the heading list of each affected page in
 sources/reader-manifest.json.
@@ -38,6 +40,7 @@ def body_after_heading(block):
 
 changed = set()
 for item in sorted(DETAIL.glob('*.md.txt')):
+    if item.name=='substitutions.json.txt':continue
     page, key = item.name[:-len('.md.txt')].rsplit('-', 1)
     path = PAGES[page]; text = path.read_text(encoding='utf-8')
     detail = item.read_text(encoding='utf-8')
@@ -50,6 +53,33 @@ for item in sorted(DETAIL.glob('*.md.txt')):
         heading = re.search(r'^#+ .*\n', block, re.M)
         text = text[:s] + block[:heading.end()] + body_after_heading(detail).rstrip('\n') + '\n\n' + text[e:]
     path.write_text(text, encoding='utf-8'); changed.add(path)
+
+sub_file = DETAIL/'substitutions.json.txt'
+if sub_file.exists():
+    for sub in json.loads(sub_file.read_text(encoding='utf-8')):
+        path = PAGES[sub['page']]; text = path.read_text(encoding='utf-8')
+        found = text.count(sub['old'])
+        if found != sub.get('count', 1):
+            raise SystemExit(f"{path.name}: expected {sub.get('count', 1)} of {sub['old'][:60]!r}, found {found}")
+        path.write_text(text.replace(sub['old'], sub['new']), encoding='utf-8'); changed.add(path)
+
+# Numeric cross-references (e.g. [16.1](../appendices/e.md#r138)) show the target's own number.
+LINK = re.compile(r'\[(\d+(?:\.\d+)*)\]\(((?:\.\./)?(?:full|appendices)/)?([0-9a-z-]+)\.md(?:#(r\d+))?\)')
+def target_number(page, anchor):
+    text = PAGES[page].read_text(encoding='utf-8')
+    if anchor:
+        m = re.search(r'<a id="' + anchor + r'"></a>\s*\n\s*\n?#+ ([0-9A-L]+(?:\.\d+)*) · ', text)
+        return m.group(1) if m else None
+    m = re.search(r'^# ([0-9A-L]+) · ', text, re.M) or re.search(r'^# ([A-L]) ', text, re.M)
+    return m.group(1) if m else (page.upper() if len(page) == 1 else None)
+for page, path in PAGES.items():
+    text = path.read_text(encoding='utf-8')
+    def fix(m):
+        number = target_number(m.group(3), m.group(4)) if m.group(3) in PAGES else None
+        return m.group(0).replace('[' + m.group(1) + ']', '[' + number + ']', 1) if number else m.group(0)
+    new = LINK.sub(fix, text)
+    if new != text:
+        path.write_text(new, encoding='utf-8'); changed.add(path)
 
 manifest_path = ROOT/'sources/reader-manifest.json'
 manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
