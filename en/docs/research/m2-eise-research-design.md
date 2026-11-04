@@ -1,4 +1,4 @@
-# M2 — Revised research design and the EISE architecture
+# M2 — Revised design of family-based and historical supervision
 
 **Methodological documentation · 3 November 2026**
 
@@ -16,21 +16,21 @@ A melodic formula retains its family identity even when its particular realisati
 
 Developing the architecture revealed the need to distinguish learned neural representations from direct symbolic baselines. The revision therefore separates architecture A from the two B0 baselines and ensures that neural comparisons start from matched weights in each replicate. It also assigns distinct roles to two sources of supervision: independently validated membership in the same family, and a historically documented co-exegesis of the same passage.
 
-This distinction leads to two connected studies. **M2a** investigates relational learning of family identity while evaluating the preservation of realisation-specific information. **M2b** examines the additional contribution of historical supervision within the shared domain where verified exegeses and independent performances are available. The historical relationship is the distinctive research focus of the EISE architecture.
+This distinction leads to two connected studies. **M2a** investigates relational learning of family identity while assessing preservation of realisation-specific information. **M2b** evaluates the contribution of historical supervision in the shared domain of verified exegeses and independent performances. The historically supervised **EISE condition** (*Exegesis-Invariant Segmental Encoder*) uses verified co-exegeses of the same passage, trained with the common architecture A.
 
 ## 2. From M1 to M2: architecture and initialisation
 
-M1 compares twelve representations in the $U\times\Phi$ grid and selects one operational $R^\star$ using rule J. Selection is performed with the prespecified architecture A, which combines a trainable neural encoder with a segmental semi-CRF of zero order with respect to label transitions between adjacent segments. The encoder is chosen in the preliminary S1 stage, with TCN-S as the initial candidate and a BiGRU with matched context width as the comparator. M1's architectures B and C are evaluated across the complete grid as separate, descriptive comparisons.
+M1 compares twelve representations in the $U\times\Phi$ grid and selects one operational $R^\star$ using rule J. Selection is performed with the prespecified architecture A, which combines a trainable neural encoder with a segmental semi-CRF of zero order with respect to label transitions between adjacent segments. The encoder is chosen in the preliminary encoder comparison, with TCN-S as the initial candidate and a BiGRU with matched context width as the comparator. M1's architectures B and C are evaluated across the complete grid as separate, descriptive comparisons.
 
-M2 carries forward the **selected input representation** and **architecture configuration**, recorded as **A_M1_selected**. The identifier **m1_checkpoint_id** separately records the trained M1 weights for reproducibility. B1, B2, and EISE are **trained from scratch using identical initial weights for each random seed**. Their shared starting point is recorded as **m2_init_checkpoint_id**.
+M2 carries forward the **selected input representation** and **architecture configuration**, recorded as `A_M1_selected`. The identifier `m1_checkpoint_id` records the trained M1 weights for reproducibility. B1, B2, and EISE are **trained from scratch using identical initial weights in each replicate with matched random initialisation**; their shared starting point is recorded as `m2_init_checkpoint_id`.
 
 If self-supervised pretraining is selected, it uses only the eligible training data within the corresponding partition. The same pretrained initial state is supplied to all compared conditions. Works and related-source groups are partitioned before training, with common passages and historical dependencies documented separately. The main historical comparison uses the single operational $R^\star$. The set $\mathcal R^\star$ represents selection uncertainty, and at most one additional $R_{\mathrm{sens}}$ may be used for a prespecified descriptive sensitivity analysis.
 
 Matching the architecture, initialisation, data partitions, and computational budget enables a controlled investigation of the contribution made by the source of relational supervision.
 
-## 3. How EISE represents a melodic formula
+## 3. Common neural architecture A and representations of a melodic formula
 
-**EISE** (*Exegesis-Invariant Segmental Encoder*) receives a symbolic sequence of melodic events $X=(e_1,\ldots,e_T)$ and produces local states:
+**Architecture A**, shared by B1, B2, and EISE, receives a symbolic sequence of melodic events $X=(e_1,\ldots,e_T)$ and produces local states:
 
 $$
 h_t=g_\theta(X,t).
@@ -61,7 +61,7 @@ The $\mathrm{B0}_{\mathrm{sym}}$ baseline measures the contribution of fixed sym
 
 M2a asks whether learning from realisations of the same family improves recognition on held-out works. Positive pairs connect occurrences with independently validated family membership and controlled provenance. Performance on difficult examples, including superficially similar occurrences from different families, is evaluated separately.
 
-The shared family of training losses is:
+The shared training loss is:
 
 $$
 \mathcal L_m=\mathcal L_{\mathrm{seg}}+
@@ -108,7 +108,7 @@ $$
 
 where $\widehat{\Sigma}$ is the weighted covariance matrix and $d_h$ the dimensionality of the local states. Correlated historical witnesses and multiple exegeses receive weights that respect the independence structure of the source groups.
 
-M4-min provides the external $\Gamma_f(u)$ from normalised timing variation among different chanters performing the corresponding musical regions. $S_m$ summarises rank agreement between historical and performance profiles in the shared eligible domain. M2b has **one primary historical contrast**:
+M4-min defines the external $\Gamma_f(u)$ as **the variability of normalised timing between chanters** in corresponding musical regions. $S_m$ summarises rank agreement between historical and performance-variation profiles in the shared eligible domain. M2b has **one primary historical contrast**:
 
 $$
 \Delta_{\mathrm{hist}}=
@@ -118,7 +118,7 @@ $$
 
 The comparison is **two-sided**. A positive difference indicates greater agreement with the independent criterion under EISE; a negative difference favours the family-supervised condition. Family weights, matched graphs, replication, and the final estimation procedure are specified before the historical test set is accessed.
 
-The diagnostic contrast
+The secondary diagnostic difference is defined as
 
 $$
 \Delta_{\mathrm{learn}}=
@@ -126,7 +126,7 @@ S_{\mathrm{EISE}}-
 S_{\mathrm{B0}_{\mathrm{profile}}}
 $$
 
-is **secondary** and compares EISE with the direct symbolic profile. Individual $S_m$ values and the direct historical–performance correlation are reported separately. Regions with undefined or constant profiles are documented and handled under prespecified abstention rules.
+and compares EISE with the direct symbolic historical profile. Individual $S_m$ values and the direct historical–performance correlation are reported separately. Regions with undefined or constant profiles are documented and handled under prespecified abstention rules.
 
 ## 8. Learning from partial annotations
 
@@ -140,17 +140,17 @@ $$
 
 where $Z_\theta(X)$ sums the weights of all globally legal analyses, and $Z_\theta(X;C)$ those satisfying the available annotation $C$.
 
-The revised annotation contract separately records **which families were checked** within an explicitly specified scope (checked_families), **which logical obligations apply** (obligations), and **which background regions were explicitly observed** (observed_background). Missing labels are interpreted in the context of the documented annotation coverage. Obligations may specify exactly one of several alternatives, at least one admissible occurrence, or a set of complete alternative analyses.
+The revised annotation contract separately records **which families were checked** within an explicit scope (`checked_families`), **which logical obligations apply** (`obligations`), and **which background regions were explicitly observed** (`observed_background`). Missing labels are interpreted using documented annotation coverage. Obligations may specify exactly one of several alternatives, at least one admissible occurrence, or a set of complete alternative analyses.
 
-A small exhaustive reference implementation and the symbolic constraint compiler use the same semantics. Their checks address the set of admissible analyses, boundary compatibility, loss gradients, and agreement between dynamic programming and exhaustive enumeration.
+The final implementation will require identical semantics in the exhaustive enumeration of small examples and in the symbolic constraint compiler. Their equivalence must be tested against the legal-analysis set, boundary compatibility, loss gradients, and dynamic programming.
 
 ## 9. Weighting unique annotation obligations
 
-The revised D1 specification addresses repeated exposure to the same annotation evidence in overlapping windows. It defines a **prespecified, immutable registry of unique annotation obligations**, with weights assigned at the level of independent source and occurrence clusters. Verification criteria include full-gradient tests T17–T24 and T57, together with small exact examples.
+The **proposed D1 correction**, pending integration into the active Appendix G and implementation, addresses duplicate counting of annotation evidence in overlapping windows. It specifies an immutable registry of unique obligations and cluster-level weighting. Acceptance requires exact checks against exhaustive examples and corresponding gradients.
 
-Whole-formula evaluation in M1 remains the common reference. Corpus-level micro-F1 is computed as **one ratio over the complete evaluation corpus**, considering globally legal predictions and reference occurrences. Test50 addresses cases in which the number of admissible reference occurrences varies. Tests T51–T58 specify additional checks of the partial-annotation contract.
+M2 adopts **M1's shared complete-formula evaluation protocol**. When reference annotation permits alternative complete analyses, the compatible reference analysis is selected at corpus level to maximise the single ratio $2M/(P+X)$, using the actual total numbers of predictions and reference occurrences. The mathematical definition and its tests belong to the [M1 evaluation specification](m1-selection-decision.md).
 
-These checks are **acceptance criteria for the final implementation**. Evidence from synthetic verification of individual cases and execution of the full test suite on real data are documented separately.
+The final implementation will be checked for partial-annotation semantics, unique obligations, globally legal reference analyses, and gradient correctness. Synthetic checks are documented separately from real-data performance.
 
 ## 10. Conditions for the confirmatory historical comparison
 
@@ -158,7 +158,7 @@ Confirmatory evaluation in M2b depends on three adequacy gates:
 
 | Gate | Purpose |
 | --- | --- |
-| **G-PAIR** | Sufficient independent historical pairs, reliable historical documentation, and feasible B2–EISE matching. |
+| **G-PAIR** | Sufficient independent historical pairs, reliable historical documentation, and feasible $\mathrm{B2}_{\mathrm{main}}$–EISE matching. |
 | **G-PERF** | Sufficient reliable independent performances in the corresponding musical regions. |
 | **G-STAT** | Adequate precision, power, and calibration of the particular statistical procedure under the corpus's dependence structure. |
 
@@ -171,8 +171,8 @@ When the shared domain is limited, findings are reported with their actual cover
 Implementation is organised into distinct, reproducible stages:
 
 1. **WP0 — source inventory.** Works, sources, family specifications, historical pairs, witness independence, access rights, and performance coverage.
-2. **G-ORACLE — mathematical implementation checks.** Exhaustive enumeration, semi-CRF checks, partial annotations, obligation weighting, and full gradients. This precedes the main real-data S0/S1 training runs.
-3. **S1 and M1 — encoder and representation selection.** Fixing architecture A, selecting $R^\star$, evaluating architectural comparators, and assessing transferability.
+2. **Mathematical implementation checks (G-ORACLE).** Following the initial source inventory and before the main training runs, exhaustive enumeration, segmental decoding, partial annotations, obligation weighting, and gradients are verified.
+3. **Preliminary encoder comparison and M1.** TCN-S and BiGRU are compared before the M1 grid, architecture A is fixed, $R^\star$ is selected, and architectural comparators are evaluated.
 4. **M2a — family-relational learning.** Paired B1–$\mathrm{B2}_{\mathrm{fam}}$ evaluation using $\Delta_{\mathrm{famrel}}$ and $Q_{\mathrm{real}}$.
 5. **M2b — historical supervision.** Historical and performance adequacy gates, $\mathrm{B2}_{\mathrm{main}}$–EISE matching, common initialisation, and external evaluation.
 6. **Reproducibility and reporting.** Recording sources, annotations, initial weights, checks, protocol versions, and statistical uncertainty.
