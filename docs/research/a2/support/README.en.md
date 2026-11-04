@@ -22,7 +22,7 @@ This folder contains the synthetic checks behind this revision's decisions on th
 | `summarize.py` | Produces `results/summary.md`. |
 | `run_all.sh` | Full reproduction (about 35–40 minutes on one core). |
 | `results/*.jsonl` | One line per scenario or bank, with seed, configuration, software versions and the individual reference values. `oc_jackknife_t.jsonl` also holds the estimates and standard errors of every dataset, at full numerical precision, so that every decision can be reconstructed exactly (§7 of the summary). The intermediate `oc_jackknife_t_a.jsonl` and `_b.jsonl` are created during the run. |
-| `results/earlier_batches/` | The two earlier runs, in which the reference and the datasets shared one random stream. Kept for the record and not used in the current results. |
+| `results/earlier_batches/` | The two earlier runs, in which the reference and the datasets shared one random stream. Kept for the record and not used in the current results. The subfolder [`pr50-2026-11-03`](results/earlier_batches/pr50-2026-11-03/README.md) also keeps, byte-identical, the first feasibility batch of 3 November. |
 
 ## Main results
 
