@@ -145,7 +145,7 @@ The main architecture **A** scores variable-length segments with a semi-Markov C
 The operational representation $R^\star$ results from:
 
 $$
-\widehat J(R)=\frac15\sum_{r=1}^{5}F1_{\mathrm{seg+fam}}^{(r)}(R,A),
+\widehat J(R)=\frac{1}{5}\sum_{r=1}^{5}F1_{\mathrm{seg+fam}}^{(r)}(R,A),
 $$
 
 $$
@@ -163,7 +163,7 @@ $\widehat G_A$ is the mean recall per known family on complete known segments, w
 For a candidate segment $s$ and family $f$, each replicate $r=1,\dots,5$ has its own trained base:
 
 $$
-b_r(s,f)=b_{\widehat\psi_r}(s,f).
+b_r(s,f)=b_{\widehat{\psi} _ r}(s,f).
 $$
 
 $b_r$ uses the `A_M1_selected` configuration on $R^\star$. It is trained without specifications on development groups $\mathcal{D} _ {\mathrm{base}}$, and its temperature is fitted on separate internal development groups $\mathcal{D} _ {\mathrm{int}}$. In the **main A2** the base remains fixed and shared by the conditions of the same replicate. The intervention therefore concerns how musicological knowledge is used. Full retraining of the encoder is a separate sensitivity analysis.
@@ -224,7 +224,7 @@ $$
 w_r\ge0.1,\qquad\sum_rw_r=1,\qquad\lambda\in[0,2].
 $$
 
-The weights are shared across families and fitted separately for each condition with a common procedure, on the groups $\mathcal{D} _ {\mathrm{int}}$. The value $\lambda=0$ is feasible, so $D$ can coincide numerically with $F$. No positive lower bound is imposed. The distribution of $\hat\lambda$, the share with $\hat\lambda<0.1$ and the frequency at the upper bound 2 are reported. A nearly inactive penalty and an active penalty without benefit are different outcomes (§16).
+The weights are shared across families and fitted separately for each condition with a common procedure, on the groups $\mathcal{D} _ {\mathrm{int}}$. The value $\lambda=0$ is feasible, so $D$ can coincide numerically with $F$. No positive lower bound is imposed. The distribution of $\hat{\lambda}$, the share with $\hat{\lambda}\lt 0.1$ and the frequency at the upper bound 2 are reported. A nearly inactive penalty and an active penalty without benefit are different outcomes (§16).
 
 ### 7.4 Why structure can add information
 
@@ -309,12 +309,12 @@ $B_K$ and $B^\star$ have distinct roles and are not merged into one generic refe
 
 ## 11. The primary estimands
 
-Let $S(C,K)$ be the mean $\mathrm{AP} _ {\mathrm{fam}}$ of condition $(C,K)$ over the five replicates and $\bar S(C,P)$ the mean over the ten perturbations. The aggregation is defined in §12 and is the same in all conditions.
+Let $S(C,K)$ be the mean $\mathrm{AP_{fam}}$ of condition $(C,K)$ over the five replicates and $\bar S(C,P)$ the mean over the ten perturbations. The aggregation is defined in §12 and is the same in all conditions.
 
 ### 11.1 Primary estimand: $\Delta_{\mathrm{know}}$
 
 $$
-\boxed{\Delta_{\mathrm{know}}=\frac12\left\lbrace S(D,V)-\bar S(D,P)+S(F,V)-\bar S(F,P)\right\rbrace} .
+\boxed{\Delta_{\mathrm{know}}=\frac{1}{2}\left\lbrace S(D,V)-\bar S(D,P)+S(F,V)-\bar S(F,P)\right\rbrace} .
 $$
 
 It estimates the effect of valid knowledge, averaged over the two modes of use. Its interpretation refers to the declared set of families, perturbations and work–source groups.
@@ -341,7 +341,7 @@ A positive $\Delta_{\mathrm{know}}$ supports the predictive value of valid music
 
 ## 12. Metrics and hard cases
 
-The primary comparison uses average precision $\mathrm{AP} _ {\mathrm{fam}}$, a measure of ranking quality. For each family $f$ of the fixed set $\mathcal{F} _ 0$, occurrences are ranked by the score of $f$, one against the rest. Each occurrence has equal weight. Tied blocks are inserted simultaneously. $\mathrm{AP} _ {\mathrm{fam}}$ is the mean of the $\mathrm{AP} _ f$. If a family has no positives in the evaluation set, $\mathrm{AP} _ {\mathrm{fam}}$ is undefined and the family is not removed post hoc.
+The primary comparison uses average precision $\mathrm{AP_{fam}}$, a measure of ranking quality. For each family $f$ of the fixed set $\mathcal{F} _ 0$, occurrences are ranked by the score of $f$, one against the rest. Each occurrence has equal weight. Tied blocks are inserted simultaneously. $\mathrm{AP_{fam}}$ is the mean of the $\mathrm{AP} _ f$. If a family has no positives in the evaluation set, $\mathrm{AP_{fam}}$ is undefined and the family is not removed post hoc.
 
 The following are also recorded:
 
@@ -375,13 +375,13 @@ The uncertainty estimate accounts for:
 
 The five replicates measure numerical stability and allow paired comparison. They are not five independent musical samples. Likewise, the ten perturbations do not increase the number of independent works.
 
-**Primary candidate procedure.** For each contrast $\theta$, the original estimate $\hat\theta$ over all $G$ independent groups of the test set H is divided by the delete-one-group standard error $\mathrm{SE} _ J$. The statistic $T=\hat\theta/\mathrm{SE} _ J$ is referred to a Student $t(G-1)$ distribution. Each deletion recomputes the pooled AP and exactly the same contrasts. A confirmatory $p$ is issued only if all quantities are defined and the standard errors are finite and positive. The paired group bootstrap-t is evaluated separately as a sensitivity analysis. Full definitions are in [Appendix K, §K.8](../appendices/k.md#k8--statistical-procedure-and-multiplicity).
+**Primary candidate procedure.** For each contrast $\theta$, the original estimate $\hat{\theta}$ over all $G$ independent groups of the test set H is divided by the delete-one-group standard error $\mathrm{SE} _ J$. The statistic $T=\hat{\theta}/\mathrm{SE} _ J$ is referred to a Student $t(G-1)$ distribution. Each deletion recomputes the pooled AP and exactly the same contrasts. A confirmatory $p$ is issued only if all quantities are defined and the standard errors are finite and positive. The paired group bootstrap-t is evaluated separately as a sensitivity analysis. Full definitions are in [Appendix K, §K.8](../appendices/k.md#k8--statistical-procedure-and-multiplicity).
 
 **Calibration before H.** The $t(G-1)$ reference is a prespecified approximation. Its confirmatory use requires acceptable operating characteristics in a simulation study with realistic sizes from the pilot, before H is opened. The study uses exact null hypotheses, runs the full procedure on every synthetic dataset and reports separate denominators for planned, defined and issued datasets. If the gate fails, results are reported **as estimates**, with intervals and exploratory status. No alternative method is chosen on the basis of H.
 
 **Composition of H.** H is designed so that every family appears in enough independent groups. Presence in at least two groups is necessary for the jackknife to be defined but is not sufficient for power or coverage. The coverage rule determines which groups can be in H together and hence the evaluation distribution. The simulation study therefore runs the same algorithm that allocates groups to H and development. The target $m_H$ and the minimum coverage of development are set jointly in the pilot.
 
-**What the synthetic checks showed.** The checks in [`a2/support/`](../../../docs/research/a2/support/README.en.md) use arbitrary synthetic parameters. They show mechanisms and orders of magnitude, not the performance of the real corpus. With exact nulls and independent random streams, the jackknife-$t(G-1)$ kept the FWER at 0–0.026 for $G=6$–30, with coverage 0.953–0.994. An earlier batch with a shared stream for the reference and the datasets had given 0.028, with an upper Monte Carlo bound of 0.047. The per-dataset bootstrap-t gave lower coverage (0.89–0.94) and, because of suspensions, lower power. With sparse family presence, allocating groups to H for family coverage raised the issued datasets from 498 to 992 of 1000; with $m_H=2$, however, development was often left with a family in fewer than two groups. Calibration in the pilot remains necessary: in one scenario the FWER reached the nominal level, and $m_H$ is set together with the minimum coverage of development.
+**What the synthetic checks showed.** The checks in [`a2/support/`](../../../docs/research/a2/support/README.en.md) use arbitrary synthetic parameters. They show mechanisms and orders of magnitude, not the performance of the real corpus. With exact nulls and independent random streams, the jackknife-t with a $t(G-1)$ reference kept the FWER at 0–0.026 for $G=6$–30, with coverage 0.953–0.994. An earlier batch with a shared stream for the reference and the datasets had given 0.028, with an upper Monte Carlo bound of 0.047. The per-dataset bootstrap-t gave lower coverage (0.89–0.94) and, because of suspensions, lower power. With sparse family presence, allocating groups to H for family coverage raised the issued datasets from 498 to 992 of 1000; with $m_H=2$, however, development was often left with a family in fewer than two groups. Calibration in the pilot remains necessary: in one scenario the FWER reached the nominal level, and $m_H$ is set together with the minimum coverage of development.
 
 ### 13.1 Equivalence and non-inferiority
 
@@ -443,11 +443,11 @@ The cases below are **interpretive scenarios**, not results.
 
 | Observed pattern | Interpretation and next check |
 |---|---|
-| $\Delta_{\mathrm{know}}>0$ and $\Delta_{\mathrm{logic},V}>0$ with adequate precision | Valid knowledge and its logical composition give a distinct benefit. DV is tested against $B_K$ and $B^\star$, and generalisation per family is checked. |
+| $\Delta_{\mathrm{know}}\gt 0$ and $\Delta_{\mathrm{logic},V}\gt 0$ with adequate precision | Valid knowledge and its logical composition give a distinct benefit. DV is tested against $B_K$ and $B^\star$, and generalisation per family is checked. |
 | Positive validity effect, small structure effect | The musicological concepts are useful, but the extra logical penalty may add little in this corpus. |
 | Small validity effect, positive structure effect | A general benefit of the constraining parametrisation, or insufficient separation of valid and perturbed knowledge, is investigated. |
-| $\hat\lambda$ near zero in most fits | The penalty stays nearly inactive: the data do not use it. Activation of $v$ and extractor quality are checked. |
-| Active penalty ($\hat\lambda$ away from 0) without benefit on H | The penalty is used in training but does not generalise; dependence on the development groups and the validity of the rules are examined. |
+| $\hat{\lambda}$ near zero in most fits | The penalty stays nearly inactive: the data do not use it. Activation of $v$ and extractor quality are checked. |
+| Active penalty ($\hat{\lambda}$ away from 0) without benefit on H | The penalty is used in training but does not generalise; dependence on the development groups and the validity of the rules are examined. |
 | $B_K$ above DV | Extractor quality, scope and excessive narrowness or breadth of the specifications are examined. |
 | $B^\star$ above DV | Relative expressiveness and capacity and the practical value of explicit rules for the available data are examined. |
 | Large variation across sources or families | Generalisation is characterised per group; musicological inconsistencies, rare types and missing diagnostics are investigated. |
@@ -522,11 +522,11 @@ The A2 of the core programme uses the additive score with and without a logical 
 ### 18.2 Decisions in this revision
 
 1. **Single technical reference:** [Appendix K](../appendices/k.md) is the A2 protocol for this version.
-2. **$\lambda$:** remains $[0,2]$ without a positive lower bound; the distribution of $\hat\lambda$, the share with $\hat\lambda<0.1$ and the frequency at 2 are reported.
+2. **$\lambda$:** remains $[0,2]$ without a positive lower bound; the distribution of $\hat{\lambda}$, the share with $\hat{\lambda}\lt 0.1$ and the frequency at 2 are reported.
 3. **Heads:** fitted on $\mathcal{D} _ {\mathrm{int}}$, where the temperature is also fitted.
 4. **Generator:** a constrained sampler of bijective mappings, a change in every family's canonical card, canonical and functional uniqueness, LP certificates with checked residuals and a conservative dual lower bound.
-5. **$\mathrm{AP} _ {\mathrm{fam}}$:** fully defined (§12 and §K.6).
-6. **Statistical procedure:** jackknife-$t(G-1)$ as primary candidate, bootstrap-t as sensitivity, calibration in WP0 before H.
+5. **$\mathrm{AP_{fam}}$:** fully defined (§12 and §K.6).
+6. **Statistical procedure:** jackknife-t with a $t(G-1)$ reference as primary candidate, bootstrap-t as sensitivity, calibration in WP0 before H.
 7. **Composition of H:** family-coverage design, with the same allocation algorithm in the calibration study.
 8. **Supportive relations:** outside $Q$ and $\phi$ until the WP0 decision.
 9. **Metrics:** $F1_{\mathrm{seg+fam}}$ for joint recognition of boundaries and family and $F1_{\mathrm{bnd}}$ for boundaries, as in M1.
@@ -646,7 +646,7 @@ The registry records the exact files and versions of annotations and specificati
 | **$B^\star$** | Strong neural comparator with SupCon, prototypes and concept supervision |
 | **$\Delta_{\mathrm{know}}$** | Mean effect of content validity across mechanisms F and D |
 | **$\Delta_{\mathrm{logic},V}$** | Effect of structured use under valid knowledge |
-| **jackknife-$t(G-1)$** | Original estimate divided by the delete-one-group standard error, referred to a Student $t$ with $G-1$ degrees of freedom |
+| **jackknife-t** | Original estimate divided by the delete-one-group standard error, referred to a Student $t$ with $G-1$ degrees of freedom |
 | **IUT** | Intersection–union test of the ECSI confirmatory framework; it does not replace the two primary A2 tests |
 | **Concept clamping** | Operational replacement of an estimated concept with a confirmed value, without automatic causal interpretation |
 
