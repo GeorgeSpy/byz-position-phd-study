@@ -200,9 +200,9 @@
 
 71. Marconato, E., Teso, S., Vergari, A., & Passerini, A. (2023). “Not All Neuro-Symbolic Concepts Are Created Equal: Analysis and Mitigation of Reasoning Shortcuts.” *Advances in Neural Information Processing Systems*, 36.
 
-72. Mavromatis, P. (2005a). “A Hidden Markov Model of Melody Production in Greek Church Chant.” *Computing in Musicology*, 14, 93-112.
+72. Mavromatis, P. (2005). *The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications*. Doctoral dissertation, Eastman School of Music, University of Rochester.
 
-73. Mavromatis, P. (2005b). *The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications*. Doctoral dissertation, Eastman School of Music, University of Rochester.
+73. Mavromatis, P. (2006). “A Hidden Markov Model of Melody Production in Greek Church Chant.” *Computing in Musicology*, 14, 93-112.
 
 74. Mavromatis, P. (2009a). “Minimum Description Length Modelling of Musical Structure.” *Journal of Mathematics and Music*, 3(3), 117-136.
 

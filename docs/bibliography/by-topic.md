@@ -115,8 +115,8 @@
 | [b052](entries/b052.md) | Delviniotis (2011) | DAMASKINOS: The Prototype Corpus of Greek Orthodox Ecclesiastical Chant Voices |
 | [b059](entries/b059.md) | Gezerlis (2002) | Optical Character Recognition of the Orthodox Hellenic Byzantine Music Notation |
 | [b085](entries/b085.md) | Kokkinidis (2016) | Finding the Optimum Training Solution for Byzantine Music Recognition-A Max/Msp Approach |
-| [b092](entries/b092.md) | Mavromatis (2005a) | A Hidden Markov Model of Melody Production in Greek Church Chant |
-| [b093](entries/b093.md) | Mavromatis (2005b) | The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications |
+| [b092](entries/b092.md) | Mavromatis (2006) | A Hidden Markov Model of Melody Production in Greek Church Chant |
+| [b093](entries/b093.md) | Mavromatis (2005) | The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications |
 | [b094](entries/b094.md) | Mavromatis (2009a) | Minimum Description Length Modelling of Musical Structure |
 | [b095](entries/b095.md) | Mavromatis (2009b) | HMM Analysis of Musical Structure: Identification of Latent Variables Through Topology-Sensitive Model Selection |
 | [b097](entries/b097.md) | Mavromatis (2019) | Hierarchical Structural Patterns in Improvised Music: Implications for Cognition |

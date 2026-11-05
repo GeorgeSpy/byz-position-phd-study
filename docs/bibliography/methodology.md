@@ -180,11 +180,11 @@
 <a id="s057"></a>
 - Mahajan, D., Tople, S., & Sharma, A. (2021). Domain generalization using causal matching. *Proceedings of the 38th International Conference on Machine Learning (ICML)*, PMLR 139.
 
-<a id="s058"></a>
-- Mavromatis, P. (2005a). A hidden Markov model of melody production in Greek church chant. *Computing in Musicology*, 14, 93–112.
-
 <a id="s059"></a>
-- Mavromatis, P. (2005b). *The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications* (Doctoral dissertation). Eastman School of Music, University of Rochester.
+- Mavromatis, P. (2005). *The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications* (Doctoral dissertation). Eastman School of Music, University of Rochester.
+
+<a id="s058"></a>
+- Mavromatis, P. (2006). A hidden Markov model of melody production in Greek church chant. *Computing in Musicology*, 14, 93–112.
 
 <a id="s060"></a>
 - Mongeau, M., & Sankoff, D. (1990). Comparison of musical sequences. *Computers and the Humanities*, 24(3), 161–175. <https://doi.org/10.1007/BF00117340>

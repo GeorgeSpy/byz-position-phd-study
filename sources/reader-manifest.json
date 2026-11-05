@@ -1,6 +1,6 @@
 {
-  "source_sha256": "439ef3c07d56179d291983e5c496aa984bf93d85ed29a26cab7e862816d42109",
-  "pdf_sha256": "de4a3d03b139f884a9a28e1d7e9e62bced5b57c128c8ee56c4cc2ef5561d4842",
+  "source_sha256": "f241283bfe76d3fc65d796c74471d308ead20172d8513fcd1f5c7af7091c0d8b",
+  "pdf_sha256": "889c77fcda8438b77fd277c794918725108d26e021ba589677686cc9f3869937",
   "sections": [
     {
       "path": "docs/full/00-abstract.md",
@@ -3059,20 +3059,20 @@
       "year": "2023"
     },
     {
-      "id": "b092",
-      "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 72,
-      "text": "Mavromatis, P. (2005a). A Hidden Markov Model of Melody Production in Greek Church Chant. Computing in Musicology, 14, 93-112.",
-      "author": "Mavromatis",
-      "year": "2005a"
-    },
-    {
       "id": "b093",
       "language": "Ξενόγλωσση Βιβλιογραφία",
-      "source_number": 73,
-      "text": "Mavromatis, P. (2005b). The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications. Doctoral dissertation, Eastman School of Music, University of Rochester.",
+      "source_number": 72,
+      "text": "Mavromatis, P. (2005). The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications. Doctoral dissertation, Eastman School of Music, University of Rochester.",
       "author": "Mavromatis",
-      "year": "2005b"
+      "year": "2005"
+    },
+    {
+      "id": "b092",
+      "language": "Ξενόγλωσση Βιβλιογραφία",
+      "source_number": 73,
+      "text": "Mavromatis, P. (2006). A Hidden Markov Model of Melody Production in Greek Church Chant. Computing in Musicology, 14, 93-112.",
+      "author": "Mavromatis",
+      "year": "2006"
     },
     {
       "id": "b094",
