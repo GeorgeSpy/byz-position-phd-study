@@ -53,4 +53,4 @@ Work begins with a passage inventory and family specifications. It proceeds thro
 
 The wider aim is a methodology for musical traditions in which identity persists across diverse realisations and historical documentation supplies substantive knowledge for learning. Transfer to other modal repertories will be examined using their own musicological evidence and evaluation data.
 
-[English short proposal](../../../documents/short-proposal-en.pdf) · [Greek short proposal](../../../documents/short-proposal.pdf) · [Detailed proposal — Greek PDF](../../../documents/analytical-proposal.pdf) · [Documents and protocols](../reference.md)
+[Core research plan — Greek PDF](../../../documents/core-research-plan.pdf) · [Detailed proposal — Greek PDF](../../../documents/analytical-proposal.pdf) · [Earlier short proposal (23 Oct 2026), English](../../../documents/short-proposal-en.pdf) · [Greek](../../../documents/short-proposal.pdf) · [Documents and protocols](../reference.md)

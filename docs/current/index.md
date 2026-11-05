@@ -37,7 +37,7 @@
 
 ## Πλήρες κείμενο και βιβλιογραφία
 
-[Σύντομη πρόταση](../../documents/short-proposal.pdf) · [English version](../../documents/short-proposal-en.pdf) · [Αναλυτική πρόταση](../../documents/analytical-proposal.pdf) · [Κεφάλαια και παραρτήματα](../full/index.md)
+[Σχέδιο βασικού ερευνητικού πυρήνα](../../documents/core-research-plan.pdf) · [Αναλυτική πρόταση](../../documents/analytical-proposal.pdf) · [Προγενέστερη σύντομη πρόταση (23/10/2026)](../../documents/short-proposal.pdf) · [Κεφάλαια και παραρτήματα](../full/index.md)
 
 Οι [βιβλιογραφικές συνθέσεις](../research/index.md) οργανώνουν τη μελέτη ανά πεδίο. Η [βιβλιογραφία της μεθοδολογικής ανάπτυξης](../bibliography/methodology.md) δίνει τις πλήρεις εγγραφές. Η [αντιστοίχιση ενοτήτων και πηγών](../reference.md#αντιστοίχιση-με-το-μεθοδολογικό-κείμενο) συγκεντρώνει τις πληροφορίες εκδόσεων και τους συνδέσμους στο πηγαίο κείμενο.
 

@@ -37,6 +37,6 @@ The **[ECSI research direction](../research/ecsi/README.md)** develops musicolog
 
 ## Full text and bibliography
 
-[Short proposal — English PDF](../../../documents/short-proposal-en.pdf) · [Greek short proposal](../../../documents/short-proposal.pdf) · [Detailed proposal — Greek PDF](../../../documents/analytical-proposal.pdf) · [Chapters and appendices (Greek)](../../../docs/full/index.md)
+[Core research plan — Greek PDF](../../../documents/core-research-plan.pdf) · [Detailed proposal — Greek PDF](../../../documents/analytical-proposal.pdf) · [Earlier short proposal (23 Oct 2026) — English PDF](../../../documents/short-proposal-en.pdf) · [Chapters and appendices (Greek)](../../../docs/full/index.md)
 
 The [research-field syntheses (Greek)](../../../docs/research/index.md) organise further reading by field. The [methodological bibliography (Greek notes)](../../../docs/bibliography/methodology.md) supplies full original-language references. [Sections and sources](../reference.md#correspondence-with-the-methodological-source) brings together version information and links to the source text.

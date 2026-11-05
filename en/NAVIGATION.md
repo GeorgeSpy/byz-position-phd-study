@@ -8,7 +8,7 @@
 
 **Ten minutes:** [What is new](README.md#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md).
 
-Start with the [short research proposal in English](../documents/short-proposal-en.pdf), also available in [Greek](../documents/short-proposal.pdf), and continue to the [detailed research proposal in Greek](../documents/analytical-proposal.pdf), thematic explanations and bibliographic evidence. The [PDF contents (Greek)](../documents/README.md) provides direct access to chapters and appendices.
+Start with the [summary of the core research](docs/start/research-summary.md) and the [core research plan (Greek PDF)](../documents/core-research-plan.pdf), and continue to the [detailed research proposal in Greek](../documents/analytical-proposal.pdf), thematic explanations and bibliographic evidence. The [PDF contents (Greek)](../documents/README.md) provides direct access to chapters and appendices.
 
 | Topic | First reading | Further study |
 |---|---|---|

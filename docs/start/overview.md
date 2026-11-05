@@ -53,7 +53,7 @@
 
 Ο ευρύτερος στόχος είναι μεθοδολογία για μουσικές παραδόσεις στις οποίες η ταυτότητα διατηρείται μέσα σε ποικίλες πραγματώσεις και η ιστορική τεκμηρίωση παρέχει ουσιαστική γνώση για τη μάθηση. Η μεταφορά σε άλλα τροπικά ρεπερτόρια θα εξεταστεί με δικά τους μουσικολογικά τεκμήρια και δεδομένα αξιολόγησης.
 
-[Ελληνική σύντομη πρόταση](../../documents/short-proposal.pdf) · [English version](../../documents/short-proposal-en.pdf) · [Αναλυτική πρόταση](../../documents/analytical-proposal.pdf) · [Κείμενα και πρωτόκολλα](../reference.md)
+[Σχέδιο βασικού ερευνητικού πυρήνα](../../documents/core-research-plan.pdf) · [Αναλυτική πρόταση](../../documents/analytical-proposal.pdf) · [Προγενέστερη σύντομη πρόταση (23/10/2026)](../../documents/short-proposal.pdf) · [English version](../../documents/short-proposal-en.pdf) · [Κείμενα και πρωτόκολλα](../reference.md)
 
 ---
 

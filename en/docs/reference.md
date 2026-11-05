@@ -4,11 +4,11 @@
 **Language / Γλώσσα:** [Ελληνικά](../../docs/reference.md) · **English** · [Translation progress](translation-status.md)
 <!-- language-switch:end -->
 
-[Home](../README.md) · [English proposal](../../documents/short-proposal-en.pdf) · [Thematic navigation](../NAVIGATION.md)
+[Home](../README.md) · [Core research summary](start/research-summary.md) · [Thematic navigation](../NAVIGATION.md)
 
 ## The two texts
 
-The [short research proposal in English](../../documents/short-proposal-en.pdf) presents the research programme's overall logic. A [Greek short proposal](../../documents/short-proposal.pdf) is also available. The [analytical research proposal (Greek)](../../documents/analytical-proposal.pdf) develops the musicological foundations, methods, evaluation protocols and appendices. The [contents page (Greek)](../../documents/README.md) links directly to its sections.
+The [core research plan (Greek PDF)](../../documents/core-research-plan.pdf) is the current concise version of the proposal. The [earlier short research proposal in English](../../documents/short-proposal-en.pdf) and its [Greek original](../../documents/short-proposal.pdf), dated 23 October 2026, present an earlier structure of the programme and are kept as historical texts. The [analytical research proposal (Greek)](../../documents/analytical-proposal.pdf) develops the musicological foundations, methods, evaluation protocols and appendices. The [contents page (Greek)](../../documents/README.md) links directly to its sections.
 
 <a id="what-each-version-covers"></a>
 

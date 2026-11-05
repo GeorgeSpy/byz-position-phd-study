@@ -67,7 +67,7 @@ The following designs are developed to broaden the core as far as possible. Each
 - **Full M5.** Family sequences and functional roles in complete works, with a possible focus on Nikolaos Protopsaltis of Smyrna, given sufficient documentation and independence of sources.
 - **Comparison with Znamenny chant.** Asks whether a method for recognising melodic identity amid variation can be evaluated when Byzantine *theseis* and Znamenny *popevki* are defined independently by each tradition. Conditional on sources and specialist annotation. [English research appendix](../docs/research/znamenny-transfer/research-appendix-en.md) · [Greek edition](../docs/research/znamenny-transfer/research-appendix.md).
 
-**All documents:** [Greek short proposal](../documents/short-proposal.pdf) · [Detailed proposal (Greek)](../documents/analytical-proposal.pdf) · [PDF contents (Greek)](../documents/README.md) · [Documents and protocols](docs/reference.md)
+**All documents:** [Earlier Greek short proposal (23 Oct 2026)](../documents/short-proposal.pdf) · [Detailed proposal (Greek)](../documents/analytical-proposal.pdf) · [PDF contents (Greek)](../documents/README.md) · [Documents and protocols](docs/reference.md)
 
 [Comments and scientific discussion (Greek guide)](../docs/review/feedback.md) · [Shared research notebook](https://github.com/GeorgeSpy/byz-position-phd-study/issues/6)
 

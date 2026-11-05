@@ -2,7 +2,7 @@
 
 Η μουσική θέση ως υπολογιστική μονάδα της βυζαντινής μουσικής.
 
-[Σύντομη ερευνητική πρόταση](../documents/short-proposal.pdf) · [English version](../documents/short-proposal-en.pdf) · [Αναλυτική ερευνητική πρόταση](../documents/analytical-proposal.pdf) · [Περιεχόμενα τόμων](../documents/README.md)
+[Σχέδιο βασικού ερευνητικού πυρήνα](../documents/core-research-plan.pdf) · [Αναλυτική ερευνητική πρόταση](../documents/analytical-proposal.pdf) · [Προγενέστερη σύντομη πρόταση (23/10/2026)](../documents/short-proposal.pdf) · [English version](../documents/short-proposal-en.pdf) · [Περιεχόμενα τόμων](../documents/README.md)
 
 [Χάρτης περιήγησης](../NAVIGATION.md) · [Θεματικές επεξηγήσεις](current/index.md) · [Ερωτήματα και τεκμήρια](start/review-guide.md) · [Βιβλιογραφία ανά θέμα](bibliography/by-topic.md)
 
