@@ -60,8 +60,8 @@
       "path": "analytical-proposal.pdf",
       "source": "analytical-proposal.tex",
       "original_filename": "EXTENDED_PROPOSAL_HARMONIZED_2026-11-03.pdf",
-      "bytes": 793609,
-      "sha256": "4a80b274b288e6ba152ea07a417d267d6a039e966ce9840a9d143d057ff08ca7",
+      "bytes": 792064,
+      "sha256": "de4a3d03b139f884a9a28e1d7e9e62bced5b57c128c8ee56c4cc2ef5561d4842",
       "git_sha": "8eedcc24ff514072336825eb0f557ed85d9d3ce4",
       "pages": 150,
       "title": "Αναλυτική ερευνητική πρόταση",
@@ -80,6 +80,13 @@
         "git_sha": "f62aec0cfdcb3bf63a32fd3eb057c05a9e4202c5",
         "pages": 150,
         "title": "Αναλυτική ερευνητική πρόταση"
+      },
+      "revised_on": "2026-11-05",
+      "revision_note": "Rebuilt from the LaTeX source after two corrections: EISE status in the timeline (committed inventory, confirmatory comparison under the gates) and the A2 uncertainty procedure (jackknife-t primary, bootstrap-t sensitivity).",
+      "previous_upload": {
+        "sha256": "4a80b274b288e6ba152ea07a417d267d6a039e966ce9840a9d143d057ff08ca7",
+        "bytes": 793609,
+        "note": "PDF as uploaded on 3 November 2026"
       }
     },
     {

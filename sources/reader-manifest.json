@@ -1,6 +1,6 @@
 {
-  "source_sha256": "debacfd19ebb0e28509bbb177bbaba8758c846364b26bb6a5d58ae13449f00d2",
-  "pdf_sha256": "4a80b274b288e6ba152ea07a417d267d6a039e966ce9840a9d143d057ff08ca7",
+  "source_sha256": "439ef3c07d56179d291983e5c496aa984bf93d85ed29a26cab7e862816d42109",
+  "pdf_sha256": "de4a3d03b139f884a9a28e1d7e9e62bced5b57c128c8ee56c4cc2ef5561d4842",
   "sections": [
     {
       "path": "docs/full/00-abstract.md",
@@ -3442,7 +3442,7 @@
     "tables": 18,
     "figures": 3,
     "internal_cross_references": 104,
-    "math_nodes": 1342,
+    "math_nodes": 1345,
     "footnotes": 28
   }
 }
