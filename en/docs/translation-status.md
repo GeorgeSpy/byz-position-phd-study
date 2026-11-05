@@ -2,7 +2,7 @@
 
 **Language / Γλώσσα:** [Ελληνικά](../../README.md) · [English home](../README.md) · [Navigation](../NAVIGATION.md)
 
-The English edition is being developed as a parallel reader. Both revised core studies—**M1 representation selection** and **M2's EISE architecture**—are now available as complete English methodological documents, alongside the introduction, contribution, terminology, core explanations, examples and biography. The [34-page English short proposal](../../documents/short-proposal-en.pdf) is also available.
+The English edition is being developed as a parallel reader. Both revised core studies—**M1 representation selection** and **M2's EISE architecture**—are now available as complete English methodological documents, alongside the introduction, contribution, terminology, core explanations, examples and biography. The [34-page English short proposal](../../documents/short-proposal-en.pdf) of 23 October 2026 remains available as an earlier text; it predates the current structure of the core studies.
 
 ## Available in English
 

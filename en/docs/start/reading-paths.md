@@ -6,7 +6,7 @@
 
 [Overview](overview.md) · [Method map](../current/index.md) · [Thematic index (Greek)](../../../docs/topics.md)
 
-These paths begin with the same research object and offer different depths of reading: an overall presentation, musicological foundations, mathematical development and evaluation evidence. The [short research proposal in English](../../../documents/short-proposal-en.pdf) and the [detailed research proposal in Greek](../../../documents/analytical-proposal.pdf) provide the two main document formats.
+These paths begin with the same research object and offer different depths of reading: an overall presentation, musicological foundations, mathematical development and evaluation evidence. The [core research plan (Greek PDF)](../../../documents/core-research-plan.pdf) and the [detailed research proposal in Greek](../../../documents/analytical-proposal.pdf) provide the two main document formats. The [earlier English short proposal](../../../documents/short-proposal-en.pdf) of 23 October 2026 remains available as a historical text.
 
 ## Ten minutes
 
