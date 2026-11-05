@@ -20,7 +20,7 @@ The [linked chapters and appendices (Greek)](../../docs/full/index.md) present a
 
 ## Current reading texts
 
-The **38-page** Greek short proposal and **34-page** English edition were selected by the author on **23 October 2026**. The analytical volume supplies further documentation. Version-numbered files in the <code>sources</code> directory preserve the provenance of material used on the thematic pages. [File details and replacement history (Greek)](../../docs/maintenance/source-history.md).
+The 38-page Greek short proposal and the 34-page English edition are the versions of 23 October 2026. The current design is presented in the core research plan and in the analytical proposal of 3 November 2026. Version-numbered files in the <code>sources</code> directory preserve the provenance of material used on the thematic pages. [File details and replacement history (Greek)](../../docs/maintenance/source-history.md).
 
 ## Current protocol clarifications
 

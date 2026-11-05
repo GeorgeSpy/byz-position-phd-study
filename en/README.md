@@ -88,7 +88,7 @@ The following designs are developed to broaden the core as far as possible. Each
 | read a full chapter or technical appendix | [Detailed chapters and appendices (Greek)](../docs/full/index.md) |
 | find a particular reference | [Methodological bibliography (Greek notes; original-language titles)](../docs/bibliography/methodology.md) · [Bibliographic index (Greek)](../docs/bibliography/index.md) |
 
-The short proposal presents the research problem, methodology and expected contribution. The detailed proposal develops the musicological foundations, mathematical design and evaluation protocols. The thematic pages connect the questions with their evidence and references. [Documents and sources](docs/reference.md).
+The [summary of the core research](docs/start/research-summary.md) and the [core research plan (Greek PDF)](../documents/core-research-plan.pdf) present the research problem, methodology and expected contribution. The detailed proposal develops the musicological foundations, mathematical design and evaluation protocols. The thematic pages connect the questions with their evidence and references. [Documents and sources](docs/reference.md).
 
 [All reading routes](NAVIGATION.md) · [Reading paths](docs/start/reading-paths.md) · [Thematic index (Greek)](../docs/topics.md) · [Research roadmap (Greek)](../docs/roadmap.md) · [Questions and evidence (Greek)](../docs/start/review-guide.md)
 

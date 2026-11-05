@@ -6,7 +6,7 @@
 
 [Home](README.md) · [Overview](docs/start/overview.md) · [Thematic explanations](docs/current/index.md) · [Documents and sources](docs/reference.md)
 
-**Ten minutes:** [What is new](README.md#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md).
+**In brief:** [What is new](README.md#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md).
 
 Start with the [summary of the core research](docs/start/research-summary.md) and the [core research plan (Greek PDF)](../documents/core-research-plan.pdf), and continue to the [detailed research proposal in Greek](../documents/analytical-proposal.pdf), thematic explanations and bibliographic evidence. The [PDF contents (Greek)](../documents/README.md) provides direct access to chapters and appendices.
 
@@ -22,6 +22,7 @@ Start with the [summary of the core research](docs/start/research-summary.md) an
 | Older notation from exegesis | [ATL-INV](docs/current/inverse-problem.md) | [Musicological foundations (Greek)](../docs/musicology/06-old-notation.md) |
 | Probabilistic realisation | [Mthesis operator](docs/current/m-thesis.md) | [Full mathematical development](docs/current/m-thesis-technical.md) |
 | **New research direction — ECSI** | **[Musicology-Informed Machine Learning](docs/research/ecsi/README.md)** | [Architecture](docs/research/ecsi/02-architecture.md) · [Protocol P0′–P2′](docs/research/ecsi/03-methods-and-gates.md) |
+| **Comparative extension — Znamenny chant** | [Overview and navigation (Greek)](../docs/research/znamenny-transfer/README.md) | [Full research appendix (English)](../docs/research/znamenny-transfer/research-appendix-en.md) |
 | Previous work in each field | [Contribution matrix](docs/review/contribution-matrix.md) | [Detailed field syntheses (Greek)](../docs/research/index.md) |
 | Byzantine musicology | [Research questions and new knowledge](docs/review/knowledge-contributions.md) | [Sources, variation, families, exegesis and repertory (Greek)](../docs/musicology/index.md) |
 | Bibliography | [Methodological bibliography (Greek notes)](../docs/bibliography/methodology.md) | [Bibliographic index (Greek)](../docs/bibliography/index.md), [by topic (Greek)](../docs/bibliography/by-topic.md) |

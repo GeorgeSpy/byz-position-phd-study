@@ -13,13 +13,13 @@
     },
     {
       "source": "NAVIGATION.md",
-      "source_blob_sha": "dce5e5321758ee701d2b04961b155665e0507b5a",
+      "source_blob_sha": "3cba75e31762da87394aa9ecdfcce109c26f0e41",
       "target": "en/NAVIGATION.md",
       "status": "translated"
     },
     {
       "source": "README.md",
-      "source_blob_sha": "f1d161ca61057f9ff34884c5896a80397fb13a1b",
+      "source_blob_sha": "30a3a9c43238a3b17ace4d6d0cbbcc9081e5d7fb",
       "target": "en/README.md",
       "status": "translated"
     },
@@ -37,7 +37,7 @@
     },
     {
       "source": "TERMINOLOGY_GR.md",
-      "source_blob_sha": "b99edfeb810eb68c2d8c6be70fcb1fded2b21f8b",
+      "source_blob_sha": "ce01ba644e1ee687d25a1e23190f29920bed7be3",
       "target": "en/TERMINOLOGY.md",
       "status": "translated"
     },
@@ -109,13 +109,13 @@
     },
     {
       "source": "docs/appendices/k.md",
-      "source_blob_sha": "cbcc845e40455f04cdc5a40255a34468681391df",
+      "source_blob_sha": "4aa11d3b7f6d266b833e13979ac299244b771902",
       "target": "en/docs/appendices/k.md",
       "status": "translated"
     },
     {
       "source": "docs/author/index.md",
-      "source_blob_sha": "ce3968784f34023e0563064858669f658759f05e",
+      "source_blob_sha": "1a2c5a58492a74cffb88e62260697533a1e6e2ff",
       "target": "en/docs/author/index.md",
       "status": "translated"
     },
@@ -979,13 +979,13 @@
     },
     {
       "source": "docs/current/index.md",
-      "source_blob_sha": "859c2997b04175ad8b012f7acb1aaa46d95dde94",
+      "source_blob_sha": "8fddf929b1c6b8f7e463f007e810638fcc85bb43",
       "target": "en/docs/current/index.md",
       "status": "translated"
     },
     {
       "source": "docs/current/inverse-problem.md",
-      "source_blob_sha": "ce7fd82fa282bd8512fd7571fb62f22b93ab43eb",
+      "source_blob_sha": "f82c0e013c35a41e2b4aec487f8549fde61850a4",
       "target": "en/docs/current/inverse-problem.md",
       "status": "translated"
     },
@@ -997,13 +997,13 @@
     },
     {
       "source": "docs/current/m-thesis.md",
-      "source_blob_sha": "5ec395f79942b0edba974a70172b8200aca41f6f",
+      "source_blob_sha": "9d288cd4104f10367adb254359dc076518b89f21",
       "target": "en/docs/current/m-thesis.md",
       "status": "translated"
     },
     {
       "source": "docs/current/position-and-family.md",
-      "source_blob_sha": "e75ab30ca96fddcab56a5243fe023279bbaa6edd",
+      "source_blob_sha": "c3edb76c4105fc398c2bbd1cc875f58b01d549f4",
       "target": "en/docs/current/position-and-family.md",
       "status": "translated"
     },
@@ -1159,7 +1159,7 @@
     },
     {
       "source": "docs/reference.md",
-      "source_blob_sha": "687c649cb1cccb37ee6d5c1a819ba978c933c468",
+      "source_blob_sha": "afd131cd32fd803fc73d43868246548500016e8e",
       "target": "en/docs/reference.md",
       "status": "translated"
     },
@@ -1177,7 +1177,7 @@
     },
     {
       "source": "docs/research/m2-eise-research-design.md",
-      "source_blob_sha": "f1974e27d6f180ef05ee73e13905408a8f6ccf21",
+      "source_blob_sha": "9945adab5729a27360877261156bb5d9592370d4",
       "target": "en/docs/research/m2-eise-research-design.md",
       "status": "translated"
     },
@@ -1267,7 +1267,7 @@
     },
     {
       "source": "docs/start/overview.md",
-      "source_blob_sha": "b09d6e9f0d8a5b8043c5ea877e26c70d0d8c77b1",
+      "source_blob_sha": "f268f81a4a0631136cac9ca892103e64b826d65d",
       "target": "en/docs/start/overview.md",
       "status": "translated"
     },
@@ -1279,7 +1279,7 @@
     },
     {
       "source": "docs/start/research-summary.md",
-      "source_blob_sha": "1db2bd69348ccac5a9c6a666022d0409e93ad690",
+      "source_blob_sha": "9fbe7d231fadf273a99e18a0af1b96bee4ab2a4c",
       "target": "en/docs/start/research-summary.md",
       "status": "translated"
     },
