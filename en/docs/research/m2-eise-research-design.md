@@ -158,9 +158,11 @@ Confirmatory evaluation in M2b depends on three adequacy gates:
 
 | Gate | Purpose |
 | --- | --- |
-| **G-PAIR** | Sufficient independent historical pairs, reliable historical documentation, and feasible $`\mathrm{B2}_{\mathrm{main}}`$–EISE matching. |
-| **G-PERF** | Sufficient reliable independent performances in the corresponding musical regions. |
-| **G-STAT** | Adequate precision, power, and calibration of the particular statistical procedure under the corpus's dependence structure. |
+| **G-PAIR** ($`G_{\mathrm{pair}}`$) | Sufficient independent historical pairs, reliable historical documentation, and feasible $`\mathrm{B2}_{\mathrm{main}}`$–EISE matching. |
+| **G-PERF** ($`G_{\mathrm{perf}}`$) | Sufficient reliable independent performances in the corresponding musical regions. |
+| **G-STAT** ($`G_{\mathrm{precision}}`$) | Adequate precision, power, and calibration of the particular statistical procedure under the corpus's dependence structure. |
+
+Both naming forms denote the same gates: the core plan and the data chapters write $`G_{\mathrm{pair}}`$, $`G_{\mathrm{perf}}`$ and $`G_{\mathrm{precision}}`$, and this protocol writes G-PAIR, G-PERF and G-STAT. G-STAT checks precision, power and calibration and does not introduce a fourth gate.
 
 $`\Delta_{\mathrm{hist}}`$ is **M2's sole primary confirmatory contrast**, evaluated using a two-sided test and joint resampling over independent work–source groups and chanters. The exact significance level and interval procedure are finalised consistently with historical protocol Γ2–Γ8 before the held-out test set is accessed. M2a retains its estimation-focused status, and $`Q_{\mathrm{real}}`$ assesses the validity of its interpretation.
 
