@@ -87,7 +87,8 @@
         "sha256": "4a80b274b288e6ba152ea07a417d267d6a039e966ce9840a9d143d057ff08ca7",
         "bytes": 793609,
         "note": "PDF as uploaded on 3 November 2026"
-      }
+      },
+      "legacy_paths_note": "documents/technical-manual.pdf keeps the archived v8.71g file (before rule J) for external links; it is not the current proposal."
     },
     {
       "role": "musicological_memorandum",
