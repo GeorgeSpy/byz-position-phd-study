@@ -24,7 +24,7 @@ The **formula family** is selected as the *central analytical category* because 
 
 This choice is **musicologically grounded and empirically testable**, rather than true by definition. Held-out evidence must show whether a family specification distinguishes confusable types, recognises documented variants, and contributes explanatory or predictive information beyond simpler representations. The comparative *tune-family* literature (Volk & van Kranenburg, 2012, [DOI](https://doi.org/10.1177/1029864912448329)) supports examining family-specific criteria rather than presuming one universal feature; it does not make the traditions or analytical scales equivalent.
 
-The same family framework supports musicological annotation, recognition of variable-length formulae, analysis of within-family variation and the controlled historical B2–EISE comparison. The family is thus **the object that musicology-informed machine learning aims to learn and test**, not merely a label derived from a similarity algorithm.
+The same family framework supports musicological annotation, recognition of variable-length formulae, analysis of within-family variation and the controlled historical $`\mathrm{B2}_{\mathrm{main}}`$–EISE comparison. The family is thus **the object that musicology-informed machine learning aims to learn and test**, not merely a label derived from a similarity algorithm.
 
 ## Four objects
 
@@ -145,7 +145,7 @@ Judgements of **shared family**, **perceived melodic similarity**, **common func
 
 ### Separating family and exegetical supervision
 
-The family relationship concerns **identity at the type level**, potentially across distinct passages. **Co-exegesis** concerns different exegetical renderings of **the same particular passage**. A family specification may itself draw on historical evidence; what differs between B2 and EISE is the **provenance and topology of positive relational pairs**, under common family supervision and architecture ([M2](../../../docs/full/06-eise.md), [matching protocol F.1](../../../docs/appendices/f.md)). The contrast $`\Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{B2}`$ evaluates agreement with the independent performance criterion on the common eligible support. On its own, it does not identify a “pure effect of the exegete”, because sharing the composition locus is an intrinsic property of the historical pairs.
+The family relationship concerns **identity at the type level**, potentially across distinct passages. **Co-exegesis** concerns different exegetical renderings of **the same particular passage**. A family specification may itself draw on historical evidence; what differs between $`\mathrm{B2}_{\mathrm{main}}`$ and EISE is the **provenance and topology of positive relational pairs**, under common family supervision and architecture ([M2](../../../docs/full/06-eise.md), [matching protocol F.1](../../../docs/appendices/f.md)). The contrast $`\Delta_{\mathrm{hist}}=S_{\mathrm{EISE}}-S_{\mathrm{B2}_{\mathrm{main}}}`$ evaluates agreement with the independent performance criterion on the common eligible support. On its own, it does not identify a “pure effect of the exegete”, because sharing the composition locus is an intrinsic property of the historical pairs.
 
 <a id="κριτήρια-μουσικολογικής-οριοθέτησης"></a>
 
@@ -177,7 +177,7 @@ When a label is assigned from the diagnostic features of the same realisation, p
 
 Holding out entire works and related sources tests generalisation. Checking the path from target to label additionally establishes the interpretation of prediction. Features outside the specification are examined alongside possible indirect dependencies on fields used in annotation.
 
-In Study 2 (M2), family membership forms B2 pairs; historical co-exegesis forms EISE pairs. In the [probabilistic operator](m-thesis.md), family conditions the distribution of realisations. [ATL](atl.md) transfer to held-out families has its own generalisation scope.
+In Study 2 (M2), family membership forms the pairs of $`\mathrm{B2}_{\mathrm{fam}}`$ (M2a) and $`\mathrm{B2}_{\mathrm{main}}`$ (M2b); historical co-exegesis forms EISE pairs. In the [probabilistic operator](m-thesis.md), family conditions the distribution of realisations. [ATL](atl.md) transfer to held-out families has its own generalisation scope.
 
 ## What these distinctions contribute
 

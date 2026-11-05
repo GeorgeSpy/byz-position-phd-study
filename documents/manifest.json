@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-04",
+  "updated_at": "2026-11-05",
   "selection_basis": "author instruction: latest uploaded document takes precedence over filename version",
   "documents": [
     {
@@ -86,12 +86,19 @@
       "role": "musicological_memorandum",
       "path": "musicological-memorandum.pdf",
       "source_tex": "musicological-memorandum.tex",
-      "bytes": 177045,
-      "sha256": "4daffe1465edfb7314e73a70151f21e253bf7349673803bb17c9567ca9b87787",
+      "bytes": 177114,
+      "sha256": "914bae8afb889133b672e68d9b14869017ad62a5942cd584dc3fef68f591fe12",
       "pages": 23,
       "title": "Μουσικολογικό υπόμνημα: Η μουσική θέση ως υπολογιστική μονάδα της βυζαντινής μουσικής",
       "language": "el",
-      "selected_on": "2026-11-03"
+      "selected_on": "2026-11-03",
+      "revised_on": "2026-11-05",
+      "revision_note": "M2 conditions named as in the current protocol (B0_sym, B2_fam, B2_main, B0_profile); realisation read from h_t, z_real as an evaluated alternative.",
+      "supersedes": {
+        "sha256": "4daffe1465edfb7314e73a70151f21e253bf7349673803bb17c9567ca9b87787",
+        "bytes": 177045,
+        "selected_on": "2026-11-03"
+      }
     }
   ]
 }
