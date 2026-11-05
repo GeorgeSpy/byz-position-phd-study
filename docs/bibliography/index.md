@@ -1,6 +1,6 @@
 # Βιβλιογραφικό ευρετήριο
 
-Το ευρετήριο περιλαμβάνει **135 εγγραφές**: 24 στην ελληνόγλωσση και 111 στην ξενόγλωσση ενότητα. Κάθε εγγραφή διαθέτει σταθερή σελίδα, συνδέσμους πηγών και πρόσβαση σε σχετικές ενότητες. Η [βιβλιογραφία της μεθοδολογικής ανάπτυξης](methodology.md) συγκεντρώνει χωριστά τις αναφορές των συμπληρωματικών επεξηγήσεων.
+Το ευρετήριο περιλαμβάνει **142 εγγραφές**: 24 στην ελληνόγλωσση και 118 στην ξενόγλωσση ενότητα, όπως η βιβλιογραφία της αναλυτικής πρότασης της 3ης Νοεμβρίου 2026. Κάθε εγγραφή διαθέτει σταθερή σελίδα, συνδέσμους πηγών και πρόσβαση σε σχετικές ενότητες. Η [βιβλιογραφία της μεθοδολογικής ανάπτυξης](methodology.md) συγκεντρώνει χωριστά τις αναφορές των συμπληρωματικών επεξηγήσεων.
 
 [Αρχική σειρά και πλήρες κείμενο](source-list.md) · [Θεματικοί χάρτες](../research/index.md) · [Νεότερες προτεινόμενες προσθήκες](supplementary.md)
 
@@ -46,6 +46,7 @@
 | [Anton](entries/b031.md) | 2018 | Anton, T. L., & Trăușan-Matu, Ș. (2018). Byzantine Music Composition Using Markov Models. In Proceedings of RoCHI 2018, 71-75. |
 | [Artstein](entries/b032.md) | 2008 | Artstein, R., & Poesio, M. (2008). Inter-Coder Agreement for Computational Linguistics. Computational Linguistics, 34(4), 555-596. |
 | [Arvanitis](entries/b033.md) | 2022 | Arvanitis, I. V. (2022). The Transcriptions of the Three Teachers: An Old or a New Sound? Epistēmēs Metron Logos, 5, 143–149. https://doi.org/10.12681/eml.28005. |
+| [Bauckhage](entries/b136.md) | 2025 | Bauckhage, C., Schulz, D., & von Rueden, L. (2025). Introduction and Overview. In D. Schulz & C. Bauckhage (eds.), Informed Machine Learning, 1–14. Springer. https://doi.org/10.1007/978-3-031-83097-6_1. |
 | [Ballen](entries/b034.md) | 2026 | Ballen, G. A., Mühlová, K. H., & Hajič Jr., J. (2026). What Did the Dove Sing to Pope Gregory? Ancestral Melody Reconstruction in Gregorian Chant Using Bayesian Phylogenetics. PLOS ONE, 21(5), e0350014. https://doi.org/10.1371/journal.pone.0350014. |
 | [Bernardi](entries/b035.md) | 2020 | Bernardi, S., Benna, M. K., Rigotti, M., Munuera, J., Fusi, S., & Salzman, C. D. (2020). The Geometry of Abstraction in Hippocampus and Prefrontal Cortex. Cell, 183(4), 954–967.e21. https://doi.org/10.1016/j.cell.2020.09.031. |
 | [Bouris](entries/b036.md) | 2018 | Bouris, N. G., Georgaki, A., & Chaldaeakes, A. G. (2018). Encoding Byzantine Music Notation (ca. 1600-1814). Proceedings of SMC 2018. |
@@ -96,6 +97,8 @@
 | [Karsdorp](entries/b081.md) | 2019 | Karsdorp, F., van Kranenburg, P., & Manjavacas, E. (2019). Learning Similarity Metrics for Melody Retrieval. Proceedings of the 20th International Society for Music Information Retrieval Conference (ISMIR 2019), 478–485. |
 | [Katsiavalos](entries/b082.md) | 2019 | Katsiavalos, A., Collins, T., & Battey, B. (2019). An Initial Computational Model for Musical Schemata Theory. Proceedings of the 20th International Society for Music Information Retrieval Conference (ISMIR 2019), 166–172. |
 | [Kern](entries/b083.md) | 2022 | Kern, P., Heilbron, M., de Lange, F. P., & Spaak, E. (2022). Cortical Activity During Naturalistic Music Listening Reflects Short-Range Predictions Based on Long-Term Experience. eLife, 11, e80935. https://doi.org/10.7554/eLife.80935. |
+| [Khosla](entries/b137.md) | 2020 | Khosla, P., Teterwak, P., Wang, C., Sarna, A., Tian, Y., Isola, P., Maschinot, A., Liu, C., & Krishnan, D. (2020). Supervised Contrastive Learning. Advances in Neural Information Processing Systems, 33, 18661–18673. |
+| [Koh](entries/b138.md) | 2020 | Koh, P. W., Nguyen, T., Tang, Y. S., Mussmann, S., Pierson, E., Kim, B., & Liang, P. (2020). Concept Bottleneck Models. Proceedings of ICML 2020, PMLR 119, 5338–5348. |
 | [Koelsch](entries/b084.md) | 2013 | Koelsch, S., Rohrmeier, M., Torrecuso, R., & Jentschke, S. (2013). Processing of Hierarchical Syntactic Structure in Music. Proceedings of the National Academy of Sciences, 110(38), 15443–15448. https://doi.org/10.1073/pnas.1300272110. |
 | [Kokkinidis](entries/b085.md) | 2016 | Kokkinidis, K., Panagi, A., & Manitsaris, A. (2016). Finding the Optimum Training Solution for Byzantine Music Recognition-A Max/Msp Approach. 2016 5th International Conference on Modern Circuits and Systems Technologies (MOCAST). IEEE. |
 | [Kong](entries/b086.md) | 2016 | Kong, L., Dyer, C., & Smith, N. A. (2016). Segmental Recurrent Neural Networks. 4th International Conference on Learning Representations (ICLR 2016). |
@@ -104,6 +107,7 @@
 | [Lind](entries/b089.md) | 2011 | Lind, T. T. (2011). The Past Is Always Present: The Revival of the Byzantine Musical Tradition at Mount Athos. Lanham, MD: Scarecrow Press. https://doi.org/10.5771/9780810881488. |
 | [Lingas](entries/b090.md) | 2003 | Lingas, A. (2003). Performance Practice and the Politics of Transcribing Byzantine Chant. Acta Musicae Byzantinae, 6, 56-76. |
 | [Mahajan](entries/b091.md) | 2021 | Mahajan, D., Tople, S., & Sharma, A. (2021). Domain Generalization Using Causal Matching. Proceedings of the 38th International Conference on Machine Learning (ICML), PMLR 139. https://proceedings.mlr.press/v139/mahajan21b.html. |
+| [Marconato](entries/b139.md) | 2023 | Marconato, E., Teso, S., Vergari, A., & Passerini, A. (2023). Not All Neuro-Symbolic Concepts Are Created Equal: Analysis and Mitigation of Reasoning Shortcuts. Advances in Neural Information Processing Systems, 36. |
 | [Mavromatis](entries/b093.md) | 2005 | Mavromatis, P. (2005). The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications. Doctoral dissertation, Eastman School of Music, University of Rochester. |
 | [Mavromatis](entries/b092.md) | 2006 | Mavromatis, P. (2006). A Hidden Markov Model of Melody Production in Greek Church Chant. Computing in Musicology, 14, 93-112. |
 | [Mavromatis](entries/b094.md) | 2009a | Mavromatis, P. (2009a). Minimum Description Length Modelling of Musical Structure. Journal of Mathematics and Music, 3(3), 117-136. |
@@ -145,10 +149,12 @@
 | [Tzanetakis](entries/b130.md) | 2014 | Tzanetakis, G. (2014). Computational Ethnomusicology: A Music Information Retrieval Perspective. In A. Georgaki & G. Kouroupetroglou (Eds.), Proceedings of ICMC\|SMC\|2014, Athens, Greece. |
 | [Uma](entries/b131.md) | 2021 | Uma, A., Fornaciari, T., Hovy, D., Paun, S., Plank, B., & Poesio, M. (2021). Learning from Disagreement: A Survey. Journal of Artificial Intelligence Research, 72, 1385-1470. |
 | [Urbano](entries/b132.md) | 2013 | Urbano, J., Schedl, M., & Serra, X. (2013). Evaluation in Music Information Retrieval. Journal of Intelligent Information Systems, 41(3), 345-369. |
+| [van Krieken](entries/b140.md) | 2024 | van Krieken, E., Minervini, P., Ponti, E. M., & Vergari, A. (2024). On the Independence Assumption in Neurosymbolic Learning. Proceedings of ICML 2024, PMLR 235, 49078–49097. |
 | [Volk](entries/b133.md) | 2012 | Volk, A., & van Kranenburg, P. (2012). Melodic Similarity among Folk Songs: An Annotation Study on Similarity-Based Categorization in Music. Musicae Scientiae, 16(3), 317–339. https://doi.org/10.1177/1029864912448329. |
+| [von Rueden](entries/b141.md) | 2023 | von Rueden, L., Mayer, S., Beckh, K., et al. (2023). Informed Machine Learning: A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems. IEEE Transactions on Knowledge and Data Engineering, 35(1), 614–633. |
 | [Yan](entries/b134.md) | 2021 | Yan, Y., Cwitkowitz, F., & Duan, Z. (2021). Skipping the Frame-Level: Event-Based Piano Transcription With Neural Semi-CRFs. Advances in Neural Information Processing Systems, 34, 20583–20595. |
+| [Xu](entries/b142.md) | 2018 | Xu, J., Zhang, Z., Friedman, T., Liang, Y., & Van den Broeck, G. (2018). A Semantic Loss Function for Deep Learning with Symbolic Knowledge. Proceedings of ICML 2018, PMLR 80, 5502–5511. |
 | [Zaratiana](entries/b135.md) | 2023 | Zaratiana, U., Tomeh, N., El Khbir, N., Holat, P., & Charnois, T. (2023). Filtered Semi-Markov CRF. Findings of the Association for Computational Linguistics: EMNLP 2023, 222–235. https://doi.org/10.18653/v1/2023.findings-emnlp.17. |
-
 ---
 
 [Σχολιασμός αυτής της ενότητας](https://github.com/GeorgeSpy/byz-position-phd-study/issues/new?template=proposal-feedback.yml&title=%CE%A0%CE%B1%CF%81%CE%B1%CF%84%CE%AE%CF%81%CE%B7%CF%83%CE%B7%3A+%CE%92%CE%B9%CE%B2%CE%BB%CE%B9%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%B9%CE%BA%CF%8C+%CE%B5%CF%85%CF%81%CE%B5%CF%84%CE%AE%CF%81%CE%B9%CE%BF&location=https%3A%2F%2Fgithub.com%2FGeorgeSpy%2Fbyz-position-phd-study%2Fblob%2F47306feef68a62a232506f74dae05e066f9a51cb%2Fdocs%2Fbibliography%2Findex.md) · [Σημειωματάριο παρατηρήσεων](../review/feedback.md)

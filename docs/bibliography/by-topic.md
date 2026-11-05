@@ -2,7 +2,7 @@
 
 [Χάρτης περιήγησης](../../NAVIGATION.md) · [Εκτενής κατάλογος](index.md) · [Βιβλιογραφία μεθοδολογικής ανάπτυξης](methodology.md) · [Συγκριτικός πίνακας](../review/contribution-matrix.md)
 
-Οι **135 εγγραφές του βιβλιογραφικού ευρετηρίου** οργανώνονται σε **εννέα θεματικές διαδρομές**. Κάθε εγγραφή εμφανίζεται μία φορά και οδηγεί στην πλήρη βιβλιογραφική σελίδα της. Η [βιβλιογραφία της μεθοδολογικής ανάπτυξης](methodology.md) παρέχει πρόσβαση στις αναφορές των συμπληρωματικών μελετών. Οι πολλαπλές ερευνητικές συνδέσεις αναπτύσσονται στους [θεματικούς χάρτες](../research/index.md).
+Οι **142 εγγραφές του βιβλιογραφικού ευρετηρίου** οργανώνονται σε **δέκα θεματικές διαδρομές**. Κάθε εγγραφή εμφανίζεται μία φορά και οδηγεί στην πλήρη βιβλιογραφική σελίδα της. Η [βιβλιογραφία της μεθοδολογικής ανάπτυξης](methodology.md) παρέχει πρόσβαση στις αναφορές των συμπληρωματικών μελετών. Οι πολλαπλές ερευνητικές συνδέσεις αναπτύσσονται στους [θεματικούς χάρτες](../research/index.md).
 
 ## Επιλογή θέματος
 
@@ -14,6 +14,7 @@
 | [Υπολογιστική ψαλτική, κωδικοποίηση και ψηφιακά σώματα](#chant-encoding) | 20 |
 | [Συμβολικές μονάδες, κατάτμηση, σχήματα και συγγένεια](#symbolic-mir) | 24 |
 | [Μάθηση αναπαραστάσεων και δομημένη πρόβλεψη](#structured-learning) | 10 |
+| [Μηχανική μάθηση με ενσωμάτωση γνώσης](#informed-ml) | 7 |
 | [Ανθρώπινη κατηγοριοποίηση, προσδοκία και νευρικές αποκρίσεις](#cognition) | 10 |
 | [Επισημείωση, διαφωνία και αξιολόγηση](#evaluation) | 6 |
 | [Μετάδοση, υπολογιστική εθνομουσικολογία και μεταφορά](#transmission-transfer) | 12 |
@@ -115,8 +116,8 @@
 | [b052](entries/b052.md) | Delviniotis (2011) | DAMASKINOS: The Prototype Corpus of Greek Orthodox Ecclesiastical Chant Voices |
 | [b059](entries/b059.md) | Gezerlis (2002) | Optical Character Recognition of the Orthodox Hellenic Byzantine Music Notation |
 | [b085](entries/b085.md) | Kokkinidis (2016) | Finding the Optimum Training Solution for Byzantine Music Recognition-A Max/Msp Approach |
-| [b092](entries/b092.md) | Mavromatis (2006) | A Hidden Markov Model of Melody Production in Greek Church Chant |
 | [b093](entries/b093.md) | Mavromatis (2005) | The Echoi of Modern Greek Church Chant in Written and Oral Transmission: A Computational Model and Its Cognitive Implications |
+| [b092](entries/b092.md) | Mavromatis (2006) | A Hidden Markov Model of Melody Production in Greek Church Chant |
 | [b094](entries/b094.md) | Mavromatis (2009a) | Minimum Description Length Modelling of Musical Structure |
 | [b095](entries/b095.md) | Mavromatis (2009b) | HMM Analysis of Musical Structure: Identification of Latent Variables Through Topology-Sensitive Model Selection |
 | [b097](entries/b097.md) | Mavromatis (2019) | Hierarchical Structural Patterns in Improvised Music: Implications for Cognition |
@@ -179,6 +180,22 @@
 | [b134](entries/b134.md) | Yan (2021) | Skipping the Frame-Level: Event-Based Piano Transcription With Neural Semi-CRFs |
 | [b135](entries/b135.md) | Zaratiana (2023) | Filtered Semi-Markov CRF |
 
+<a id="informed-ml"></a>
+
+## Μηχανική μάθηση με ενσωμάτωση γνώσης
+
+Ενσωμάτωση γνώσης πεδίου, μοντέλα εννοιών, νευροσυμβολική μάθηση και αντιθετική εποπτεία· αφετηρίες της Α2 και της Μ2.
+
+| Εγγραφή | Συγγραφέας και έτος | Σύντομος τίτλος για αναζήτηση |
+|---|---|---|
+| [b136](entries/b136.md) | Bauckhage (2025) | Introduction and Overview (Informed Machine Learning) |
+| [b141](entries/b141.md) | von Rueden (2023) | Informed Machine Learning: A Taxonomy and Survey of Integrating Prior Knowledge into Learning Systems |
+| [b138](entries/b138.md) | Koh (2020) | Concept Bottleneck Models |
+| [b142](entries/b142.md) | Xu (2018) | A Semantic Loss Function for Deep Learning with Symbolic Knowledge |
+| [b139](entries/b139.md) | Marconato (2023) | Not All Neuro-Symbolic Concepts Are Created Equal: Analysis and Mitigation of Reasoning Shortcuts |
+| [b140](entries/b140.md) | van Krieken (2024) | On the Independence Assumption in Neurosymbolic Learning |
+| [b137](entries/b137.md) | Khosla (2020) | Supervised Contrastive Learning |
+
 <a id="cognition"></a>
 
 ## Ανθρώπινη κατηγοριοποίηση, προσδοκία και νευρικές αποκρίσεις
@@ -236,7 +253,7 @@
 
 ## Αρίθμηση και σχέσεις εγγραφών
 
-Η κατάταξη διατηρεί και τις δύο εγγραφές του Κανάκη 2021, b026 και b079, ώστε να συμφωνεί με τις 135 εγγραφές του πρωτοτύπου. Η σχέση του άρθρου Gheorghiță b060 με την αναδημοσίευσή του στο βιβλίο b061 περιγράφεται στη [σελίδα βιβλιογραφικών προσθηκών και σχέσεων](supplementary.md). Τα πλήθη εδώ αφορούν εγγραφές της πηγής.
+Η κατάταξη διατηρεί και τις δύο εγγραφές του Κανάκη 2021, b026 και b079, ώστε να συμφωνεί με τις 142 εγγραφές της αναλυτικής πρότασης της 3ης Νοεμβρίου 2026. Η σχέση του άρθρου Gheorghiță b060 με την αναδημοσίευσή του στο βιβλίο b061 περιγράφεται στη [σελίδα βιβλιογραφικών προσθηκών και σχέσεων](supplementary.md). Τα πλήθη εδώ αφορούν εγγραφές της πηγής.
 
 Οι επτά νεότερες προτεινόμενες προσθήκες παραμένουν σε [χωριστή ενότητα](supplementary.md). Οι πλήρεις εγγραφές και οι διαθέσιμοι εξωτερικοί σύνδεσμοι διατηρούνται στις βιβλιογραφικές σελίδες.
 
