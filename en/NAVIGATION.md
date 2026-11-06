@@ -17,6 +17,7 @@ Start with the [short research proposal in English](../documents/short-proposal-
 | Formula identity and MIR | [Musical example](docs/examples/index.md), [identity route](docs/start/overview.md#the-route-of-musical-identity) | [Detailed protocols (Greek)](../docs/full/index.md) |
 | **Revised M1 and M2 methodology** | [M1 — representation selection](docs/research/m1-selection-decision.md) | [M2 — family-based and historical supervision](docs/research/m2-eise-research-design.md) |
 | **A2 — musicological knowledge** | [A2 research design](docs/research/a2-knowledge-design.md) | [Appendix K — A2 technical protocol](docs/appendices/k.md) |
+| **ByzCorpus — work in progress** | **[Corpus and toolkit](docs/research/byzcorpus/README.md)** | [Data model (Greek)](../docs/research/byzcorpus/data-model.md) · [NHPYLM pilot (Greek)](../docs/research/byzcorpus/segmentation-pilot.md) · [Roadmap (Greek)](../docs/research/byzcorpus/roadmap.md) |
 | Research corpus | [Preliminary corpus inventory](docs/research/corpus/README.md) · [Greek edition](../docs/research/corpus/README.md) | [Data, annotation and feasibility (Greek)](../docs/full/08-data.md) |
 | Historical transformations | [ATL](docs/current/atl.md) | [Exegesis and sources (Greek)](../docs/musicology/04-exegesis.md) |
 | Older notation from exegesis | [ATL-INV](docs/current/inverse-problem.md) | [Musicological foundations (Greek)](../docs/musicology/06-old-notation.md) |
