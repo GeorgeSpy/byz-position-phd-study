@@ -64,7 +64,7 @@ Z_f(n,C)=z_f(n,C)/a_f(n,C).
 
 ```math
 p^S_f(x\mid n,C)=\frac{B_f(x,n)}{z_f(n,C)}
-=\frac{p_\kappa(x\mid f,n,C)m_f(x)}{Z_f(n,C)}.\  {1}
+=\frac{p_\kappa(x\mid f,n,C)m_f(x)}{Z_f(n,C)}.\  
 ```
 
 Ομοίως $`Z_f^{[1,L]}=(\sum_{n=1}^L z_f(n,C))/(\sum_{n=1}^La_f(n,C))`$. Ο συνθετικός έλεγχος O8 υπολογίζει την περιορισμένη μάζα για μήκη 1–5. Η παρούσα ονοματολογία αποτρέπει τη σύγχυσή της με πιθανότητα σε όλα τα μήκη.
@@ -93,7 +93,7 @@ p^S_f(x\mid n,C)=\frac{B_f(x,n)}{z_f(n,C)}
 
 ```math
 \alpha(s')\mathrel{+}=\alpha(s)\,t_\kappa(e)\,e_\kappa(x_i\mid e)^{\mathbf1_{\rm emit}}
-\sum_{u_B}q_B(u_B\mid x,e,C)\mathbf1\{w'=\delta(w,u_B)\}.\ {2}
+\sum_{u_B}q_B(u_B\mid x,e,C)\mathbf1\{w'=\delta(w,u_B)\}.\ 
 ```
 
 Οι διαγραφές προηγούνται σύμφωνα με τη μονοτονική σειρά στη στήλη, χωρίς σιωπηλούς κύκλους. Το END πολλαπλασιάζει την τελική μάζα. Άθροιση όλων των τελικών λογικών καταστάσεων δίνει $`A_f`$, άθροιση με την τελική αποδοχή δίνει $`B_f`$. Η εφαρμογή γίνεται με log-sum-exp. Η επαγωγή στη μερική διάταξη $`(i,j)`$ αποδεικνύει ότι κάθε διαδρομή και κάθε ανάθεση εννοιών συνεισφέρουν ακριβώς μία φορά.
@@ -105,7 +105,7 @@ p^S_f(x\mid n,C)=\frac{B_f(x,n)}{z_f(n,C)}
 ```math
 \alpha(i+1,j',s',w',h',c')\mathrel{+}=
 \alpha(i,j,s,w,h,c)t_\kappa(e)e_\kappa(v\mid e)
-\sum_{u_B}q_B(u_B\mid h,v,c,e,C)\mathbf1\{w'=\delta(w,u_B)\},\ {3}
+\sum_{u_B}q_B(u_B\mid h,v,c,e,C)\mathbf1\{w'=\delta(w,u_B)\},\ 
 ```
 
 όπου $`h'=\mathrm{suffix}_{\ell_h-1}(h\oplus v)`$ και $`c'`$ η ενημερωμένη πεπερασμένη σύνοψη. Η άθροιση διατρέχει **όλα** τα $`v\in V`$. Οι εισαγωγές ενημερώνουν το $`h`$, ακόμη και όταν δεν κρίνεται νέα έννοια. Οι διαγραφές διατηρούν το $`h`$. Ο τερματισμός μπορεί να χρησιμοποιεί $`h`$, $`n`$ και $`c'`$.
@@ -135,7 +135,7 @@ z_{\rm id}(s)=q_{\rm id}(r_s),\quad z_{\rm real}(s)=q_{\rm real}(h_{a+1:b}).
 
 ```math
 \phi(s,f)=\phi^0(s,f)+\beta_\kappa\log\frac{p_\kappa(x_s\mid f,n,C)}{p_0(x_s\mid n,C)}
-+\beta_S\left[\log m_f(x_s)-\log r_f(C,n)\right].\ {4}
++\beta_S\left[\log m_f(x_s)-\log r_f(C,n)\right].\ 
 ```
 
 Οι συντελεστές β εφαρμόζονται μετά την περιθωριοποίηση: $`(\beta_\kappa-\beta_S)\log A+\beta_S\log B`$ για το εσωτερικό μέρος, με χωριστούς όρους μήκους/υποβάθρου/αναφοράς. Η μεταφορά των β μέσα στο άθροισμα διαδρομών δίνει διαφορετικό μοντέλο.
@@ -153,7 +153,7 @@ P(y\mid X)=\exp s(y,X)/\mathcal Z(X).
 
 ```math
 \alpha_b=\operatorname{LSE}\left(\alpha_{b-1}+\chi_b,
-\{\alpha_a+\phi((a,b],f):\max(0,b-L)\le a<b\}\right).\ {5}
+\{\alpha_a+\phi((a,b],f):\max(0,b-L)\le a<b\}\right).\ 
 ```
 
 Το $`\log\mathcal Z=\alpha_T`$. Η Viterbi αντικαθιστά LSE με max και κρατά backpointers. Ο backward δείκτης $`\eta_a`$ δίνει πιθανότητα τμήματος $`\exp(\alpha_a+\phi(s,f)+\eta_b-\alpha_T)`$. Κόστος $`O(TLK)`$ για $`K=|F_Z|+1`$, χώρος $`O(T)`$ για partition/Viterbi, συν αποθήκευση scores. Η παραγωγή νευρωνικών span summaries έχει δικό της κόστος και δεν κρύβεται στο κόστος του decoder.
@@ -165,7 +165,7 @@ P(y\mid X)=\exp s(y,X)/\mathcal Z(X).
 Για πρώτο βαθμό με μνήμη της τελευταίας οικογένειας μέσα από gaps, ορίζεται $`\alpha_t(f,g)`$, $`g\in\{0,1\}`$, συν BOS. Skip: $`\alpha_{t+1}(f,1)\mathrel{\mathrm{LSE}=}\alpha_t(f,g)+\chi_{t+1}`$. Νέο τμήμα $`(a,b],k`$:
 
 ```math
-\alpha_b(k,0)\mathrel{\mathrm{LSE}=}\phi((a,b],k)+\operatorname{LSE}_{f,g}[\alpha_a(f,g)+A_a(f,k,g)].\ {6}
+\alpha_b(k,0)\mathrel{\mathrm{LSE}=}\phi((a,b],k)+\operatorname{LSE}_{f,g}[\alpha_a(f,g)+A_a(f,k,g)].\ 
 ```
 
 Αν $`A_a`$ ανεξάρτητο από $`b`$, η εσωτερική άθροιση υπολογίζεται μία φορά ανά $`(a,k)`$: $`O(TK^2+TLK)`$, μαζί με $`O(TK)`$ για gaps/BOS/EOS. Αν εξαρτάται από το νέο μήκος, κόστος $`O(TLK^2)`$. Πρώτος βαθμός σε ετικέτες πλήρους κάλυψης με O που διακόπτει τη μνήμη της οικογένειας είναι διαφορετικό μοντέλο από την (6).
@@ -223,7 +223,7 @@ p(\pi\mid x,S,f,C)=\frac{p_\kappa(x,\pi\mid f,C)Q_f(x,\pi)}{B_f(x)}.
 ```math
 \nabla_\kappa\ell_{\rm selected}
 =\mathbb E_{\pi\mid x,S}[\nabla\log p_\kappa(x,\pi)]
--\mathbb E_{X,\pi\mid S,n,C}[\nabla\log p_\kappa(X,\pi)],\ {7}
+-\mathbb E_{X,\pi\mid S,n,C}[\nabla\log p_\kappa(X,\pi)],\ 
 ```
 
 όταν $`q`$ σταθερό, με αντίστοιχους όρους prior. Οι κανονικοποιήσεις μήκους ακυρώνονται μεταξύ $`b`$ και $`Z`$. Η (7) έχει θετική και αρνητική αναμενόμενη συνεισφορά. Απλή επανακανονικοποίηση expected counts όπως στο Baum–Welch γενικά δεν μεγιστοποιεί αυτή την objective. Χρησιμοποιείται διαφορίσιμος ακριβής υπολογισμός ή generalized EM με πραγματικό έλεγχο αύξησης της σωστής objective.
