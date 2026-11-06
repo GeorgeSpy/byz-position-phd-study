@@ -6,7 +6,7 @@
 
 [Home](../../../README.md) · [Core research summary](../../start/research-summary.md) · [Preliminary inventory](../corpus/README.md) · [Data model (Greek)](../../../../docs/research/byzcorpus/data-model.md) · **[Expert-boundary pilot (English)](expert-boundary-pilot.md)** · [NHPYLM follow-up (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md) · [Roadmap (Greek)](../../../../docs/research/byzcorpus/roadmap.md)
 
-> **Status: research planning, 6 November 2026.** “ByzCorpus” is a provisional project name. This page documents a work in progress: no corpus release, validated model performance, public toolkit or external research partnership is claimed.
+> **Status: independent research initiative in design and feasibility assessment · 6 November 2026.** ByzCorpus develops a symbolic Byzantine chant corpus, Python research tooling and exploratory segmentation studies. The current release documents the research questions, specifications, evaluation plans and roadmap. Dataset and software releases follow source verification, validation and rights review.
 
 ## Purpose
 
@@ -17,7 +17,7 @@ Two connected workstreams are being designed:
 1. **A versioned symbolic corpus and Python toolkit:** import (including Neanes where available), validation, provenance, notation–event correspondence, searchable metadata and MIR exports.
 2. **A Byzantine segmentability pilot:** application of unsupervised statistical segmentation, including the Nested Hierarchical Pitman–Yor Language Model (NHPYLM) studied by Lanz and Hajič (2025), to continuous Byzantine melodies. The key comparison is with independently justified musicological position boundaries and, where available, position-family identities.
 
-The project can support the **PE0/PE1 data infrastructure** and M1 of the PhD proposal. The segmentation pilot is a separately scoped exploratory study. The approved M1 rule J, its fixed architecture A for representation selection, A2, and M2/EISE remain unchanged.
+ByzCorpus is scoped as a self-contained data-infrastructure and Symbolic MIR research initiative. Its outputs may support **PE0/PE1** and **M1** of the PhD proposal. The segmentation pilot has distinct questions, datasets and metrics; the M1 rule J, A2 and M2/EISE retain their established protocols.
 
 ## Current evidence and dependencies
 
@@ -35,11 +35,9 @@ The main initial tasks are: a source-and-rights inventory; a small set of comple
 
 The project connects the generative melodic-chunk account of **Mavromatis (2005)**, text and modal leakage controls from **Lanz & Hajič (2023)**, and memory-efficient NHPYLM segmentation from **Lanz & Hajič (2025)**. An open question is whether statistically efficient chunks align with complete Byzantine positions or with smaller internal components, especially in melismatic chant.
 
-An exploratory discussion with Dr Jan Hajič Jr is scheduled for **23 November 2026**. Potential collaboration is a topic for discussion and has not been agreed.
+## First feasibility study — independent expert agreement
 
-## First collaborative pilot — expert agreement
-
-Following an independent methodological review (6 November 2026), the proposed **first empirical study** is a limited [independent expert-boundary agreement pilot](expert-boundary-pilot.md). Two specialists in each repertoire would mark internal boundaries at a shared operational scale. Validated gap coverage, abstentions, missing submissions, text-derived boundary controls and the limits of between-tradition comparison are explicit parts of the revised design. NHPYLM follows as a computational comparison once suitable references are available. All thresholds and sample sizes remain provisional for discussion with Dr Jan Hajič Jr.
+Following an independent methodological review (6 November 2026), the proposed **first empirical study** is a limited [independent expert-boundary agreement pilot](expert-boundary-pilot.md). Two specialists in each repertoire would mark internal boundaries at a shared operational scale. Validated gap coverage, abstentions, missing submissions, text-derived boundary controls and the limits of between-tradition comparison are explicit parts of the revised design. NHPYLM follows as a computational comparison once suitable references are available. All thresholds and sample sizes remain provisional until source assessment, calibration and protocol finalisation.
 
 ## Working documents
 
