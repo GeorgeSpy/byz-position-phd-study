@@ -27,7 +27,7 @@
 
 ## ByzCorpus — συμβολικό corpus και πειραματική τμηματοποίηση (υπό ανάπτυξη)
 
-Νέα [ενότητα **ByzCorpus**](docs/research/byzcorpus/README.md) για τον σχεδιασμό ανοικτής, ελεγχόμενης υποδομής βυζαντινών συμβολικών δεδομένων και ενός ανεξάρτητου πιλοτικού NHPYLM / melodic segmentability. Περιλαμβάνει [μοντέλο δεδομένων](docs/research/byzcorpus/data-model.md), [ερευνητικό πρωτόκολλο](docs/research/byzcorpus/segmentation-pilot.md) και [ζωντανό οδικό χάρτη](docs/research/byzcorpus/roadmap.md). Η κατεύθυνση βρίσκεται σε φάση σχεδιασμού και διατηρεί αμετάβλητο τον πυρήνα Μ1–Α2–Μ2.
+Νέα [ενότητα **ByzCorpus**](docs/research/byzcorpus/README.md) για τον σχεδιασμό ανοικτής, ελεγχόμενης υποδομής βυζαντινών συμβολικών δεδομένων και ενός ανεξάρτητου πιλοτικού NHPYLM / melodic segmentability. Περιλαμβάνει [μοντέλο δεδομένων](docs/research/byzcorpus/data-model.md), [πρώτο πιλότο συμφωνίας ειδικών](docs/research/byzcorpus/expert-boundary-pilot.md) και [επόμενο υπολογιστικό στάδιο NHPYLM](docs/research/byzcorpus/segmentation-pilot.md) και [ζωντανό οδικό χάρτη](docs/research/byzcorpus/roadmap.md). Η κατεύθυνση βρίσκεται σε φάση σχεδιασμού και διατηρεί αμετάβλητο τον πυρήνα Μ1–Α2–Μ2.
 
 ## Τι είναι νέο
 
