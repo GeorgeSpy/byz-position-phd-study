@@ -16,7 +16,7 @@
 | Ε3: P1/P2 και E-min | 6–10 εβδομάδες· κυρίως CPU για κ, expert annotation για held-out θέσεις. | Same-information σύγκριση, selected-objective audit, learning curves και source-prior αντιθέσεις. | G2/G3 και ξεχωριστή E-min απόφαση. |
 | Ε4: A0 και κατάντη αναγνώριση | 6–10 εβδομάδες· κοινά GPU budgets, data QA. | Encoder transfer matrix, ECSI-Z, κ-integrated, calibration, unknown-family και Q_real. | G4 και τελικός empirical architecture selection. |
 | Ε5: historical probes και σύνθεση | 4–8 εβδομάδες εφόσον υπάρχει source-linked H. | Witness-specific ανάκτηση, multi-gold, risk–coverage, μουσικολογική ερμηνεία και άρθρο. | Χωριστή ιστορική δήλωση με σαφή ταυτοποιησιμότητα. |
-| Ε6: μόνο υπό πύλη | Ένας πρόσθετος ερευνητικός κύκλος. | Μικρά joint diagnostic blocks, ίσο-budget circuit/free-head comparator, θεωρητικό ερώτημα. | Ενεργοποίηση μόνο με αποδεδειγμένη residual dependence και πόρους. |
+| Ε6: μόνο υπό προυποθέσεις | Ένας πρόσθετος ερευνητικός κύκλος. | Μικρά joint diagnostic blocks, ίσο-budget circuit/free-head comparator, θεωρητικό ερώτημα. | Ενεργοποίηση μόνο με αποδεδειγμένη residual dependence και πόρους. |
 
 Η δυνατότητα παράλληλης προόδου αφορά εργασίες ανθρώπων/υπολογισμών του ερευνητικού προγράμματος. Δεν αλλάζει τις εξαρτήσεις των επιβεβαιωτικών tests. Η προσθήκη νέων πηγών μετά το test απαιτεί νέο version και νέο holdout, όχι επαναχρησιμοποίηση του παλιού ως development set με αδήλωτο τρόπο.
 
