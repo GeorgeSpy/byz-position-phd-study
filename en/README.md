@@ -27,6 +27,10 @@ Evaluation rests on blind judgements by independent specialists (M3a). M5-min ap
 
 A **melodic formula** (*thesis*) is the historically grounded musical formation studied here. Its **family**, **occurrence** and **realisation** have distinct analytical roles. [Definitions](docs/current/position-and-family.md).
 
+## ByzCorpus — symbolic corpus and segmentation pilot (work in progress)
+
+The new [**ByzCorpus project area**](docs/research/byzcorpus/README.md) documents a proposed versioned Byzantine chant corpus, a Python research toolkit and an exploratory NHPYLM / melodic segmentability study. It includes a [data-model draft](../docs/research/byzcorpus/data-model.md), [pilot protocol](../docs/research/byzcorpus/segmentation-pilot.md) and [living roadmap](../docs/research/byzcorpus/roadmap.md) (technical details currently in Greek). This initiative is under design and does not modify the approved M1–A2–M2 core.
+
 ## What is new
 
 The proposed research project examines **how a melodic formula retains its identity through variation and what exegeses transmit from older notation**. It connects these musicological questions with formula recognition in complete works and learning from documented historical relationships.

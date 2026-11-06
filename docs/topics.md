@@ -18,6 +18,7 @@
 | Επιλογή R⋆ και στατιστικό έλεγχο | [Αναθεώρηση Μ1](research/m1-selection-decision.md) | [Προγενέστερη Μ1](full/05-m1.md) · [E](appendices/e.md) |
 | B0/B1/B2/EISE και Δ_hist | [Αναθεωρημένη Μ2](research/m2-eise-research-design.md) | [Προγενέστερο Κεφάλαιο 6](full/06-eise.md#r044) · [F](appendices/f.md) · [G](appendices/g.md) |
 | Μερική πιθανοφάνεια και απώλειες | [Μάθηση](research/machine-learning.md) | [G.2–G.3](appendices/g.md#r181) |
+| ByzCorpus: συμβολικό corpus, Python toolkit και segmentation pilot | [Επισκόπηση έργου](research/byzcorpus/README.md) | [Schema](research/byzcorpus/data-model.md) · [NHPYLM pilot](research/byzcorpus/segmentation-pilot.md) · [Roadmap](research/byzcorpus/roadmap.md) |
 | Πηγές, επισημείωση και οικογενειακές κάρτες | [Δεδομένα](research/data-transfer.md) | [8](full/08-data.md), [C](appendices/c.md) |
 | Διαχωρισμούς και διαρροή | [Δεδομένα](research/data-transfer.md) | [D](appendices/d.md), [F](appendices/f.md) |
 | Ανεξάρτητες κρίσεις ειδικών | [Μουσικολογία](musicology/index.md) | [7.1](full/07-validation.md#r052), [C.11](appendices/c.md#r117) |
