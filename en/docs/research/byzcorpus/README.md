@@ -4,7 +4,7 @@
 **Language / Γλώσσα:** [Ελληνικά](../../../../docs/research/byzcorpus/README.md) · **English**
 <!-- language-switch:end -->
 
-[Home](../../../README.md) · [Core research summary](../../start/research-summary.md) · [Preliminary inventory](../corpus/README.md) · [Data model (Greek)](../../../../docs/research/byzcorpus/data-model.md) · [Segmentation pilot (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md) · [Roadmap (Greek)](../../../../docs/research/byzcorpus/roadmap.md)
+[Home](../../../README.md) · [Core research summary](../../start/research-summary.md) · [Preliminary inventory](../corpus/README.md) · [Data model (Greek)](../../../../docs/research/byzcorpus/data-model.md) · **[Expert-boundary pilot (English)](expert-boundary-pilot.md)** · [NHPYLM follow-up (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md) · [Roadmap (Greek)](../../../../docs/research/byzcorpus/roadmap.md)
 
 > **Status: research planning, 6 November 2026.** “ByzCorpus” is a provisional project name. This page documents a work in progress: no corpus release, validated model performance, public toolkit or external research partnership is claimed.
 
@@ -36,6 +36,10 @@ The main initial tasks are: a source-and-rights inventory; a small set of comple
 The project connects the generative melodic-chunk account of **Mavromatis (2005)**, text and modal leakage controls from **Lanz & Hajič (2023)**, and memory-efficient NHPYLM segmentation from **Lanz & Hajič (2025)**. An open question is whether statistically efficient chunks align with complete Byzantine positions or with smaller internal components, especially in melismatic chant.
 
 An exploratory discussion with Dr Jan Hajič Jr is scheduled for **23 November 2026**. Potential collaboration is a topic for discussion and has not been agreed.
+
+## First collaborative pilot — expert agreement
+
+Following an independent methodological review (6 November 2026), the proposed **first empirical study** is a limited [independent expert-boundary agreement pilot](expert-boundary-pilot.md). Two specialists in each repertoire would mark internal boundaries at a shared operational scale. Validated gap coverage, abstentions, missing submissions, text-derived boundary controls and the limits of between-tradition comparison are explicit parts of the revised design. NHPYLM follows as a computational comparison once suitable references are available. All thresholds and sample sizes remain provisional for discussion with Dr Jan Hajič Jr.
 
 ## Working documents
 
