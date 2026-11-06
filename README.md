@@ -25,6 +25,10 @@
 
 **[Σύνοψη του ερευνητικού πυρήνα](docs/start/research-summary.md)** · **[Συνοπτικό σχέδιο διδακτορικής έρευνας (PDF)](documents/core-research-plan.pdf)** · **[Μουσικολογικό υπόμνημα (PDF)](documents/musicological-memorandum.pdf)** · [Αναλυτική ερευνητική πρόταση (PDF)](documents/analytical-proposal.pdf) · **Συνοπτικά:** [Τι είναι νέο](#τι-είναι-νέο) → [Θέση και οικογένεια](docs/current/position-and-family.md#ένα-σχηματικό-παράδειγμα) → [Το αντίστροφο πρόβλημα](docs/current/inverse-problem.md)
 
+## ByzCorpus — συμβολικό corpus και πειραματική τμηματοποίηση (υπό ανάπτυξη)
+
+Νέα [ενότητα **ByzCorpus**](docs/research/byzcorpus/README.md) για τον σχεδιασμό ανοικτής, ελεγχόμενης υποδομής βυζαντινών συμβολικών δεδομένων και ενός ανεξάρτητου πιλοτικού NHPYLM / melodic segmentability. Περιλαμβάνει [μοντέλο δεδομένων](docs/research/byzcorpus/data-model.md), [ερευνητικό πρωτόκολλο](docs/research/byzcorpus/segmentation-pilot.md) και [ζωντανό οδικό χάρτη](docs/research/byzcorpus/roadmap.md). Η κατεύθυνση βρίσκεται σε φάση σχεδιασμού και διατηρεί αμετάβλητο τον πυρήνα Μ1–Α2–Μ2.
+
 ## Τι είναι νέο
 
 Το προτεινόμενο ερευνητικό έργο εξετάζει **πώς η μουσική θέση διατηρεί την ταυτότητά της μέσα στην παραλλαγή και τι μεταφέρουν οι εξηγήσεις από την παλαιότερη γραφή**. Συνδέει αυτά τα μουσικολογικά ερωτήματα με την αναγνώριση θέσεων σε πλήρη έργα και με τη μάθηση από τεκμηριωμένες ιστορικές σχέσεις.
@@ -82,6 +86,7 @@
 | μελετήσω τη νέα ερευνητική κατεύθυνση μουσικολογικά ενημερωμένης Μηχανικής Μάθησης | **[ECSI — Προδιαγραφές οικογενειών μουσικών θέσεων](docs/research/ecsi/README.md)** |
 | εμβαθύνω στη βυζαντινή σημειογραφία και στις θέσεις | [Μουσικολογική τεκμηρίωση](docs/musicology/index.md) |
 | καταλάβω την καινοτομία και τη σχέση με την προηγούμενη έρευνα | [Μεθοδολογική συμβολή και τοποθέτηση ανά πεδίο](docs/review/contribution-matrix.md) |
+| παρακολουθήσω το νέο έργο ByzCorpus (corpus, toolkit, segmentability) | **[ByzCorpus — υπό ανάπτυξη](docs/research/byzcorpus/README.md)** · [πιλοτικό NHPYLM](docs/research/byzcorpus/segmentation-pilot.md) |
 | δω ποια έργα και πηγές έχουν καταγραφεί για το σώμα δεδομένων | [Προκαταρκτική απογραφή του σώματος δεδομένων](docs/research/corpus/README.md) · [English inventory](en/docs/research/corpus/README.md) |
 | διαβάσω κεφάλαιο ή τεχνικό παράρτημα | [Αναλυτικά κεφάλαια και παραρτήματα](docs/full/index.md) |
 | αναζητήσω συγκεκριμένη πηγή | [Βιβλιογραφία μεθοδολογικής ανάπτυξης](docs/bibliography/methodology.md) · [Βιβλιογραφικό ευρετήριο](docs/bibliography/index.md) |
