@@ -6,11 +6,11 @@
 
 [ByzCorpus](README.md) · [Data model (Greek)](../../../../docs/research/byzcorpus/data-model.md) · [NHPYLM pilot (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md)
 
-> **Status: draft for discussion, 6 November 2026.** Proposed research design for the meeting with Dr Jan Hajič Jr on 23 November. All quantities and eligibility thresholds remain subject to a joint calibration decision. No empirical annotations, validated performances, or collaboration agreement are being claimed.
+> **Status: independent exploratory protocol · 6 November 2026.** This research plan specifies a feasibility study for musicologically informed boundary annotation. Sample targets, repertoire eligibility and thresholds will be fixed after source verification and calibration. Current deliverables comprise methodological specifications and synthetic checks; empirical data collection is planned as a subsequent stage.
 
 ## Rationale and objective
 
-Our first proposed collaborative experiment asks whether **two independent specialists within each tradition** identify the same *internal melodic boundaries* at a mutually specified analytical scale. The preliminary repertoire pair is Byzantine papadic Koinonika and Gregorian responsories, subject to source availability and expert judgement.
+The initial empirical study asks whether **two independent specialists within each tradition** identify the same *internal melodic boundaries* at a predefined analytical scale. The preliminary repertoire pair is Byzantine papadic Koinonika and Gregorian responsories, subject to source availability and expert judgement.
 
 This pilot aims to evaluate the **feasibility, coverage and usefulness of an independent musicological reference**. Reproducible NHPYLM and other computational segmentation baselines follow once this reference has been demonstrated. Recurrence, formula identity, memory efficiency and mode prediction are separate research questions.
 
@@ -59,6 +59,6 @@ The first Work reference evaluator passed 12/12 synthetic tests on fully audited
 
 The PhD study M1 remains a joint *complete-position localisation plus family identity* task, with its existing architecture A and representation-selection rule J. This feasibility pilot has distinct targets, labels and test groups. NHPYLM enters later as an independent segmentation comparator.
 
-The conceptual meeting examples are **Mavromatis (2005), Figure 5.4**, illustrating decision points and alternative melodic realisations, and **Lanz & Hajič (2025), Figure 2**, illustrating statistical segments in relation to larger musicological units. The opening question for Jan is which dimension of *segmentability* he primarily has in mind: boundary placement, recombination, reuse or variation. His answer should guide the annotation scale and the choice of Gregorian repertoire.
+The published figures **Mavromatis (2005), Figure 5.4** (decision points and alternative melodic realisations), and **Lanz & Hajič (2025), Figure 2** (statistical segments relative to larger musicological units), inform the study's distinction between boundary placement, recombination, reuse and variation. Each interpretation requires independently justified operational criteria and appropriate source material.
 
-**Immediate proposed joint output:** a modest, source-grounded and independently annotated boundary-feasibility study, with a possible longer-term data/tooling track inspired by CantusCorpus and PyCantus.
+**Initial planned output:** a modest, source-grounded feasibility study of independent boundary annotation. Symbolic-corpus development and research tooling proceed as a parallel component of ByzCorpus.
