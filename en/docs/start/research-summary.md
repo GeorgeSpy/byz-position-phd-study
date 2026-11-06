@@ -4,9 +4,11 @@
 **Language / Γλώσσα:** [Ελληνικά](../../../docs/start/research-summary.md) · **English**
 <!-- language-switch:end -->
 
-[Home](../../README.md) · [Core research plan (PDF, Greek)](../../../documents/core-research-plan.pdf) · [Preliminary corpus inventory](../research/corpus/README.md) · [Detailed M1 design](../research/m1-selection-decision.md) · [A2](../research/a2-knowledge-design.md) · [M2a/M2b](../research/m2-eise-research-design.md)
+[Home](../../README.md) · [Core research plan (PDF, Greek)](../../../documents/core-research-plan.pdf) · [Preliminary corpus inventory](../research/corpus/README.md) · [ByzCorpus (in development)](../research/byzcorpus/README.md) · [Detailed M1 design](../research/m1-selection-decision.md) · [A2](../research/a2-knowledge-design.md) · [M2a/M2b](../research/m2-eise-research-design.md)
 
 This summary covers M1, A2 and M2a, together with the historical study M2b, whose confirmatory evaluation depends on sufficient source and performance evidence. The [detailed proposal (PDF, Greek)](../../../documents/analytical-proposal.pdf) develops the musicological foundations. The linked study pages explain the revised designs and technical checks. The corpus targets will be reviewed after the pilot.
+
+**Related data-infrastructure initiative:** [ByzCorpus](../research/byzcorpus/README.md) is a proposed Byzantine symbolic corpus and research-toolkit project, with an exploratory NHPYLM segmentation pilot. It is currently a research design and does not alter the approved M1–A2–M2 methodology.
 
 ## The musical problem
 
