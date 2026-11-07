@@ -6,105 +6,101 @@
 
 [Home](../../README.md) · [Core research plan (PDF, Greek)](../../../documents/core-research-plan.pdf) · [Preliminary corpus inventory](../research/corpus/README.md) · [ByzCorpus (in development)](../research/byzcorpus/README.md) · [Detailed M1 design](../research/m1-selection-decision.md) · [A2](../research/a2-knowledge-design.md) · [M2a/M2b](../research/m2-eise-research-design.md)
 
-This summary covers M1, A2 and M2a, together with the historical study M2b, whose confirmatory evaluation depends on sufficient source and performance evidence. The [detailed proposal (PDF, Greek)](../../../documents/analytical-proposal.pdf) develops the musicological foundations. The linked study pages explain the revised designs and technical checks. The corpus targets will be reviewed after the pilot.
-
-**Related data-infrastructure initiative:** [ByzCorpus](../research/byzcorpus/README.md) is a proposed Byzantine symbolic corpus and research-toolkit project, with an exploratory NHPYLM segmentation pilot. It is currently a research design and does not alter the approved M1–A2–M2 methodology.
+This page summarises the core design of the PhD research: joint boundary detection and formula recognition (**M1**), the experimental evaluation of musicological knowledge (**A2**), and representation learning from family and historical relationships (**M2a** and **M2b**, where confirmatory evaluation of M2b depends on sufficient source and performance data). The [detailed proposal (PDF, Greek)](../../../documents/analytical-proposal.pdf) sets out the musicological foundations, while the linked technical pages present the protocols and synthetic checks. Final corpus targets will be set after the pilot phase.
 
 ## The musical problem
 
-Byzantine chant is the monophonic vocal music of Orthodox worship, transmitted for centuries through written tradition and oral teaching together. Its melodies draw on a vocabulary of traditional formations, the **melodic formulae** (θέσεις): melodic formations of variable length that recur from work to work, adapted to the mode (echos, the modal framework of the melody), to the scale degree and to the poetic text. Occurrences that share the same identity form a **family** of formulae.
+Byzantine chant is the monophonic vocal music of Orthodox worship, transmitted over centuries through the interplay of written notation and oral teaching. Its melodies draw on a rich vocabulary of traditional melodic types, the **musical formulae** (*theseis*, θέσεις): variable-length formations that recur across works, adapted to the mode (*echos*, the modal framework), the scale degree and the poetic text. Individual occurrences that share the same structural identity form a **family** of formulae.
 
-The identity of a formula is not the same as surface similarity. Related melodic paths may belong to different families, the same formula unfolds with different length and shape, and its boundaries within continuous notation are not always unambiguous. The musicological question is therefore also a demanding problem of symbolic music information retrieval (MIR) and machine learning: a system must locate units of variable length, recognise their family and abstain when the evidence is insufficient.
+The identity of a formula, however, does not reduce to surface melodic similarity. Similar interval sequences may belong to different families, the same formula can unfold at different lengths and levels of elaboration, and its boundaries within continuous notation are not always clear-cut. Consequently, the musicological question of the *thesis* is also a demanding problem in symbolic music information retrieval (Symbolic MIR) and machine learning: a computational model must locate variable-length units, identify their family and abstain when the evidence is ambiguous.
 
-The proposal approaches the problem through **musicology-informed machine learning**. Musicology defines the unit of analysis and the criteria of each family. How much this knowledge is worth, and how the model uses it, are examined as controlled experimental variables. The repertoire is the papadic Cherubic hymns and Koinonika of the New Method, the analytical notation established in 1814. These are slow, melismatic chants of the Divine Liturgy, where formulae are long and hard cases are frequent.
+The research addresses this problem through **musicology-guided machine learning**. Musicological analysis defines the structural unit and the diagnostic criteria of each family, while both the validity of this domain knowledge and the way it is integrated into the model are tested as explicit experimental variables. The empirical focus is on the papadic Cherubic hymns and Koinonika of the New Method, the analytical notation introduced in 1814. These are slow, richly melismatic chants of the Divine Liturgy, in which consecutive formulae often unfold within a single syllable and morphological ambiguities are frequent.
+
+**Related data-infrastructure initiative.** [ByzCorpus](../research/byzcorpus/README.md) organises the symbolic data model, source and licence documentation, and a separate pilot protocol for expert boundary agreement and statistical segmentation (NHPYLM). It is developed in parallel and leaves the core M1–A2–M2 study design unchanged.
 
 ## 1. Research questions
 
-> **Central question.** How can a melodic formula and its family be recognised within continuous notation when their realisation varies, and what does the musicological knowledge that defines the family contribute to this recognition?
+> **Central question.** How can a computational model locate the boundaries of a musical formula and recognise its family within continuous notation when its realisation varies, and what does explicit musicological knowledge contribute to this recognition?
 
-The question is divided into three studies that use the same corpus and the same symbolic infrastructure.
+The central question is addressed through three complementary studies sharing the same corpus and symbolic infrastructure:
 
-**RQ1 — How the notation should be read (M1).** A formula can be read as a sequence of written signs, of elementary melodic movements or of neume groups, with or without information on timing, mode and text. Which reading allows the boundaries and the family of a formula to be estimated jointly? And how many boundaries are already explained by general melodic segmentation cues that know nothing about families?
+**RQ1 — How the notation should be represented (M1).** The chant score can be encoded as a sequence of written signs, atomic melodic events or neume groups, progressively enriched with temporal, modal and textual information. Which representation supports the most accurate joint estimation of formula boundaries and family identity? And to what extent are these boundaries already accounted for by general melodic segmentation cues without any knowledge of formula families?
 
-**RQ2 — What musicological knowledge contributes (A2).** A family specification may require a particular cadence, allow one of several internal developments and exclude a modal change. Does the valid specification improve recognition compared with a deliberately perturbed specification of the same form? And does logically combining these relations add anything beyond using them additively?
+**RQ2 — How musicological knowledge affects learning (A2).** A family specification may require a particular cadence, allow alternative internal developments and rule out certain modal changes. Does a musicologically valid specification improve recognition compared with a controlled perturbation of the exact same logical form? And what does structured logical composition add beyond simple additive scoring of the same diagnostic concepts?
 
-**RQ3 — Identity and realisation (M2a).** Does learning from pairs of real occurrences of the same family, in different works, help to recognise the family? And does it do so without losing the musically important information of the particular realisation?
+**RQ3 — Family identity and preservation of realisation (M2a).** Does supervision from pairs of occurrences of the same family across different works improve recognition on unseen pieces? And how can this shared identity be learned without discarding the melodic and temporal details that characterise each individual realisation?
 
-**Historical question (M2b/EISE).** What does learning from two historically documented exegeses of the **same passage** add to learning from occurrences of the same family in different works? For each condition, the learned profile of written variation is compared with timing variability across independent chanters in the corresponding musical regions.
+**Historical question — Parallel exegeses as supervision (M2b / EISE).** What additional information is gained by learning from independent historical transcriptions (*exegeses*) of the **same passage** (co-exegeses), compared with learning from occurrences of the same family across different works? To evaluate this externally, the profile of written variation learned under each condition is compared against timing variability across audio recordings by different chanters in the corresponding regions of the formula.
 
 ## 2. Proposed approach
 
-### Data
+### Data and musicological documentation
 
-The works are encoded from files of Neanes, open-source software for writing Byzantine notation. The public *Papadic Formulae* catalogue of St Anthony's Monastery in Arizona, with formulae from 758 compositions, serves as a guide for locating material and candidate families. It is not, however, a ready corpus of complete works, so the inventory of available works, sources and licences is the first step of the work.
+Works are encoded from structured files created in Neanes, an open-source editor for Byzantine notation. The public *Papadic Formulae* catalogue of St Anthony's Monastery in Arizona (covering formulae from 758 compositions) serves as an index for locating material and candidate families; because it is not a corpus of complete scores, compiling a verified inventory of sources and licences is the first step of the project.
 
-The [preliminary inventory](../research/corpus/README.md) records metadata from Gheorghiță’s (2009) study of **42 Sunday Koinonika** and **11 formulaic formations**. It catalogues **338 rows across 68 tables**, which help locate passages for M1 and document candidate family specifications for A2. **Thirty-five rows record separate renderings by Gregorios and Chourmouzios** across Daniel’s eight Koinonika. Eligibility for M2b depends on identifying the witnesses and passages and checking historical dependencies. Complete works will be encoded from New Method sources.
+The [preliminary inventory](../research/corpus/README.md) compiles metadata from Gheorghiță’s (2010) comparative study of **42 Sunday Koinonika** and **11 historical melodic formations**. It records **338 entries across 68 comparative tables**, which guide passage selection for M1 and the drafting of family specifications for A2. Among these, **35 entries document parallel exegeses by Gregorios Protopsaltes and Chourmouzios Chartophylax** across the eight Koinonika of Daniel Protopsaltes. Their eligibility for M2b will be finalised after verifying manuscripts, folios and transmission dependencies.
 
-The target is 40–60 complete works with 8–12 families and at least 25–30 occurrences per family from at least five independent works. Experts annotate the boundaries and the family of each occurrence, and at least 30% of occurrences, together with all hard cases, are annotated blind by a second expert. The pilot study of the first six months tests the whole chain on three candidate families, the parakletike, the kylisma and the piasma, starting from Gheorghiță's comparisons in Koinonika. It also measures annotation time and expert agreement, so that the scale of the corpus is decided on the basis of measurements.
+The initial target is 40–60 complete works and 8–12 formula families (with at least 25–30 occurrences per family across at least five independent works). Experts annotate the boundaries and family membership of each occurrence, while at least 30% of the material—along with all ambiguous cases—is double-annotated blind by a second specialist. A six-month pilot tests the entire workflow on three candidate families (*parakletike*, *kylisma*, *piasma*), measuring annotation time and inter-annotator agreement so that the final scale of the corpus can be set empirically.
 
-### Representing the music
+### Symbolic representation
 
-Each work is converted into a single symbolic form: a sequence of atomic melodic events, linked in both directions to the written signs, so that every automatic decision can be checked in the passage that produced it. An initial conversion infrastructure already exists. It will be tested on real works by restoring the original notation from the symbolic form.
+Each work is converted into a unified symbolic sequence of atomic melodic events linked bidirectionally to the written neumes and their exact locus in the source, allowing every model prediction to be inspected directly on the score. The conversion pipeline is verified through lossless round-trip reconstruction of the original notation.
 
-On this form M1 compares twelve readings of the notation. It combines three input units (written sign, atomic melodic event, neume group) with four cumulative layers of information: notational, temporal, modal (echos, martyriai, phthorai) and textual (syllable, word, stress). The reading selected in M1 becomes the shared input of A2 and M2a.
+On this common event axis, M1 evaluates twelve input combinations ($3\times 4$): three input granularities (written sign, atomic melodic event, neume group) crossed with four cumulative layers of information—base notation, rhythmic durations, modal indications (*echos*, *martyriai*, *phthorai*) and textual features (syllable, word, stress). The best-performing representation in M1 serves as the shared input for A2 and M2.
 
-### Models
+### Modelling
 
-**M1** uses as its main model a semi-CRF, a probabilistic model that scores whole candidate segments rather than single signs. It therefore decides jointly where a formula begins and ends and to which family it belongs. The model is compared with two-stage solutions that first find boundaries and then the family. It is also compared with an event-level Transformer, with general segmentation cues (local discontinuities as in LBDM, unexpectedness as in IDyOM, repetition of melodic structures) and with unsupervised statistical segmentation. Rule J selects the representation that best recognises complete formulae, subject to a minimum requirement for family recognition given the boundaries. [M1 methodology and synthetic checks](../research/m1-selection-decision.md)
+In **M1**, a neural encoder contextualises the melodic events and a semi-Markov conditional random field (joint semi-CRF) scores candidate start boundaries, end boundaries and family labels simultaneously, taking alternative acceptable segmentations into account during training. This joint model is compared against two-stage pipelines (which detect boundaries first and classify segments second), an autoregressive event-level Transformer, local boundary and melodic parallelism baselines (LBDM, IDyOM) and unsupervised Bayesian segmentation via Pitman–Yor processes (NHPYLM). Selection rule J chooses the representation with the highest full-recognition score, subject to a minimum recall threshold on known families. [M1 methodology and synthetic checks](../research/m1-selection-decision.md)
 
-**A2** uses the same trained M1 base in all four experimental conditions within each run. Family specifications combine concepts extracted from the notation, such as cadence, internal development or modal change. The experiment crosses valid or deliberately perturbed specifications with additive or structured logical use. Perturbations preserve the structure and overlaps of the specifications and match concepts with similar frequencies. [A2 research design](../research/a2-knowledge-design.md) · [Technical protocol and synthetic checks](../appendices/k.md)
+**A2** keeps the trained M1 neural backbone fixed within each experimental replication and evaluates family specifications in a $2\times 2$ factorial design: valid versus controlled perturbed specifications, crossed with simple additive versus structured logical scoring of the same diagnostic concepts (such as cadence, internal development and modal change). Perturbations preserve the logical skeleton, concept frequencies and non-observability patterns of the specifications. [A2 research design](../research/a2-knowledge-design.md) · [Technical protocol and synthetic checks](../appendices/k.md)
 
-**M2a** uses a symbolic reference model with fixed features and compares two neural conditions. The first learns to locate and recognise formulae and reconstruct features of their realisation. The second adds learning from pairs of occurrences of the same family in different works. Recognition is evaluated alongside the preservation of differences between realisations.
+**M2a** contrasts a non-neural symbolic baseline (B0) with two neural conditions: a base model (B1) trained on boundary/family recognition and masked feature reconstruction, and a family-supervised condition (B2) that adds relational supervision from pairs of occurrences of the same family across different works. Recognition gains are evaluated alongside the preservation of realization-specific details (via reconstruction and linear probing).
 
-**M2b** compares EISE with a matched family-based condition using the same architecture, initialisation and training protocol. EISE uses verified co-exegeses of the same passage as positive pairs. The family-based condition uses pairs of occurrences from the same family in different works. [Detailed M2a and M2b design](../research/m2-eise-research-design.md)
+**M2b** compares the **EISE** (Exegesis-Invariant Segmental Encoder), where positive pairs come from verified co-exegeses of the same historical passage, against a matched model trained on same-family pairs from different works under identical architecture, initialisation and computational budget. [Detailed M2a and M2b design](../research/m2-eise-research-design.md)
 
 ### Evaluation
 
-Works that share historical material, e.g. copies or renderings of the same passage, are always placed in the same part of the data. Performance is therefore not artificially raised by near-identical material in training and testing. An independent test set is defined early and opened once, after all choices have been made.
+To prevent data leakage, related works, copies and co-exegeses of the same chant are grouped together before splitting into training, validation and test sets. A locked held-out test set is set aside early and evaluated only once, after all modelling choices have been fixed.
 
-M1 measures how many occurrences are found with acceptable boundaries and the correct family. A2 and M2a measure how well the model ranks the real occurrences of each family, with average precision. M2a also measures how much information of the realisation is kept in the representations.
+M1 is evaluated using full-recognition $F_1$ (requiring agreement on both acceptable boundaries and family identity), while A2 and M2a use macro Average Precision (macro AP) per family alongside realization-preservation probes. In addition, independent specialists evaluate model predictions and borderline cases blind to their origin (M3a), and the final model is applied to complete unseen works to generate morphological maps of formula organisation (M5-min).
 
-Independent experts judge, blind to the source of the proposals, the recognitions and the hard cases (M3a). Finally, the final model is applied to complete works outside training to map how formulae are organised (M5-min). A statistical test is prespecified for the main comparisons of A2. If the data are insufficient, results are reported as estimates with their uncertainty.
-
-Pilot training for **M2b** requires eligible historical pairs. The confirmatory comparison additionally requires sufficient independent performances of the corresponding passages (M4-min) and checks of statistical adequacy. The inventory of historical relationships remains a deliverable in its own right.
+In **M2b**, external evaluation compares the profile of internal formula regions where historical exegeses diverge most against timing variability across audio recordings by different chanters (M4-min), after timing normalisation. The systematic inventory of co-exegeses remains a standalone musicological deliverable regardless of sample size.
 
 ### The approach at a glance
 
 ```mermaid
 flowchart LR
   K["Musicological knowledge<br/>annotations and<br/>family specifications"]
-  S["Sources<br/>papadic Cherubic hymns<br/>and Koinonika"] --> R["Single symbolic<br/>representation"]
-  R --> M1["M1<br/>boundaries and family jointly;<br/>choice of reading"]
+  S["Sources<br/>papadic Cherubic hymns<br/>and Koinonika"] --> R["Unified symbolic<br/>representation"]
+  R --> M1["M1<br/>boundaries and family jointly;<br/>representation selection"]
   K --> M1
   K --> A2
-  M1 --> A2["A2<br/>valid or perturbed knowledge;<br/>additive or logical use"]
-  M1 --> M2["M2a<br/>learning from occurrences<br/>of the same family"]
-  A2 --> E["Evaluation<br/>independent test set,<br/>blind expert judgements,<br/>complete works"]
+  M1 --> A2["A2<br/>valid vs. perturbed knowledge;<br/>additive vs. logical scoring"]
+  M1 --> M2["M2a & M2b<br/>family pairs and<br/>co-exegeses (EISE)"]
+  A2 --> E["Evaluation & Application<br/>held-out test set, blind expert review,<br/>performances, morphological maps"]
   M2 --> E
 ```
 
 ## 3. Expected contributions
 
-### For MIR and machine learning
+### For symbolic MIR and machine learning
 
-The thesis defines a new, standardised symbolic MIR task: joint segmentation and recognition of melodic formulae within continuous notation, with several acceptable segmentations, unknown families and the option to abstain. The task comes with an evaluation corpus and reference models.
+The thesis defines a new, reproducible symbolic MIR task: joint segmentation and recognition of variable-length melodic units in continuous melismatic notation, accommodating multiple valid boundary placements, unknown families and explicit abstention, accompanied by a curated benchmark corpus and reference baselines.
 
-A2 offers a controlled way to measure what expert knowledge adds to a machine-learning model. It separates the value of the content of the knowledge from the value of the way it is used, by comparison with perturbed knowledge of the same form. The design transfers to any field where experts state testable category criteria.
-
-M2a examines how the identity of a category can be learned without erasing its internal variation, a central issue for every musical tradition organised in melodic types.
+At the same time, study A2 introduces a tightly controlled experimental design for measuring the contribution of domain knowledge in machine learning, disentangling the substantive validity of expert criteria from their structured logical composition. Finally, studies M2a and M2b investigate how representation learning can align the shared identity of a musical unit while preserving its internal variation.
 
 ### For Byzantine musicology
 
-The work states explicit, testable specifications of formula families and documents which occurrences belong to the same formula, by mode, genre and form. It records where the written variation of each family is concentrated and collects the hard cases with full notational references. The specifications are tested empirically. Where the data disagree with a specification, the disagreement is a musicological finding and not simply a model error. The inventory of historical exegeses of the same passage is a deliverable in its own right, useful beyond the thesis.
+The research develops an operational, empirically testable ontology of the musical *thesis*, documenting identity criteria, acceptable realisations and borderline cases across modes and genres. Where source occurrences diverge from a theoretical specification, that divergence is recorded as a substantive musicological finding rather than treated merely as a classification error. Moreover, the systematic register of parallel historical exegeses and the morphological maps of complete works provide new resources for comparative analysis of composition and exegesis.
 
-### Concrete results and tools
+### Deliverables and research resources
 
-- an open conversion chain from Neanes files to a single symbolic form, with a reconstruction check;
-- an annotated evaluation corpus with its annotation protocol, published where licences allow;
-- a register of tested formula-family specifications;
-- trained models, code and reference models for the new task;
-- maps of how formulae are organised in complete works;
-- publications in MIR conferences and journals and in musicology journals.
+- an open conversion pipeline from Neanes files to a unified symbolic representation, with automated round-trip reconstruction checks;
+- an annotated benchmark corpus and annotation protocol (released in accordance with source licences);
+- a documented register of formula-family specifications and historical co-exegeses;
+- open-source code, trained models and reproducible experimental checks;
+- morphological maps of formula organisation across complete papadic works;
+- publications in international MIR / machine-learning venues and musicological journals.
 
 ---
 
