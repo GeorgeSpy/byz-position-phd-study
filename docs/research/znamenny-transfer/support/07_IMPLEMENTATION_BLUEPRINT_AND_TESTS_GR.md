@@ -47,7 +47,7 @@ python3 -m compileall -q .
 | `evaluation/comparators` | Κοινό posterior/q/S και resource budget. | Add, Vit, Pool, Pool2, MC, A1+γ, AC· κοινό calibration interface. |
 | `evaluation/probes_statistics` | Frozen features, group IDs, blind labels. | Q_real, inverse, paired intervals, gates και complete coverage ledger. |
 
-Τα paths είναι προτεινόμενη λογική οργάνωση νέων modules· δεν δηλώνεται ότι υπάρχουν ήδη στο GitHub ή ότι γράφτηκε production trainer μέσα στο παρόν ZIP.
+Τα paths είναι ενδεικτική - προτεινόμενη λογική οργάνωση νέων modules·
 
 ## 4. Ακριβής σειρά υπολογισμού
 
