@@ -63,7 +63,7 @@ The contribution to representation learning is a controlled way to assess the va
 
 ### Knowledge content and how it enters the model
 
-The experiment using correct or systematically perturbed knowledge, with simple or structured use, examines **which musical knowledge helps and how it is used**. Main effects and the interaction of the two factors estimate the value of knowledge correctness under each mode of incorporation.
+The experiment using valid or systematically perturbed specifications, with simple or structured use, examines **which musical knowledge helps and how it is used**. Main effects and the interaction of the two factors estimate the value of knowledge correctness under each mode of incorporation.
 
 Distinguishing content from use gives practical direction to model design: which musicological documentation is worth collecting and which mechanism can exploit it. The interaction shows when structured use specifically strengthens correct knowledge. [Musicologically informed learning and A2 (Greek)](../../../docs/research/machine-learning.md).
 

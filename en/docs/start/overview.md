@@ -20,7 +20,7 @@ The proposal investigates these questions in the papadic repertoire of Cherubic 
 
 **In music information retrieval (MIR)**, it identifies which symbolic representation supports joint boundary detection and recognition of this musical unit across complete works, even when occurrences differ in length and melodic surface. Evaluation incorporates alternative acceptable boundary placements, unknown families and challenging borderline cases.
 
-**In machine learning**, it experimentally disentangles the substantive validity of expert knowledge from its structured logical composition (by comparing valid against controlled perturbed specifications) and tests whether the documented historical relationship between two co-exegeses provides a richer supervisory signal than a shared family label alone.
+**In machine learning**, it experimentally disentangles the substantive validity of expert knowledge from its structured logical composition (by comparing valid against systematically perturbed specifications) and tests whether the documented historical relationship between two co-exegeses provides a richer supervisory signal than a shared family label alone.
 
 Optional cognitive studies further examine how family organisation relates to categorisation and melodic expectation among experienced listeners. [What each study will teach us](../review/knowledge-contributions.md) · [Contributions and previous research](../review/contribution-matrix.md).
 

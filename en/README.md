@@ -17,7 +17,7 @@
 - **M1 — Joint segmentation and recognition.** Boundaries and family are estimated together; input units of the notation and feature layers are compared.  
   [Revised M1 methodology — representation selection and synthetic validation](docs/research/m1-selection-decision.md).
 - **A2 — The value of musicological knowledge.** Valid versus deliberately perturbed family specifications, used either additively or as structured logical constraints.  
-  [A2 research design — valid and perturbed knowledge, logical composition and technical protocol](docs/research/a2-knowledge-design.md).
+  [A2 research design — valid and systematically perturbed specifications, logical composition and technical protocol](docs/research/a2-knowledge-design.md).
 - **M2 — Identity and realisation.** Learning from occurrences of the same family without losing their variation; a historical strand using exegeses of the same passage, only where the sources allow it.  
   [Revised M2 methodology — family-based and historical supervision](docs/research/m2-eise-research-design.md).
 
@@ -48,7 +48,7 @@ The new task combines formula localisation and recognition in continuous chant, 
 
 **For machine learning**
 
-The provenance of positive pairs becomes an experimental variable: common family labels are compared with verified exegeses of the same passage, using an independent performance criterion. Correct and perturbed knowledge are compared to examine what musicological content contributes and how it is used. Probabilistic models characterise a family's preferred realisations and the additional information provided by each historical source.
+The provenance of positive pairs becomes an experimental variable: common family labels are compared with verified exegeses of the same passage, using an independent performance criterion. Valid and systematically perturbed specifications are compared to examine what musicological content contributes and how it is used. Probabilistic models characterise a family's preferred realisations and the additional information provided by each historical source.
 
 [What each study will teach us](docs/review/knowledge-contributions.md) · [Contributions, previous research and evaluation](docs/review/contribution-matrix.md).
 

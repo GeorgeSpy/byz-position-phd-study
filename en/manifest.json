@@ -19,7 +19,7 @@
     },
     {
       "source": "README.md",
-      "source_blob_sha": "f1d161ca61057f9ff34884c5896a80397fb13a1b",
+      "source_blob_sha": "26d6be5f6a13a754246d99d7cbe99569e93f6082",
       "target": "en/README.md",
       "status": "translated"
     },
@@ -1165,7 +1165,7 @@
     },
     {
       "source": "docs/research/a2-knowledge-design.md",
-      "source_blob_sha": "422376e7432d95c498892b6dd52a74eba29fc5c8",
+      "source_blob_sha": "1fcd820a497629cd19bbf34ffed33610b8bb85a3",
       "target": "en/docs/research/a2-knowledge-design.md",
       "status": "translated"
     },
@@ -1237,7 +1237,7 @@
     },
     {
       "source": "docs/review/contribution-matrix.md",
-      "source_blob_sha": "11f3d7104419cff9fa9635c866a41c01141c14e2",
+      "source_blob_sha": "9bc86b242ebc99ea05490623aad5db009e5ca219",
       "target": "en/docs/review/contribution-matrix.md",
       "status": "translated"
     },
@@ -1255,7 +1255,7 @@
     },
     {
       "source": "docs/review/knowledge-contributions.md",
-      "source_blob_sha": "cc51069bf598818d9b5c0ae686a0b38cb0ccc9a8",
+      "source_blob_sha": "5d98dfdb0be614be0d23bd5c068a555721d38938",
       "target": "en/docs/review/knowledge-contributions.md",
       "status": "translated"
     },
@@ -1279,7 +1279,7 @@
     },
     {
       "source": "docs/start/research-summary.md",
-      "source_blob_sha": "1db2bd69348ccac5a9c6a666022d0409e93ad690",
+      "source_blob_sha": "37d35e1e123ed04fed545a5f4c8c7c70a28bef02",
       "target": "en/docs/start/research-summary.md",
       "status": "translated"
     },

@@ -52,7 +52,7 @@ On this common event axis, M1 evaluates twelve input combinations ($3\times 4$):
 
 In **M1**, a neural encoder contextualises the melodic events and a semi-Markov conditional random field (joint semi-CRF) scores candidate start boundaries, end boundaries and family labels simultaneously, taking alternative acceptable segmentations into account during training. This joint model is compared against two-stage pipelines (which detect boundaries first and classify segments second), an autoregressive event-level Transformer, local boundary and melodic parallelism baselines (LBDM, IDyOM) and unsupervised Bayesian segmentation via Pitman–Yor processes (NHPYLM). Selection rule J chooses the representation with the highest full-recognition score, subject to a minimum recall threshold on known families. [M1 methodology and synthetic checks](../research/m1-selection-decision.md)
 
-**A2** keeps the trained M1 neural backbone fixed within each experimental replication and evaluates family specifications in a $2\times 2$ factorial design: valid versus controlled perturbed specifications, crossed with simple additive versus structured logical scoring of the same diagnostic concepts (such as cadence, internal development and modal change). Perturbations preserve the logical skeleton, concept frequencies and non-observability patterns of the specifications. [A2 research design](../research/a2-knowledge-design.md) · [Technical protocol and synthetic checks](../appendices/k.md)
+**A2** keeps the trained M1 neural backbone fixed within each experimental replication and evaluates family specifications in a $2\times 2$ factorial design: valid versus systematically perturbed specifications, crossed with simple additive versus structured logical scoring of the same diagnostic concepts (such as cadence, internal development and modal change). Perturbations preserve the logical skeleton and overlaps of the specifications, matching concept frequencies and missingness rates within the prespecified tolerance. [A2 research design](../research/a2-knowledge-design.md) · [Technical protocol and synthetic checks](../appendices/k.md)
 
 **M2a** contrasts a non-neural symbolic baseline (B0) with two neural conditions: a base model (B1) trained on boundary/family recognition and masked feature reconstruction, and a family-supervised condition (B2) that adds relational supervision from pairs of occurrences of the same family across different works. Recognition gains are evaluated alongside the preservation of realization-specific details (via reconstruction and linear probing).
 
@@ -75,7 +75,7 @@ flowchart LR
   R --> M1["M1<br/>boundaries and family jointly;<br/>representation selection"]
   K --> M1
   K --> A2
-  M1 --> A2["A2<br/>valid vs. perturbed knowledge;<br/>additive vs. logical scoring"]
+  M1 --> A2["A2<br/>valid or systematically<br/>perturbed specifications;<br/>additive vs. logical scoring"]
   M1 --> M2["M2a & M2b<br/>family pairs and<br/>co-exegeses (EISE)"]
   A2 --> E["Evaluation & Application<br/>held-out test set, blind expert review,<br/>performances, morphological maps"]
   M2 --> E

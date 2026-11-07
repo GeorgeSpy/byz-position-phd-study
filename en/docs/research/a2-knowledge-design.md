@@ -22,7 +22,7 @@
 6. [Diagnostic concepts and the family specification](#6-diagnostic-concepts-and-the-family-specification)
 7. [Flat versus structured use](#7-flat-versus-structured-use)
 8. [The 2×2 factorial experiment](#8-the-22-factorial-experiment)
-9. [Controlled perturbations of knowledge](#9-controlled-perturbations-of-knowledge)
+9. [Controlled perturbations of specifications](#9-controlled-perturbations-of-specifications)
 10. [The comparators B_K and B★](#10-the-comparators-b_k-and-b)
 11. [The primary estimands](#11-the-primary-estimands)
 12. [Metrics and hard cases](#12-metrics-and-hard-cases)
@@ -44,7 +44,7 @@ A2 asks whether **the validity of diagnostic musicological relations** and **the
 
 The question has two testable parts:
 
-- **RQ-A2.1 — Validity of content.** Does the ranking of each family's occurrences against all other occurrences (the AP of §12) improve when the specifications contain musicologically valid relations, compared with matched, controlled perturbed specifications?
+- **RQ-A2.1 — Validity of content.** Does the ranking of each family's occurrences against all other occurrences (the AP of §12) improve when the specifications contain musicologically valid relations, compared with matched, systematically perturbed specifications?
 - **RQ-A2.2 — Logical composition.** With the same valid diagnostic concepts available in both conditions, what does evaluating the complete logical specification add over an additive summary?
 
 The methodological contribution of the design is the **separate experimental variation of two factors**: musicological validity and the integration mechanism. The evaluation links historically documented musical knowledge to measurable outcomes in symbolic music information retrieval (MIR).
@@ -59,7 +59,7 @@ The stages below describe the logic of the decisions, not necessarily their exac
 
 **Second decision — two different sources of improvement.** Adding musical features and exploiting the logical composition of a specification are different learning mechanisms. A2 therefore uses a common table of musical concepts with two modes of use.
 
-**Third decision — valid versus controlled perturbed knowledge.** A simple "with rules / without rules" comparison does not isolate the value of musical content. A2 therefore introduces perturbations with matched logical structure, applicability and missingness, but with altered musical relations.
+**Third decision — valid versus systematically perturbed specifications.** A simple "with rules / without rules" comparison does not isolate the value of musical content. A2 therefore introduces perturbations with matched logical structure, applicability and missingness, but with altered musical relations.
 
 **Fourth decision — a full factorial design.** The two factors are crossed in four conditions FV, FP, DV, DP. The design yields main contrasts and a secondary interaction.
 
@@ -253,18 +253,20 @@ The two factors are:
 - **knowledge validity** $`K\in\lbrace V,P\rbrace`$: musicologically valid specification $`V`$ or controlled perturbed specification $`P`$;
 - **mechanism of use** $`C\in\lbrace F,D\rbrace`$: flat additive or structured logical use.
 
-| | Valid specification $`V`$ | Controlled perturbed $`P`$ |
+| | Valid specification $`V`$ | Systematically perturbed specification $`P`$ |
 |---|---|---|
-| **Flat use $`F`$** | **FV** — valid concepts, additive summaries | **FP** — perturbed relations, additive summaries |
-| **Structured use $`D`$** | **DV** — valid knowledge with a logical penalty | **DP** — perturbed knowledge with the same logical procedure |
+| **Flat use $`F`$** | **FV** — valid specifications, additive summaries | **FP** — systematically perturbed specifications, additive summaries |
+| **Structured use $`D`$** | **DV** — valid specifications with a logical penalty | **DP** — systematically perturbed specifications with the same logical procedure |
 
 The design examines the two main contrasts and their interaction. $`R^\star`$, the bases, the eligible passages, the budgets and the tuning procedure remain matched. Superiority of DV over FV shows an added benefit of logical composition under valid knowledge. The DV–DP comparison examines validity within the structured mechanism. FV–FP and DP–FP help interpret the general effect of structure.
 
-## 9. Controlled perturbations of knowledge
+<a id="9-controlled-perturbations-of-knowledge"></a>
+
+## 9. Controlled perturbations of specifications
 
 ### 9.1 Why perturbations are not random noise
 
-To assess the specific value of musicological content, perturbed knowledge must be comparable in non-musical complexity. A simple random change of a diagnostic can produce much easier or completely incompatible rules and destroy the interpretation of the experiment.
+To assess the specific value of musicological content, systematically perturbed specifications must be comparable in non-musical complexity. A simple random change of a diagnostic can produce much easier or completely incompatible rules and destroy the interpretation of the experiment.
 
 ### 9.2 What the generator preserves
 
@@ -385,7 +387,7 @@ The five replicates measure numerical stability and allow paired comparison. The
 
 ### 13.1 Equivalence and non-inferiority
 
-A non-significant difference between valid and perturbed knowledge does not establish equivalence. Equivalence requires a different, prespecified test with an appropriate margin, power and confidence intervals. The distinction matters because a strong effect of structure can appear regardless of content validity. Appropriate comparators and an accurate account of the interaction are needed before performance is attributed to valid musicological knowledge.
+A non-significant difference between valid and systematically perturbed specifications does not establish equivalence. Equivalence requires a different, prespecified test with an appropriate margin, power and confidence intervals. The distinction matters because a strong effect of structure can appear regardless of content validity. Appropriate comparators and an accurate account of the interaction are needed before performance is attributed to valid musicological knowledge.
 
 ## 14. Data, annotation and leakage control
 
@@ -445,7 +447,7 @@ The cases below are **interpretive scenarios**, not results.
 |---|---|
 | $`\Delta_{\mathrm{know}}\gt 0`$ and $`\Delta_{\mathrm{logic},V}\gt 0`$ with adequate precision | Valid knowledge and its logical composition give a distinct benefit. DV is tested against $`B_K`$ and $`B^\star`$, and generalisation per family is checked. |
 | Positive validity effect, small structure effect | The musicological concepts are useful, but the extra logical penalty may add little in this corpus. |
-| Small validity effect, positive structure effect | A general benefit of the constraining parametrisation, or insufficient separation of valid and perturbed knowledge, is investigated. |
+| Small validity effect, positive structure effect | A general benefit of the constraining parametrisation, or insufficient separation of valid and systematically perturbed specifications, is investigated. |
 | $`\hat{\lambda}`$ near zero in most fits | The penalty stays nearly inactive: the data do not use it. Activation of $`v`$ and extractor quality are checked. |
 | Active penalty ($`\hat{\lambda}`$ away from 0) without benefit on H | The penalty is used in training but does not generalise; dependence on the development groups and the validity of the rules are examined. |
 | $`B_K`$ above DV | Extractor quality, scope and excessive narrowness or breadth of the specifications are examined. |
