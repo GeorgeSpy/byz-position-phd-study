@@ -27,4 +27,20 @@
 | Reference labels or data (ground truth) | Independently documented evaluation targets, with their provenance and verification procedure recorded. |
 | Pilot study | An initial, small-scale feasibility study, termed “πιλοτική μελέτη” in Greek. |
 
+## Variant, variation, realisation and variability
+
+Byzantine chant terminology requires a distinction between **parallagē**, the traditional practice of reading or chanting with solmisation/pitch names, and **melodic variants**, the documented alternative forms of a melodic type. Both senses occur in Greek; context and source provenance determine the meaning, rather than singular or plural number alone.
+
+| English | Preferred Greek and scope |
+|---|---|
+| *Parallagē* (chant practice) | «παραλλαγή» in its historical pedagogical and theoretical sense; preserve source quotations such as «ἀπὸ παραλλαγῆς». |
+| *Melodic variant* / *version* | «μελωδική παραλλαγή» or «εκδοχή» for a specific documented musical form, without assuming a direction of derivation. |
+| *Occurrence* | «εμφάνιση»: a located passage in a work and source. |
+| *Realisation* | «πραγμάτωση»: the specified symbolic form of a position in a source, distinct from the singer's performance. |
+| *Variation* | «διαφοροποίηση» for a process or relationship of differences among forms; retain «παραλλαγή» for specifically documented variants. |
+| *Variability* | «μεταβλητότητα» for measured dispersion, including performance timing variability. |
+| *Data augmentation* | «επαύξηση δεδομένων» or «τεχνητός μετασχηματισμός», separate from historically attested variants. |
+
+For M1–A2–M2a, prefer **musical identity across distinct realisations**. For M2b use **historical/written differentiation**; for M4 use **performance variability**; for M5 use **within-family differentiation**. The broad English research framing *musical identity under variation* remains appropriate when its estimand is stated precisely.
+
 [Definitions](docs/current/position-and-family.md) · [English translation progress](docs/translation-status.md)

@@ -25,7 +25,7 @@
 | **Νέα ερευνητική κατεύθυνση — ECSI** | **[Μουσικολογικά ενημερωμένη μάθηση](docs/research/ecsi/README.md)** | [Αρχιτεκτονική και πειραματικό πρωτόκολλο](docs/research/ecsi/02-architecture.md) · [Π0′–Π2′](docs/research/ecsi/03-methods-and-gates.md) |
 | **Συγκριτική επέκταση Znamenny** | [Επισκόπηση και πλοήγηση](docs/research/znamenny-transfer/README.md) | [Πλήρες ερευνητικό παράρτημα](docs/research/znamenny-transfer/research-appendix.md) |
 | Τι έχει γίνει σε κάθε πεδίο | [Πίνακας συνεισφοράς](docs/review/contribution-matrix.md) | [Επτά αναλυτικές θεματικές συνθέσεις](docs/research/index.md) |
-| Βυζαντινή μουσικολογία | [Αναλυτική ενότητα](docs/musicology/index.md) | [Πηγές, παραλλαγή, οικογένειες, εξήγηση, ρεπερτόριο](docs/musicology/index.md) |
+| Βυζαντινή μουσικολογία | [Αναλυτική ενότητα](docs/musicology/index.md) | [Πηγές, διαφοροποίηση πραγματώσεων, οικογένειες, εξήγηση, ρεπερτόριο](docs/musicology/index.md) |
 | Βιβλιογραφία | [Βιβλιογραφία μεθοδολογικής ανάπτυξης](docs/bibliography/methodology.md) | [Βιβλιογραφικό ευρετήριο](docs/bibliography/index.md), [ανά θέμα](docs/bibliography/by-topic.md) |
 | Βιογραφικό και ερευνητική πορεία | [Βιογραφικό](docs/author/index.md) | [Προγενέστερη εργασία, MESPI και δημόσια αποθετήρια](docs/author/prior-work.md), [paper SETN και MESPI](documents/prior-work/README.md) |
 | Παρατηρήσεις και συζήτηση | [Κοινό σημειωματάριο](docs/review/feedback.md) | [Ημερολόγιο αποφάσεων](docs/review/decisions.md) |
