@@ -5,7 +5,7 @@
 ## Θεωρία και μεθοδολογία
 
 - [Μαθηματική αρχιτεκτονική](02_SELECTED_ARCHITECTURE_MATHEMATICAL_SPEC_GR.md): A0, ECSI-D[κ], πιθανοτικές βαθμολογίες, κανονικοποίηση και αλγόριθμοι.
-- [Πρωτόκολλο αξιολόγησης](03_MINIMAL_DECISIVE_EXPERIMENT_AND_PROTOCOL_GR.md): E-min, P1/P2, συγκριτές και κριτήρια επιτυχίας.
+- [Πρωτόκολλο αξιολόγησης](03_MINIMAL_DECISIVE_EXPERIMENT_AND_PROTOCOL_GR.md): E-min, P1/P2, μοντέλα αναφοράς και κριτήρια επιτυχίας.
 - [Βιβλιογραφική τοποθέτηση](04_NOVELTY_AND_PRIOR_ART_DIFFERENCE_MATRIX_GR.md): γνωστές μέθοδοι και συγκριτικές ερευνητικές υποθέσεις.
 - [Πηγές και ανεξάρτητη επισημείωση](05_DATA_PROVENANCE_IDENTIFIABILITY_AND_QREAL_GR.md): προέλευση δεδομένων, μουσικολογικοί ρόλοι, Q_real.
 - [Ερευνητικό πρόγραμμα](06_ROADMAP_PUBLICATION_AND_PROPOSAL_INSERT_GR.md).

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-31",
+  "updated_at": "2026-11-08",
   "selection_basis": "author instruction: latest uploaded document takes precedence over filename version",
   "documents": [
     {
@@ -75,12 +75,12 @@
       "role": "musicological_memorandum",
       "path": "musicological-memorandum.pdf",
       "source_tex": "musicological-memorandum.tex",
-      "bytes": 177045,
-      "sha256": "4daffe1465edfb7314e73a70151f21e253bf7349673803bb17c9567ca9b87787",
+      "bytes": 168235,
+      "sha256": "c0053aa842364af426aac80e1be651040869b5d088ecb0fa9f2143dc0135c850",
       "pages": 23,
       "title": "Μουσικολογικό υπόμνημα: Η μουσική θέση ως υπολογιστική μονάδα της βυζαντινής μουσικής",
       "language": "el",
-      "selected_on": "2026-11-03"
+      "selected_on": "2026-11-08"
     }
   ]
 }

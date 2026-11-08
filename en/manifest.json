@@ -37,7 +37,7 @@
     },
     {
       "source": "TERMINOLOGY_GR.md",
-      "source_blob_sha": "b99edfeb810eb68c2d8c6be70fcb1fded2b21f8b",
+      "source_blob_sha": "2cd3f58ba0b8a0ac3eedf5c5bba47cf3feee5d10",
       "target": "en/TERMINOLOGY.md",
       "status": "translated"
     },
@@ -109,7 +109,7 @@
     },
     {
       "source": "docs/appendices/k.md",
-      "source_blob_sha": "cbcc845e40455f04cdc5a40255a34468681391df",
+      "source_blob_sha": "4571f8088b564fc679c90c6912c5345e252f61b7",
       "target": "en/docs/appendices/k.md",
       "status": "translated"
     },
@@ -979,13 +979,13 @@
     },
     {
       "source": "docs/current/index.md",
-      "source_blob_sha": "859c2997b04175ad8b012f7acb1aaa46d95dde94",
+      "source_blob_sha": "d5836796f7280b5e93fa530bfd585466a6c664c5",
       "target": "en/docs/current/index.md",
       "status": "translated"
     },
     {
       "source": "docs/current/inverse-problem.md",
-      "source_blob_sha": "ce7fd82fa282bd8512fd7571fb62f22b93ab43eb",
+      "source_blob_sha": "c09648012167f76254433e93ba77f27b0a481e4d",
       "target": "en/docs/current/inverse-problem.md",
       "status": "translated"
     },
@@ -1165,19 +1165,19 @@
     },
     {
       "source": "docs/research/a2-knowledge-design.md",
-      "source_blob_sha": "1fcd820a497629cd19bbf34ffed33610b8bb85a3",
+      "source_blob_sha": "a87d0c6094cfa9dc2dc4238cedf5b33231817881",
       "target": "en/docs/research/a2-knowledge-design.md",
       "status": "translated"
     },
     {
       "source": "docs/research/m1-selection-decision.md",
-      "source_blob_sha": "7c44f33f0691cf88d8bace2f00f8637272c5262e",
+      "source_blob_sha": "b18667ac204151add6f37713fe2f22c0bae0a276",
       "target": "en/docs/research/m1-selection-decision.md",
       "status": "translated"
     },
     {
       "source": "docs/research/m2-eise-research-design.md",
-      "source_blob_sha": "f1974e27d6f180ef05ee73e13905408a8f6ccf21",
+      "source_blob_sha": "d64e1260707e5fea512d95e7e339838ee3166d21",
       "target": "en/docs/research/m2-eise-research-design.md",
       "status": "translated"
     },
@@ -1255,7 +1255,7 @@
     },
     {
       "source": "docs/review/knowledge-contributions.md",
-      "source_blob_sha": "5d98dfdb0be614be0d23bd5c068a555721d38938",
+      "source_blob_sha": "5b390f5814640dc7f478d6cc65a17e4923fc85a1",
       "target": "en/docs/review/knowledge-contributions.md",
       "status": "translated"
     },
@@ -1279,7 +1279,7 @@
     },
     {
       "source": "docs/start/research-summary.md",
-      "source_blob_sha": "37d35e1e123ed04fed545a5f4c8c7c70a28bef02",
+      "source_blob_sha": "82003cad703981346546e8336daf705b7b05e316",
       "target": "en/docs/start/research-summary.md",
       "status": "translated"
     },
