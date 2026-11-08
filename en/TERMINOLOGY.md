@@ -43,4 +43,7 @@ Byzantine chant terminology requires a distinction between **parallagē**, the t
 
 For M1–A2–M2a, prefer **musical identity across distinct realisations**. For M2b use **historical/written differentiation**; for M4 use **performance variability**; for M5 use **within-family differentiation**. The broad English research framing *musical identity under variation* remains appropriate when its estimand is stated precisely.
 
+**Historical and computational unit:** *thesis* (plural *theseis*) is the historically grounded Byzantine melodic formation; a *thesis family* is an independently evaluated analytical category; an induced *chunk* is a statistical segment; and *phrase/period* denotes a distinct analytical scale. Work provenance distinguishes explanations of earlier compositions (L_ex), compositions demonstrably made in the New Method (L_NM), and uncertain original notation (L_uncertain). See the [research design](../docs/research/position-historical-transfer.md).
+
+
 [Definitions](docs/current/position-and-family.md) · [English translation progress](docs/translation-status.md)
