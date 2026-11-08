@@ -317,7 +317,7 @@ d_D=\min_{w,w'\in W,\ \lambda,\lambda'\in[0,2]}\Vert Q_Vw-\lambda v_V-Q_Pw'+\lam
 ### Ψευδοκώδικας τελικής εκτέλεσης
 
 ```text
-audit sources, rights, groups, expert labels, extractors           # ΠΕ0
+check sources, rights, groups, expert labels, extractors           # ΠΕ0
 run operating-characteristics calibration of §K.8 with pilot data  # gate before H
 allocate H for family coverage (m_H per family); freeze it         # month 12
 for outer training split (development estimation only):

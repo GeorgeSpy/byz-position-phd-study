@@ -317,7 +317,7 @@ Non-rejection does not mean equivalence. A negative or uncertain result is an in
 ### Pseudocode of the final run
 
 ```text
-audit sources, rights, groups, expert labels, extractors           # WP0
+check sources, rights, groups, expert labels, extractors           # WP0
 run operating-characteristics calibration of §K.8 with pilot data  # gate before H
 allocate H for family coverage (m_H per family); freeze it         # month 12
 for outer training split (development estimation only):

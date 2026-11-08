@@ -90,5 +90,5 @@ A_train: κεφαλές στις ομάδες της βάσης (προηγού�
 
 Από τις αποθηκευμένες εκτιμήσεις και τα τυπικά σφάλματα, με πλήρη αριθμητική ακρίβεια, ξαναϋπολογίζονται τα $`p`$ και εφαρμόζεται ξανά η διόρθωση Holm για 28463 εκδοθέντα δείγματα. Οι απορρίψεις ταυτίζονται με τις καταγεγραμμένες σε 19 από τα 19 σενάρια. Σε 9 δείγματα κάποιο $`p`$ απέχει λιγότερο από $`10^{-5}`$ από ένα όριο του Holm· γι’ αυτό οι τιμές δεν στρογγυλοποιούνται.
 
-- `test_ap.txt`: AP weighted/ties == sklearn on duplicated data: 200 trials x 3 families PASS
-- `test_generator.txt`: generator acceptance regression tests: 5/5 PASS
+- `test_ap.txt`: AP weighted/ties == sklearn on duplicated data: 200 trials x 3 families verified
+- `test_generator.txt`: generator acceptance regression tests: 5/5 verified

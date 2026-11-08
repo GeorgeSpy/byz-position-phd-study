@@ -6,7 +6,7 @@
 
 [Back to the ECSI overview](README.md)
 
-A numerical reference framework has been developed for admissible diagnostic configurations, dependent variables, overlapping sufficient branches, candidate-family scores, and synthetic correctness checks. Research reviews in October 2026 recorded **63 legacy checks (62 PASS; one known, expected N5 scale-related failure)** and **22 additional synthetic/algorithmic checks (22 PASS)**. These results concern the consistency of the corresponding mathematical examples and the reproducibility of the test scripts.
+A numerical reference framework has been developed for admissible diagnostic configurations, dependent variables, overlapping sufficient branches, candidate-family scores, and synthetic correctness checks. The October 2026 technical documentation records **63 legacy checks (62 successful; one known, expected N5 scale-related failure)** and **22 additional synthetic/algorithmic checks (22 successful)**. These results concern the consistency of the corresponding mathematical examples and the reproducibility of the test scripts.
 
 The N5 failure is a known scaling problem in an auxiliary generalised least-squares (GLS) implementation. It is **not counted as a passing check** and does not, by itself, determine the validity of the musicological formulation. Synthetic demonstrations involving reasoning shortcuts and reference-normalised scores do not replace independent expert judgements or real occurrences.
 

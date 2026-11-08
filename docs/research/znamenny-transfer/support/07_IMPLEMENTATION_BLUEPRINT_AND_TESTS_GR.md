@@ -6,14 +6,14 @@
 
 | Έλεγχος | Αρχείο | Αποτέλεσμα |
 |---|---|---|
-| Ημι-Μαρκοβιανές αναδρομές | `original_oracles/toy_semimarkov_checks.py` | 291 έλεγχοι PASS, μέγιστη αριθμητική απόκλιση περίπου $`3,6\cdot10^{-15}`$. |
-| Πρωτογενής έλεγχος profile-HMM | `original_oracles/profile_hmm_regression_oracle.py` | 5 αρχικές ομάδες PASS. Το αντιπαράδειγμα ολικής κανονικοποίησης αποκαλύπτει το ελλιπές END. |
-| Έλεγχος στοιχίσεων και λογικής μάζας | `original_oracles/alignment_product_oracle.py` | 16 ομάδες PASS με τις δικές τους υποθέσεις, συμπεριλαμβάνοντας αναμενόμενη αποτυχία naive prefix reuse. |
+| Ημι-Μαρκοβιανές αναδρομές | `original_oracles/toy_semimarkov_checks.py` | 291 επιτυχείς έλεγχοι, μέγιστη αριθμητική απόκλιση περίπου $`3,6\cdot10^{-15}`$. |
+| Πρωτογενής έλεγχος profile-HMM | `original_oracles/profile_hmm_regression_oracle.py` | 5 αρχικές επιτυχείς ομάδες ελέγχων. Το αντιπαράδειγμα ολικής κανονικοποίησης αποκαλύπτει το ελλιπές END. |
+| Έλεγχος στοιχίσεων και λογικής μάζας | `original_oracles/alignment_product_oracle.py` | 16 επιτυχείς ομάδες ελέγχων με τις δικές τους υποθέσεις, συμπεριλαμβάνοντας αναμενόμενη αποτυχία naive prefix reuse. |
 | Νέο ανεξάρτητο counterexample | `original_oracles/oracle_Zf_context_counterexample.py` | Αναπαραγωγή και των τριών αποτυχιών του παλιού Z. |
-| Νέα profile/outer/generative suite | `profile_semantics_oracle.py` | 221 έλεγχοι PASS· μέγιστη απόκλιση $`1,56\cdot10^{-10}`$, που περιλαμβάνει finite-difference gradients. |
-| Διορθωμένο context product DP | `ecsi_kappa_context_oracle.py` | 308 έλεγχοι PASS· corrected relative Z errors κάτω από $`4\cdot10^{-16}`$. |
-| Μικρή πραγματική βελτιστοποίηση κ | `bidirectional_learning_oracle.py` | 43 έλεγχοι PASS· EM monotonicity, direct-objective συμφωνία, selected consistency και DP. |
-| Σχεδιασμός ισχύος / transfer | `power_and_transfer_simulation.py` | 50 σενάρια ισχύος και 9 συνθετικά transfer σενάρια· assertions PASS. |
+| Νέα profile/outer/generative suite | `profile_semantics_oracle.py` | 221 επιτυχείς έλεγχοι· μέγιστη απόκλιση $`1,56\cdot10^{-10}`$, που περιλαμβάνει finite-difference gradients. |
+| Διορθωμένο context product DP | `ecsi_kappa_context_oracle.py` | 308 επιτυχείς έλεγχοι· corrected relative Z errors κάτω από $`4\cdot10^{-16}`$. |
+| Μικρή πραγματική βελτιστοποίηση κ | `bidirectional_learning_oracle.py` | 43 επιτυχείς έλεγχοι· EM monotonicity, direct-objective συμφωνία, selected consistency και DP. |
+| Σχεδιασμός ισχύος / transfer | `power_and_transfer_simulation.py` | 50 σενάρια ισχύος και 9 συνθετικά transfer σενάρια· επιτυχείς έλεγχοι assertions. |
 
 Οι αριθμοί είναι πλήθη assertions ή ομάδων, όπως δηλώνονται στα αντίστοιχα JSON. Δεν αποτελούν αριθμό ανεξάρτητων μουσικών πειραμάτων. Το συνολικό μέγιστο σφάλμα στο context JSON είναι περίπου $`8,44\cdot10^{-7}`$ λόγω ελέγχου αριθμητικού optimizer μιας MLE, όχι λόγω απόκλισης του DP. Τα per-test records επιτρέπουν τον χωριστό έλεγχο.
 
@@ -108,7 +108,7 @@ decode(X):
 | Partial annotation loss. | Constrained partition έναντι enumeration. | Alternative boundaries με joint constraints· fully unknown loss=0. |
 | Gap memory συμβατή με factorization. | Zero-order, gap flag, full-span insufficiency examples. | Η πρώτη έκδοση παραμένει zero-order· κάθε πρόσθετη μετάβαση απαιτεί νέο contract. |
 | Generative/CRF posterior υπό σωστές προϋποθέσεις. | Joint normalization, β=1, survival και Markov boundary cases. | Ίδιο background measure, horizon και length prior σε integration tests. |
-| Καμία κυκλική είσοδος. | Συνθετικός component leakage detector. | Πραγματικό manifest audit, annotation-origin tests και feature allowlist. |
+| Καμία κυκλική είσοδος. | Συνθετικός component leakage detector. | Πραγματικό manifest έλεγχος, annotation-origin tests και feature allowlist. |
 | Q_real και ιστορικό H χωριστά. | Μη ενέσιμη operation summary, ambiguity toy cases. | Frozen probes/actual source-linked H και empirical NI gate. |
 
 ## 6. Εκτελεσμένη μάθηση και όρια του αποτελέσματος

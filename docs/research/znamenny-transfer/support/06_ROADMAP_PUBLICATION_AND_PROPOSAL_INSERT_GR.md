@@ -11,9 +11,9 @@
 | Φάση | Διάρκεια / ρόλοι | Συγκεκριμένο αποτέλεσμα | Απόφαση εξόδου |
 |---|---|---|---|
 | Ε0: πηγές και πιλοτική μελέτη | 4–6 εβδομάδες· Z ειδικός, υπεύθυνος δεδομένων, δεύτερος κριτής. | Source cards, άδειες, 10–20 loci, dual labels, αβεβαιότητα ορίων, κόστος ανά ελεγμένο γεγονός. | G0: αν το υλικό δεν υποστηρίζει ανεξάρτητη αξιολόγηση, συνεχίζει μόνο feasibility/resource study. |
-| Ε1: συμβολικό MVP | 4–6 εβδομάδες· ML ερευνητής και ειδικός σε εβδομαδιαίο audit. | Train-only πρότυπα, local roles, profile baselines, ακριβές observed-B/context-Z, validators. | G1: oracle συμφωνία και actual-size benchmark. |
+| Ε1: συμβολικό MVP | 4–6 εβδομάδες· ML ερευνητής και ειδικός σε εβδομαδιαίο έλεγχος. | Train-only πρότυπα, local roles, profile baselines, ακριβές observed-B/context-Z, validators. | G1: oracle συμφωνία και actual-size benchmark. |
 | Ε2: κλίμακα και προεγγραφή | 3–5 εβδομάδες, παράλληλα με Ε1 όπου ανεξάρτητο. | Πραγματικές variance/ICC estimates, margins, power/cost simulation, προκαθορισμένες ομάδες και κλειστό σύνολο ελέγχου. | Επιβεβαιωτική ή εκτιμητική κλίμακα, πριν από μουσικό test. |
-| Ε3: P1/P2 και E-min | 6–10 εβδομάδες· κυρίως CPU για κ, expert annotation για held-out θέσεις. | Same-information σύγκριση, selected-objective audit, learning curves και source-prior αντιθέσεις. | G2/G3 και ξεχωριστή E-min απόφαση. |
+| Ε3: P1/P2 και E-min | 6–10 εβδομάδες· κυρίως CPU για κ, expert annotation για held-out θέσεις. | Same-information σύγκριση, selected-objective έλεγχος, learning curves και source-prior αντιθέσεις. | G2/G3 και ξεχωριστή E-min απόφαση. |
 | Ε4: A0 και κατάντη αναγνώριση | 6–10 εβδομάδες· κοινά GPU budgets, data QA. | Encoder transfer matrix, ECSI-Z, κ-integrated, calibration, unknown-family και Q_real. | G4 και τελικός empirical architecture selection. |
 | Ε5: historical probes και σύνθεση | 4–8 εβδομάδες εφόσον υπάρχει source-linked H. | Witness-specific ανάκτηση, multi-gold, risk–coverage, μουσικολογική ερμηνεία και άρθρο. | Χωριστή ιστορική δήλωση με σαφή ταυτοποιησιμότητα. |
 | Ε6: μόνο υπό προυποθέσεις | Ένας πρόσθετος ερευνητικός κύκλος. | Μικρά joint diagnostic blocks, ίσο-budget circuit/free-head comparator, θεωρητικό ερώτημα. | Ενεργοποίηση μόνο με αποδεδειγμένη residual dependence και πόρους. |
@@ -31,7 +31,7 @@
 1. **Πηγές και πρωτόκολλο:** versioned source/occurrence schemas, role crosswalk, leakage components, experiment registry και παρούσα απόφαση ως νέα ερευνητική σελίδα. Οι κανονιστικές σελίδες παραμένουν σαφώς διακριτές από το ερευνητικό παράρτημα.
 2. **Πιθανοτικός πυρήνας:** normalized profile, finite-context diagnostic compiler, observed και emission-summed DP, independent enumeration tests και επιλογή objective από sampling metadata.
 3. **Μοντέλα και συνθήκες αναφοράς:** profile/weighted-edit, Pool/Vit/Add/Pool2/MC/A1+γ interfaces, experiment runner, calibration, group statistics και Q_real probes.
-4. **Ενσωμάτωση A0:** adapter/head πρόσβαση στα πραγματικά checkpoints, ημι-Μαρκοβιανή loss και deployment-free reproducible training. EISE μόνο όταν το checkpoint audit περάσει.
+4. **Ενσωμάτωση A0:** adapter/head πρόσβαση στα πραγματικά checkpoints, ημι-Μαρκοβιανή loss και deployment-free reproducible training. EISE μόνο όταν το checkpoint έλεγχος περάσει.
 
 Τα ακριβή interfaces και κριτήρια αποδοχής είναι στο [07](07_IMPLEMENTATION_BLUEPRINT_AND_TESTS_GR.md). Το παρόν πακέτο δεν δημιουργεί branch, commit, PR, ούτε τροποποιεί οποιοδήποτε αρχείο της πρότασης.
 
