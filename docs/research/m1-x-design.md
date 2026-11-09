@@ -1,5 +1,9 @@
 # Μ1-X — Η οικογενειακή δομή ως επαγωγική προκατάληψη για τα όρια της θέσης
 
+<!-- language-switch:start -->
+**Γλώσσα / Language:** **Ελληνικά** · [English](../../en/docs/research/m1-x-design.md)
+<!-- language-switch:end -->
+
 [Ερευνητικός πυρήνας](../../README.md) · [Μ1 και κανόνας J](m1-selection-decision.md) · [Κεφάλαιο 5](../full/05-m1.md#r038x) · [Παράρτημα G](../appendices/g.md#r186x)
 
 ## 1. Ερευνητικό αντικείμενο και θέση στη μελέτη
