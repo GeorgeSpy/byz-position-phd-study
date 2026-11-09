@@ -15,7 +15,7 @@ Start with the [short research proposal in English](../documents/short-proposal-
 | Core research | [Summary of the core research](docs/start/research-summary.md) | [Core research plan (Greek PDF)](../documents/core-research-plan.pdf) |
 | Overall design | [Overview](docs/start/overview.md) | [Method map](docs/current/index.md) |
 | Formula identity and MIR | [Musical example](docs/examples/index.md), [identity route](docs/start/overview.md#the-route-of-musical-identity) | [Detailed protocols (Greek)](../docs/full/index.md) |
-| **Revised M1 and M2 methodology** | [M1 — representation selection](docs/research/m1-selection-decision.md) | [M2 — family-based and historical supervision](docs/research/m2-eise-research-design.md) |
+| **M1 and the M1-X extension** | [M1 — representation selection](docs/research/m1-selection-decision.md) · [M1-X — family structure and formula boundaries](docs/research/m1-x-design.md) | [M2 — family-based and historical supervision](docs/research/m2-eise-research-design.md) |
 | **A2 — musicological knowledge** | [A2 research design](docs/research/a2-knowledge-design.md) | [Appendix K — A2 technical protocol](docs/appendices/k.md) |
 | **ByzCorpus — work in progress** | **[Corpus and toolkit](docs/research/byzcorpus/README.md)** | [Data model (Greek)](../docs/research/byzcorpus/data-model.md) · [Expert-boundary pilot](docs/research/byzcorpus/expert-boundary-pilot.md) · [NHPYLM (Greek)](../docs/research/byzcorpus/segmentation-pilot.md) · [Roadmap (Greek)](../docs/research/byzcorpus/roadmap.md) |
 | Research corpus | [Preliminary corpus inventory](docs/research/corpus/README.md) · [Greek edition](../docs/research/corpus/README.md) | [Data, annotation and feasibility (Greek)](../docs/full/08-data.md) |

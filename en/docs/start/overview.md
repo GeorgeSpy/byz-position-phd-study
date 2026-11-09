@@ -33,13 +33,15 @@ Optional cognitive studies further examine how family organisation relates to ca
 
 ## The core route (M1, A2, M2)
 
-In the first stage (**M1**), twelve symbolic input combinations are compared. Built on these, a semi-Markov conditional random field (joint semi-CRF) learns to estimate jointly where an occurrence begins and ends and which family it belongs to, taking documented boundary ambiguities into account.
+In the first stage (**M1**), twelve symbolic input combinations are compared. Built on these, a semi-Markov conditional random field (joint semi-CRF) learns to estimate jointly where an occurrence begins and ends and which family it belongs to, taking documented boundary ambiguities into account. Rule J selects the operational symbolic representation using complete formula-and-family recognition under architecture A.
+
+**Complementary M1-X.** On the representation selected by J, a separate architectural study compares A with C_fac, a factorised model with matched family supervision, through marginal boundary decisions, K-best rescoring and global joint decoding. The two zero-order forms can express the same probabilistic model class with sufficient capacity. The study estimates the value of family-informed parameterisation as an inductive bias for boundary detection, while preserving the M1 selection rule and the inputs to A2/M2. [M1-X design](../research/m1-x-design.md).
 
 Next (**A2**), keeping the trained M1 neural representation fixed, a $2\times 2$ factorial experiment measures how much the musicological validity of family specifications contributes compared with controlled perturbed rules, and what structured logical composition adds beyond simple additive scoring of the same diagnostic concepts.
 
 The third pillar (**M2a/M2b**) examines how shared identity can be learned without losing realization-specific details, and **what the historical provenance of a musical relationship contributes to learning**: under strictly matched conditions, it compares learning from same-family pairs across different works against learning from verified co-exegeses of the same historical passage (EISE). External evaluation measures how closely each model's profile of written variation agrees with timing variability across audio recordings by different chanters (**M4-min**). Blind expert review (**M3a**) and morphological maps of complete unseen works (**M5-min**) complete the core evaluation.
 
-[Detailed M1 design](../research/m1-selection-decision.md) · [A2 design](../research/a2-knowledge-design.md) · [Family and historical supervision in M2](../research/m2-eise-research-design.md)
+[Detailed M1 design](../research/m1-selection-decision.md) · [M1-X architectural extension](../research/m1-x-design.md) · [A2 design](../research/a2-knowledge-design.md) · [Family and historical supervision in M2](../research/m2-eise-research-design.md)
 
 ## Conditional extensions: realisation operator and historical route
 

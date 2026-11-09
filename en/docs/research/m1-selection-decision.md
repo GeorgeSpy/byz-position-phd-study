@@ -8,7 +8,7 @@
 
 > **Status:** Finalised specification of selection rule J. Application to annotated data, final construction of the musicological reference, and calibration of statistical coverage are scheduled for WP0/WP1. The numerical tables below report synthetic design simulations.
 >
-> **Related documents:** [Detailed M1 chapter (Greek)](../../../docs/full/05-m1.md) · [Core research programme](../../README.md) · [Source history (Greek)](../../../docs/maintenance/source-history.md) · [Research decision log (Greek)](../../../docs/review/decisions.md).
+> **Related documents:** [Detailed M1 chapter (Greek)](../../../docs/full/05-m1.md) · [M1-X extension](m1-x-design.md) · [Core research programme](../../README.md) · [Source history (Greek)](../../../docs/maintenance/source-history.md) · [Research decision log (Greek)](../../../docs/review/decisions.md).
 
 ## 1. Why the M1 design was revised
 
@@ -305,6 +305,14 @@ It is accompanied by $`\Delta_{A-B}`$ and a separate boundary-F1 contrast $`\Del
 A2 retains the selected architecture A as its common infrastructure. In [M2](m2-eise-research-design.md), A uses the same $`R^\star`$; symbolic recognition is assessed separately using $`\mathrm{B0}_{\mathrm{sym}}`$, and historical performance descriptions using $`\mathrm{B0}_{\mathrm{profile}}`$. B1, B2, and EISE are trained from shared initial weights in each replicate, according to the M2 protocol. The earlier policy of subsequently selecting B or C as the main architecture belongs to a preceding design stage. In the revised protocol, B/C remain independent architectural comparators.
 
 $`G`$ isolates discrimination between families at known boundaries. By contrast, M5-min processes complete works with predicted boundaries, open-set recognition, and possible abstention. Its metrics are reported separately.
+
+### 11.1 · C_fac in the representation grid and the M1-X extension
+
+Architecture **C** in Section 11 is implemented as **C_fac**, a factorised model $`p_C(B,\mathbf f\mid X)=p_B(B\mid X)\prod_{s\in B}p_F(f_s\mid s,X)`$ with a shared trainable encoder, a free boundary-scoring head, and family supervision. It is trained using a joint partial likelihood over the **same sets of compatible complete analyses** as A. In the main M1 study, C obtains its boundary decision from the marginal boundary distribution $`p_B`$ and subsequently assigns a family. Accordingly, the average $`\Delta_{A-C}`$ contrast across the twelve representations refers to the same C_fac comparator used in the complementary M1-X study.
+
+**M1-X** evaluates additional decoding procedures on the **same trained A/C_fac weights**: K-best candidate legal segmentations and global joint MAP decoding. The primary architectural comparison uses the $`R_A^\star`$ representation selected by rule J; selection of $`R_C^\star`$ is analysed separately on development data. The family-neutral condition and the boundary-only trained C_B control assess distinct mechanisms. Architecture A, rule J, and the operational inputs to A2/M2 are preserved.
+
+[Full M1-X protocol](m1-x-design.md) · [Technical specification G.5.1.1 (Greek)](../../../docs/appendices/g.md#r186x).
 
 ## 12. Reproducibility and technical evidence
 
