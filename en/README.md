@@ -8,14 +8,14 @@
 
 [Research biography](docs/author/index.md) · [Prior work and public code (Greek)](../docs/author/prior-work.md) · [Unpublished papers](../documents/prior-work/README.md)
 
-> **Status (November 2026).** The proposal is under development and is being discussed with the Department of Music Technology and Acoustics at Hellenic Mediterranean University; it has not yet been submitted.
+> **Status (November 2026).** The research proposal is at the development stage and is being discussed with the Department of Music Technology and Acoustics at Hellenic Mediterranean University. It has not yet been submitted.
 
 ## The core research programme
 
 **Central question:** how can a melodic formula and its family be recognised in continuous notation when the realisation varies, and what does the musicological knowledge that defines the family contribute to that recognition? The core is limited to three studies on a shared symbolic infrastructure:
 
-- **M1 — Joint segmentation and recognition.** Boundaries and family are estimated together; input units of the notation and feature layers are compared.  
-  [Revised M1 methodology — representation selection and synthetic validation](docs/research/m1-selection-decision.md).
+- **M1 — Symbolic representation selection.** The $`U\times\Phi`$ grid compares twelve input conditions; rule J selects the operational $`R^\star`$ using full formula-and-family recognition with architecture A. **M1-X — Architectural extension:** investigates family structure as an inductive bias for formula boundaries.  
+  [M1 — selection rule J and experimental design](docs/research/m1-selection-decision.md) · **[M1-X — research protocol](docs/research/m1-x-design.md)**.
 - **A2 — The value of musicological knowledge.** Valid versus deliberately perturbed family specifications, used either additively or as structured logical constraints.  
   [A2 research design — valid and systematically perturbed specifications, logical composition and technical protocol](docs/research/a2-knowledge-design.md).
 - **M2 — Identity and realisation.** Learning from occurrences of the same family without losing their variation; a historical strand using exegeses of the same passage, only where the sources allow it.  
@@ -29,7 +29,7 @@ A **melodic formula** (*thesis*) is the historically grounded musical formation 
 
 ## ByzCorpus — symbolic corpus and segmentation pilot (work in progress)
 
-An independent research initiative in development, [**ByzCorpus**](docs/research/byzcorpus/README.md) documents a proposed versioned Byzantine chant corpus, a Python research toolkit and an initial independent expert-boundary pilot followed by exploratory NHPYLM / melodic segmentability research. It includes a [data-model draft](../docs/research/byzcorpus/data-model.md), an [expert-boundary feasibility protocol](docs/research/byzcorpus/expert-boundary-pilot.md), the [later NHPYLM study](../docs/research/byzcorpus/segmentation-pilot.md), and a [living roadmap](../docs/research/byzcorpus/roadmap.md) (some technical details are currently in Greek). This initiative is under design and does not modify the approved M1–A2–M2 core.
+An independent research initiative in development, [**ByzCorpus**](docs/research/byzcorpus/README.md) documents a proposed versioned Byzantine chant corpus, a Python research toolkit and an initial independent expert-boundary pilot followed by exploratory NHPYLM / melodic segmentability research. It includes a [data-model draft](../docs/research/byzcorpus/data-model.md), an [expert-boundary feasibility protocol](docs/research/byzcorpus/expert-boundary-pilot.md), the [later NHPYLM study](../docs/research/byzcorpus/segmentation-pilot.md), and a [living roadmap](../docs/research/byzcorpus/roadmap.md) (some technical details are currently in Greek). This initiative remains in development and preserves the M1–A2–M2 core research design.
 
 ## What is new
 

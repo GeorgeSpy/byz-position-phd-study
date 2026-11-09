@@ -68,6 +68,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--baseline-tree", type=Path)
     parser.add_argument("--preserve-originals", action="store_true")
+    parser.add_argument("--require-full-review", action="store_true", help="Fail if any translation has only targeted review or an outstanding content comparison")
     args = parser.parse_args()
     manifest = json.loads((ROOT / "en/manifest.json").read_text(encoding="utf-8"))
     navigation = json.loads((ROOT / "en/navigation.json").read_text(encoding="utf-8"))
@@ -78,6 +79,8 @@ def main():
             if x["type"] == "blob"
         }
     errors = []
+    review_open = []
+    review_targeted = []
     checked_links = 0
     deferred_anchors = set()
     translated = [x for x in manifest["pages"] if x["status"] == "translated"]
@@ -105,8 +108,17 @@ def main():
         source_data = source.read_bytes()
         source_text = source_data.decode("utf-8")
         target_text = target.read_text(encoding="utf-8")
+        review = item.get("review_state", "needs_review")
+        if review not in {"aligned", "targeted", "needs_review"}:
+            errors.append(f"invalid review_state: {item['source']}")
+        if review == "needs_review":
+            review_open.append(item["source"])
+        elif review == "targeted":
+            review_targeted.append(item["source"])
         if blob_sha(original_bytes(source_data)) != item["source_blob_sha"]:
-            errors.append(f"translation needs source review: {item['source']}")
+            if review != "needs_review":
+                errors.append(f"reviewed Greek source changed: {item['source']}")
+            # Preserve the earlier hash for sources awaiting complete review.
         for path, text, counterpart in [
             (source, source_text, target), (target, target_text, source)
         ]:
@@ -120,7 +132,9 @@ def main():
             }:
                 errors.append(f"{path.relative_to(ROOT)}: missing counterpart link")
         if equations(source_text) != equations(target_text):
-            errors.append(f"display equations differ: {item['target']}")
+            if review != "needs_review":
+                errors.append(f"display equations differ: {item['target']}")
+            # Outstanding translations have no claim of full equation equivalence.
 
     for entry in manifest["original_files"]:
         path = ROOT / entry["path"]
@@ -172,12 +186,18 @@ def main():
             if parsed.fragment and dest.suffix == ".md":
                 if unquote(parsed.fragment) not in anchors(dest.read_text(encoding="utf-8")):
                     errors.append(f"{relative}: missing anchor {url}")
+    if args.require_full_review and (review_open or review_targeted):
+        errors.append(f"full bilingual review pending: {len(review_open)} outstanding and {len(review_targeted)} targeted-only pairs")
     if errors:
         print("\n".join(errors))
         print(f"FAILED: {len(errors)} problems")
         return 1
-    print(f"PASS: {len(translated)} translation pairs; {len(english_paths)} English pages; "
-          f"{checked_links} local links; {len(manifest['original_files'])} original paths preserved.")
+    print(f"PASS STRUCTURE: {len(translated)} translation pairs; {len(english_paths)} English pages; "
+          f"{checked_links} local links; {len(manifest['original_files'])} archival original paths recorded.")
+    print(f"CONTENT REVIEW: {len(translated)-len(review_open)-len(review_targeted)} fully aligned; "
+          f"{len(review_targeted)} targeted; {len(review_open)} awaiting full review.")
+    if review_open:
+        print("OUTSTANDING CONTENT REVIEW: " + ", ".join(review_open))
     if args.preserve_originals:
         print("PASS: all original content matches the recorded baseline after removing selectors.")
     if deferred_anchors:

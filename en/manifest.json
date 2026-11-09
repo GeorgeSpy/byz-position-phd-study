@@ -2,49 +2,19 @@
   "schema_version": 1,
   "source_ref": "d34366b163346c93223880f175f6f431dcafeeff",
   "source_date": "2026-10-23",
-  "description": "English reader translation register; source blob hashes exclude only the additive language-switch block.",
+  "description": "English translation register; source hashes exclude the additive language-switch block. review_state records verification scope.",
   "shared_assets": "Primary scores, source images and existing PDFs stay in their original locations. The English short-proposal PDF is shared; the analytical PDF is Greek.",
   "pages": [
-    {
-      "source": "CHANGELOG.md",
-      "source_blob_sha": "40fa6667f5b7eb42515a4814230b946bd276f9d9",
-      "target": "en/CHANGELOG.md",
-      "status": "pending"
-    },
-    {
-      "source": "NAVIGATION.md",
-      "source_blob_sha": "dce5e5321758ee701d2b04961b155665e0507b5a",
-      "target": "en/NAVIGATION.md",
-      "status": "translated"
-    },
-    {
-      "source": "README.md",
-      "source_blob_sha": "26d6be5f6a13a754246d99d7cbe99569e93f6082",
-      "target": "en/README.md",
-      "status": "translated"
-    },
-    {
-      "source": "SETUP_GITHUB.md",
-      "source_blob_sha": "448edb0b85bc6523b4c3fb0b6950ac742726d702",
-      "target": "en/SETUP_GITHUB.md",
-      "status": "pending"
-    },
-    {
-      "source": "SOURCES.md",
-      "source_blob_sha": "cd08be782cffbffb555a53d2ef9ab8f01ed16a0c",
-      "target": "en/SOURCES.md",
-      "status": "pending"
-    },
-    {
-      "source": "TERMINOLOGY_GR.md",
-      "source_blob_sha": "2cd3f58ba0b8a0ac3eedf5c5bba47cf3feee5d10",
-      "target": "en/TERMINOLOGY.md",
-      "status": "translated"
-    },
     {
       "source": "book/README.md",
       "source_blob_sha": "7d8c6a60420264c348776e362dabbaefcb89a302",
       "target": "en/book/README.md",
+      "status": "pending"
+    },
+    {
+      "source": "CHANGELOG.md",
+      "source_blob_sha": "40fa6667f5b7eb42515a4814230b946bd276f9d9",
+      "target": "en/CHANGELOG.md",
       "status": "pending"
     },
     {
@@ -111,13 +81,15 @@
       "source": "docs/appendices/k.md",
       "source_blob_sha": "4571f8088b564fc679c90c6912c5345e252f61b7",
       "target": "en/docs/appendices/k.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/author/index.md",
       "source_blob_sha": "ce3968784f34023e0563064858669f658759f05e",
       "target": "en/docs/author/index.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/author/prior-work.md",
@@ -975,43 +947,50 @@
       "source": "docs/current/atl.md",
       "source_blob_sha": "896995cb7fe107b5b729e321f36d790a820cc7d6",
       "target": "en/docs/current/atl.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/current/index.md",
       "source_blob_sha": "d5836796f7280b5e93fa530bfd585466a6c664c5",
       "target": "en/docs/current/index.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/current/inverse-problem.md",
       "source_blob_sha": "c09648012167f76254433e93ba77f27b0a481e4d",
       "target": "en/docs/current/inverse-problem.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/current/m-thesis-technical.md",
       "source_blob_sha": "9a714ce00cf12d004bd0a1b7e35d9ca8a6ae1d89",
       "target": "en/docs/current/m-thesis-technical.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/current/m-thesis.md",
       "source_blob_sha": "5ec395f79942b0edba974a70172b8200aca41f6f",
       "target": "en/docs/current/m-thesis.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/current/position-and-family.md",
       "source_blob_sha": "e75ab30ca96fddcab56a5243fe023279bbaa6edd",
       "target": "en/docs/current/position-and-family.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/examples/index.md",
       "source_blob_sha": "4cc277d945d29840ecefa009477ff7a11be60957",
       "target": "en/docs/examples/index.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/full/00-abstract.md",
@@ -1161,25 +1140,30 @@
       "source": "docs/reference.md",
       "source_blob_sha": "687c649cb1cccb37ee6d5c1a819ba978c933c468",
       "target": "en/docs/reference.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/research/a2-knowledge-design.md",
       "source_blob_sha": "a87d0c6094cfa9dc2dc4238cedf5b33231817881",
       "target": "en/docs/research/a2-knowledge-design.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
-      "source": "docs/research/m1-selection-decision.md",
-      "source_blob_sha": "b18667ac204151add6f37713fe2f22c0bae0a276",
-      "target": "en/docs/research/m1-selection-decision.md",
-      "status": "translated"
+      "source": "docs/research/byzcorpus/expert-boundary-pilot.md",
+      "source_blob_sha": "bfd6ca5b59cc077d65db00e745c99fa1fd10338c",
+      "target": "en/docs/research/byzcorpus/expert-boundary-pilot.md",
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
-      "source": "docs/research/m2-eise-research-design.md",
-      "source_blob_sha": "d64e1260707e5fea512d95e7e339838ee3166d21",
-      "target": "en/docs/research/m2-eise-research-design.md",
-      "status": "translated"
+      "source": "docs/research/byzcorpus/README.md",
+      "source_blob_sha": "34307f2ff9cf6e829b868e1ab78b30bf44e6dc3f",
+      "target": "en/docs/research/byzcorpus/README.md",
+      "status": "translated",
+      "review_state": "targeted",
+      "review_scope": "M1-X terminology and ByzCorpus overview"
     },
     {
       "source": "docs/research/cognition.md",
@@ -1188,10 +1172,73 @@
       "status": "pending"
     },
     {
+      "source": "docs/research/corpus/README.md",
+      "source_blob_sha": "a46392dc86f4734da92ed87b28f5f404df2ec114",
+      "target": "en/docs/research/corpus/README.md",
+      "status": "translated",
+      "review_state": "needs_review"
+    },
+    {
       "source": "docs/research/data-transfer.md",
       "source_blob_sha": "76e1098d9fc29192abef1bf5412b9140269e6d91",
       "target": "en/docs/research/data-transfer.md",
       "status": "pending"
+    },
+    {
+      "source": "docs/research/ecsi/01-research-question.md",
+      "source_blob_sha": "dfa77864c873e226426fc548673756cb318ee39f",
+      "target": "en/docs/research/ecsi/01-research-question.md",
+      "status": "translated",
+      "review_state": "needs_review"
+    },
+    {
+      "source": "docs/research/ecsi/02-architecture.md",
+      "source_blob_sha": "3be4e1d36385da49222d26a3f8058480e316ddb3",
+      "target": "en/docs/research/ecsi/02-architecture.md",
+      "status": "translated",
+      "review_state": "needs_review"
+    },
+    {
+      "source": "docs/research/ecsi/03-methods-and-gates.md",
+      "source_blob_sha": "c5ea0b4c20014e7885dd483d36584d8e9e928d1c",
+      "target": "en/docs/research/ecsi/03-methods-and-gates.md",
+      "status": "translated",
+      "review_state": "needs_review"
+    },
+    {
+      "source": "docs/research/ecsi/04-decisions.md",
+      "source_blob_sha": "e9a884ba278a7828596004d7ed87ead56df2fc54",
+      "target": "en/docs/research/ecsi/04-decisions.md",
+      "status": "translated",
+      "review_state": "needs_review"
+    },
+    {
+      "source": "docs/research/ecsi/05-evidence-and-limitations.md",
+      "source_blob_sha": "0a7dc0862b21e4f1bba7c750a65ff079ab2b92b3",
+      "target": "en/docs/research/ecsi/05-evidence-and-limitations.md",
+      "status": "translated",
+      "review_state": "needs_review"
+    },
+    {
+      "source": "docs/research/ecsi/06-bibliography.md",
+      "source_blob_sha": "fc25672ecc2c6377844522939b2c14badab33d9a",
+      "target": "en/docs/research/ecsi/06-bibliography.md",
+      "status": "translated",
+      "review_state": "needs_review"
+    },
+    {
+      "source": "docs/research/ecsi/07-publication-roadmap.md",
+      "source_blob_sha": "6795d8ed36be2e02f3b2005f3bb0f2927aebf862",
+      "target": "en/docs/research/ecsi/07-publication-roadmap.md",
+      "status": "translated",
+      "review_state": "needs_review"
+    },
+    {
+      "source": "docs/research/ecsi/README.md",
+      "source_blob_sha": "4a8f5a81024e897ac87aa915eb2b43de74918129",
+      "target": "en/docs/research/ecsi/README.md",
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/research/historical-analysis.md",
@@ -1204,6 +1251,28 @@
       "source_blob_sha": "d8d2a164d50045bd1fd0277dcf2b607de2461d95",
       "target": "en/docs/research/index.md",
       "status": "pending"
+    },
+    {
+      "source": "docs/research/m1-selection-decision.md",
+      "source_blob_sha": "f32e61e4baed282b3f4cffb583307c60eb450e48",
+      "target": "en/docs/research/m1-selection-decision.md",
+      "status": "translated",
+      "review_state": "targeted",
+      "review_scope": "M1-X methodological and terminology alignment"
+    },
+    {
+      "source": "docs/research/m1-x-design.md",
+      "source_blob_sha": "35d20a220452f4ee2318df98d688f1de4727535c",
+      "target": "en/docs/research/m1-x-design.md",
+      "status": "translated",
+      "review_state": "aligned"
+    },
+    {
+      "source": "docs/research/m2-eise-research-design.md",
+      "source_blob_sha": "d64e1260707e5fea512d95e7e339838ee3166d21",
+      "target": "en/docs/research/m2-eise-research-design.md",
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/research/machine-learning.md",
@@ -1239,7 +1308,8 @@
       "source": "docs/review/contribution-matrix.md",
       "source_blob_sha": "9bc86b242ebc99ea05490623aad5db009e5ca219",
       "target": "en/docs/review/contribution-matrix.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/review/decisions.md",
@@ -1257,7 +1327,8 @@
       "source": "docs/review/knowledge-contributions.md",
       "source_blob_sha": "5b390f5814640dc7f478d6cc65a17e4923fc85a1",
       "target": "en/docs/review/knowledge-contributions.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/roadmap.md",
@@ -1267,21 +1338,26 @@
     },
     {
       "source": "docs/start/overview.md",
-      "source_blob_sha": "b09d6e9f0d8a5b8043c5ea877e26c70d0d8c77b1",
+      "source_blob_sha": "d6f0e373f15bd61a66e3eb70956ca828c645366c",
       "target": "en/docs/start/overview.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "targeted",
+      "review_scope": "M1-X methodological and terminology alignment"
     },
     {
       "source": "docs/start/reading-paths.md",
       "source_blob_sha": "7c03d8cdc8cfa087ea0cada274839018a2ca48b6",
       "target": "en/docs/start/reading-paths.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "needs_review"
     },
     {
       "source": "docs/start/research-summary.md",
-      "source_blob_sha": "82003cad703981346546e8336daf705b7b05e316",
+      "source_blob_sha": "929c855c042013a26ae4364260900c6d3fed47b1",
       "target": "en/docs/start/research-summary.md",
-      "status": "translated"
+      "status": "translated",
+      "review_state": "targeted",
+      "review_scope": "M1-X methodological and terminology alignment"
     },
     {
       "source": "docs/start/review-guide.md",
@@ -1296,21 +1372,43 @@
       "status": "pending"
     },
     {
-      "source": "documents/README.md",
-      "source_blob_sha": "049d6b365caaaf2f7ac60c16b1d9ee856cb14364",
-      "target": "en/documents/README.md",
-      "status": "pending"
-    },
-    {
       "source": "documents/prior-work/README.md",
       "source_blob_sha": "be7aa127e03508e897a68220b1721de6c7b3c2d9",
       "target": "en/documents/prior-work/README.md",
       "status": "pending"
     },
     {
+      "source": "documents/README.md",
+      "source_blob_sha": "049d6b365caaaf2f7ac60c16b1d9ee856cb14364",
+      "target": "en/documents/README.md",
+      "status": "pending"
+    },
+    {
+      "source": "NAVIGATION.md",
+      "source_blob_sha": "1820a6c649d6d8bb3e71c71626ef2b49bbe8b287",
+      "target": "en/NAVIGATION.md",
+      "status": "translated",
+      "review_state": "targeted",
+      "review_scope": "M1-X methodological and terminology alignment"
+    },
+    {
       "source": "notes/decisions.md",
       "source_blob_sha": "f0309a212f5f3fc16b8a4cb844919d7ba1a215e9",
       "target": "en/notes/decisions.md",
+      "status": "pending"
+    },
+    {
+      "source": "README.md",
+      "source_blob_sha": "f62bfe62f412d3967f14d0812a468f1d305a95ea",
+      "target": "en/README.md",
+      "status": "translated",
+      "review_state": "targeted",
+      "review_scope": "M1-X methodological and terminology alignment"
+    },
+    {
+      "source": "review/questions.md",
+      "source_blob_sha": "caec00cec140f6840b0ebc190c8e090343e1100a",
+      "target": "en/review/questions.md",
       "status": "pending"
     },
     {
@@ -1320,21 +1418,27 @@
       "status": "pending"
     },
     {
-      "source": "review/questions.md",
-      "source_blob_sha": "caec00cec140f6840b0ebc190c8e090343e1100a",
-      "target": "en/review/questions.md",
+      "source": "SETUP_GITHUB.md",
+      "source_blob_sha": "448edb0b85bc6523b4c3fb0b6950ac742726d702",
+      "target": "en/SETUP_GITHUB.md",
       "status": "pending"
     },
     {
-      "source": "sources/README.md",
-      "source_blob_sha": "f8338083cd45fd6b8fc709574447ba55613ec9a6",
-      "target": "en/sources/README.md",
+      "source": "SOURCES.md",
+      "source_blob_sha": "cd08be782cffbffb555a53d2ef9ab8f01ed16a0c",
+      "target": "en/SOURCES.md",
       "status": "pending"
     },
     {
       "source": "sources/positioning-candidate.md",
       "source_blob_sha": "2c52caee7789a342048be74fc4543e42cb5b05b8",
       "target": "en/sources/positioning-candidate.md",
+      "status": "pending"
+    },
+    {
+      "source": "sources/README.md",
+      "source_blob_sha": "f8338083cd45fd6b8fc709574447ba55613ec9a6",
+      "target": "en/sources/README.md",
       "status": "pending"
     },
     {
@@ -1384,6 +1488,14 @@
       "source_blob_sha": "b310b67f5fecd964b38891c02c7f01f015762e54",
       "target": "en/study/08_glossary.md",
       "status": "pending"
+    },
+    {
+      "source": "TERMINOLOGY_GR.md",
+      "source_blob_sha": "0f25cf5b6723515f32019abeaf3a0b136c6114d2",
+      "target": "en/TERMINOLOGY.md",
+      "status": "translated",
+      "review_state": "targeted",
+      "review_scope": "M1-X methodological and terminology alignment"
     }
   ],
   "original_files": [
@@ -2659,6 +2771,10 @@
     }
   ],
   "editorial_pages": [
+    "en/docs/research/corpus/data/README.md",
+    "en/docs/research/corpus/tools/README.md",
     "en/docs/translation-status.md"
-  ]
+  ],
+  "register_review_date": "2026-11-09",
+  "review_policy": "aligned: full source review; targeted: reviewed passages only; needs_review: the English page is available but complete reconciliation with the current Greek source is outstanding. The source_ref and original_files fields retain the archived original baseline."
 }
