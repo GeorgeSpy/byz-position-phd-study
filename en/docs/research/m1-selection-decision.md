@@ -270,12 +270,11 @@ An empty eligible set triggers the prespecified review of corpus and annotation 
 Exactly one R is selected for operational use. The simultaneous uncertainty region covers **66** pairwise J differences among the twelve representations and **12** G values: **78** quantities in total. Writing $`L`$ and $`U`$ for lower and upper confidence bounds, define:
 
 ```math
-\widehat{\mathcal A}^{-}=\{R:L_G(R)\ge g_{\min}\},\qquad
-\widehat{\mathcal A}^{+}=\{R:U_G(R)\ge g_{\min}\},
+\widehat{\mathcal{A}}^{-} = \lbrace R : L_G(R) \ge g_{\min} \rbrace, \qquad \widehat{\mathcal{A}}^{+} = \lbrace R : U_G(R) \ge g_{\min} \rbrace,
 ```
 
 ```math
-\mathcal R^\star=\left\{R\in\widehat{\mathcal A}^{+}:L_{iR}\le0\quad\text{for every }i\in\widehat{\mathcal A}^{-}\setminus\{R\}\right\}.
+\mathcal{R}^\star = \lbrace R \in \widehat{\mathcal{A}}^{+} : L_{iR} \le 0 \quad \text{for every } i \in \widehat{\mathcal{A}}^{-} \setminus \lbrace R \rbrace \rbrace.
 ```
 
 Here $`L_{iR}`$ is the lower bound of the difference $`J(R_i)-J(R)`$. If $`\widehat{\mathcal A}^{-}`$ is empty, the set equals $`\widehat{\mathcal A}^{+}`$. Whenever the simultaneous region covers the underlying population quantities, every truly eligible optimal representation lies in $`\mathcal R^\star`$. This theoretical property depends on the **actual simultaneous coverage** achieved by the estimation procedure.
