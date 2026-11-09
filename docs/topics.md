@@ -16,7 +16,7 @@
 | Την υπολογιστική καινοτομία | [Μάθηση](research/machine-learning.md) | [Κεφάλαια 4 και 6](full/06-eise.md), [G.1](appendices/g.md#r180) |
 | Μονάδες u1/u2/u3 και N/T/M/L | [Συμβολική ανάκτηση μουσικής πληροφορίας](research/symbolic-mir.md) | [M1](full/05-m1.md), [B](appendices/b.md) |
 | Επιλογή R⋆ και στατιστικό έλεγχο | [Αναθεώρηση Μ1](research/m1-selection-decision.md) | [Προγενέστερη Μ1](full/05-m1.md) · [E](appendices/e.md) |
-| Αρχιτεκτονική σύγκριση Μ1-X: οικογενειακή συμβατότητα, όρια και αναζήτηση | [Πρωτόκολλο Μ1-X](research/m1-x-design.md) | [Κεφάλαιο 5.5](full/05-m1.md#r039) · [G.5.1.1](appendices/g.md#r188) |
+| Αρχιτεκτονική σύγκριση Μ1-X: οικογενειακή συμβατότητα, όρια και αναζήτηση | [Πρωτόκολλο Μ1-X](research/m1-x-design.md) | [Κεφάλαιο 5.5](full/05-m1.md#r038x) · [G.5.1.1](appendices/g.md#r186x) |
 | B0/B1/B2/EISE και Δ_hist | [Αναθεωρημένη Μ2](research/m2-eise-research-design.md) | [Προγενέστερο Κεφάλαιο 6](full/06-eise.md#r044) · [F](appendices/f.md) · [G](appendices/g.md) |
 | Μερική πιθανοφάνεια και απώλειες | [Μάθηση](research/machine-learning.md) | [G.2–G.3](appendices/g.md#r181) |
 | ByzCorpus: συμβολικό corpus, Python toolkit και segmentation pilot | [Επισκόπηση έργου](research/byzcorpus/README.md) | [Schema](research/byzcorpus/data-model.md) · [NHPYLM pilot](research/byzcorpus/segmentation-pilot.md) · [Roadmap](research/byzcorpus/roadmap.md) |
