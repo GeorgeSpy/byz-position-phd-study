@@ -15,7 +15,7 @@
 | Ερευνητικός πυρήνας | [Σύνοψη του ερευνητικού πυρήνα](docs/start/research-summary.md) | [Συνοπτικό σχέδιο (PDF)](documents/core-research-plan.pdf) |
 | Συνολικό σχέδιο | [Σύνοψη](docs/start/overview.md) | [Μεθοδολογικός χάρτης](docs/current/index.md) |
 | Ταυτότητα θέσης και MIR | [Μουσικό παράδειγμα](docs/examples/index.md), [M1–M5](docs/start/overview.md#η-διαδρομή-της-μουσικής-ταυτότητας) | [Παλαιότερο αναλυτικό πρωτόκολλο](docs/full/index.md) |
-| **Αναθεωρημένες μελέτες Μ1 και Μ2** | [Μ1 — επιλογή αναπαράστασης](docs/research/m1-selection-decision.md) | [Μ2 — οικογενειακή και ιστορική εποπτεία](docs/research/m2-eise-research-design.md) |
+| **Μ1 και επέκταση Μ1-X** | [Μ1 — επιλογή αναπαράστασης](docs/research/m1-selection-decision.md) · [Μ1-X — οικογενειακή δομή και όρια](docs/research/m1-x-design.md) | [Μ2 — οικογενειακή και ιστορική εποπτεία](docs/research/m2-eise-research-design.md) |
 | **Α2 — μουσικολογική γνώση** | [Ερευνητικός σχεδιασμός Α2](docs/research/a2-knowledge-design.md) | [Παράρτημα K — τεχνικό πρωτόκολλο Α2](docs/appendices/k.md) |
 | **ByzCorpus — υπό ανάπτυξη** | **[Corpus και εργαλεία](docs/research/byzcorpus/README.md)** | [Μοντέλο δεδομένων](docs/research/byzcorpus/data-model.md) · [Πιλότος συμφωνίας ειδικών](docs/research/byzcorpus/expert-boundary-pilot.md) · [NHPYLM](docs/research/byzcorpus/segmentation-pilot.md) · [Οδικός χάρτης](docs/research/byzcorpus/roadmap.md) |
 | Σώμα δεδομένων | [Πρώτη εκτίμηση του σώματος](docs/research/corpus/README.md) · [English inventory](en/docs/research/corpus/README.md) | [Δεδομένα, επισημείωση και ΠΕ0](docs/full/08-data.md) |
