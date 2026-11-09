@@ -31,9 +31,10 @@
       ]
     },
     {
-      "title": "Revised M1, A2 and M2 methodology",
+      "title": "M1 representation, M1-X architecture, A2 and M2 methodology",
       "pages": [
         "en/docs/research/m1-selection-decision.md",
+        "en/docs/research/m1-x-design.md",
         "en/docs/research/a2-knowledge-design.md",
         "en/docs/appendices/k.md",
         "en/docs/research/m2-eise-research-design.md"
@@ -51,16 +52,8 @@
   ],
   "language_pairs": [
     {
-      "el": "NAVIGATION.md",
-      "en": "en/NAVIGATION.md"
-    },
-    {
-      "el": "README.md",
-      "en": "en/README.md"
-    },
-    {
-      "el": "TERMINOLOGY_GR.md",
-      "en": "en/TERMINOLOGY.md"
+      "el": "docs/appendices/k.md",
+      "en": "en/docs/appendices/k.md"
     },
     {
       "el": "docs/author/index.md",
@@ -99,16 +92,72 @@
       "en": "en/docs/reference.md"
     },
     {
+      "el": "docs/research/a2-knowledge-design.md",
+      "en": "en/docs/research/a2-knowledge-design.md"
+    },
+    {
+      "el": "docs/research/byzcorpus/expert-boundary-pilot.md",
+      "en": "en/docs/research/byzcorpus/expert-boundary-pilot.md"
+    },
+    {
+      "el": "docs/research/byzcorpus/README.md",
+      "en": "en/docs/research/byzcorpus/README.md"
+    },
+    {
+      "el": "docs/research/corpus/README.md",
+      "en": "en/docs/research/corpus/README.md"
+    },
+    {
+      "el": "docs/research/ecsi/01-research-question.md",
+      "en": "en/docs/research/ecsi/01-research-question.md"
+    },
+    {
+      "el": "docs/research/ecsi/02-architecture.md",
+      "en": "en/docs/research/ecsi/02-architecture.md"
+    },
+    {
+      "el": "docs/research/ecsi/03-methods-and-gates.md",
+      "en": "en/docs/research/ecsi/03-methods-and-gates.md"
+    },
+    {
+      "el": "docs/research/ecsi/04-decisions.md",
+      "en": "en/docs/research/ecsi/04-decisions.md"
+    },
+    {
+      "el": "docs/research/ecsi/05-evidence-and-limitations.md",
+      "en": "en/docs/research/ecsi/05-evidence-and-limitations.md"
+    },
+    {
+      "el": "docs/research/ecsi/06-bibliography.md",
+      "en": "en/docs/research/ecsi/06-bibliography.md"
+    },
+    {
+      "el": "docs/research/ecsi/07-publication-roadmap.md",
+      "en": "en/docs/research/ecsi/07-publication-roadmap.md"
+    },
+    {
+      "el": "docs/research/ecsi/README.md",
+      "en": "en/docs/research/ecsi/README.md"
+    },
+    {
+      "el": "docs/research/m1-selection-decision.md",
+      "en": "en/docs/research/m1-selection-decision.md"
+    },
+    {
+      "el": "docs/research/m1-x-design.md",
+      "en": "en/docs/research/m1-x-design.md"
+    },
+    {
+      "el": "docs/research/m2-eise-research-design.md",
+      "en": "en/docs/research/m2-eise-research-design.md"
+    },
+    {
       "el": "docs/review/contribution-matrix.md",
       "en": "en/docs/review/contribution-matrix.md"
     },
     {
       "el": "docs/review/knowledge-contributions.md",
       "en": "en/docs/review/knowledge-contributions.md"
-    },
-    {
-      "el": "docs/start/research-summary.md",
-      "en": "en/docs/start/research-summary.md"
     },
     {
       "el": "docs/start/overview.md",
@@ -119,20 +168,20 @@
       "en": "en/docs/start/reading-paths.md"
     },
     {
-      "el": "docs/research/m1-selection-decision.md",
-      "en": "en/docs/research/m1-selection-decision.md"
+      "el": "docs/start/research-summary.md",
+      "en": "en/docs/start/research-summary.md"
     },
     {
-      "el": "docs/research/m2-eise-research-design.md",
-      "en": "en/docs/research/m2-eise-research-design.md"
+      "el": "NAVIGATION.md",
+      "en": "en/NAVIGATION.md"
     },
     {
-      "el": "docs/research/a2-knowledge-design.md",
-      "en": "en/docs/research/a2-knowledge-design.md"
+      "el": "README.md",
+      "en": "en/README.md"
     },
     {
-      "el": "docs/appendices/k.md",
-      "en": "en/docs/appendices/k.md"
+      "el": "TERMINOLOGY_GR.md",
+      "en": "en/TERMINOLOGY.md"
     }
   ]
 }
