@@ -2,7 +2,9 @@
 
 **Language / Γλώσσα:** [Ελληνικά](../../README.md) · [English home](../README.md) · [Navigation](../NAVIGATION.md)
 
-The English edition is being developed as a parallel reader. Both revised core studies—**M1 representation selection** and **M2's EISE architecture**—are now available as complete English methodological documents, alongside the introduction, contribution, terminology, core explanations, examples and biography. The [34-page English short proposal](../../documents/short-proposal-en.pdf) is also available.
+The English edition provides M1 representation selection, the complete M1-X architectural-extension protocol, A2 and M2/EISE methodology, terminology and supporting research material. The [34-page English short proposal](../../documents/short-proposal-en.pdf) is also available.
+
+**Review scope (9 November 2026).** The English register distinguishes fully aligned translations, focused review of specific methodological passages, and available English pages awaiting complete source comparison. A page being accessible in English does not imply that every subsequent Greek revision has been incorporated.
 
 ## Available in English
 
@@ -27,9 +29,21 @@ The English edition is being developed as a parallel reader. Both revised core s
 | [docs/start/reading-paths.md](../../docs/start/reading-paths.md) | [Reading paths](start/reading-paths.md) |
 | [docs/start/research-summary.md](../../docs/start/research-summary.md) | [Summary of the core research](start/research-summary.md) |
 | [docs/research/m1-selection-decision.md](../../docs/research/m1-selection-decision.md) | [M1 — revised representation design and selection rule J](research/m1-selection-decision.md) |
+| [docs/research/m1-x-design.md](../../docs/research/m1-x-design.md) | [M1-X — family structure as an inductive bias for formula boundaries](research/m1-x-design.md) |
 | [docs/research/m2-eise-research-design.md](../../docs/research/m2-eise-research-design.md) | [M2 — revised EISE research design and evaluation](research/m2-eise-research-design.md) |
 | [docs/research/a2-knowledge-design.md](../../docs/research/a2-knowledge-design.md) | [A2 — musicological knowledge as an experimental variable](research/a2-knowledge-design.md) |
 | [docs/appendices/k.md](../../docs/appendices/k.md) | [Appendix K — A2 technical protocol](appendices/k.md) |
+| [docs/research/byzcorpus/README.md](../../docs/research/byzcorpus/README.md) | [ByzCorpus — research infrastructure](research/byzcorpus/README.md) |
+| [docs/research/byzcorpus/expert-boundary-pilot.md](../../docs/research/byzcorpus/expert-boundary-pilot.md) | [Expert-boundary feasibility study](research/byzcorpus/expert-boundary-pilot.md) |
+| [docs/research/corpus/README.md](../../docs/research/corpus/README.md) | [Preliminary corpus inventory](research/corpus/README.md) |
+| [docs/research/ecsi/README.md](../../docs/research/ecsi/README.md) | [ECSI — README](research/ecsi/README.md) |
+| [docs/research/ecsi/01-research-question.md](../../docs/research/ecsi/01-research-question.md) | [ECSI — 01 research question](research/ecsi/01-research-question.md) |
+| [docs/research/ecsi/02-architecture.md](../../docs/research/ecsi/02-architecture.md) | [ECSI — 02 architecture](research/ecsi/02-architecture.md) |
+| [docs/research/ecsi/03-methods-and-gates.md](../../docs/research/ecsi/03-methods-and-gates.md) | [ECSI — 03 methods and gates](research/ecsi/03-methods-and-gates.md) |
+| [docs/research/ecsi/04-decisions.md](../../docs/research/ecsi/04-decisions.md) | [ECSI — 04 decisions](research/ecsi/04-decisions.md) |
+| [docs/research/ecsi/05-evidence-and-limitations.md](../../docs/research/ecsi/05-evidence-and-limitations.md) | [ECSI — 05 evidence and limitations](research/ecsi/05-evidence-and-limitations.md) |
+| [docs/research/ecsi/06-bibliography.md](../../docs/research/ecsi/06-bibliography.md) | [ECSI — 06 bibliography](research/ecsi/06-bibliography.md) |
+| [docs/research/ecsi/07-publication-roadmap.md](../../docs/research/ecsi/07-publication-roadmap.md) | [ECSI — 07 publication roadmap](research/ecsi/07-publication-roadmap.md) |
 | [docs/research/ecsi/README.md](../../docs/research/ecsi/README.md) | [ECSI overview and contribution](research/ecsi/README.md) |
 | [docs/research/ecsi/01-research-question.md](../../docs/research/ecsi/01-research-question.md) | [ECSI research question and ontology](research/ecsi/01-research-question.md) |
 | [docs/research/ecsi/02-architecture.md](../../docs/research/ecsi/02-architecture.md) | [ECSI-D probabilistic architecture](research/ecsi/02-architecture.md) |
@@ -39,11 +53,11 @@ The English edition is being developed as a parallel reader. Both revised core s
 | [docs/research/ecsi/06-bibliography.md](../../docs/research/ecsi/06-bibliography.md) | [Scientific literature](research/ecsi/06-bibliography.md) |
 | [docs/research/ecsi/07-publication-roadmap.md](../../docs/research/ecsi/07-publication-roadmap.md) | [Research and publication roadmap](research/ecsi/07-publication-roadmap.md) |
 
-**The ECSI research direction is available in full in both languages:** eight Markdown pages plus a corresponding [English JSON signature-card template](research/ecsi/signature-card-template.json). This update does not imply translation of the remaining Greek technical chapters or source material.
+**ECSI is available in both languages** in eight Markdown pages, with an [English JSON signature-card template](research/ecsi/signature-card-template.json); full comparison against the current Greek source remains pending. The [English corpus-data guide](research/corpus/data/README.md) and [tooling guide](research/corpus/tools/README.md) are independent editorial resources.
 
 ## Remaining material
 
-The complete chapters, technical appendices and supporting documentation will be translated in subsequent batches. Links to material still in Greek are labelled in the English reader. The two revised methodology studies above are fully translated; their older technical chapters and appendices remain available in Greek.
+Additional chapters, technical appendices and supporting material will be translated in subsequent batches. Greek-only resources are labelled accordingly. Focused methodological updates remain distinguishable from a full content comparison of both language editions.
 
 | Material awaiting translation | Markdown pages |
 |---|---:|
@@ -54,7 +68,7 @@ The complete chapters, technical appendices and supporting documentation will be
 | Bibliographic notes | 141 |
 | Other guides and records | 30 |
 
-**Inventory note:** The counts below (233 source pages; 24 translated and 209 pending) are an earlier translation snapshot. The two newly published revised M1/M2 methodology pages were not included in that snapshot. They are now listed as completed above. A complete repository-wide inventory refresh is separate from this two-document translation. These counts concern Markdown pages and do not imply translation of the analytical PDF, LaTeX sources, or text embedded in primary-source images.
+**Inventory note (9 November 2026):** The register covers **242 Greek source-page records: 33 pages with English counterparts and 209 pending translation**, plus **three standalone English editorial pages**. The full source comparison has been completed for M1-X; seven paired pages received focused review; the remaining 25 English counterparts require a complete comparison against their current Greek sources. Counts refer to the registered Markdown corpus, excluding analytical PDFs, LaTeX sources and embedded text in images.
 
 <details>
 <summary>Complete list of pending pages (209)</summary>
