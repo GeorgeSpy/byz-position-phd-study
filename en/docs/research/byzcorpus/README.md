@@ -4,7 +4,7 @@
 **Language / Γλώσσα:** [Ελληνικά](../../../../docs/research/byzcorpus/README.md) · **English**
 <!-- language-switch:end -->
 
-[Home](../../../README.md) · [Core research summary](../../start/research-summary.md) · [Preliminary inventory](../corpus/README.md) · [Data model (Greek)](../../../../docs/research/byzcorpus/data-model.md) · **[Expert-boundary pilot (English)](expert-boundary-pilot.md)** · [NHPYLM follow-up (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md) · [Roadmap (Greek)](../../../../docs/research/byzcorpus/roadmap.md)
+[Home](../../../README.md) · [Core research summary](../../start/research-summary.md) · [Preliminary inventory](../corpus/README.md) · [Data model (Greek)](../../../../docs/research/byzcorpus/data-model.md) · **[Expert-boundary pilot (English)](expert-boundary-pilot.md)** · [NHPYLM follow-up (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md) · [Comparative pilot study](gregorian-nhpylm-helsen-pilot.md) · [Roadmap (Greek)](../../../../docs/research/byzcorpus/roadmap.md)
 
 > **Status: independent research initiative in design and feasibility assessment · 7 November 2026.** ByzCorpus develops a symbolic Byzantine chant corpus, Python research tooling and exploratory segmentation studies. The current release documents the research questions, specifications, evaluation plans and roadmap. Dataset and software releases follow source verification, validation and rights review.
 
@@ -20,6 +20,8 @@ Two connected workstreams are being designed:
 ByzCorpus is scoped as a self-contained data-infrastructure and Symbolic MIR research initiative. Its outputs may support **PE0/PE1** and **M1** of the PhD proposal. The segmentation pilot has distinct questions, datasets and metrics; the M1 rule J, A2 and M2/EISE retain their established protocols.
 
 ## Current evidence and dependencies
+
+The [comparative pilot study](gregorian-nhpylm-helsen-pilot.md) reports completed Gregorian NHPYLM–Helsen experiments and sets out the planned Byzantine evaluation. The Byzantine symbolic corpus and expert-boundary protocol remain in development.
 
 The [preliminary inventory](../corpus/README.md) based on Gheorghiță (2009) contains metadata on 42 Sunday Koinonika, 11 melodic formations and 338 rows from 68 tables. Of these rows, 35 have undergone visual verification while 303 retain an `OCR_DRAFT` flag. They locate candidate passages, rather than providing continuous symbolic scores.
 
@@ -43,6 +45,7 @@ The **first planned empirical study** is a limited [independent expert-boundary 
 
 - [Proposed data model and provenance rules (Greek)](../../../../docs/research/byzcorpus/data-model.md)
 - [Proposed Byzantine NHPYLM / segmentability pilot (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md)
+- [Comparative pilot: Gregorian results and Byzantine study design](gregorian-nhpylm-helsen-pilot.md)
 - [Roadmap, gates and decision log (Greek)](../../../../docs/research/byzcorpus/roadmap.md)
 - [Current M1 representation decision](../m1-selection-decision.md)
 - [A2 knowledge design](../a2-knowledge-design.md)
