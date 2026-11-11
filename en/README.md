@@ -12,7 +12,7 @@
 
 ## The core research programme
 
-**Central question:** how can a melodic formula and its family be recognised in continuous notation when the realisation varies, and what does the musicological knowledge that defines the family contribute to that recognition? The core is limited to three studies on a shared symbolic infrastructure:
+**Central question:** how can a melodic formula and its family be recognised in continuous notation when the realisation varies, and what does the musicological knowledge that defines the family contribute to that recognition? The core comprises three interconnected studies built on shared symbolic infrastructure:
 
 - **M1 — Symbolic representation selection.** The $`U\times\Phi`$ grid compares twelve input conditions; rule J selects the operational $`R^\star`$ using full formula-and-family recognition with architecture A. **M1-X — Architectural extension:** investigates family structure as an inductive bias for formula boundaries.  
   [M1 — selection rule J and experimental design](docs/research/m1-selection-decision.md) · **[M1-X — research protocol](docs/research/m1-x-design.md)**.
@@ -21,7 +21,7 @@
 - **M2 — Identity and realisation.** Learning from occurrences of the same family without losing their variation; a historical strand using exegeses of the same passage, only where the sources allow it.  
   [Revised M2 methodology — family-based and historical supervision](docs/research/m2-eise-research-design.md).
 
-Evaluation rests on blind judgements by independent specialists (M3a). M5-min applies the final model to complete works held out from training. The core is deliberately limited so that it is feasible. The probabilistic operator Mθέσις, listening studies, performance timing, the full M5 and the comparison with Znamenny chant are designed as [conditional extensions](#conditional-extensions) that would broaden the core as far as data and sources allow.
+Evaluation rests on blind judgements by independent specialists (M3a). M5-min applies the final model to complete works held out from training. Together, the core studies form a coherent and implementable research programme with a clear progression and shared evaluation criteria. The probabilistic operator Mθέσις, listening studies, performance timing, the full M5 and the comparison with Znamenny chant are designed as [conditional extensions](#conditional-extensions) that would broaden the core as far as data and sources allow.
 
 **[Summary of the core research](docs/start/research-summary.md)** · **[Core research plan (Greek PDF)](../documents/core-research-plan.pdf)** — the current version; an English translation is in preparation. · [Musicological memorandum (Greek PDF)](../documents/musicological-memorandum.pdf) · [Earlier English short proposal (PDF)](../documents/short-proposal-en.pdf) · **Quick route:** [What is new](#what-is-new) → [Formula and family](docs/current/position-and-family.md#a-schematic-example) → [The inverse problem](docs/current/inverse-problem.md)
 
