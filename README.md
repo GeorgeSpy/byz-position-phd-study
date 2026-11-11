@@ -27,7 +27,7 @@
 
 ## ByzCorpus — συμβολικό corpus και πειραματική τμηματοποίηση (υπό ανάπτυξη)
 
-Αυτοτελές ερευνητικό έργο σε στάδιο σχεδιασμού: [**ByzCorpus**](docs/research/byzcorpus/README.md) για τον σχεδιασμό ανοικτής, ελεγχόμενης υποδομής βυζαντινών συμβολικών δεδομένων και ενός ανεξάρτητου πιλοτικού NHPYLM / melodic segmentability. Περιλαμβάνει [μοντέλο δεδομένων](docs/research/byzcorpus/data-model.md), [πρώτο πιλότο συμφωνίας ειδικών](docs/research/byzcorpus/expert-boundary-pilot.md), [επόμενο υπολογιστικό στάδιο NHPYLM](docs/research/byzcorpus/segmentation-pilot.md) και [ζωντανό οδικό χάρτη](docs/research/byzcorpus/roadmap.md). Η κατεύθυνση βρίσκεται σε φάση σχεδιασμού και διατηρεί αμετάβλητο τον πυρήνα Μ1–Α2–Μ2.
+Αυτοτελές ερευνητικό έργο σε στάδιο σχεδιασμού: [**ByzCorpus**](docs/research/byzcorpus/README.md) για τον σχεδιασμό ανοικτής, ελεγχόμενης υποδομής βυζαντινών συμβολικών δεδομένων και μιας αυτοτελούς πιλοτικής μελέτης μελωδικής κατατμησιμότητας με NHPYLM. Περιλαμβάνει [μοντέλο δεδομένων](docs/research/byzcorpus/data-model.md), [πρώτη πιλοτική μελέτη συμφωνίας ειδικών](docs/research/byzcorpus/expert-boundary-pilot.md), [επόμενο υπολογιστικό στάδιο NHPYLM](docs/research/byzcorpus/segmentation-pilot.md) και [ζωντανό οδικό χάρτη](docs/research/byzcorpus/roadmap.md). Η κατεύθυνση βρίσκεται σε φάση σχεδιασμού και διατηρεί αμετάβλητο τον πυρήνα Μ1–Α2–Μ2.
 
 ## Τι είναι νέο
 
@@ -86,7 +86,7 @@
 | μελετήσω τη νέα ερευνητική κατεύθυνση μουσικολογικά ενημερωμένης Μηχανικής Μάθησης | **[ECSI — Προδιαγραφές οικογενειών μουσικών θέσεων](docs/research/ecsi/README.md)** |
 | εμβαθύνω στη βυζαντινή σημειογραφία και στις θέσεις | [Μουσικολογική τεκμηρίωση](docs/musicology/index.md) |
 | καταλάβω την καινοτομία και τη σχέση με την προηγούμενη έρευνα | [Μεθοδολογική συμβολή και τοποθέτηση ανά πεδίο](docs/review/contribution-matrix.md) |
-| παρακολουθήσω το νέο έργο ByzCorpus (corpus, toolkit, segmentability) | **[ByzCorpus — υπό ανάπτυξη](docs/research/byzcorpus/README.md)** · [πιλοτικό NHPYLM](docs/research/byzcorpus/segmentation-pilot.md) |
+| παρακολουθήσω το νέο έργο ByzCorpus (σώμα δεδομένων, εργαλεία, κατατμησιμότητα) | **[ByzCorpus — υπό ανάπτυξη](docs/research/byzcorpus/README.md)** · [πιλοτικό πρωτόκολλο NHPYLM](docs/research/byzcorpus/segmentation-pilot.md) |
 | δω ποια έργα και πηγές έχουν καταγραφεί για το σώμα δεδομένων | [Προκαταρκτική απογραφή του σώματος δεδομένων](docs/research/corpus/README.md) · [English inventory](en/docs/research/corpus/README.md) |
 | διαβάσω κεφάλαιο ή τεχνικό παράρτημα | [Αναλυτικά κεφάλαια και παραρτήματα](docs/full/index.md) |
 | αναζητήσω συγκεκριμένη πηγή | [Βιβλιογραφία μεθοδολογικής ανάπτυξης](docs/bibliography/methodology.md) · [Βιβλιογραφικό ευρετήριο](docs/bibliography/index.md) |
