@@ -12,8 +12,8 @@
 
 | Αντικείμενο | Πλήρες κείμενο |
 |---|---|
-| Βαθμονομημένη συνθετική εποπτεία για ESPI | [paper](../../documents/prior-work/setn-calibrated-espi-supervision.pdf) |
-| Ερμηνεύσιμη ταξινόμηση τρόπων ταλάντωσης | [paper](../../documents/prior-work/setn-espi-mode-classification.pdf) |
+| Βαθμονομημένη συνθετική εποπτεία για ESPI | [PDF](../../documents/prior-work/setn-calibrated-espi-supervision.pdf) |
+| Ερμηνεύσιμη ταξινόμηση τρόπων ταλάντωσης | [PDF](../../documents/prior-work/setn-espi-mode-classification.pdf) |
 | Λειτουργική εξουδετέρωση της προσοχής καναλιών και υπό συνθήκη προβλεπτική χρησιμότητα | [αναθεωρημένο PDF (2026)](../../documents/prior-work/setn-espi-attention-denoising.pdf) |
 | Προσδιορισιμότητα και γεωμετρία αντιστροφής MESPI | [Πλήρες PDF](../../documents/prior-work/mespi-inverse-geometry.pdf) |
 
