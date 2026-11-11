@@ -6,7 +6,7 @@
 
 [Home](../../README.md) · [Summary of the core research](research-summary.md) · [Method map](../current/index.md) · [Documents and sources](../reference.md)
 
-> **Programme structure:** The dissertation is anchored in a tightly scoped, feasible **core plan (M1, A2, M2a/M2b)** with independent expert validation (**M3a**) and full-work morphological mapping (**M5-min**). Around this core, **conditional extensions** (the probabilistic realisation operator *M-thesis*, historical transformations *ATL*, the inverse recovery problem *ATL-INV*, listening studies *M3b/c* and full *M5* style analysis) are activated as source availability and data adequacy permit.
+> **Programme structure:** The dissertation is organised around a coherent, implementable **core plan (M1, A2, M2a/M2b)** with independent expert validation (**M3a**) and full-work morphological mapping (**M5-min**). Around this core, **conditional extensions** (the probabilistic realisation operator *M-thesis*, historical transformations *ATL*, the inverse recovery problem *ATL-INV*, listening studies *M3b/c* and full *M5* style analysis) are activated as source availability and data adequacy permit.
 
 ## The musical and computational problem
 
