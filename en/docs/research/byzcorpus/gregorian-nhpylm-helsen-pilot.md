@@ -42,7 +42,7 @@ The Gregorian pilot provides empirical evidence for RQ1–RQ3 (§3). The followi
 
 For H-S1, a word ending is the gap after the last note event of the last syllable of a word. H-S1–H-S4 are confirmatory; H-S5 is exploratory because the 35 parallel exegeses come from eight Koinonika by Daniel Protopsaltes. No direction is predicted for the between-tradition difference in H-S4.
 
-## 3. Gregorian pilot: methods and results
+## 3. Gregorian chant pilot: methods and results
 
 ### 3.1 Material
 
