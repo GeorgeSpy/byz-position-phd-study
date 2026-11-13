@@ -1,4 +1,4 @@
-# ByzCorpus — Ερευνητικός οδικός χάρτης, αποφάσεις και εκκρεμότητες
+# ByzCorpus — research roadmap, αποφάσεις και εκκρεμότητες
 
 [Επισκόπηση](README.md) · [Μοντέλο δεδομένων](data-model.md) · [Πιλοτικό πρωτόκολλο NHPYLM](segmentation-pilot.md)
 
