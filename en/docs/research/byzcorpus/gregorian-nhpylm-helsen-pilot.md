@@ -56,7 +56,7 @@ The *repetenda* boundary—marking the concluding portion of the main respond th
 
 **Phase B (Helsen database).** All 1,668 Mode 1 records from Helsen's relational database [5] were extracted: 214 responsories, comprising 1,056 records with standard labels and 612 with provisional labels. Each responsory was reconstructed from consecutive phrases ordered by the `Position` field. Works were matched to CantusCorpus via their standard CAO (*Corpus Antiphonalium Officii*) catalogue number and textual *incipit*; notably, the database's `Source` field denotes the biblical source of the text rather than the musical manuscript witness. Phase B reuses the out-of-fold segmentations from Phase A.
 
-Comparison between the two transcriptions of the same codex (Helsen and CantusCorpus) yielded 19 exact matches and 129 additional melodies at nonzero normalised edit distance up to 0.05, 51 at distances between 0.05 and 0.15, four above 0.15 and 11 with no match. The **primary analysis** comprises the **148 melodies** at distance at most 0.05, distributed across 146 melody clusters. Sequence alignment projected **954 internal Helsen-element boundaries** onto the Cantus melodies; 28 boundaries were excluded owing to local alignment ambiguity. As a validation check, Helsen's *repetenda* boundary coincided-exactly with the Cantus division in 134 of 137 evaluable instances.
+Comparison between the two transcriptions of the same codex (Helsen and CantusCorpus) yielded 19 exact matches and 129 additional melodies at nonzero normalised edit distance up to 0.05, 51 at distances between 0.05 and 0.15, four above 0.15 and 11 with no match. The **primary analysis** comprises the **148 melodies** at distance at most 0.05, distributed across 146 melody clusters. Sequence alignment projected **954 internal Helsen-element boundaries** onto the Cantus melodies; 28 boundaries were excluded owing to local alignment ambiguity. As a validation check, Helsen's *repetenda* boundary coincided exactly with the Cantus division in 134 of 137 evaluable instances.
 
 **Departures from the preregistered protocol.** The originally registered Phase B code was executed first. Three technical errors were subsequently identified and corrected:
 
@@ -99,7 +99,7 @@ The model places a mean of 64.64 internal boundaries per responsory. Mean segmen
 | NHPYLM precision across all transitions | 0.0770 | — |
 | NHPYLM $`F_1`$ across all transitions | 0.1418 | — |
 
-The model recovers nearly 90% of evaluable Helsen boundaries, exceeding the random reference by 38 percentage points. **Alignment sensitivity:** the 954 evaluable boundaries correspond to 858 correct detections. Including the 28 ambiguous boundaries, retaining those 858 detections, and allowing up to one additional match per boundary gives recall between $`858/982\simeq0.874`$ and $`886/982\simeq0.902`$ over 982 boundaries. This is an arithmetic sensitivity range, distinct from the reported confidence intervals. With a fixed prediction count, up to 28 additional correct matches would increase precision by at most approximately 0.0025. It operates at a much finer scale, however, predicting a mean of 75.32 boundaries per chant compared with 6.45 in Helsen's analysis. A Helsen element has a median length of 19 notes, whereas the constraint $`L_{\max}=7`$ enforces its division into at least three segments. In practice, the median element contains eight internal cuts, corresponding to approximately nine statistical segments.
+The model recovers nearly 90% of evaluable Helsen boundaries, exceeding the random reference by 38 percentage points. **Alignment sensitivity:** the 954 evaluable boundaries correspond to 858 correct detections. Including the 28 ambiguous boundaries, retaining those 858 detections, and allowing up to one additional match per boundary gives recall between $`858/982\simeq0.874`$ and $`886/982\simeq0.902`$ over 982 boundaries. This is an arithmetic sensitivity range, distinct from the reported confidence intervals. With a fixed prediction count, up to 28 additional correct matches would increase precision by at most approximately 0.0025. It operates at a much finer scale, however, predicting a mean of 75.32 boundaries per chant compared with 6.45 in Helsen's analysis. A Helsen element has a median length of 19 notes, whereas the constraint $`L_{\max}=7`$ enforces its division into at least three segments. In practice, the median number of internal cuts per element is eight, corresponding to approximately nine statistical segments.
 
 **Boundary selection at word endings.**
 
@@ -110,7 +110,7 @@ The model recovers nearly 90% of evaluable Helsen boundaries, exceeding the rand
 | NHPYLM restricted to word endings | 14.86 | 0.8941 | 0.3877 | 0.5409 |
 | NHPYLM across all transitions | 75.32 | 0.8994 | 0.0770 | 0.1418 |
 
-A total of 99.37% of Helsen's reference boundaries coincide with word endings. Restricting candidate boundary positions to word endings raises NHPYLM $`F_1`$ from 0.1418 to 0.5409. The deterministic cadence rule nonetheless retains an advantage: paired $`F_1`$ difference **+0.0243** (95% CI: 0.0085–0.0401). This finding follows directly from Helsen's analytical definition, whereby each element begins immediately after a cadential figure.
+A total of 99.37% of Helsen's reference boundaries coincide with word endings. Restricting candidate boundary positions to word endings raises NHPYLM $`F_1`$ from 0.1418 to 0.5409. The deterministic cadence rule nonetheless retains an advantage: paired $`F_1`$ difference **+0.0243** (95% CI: 0.0085–0.0401). This advantage is consistent with Helsen's analytical definition, whereby each element begins immediately after the preceding element's cadential figure.
 
 **Internal cuts and analytical labels (exploratory analysis).** In the unmatched comparison (792 pairs, 43 labels), same-label Jaccard similarity is 0.3392 versus 0.1549 for random cuts of equal count ($`\Delta J=+0.1843`$). Because occurrences sharing a label are also melodically similar by definition, a matched comparison was conducted:
 
@@ -140,11 +140,11 @@ The recall advantage over the random reference remains stable across all conditi
 ### 3.5 Scope and limitations
 
 - This evaluation uses the basic unsupervised NHPYLM with a shared segment lexicon. The `NHPYLMClasses` variant of Lanz and Hajič (2025) trains eight separate models using known mode labels and provides a distinct target for future comparison [1].
-- One source and one expert: reference boundaries come exclusively from K. Helsen's analysis of codex Paris, BnF, lat. 12044.
+- One manuscript source and one reference analyst: reference boundaries come exclusively from K. Helsen's analysis of codex Paris, BnF, lat. 12044.
 - One training initialisation (*seed*) per fold. A second seed has not yet been run, so between-training variation has not been estimated.
 - The primary Phase B analysis concerns Mode 1; the extension to all modes is exploratory.
 - Boundaries are projected between two independent transcriptions of the same source (Helsen's database and CantusCorpus).
-- Boundary evaluation relies on discrete (*hard*) Viterbi decoding; marginal boundary probabilities have not yet been extracted.
+- Boundary evaluation relies on discrete segmentation via the specified `predict_segments()` routine; marginal boundary probabilities have not yet been extracted.
 - The Jaccard analysis is exploratory and relies on matching with reuse of different-label occurrences.
 
 ### 3.6 Main findings of the Gregorian pilot
@@ -158,16 +158,18 @@ Two open methodological problems emerge: the **selection** of structurally signi
 
 ## 4. Rationale for comparison with Byzantine chant
 
-In Gregorian responsories, analytical boundaries coincide almost universally with word endings, allowing textual articulation to bear the primary burden of boundary discrimination. In Gregorian antiphons (shorter, predominantly syllabic or oligotonic chants), Lanz and Hajič (2023) showed that text boundaries do not yield better segmentation with respect to mode classification [8]; in the present study, however, the target is the analytical boundary of extensive melodic elements, where coincidence with word endings is nearly complete. By contrast, in Byzantine papadic and kalophonic chant, multiple complete *theseis* frequently unfold within a single syllable (extended melismata). There, word endings cannot suffice to select boundaries, and diagnostic weight shifts to melodic, rhythmic and modal information. The comparative study therefore investigates which findings of §3.6 depend on text–melody articulation and which reflect broader principles of melodic organisation in chant. The corresponding hypotheses are formalised as H-S1–H-S5 (§2).
+In Gregorian responsories, analytical boundaries coincide almost universally with word endings, and textual articulation provides strong information for boundary discrimination. In Gregorian antiphons (shorter, predominantly syllabic or oligotonic chants), Lanz and Hajič (2023) showed that text boundaries do not yield better segmentation with respect to mode classification [8]; in the present study, however, the target is the analytical boundary of extensive melodic elements, where coincidence with word endings is nearly complete. By contrast, in Byzantine papadic and kalophonic chant, multiple complete *theseis* frequently unfold within a single syllable (extended melismata). There, word endings cannot suffice to select boundaries, and diagnostic weight shifts to melodic, rhythmic and modal information. The comparative study therefore investigates which findings of §3.6 depend on text–melody articulation and which reflect broader principles of melodic organisation in chant. The corresponding hypotheses are formalised as H-S1–H-S5 (§2).
+
+The subsequent [supervised complete-element benchmark](segmentation-and-family-recognition/05-gregorian-benchmark.md) uses 123 of the 148 responsories in the original analysis, grouped into 121 melody clusters. Twenty-five works were excluded because Helsen elements could not be projected completely onto the melody. In this benchmark, syllable and word cues increased the full-element $`F_1`$ of F by $`+0.354`$. LASM improved performance by $`+0.044`$ with melody-only input, whereas with textual cues its difference was $`−0.021`$. These findings motivate comparative investigation of text–melody articulation in Byzantine papadic chant.
 
 ## 5. Byzantine component: reference sources
 
-Unlike Helsen's database, no published source in Byzantine musicology provides an exhaustive partition of complete papadic works into consecutive *theseis*. The two primary reference sources of ByzCorpus address complementary aspects of the problem:
+Among sources reviewed for ByzCorpus, a corpus of complete papadic works with systematically annotated boundaries of all melodic *theseis* and explicit treatment of connective, unclassified or unresolved passages has not yet been identified. The two primary reference sources of ByzCorpus address complementary aspects of the problem:
 
 | Feature | Gheorghiță (2009), Sunday Koinonika [9] | *Papadic Formulae*, St Anthony's Monastery [10] |
 |---|---|---|
 | **Content** | 42 eighteenth-century *Ainete* Koinonika, 11 formations, 338 inventory entries recording occurrences across 68 tables ([inventory](../corpus/README.md)) | *Theseis* drawn from 758 compositions, recording the title and composer of each source file |
-| **Coverage** | All occurrences of each sign within the studied repertoire, insofar as they are marked by the corresponding *great hypostasis* in the older notation | Cataloguer's selection; non-exhaustive |
+| **Scope and coverage** | All occurrences of the 11 studied signs in the selected repertoire when marked by the corresponding *great hypostasis* in older notation; complete formula-boundary annotation is a separate task | Selective inventory of occurrences; complete coverage of each formula in the source works is not established |
 | **Distinctive value** | 35 passages with parallel co-exegeses by Gregory and Chourmouzios in Koinonika by Daniel | Scale: large number of families and composers |
 | **What it measures** | RQ1 (recall at formation boundaries), RQ3 (consistency of internal cuts per formation), comparison of co-exegeses | RQ3–RQ4 at scale: family recognition and the lexicon of *theseis* |
 | **What it does not supply** | Complete partition of the work (hence no direct computation of full-boundary precision); continuous digital scores | Exact location of each occurrence within a complete work; independent boundary criteria; an explicit reuse licence |
@@ -175,7 +177,7 @@ Unlike Helsen's database, no published source in Byzantine musicology provides a
 
 **Selection of the principal historical reference.** **Gheorghiță's** study serves as the primary Byzantine source for historically and notationally documented formations. It provides a closed repertoire of a single liturgical genre and systematic catalogues for 11 *great hypostases*/signs, while its parallel co-exegeses enable testing H-S5. In the current [inventory](../corpus/README.md), 35 of the 338 entries have been visually verified, while the remaining 303 carry the `OCR_DRAFT` status. Full verification and localisation of occurrences within continuous scores form part of checkpoint P3. The online *Papadic Formulae* catalogue of **St Anthony's Monastery** is used complementarily to scale up family recognition (RQ4), following alignment with complete works and rights clearance.
 
-The [expert-boundary agreement pilot](expert-boundary-pilot.md) will provide a complete musicological partition within selected windows, preferably drawn from the same Koinonika, enabling the calculation of Precision and $`F_1`$ for complete *theseis*. Gheorghiță's documented formations will be evaluated separately as historically attested occurrences with known boundaries. This methodological distinction directly addresses the Gregorian pilot's central finding regarding the effect of boundary density on recall.
+The [expert-boundary agreement pilot](expert-boundary-pilot.md) will provide complete boundary annotation in selected windows, preferably from the same Koinonika, enabling calculation of boundary precision, recall and $`F_1`$. Complete-*thesis* recognition and joint *thesis*–family recognition use distinct measures. Gheorghiță's documented formations will be evaluated separately as historically attested occurrences with known boundaries. This methodological distinction directly addresses the Gregorian pilot's central finding regarding the effect of boundary density on recall.
 
 **Training data.** The 42 Koinonika serve exclusively as an evaluation set. The NHPYLM will be trained on a broader corpus of unannotated papadic works encoded in the open-source Byzantine music scorewriter *Neanes*, with strict splitting by work and composer. Training corpus size will be measured in elementary note events and compared against Phase A prior to training.
 
@@ -185,7 +187,8 @@ Each checkpoint must be satisfied before advancing to the next stage. The outcom
 
 | Checkpoint | Adequacy criterion | Decision if criterion is not met |
 |---|---|---|
-| **P1 — Boundary probabilities** | The *forward–backward* implementation matches exhaustive enumeration on short sequences, with maximum absolute deviation at most $`10^{-9}`$ | Marginal boundary probabilities are not used; H-S3 remains unresolved |
+| **P1a — Numerical verification of boundary events** | Exact joint boundary-event probabilities checked against enumeration on 255 synthetic and 128 trained-test cut sets; maximum log-error $`7.1\times10^{-15}`$ | **Numerically completed**; see [Section 6](segmentation-and-family-recognition/06-mathematical-verification.md) |
+| **P1b — Marginal boundary probabilities** | Compute all $`p_{\mathrm{bnd}}(t\mid X)`$ with *forward–backward*, check against enumeration (maximum deviation $`10^{-9}`$), and apply to the trained Gregorian model | Confirmatory H-S3 evaluation follows completion of P1b using the specified protocol |
 | **P2 — Training corpus** | Size measured in events; split by work and composer documented prior to training | Training does not commence |
 | **P3 — Localisation of Gheorghiță occurrences** | Every occurrence localised in the digital score by its initial and final event; independent second check on at least 30% of the material and all ambiguous cases | Unlocalised occurrences are documented and excluded |
 | **P4 — *Echos*-specific reference rules** | The cadence rule for each *echos* (imperfect, perfect and final cadences in New Method theory) is preregistered and dated before running the model on the evaluation set | H-S3 is not evaluated confirmatorily |
@@ -195,8 +198,8 @@ Formations with fewer than 10 localised occurrences are reported separately and 
 
 **Work stages.**
 
-1. **Marginal boundary probabilities in the Gregorian component (P1).** In place of discrete Viterbi decoding, exact marginal boundary probabilities $`p_{\mathrm{bnd}}(t\mid X)`$ are computed via the *forward–backward* dynamic-programming algorithm while holding the trained NHPYLM parameters fixed. For a segment-bigram model, the state is defined by the pair of consecutive boundaries $`(u,t)`$ with computational complexity $`O(T L_{\max}^2)`$. Evaluation is conducted both threshold-independently (AUPRC, ROC-AUC) and at an equal boundary budget against the cadence rule, with the prediction budget selected exclusively on the development set.
-2. **Stricter test of family consistency.** The matching procedure of §3.2 is extended to control for final pitch, cadential-figure type and relative position within the responsory, without reusing occurrences.
+1. **Marginal boundary probabilities in the Gregorian component (P1b).** Building on the completed P1a numerical checks and in a procedure separate from discrete segmentation, marginal boundary probabilities $`p_{\mathrm{bnd}}(t\mid X)`$ are computed via the *forward–backward* dynamic-programming algorithm while holding the trained NHPYLM parameters fixed. For a segment-bigram model, the state is defined by the pair of consecutive boundaries $`(u,t)`$ with computational complexity $`O(T L_{\max}^2)`$. Evaluation is conducted both threshold-independently (AUPRC, ROC-AUC) and at an equal boundary budget against the cadence rule, with the prediction budget selected exclusively on the development set.
+2. **Bootstrap verification and stricter family-consistency test.** Verify the $`\Delta J`$ estimand, triplet/label weighting, invalid replicates and reused occurrences. Subsequently, The matching procedure of §3.2 is extended to control for final pitch, cadential-figure type and relative position within the responsory, without reusing occurrences.
 3. **Byzantine data infrastructure (P2, P3).** Digitally encode the 42 Koinonika and localise the 338 occurrences; assemble the training corpus from *Neanes* files; review usage rights.
 4. **Preregistration of rules (P4).** Define and log *echos*-specific cadential rules on the symbolic representation prior to evaluation.
 5. **Execution of the Byzantine component (P5)** using the measures of §3.2 and the decision rules of §2.
@@ -205,7 +208,9 @@ Formations with fewer than 10 localised occurrences are reported separately and 
    - composition incorporating global span-coherence features;
    - composition with family-specific parameters.
 
-   Evaluation separately measures boundary $`F_1`$, family classification at known boundaries, and joint segmentation and recognition. This stage precedes any integration into the segmental architectures `A` (joint semi-CRF for boundary segmentation and family recognition) and `C_fac` (factorised segmentation semi-CRF without family feedback) of study [M1-X](../m1-x-design.md), where the marginal boundary decision aggregates family compatibilities via `logsumexp`, while full joint MAP estimation maximises the overall analysis score.
+   Evaluation separately measures boundary $`F_1`$, family classification at known boundaries, and joint segmentation and recognition. Study [M1-X](../m1-x-design.md) compares architecture `A`, in which family compatibility contributes to marginal boundary scoring through `logsumexp` over families, with `C_fac`, where marginalising normalised family probabilities yields the boundary distribution $`p_B`$. The shared encoder of `C_fac` also receives family supervision, while joint MAP decoding may use family probabilities to influence the final boundary selection.
+
+The separate `C_comp` architecture composes latent subsegments while preserving the same parental-formula family identity. In the [synthetic experiments](segmentation-and-family-recognition/02-full-position-vs-composition.md), F outperformed `C_comp`. RM was also trained in series S2 with three initialisations: difference versus F $`+0.015`$ (95% cluster interval $`[-0.003,+0.033]`$), versus equal-capacity F-wide $`−0.011`$, and versus F+LASM $`−0.021`$ (interval $`[-0.037,-0.005]`$). [DBC](segmentation-and-family-recognition/04-family-compositional-learning.md) is mathematically specified and its component properties have been numerically checked; training is a subsequent research stage.
 
 Full evaluation of *theseis* in ByzCorpus distinguishes four levels: (a) occurrence boundaries, (b) membership in an analytical family, (c) the specific notational or exegetical realisation, and (d) correspondence with a historically named type, where attested.
 
@@ -213,7 +218,7 @@ Full evaluation of *theseis* in ByzCorpus distinguishes four levels: (a) occurre
 
 This study links the completed Gregorian pilot application with the design of the Byzantine component. Immediate next steps are organised around the following deliverables:
 
-1. completion of checkpoints P1–P5;
+1. completion of P1b and P2–P5, following the numerical completion of P1a;
 2. evaluation of hypotheses H-S1–H-S4 in Gheorghiță's Koinonika according to the prespecified decision rules of §2;
 3. replication of the Gregorian pilot with a second training initialisation (*seed*) and extraction of marginal boundary probabilities;
 4. public release of code and aggregate results in accordance with source licensing terms.
@@ -222,7 +227,7 @@ This comparative evaluation bridges unsupervised statistical segmentation with i
 
 ## 8. Reproducibility and rights
 
-- **Implementation:** `lanzv/nhpylm`, commit `f928c78aa74ce44cd60a2f9b7c987167524c4d45`, published hyperparameters, 200 epochs, initialisation `seed = 1` in each fold.
+- **Implementation:** `lanzv/nhpylm`, commit `f928c78aa74ce44cd60a2f9b7c987167524c4d45`, published hyperparameters, 200 full blocked-Gibbs sweeps (`epochs=200`) and initialisation `seed = 1` in each fold. The `predict_segments()` method calls `viterbi_segment_sequences()`, combining forward summation and local backward `argmax` selection. The routine agreed with MAP on 80 tested examples, and the general algorithmic distinction is documented in [Section 6](segmentation-and-family-recognition/06-mathematical-verification.md).
 - **Data:** CantusCorpus v0.2, under a CC BY-NC-SA 4.0 licence [7]. Helsen's database (in Microsoft Access format) is available as a doctoral dissertation appendix through the University of Regensburg repository [5]. The planned public reproducibility package will include extraction, alignment and evaluation scripts, detailed instructions for retrieving Helsen's database from its primary source, and aggregate results, in full compliance with data-distribution terms.
 - **Evaluation files:**
   - preprocessing, alignment and diagnostic scripts (including `extra_checks.py`);
@@ -235,7 +240,8 @@ This comparative evaluation bridges unsupervised statistical segmentation with i
 | Date | Work |
 |---|---|
 | 10 November 2026 | Registration of the Phase A protocol prior to training; execution of Phases A and B; documentation and correction of Phase B departures (§3.1) |
-| 11 November 2026 | Finalisation of the comparative pilot design: hypotheses H-S1–H-S5, decision rules and checkpoints P1–P5 |
+| 11 November 2026 | Finalisation of the comparative pilot design: hypotheses H-S1–H-S5, decision rules and original checkpoints P1–P5 |
+| 14 November 2026 | Cross-reference to numerical verification (P1a), separation of P1b, integration of the 123-responsory supervised benchmark, and alignment with M1-X architectures |
 
 ## References
 
