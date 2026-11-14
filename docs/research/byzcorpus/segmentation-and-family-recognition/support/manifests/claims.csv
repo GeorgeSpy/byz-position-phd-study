@@ -1,0 +1,18 @@
+claim_id,page,claim,experiment_ids,status
+C01,02,F outperforms C_comp in every executed synthetic cell (S1 and S2); all 95% group intervals exclude zero.,S1-G0-48-EXT;S1-G0-48-PKG;S1-G1-08;S1-G1-48;S1-G2-48;S2-F-CCOMP,supported (synthetic)
+C02,02,The F+C_comp hybrid does not exceed F; it is lower in G1 with 8 training groups.,S1-FC-G0-48-EXT;S1-FC-G1-08;S1-FC-G1-48;S1-FC-G2-48;S1-FWIDE,supported (synthetic)
+C03,02,A shared inventory of latent types did not help: C-untied exceeds C_comp in G1.,S1-CUNTIED,supported (synthetic)
+C04,02,C-agn reaches the level of F in one seed; no equivalence is claimed.,S1-CAGN,single run
+C05,03,"With text features, the LASM term gives no detectable gain in S1 (4, 8, 48 training groups).",S1-BI-04;S1-BI-08;S1-BI-48,supported (synthetic)
+C06,03,"Without text, F+LASM exceeds F in S2 but is not distinguishable from capacity-matched F-wide.",S2-LASM-F;S2-LASM-FWIDE,supported (synthetic)
+C07,03,Centring log Z0 leaves the model unchanged; the reported +0.027 was an unpaired comparison.,S1-CENTER-04,corrected
+C08,05,"On Helsen mode 1, F with text exceeds the cadence rule in exact-unit F1.",H1-C-F-CADENCE,exploratory (real data)
+C09,05,"On Helsen mode 1, LASM does not help with text and gives a modest gain without text that a shuffled base does not reproduce.",H1-C-LASM-TEXT;H1-C-NULL-TEXT;H1-C-LASM-MEL;H1-C-NULL-MEL,exploratory (real data); protocol partly fixed after inspection
+C10,05,Family recognition on Helsen elements is weak (0.448 on reference units).,H1-F-TEXT,exploratory (real data)
+C11,05,A first batch with early stopping produced an artefactual LASM gain and is withdrawn.,H1-BATCH0,withdrawn result
+C12,04,F+RM is not distinguishable from F or from capacity-matched F-wide in S2.,S2-RM-F;S2-RM-FWIDE,supported (synthetic)
+C13,04,DBC has not been trained on any data.,P-DBC-FACTORIAL,planned
+C14,06,The exact contextual boundary-event probability matches full enumeration (255 cut sets; 128 cut sets on a frozen NHPYLM table).,N1-ENUM-255;N1-NHP-128,numerically verified
+C15,06,The local A1 approximation differs from the exact probability for several cuts.,N1-A1-MULTICUT,numerically verified
+C16,06,Certified re-ranking requires an explicit bound for the next unexamined analysis.,N1-KBEST,numerically verified; corrected
+C17,07,No model has been trained on Byzantine data; no Byzantine performance is reported.,P-BYZ-INITIAL,planned

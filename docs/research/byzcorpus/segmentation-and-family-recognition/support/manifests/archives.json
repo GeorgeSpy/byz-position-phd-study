@@ -1,0 +1,23 @@
+{
+ "description": "Private research archives from which the published results were taken. Identifiers are neutral; the archives themselves are not distributed. Checksums allow later verification.",
+ "archives": [
+  {
+   "id": "ARC-2026-11-12",
+   "date": "2026-11-12",
+   "sha256": "56099c64eabddb8ee3368a3409099223814041acaa98b6cbdafb601041fd78fb",
+   "content": "Series S1 (synthetic), S1-BI, centring check, Helsen exploratory series H1 (per-work counts with anonymised identifiers), code and 13 tests."
+  },
+  {
+   "id": "ARC-2026-11-13A",
+   "date": "2026-11-13",
+   "sha256": "4622539d6d02f98be67fee152f188e5a420080571bc0a0944bb31959a5069658",
+   "content": "Series S2 (18 synthetic trainings, 6 systems x 3 seeds) and independent recomputation of stored metrics."
+  },
+  {
+   "id": "ARC-2026-11-13B",
+   "date": "2026-11-13",
+   "sha256": "5fde101b20025d539e864255fa5a520d241c1ebdef2b1811c0f83de6bf24c945",
+   "content": "Numerical checks N1 (25 tests), frozen NHPYLM predictive table and interface check."
+  }
+ ]
+}

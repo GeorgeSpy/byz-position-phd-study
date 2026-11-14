@@ -149,3 +149,5 @@ Architectural precedents include Sarawagi and Cohen (2004); Kong, Dyer and Smith
 The model definitions, mathematical identities, and computational conditions specify the **proposed methodology**. Differences in empirical performance, generalisation to unseen families, and statistical power will be estimated using real data. Before the confirmatory phase, the following are finalised: D1 weighting, an operationally justified practically meaningful effect threshold, independent test groups, challenging passages, and statistical reliability criteria.
 
 M1-X retains A as its reference parameterisation, selection rule J, and the operational input to A2/M2.
+
+[Melodic Segmentation and Formula Family Recognition](byzcorpus/segmentation-and-family-recognition/README.md)

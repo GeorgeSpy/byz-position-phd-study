@@ -52,3 +52,7 @@ The **first planned empirical study** is a limited [independent expert-boundary 
 - [M2/EISE research design](../m2-eise-research-design.md)
 
 Technical documents will be translated incrementally as their content stabilises.
+
+## Melodic segmentation and formula family recognition
+
+The [research section](segmentation-and-family-recognition/README.md) documents complete-formula versus subsegment-composition architectures, multiscale boundary information, family-sensitive terms, synthetic tests, comparative Gregorian experiments, and the Byzantine evaluation protocol.
