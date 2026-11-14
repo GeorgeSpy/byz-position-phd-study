@@ -13,7 +13,7 @@ Each decision refers to experiment identifiers in the [experiment register](../.
 | D-PA-05 | The family term (RM, DBC) is a second stage, controlled by $`R^{\mathrm{id}}`$ / $`\bar R`$, duration weighting, a direct family head and capacity-matched F. | S2-RM, N1-CORE-25 | Planned for real-data evaluation |
 | D-PA-06 | Helsen results are exploratory; the known pipeline problems are fixed before new training. | H1-* | In force |
 | D-PA-07 | All executed results are published, positive, negative and withdrawn. DBC and the Byzantine application remain planned until run. | All | In force |
-| D-PA-08 | Centring $`\log Z_0`$ does not improve performance; the reported +0.027 came from an unpaired comparison. | S1-CENTER-04 | Correction |
+| D-PA-08 | Linear duration centring of $`\log Z_0(s)`$ leaves the distribution over complete analyses invariant; paired runs confirm this property. | S1-CENTER-04 | Correction |
 | D-PA-09 | Certified re-ranking requires an explicit bound for the next unexamined analysis. | N1-KBEST | Correction |
 
 ## Negative and uncertain results
