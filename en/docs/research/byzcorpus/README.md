@@ -1,58 +1,81 @@
-# ByzCorpus — Byzantine chant symbolic corpus and research toolkit
+# ByzCorpus — Symbolic Corpus of Byzantine Chant and Research Toolkit
 
 <!-- language-switch:start -->
 **Language / Γλώσσα:** [Ελληνικά](../../../../docs/research/byzcorpus/README.md) · **English**
 <!-- language-switch:end -->
 
-[Home](../../../README.md) · [Core research summary](../../start/research-summary.md) · [Preliminary inventory](../corpus/README.md) · [Data model (Greek)](../../../../docs/research/byzcorpus/data-model.md) · **[Expert-boundary pilot (English)](expert-boundary-pilot.md)** · [NHPYLM follow-up (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md) · [Comparative pilot study](gregorian-nhpylm-helsen-pilot.md) · [Roadmap (Greek)](../../../../docs/research/byzcorpus/roadmap.md)
+[Home](../../../README.md) · [Core research summary](../../start/research-summary.md) · [Preliminary inventory](../corpus/README.md) · [Data model (Greek)](../../../../docs/research/byzcorpus/data-model.md) · **[Expert-boundary pilot (English)](expert-boundary-pilot.md)** · [NHPYLM follow-up (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md) · [Comparative pilot study](gregorian-nhpylm-helsen-pilot.md) · [Roadmap (Greek)](../../../../docs/research/byzcorpus/roadmap.md) · [Melodic segmentation and formula-family recognition](segmentation-and-family-recognition/README.md)
 
-> **Status: independent research initiative in design and feasibility assessment · 7 November 2026.** ByzCorpus develops a symbolic Byzantine chant corpus, Python research tooling and exploratory segmentation studies. The current release documents the research questions, specifications, evaluation plans and roadmap. Dataset and software releases follow source verification, validation and rights review.
+> **Status: independent research direction under development and feasibility assessment · 7 November 2026.** **ByzCorpus** organises the design of symbolic data, Python research tooling and melodic segmentation experiments. The current release comprises specifications, protocols and a roadmap. Datasets and software will be released incrementally following quality and rights reviews.
 
-## Purpose
+## 1. Purpose
 
-**ByzCorpus** is a proposed reproducible infrastructure for symbolic Byzantine chant data. It aims to link complete compositions and source witnesses with New Method notation, atomic melodic events, text and prosody, position annotations and explicitly documented historical relations. Data distribution will be determined by source-specific rights and permissions.
+**ByzCorpus** is designed as a controlled, reproducible infrastructure for symbolic Byzantine chant data. It links complete works, specific musical witnesses, neumatic notation, elementary melodic events, text, melodic-segment annotations and historically documented relationships. Access to and publication of each layer are governed by the rights of the respective sources.
 
-Two connected workstreams are being designed:
+The work is organised into two connected directions:
 
-1. **A versioned symbolic corpus and Python toolkit:** import (including Neanes where available), validation, provenance, notation–event correspondence, searchable metadata and MIR exports.
-2. **A Byzantine segmentability pilot:** application of unsupervised statistical segmentation, including the Nested Hierarchical Pitman–Yor Language Model (NHPYLM) studied by Lanz and Hajič (2025), to continuous Byzantine melodies. The key comparison is with independently justified musicological position boundaries and, where available, position-family identities.
+1. **Symbolic corpus and Python toolkit.** Import of works (prioritising *Neanes* files where available), conversion and provenance verification, searchable metadata and standardised exports for Symbolic Music Information Retrieval (Symbolic MIR).
+2. **Pilot study on melodic segmentation.** Application and evaluation of unsupervised segmentation methods—including the Nested Hierarchical Pitman–Yor Language Model (NHPYLM) as applied by Lanz and Hajič (2025)—on symbolic Byzantine melodies.
 
-ByzCorpus is scoped as a self-contained data-infrastructure and Symbolic MIR research initiative. Its outputs may support **PE0/PE1** and **M1** of the PhD proposal. The segmentation pilot has distinct questions, datasets and metrics; the M1 rule J, A2 and M2/EISE retain their established protocols.
+**ByzCorpus** constitutes a self-contained research direction for data infrastructure and Symbolic MIR. The infrastructure may support work packages **PE0/PE1 and study M1** of the research proposal, while the comparative study of segmentation across chant traditions maintains independent research questions and metrics. Study M1, the representation selection rule (J), study A2 and M2/EISE retain their established protocols.
 
-## Current evidence and dependencies
+## 2. Current state and remaining work
 
-The [comparative pilot study](gregorian-nhpylm-helsen-pilot.md) reports completed Gregorian NHPYLM–Helsen experiments and sets out the planned Byzantine evaluation. The Byzantine symbolic corpus and expert-boundary protocol remain in development.
+**Available documentation:** the [preliminary inventory](../corpus/README.md) based on Gheorghiță (2009) records metadata for 42 Sunday Koinonika, 11 formations and 338 inventory entries across 68 tables. Of these entries, 35 have been visually verified while 303 carry the `OCR_DRAFT` flag. The inventory locates candidate passages and sources; it does not constitute a corpus of continuous symbolic melodies.
 
-The [preliminary inventory](../corpus/README.md) based on Gheorghiță (2009) contains metadata on 42 Sunday Koinonika, 11 melodic formations and 338 rows from 68 tables. Of these rows, 35 have undergone visual verification while 303 retain an `OCR_DRAFT` flag. They locate candidate passages, rather than providing continuous symbolic scores.
+The *Papadic Formulae* catalogue of St Anthony's Monastery serves as a source for locating candidate occurrences and formula families drawn from 758 compositions, as described in the [active research summary](../../start/research-summary.md). The catalogued types require cross-checking against complete works and independent musicological annotation.
 
-The St Anthony's *Papadic Formulae* catalogue, drawing on 758 compositions in the current proposal, supports the discovery of candidate occurrences and families. Full works and validated musicological annotations still need to be acquired, encoded and independently reviewed.
+**Required tasks:** rights clearance, selection of initial complete works, digital encoding, certification of symbolic conversion, documentation of source relationships, independent annotation and a reproducible experimental pipeline. No specific count of completed Byzantine symbolic encodings or executed NHPYLM training runs on Byzantine material is claimed at present. The [comparative pilot study](gregorian-nhpylm-helsen-pilot.md) reports a completed Gregorian experiment alongside the design of the Byzantine application.
 
-## Proposed data structure
+## 3. Ontology and scope of use
 
-The model distinguishes **work, source witness, transcription, written symbol, atomic melodic event, text alignment, segment occurrence, family specification and historical relation**. Each element requires stable IDs, verification status and provenance. Data licences, executable code licences and permissions for transcriptions are assessed separately.
+The infrastructure mandatorily distinguishes **work**, **witness/source**, **digital transcription (score)**, **written symbol**, **elementary melodic event**, **segment occurrence**, **formula family (*thesis* family)**, **musicological specification** and **historical relationship**. Relationship types carry distinct source documentation and verification status.
 
-The main initial tasks are: a source-and-rights inventory; a small set of complete, legally usable scores; validation of symbol-to-event mapping; a first data schema; and reproducible segmentation baselines with independent musical review.
+A *thesis* as a musicologically recognisable unit is distinguished from a model's statistical segment; their relationship is **the object of empirical testing**. See [Position and family (Greek)](../../../../docs/current/position-and-family.md) and the [data model (Greek)](../../../../docs/research/byzcorpus/data-model.md).
 
-## Research relevance
+## 4. Structure of the research infrastructure
 
-The study draws on **Mavromatis (2005)**, the text and modal leakage controls examined by **Lanz & Hajič (2023)**, and the NHPYLM segmentation approach studied by **Lanz & Hajič (2025)**. In Mavromatis (2005), *chunks* are analytically identified within alternative melodic realisations generated by an HMM for a fixed textual phrase; their organisation is described in terms of decision points. By contrast, the proposed NHPYLM study induces melodic segments statistically from attested symbolic compositions. Their relationship to complete musicologically recognised Byzantine formulae is an empirical question, including whether short induced segments form internal components of longer formulae in melismatic chant. Mavromatis presents his musical examples in Western transcription (§2.1, n. 5, printed p. 19 / PDF p. 30); the HMM input is a sequence of note events carrying syllable stress, duration, diatonic interval, diatonic degree and a chromatic number in sixths of a whole tone (Appendix A, pp. 101–102; Table C.1, p. 161). Neume identity, qualitative signs, martyriai, phthorai and neume groups are not fields of the computational symbol. The proposed ByzCorpus schema will preserve these layers with source provenance and verified neume-to-event alignment so that their effect can be tested using controlled projections on the same event axis.
+- **ByzCorpus:** versioned releases of eligible symbolic data, persistent identifiers, metadata and documented annotations.
+- **Python toolkit (name to be finalised):** *Neanes* validator/converter, import/export routines, search functionality and quality-control utilities.
+- **Byzantine melodic segmentation pilot:** reproducible baseline methods (n-grams, syllabic boundaries) and NHPYLM models, evaluated against musicological criteria adapted to the Byzantine tradition.
+- **Potential interoperability:** evaluation of relevant principles from CantusCorpus/PyCantus and symbolic processing workflows, while fully preserving the distinctive characteristics of Byzantine notation.
 
-## First feasibility study — independent expert agreement
+ByzCorpus is initially developed **within the proposal repository as documentation**. A standalone code or data repository will be considered once executable, validated material and an agreed publication policy are in place.
 
-The **first planned empirical study** is a limited [independent expert-boundary agreement pilot](expert-boundary-pilot.md). In a self-contained Byzantine Phase B, two specialists would mark internal boundaries at a shared operational scale; a Gregorian Phase G would be designed separately with its own specialists. Validated gap coverage, abstentions and selective-abstention diagnostics, missing submissions, a separately aligned text domain and the limits of between-tradition comparison are explicit parts of the revised design (7 November 2026). NHPYLM follows as a computational comparison once suitable references are available. All thresholds and sample sizes remain provisional until source assessment, calibration and protocol finalisation.
+## 5. Research questions
 
-## Working documents
+**RQ-C1 — Representation:** What minimal data schema permits bidirectional linking between melodic events, written symbols, text and source witness without losing critical information of Byzantine notation?
 
-- [Proposed data model and provenance rules (Greek)](../../../../docs/research/byzcorpus/data-model.md)
-- [Proposed Byzantine NHPYLM / segmentability pilot (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md)
-- [Comparative pilot: Gregorian results and Byzantine study design](gregorian-nhpylm-helsen-pilot.md)
-- [Roadmap, gates and decision log (Greek)](../../../../docs/research/byzcorpus/roadmap.md)
-- [Current M1 representation decision](../m1-selection-decision.md)
-- [A2 knowledge design](../a2-knowledge-design.md)
-- [M2/EISE research design](../m2-eise-research-design.md)
+**RQ-C2 — Segmentability:** What segments do statistical models induce on complete Byzantine melodies, and how do these relate to musicologically accepted *thesis* boundaries?
 
-Technical documents will be translated incrementally as their content stabilises.
+**RQ-C3 — Unit scale:** Do induced short subsequences form structural constituents of larger *theseis*, particularly in extensive melismatic works?
 
-## Melodic segmentation and formula family recognition
+**RQ-C4 — Contextual information:** How does segmentation change when textual, modal (*echos*) and graphic-grouping cues are present versus absent, under appropriate controls for information leakage?
 
-The [research section](segmentation-and-family-recognition/README.md) documents complete-formula versus subsegment-composition architectures, multiscale boundary information, family-sensitive terms, synthetic tests, comparative Gregorian experiments, and the Byzantine evaluation protocol.
+Answering these questions requires sufficient symbolic data and independent musicological evaluation. These modules are not presented as newly approved branches of the dissertation.
+
+## 6. Scientific precedents and exploratory scope
+
+The dissertation of Mavromatis (2005), the published studies of Lanz and Hajič on Gregorian segmentation (DLfM 2023; ISMIR 2025), and the CantusCorpus/PyCantus infrastructure (2026) provide bibliographic and technical precedents. In Mavromatis (2005), *chunks* are analytically identified within alternative melodic realisations generated by an HMM for a fixed textual phrase, and their organisation is described in terms of decision points; musical examples are presented in staff transcription (§2.1, n. 5, printed p. 19 / PDF p. 30), while the HMM input is a sequence of note events carrying syllable stress, duration, diatonic interval, diatonic degree and a chromatic number in sixths of a whole tone (Appendix A, pp. 101–102 / PDF pp. 112–113; Table C.1, p. 161 / PDF p. 172). Neume identity, qualitative signs, *martyriai*, *phthorai* and neume groupings are not fields of the computational symbol. The proposed ByzCorpus schema preserves these layers linked to the source and accompanied by verified neume-to-event alignment, allowing their effect to be tested empirically via controlled projections onto the same event axis. ByzCorpus independently investigates how statistically induced segments relate to musicologically recognisable units in Byzantine chant.
+
+Two central open questions are: (a) *how statistically induced melodic segments relate to the structural units of each chant tradition*, and (b) *which elements of a Byzantine symbolic schema can interoperate with established digital-musicology tools*. Source selection, schema finalisation and independent evaluation constitute the next stages.
+
+## 7. Navigation and next steps
+
+**Recent design decision (6 November 2026).** Following an independent technical review, the first comparative study is organised as a [feasibility pilot of independent expert boundary annotation](expert-boundary-pilot.md), incorporating explicit per-specialist coverage masks, recorded abstentions, agreement measured within jointly examined regions and textual controls. **Revision of 7 November 2026:** the Byzantine Phase B is self-contained, while the Gregorian Phase G is designed separately. Mandatory selective-abstention diagnostics and a separate textual field `E′` are added. The exploratory [NHPYLM pilot study (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md) remains the next computational stage.
+
+- [Data model, provenance and rights (Greek)](../../../../docs/research/byzcorpus/data-model.md)
+- [First exploratory study of expert agreement](expert-boundary-pilot.md)
+- [Segmentation research plan and NHPYLM (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md)
+- [Comparative pilot study: Gregorian and Byzantine chant](gregorian-nhpylm-helsen-pilot.md)
+- [Roadmap, readiness criteria and open decisions (Greek)](../../../../docs/research/byzcorpus/roadmap.md)
+- [Inventory of available historical metadata](../corpus/README.md)
+- [M1 — rule J and evaluation](../m1-selection-decision.md)
+- [A2 — musicological knowledge](../a2-knowledge-design.md)
+- [M2/EISE — historical supervision](../m2-eise-research-design.md)
+
+**Maintenance principle:** every new data entry is accompanied by a verification status, source identifier, usage licence and conversion version. Every new design decision is logged in the [roadmap (Greek)](../../../../docs/research/byzcorpus/roadmap.md), distinctly from the core research proposal. Any remaining Greek-only technical documents will be translated incrementally as their content stabilises.
+
+## Melodic segmentation and formula-family recognition
+
+The [research section](segmentation-and-family-recognition/README.md) documents comparisons between complete-*thesis* and subsegment-composition models, the use of multiscale boundary information, family-specific terms and the experimental protocol for Byzantine works. Synthetic and comparative Gregorian results are reported with explicit indication of their evidential status.
