@@ -38,7 +38,8 @@
     "a2_revised": "docs/research/a2-knowledge-design.md",
     "a2_protocol": "docs/appendices/k.md",
     "corpus_inventory": "docs/research/corpus/README.md",
-    "corpus_inventory_en": "en/docs/research/corpus/README.md"
+    "corpus_inventory_en": "en/docs/research/corpus/README.md",
+    "byzcorpus_segmentation_and_family_recognition": "docs/research/byzcorpus/segmentation-and-family-recognition/README.md"
   },
   "routes": [
     {
@@ -76,6 +77,7 @@
         "docs/research/symbolic-mir.md",
         "docs/research/machine-learning.md",
         "docs/research/m1-selection-decision.md",
+        "docs/research/byzcorpus/segmentation-and-family-recognition/README.md",
         "docs/research/a2-knowledge-design.md",
         "docs/research/m2-eise-research-design.md",
         "docs/full/05-m1.md",

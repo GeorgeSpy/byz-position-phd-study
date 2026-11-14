@@ -4,7 +4,7 @@
 **Γλώσσα / Language:** **Ελληνικά** · [English](../../en/docs/research/m1-x-design.md)
 <!-- language-switch:end -->
 
-[Ερευνητικός πυρήνας](../../README.md) · [Μ1 και κανόνας J](m1-selection-decision.md) · [Κεφάλαιο 5](../full/05-m1.md#r038x) · [Παράρτημα G](../appendices/g.md#r186x)
+[Ερευνητικός πυρήνας](../../README.md) · [Μ1 και κανόνας J](m1-selection-decision.md) · [Μελωδική τμηματοποίηση και αναγνώριση οικογενειών θέσεων](byzcorpus/segmentation-and-family-recognition/README.md) · [Κεφάλαιο 5](../full/05-m1.md#r038x) · [Παράρτημα G](../appendices/g.md#r186x)
 
 ## 1. Ερευνητικό αντικείμενο και θέση στη μελέτη
 
