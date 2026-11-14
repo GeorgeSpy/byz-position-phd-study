@@ -6,7 +6,7 @@
 
 [Home](../../../../README.md) · [Core research summary](../../../start/research-summary.md) · [M1 and rule J](../../m1-selection-decision.md) · [M1-X](../../m1-x-design.md) · [M2/EISE](../../m2-eise-research-design.md) · [ByzCorpus](../README.md)
 
-> **Status (13 November 2026).** An experimental record in progress: synthetic trainings, exploratory runs on Gregorian responsories and numerical checks. The initial training and evaluation on annotated Byzantine works is the next planned phase alongside the development of ByzCorpus. This page summarises the Greek record, which contains the full tables.
+> **Status (13 November 2026).** A research section in development: synthetic trainings, exploratory runs on Gregorian responsories and numerical checks. The initial training and evaluation on annotated Byzantine works is the next planned phase alongside the development of ByzCorpus. This page summarises the Greek record, which contains the full tables.
 
 ## Questions
 
@@ -20,7 +20,7 @@ The primary application is the papadic Cheroubika and Koinonika in New Method no
 
 ## Models
 
-All models are zero-order semi-Markov CRFs over labelled spans with exact inference; they differ only in the span score.
+F and the locally factorised compositional models use zero-order semi-Markov CRFs with exact dynamic programming for their local scores. LASM adds a global boundary-event term: with a zero-order base this factorises by span, whereas a context-dependent NHPYLM base requires history-aware inference or certified search. DBC is currently a mathematical specification.
 
 - **F** scores the whole span together with its family. It shares the broad semi-Markov probabilistic class of M1 architecture A, while A retains its specified family-compatibility structure and the representation-selection rule J.
 - **C_comp** builds each formula from latent typed sub-segments drawn from a shared inventory and keeps the parent family throughout. It is distinct from **C_fac** in M1-X, a factorised boundary-and-family model without latent sub-segments.
@@ -37,7 +37,7 @@ All models are zero-order semi-Markov CRFs over labelled spans with exact infere
 | Family term RM | Not distinguishable from F or from capacity-matched F | Synthetic |
 | Gregorian feasibility | With about 60 training responsories per fold, F with text reaches exact-unit F1 0.684 against 0.173 for a cadence rule; family accuracy on reference units only 0.448 | Gregorian exploratory |
 
-The Gregorian runs are exploratory: the fixed-length training protocol was adopted after a first batch had been inspected, and that batch, which showed an artefactual gain, is withdrawn but kept for transparency. A centring variant reported earlier as +0.027 is an unpaired comparison; centring leaves the model unchanged.
+The Gregorian runs are exploratory: the fixed-length training protocol was adopted after a first batch had been inspected, and that batch, which showed an artefactual gain, is withdrawn but kept for transparency. Linear duration centring leaves the probability distribution over complete segmentations unchanged; the paired runs confirm this invariance.
 
 ## Relation to the core programme
 
