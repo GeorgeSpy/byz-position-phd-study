@@ -6,7 +6,7 @@
 
 [Home](../../../README.md) · [Core research summary](../../start/research-summary.md) · [Preliminary inventory](../corpus/README.md) · [Data model (Greek)](../../../../docs/research/byzcorpus/data-model.md) · **[Expert-boundary pilot (English)](expert-boundary-pilot.md)** · [NHPYLM follow-up (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md) · [Comparative pilot study](gregorian-nhpylm-helsen-pilot.md) · [Roadmap (Greek)](../../../../docs/research/byzcorpus/roadmap.md) · [Melodic segmentation and formula-family recognition](segmentation-and-family-recognition/README.md)
 
-> **Status: independent research direction under development and feasibility assessment · 7 November 2026.** **ByzCorpus** organises the design of symbolic data, Python research tooling and melodic segmentation experiments. The current release comprises specifications, protocols and a roadmap. Datasets and software will be released incrementally following quality and rights reviews.
+> **Status: Research direction under development and feasibility assessment · 7 November 2026.** **ByzCorpus** organises the design of symbolic data, Python research tooling and melodic segmentation experiments. The current release comprises specifications, protocols and a roadmap. Datasets and software will be released incrementally following quality and rights reviews.
 
 ## 1. Purpose
 
