@@ -1,0 +1,14 @@
+observation_id,source_document,printed_page,pdf_page,topic,source_based_summary,relation_type,verification
+K03-O01,Karagkounis_2003,651,649,Θεμελιώδεις θέσεις,Η μεταφορά στη Νέα Μέθοδο διατηρεί αναγνωρίσιμες τις μελωδικές θέσεις στις εξηγήσεις.,historical_notational_relation,SOURCE_TEXT_LOCATED
+K03-O02,Karagkounis_2003,652,650,Μεταβολή θέσεων,"Προσθήκη νέων θέσεων, σπανιότερες παλαιές, καλλωπισμοί, απλοποιήσεις και περικοπές.",variation_mechanisms,SOURCE_TEXT_LOCATED
+K03-O03,Karagkounis_2003,651,649,Μεταβολή συνδυασμών,"Υποχωρεί η χρήση εκτενών επαναλαμβανόμενων αλληλουχιών, ενώ εμπλουτίζεται η παλέτα θέσεων.",composition_strategy,SOURCE_TEXT_LOCATED
+K03-O04,Karagkounis_2003,651,649,Μορφή δύο μερών,"Η δομή του ύμνου διατηρεί δύο μέρη, με διαφοροποιημένες αναλογίες ανάπτυξης.",work_form,SOURCE_TEXT_LOCATED
+K03-O05,Karagkounis_2003,696,694,Καλλωπισμός,"Προσθήκη, αφαίρεση ή αναδιάρθρωση θέσεων εξυπηρετεί τον καλλωπισμό του μέλους.",change_relation,SOURCE_TEXT_LOCATED
+K03-O06,Karagkounis_2003,697,695,Σύντμηση,Συστηματική συντόμευση συνολικής μελοποίησης με περικοπή θέσεων.,change_relation,SOURCE_TEXT_LOCATED
+K03-O07,Karagkounis_2003,788,786,Μετροφωνική ισοδυναμία,Διαφορετικές μεγάλες υποστάσεις διακρίνουν θέσεις παρά συγγενή μετροφωνία.,identity_diagnostic,SOURCE_TEXT_LOCATED
+K03-O08,Karagkounis_2003,810,808,Ιστορική αντιστοιχία θέσεων,Παλαιά και Νέα Μέθοδος αντιπαραβάλλονται με συγκεκριμένες θέσεις Ιωάννου Κλαδά και Μανουήλ Αγαλλιανού.,historical_notational_relation,SOURCE_TEXT_LOCATED
+K03-O09,Karagkounis_2003,811,809,Πολλαπλές εμφανίσεις Παρακλητικής,Εξηγήσεις της Παρακλητικής σε Χερουβικά διαφορετικών μελοποιών με παραπομπές σε συγκεκριμένους κώδικες.,family_candidate,SOURCE_TEXT_LOCATED
+K05-O10,Karagkounis_2005,157,159,Αλυσιδωτή επανάληψη,Η επανάληψη αλληλουχίας στο Χερουβικό ψευδο-Δαμασκηνού ανέχεται τοπικές παραλείψεις/παρεμβολές.,chain_variation,SOURCE_TEXT_LOCATED
+K05-O11,Karagkounis_2005,174,176,Πολυαιώνια μετάδοση,Το Χερουβικό του Αγαλλιανού παραδίδεται από τον 14ο έως τον 19ο αιώνα με εξηγήσεις Χουρμουζίου και Γρηγορίου.,historical_continuity,SOURCE_TEXT_LOCATED
+K05-O12,Karagkounis_2005,176,178,Δώδεκα επαναλήψεις ζεύγους,Λύγισμα και Κύλισμα συνδυάζονται δώδεκα φορές σε διαφορετικά συμφραζόμενα.,chain_reuse,SOURCE_TEXT_LOCATED
+K05-O13,Karagkounis_2005,159,161,Μουσικό και κειμενικό όριο,Καταλήξεις και κειμενικές φράσεις συσχετίζονται με τροπικές λειτουργίες.,boundary_and_text,SOURCE_TEXT_LOCATED

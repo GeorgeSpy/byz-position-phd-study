@@ -1,0 +1,26 @@
+{
+  "status": "PRELIMINARY_CATALOG_METADATA",
+  "source_2003": "Konstantinos Ch. Karagkounis (2003), Η παράδοση και εξήγηση του μέλους των Χερουβικών της βυζαντινής και μεταβυζαντινής μελοποιίας",
+  "source_2005": "Konstantinos Ch. Karagkounis (2005), Παραλειπόμενα περί του Χερουβικού Ύμνου",
+  "catalog_2003": 933,
+  "catalog_period_VII": 243,
+  "other_hymns_2005": {
+    "THU": 23,
+    "SAT": 22,
+    "PRE": 73
+  },
+  "named_position_references": 206,
+  "distinct_works_referenced": 161,
+  "ref_min": 5,
+  "ref_max": 680,
+  "reference_groups": {
+    "K03-F01": 88,
+    "K03-F02": 34,
+    "K03-F03": 8,
+    "K03-F04": 10,
+    "K03-F07": 66
+  },
+  "st_anthony_comparison": "source-level scope compatible; per-work matching not yet performed",
+  "manuscript_rights": "no page images, full book PDFs or extended verbatim research passages redistributed",
+  "generation_date": "2026-11-15"
+}

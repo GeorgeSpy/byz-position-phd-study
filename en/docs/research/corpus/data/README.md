@@ -8,6 +8,8 @@
 
 ## Data policy
 
+The [Karagkounis (2003, 2005) Cherubic hymn inventory](../karagkounis-2003-2005.md) is a separate source-linked dataset. Its source-record CSVs reside in the Greek dataset directory; the linked English documentation explains their columns and validation status. The four English views described below remain exclusive to Gheorghiță (2009).
+
 These are **English-readable views of the four original CSV datasets**. Every row and original column is copied without modification, in the same order; English descriptive columns are appended. This is a metadata extraction, not a transcription of Byzantine neumes or an independently verified musicological reference set.
 
 | File | Original rows | Added English columns |

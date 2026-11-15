@@ -1,0 +1,7 @@
+crosswalk_id,karagkounis_formula_id,karagkounis_position_label,gheorghita2009_formula_no,gheorghita2009_label,correspondence_status,comment
+KG-X01,K03-F01,Παρακλητική,3,Παρακλητική,TERMINOLOGICAL_CANDIDATE_ONLY,"Ονομαστική συμφωνία· απαιτείται έλεγχος σημειογραφίας, ήχου και μουσικής λειτουργίας."
+KG-X02,K03-F02,Έτερον παρακάλεσμα,2,Παρακάλεσμα,TERMINOLOGICAL_CANDIDATE_ONLY,Συγγενής ονομασία· το επίθετο έτερον μπορεί να δηλώνει διαφορετική συγκεκριμένη θέση.
+KG-X03,K03-F03,Αντικενωκύλισμα,1,Κύλισμα,TERMINOLOGICAL_CANDIDATE_ONLY,Μερική ονομαστική συνάφεια. Να εξεταστεί η σχέση μεταξύ σημαδιών.
+KG-X04,K03-F05,Τρομικόν,11,Τρομικόν / ψήφιστον παρακάλεσμα,TERMINOLOGICAL_CANDIDATE_ONLY,Μερική ονομαστική συνάφεια· διαφορετικά είδη και σημασιολογικά συμφραζόμενα.
+KG-X05,K03-F06,Λύγισμα,,,NO_DIRECT_LABEL_MATCH,Καμία άμεση ισοδύναμη ετικέτα στα 11 καταγεγραμμένα σχήματα.
+KG-X06,K05-F08,Λύγισμα + Κύλισμα,1,Κύλισμα,TERMINOLOGICAL_CANDIDATE_ONLY,Το Κύλισμα αποτελεί ένα από τα δύο στοιχεία του ιστορικά τεκμηριωμένου ζεύγους.

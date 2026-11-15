@@ -1,4 +1,4 @@
-# Preliminary inventory of the Byzantine chant research corpus
+# Preliminary source inventories for Byzantine chant research
 
 <!-- language-switch:start -->
 **Language / Γλώσσα:** [Ελληνικά](../../../../docs/research/corpus/README.md) · **English**
@@ -6,13 +6,22 @@
 
 [Home](../../../README.md) · [Core research summary](../../start/research-summary.md) · [Research corpus: data dictionary](data/README.md) · [M1 methodology](../m1-selection-decision.md) · [M2/EISE research design](../m2-eise-research-design.md)
 
-**4 November 2026 · Status: preliminary inventory based on published evidence; not a verified, model-ready corpus.**
+**15 November 2026 · Status: preliminary source-linked metadata inventories; symbolic encodings and expert annotations remain to be completed.**
+
+## Available source inventories
+
+- **Gheorghiță (2009):** 42 Sunday Communion chants, 11 formulaic formations and 338 rows from comparative tables. The full inventory follows on this page.
+- **Karagkounis (2003, 2005):** [Cherubic hymn and formula inventory](karagkounis-2003-2005.md), including 933 numbered Cherubic hymn records, the 243 period-VII records for new compositions from 1814 to the late nineteenth century, 206 named-position catalogue references and 118 entries in separate supplementary liturgical hymn catalogues.
+
+Both datasets retain independent source identifiers and verification markers. The [Papadic Formulae collection of St. Anthony's Monastery](https://stanthonysmonastery.org/pages/papadic-formulae) supplies complementary repertory context; a verified work-level match to Karagkounis remains to be established.
+
+---
 
 This inventory surveys material for a symbolic research corpus using Nicolae Gheorghiță's study of the Sunday Communion chant (*koinonikon*) (2009, Part VII). It records metadata from the published comparative tables: mode, formula type, composer, exegete and printed page. The inventory contains **neither images nor symbolic transcriptions of the notation**. Reported counts are preliminary; manuscript readings, work identities, alignments and usage permissions require further verification.
 
 This English edition contains the **complete inventory** and English-readable companion CSV datasets. The underlying Greek datasets and row identifiers are preserved as the source of record. English columns are supplemental descriptions; they are not independent musical transcriptions.
 
-## 1. What the source covers
+## 1. Gheorghiță (2009): source coverage
 
 Gheorghiță examines **42 eighteenth-century Sunday koinonika, “Ainete ton Kyrion”**, comparatively in older notation and the New Method: eight by **Daniel Protopsaltes** (DP), 26 by **Petros Lampadarios the Peloponnesian** (PLP), and eight by **Petros Byzantios** (PB). The comparison draws on exegeses attributed to **Gregory Protopsaltes** (GP) and **Chourmouzios Chartophylax** (CC). Gheorghiță singles out **11 formulaic formations**, frequently designated by a characteristic great sign ([English-readable formula register](data/gheorghita2009_schemata.csv)).
 
