@@ -90,4 +90,4 @@ An interval is issued only when $\mathrm{SE}_J>\varepsilon_{\mathrm{num}}$, subj
 
 The additional **NHPYLM** comparison uses frozen, out-of-fold statistical cuts. It compares eligible cut and non-cut points while controlling for articulation, textual boundary and distance from the accepted end. Different right endpoints of a single occurrence necessarily have different exact lengths, so $B_L$ remains necessary; equal-exact-length matching can additionally be conducted **across occurrences**. NHPYLM cuts **do not determine eligibility** for the main S3 candidates.
 
-[Evidence and next steps](evidence-and-next-steps.md).
+[Evidence and next steps](evidence-and-next-steps.md) · [Executable reference checks](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/README.en.md).
