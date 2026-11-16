@@ -387,7 +387,9 @@ def evaluate(valid: Validated, *, l2_grid: tuple[float,...] = (.01,.1,1.0)) -> d
             rec=ann[oid];w=valid.base[(oid,rep)]
             d = {}
             for kind,v in rec.variants.items():
-                d[kind]={'B_L':endpoint_log_contrast(w,model,v)}
+                base_scores={c.key:c.base_score for c in w.candidates}
+                d[kind]={'B_L':endpoint_log_contrast(w,model,v),
+                         'BASE':_d(w,rec.accepted,v,base_scores)}
                 for label in cell_labels:
                     d[kind][label]=_d(w,rec.accepted,v,valid.cell_scores[(oid,rep,label)])
             holdout.append({'occurrence_id':oid,'group_id':rec.group_id,
@@ -400,11 +402,16 @@ def evaluate(valid: Validated, *, l2_grid: tuple[float,...] = (.01,.1,1.0)) -> d
                     [(row['group_id'],row['family_id'],row['contrasts'][kind][label]) for row in holdout],
                     family_catalogue) for label in cell_keys}
             avg_p=lambda cell: sum(macro[kind][f'{cell}:{pert}'] for pert in perturbations)/len(perturbations)
-            macro[kind]['delta_know']=.5*((macro[kind]['DV']-avg_p('DP'))
+            macro[kind]['delta_know_S3']=.5*((macro[kind]['DV']-avg_p('DP'))
                                               +(macro[kind]['FV']-avg_p('FP')))
-            macro[kind]['delta_logic_valid']=macro[kind]['DV']-macro[kind]['FV']
-            macro[kind]['delta_DV_vs_B_L']=macro[kind]['DV']-macro[kind]['B_L']
-        out[rep]={'base_checkpoint_id':valid.manifest['base_models'][rep]['checkpoint_id'],
+            macro[kind]['delta_logic_valid_S3']=macro[kind]['DV']-macro[kind]['FV']
+            macro[kind]['delta_DV_vs_B_L_S3']=macro[kind]['DV']-macro[kind]['B_L']
+            macro[kind]['delta_DV_vs_BASE_S3']=macro[kind]['DV']-macro[kind]['BASE']
+            macro[kind]['delta_DV_vs_perturbed_S3']=macro[kind]['DV']-avg_p('DP')
+        directional_fields=('delta_DV_vs_perturbed_S3','delta_DV_vs_BASE_S3','delta_DV_vs_B_L_S3')
+        two_sided_directional=all(macro[k][x]>0 for k in ('truncation','extension') for x in directional_fields)
+        out[rep]={'two_sided_directional_only':two_sided_directional,
+                  'base_checkpoint_id':valid.manifest['base_models'][rep]['checkpoint_id'],
                   'bl_selected_l2':model.l2,'bl_train_objective':model.train_objective,
                   'macro_by_fixed_family':macro,
                   'holdout_contrasts':holdout}
