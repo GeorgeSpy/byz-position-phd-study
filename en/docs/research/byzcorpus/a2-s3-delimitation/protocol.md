@@ -10,7 +10,7 @@
 
 ## 1. Unit and accepted reference sets
 
-Occurrence $i$ has a documented family $f_i$, preferred accepted start $a_i^\star$ and a full set $B_i$ of acceptable start–end pairs. Spans are indexed on atomic melodic events: $[a,b]$ includes events $a$ through $b$, with boundaries at gaps $a$ and $b+1$.
+Occurrence $i$ has a documented family $f_i$, preferred accepted start $a_i^\star$ and a full set $B_i$ of acceptable start–end pairs. Spans are indexed on atomic melodic events: $[a,b]$ includes events $a$ through $b$, with boundaries at gaps $a$ and $b+1$. The preferred start is documented from musicological judgements in WP0, before candidate scoring. When several accepted starts exist, a prespecified annotation rule selects the preferred start and records any divergent judgements. Occurrences without a documented preferred start are ineligible for this comparison.
 
 The right-endpoint analysis uses only accepted extents that share the preferred start:
 
@@ -31,6 +31,8 @@ If no appropriate agreed edge exists within the reviewed material, the occurrenc
 ## 3. Eligible variants
 
 Variants $v^-=[a_i^\star,b^-]$ and $v^+=[a_i^\star,b^+]$ denote truncation and extension. Both preserve the same start and family $f_i$. Candidate right endpoints are selected from a **prespecified notation-and-text articulation scale**: choose the strongest articulated gap in the relevant search region, breaking ties in favour of the nearest gap to the formula ending. Selection relies on annotations and observable articulation, separately from model predictions and statistical cuts.
+
+**Judgement coverage:** Every proposed right endpoint requires an explicit valid judgement by all experts designated for that gap in the annotation protocol. Missing judgements, abstentions or technical masks are recorded as reasons for ineligibility. This requirement also applies where all available reviewers have labelled a gap as continuation.
 
 **Truncation:** the right endpoint precedes the earliest accepted end with the same start; no accepted reading of the occurrence adopts it; every expert who reviewed the candidate gap marked continuation, with no technical mask or abstention.
 
