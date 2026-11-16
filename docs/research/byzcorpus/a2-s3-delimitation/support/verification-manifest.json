@@ -1,0 +1,56 @@
+{
+  "schema": "a2s3-reproducibility/1.0",
+  "record_date": "2026-11-16",
+  "reference_suite": {
+    "status": "executed_locally",
+    "python_version": "3.13.5",
+    "command": "python -m unittest -v test_a2s3_reference.py",
+    "test_methods": 25,
+    "passed": 25,
+    "randomized_log_union_cases": 120,
+    "max_absolute_log_difference": 5.5067062021407764e-14,
+    "source_sha256": "bec467fb5ec142c3a25bc66900e36eae3a7fe9c3c9886cbcd51517d817483cfb",
+    "tests_sha256": "1aed10223c7beb4fb9822c4ee2472aff7161d345b765557d725c0db98565802d",
+    "reference_scope": [
+      "complete span-and-skip paths",
+      "union probability versus independent enumeration",
+      "boundary and reviewer eligibility",
+      "exact-length per-family feature distinctness",
+      "fixed-family group-deletion jackknife",
+      "paired two-sided decision"
+    ],
+    "limitations": [
+      "numerical and annotation-invariant tests use synthetic inputs",
+      "model scoring and L2-regularised B_L training are separate",
+      "no replay of the earlier S3 archived runs"
+    ]
+  },
+  "previously_documented_evidence_pending_replay": [
+    {
+      "id": "variant_eligibility_18",
+      "recorded": "18 targeted eligibility checks",
+      "status": "original_artifacts_needed"
+    },
+    {
+      "id": "stored_variant_slots_17556",
+      "recorded": "17,556 stored variant slots",
+      "status": "original_artifacts_needed"
+    },
+    {
+      "id": "historical_recalculation_20",
+      "recorded": "20 stored result files",
+      "status": "original_artifacts_needed"
+    },
+    {
+      "id": "decision_comparisons_488",
+      "recorded": "488 decision comparisons",
+      "status": "original_artifacts_needed"
+    },
+    {
+      "id": "historical_log_dp_error",
+      "recorded": "maximum error approximately 5.3e-15",
+      "status": "original_artifacts_needed"
+    }
+  ],
+  "data_sources": "Synthetic fixtures only. No Byzantine recordings, manuscript images, or original annotation data are included."
+}
