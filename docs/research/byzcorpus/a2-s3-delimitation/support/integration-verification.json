@@ -1,0 +1,56 @@
+{
+  "schema": "a2s3-integration-verification/v1",
+  "recorded_on": "2026-11-16",
+  "export_contract": "a2s3-ingestion/v1",
+  "code_status": "verified_synthetic_smoke_tests",
+  "execution": {
+    "python": "3.13.5",
+    "command": "python -m unittest -q test_a2s3_ingest.py test_a2s3_reference.py test_bl_train.py",
+    "new_integration_tests": 24,
+    "combined_tests": 66,
+    "combined_passed": 66,
+    "synthetic_small": {
+      "replications": 1,
+      "perturbations_per_replication": 1,
+      "eligible_occurrences": 8,
+      "condition_records": 32,
+      "base_records": 8
+    },
+    "synthetic_full_format": {
+      "replications": 5,
+      "perturbations_per_replication": 10,
+      "eligible_occurrences": 8,
+      "condition_records": 880,
+      "base_records": 40,
+      "model_conditions_per_replication": 22
+    },
+    "result_interpretation": "Smoke tests establish schema validation and numerical execution only. The generated cells contain synthetic scores and cannot support a Byzantine performance claim."
+  },
+  "file_integrity": {
+    "a2s3_ingest.py": {
+      "sha256": "2ab269a7dddab15a53bf1ad97432d32a9e8ecd9685458e486de62893165f7eb7",
+      "git_blob": "d4303c78018a7b090fd3b0fa2b8e92aa3f48f090"
+    },
+    "test_a2s3_ingest.py": {
+      "sha256": "0944b6932011262d17e5b5cc2a26de6639598ae1c86afeb2589ec6abab5c550b",
+      "git_blob": "66931abfdf0dcea5760e6baa84a3b645551b65d9"
+    },
+    "make_demo_export.py": {
+      "sha256": "7a990354df17b5bf74394b1e8a0e5aa040807b77d5fdf49575165021466bcc0a",
+      "git_blob": "e90b0e955d1de909f77f7f238e859581f091a2f8"
+    }
+  },
+  "original_a2_scores_ingested": false,
+  "source_checked_by_musicologists": false,
+  "source_rights_independently_verified": false,
+  "current_data": "synthetic reference fixtures; real ByzCorpus annotation/score exports not present in repository",
+  "historical_s3_archives_replayed": false,
+  "next_input_requirements": [
+    "source verified event-level work and witness records",
+    "documented accepted boundary pairs and preferred start",
+    "fixed complete family catalogue and independent leakage clusters",
+    "frozen per-replication base checkpoint identifiers with temperature-calibrated segment potentials",
+    "FV, DV and ten FP/DP perturbation exports for each of five replications",
+    "rights status, annotation guide version, input SHA-256"
+  ]
+}
