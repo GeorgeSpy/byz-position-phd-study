@@ -115,5 +115,34 @@ class BLTests(unittest.TestCase):
         self.assertEqual(len(g),len(self.spec.labels))
 
 
+    def test_text_and_articulation_coefficients_can_be_trained(self):
+        rows = []
+        for i in range(6):
+            c1 = Candidate(1, 3, 'A', 0., 1., 1.)
+            c2 = Candidate(1, 4, 'A', 0., -1., -1.)
+            rows.append(Window(f'item-{i}', f'g-{i}', 6, (0.,)*6,
+                               (c1, c2), frozenset({c1.key})))
+        spec = FeatureSpec(('A',), 5, 'none', True, True)
+        fit = fit_bl(rows, spec, .1, max_iter=140)
+        self.assertGreater(fit.theta[spec.labels.index('articulation')], 0.1)
+        self.assertGreater(fit.theta[spec.labels.index('text_boundary')], 0.1)
+
+    def test_frozen_base_scores_unchanged_after_training(self):
+        original = tuple((c.key,c.base_score) for c in self.train[0].candidates)
+        _ = fit_bl(self.train[:6], self.spec, 0.1, max_iter=55)
+        self.assertEqual(original, tuple((c.key,c.base_score) for c in self.train[0].candidates))
+
+    def test_multiple_accepted_alternatives_have_finite_probabilities(self):
+        w = self.train[0]
+        a = next(iter(w.accepted))
+        b = next(c.key for c in w.candidates if c.family == a[2] and c.key != a)
+        w2 = replace(w, accepted=frozenset({a,b}))
+        theta=[0.01] * len(self.spec.labels)
+        one = log_event_and_gradient(w, self.spec, theta)[0]
+        two = log_event_and_gradient(w2, self.spec, theta)[0]
+        self.assertGreater(two, one)
+        self.assertLessEqual(two, 0)
+
+
 if __name__ == '__main__':
     unittest.main()
