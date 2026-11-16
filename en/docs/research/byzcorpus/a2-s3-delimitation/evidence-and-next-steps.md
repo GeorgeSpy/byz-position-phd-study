@@ -55,4 +55,4 @@ This connects the study of smaller statistical units with the recognition of com
 
 ## Reproducibility and release policy
 
-This release contains **research documentation**. Code, stored results and tests are scheduled for a subsequent `support/` release after reviewing rights, input data, dependencies, reproduction commands and file integrity. The [core A2](../../a2-knowledge-design.md) documentation remains separate.
+The documentation now includes [executable synthetic reference checks](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/README.en.md) with an [evidence matching register](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/verification-manifest.json). The original programs, stored results and tests for the complete synthetic series remain a separate release stage, following verification of rights, inputs, dependencies, reproduction commands and file integrity. The [core A2](../../a2-knowledge-design.md) documentation remains separate.
