@@ -6,6 +6,8 @@
 
 **[Trained B_L comparator and controlled evaluation](bl-training.en.md)** · [Machine-readable results](bl_verification.json)
 
+**[Verified annotation and score ingestion](integration.en.md)** · [Validation and provenance record](integration-verification.json)
+
 ## Scope
 
 This directory contains two small Python files implementing **exact computational and annotation-invariant checks for A2–S3**:
@@ -38,4 +40,4 @@ The jackknife method requires an externally supplied Student critical value with
 
 The [A2–S3 evidence register](../evidence-and-next-steps.md) records 18 targeted checks, 17,556 stored variant slots, 20 historical result files, and 488 decision comparisons. **The original inputs, programs and complete result files for these runs are not yet part of this directory.** They are tracked separately in the [evidence matching register](verification-manifest.json) as pending independent replay.
 
-These executable tests establish the core numerical and eligibility invariants. The [synthetic L2-regularised $B_L$ training study](bl-training.en.md) is complete, with 17 dedicated tests. Replaying the historical synthetic series, incorporating frozen FV/FP/DV/DP scores from actual A2 experiments, and evaluating Byzantine chant remain distinct empirical and reproducibility stages.
+These executable tests establish the core numerical and eligibility invariants. The [synthetic L2-regularised $B_L$ training study](bl-training.en.md) is complete, with 17 dedicated tests. The [frozen-score ingestion interface](integration.en.md) has passed 24 additional tests on synthetic exports. Empirical evaluation requires the genuine reviewed annotations and trained FV/FP/DV/DP outputs; historical synthetic findings will be independently replayed from their original artifacts.
