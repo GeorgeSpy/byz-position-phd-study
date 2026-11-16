@@ -6,7 +6,7 @@
 
 [Back to the ECSI overview](README.md)
 
-**ECSI-D** is the proposed **dependent-signature model** (Work A2). The designation is distinct from **analysis A2 in Study M2**, which remains a separate part of the dissertation design.
+**ECSI-D** is the proposed probabilistic dependent-diagnostic architecture of the standalone ECSI research extension. **A2 in the core research programme** retains its independent V/P × F/D factorial design, as specified in the [A2 research protocol](../a2-knowledge-design.md).
 
 ## Components
 
