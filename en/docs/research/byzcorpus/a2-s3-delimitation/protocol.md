@@ -60,6 +60,8 @@ S3 uses the **existing** FV, FP, DV and DP model scores, with a common frozen ne
 
 $B_L$ is the **S3-specific reference model**, adding terms for **exact length per candidate family**, articulation and text boundaries, with prespecified **L2** regularisation. Its original base remains fixed, and the extra terms are fitted using eligible development data alone. $B_L$ does not use musicological R/A/E concepts. Exact length addresses one- and two-event endpoint movements that fall within the same coarse length bin.
 
+The [executable $B_L$ implementation](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/bl-training.en.md) trains family-specific exact-length, articulation and text-boundary coefficients with L2 regularisation and group-disjoint train/development/test partitions. The initial numerical study uses controlled synthetic cases and externally supplied frozen base scores.
+
 Family $f_i$ is **known only within this diagnostic comparison**. Recognition in complete unseen works must be evaluated separately without supplying the true family label to the decoder.
 
 ## 6. Paired aggregation and interpretation rule
