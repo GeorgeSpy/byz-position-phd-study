@@ -7,6 +7,7 @@
 | Ορισμό θέσης / οικογένειας / εμφάνισης | [Σύνοψη](start/overview.md) | [1.2](full/01-introduction.md#r006), [Οικογένειες](musicology/03-families.md) |
 | Την ιστορική θεμελίωση της εξήγησης | [Χάρτης πεδίου](research/performance-exegesis.md) | [Εξήγηση και πηγές](musicology/04-exegesis.md) |
 | Παλαιό σημείο, μεγάλη υπόσταση και μετροφωνία | [Σχηματικό παράδειγμα](examples/index.md#inverse-example) | [Κριτική των πηγών](musicology/06-old-notation.md) |
+| Τους κωδικούς μελετών, αρχιτεκτονικές και συμβολισμούς | **[Οδηγός μελετών και συμβολισμών](start/study-codes-and-notation.md)** | [Ορολογικός οδηγός](../TERMINOLOGY_GR.md) |
 | Το αντίστροφο πρόβλημα και την ιστορική ετικέτα H | [Σύνοψη](start/overview.md#η-ιστορική-διαδρομή-και-ο-τελεστής) | [ATL-INV και R0–R4](current/inverse-problem.md) |
 | Πληροφορία πέρα από κανόνες και δεύτερη εξήγηση | [Τρέχουσα διάκριση](current/index.md) | [Δrec, Δrule και Δ2ex](current/inverse-problem.md#τρεις-διαφορές-πρόβλεψης) |
 | Ιστορική μάθηση μετασχηματισμών | [Δύο διαδρομές](current/index.md) | [ATL και στοίχιση μεταβλητού μήκους](current/atl.md) |
