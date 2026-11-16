@@ -1,0 +1,59 @@
+{
+  "schema": "a2-s3-bl-synthetic/1.0",
+  "date": "2026-11-16",
+  "status": "executed_synthetic_reference",
+  "python_version": "3.13.5",
+  "command": "python -m unittest -v test_bl_train.py && python bl_train.py",
+  "unittest_methods": 14,
+  "passed": 14,
+  "seed": 20261116,
+  "split_groups": {
+    "dev": 3,
+    "test": 3,
+    "train": 9
+  },
+  "comparison": {
+    "coarse": {
+      "iterations": 129,
+      "mean_extension_log_contrast": 0.8951989808289247,
+      "mean_truncation_log_contrast": 0.8875905122724661,
+      "min_extension_log_contrast": -0.013513630952232347,
+      "min_truncation_log_contrast": -0.0323912366278698,
+      "selected_l2": 0.01,
+      "test_group_mean_log_probability": -2.257483009498267
+    },
+    "exact": {
+      "iterations": 128,
+      "mean_extension_log_contrast": 3.810410475806264,
+      "mean_truncation_log_contrast": 3.8026949506436876,
+      "min_extension_log_contrast": 3.7931130606495684,
+      "min_truncation_log_contrast": 3.770831114064092,
+      "selected_l2": 0.01,
+      "test_group_mean_log_probability": -1.1946295014589394
+    },
+    "no_length": {
+      "iterations": 0,
+      "mean_extension_log_contrast": 0.005346180002017192,
+      "mean_truncation_log_contrast": -0.0027280739124411943,
+      "min_extension_log_contrast": -0.013513630952233235,
+      "min_truncation_log_contrast": -0.03239123662787069,
+      "selected_l2": 1,
+      "test_group_mean_log_probability": -2.7729080464300058
+    }
+  },
+  "source_sha256": {
+    "bl_train.py": "3d922602a2f0967e85ca04ff5a035d5fde1428705cdeb9ae83134593a53914a9",
+    "test_bl_train.py": "19378a063434650dc524dc8f45c26a00058b7fb41316e2f484cb1de665ad9410"
+  },
+  "scope": [
+    "frozen per-candidate base scores",
+    "trained L2 family-by-exact-length semi-CRF head",
+    "optional articulation and textual boundary features",
+    "grouped train/development/test",
+    "finite-difference objective gradients",
+    "exact family-length versus coarse and no-length controls"
+  ],
+  "original_s3_archives_replayed": false,
+  "byzantine_data_used": false,
+  "important": "The synthetic generator encodes family-specific exact lengths by design. This establishes reproducible control behaviour, not an empirical musicological gain."
+}
