@@ -19,6 +19,7 @@ Architectural decisions bring together findings from synthetic series S1 and S2,
 | D-PA-05 | The family mechanism (RM, DBC) is evaluated in a subsequent stage, with $`R^{\mathrm{id}}`$ / $`\bar R`$, duration weighting, a direct family head and capacity-matched F controls. | S2-RM, N1-CORE-25 | Planned real-data evaluation |
 | D-PA-06 | Helsen results are exploratory; the identified protocol issues are addressed before new training. | H1-* | In force |
 | D-PA-07 | All executed outcomes are documented, including negative and withdrawn runs. DBC and the Byzantine application remain at the specified-design stage until executed. | All | In force |
+| D-A2S3-01 | A2–S3 is a separate ByzCorpus secondary readout with common start, full local-window coverage and exact-length B_L; core A2 retains its family AP and primary contrasts. | [S3 protocol](../a2-s3-delimitation/protocol.md); synthetic numerical tests | Specified; actual Byzantine evaluation pending |
 | D-PA-09 | Certified re-ranking requires an explicit upper bound for the next unexamined analysis. | N1-KBEST | In force |
 
 ## Negative and neutral findings
@@ -37,6 +38,7 @@ Applying the architectures to the **Byzantine corpus** is the primary research d
 | Code | Experiment | Prerequisite |
 |---|---|---|
 | P-BYZ-INITIAL | First training and evaluation on complete, annotated Byzantine works using F and joint formula–family recognition | First eligible ByzCorpus release; validated annotations |
+| P-BYZ-A2-S3 | WP0 screening of cards and variants, independent M3a validation, then paired delimitation readouts using fixed A2 scores | Sufficient families/groups, shared windows and development-only B_L; [protocol](../a2-s3-delimitation/protocol.md) |
 | P-BYZ-FC | F–C_comp with common family identity, matched capacity, annotation-learning curve and a separate C_fac reference | P-BYZ-INITIAL |
 | P-BYZ-LASM | F, length/count, multigram, exact global NHPYLM probability, shuffled base and marginal controls on identical data | P-BYZ-INITIAL; frozen fold-specific bases |
 | P-BYZ-DBC | Factorial evaluation of family contribution, duration and complete-span scoring with identical family supervision | Independently evaluable families and eligible historical examples |
