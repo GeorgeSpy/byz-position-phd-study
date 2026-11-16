@@ -4,6 +4,8 @@
 **Language / Γλώσσα:** [Ελληνικά](../TERMINOLOGY_GR.md) · **English**
 <!-- language-switch:end -->
 
+**[Study codes, research models and notation](docs/start/study-codes-and-notation.md)**.
+
 | Term | Definition |
 |---|---|
 | Neume | A graphic sign in musical notation. |
