@@ -23,9 +23,12 @@ The St Anthony's Monastery *Papadic Formulae* catalogue and the Gheorghiță (20
 | Complete formula versus composition | F versus C_comp with the same family identity and supervision | Label-learning curve and limited internal annotations |
 | Boundary information | F, F+length, +multigram, +NHPYLM with global $`Q_0`$, +shuffled base, +marginals | With and without text cues |
 | Family composition | RM; DBC with $`R^{\mathrm{id}}`$ / $`\bar R`$ and $`R^{\mathrm{lin}}`$ / $`R^{\mathrm{dur}}`$; direct family head; capacity-matched F | Subsequent stage |
+| [A2–S3](../a2-s3-delimitation/README.md) | Paired complete-extent versus truncation/extension comparison, with common start and known family | Separate [protocol](../a2-s3-delimitation/protocol.md); exact-length B_L, articulation and text controls |
 | M2/EISE | Family and historical supervision | Separate protocol |
 
 In the exploratory Gregorian evaluation, boundary information helped only in the melody-only configuration ([Section 5](05-gregorian-benchmark.md)). In melismatic Byzantine genres, a syllable may extend over a long melodic passage and thus yields fewer candidate boundaries. Comparing models with and without text is consequently an important **research hypothesis** for the upcoming Byzantine experiments.
+
+[A2–S3](../a2-s3-delimitation/protocol.md) reuses the fixed scores from core A2. Eligible variants are defined musicologically during WP0; NHPYLM cuts are studied separately through matched comparisons controlling for articulation, text, endpoint distance and length.
 
 ## Validity controls
 

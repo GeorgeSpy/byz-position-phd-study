@@ -58,3 +58,4 @@ P-REAL-FC,P,planned,planned,,F;C_comp;C_fac (reference),,,not executed,,,,,,labe
 P-DBC-FACTORIAL,P,planned,planned,,F;LASM;RM;DBC variants;F-wide,,,not executed,,,,,,data where F does not already identify the family
 P-BYZ-INITIAL,P,planned,planned,,F;C_comp;LASM;RM;DBC,,,not executed,,,,,,first annotated Byzantine works
 P-BYZ-GENERALIZATION,P,planned,planned,,selected architecture,,,not executed,,,,,,"new works, sources, modes and genres"
+P-BYZ-A2-S3,P,planned,planned,ByzCorpus WP0 and independent M3a,FV;FP;DV;DP;knowledge-free;B_L,,paired log-probability right-endpoint contrast,,,,,,,uses fixed A2 model scores; separate NHPYLM-cut study; no Byzantine evaluation executed

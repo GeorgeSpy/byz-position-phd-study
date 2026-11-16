@@ -57,3 +57,7 @@ The earlier [comparative NHPYLM–Helsen pilot](../gregorian-nhpylm-helsen-pilot
 ## Reproducibility and rights
 
 Aggregate results are linked to the [experiment register](../../../../../docs/research/byzcorpus/segmentation-and-family-recognition/support/manifests/experiments.csv), the [metrics register](../../../../../docs/research/byzcorpus/segmentation-and-family-recognition/support/manifests/metrics.json) and [source and rights documentation](support/manifests/sources-and-rights.md). Primary result files and execution scripts are planned for a subsequent reproducibility release, following validation of their dependencies and distribution rights.
+
+## Related knowledge-and-extent analysis (A2–S3)
+
+[A2–S3](../a2-s3-delimitation/README.md) is a separate secondary analysis connected to core A2. It measures the contribution of musicological knowledge to the right endpoint of a complete formula. Its [protocol](../a2-s3-delimitation/protocol.md) specifies a common start, eligible truncations and extensions, and the B_L reference model. NHPYLM statistical cuts are examined in a distinct segmentability comparison.

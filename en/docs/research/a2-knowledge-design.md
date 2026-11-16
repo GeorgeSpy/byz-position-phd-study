@@ -12,6 +12,8 @@
 >
 > **Related texts:** [Revised M1](m1-selection-decision.md) · [Revised M2](m2-eise-research-design.md) · [Musical position and family](../current/position-and-family.md) · [ECSI](ecsi/README.md) · [Core research plan (LaTeX)](../../../documents/core-research-plan.tex) · [Musicological memorandum (LaTeX)](../../../documents/musicological-memorandum.tex).
 
+> **Related secondary extension:** [A2–S3 — musicological knowledge and complete-formula extent](byzcorpus/a2-s3-delimitation/README.md) in ByzCorpus, with a separate [technical protocol](byzcorpus/a2-s3-delimitation/protocol.md). The core A2 design and primary estimands remain unchanged.
+
 ## Contents
 
 1. [The research question of A2](#1-the-research-question-of-a2)

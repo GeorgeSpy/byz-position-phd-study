@@ -81,3 +81,7 @@ Two central open questions are: (a) *how statistically induced melodic segments 
 ## Melodic segmentation and formula-family recognition
 
 The [research section](segmentation-and-family-recognition/README.md) documents comparisons between complete-*thesis* and subsegment-composition models, the use of multiscale boundary information, family-specific terms and the experimental protocol for Byzantine works. Synthetic and comparative Gregorian results are reported with explicit indication of their evidential status.
+
+## A2–S3 · Musicological knowledge and complete-formula extent
+
+The [separate A2–S3 research extension](a2-s3-delimitation/README.md) examines preference for an accepted complete formula over plausible truncations and extensions. It reuses core A2 scoring conditions and has its own [technical protocol](a2-s3-delimitation/protocol.md) and reference model of exact length, articulation and text boundaries. Synthetic numerical checks have been completed; evaluation on annotated Byzantine chant is planned.

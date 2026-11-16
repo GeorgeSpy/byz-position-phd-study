@@ -12,6 +12,8 @@
 >
 > **Συναφή κείμενα:** [Αναθεώρηση Μ1](m1-selection-decision.md) · [Αναθεώρηση Μ2](m2-eise-research-design.md) · [Μουσική θέση και οικογένεια](../current/position-and-family.md) · [Μηχανική μάθηση](machine-learning.md) · [ECSI](ecsi/README.md) · [Ερευνητικός πυρήνας (LaTeX)](../../documents/core-research-plan.tex) · [Μουσικολογικό υπόμνημα (LaTeX)](../../documents/musicological-memorandum.tex).
 
+> **Συνδεδεμένη δευτερεύουσα επέκταση:** [A2–S3 — μουσικολογική γνώση και έκταση πλήρους θέσης](byzcorpus/a2-s3-delimitation/README.md) στο ByzCorpus, με αυτοτελές [τεχνικό πρωτόκολλο](byzcorpus/a2-s3-delimitation/protocol.md). Ο κύριος σχεδιασμός και τα εκτιμώμενα μεγέθη της Α2 παραμένουν ως έχουν.
+
 ## Περιεχόμενα
 
 1. [Η ερευνητική θέση της Α2](#1-η-ερευνητική-θέση-της-α2)
