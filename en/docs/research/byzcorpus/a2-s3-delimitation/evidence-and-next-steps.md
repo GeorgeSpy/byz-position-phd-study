@@ -13,6 +13,7 @@
 | [NHPYLM–Helsen pilot](../gregorian-nhpylm-helsen-pilot.md) | 148 responsories; boundary recall 0.8994, precision 0.0770, F1 0.1418 | Actual Gregorian chant; completed separate pilot |
 | [Supervised Helsen comparison](../segmentation-and-family-recognition/05-gregorian-benchmark.md) | 123 responsories; complete-element F1 0.684 for F with text; LASM−F +0.044 without text and −0.021 with text | Actual Gregorian chant; exploratory, two initialisations |
 | A2–S3 synthetic tests | Variant eligibility, exact-length B_L, log-space union, common sample and jackknife | Synthetic and numerical validation; locally verified outputs |
+| A2–S3 [synthetic B_L training](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/bl-training.en.md) | 15 independent work groups; 9/3/3 train/development/test; group-mean test log probability −1.1946 for exact family length, compared with −2.2575 for coarse lengths and −2.7729 without length | Executed synthetic test, with 17 passing unit tests and a [results register](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/bl_verification.json) |
 | A2–S3 Byzantine application | Documented cards, reviewed gaps, connective material and estimated knowledge effects | Planned WP0, M3a and subsequent computational evaluation |
 
 The two Gregorian studies have **different samples, protocols and outcomes**. S3 results come from constructed musical settings; the contribution of knowledge in Byzantine chant remains to be measured.
