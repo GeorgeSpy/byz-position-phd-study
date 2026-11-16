@@ -4,6 +4,8 @@
 
 The English edition provides M1 representation selection, the complete M1-X architectural-extension protocol, A2 and M2/EISE methodology, terminology and supporting research material. The [34-page English short proposal](../../documents/short-proposal-en.pdf) is also available.
 
+**Repository inventory update (16 November 2026, on the bilingual study-index branch).** The working tree contains 333 Markdown files: 280 outside `en/` and 53 inside `en/`. Of the English files, 49 have exact-path Greek counterparts; the terminology guide has a differently named Greek counterpart, and three English pages are standalone editorial resources. These counts indicate file availability, not a completed semantic comparison. The 9 November inventory below is retained as a dated baseline for subsequent review. The new [study-code index](start/study-codes-and-notation.md) and [A2–S3 dossier](research/byzcorpus/a2-s3-delimitation/README.md) are part of this update.
+
 **Review scope (9 November 2026).** The English register distinguishes fully aligned translations, focused review of specific methodological passages, and available English pages awaiting complete source comparison. A page being accessible in English does not imply that every subsequent Greek revision has been incorporated.
 
 ## Available in English
@@ -28,6 +30,10 @@ The English edition provides M1 representation selection, the complete M1-X arch
 | [docs/start/overview.md](../../docs/start/overview.md) | [Overview of the research proposal](start/overview.md) |
 | [docs/start/reading-paths.md](../../docs/start/reading-paths.md) | [Reading paths](start/reading-paths.md) |
 | [docs/start/research-summary.md](../../docs/start/research-summary.md) | [Summary of the core research](start/research-summary.md) |
+| [docs/start/study-codes-and-notation.md](../../docs/start/study-codes-and-notation.md) | [Study codes and mathematical notation](start/study-codes-and-notation.md) |
+| [docs/research/byzcorpus/a2-s3-delimitation/README.md](../../docs/research/byzcorpus/a2-s3-delimitation/README.md) | [A2–S3 research overview](research/byzcorpus/a2-s3-delimitation/README.md) |
+| [docs/research/byzcorpus/a2-s3-delimitation/protocol.md](../../docs/research/byzcorpus/a2-s3-delimitation/protocol.md) | [A2–S3 technical protocol](research/byzcorpus/a2-s3-delimitation/protocol.md) |
+| [docs/research/byzcorpus/a2-s3-delimitation/evidence-and-next-steps.md](../../docs/research/byzcorpus/a2-s3-delimitation/evidence-and-next-steps.md) | [A2–S3 evidence and research plan](research/byzcorpus/a2-s3-delimitation/evidence-and-next-steps.md) |
 | [docs/research/m1-selection-decision.md](../../docs/research/m1-selection-decision.md) | [M1 — revised representation design and selection rule J](research/m1-selection-decision.md) |
 | [docs/research/m1-x-design.md](../../docs/research/m1-x-design.md) | [M1-X — family structure as an inductive bias for formula boundaries](research/m1-x-design.md) |
 | [docs/research/m2-eise-research-design.md](../../docs/research/m2-eise-research-design.md) | [M2 — revised EISE research design and evaluation](research/m2-eise-research-design.md) |

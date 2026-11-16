@@ -10,6 +10,8 @@
 
 > **Status (November 2026).** The research proposal is at the development stage and is being discussed with the Department of Music Technology and Acoustics at Hellenic Mediterranean University. It has not yet been submitted.
 
+**[Study codes and notation](docs/start/study-codes-and-notation.md)** · [Terminology](TERMINOLOGY.md)
+
 ## The core research programme
 
 **Central question:** how can a melodic formula and its family be recognised in continuous notation when the realisation varies, and what does the musicological knowledge that defines the family contribute to that recognition? The core is limited to three studies on a shared symbolic infrastructure:

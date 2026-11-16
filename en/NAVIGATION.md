@@ -12,6 +12,7 @@ Start with the [short research proposal in English](../documents/short-proposal-
 
 | Topic | First reading | Further study |
 |---|---|---|
+| **Study codes and notation** | **[Studies, models and mathematical symbols](docs/start/study-codes-and-notation.md)** | [Terminology](TERMINOLOGY.md) |
 | Core research | [Summary of the core research](docs/start/research-summary.md) | [Core research plan (Greek PDF)](../documents/core-research-plan.pdf) |
 | Overall design | [Overview](docs/start/overview.md) | [Method map](docs/current/index.md) |
 | Formula identity and MIR | [Musical example](docs/examples/index.md), [identity route](docs/start/overview.md#the-route-of-musical-identity) | [Detailed protocols (Greek)](../docs/full/index.md) |
