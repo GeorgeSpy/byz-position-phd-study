@@ -1,0 +1,14 @@
+# Local executions and generated synthetic fixtures
+__pycache__/
+*.pyc
+demo/
+demo_full/
+*.local.json
+*.local.jsonl
+
+# Real source-derived annotations and model-score exports belong in
+# permission-controlled project storage and are never committed here.
+private-inputs/
+empirical-exports/
+source-recordings/
+source-manuscripts/

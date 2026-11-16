@@ -1,0 +1,24 @@
+name: A2-S3 reproducibility checks
+
+on:
+  pull_request:
+    paths:
+      - "docs/research/byzcorpus/a2-s3-delimitation/support/**"
+      - ".github/workflows/a2s3-reproducibility.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reference-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Verify reference calculations, B_L and score ingestion
+        working-directory: docs/research/byzcorpus/a2-s3-delimitation/support
+        run: python -m unittest -v test_a2s3_reference.py test_bl_train.py test_a2s3_ingest.py
