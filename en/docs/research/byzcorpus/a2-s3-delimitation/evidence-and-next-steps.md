@@ -22,8 +22,8 @@ The two Gregorian studies have **different samples, protocols and outcomes**. S3
 Local verification established:
 
 - **Eligibility:** 18 targeted tests passed; 17,556 stored variant slots had unchanged endpoints after the eligibility rule was aligned with the protocol.
-- **Length control:** one- and two-event endpoint movements with matched articulation. The \(B_L\) reference using **exact length per family** separated the synthetic complete-formula setting from the setting in which the card only encoded length. Three-event bins and the particular tested smoothing failed the same decision rule.
-- **Numerical stability:** log-space recursion matched exhaustive enumeration to approximately \(5.3\cdot10^{-15}\) maximum error; a case with \(\log P=-50\) was evaluated accurately in log space.
+- **Length control:** one- and two-event endpoint movements with matched articulation. The $B_L$ reference using **exact length per family** separated the synthetic complete-formula setting from the setting in which the card only encoded length. Three-event bins and the particular tested smoothing failed the same decision rule.
+- **Numerical stability:** log-space recursion matched exhaustive enumeration to approximately $5.3\cdot10^{-15}$ maximum error; a case with $\log P=-50$ was evaluated accurately in log space.
 - **Sample and intervals:** fixed family composition, explicit reasons for withholding intervals and a near-zero standard error check.
 - **Additional guards:** the numerator uses accepted extents with the common start; the window contains all accepted extents and candidate variants; the jackknife uses a numerical tolerance. Reanalysis of 20 stored result files and 488 decision comparisons preserved the previous aggregate estimates.
 
@@ -49,10 +49,10 @@ The evaluation measures agreement, abstention, card applicability and candidate 
 
 ## Separate segmentability comparison
 
-NHPYLM cuts act as an **independent comparison variable**. Eligible cut and non-cut locations are compared with control for articulation, textual boundaries, distance from the accepted full endpoint and exact length through \(B_L\).
+NHPYLM cuts act as an **independent comparison variable**. Eligible cut and non-cut locations are compared with control for articulation, textual boundaries, distance from the accepted full endpoint and exact length through $B_L$.
 
 This connects the study of smaller statistical units with the recognition of complete melodic formulas, preserving distinct musicological references for each chant tradition.
 
 ## Reproducibility and release policy
 
-This release contains **research documentation**. Code, stored results and tests are scheduled for a subsequent \`support/\` release after reviewing rights, input data, dependencies, reproduction commands and file integrity. The [core A2](../../a2-knowledge-design.md) documentation remains separate.
+This release contains **research documentation**. Code, stored results and tests are scheduled for a subsequent `support/` release after reviewing rights, input data, dependencies, reproduction commands and file integrity. The [core A2](../../a2-knowledge-design.md) documentation remains separate.
