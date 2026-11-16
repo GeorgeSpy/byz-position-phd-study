@@ -24,7 +24,7 @@ The paired comparison reuses scores from the established FV, FP, DV and DP condi
 | [Core A2](../../a2-knowledge-design.md) | Knowledge validity × logical use: family AP at accepted fixed boundaries | Existing conditions and model scores |
 | **A2–S3** | Knowledge contribution to preference for complete extent | Separate diagnostic estimand and protocol |
 | [ByzCorpus segmentation](../segmentation-and-family-recognition/README.md) | Statistical subsegments, complete formulas and family recognition | Independent comparison against NHPYLM cuts |
-| [M3a](../../../full/07-validation.md#r052) | Independent musicological validation | Evaluation of finalised specifications on separate material |
+| [M3a](../../../../../docs/full/07-validation.md#r052) | Independent musicological validation | Evaluation of finalised specifications on separate material |
 
 Core A2 retains its V/P × F/D design, family AP, two primary estimands, five replications and [Appendix K](../../../appendices/k.md). S3 has its own question, candidate-variant rules, eligibility conditions and descriptive statistics. The [S3 protocol](protocol.md) is the **single authoritative location** for its technical definition.
 
