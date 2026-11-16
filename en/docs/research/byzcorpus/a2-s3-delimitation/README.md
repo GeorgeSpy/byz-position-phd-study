@@ -6,7 +6,7 @@
 
 [ByzCorpus](../README.md) · [S3 protocol](protocol.md) · [Evidence and next steps](evidence-and-next-steps.md) · [Core A2](../../a2-knowledge-design.md) · [Segmentation and families](../segmentation-and-family-recognition/README.md)
 
-> **Status · 16 November 2026:** a separate ByzCorpus research extension. Its mathematical implementation and decision rules have been tested on synthetic data. Musicological screening and evaluation on actual Byzantine chant are subsequent stages. Executable code and reproduction files are planned for a separate technical release.
+> **Status · 16 November 2026:** a separate ByzCorpus research extension. Its mathematical implementation and decision rules have been tested on synthetic data. Musicological screening and evaluation on actual Byzantine chant are subsequent stages. [Executable checks](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/README.en.md), [B_L training](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/bl-training.en.md), and the [A2 score ingestion interface](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/integration.en.md) are available in separate technical PRs. Empirical evaluation requires reviewed primary-source annotations and actual trained model scores.
 
 ## Research question
 
@@ -38,4 +38,4 @@ This approach connects to comparative *segmentability* in Gregorian and Byzantin
 
 **WP0 screening** develops and checks family cards, accepted extents, connective regions and eligible variants. **M3a** independently evaluates the finalised guidelines on separate material. Subsequent computational S3 assessment uses a common occurrence sample, a fixed family catalogue and the scores from core A2.
 
-See the [full protocol](protocol.md), the [evidence and research plan](evidence-and-next-steps.md), and the [executable reference checks](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/README.en.md) and the [trained B_L comparator](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/bl-training.en.md).
+See the [full protocol](protocol.md), the [evidence and research plan](evidence-and-next-steps.md), and the [executable reference checks](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/README.en.md) the [trained B_L comparator](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/bl-training.en.md), and the [source-to-score integration guide](../../../../../docs/research/byzcorpus/a2-s3-delimitation/support/integration.en.md).
