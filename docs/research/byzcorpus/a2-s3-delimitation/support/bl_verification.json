@@ -4,8 +4,8 @@
   "status": "executed_synthetic_reference",
   "python_version": "3.13.5",
   "command": "python -m unittest -v test_bl_train.py && python bl_train.py",
-  "unittest_methods": 14,
-  "passed": 14,
+  "unittest_methods": 17,
+  "passed": 17,
   "seed": 20261116,
   "split_groups": {
     "dev": 3,
@@ -43,7 +43,7 @@
   },
   "source_sha256": {
     "bl_train.py": "3d922602a2f0967e85ca04ff5a035d5fde1428705cdeb9ae83134593a53914a9",
-    "test_bl_train.py": "19378a063434650dc524dc8f45c26a00058b7fb41316e2f484cb1de665ad9410"
+    "test_bl_train.py": "d924ebd7847b1fea0ed02194bf1bbff24517dcae14fa832d4d3f5c0e417b9d63"
   },
   "scope": [
     "frozen per-candidate base scores",
@@ -51,7 +51,9 @@
     "optional articulation and textual boundary features",
     "grouped train/development/test",
     "finite-difference objective gradients",
-    "exact family-length versus coarse and no-length controls"
+    "exact family-length versus coarse and no-length controls",
+    "trained articulation and text coefficients in a separate synthetic test",
+    "multiple accepted spans and frozen base-potential preservation"
   ],
   "original_s3_archives_replayed": false,
   "byzantine_data_used": false,
