@@ -4,6 +4,8 @@
 
 [Research overview](../README.md) · [Technical protocol](../protocol.md) · [Evidence and planned work](../evidence-and-next-steps.md)
 
+**[Trained B_L comparator and controlled evaluation](bl-training.en.md)** · [Machine-readable results](bl_verification.json)
+
 ## Scope
 
 This directory contains two small Python files implementing **exact computational and annotation-invariant checks for A2–S3**:
