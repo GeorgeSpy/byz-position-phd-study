@@ -92,7 +92,8 @@ class IngestTests(unittest.TestCase):
         result=evaluate(validate(self.manifest,self.annotations,self.scores))
         self.assertEqual(result['reproducibility_status'],'pilot_interface')
         self.assertEqual(len(result['replications']['r01']['holdout_contrasts']),2)
-        self.assertIn('delta_know',result['replications']['r01']['macro_by_fixed_family']['truncation'])
+        self.assertIn('delta_know_S3',result['replications']['r01']['macro_by_fixed_family']['truncation'])
+        self.assertIn('BASE',result['replications']['r01']['macro_by_fixed_family']['extension'])
         self.assertEqual(set(result['replications']['r01']['holdout_contrasts'][0]['contrasts']),
                          {'truncation','extension'})
 
