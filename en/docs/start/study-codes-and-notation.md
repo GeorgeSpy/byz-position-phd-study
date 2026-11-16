@@ -33,7 +33,7 @@ This guide identifies the **programme-specific study codes**, model configuratio
 | **Mθέσις / Mthesis** | Probabilistic operator modelling written formula realisations given family and musical context | [Definition](../current/m-thesis.md) · [Technical development](../current/m-thesis-technical.md) |
 | **ByzCorpus** | Symbolic research corpus, annotation, segmentability and formula-family recognition | [Research infrastructure](../research/byzcorpus/README.md) |
 | **ECSI** | *Evidence-Conditioned Selective Invariance*: separate extension in musicology-informed machine learning | [ECSI programme](../research/ecsi/README.md) |
-| **Znamenny transfer** | Comparative extension investigating formula identity and transfer to Znamenny popevki | [Comparative research](../research/znamenny-transfer/README.md) |
+| **Znamenny transfer** | Comparative extension investigating formula identity and transfer to Znamenny popevki | [Comparative research (Greek)](../../../docs/research/znamenny-transfer/README.md) |
 
 **Main research sequence:** WP0/WP1 → M1 → A2 → M2a. M2b requires sufficient independently verified historical pairs and performance-based external assessment. M3a and M5-min support independent validation and application. M1-X, A2–S3, ECSI, ATL, ATL-INV, Mθέσις and cross-tradition studies retain separate research questions and decision criteria.
 
