@@ -26,7 +26,7 @@ Local execution on 16 November 2026 with Python 3.13.5 passed **25/25 tests**. T
 | Probability | Normalisation over complete legal nonoverlapping span-and-skip paths; the union of accepted spans is counted once for each full analysis. |
 | Shared window | All accepted extents and eligible variants fit the same expert-agreed local window. |
 | Eligibility | Common start, accepted right endpoints, complete annotation roster, abstentions/masks, documented connective material, and next-formula start. |
-| $B_L$ | **Exact family-specific length feature encoding** and articulation/text features. Full training of the regularised $B_L$ heads is reserved for a subsequent implementation. |
+| $B_L$ | **Exact family-specific length feature encoding** and articulation/text features. [L2-regularised $B_L$ training](bl-training.en.md) is now implemented and evaluated in a separate synthetic experiment. |
 | Aggregation and inference | Fixed family set, equal weight across families, delete-one-independent-group jackknife, near-zero numerical standard error, and explicit interval non-issuance. |
 | Two-sided result | Identical occurrence IDs and positive differences against all three prespecified reference comparisons for both truncation and extension. |
 
@@ -38,4 +38,4 @@ The jackknife method requires an externally supplied Student critical value with
 
 The [A2–S3 evidence register](../evidence-and-next-steps.md) records 18 targeted checks, 17,556 stored variant slots, 20 historical result files, and 488 decision comparisons. **The original inputs, programs and complete result files for these runs are not yet part of this directory.** They are tracked separately in the [evidence matching register](verification-manifest.json) as pending independent replay.
 
-These executable tests establish the core numerical and eligibility invariants. Replaying the original synthetic series, training the full L2-regularised $B_L$ comparators, integrating trained FV/FP/DV/DP scores, and evaluating Byzantine music are separate reproducibility and empirical stages.
+These executable tests establish the core numerical and eligibility invariants. The [synthetic L2-regularised $B_L$ training study](bl-training.en.md) is complete, with 17 dedicated tests. Replaying the historical synthetic series, incorporating frozen FV/FP/DV/DP scores from actual A2 experiments, and evaluating Byzantine chant remain distinct empirical and reproducibility stages.
