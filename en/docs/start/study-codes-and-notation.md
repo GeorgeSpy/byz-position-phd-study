@@ -6,7 +6,7 @@
 
 [Home](../../README.md) · [Navigation](../../NAVIGATION.md) · [Terminology](../../TERMINOLOGY.md) · [Core research summary](research-summary.md)
 
-This guide identifies the **programme-specific study codes**, model configurations and principal mathematical notation used throughout the proposal. Each entry links to its research specification. Standard abbreviations from the scientific literature are listed separately. In Greek prose, **Μ1** and **Α2** use Greek characters; the corresponding English designations **M1** and **A2** refer to the same studies.
+This guide identifies the **programme-specific study codes**, model configurations and principal mathematical notation used throughout the proposal. Each entry links to its research specification. Standard abbreviations from the scientific literature are listed separately. Study identifiers, such as **M1, A2 and M2a**, use the same Latin-character form in both editions. Each code is listed once.
 
 **Documentation precedence.** The latest approved, study-specific specification determines the current design, together with verified sources and recorded research decisions. Earlier analytical chapters remain available as historical records. Research additions contained in a draft pull request are explicitly marked as **pending integration**.
 
@@ -14,7 +14,7 @@ This guide identifies the **programme-specific study codes**, model configuratio
 
 | Code | Research question or purpose | Detailed specification |
 |---|---|---|
-| **WP0 / WP1** (ΠΕ0 / ΠΕ1) | Source and rights inventories, annotation, feasibility, data preparation and assessment | [Data and feasibility (Greek)](../../../docs/full/08-data.md) |
+| **WP0 / WP1** | Source and rights inventories, annotation, feasibility, data preparation and assessment | [Data and feasibility (Greek)](../../../docs/full/08-data.md) |
 | **M1** | Representation selection and joint identification of complete formula boundaries and family identity | [Selection rule J](../research/m1-selection-decision.md) |
 | **M1-X** | The contribution of family-aware parameterisation and decoding/search to complete-formula recognition | [Architectural extension](../research/m1-x-design.md) |
 | **A2** | Factorial 2×2 experiment on the validity of musicological knowledge and its structured incorporation | [A2 design](../research/a2-knowledge-design.md) · [Appendix K](../appendices/k.md) |
@@ -30,7 +30,7 @@ This guide identifies the **programme-specific study codes**, model configuratio
 | **M5-min** | Application of the selected model to complete held-out works and construction of morphological maps | [Core research summary](research-summary.md) |
 | **ATL** | Learning historical morphological transformations between documented exegeses | [ATL](../current/atl.md) |
 | **ATL-INV** | Inverse prediction of older notational choices from later exegesis | [Historical retrieval](../current/inverse-problem.md) |
-| **Mθέσις / Mthesis** | Probabilistic operator modelling written formula realisations given family and musical context | [Definition](../current/m-thesis.md) · [Technical development](../current/m-thesis-technical.md) |
+| **Mθέσις** | Probabilistic operator modelling written formula realisations given family and musical context | [Definition](../current/m-thesis.md) · [Technical development](../current/m-thesis-technical.md) |
 | **ByzCorpus** | Symbolic research corpus, annotation, segmentability and formula-family recognition | [Research infrastructure](../research/byzcorpus/README.md) |
 | **ECSI** | *Evidence-Conditioned Selective Invariance*: separate extension in musicology-informed machine learning | [ECSI programme](../research/ecsi/README.md) |
 | **Znamenny transfer** | Comparative extension investigating formula identity and transfer to Znamenny popevki | [Comparative research (Greek)](../../../docs/research/znamenny-transfer/README.md) |
