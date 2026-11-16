@@ -14,9 +14,7 @@ Occurrence $i$ has a documented family $f_i$, preferred accepted start $a_i^\sta
 
 The right-endpoint analysis uses only accepted extents that share the preferred start:
 
-```math
-B_i^{a^\star}=\{s\in B_i:\operatorname{start}(s)=a_i^\star\}.
-```
+$$B_i^{a^\star}=\{s\in B_i:\mathrm{start}(s)=a_i^\star\}.$$
 
 $B_i^{a^\star}$ must be nonempty. The **general** union across all accepted delimitations continues to use the full $B_i$ as a separate probabilistic readout. The core A2 family AP retains its established fixed-boundary definition in [Appendix K](../../../appendices/k.md).
 
