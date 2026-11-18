@@ -4,7 +4,7 @@
 
 ---
 
-**Publication status:** Technical research report, 18 November 2026. The report brings together completed experiments on Gregorian chant and the specifications for subsequent evaluation on Byzantine chant. Each experimental series retains its own dataset partitions and evaluation metrics.
+**Technical research report:**  18 November 2026. The report brings together completed experiments on Gregorian chant and the specifications for subsequent evaluation on Byzantine chant. Each experimental series retains its own dataset partitions and evaluation metrics.
 
 **Related research:** [Gregorian pilot study](gregorian-nhpylm-helsen-pilot.md) · [ByzCorpus](README.md) · [M1-X](../m1-x-design.md) · [Annotated bibliography](nhpylm-helsen-bibliography.md) · [Greek edition](../../../../docs/research/byzcorpus/nhpylm-helsen-extended-experiments.md).
 
