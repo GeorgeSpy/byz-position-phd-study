@@ -6,6 +6,8 @@
 
 [Core research programme](../../README.md) · [M1 and selection rule J](m1-selection-decision.md) · [Chapter 5 (Greek)](../../../docs/full/05-m1.md#r038x) · [Appendix G (Greek)](../../../docs/appendices/g.md#r186x)
 
+**Empirical background:** [NHPYLM–Helsen: extended experiments on melodic segmentation and formulaic units](byzcorpus/nhpylm-helsen-extended-experiments.md).
+
 ## 1. Research question and place within the programme
 
 **M1-X** is a self-contained methodological extension of M1. It investigates whether explicitly incorporating family compatibility into model parameterisation improves the recognition of complete melodic formulae. The main question of M1 concerns symbolic representation selection across the twelve conditions of the $`U\times\Phi`$ grid. The operational representation $`R^\star`$ is selected with architecture A and rule J, and remains the input to A2 and M2.

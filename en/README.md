@@ -31,7 +31,7 @@ A **melodic formula** (*thesis*) is the historically grounded musical formation 
 
 An independent research initiative in development, [**ByzCorpus**](docs/research/byzcorpus/README.md) documents a proposed versioned Byzantine chant corpus, a Python research toolkit and an initial independent expert-boundary pilot followed by exploratory NHPYLM / melodic segmentability research. It includes a [data-model draft](../docs/research/byzcorpus/data-model.md), an [expert-boundary feasibility protocol](docs/research/byzcorpus/expert-boundary-pilot.md), the [later NHPYLM study](../docs/research/byzcorpus/segmentation-pilot.md), and a [living roadmap](../docs/research/byzcorpus/roadmap.md) (some technical details are currently in Greek). This initiative remains in development and preserves the M1–A2–M2 core research design.
 
-**Extended experimental report:** [NHPYLM–Helsen: segment length and musicological boundaries](en/docs/research/byzcorpus/nhpylm-helsen-extended-experiments.md) · [Annotated bibliography](docs/research/byzcorpus/nhpylm-helsen-bibliography.md).
+**Extended experimental report:** [NHPYLM–Helsen: segment length and musicological boundaries](en/docs/research/byzcorpus/nhpylm-helsen-extended-experiments.md) · [Annotated bibliography](en/docs/research/byzcorpus/nhpylm-helsen-bibliography.md).
 
 ## What is new
 

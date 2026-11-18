@@ -6,7 +6,7 @@
 
 **Εκδοτική κατάσταση:** Ερευνητική τεχνική αναφορά της 18ης Νοεμβρίου 2026. Το κείμενο συγκεντρώνει τα ολοκληρωμένα πειράματα επί του γρηγοριανού μέλους και τις προδιαγραφές μεταφοράς τους στο βυζαντινό μέλος. Οι επιμέρους πειραματικές σειρές διατηρούν τους δικούς τους διαχωρισμούς δεδομένων και τις αντίστοιχες μετρικές αξιολόγησης.
 
-**Σχετική τεκμηρίωση:** [Γρηγοριανή πιλοτική μελέτη](gregorian-nhpylm-helsen-pilot.md) · [ByzCorpus](README.md) · [Μ1-X](../m1-x-design.md) · [Κριτικά σχολιασμένη βιβλιογραφία](nhpylm-helsen-bibliography.md) · [English research overview](../../../en/docs/research/byzcorpus/nhpylm-helsen-extended-experiments.md).
+**Σχετική τεκμηρίωση:** [Γρηγοριανή πιλοτική μελέτη](gregorian-nhpylm-helsen-pilot.md) · [ByzCorpus](README.md) · [Μ1-X](../m1-x-design.md) · [Κριτικά σχολιασμένη βιβλιογραφία](nhpylm-helsen-bibliography.md) · [Full English edition](../../../en/docs/research/byzcorpus/nhpylm-helsen-extended-experiments.md).
 
 ## Περιεχόμενα
 
