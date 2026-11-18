@@ -19,6 +19,8 @@ The work is organised into two connected directions:
 
 **ByzCorpus** constitutes a self-contained research direction for data infrastructure and Symbolic MIR. The infrastructure may support work packages **PE0/PE1 and study M1** of the research proposal, while the comparative study of segmentation across chant traditions maintains independent research questions and metrics. Study M1, the representation selection rule (J), study A2 and M2/EISE retain their established protocols.
 
+**Gregorian experimental results:** [Extended NHPYLM–Helsen study](nhpylm-helsen-extended-experiments.md) · [Annotated bibliography (Greek)](../../../../docs/research/byzcorpus/nhpylm-helsen-bibliography.md). The study presents the segment-length experiments, data-scale tests and supervised reference models.
+
 ## 2. Current state and remaining work
 
 **Available documentation:** the [preliminary inventory](../corpus/README.md) based on Gheorghiță (2009) records metadata for 42 Sunday Koinonika, 11 formations and 338 inventory entries across 68 tables. Of these entries, 35 have been visually verified while 303 carry the `OCR_DRAFT` flag. The inventory locates candidate passages and sources; it does not constitute a corpus of continuous symbolic melodies.
