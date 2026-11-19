@@ -6,14 +6,15 @@
 
 [Home](../../../README.md) · [Core research summary](../../start/research-summary.md) · [Research corpus: data dictionary](data/README.md) · [M1 methodology](../m1-selection-decision.md) · [M2/EISE research design](../m2-eise-research-design.md)
 
-**15 November 2026 · Status: preliminary source-linked metadata inventories; symbolic encodings and expert annotations remain to be completed.**
+**19 November 2026 · Status: preliminary source-linked metadata inventories; symbolic encodings and expert annotations remain to be completed.**
 
 ## Available source inventories
 
 - **Gheorghiță (2009):** 42 Sunday Communion chants, 11 formulaic formations and 338 rows from comparative tables. The full inventory follows on this page.
 - **Karagkounis (2003, 2005):** [Cherubic hymn and formula inventory](karagkounis-2003-2005.md), including 933 numbered Cherubic hymn records, the 243 period-VII records for new compositions from 1814 to the late nineteenth century, 206 named-position catalogue references and 118 entries in separate supplementary liturgical hymn catalogues.
+- **St Anthony's Monastery:** [*Papadic Formulae* collection inventory](st-anthony-papadic-formulae.md), with 11 modal divisions, 331 catalogue sections and 758 source compositions. The [modal inventory](../../../../docs/research/corpus/data/st-anthony-papadic-modes.csv) and [section index](../../../../docs/research/corpus/data/st-anthony-papadic-sections.csv) are available as CSV files.
 
-Both datasets retain independent source identifiers and verification markers. The [Papadic Formulae collection of St. Anthony's Monastery](https://stanthonysmonastery.org/pages/papadic-formulae) supplies complementary repertory context; a verified work-level match to Karagkounis remains to be established.
+The inventories retain their source identifiers and verification statuses. Work-level concordances between the *Papadic Formulae* collection, Karagkounis's catalogue and the complete musical sources form the next stage of investigation.
 
 ---
 

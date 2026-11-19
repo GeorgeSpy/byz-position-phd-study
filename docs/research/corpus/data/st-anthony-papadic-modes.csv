@@ -1,0 +1,12 @@
+mode_id,document,mode,first_printed_page,last_printed_page,pdf_pages,sections,source_compositions,cherubika_greek,cherubika_non_greek,koinonika,other,sha256
+01P,Formula1p.doc,Πρώτος — παπαδικός,1001,1158,158,28,101,24,15,49,13,651012ae181b0fefabf8884054ac13af35ec4de3fb863906894ac75851455266
+01T,Formula1t.doc,Πρώτος τετράφωνος — παπαδικός,1159,1212,54,18,26,4,0,18,4,ae73887c9a785be52174cf697544fd997030c0779298820b921dfb9cb122572a
+02S,Formula2p.doc,Δεύτερος μαλακός χρωματικός — παπαδικός,1213,1313,101,35,43,16,7,19,1,f2104730efe72833d9da52df23b4d7247affbf567febe4f55a413c3bb11dbdd5
+02H,Formula2ph.doc,Δεύτερος σκληρός χρωματικός — παπαδικός,1314,1365,52,18,31,12,0,19,0,e461551bcf4782cfcff76a97c08139adfd244aaa72a42511e125a811c487e38b
+03P,Formula3p.doc,Τρίτος — παπαδικός,1366,1495,130,31,68,24,12,26,6,f22f03f471dcb5a0d312eda97c10d60e8b819b80386e5fc84f025dc64dc51e7c
+04A,Formula4p.doc,Τέταρτος (Ἅγια) — παπαδικός,1496,1695,200,36,124,28,12,64,20,4d0a790762a696f09327350fd8ad50dc2de60110b1db7a34b68df36cda6c520c
+04L,Formula4lp.doc,Τέταρτος (Λέγετος) — παπαδικός,1696,1734,39,19,8,7,1,0,0,2701f0c6099e8b810c28b771ab9fb72ae195ed7e58171953b600c21add2f570e
+05P,Formula5p.doc,Πλάγιος πρώτος — παπαδικός,1735,1899,165,40,87,32,12,40,3,b309915b9090e4685ef0f947b411406077567eafc7f356caab2a6a77ebd81c2f
+06P,Formula6p.doc,Πλάγιος δεύτερος — παπαδικός,1900,2070,171,38,85,39,12,34,0,1816a62f835fd523ff57067b24909cee3b2528832a00379af7f003f3cc24f8ae
+07P,Formula7pp.doc,Βαρύς — παπαδικός,2071,2201,131,32,87,31,10,41,5,a6fb0b37c5d78b921ad229ec70e6e6ae77adaa73d4ea37d26837cc6bc058ff68
+08P,Formula8p.doc,Πλάγιος τέταρτος — παπαδικός,2202,2375,174,36,98,31,20,41,6,50becd7c626721adae79744ce3964cb2dc411dfcf4422d037ae88b7087463417
