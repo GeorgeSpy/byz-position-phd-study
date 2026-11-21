@@ -4,7 +4,7 @@
 **Language / Γλώσσα:** [Ελληνικά](../../../../../../docs/research/byzcorpus/a2-helsen/experiments/README.md) · **English**
 <!-- language-switch:end -->
 
-[A2–Helsen](../README.md) · [ByzCorpus](../../README.md) · [A2 research design](../../../a2-knowledge-design.md) · [Appendix K](../../../../../../docs/appendices/k.md) · [Provenance and rights](provenance-and-rights.md)
+[A2–Helsen](../README.md) · [ByzCorpus](../../README.md) · [A2 research design](../../../a2-knowledge-design.md) · [Appendix K](../../../../../../docs/appendices/k.md) · [Provenance and rights](provenance-and-rights.md) · [Numerical implementation](../repro/README.md)
 
 ## Purpose and research scope
 
