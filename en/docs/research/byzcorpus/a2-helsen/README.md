@@ -91,6 +91,8 @@ The study provides an executable framework for testing **diagnostic musicologica
 
 ## References
 
+[Helsen (2008) bibliography entry](../../../../../docs/bibliography/entries/b143.md) · [Cambouropoulos (2001b) on category formation](../../../../../docs/bibliography/entries/b139.md) · [van Kranenburg et al. (2013) on local and global features](../../../../../docs/bibliography/entries/b144.md).
+
 - Helsen, K. E. (2008). *The Great Responsories of the Divine Office: Aspects of Structure and Transmission*. [DOI](https://doi.org/10.5283/epub.10769).
 - Cambouropoulos, E. (2001). *Melodic Cue Abstraction, Similarity, and Category Formation: A Formal Model*. *Music Perception*, 18(3), 347–370.
 - Lanz, V., & Hajič, J., Jr. (2025). *Gregorian Melody, Modality, and Memory: Segmenting Chant with Bayesian Nonparametrics*. [Zenodo](https://doi.org/10.5281/zenodo.17811449).
