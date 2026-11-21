@@ -1,18 +1,18 @@
 # A2–Helsen — Provenance, Reproducibility and Rights
 
 <!-- language-switch:start -->
-**Language / Γλώσσα:** [Ελληνικά](../../../../../docs/research/byzcorpus/a2-helsen/experiments/provenance-and-rights.md) · **English**
+**Language / Γλώσσα:** [Ελληνικά](../../../../../../docs/research/byzcorpus/a2-helsen/experiments/provenance-and-rights.md) · **English**
 <!-- language-switch:end -->
 
-[Experimental register](README.md) · [A2–Helsen](../README.md) · [Repository licensing](../../../../../LICENSING.md)
+[Experimental register](README.md) · [A2–Helsen](../README.md) · [Repository licensing](../../../../../../LICENSING.md)
 
 ## Provenance and checksums
 
-The seven entries in [`sources.csv`](../../../../../docs/research/byzcorpus/a2-helsen/experiments/manifests/sources.csv) identify **private research snapshots** with stable identifiers `A`, `B`, `C`, `D`, `E`, `F0` and `F1`. Each SHA-256 value identifies the exact source object kept in the research archive.
+The seven entries in [`sources.csv`](../../../../../../docs/research/byzcorpus/a2-helsen/experiments/manifests/sources.csv) identify **private research snapshots** with stable identifiers `A`, `B`, `C`, `D`, `E`, `F0` and `F1`. Each SHA-256 value identifies the exact source object kept in the research archive.
 
 For stage C, SHA-256 refers specifically to `results_summary.json`; for other stages, it refers to the corresponding complete research package. The source manifest supports **content identification**; independent re-execution of the neural training also requires authorized source data, the original software dependencies and computational configurations.
 
-The [claims register](../../../../../docs/research/byzcorpus/a2-helsen/experiments/manifests/claims.csv) maps statements to explicit [experiment records](../../../../../docs/research/byzcorpus/a2-helsen/experiments/manifests/experiments.csv). Evidence tags distinguish recalculated OOF results, checked aggregate reports, reported intervals and source-inventory findings.
+The [claims register](../../../../../../docs/research/byzcorpus/a2-helsen/experiments/manifests/claims.csv) maps statements to explicit [experiment records](../../../../../../docs/research/byzcorpus/a2-helsen/experiments/manifests/experiments.csv). Evidence tags distinguish recalculated OOF results, checked aggregate reports, reported intervals and source-inventory findings.
 
 ## Verification scope
 
@@ -50,4 +50,4 @@ F1 OOF exports were rounded to eight decimal places. A small number of secondary
 7. Decode complete works using the semi-CRF and report both target-family and overall exact span/family F1.
 8. Repeat matched-access, fixed-specification and gap-aware masking comparisons; calculate paired intervals at the independent melodic-group level.
 
-The principal [A2 technical protocol](../../../../../docs/appendices/k.md) defines the planned Byzantine study. Confirmatory evaluation will use **new independent musical materials** after musicological adjudication of the family specifications and prospective statistical calibration.
+The principal [A2 technical protocol](../../../../../../docs/appendices/k.md) defines the planned Byzantine study. Confirmatory evaluation will use **new independent musical materials** after musicological adjudication of the family specifications and prospective statistical calibration.
