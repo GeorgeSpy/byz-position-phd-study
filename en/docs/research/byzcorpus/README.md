@@ -4,9 +4,9 @@
 **Language / Γλώσσα:** [Ελληνικά](../../../../docs/research/byzcorpus/README.md) · **English**
 <!-- language-switch:end -->
 
-[Home](../../../README.md) · [Core research summary](../../start/research-summary.md) · [Preliminary inventory](../corpus/README.md) · [Papadic Formulae](../corpus/st-anthony-papadic-formulae.md) · [Data model (Greek)](../../../../docs/research/byzcorpus/data-model.md) · **[Expert-boundary pilot (English)](expert-boundary-pilot.md)** · [NHPYLM follow-up (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md) · [Comparative pilot study](gregorian-nhpylm-helsen-pilot.md) · [Roadmap (Greek)](../../../../docs/research/byzcorpus/roadmap.md) · [Melodic segmentation and formula-family recognition](segmentation-and-family-recognition/README.md)
+[Home](../../../README.md) · [Core research summary](../../start/research-summary.md) · [Preliminary inventory](../corpus/README.md) · [Papadic Formulae](../corpus/st-anthony-papadic-formulae.md) · [Data model (Greek)](../../../../docs/research/byzcorpus/data-model.md) · **[Expert-boundary pilot (English)](expert-boundary-pilot.md)** · [NHPYLM follow-up (Greek)](../../../../docs/research/byzcorpus/segmentation-pilot.md) · [Comparative pilot study](gregorian-nhpylm-helsen-pilot.md) · [Roadmap (Greek)](../../../../docs/research/byzcorpus/roadmap.md) · [Melodic segmentation and formula-family recognition](segmentation-and-family-recognition/README.md) · [A2–Helsen: musicological knowledge](a2-helsen/README.md)
 
-> **Status: Research direction under development and feasibility assessment · 7 November 2026.** **ByzCorpus** organises the design of symbolic data, Python research tooling and melodic segmentation experiments. The current release comprises specifications, protocols and a roadmap. Datasets and software will be released incrementally following quality and rights reviews.
+> **Status · updated 21 November 2026.** Byzantine data infrastructure remains in development; the comparative Gregorian A2–Helsen study has completed its exploratory computational experiments. **ByzCorpus** organises the design of symbolic data, Python research tooling and melodic segmentation experiments. The current release comprises specifications, protocols and a roadmap. Datasets and software will be released incrementally following quality and rights reviews.
 
 ## 1. Purpose
 
@@ -20,6 +20,8 @@ The work is organised into two connected directions:
 **ByzCorpus** constitutes a self-contained research direction for data infrastructure and Symbolic MIR. The infrastructure may support work packages **PE0/PE1 and study M1** of the research proposal, while the comparative study of segmentation across chant traditions maintains independent research questions and metrics. Study M1, the representation selection rule (J), study A2 and M2/EISE retain their established protocols.
 
 **Gregorian experimental results:** [Extended NHPYLM–Helsen study](nhpylm-helsen-extended-experiments.md) · [Annotated bibliography](nhpylm-helsen-bibliography.md). The study presents the segment-length experiments, data-scale tests and supervised reference models.
+
+**Completed Gregorian A2 exploration:** The [A2–Helsen study](a2-helsen/README.md) evaluates valid musicological specifications, logical integration, and melodic-family recognition on 136 Gregorian responsories. Independent expert adjudication and external confirmation are planned next. The principal A2 protocol for Byzantine melodic positions remains separate.
 
 ## 2. Current state and remaining work
 
