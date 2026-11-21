@@ -2,7 +2,7 @@
 
 **Ερευνητική βιβλιογραφία του ByzCorpus, 18 Νοεμβρίου 2026**
 
-[Κύρια τεχνική αναφορά](nhpylm-helsen-extended-experiments.md) · [ByzCorpus](README.md) · [Μ1-X](../m1-x-design.md) · [English bibliography](../../../en/docs/research/byzcorpus/nhpylm-helsen-bibliography.md) · [BibTeX](nhpylm-helsen-references.bib)
+[Μαθηματική μελέτη NHPYLM–Helsen](nhpylm-helsen-mathematical-study.md) · [Πειραματική τεκμηρίωση](nhpylm-helsen-extended-experiments.md) · [ByzCorpus](README.md) · [Μ1-X](../m1-x-design.md) · [English bibliography](../../../en/docs/research/byzcorpus/nhpylm-helsen-bibliography.md) · [BibTeX](nhpylm-helsen-references.bib)
 
 ## Βιβλιογραφική τοποθέτηση
 
