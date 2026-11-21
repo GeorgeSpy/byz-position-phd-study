@@ -2,19 +2,19 @@
 
 [Χάρτης περιήγησης](../../NAVIGATION.md) · [Εκτενής κατάλογος](index.md) · [Βιβλιογραφία μεθοδολογικής ανάπτυξης](methodology.md) · [Συγκριτικός πίνακας](../review/contribution-matrix.md)
 
-Οι **135 εγγραφές του βιβλιογραφικού ευρετηρίου** οργανώνονται σε **εννέα θεματικές διαδρομές**. Κάθε εγγραφή εμφανίζεται μία φορά και οδηγεί στην πλήρη βιβλιογραφική σελίδα της. Η [βιβλιογραφία της μεθοδολογικής ανάπτυξης](methodology.md) παρέχει πρόσβαση στις αναφορές των συμπληρωματικών μελετών. Οι πολλαπλές ερευνητικές συνδέσεις αναπτύσσονται στους [θεματικούς χάρτες](../research/index.md).
+Οι **144 εγγραφές του βιβλιογραφικού ευρετηρίου** οργανώνονται σε **εννέα θεματικές διαδρομές**. Κάθε εγγραφή εμφανίζεται μία φορά και οδηγεί στην πλήρη βιβλιογραφική σελίδα της. Η [βιβλιογραφία της μεθοδολογικής ανάπτυξης](methodology.md) παρέχει πρόσβαση στις αναφορές των συμπληρωματικών μελετών. Οι πολλαπλές ερευνητικές συνδέσεις αναπτύσσονται στους [θεματικούς χάρτες](../research/index.md).
 
 ## Επιλογή θέματος
 
 | Θέμα | Εγγραφές |
 |---|---:|
-| [Ιστορική θεωρία, σημειογραφία και εξήγηση](#theory-exegesis) | 30 |
+| [Ιστορική θεωρία, σημειογραφία και εξήγηση](#theory-exegesis) | 31 |
 | [Ιστορικά ρεπερτόρια, μελοποιία και Νικόλαος Σμύρνης](#historical-repertoire) | 9 |
 | [Τροπικότητα, ισοκράτημα και σύγχρονη εκτέλεση](#modality-performance) | 14 |
 | [Υπολογιστική ψαλτική, κωδικοποίηση και ψηφιακά σώματα](#chant-encoding) | 20 |
-| [Συμβολικές μονάδες, κατάτμηση, σχήματα και συγγένεια](#symbolic-mir) | 24 |
+| [Συμβολικές μονάδες, κατάτμηση, σχήματα και συγγένεια](#symbolic-mir) | 31 |
 | [Μάθηση αναπαραστάσεων και δομημένη πρόβλεψη](#structured-learning) | 10 |
-| [Ανθρώπινη κατηγοριοποίηση, προσδοκία και νευρικές αποκρίσεις](#cognition) | 10 |
+| [Ανθρώπινη κατηγοριοποίηση, προσδοκία και νευρικές αποκρίσεις](#cognition) | 11 |
 | [Επισημείωση, διαφωνία και αξιολόγηση](#evaluation) | 6 |
 | [Μετάδοση, υπολογιστική εθνομουσικολογία και μεταφορά](#transmission-transfer) | 12 |
 
@@ -56,6 +56,7 @@
 | [b080](entries/b080.md) | Karas (1982) | Μέθοδος της Ελληνικής Μουσικής: Θεωρητικόν, Τόμοι Α’–Β’ |
 | [b116](entries/b116.md) | Raasted (1966) | Intonation Formulas and Modal Signatures in Byzantine Musical Manuscripts |
 | [b128](entries/b128.md) | Troelsgård (2011) | Byzantine Neumes: A New Introduction to the Middle Byzantine Musical Notation |
+| [b142](entries/b142.md) | Taruskin (2005) | The Oxford History of Western Music, Vol. 1 |
 
 <a id="historical-repertoire"></a>
 
@@ -159,6 +160,13 @@
 | [b103](entries/b103.md) | Nuttall (2022) | In Search of Sañcāras: Tradition-Informed Repeated Melodic Pattern Recognition in Carnatic Music |
 | [b115](entries/b115.md) | Rabinovitch (2024) | Melodic Organization and Sequential Ordering of Galant Schemata: Implications for Eighteenth-Century European Musicianship |
 | [b133](entries/b133.md) | Volk (2012) | Melodic Similarity among Folk Songs: An Annotation Study on Similarity-Based Categorization in Music |
+| [b136](entries/b136.md) | Bayard (1950) | Prolegomena to a Study of the Principal Melodic Families of British-American Folk Song |
+| [b137](entries/b137.md) | Cowdery (1984) | A Fresh Look at the Concept of Tune Family |
+| [b138](entries/b138.md) | Cambouropoulos & Widmer (2000) | Automated Motivic Analysis via Melodic Clustering |
+| [b140](entries/b140.md) | van Kranenburg, Volk & Wiering (2011) | On Operationalizing the Musicological Concept of Tune Family for Computational Modeling |
+| [b141](entries/b141.md) | Carter-Ényì & Rabinovitch (2021) | Onset and Contiguity: Melodic Feature Reduction and Pattern Discovery |
+| [b143](entries/b143.md) | Helsen (2008) | The Great Responsories of the Divine Office |
+| [b144](entries/b144.md) | van Kranenburg, Volk & Wiering (2013) | A Comparison between Global and Local Features for Computational Classification of Folk Song Melodies |
 
 <a id="structured-learning"></a>
 
@@ -197,6 +205,7 @@
 | [b110](entries/b110.md) | Pearce (2001) | Towards a Framework for the Evaluation of Machine Compositions |
 | [b111](entries/b111.md) | Pearce (2010) | The Role of Expectation and Probabilistic Learning in Auditory Boundary Perception: A Model Comparison |
 | [b121](entries/b121.md) | Schindler (2013) | Coding of Melodic Gestalt in Human Auditory Cortex |
+| [b139](entries/b139.md) | Cambouropoulos (2001b) | Melodic Cue Abstraction, Similarity, and Category Formation: A Formal Model |
 
 <a id="evaluation"></a>
 
@@ -236,7 +245,7 @@
 
 ## Αρίθμηση και σχέσεις εγγραφών
 
-Η κατάταξη διατηρεί και τις δύο εγγραφές του Κανάκη 2021, b026 και b079, ώστε να συμφωνεί με τις 135 εγγραφές του πρωτοτύπου. Η σχέση του άρθρου Gheorghiță b060 με την αναδημοσίευσή του στο βιβλίο b061 περιγράφεται στη [σελίδα βιβλιογραφικών προσθηκών και σχέσεων](supplementary.md). Τα πλήθη εδώ αφορούν εγγραφές της πηγής.
+Η κατάταξη διατηρεί και τις δύο εγγραφές του Κανάκη 2021, b026 και b079, ώστε να συμφωνεί με τις 135 εγγραφές του αρχικού καταλόγου. Η ενοποιημένη βιβλιογραφία περιλαμβάνει 144 εγγραφές. Η σχέση του άρθρου Gheorghiță b060 με την αναδημοσίευσή του στο βιβλίο b061 περιγράφεται στη [σελίδα βιβλιογραφικών προσθηκών και σχέσεων](supplementary.md). Τα πλήθη εδώ αφορούν εγγραφές της πηγής.
 
 Οι επτά νεότερες προτεινόμενες προσθήκες παραμένουν σε [χωριστή ενότητα](supplementary.md). Οι πλήρεις εγγραφές και οι διαθέσιμοι εξωτερικοί σύνδεσμοι διατηρούνται στις βιβλιογραφικές σελίδες.
 

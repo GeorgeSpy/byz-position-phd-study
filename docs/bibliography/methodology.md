@@ -73,7 +73,7 @@
 - Cambouropoulos, E. (2001a). The Local Boundary Detection Model (LBDM) and its application in the study of expressive timing. *Proceedings of ICMC 2001*.
 
 <a id="s022"></a>
-- Cambouropoulos, E. (2001b). Melodic cue abstraction, similarity, and category formation: A formal model. *Music Perception*, 18(3), 347–370.
+- Cambouropoulos, E. (2001b). Melodic cue abstraction, similarity, and category formation: A formal model. *Music Perception*, 18(3), 347–370. [Πλήρης εγγραφή b139](entries/b139.md) · [DOI](https://doi.org/10.1525/mp.2001.18.3.347).
 
 <a id="s023"></a>
 - Cambouropoulos, E. (2006). Musical parallelism and melodic segmentation: A computational approach. *Music Perception*, 23(3), 249–268. <https://doi.org/10.1525/mp.2006.23.3.249>

@@ -8,7 +8,7 @@
 
 > **Status:** Research specification. Synthetic and numerical checks support choices in the protocol. Budgets are initial estimates. Confirmatory evaluation requires real, independently annotated occurrences, enough independent work–source groups and a successful calibration of the statistical procedure in WP0.
 >
-> **Technical protocol:** [Appendix K — A2 technical protocol](../appendices/k.md). **Synthetic checks:** [`a2/support/`](../../../docs/research/a2/support/README.en.md).
+> **Technical protocol:** [Appendix K — A2 technical protocol](../appendices/k.md). **Synthetic checks:** [`a2/support/`](../../../docs/research/a2/support/README.en.md). **Executed comparative study:** [A2–Helsen on Gregorian responsories](byzcorpus/a2-helsen/README.md).
 >
 > **Related texts:** [Revised M1](m1-selection-decision.md) · [Revised M2](m2-eise-research-design.md) · [Musical position and family](../current/position-and-family.md) · [ECSI](ecsi/README.md) · [Core research plan (LaTeX)](../../../documents/core-research-plan.tex) · [Musicological memorandum (LaTeX)](../../../documents/musicological-memorandum.tex).
 
