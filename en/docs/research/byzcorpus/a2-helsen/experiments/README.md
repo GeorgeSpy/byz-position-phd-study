@@ -1,10 +1,10 @@
 # A2–Helsen — Experimental and Evidence Register
 
 <!-- language-switch:start -->
-**Language / Γλώσσα:** [Ελληνικά](../../../../../docs/research/byzcorpus/a2-helsen/experiments/README.md) · **English**
+**Language / Γλώσσα:** [Ελληνικά](../../../../../../docs/research/byzcorpus/a2-helsen/experiments/README.md) · **English**
 <!-- language-switch:end -->
 
-[A2–Helsen](../README.md) · [ByzCorpus](../../README.md) · [A2 research design](../../../a2-knowledge-design.md) · [Appendix K](../../../../../docs/appendices/k.md) · [Provenance and rights](provenance-and-rights.md)
+[A2–Helsen](../README.md) · [ByzCorpus](../../README.md) · [A2 research design](../../../a2-knowledge-design.md) · [Appendix K](../../../../../../docs/appendices/k.md) · [Provenance and rights](provenance-and-rights.md)
 
 ## Purpose and research scope
 
@@ -62,9 +62,9 @@ The source-derived `V_source` rules flag **19 violations among 139 genuine targe
 
 | File | Content |
 |---|---|
-| [`experiments.csv`](../../../../../docs/research/byzcorpus/a2-helsen/experiments/manifests/experiments.csv) | 50 experiment records: condition, outcome, estimate, interval, groups, evidence level and provenance |
-| [`claims.csv`](../../../../../docs/research/byzcorpus/a2-helsen/experiments/manifests/claims.csv) | 11 scientific statements mapped to individual experiment records |
-| [`sources.csv`](../../../../../docs/research/byzcorpus/a2-helsen/experiments/manifests/sources.csv) | Seven private source snapshots, content descriptions and SHA-256 identifiers |
+| [`experiments.csv`](../../../../../../docs/research/byzcorpus/a2-helsen/experiments/manifests/experiments.csv) | 50 experiment records: condition, outcome, estimate, interval, groups, evidence level and provenance |
+| [`claims.csv`](../../../../../../docs/research/byzcorpus/a2-helsen/experiments/manifests/claims.csv) | 11 scientific statements mapped to individual experiment records |
+| [`sources.csv`](../../../../../../docs/research/byzcorpus/a2-helsen/experiments/manifests/sources.csv) | Seven private source snapshots, content descriptions and SHA-256 identifiers |
 | [Provenance, rights and verification](provenance-and-rights.md) | Source restrictions, reproduction procedure and release decisions |
 
 Evidence flags such as `internal-pooled-oof`, `aggregate-checked`, `interval-reported`, `oof-recomputed`, `rule-screen-pending-expert`, and `source-inventory` specify the **available evidence level**. The public release contains aggregate results and provenance metadata.
