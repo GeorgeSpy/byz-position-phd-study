@@ -1,5 +1,5 @@
 claim_id,claim,evidence_experiment_ids,evidence_class,source_ids,scope_and_caveat
-K01,Corpus census and group-disjoint folds,A-001;A-002;A-003;A-004,descriptive,source archive A,136 responsories; 134 groups; 1037 elements; 19838 pitch events
+K01,Corpus census and group-disjoint folds,A-001;A-002;A-003;A-004,descriptive,A,136 responsories; 134 groups; 1037 elements; 19838 pitch events
 K02,Knowledge validity improves four-family AP,C-001;C-002;C-003;C-004;C-005;C-006,exploratory,C,Main gold-element macro AP estimand; original P set
 K03,Incremental logic effect on gold-element AP,C-002;C-003;C-007,exploratory,C,DV-FV interval crosses zero
 K04,Structured logic improves target decoded F1,D-001;D-002;D-003;D-004;D-005;D-006;D-007,exploratory,D;F0,Gain targeted at four families; overall joint F1 changes marginally
