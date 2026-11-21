@@ -4,7 +4,7 @@
 **Language / Γλώσσα:** [Ελληνικά](../../../../../docs/research/byzcorpus/a2-helsen/README.md) · **English**
 <!-- language-switch:end -->
 
-[ByzCorpus](../README.md) · [Extended NHPYLM–Helsen experiments](../nhpylm-helsen-extended-experiments.md) · [A2 research design](../../a2-knowledge-design.md) · [A2 technical protocol (Greek)](../../../../../docs/appendices/k.md)
+[ByzCorpus](../README.md) · [Extended NHPYLM–Helsen experiments](../nhpylm-helsen-extended-experiments.md) · [A2 research design](../../a2-knowledge-design.md) · [A2 technical protocol (Greek)](../../../../../docs/appendices/k.md) · **[A–F1 experimental register](experiments/README.md)**
 
 **Scope:** computational recognition of melodic-formula families and controlled evaluation of musicologically documented knowledge. **Status:** completed exploratory computational experiments with grouped internal evaluation; independent musicological adjudication and external confirmation are separate subsequent stages.
 
@@ -83,7 +83,7 @@ The initial `V_source` specification produces **19 logical violations among 139 
 
 The results form an **exploratory study on the same 136 responsories**, evaluated using three grouped folds. Family selection and several diagnostic decisions developed during the research sequence. External confirmation is designed around new independent melodic sources, frozen specifications, and prospective calibration of the statistical procedure.
 
-The [aggregate results table](../../../../../docs/research/byzcorpus/a2-helsen/results-summary.csv) reports the public numerical summaries. Raw melodic sequences, Helsen's annotations, work-level identities, private expert forms, and neural checkpoints are maintained separately in accordance with the respective source rights and evaluation protocol. Re-training requires authorised access to the original materials and annotations.
+The [aggregate results table](../../../../../docs/research/byzcorpus/a2-helsen/results-summary.csv) and [A–F1 experimental register](experiments/README.md) provide public outcomes, 50 experiment-level records, mapped scientific claims, and source-level provenance. Raw melodic sequences, Helsen's annotations, work-level identities, private expert forms, and neural checkpoints are maintained separately in accordance with the respective source rights and evaluation protocol. Re-training requires authorised access to the original materials and annotations.
 
 ## 6. Transfer to ByzCorpus
 
