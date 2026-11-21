@@ -29,7 +29,7 @@
 
 Αυτοτελές ερευνητικό έργο σε στάδιο σχεδιασμού: [**ByzCorpus**](docs/research/byzcorpus/README.md) για τον σχεδιασμό ανοικτής, ελεγχόμενης υποδομής βυζαντινών συμβολικών δεδομένων και μιας αυτοτελούς πιλοτικής μελέτης μελωδικής κατατμησιμότητας με NHPYLM. Περιλαμβάνει [μοντέλο δεδομένων](docs/research/byzcorpus/data-model.md), [πρώτη πιλοτική μελέτη συμφωνίας ειδικών](docs/research/byzcorpus/expert-boundary-pilot.md), [επόμενο υπολογιστικό στάδιο NHPYLM](docs/research/byzcorpus/segmentation-pilot.md) και [live roadmap](docs/research/byzcorpus/roadmap.md). Η κατεύθυνση βρίσκεται σε φάση σχεδιασμού και διατηρεί αμετάβλητο τον πυρήνα Μ1–Α2–Μ2.
 
-**Εκτενής πειραματική τεκμηρίωση:** [NHPYLM–Helsen: μέγιστο μήκος και μουσικολογικά όρια](docs/research/byzcorpus/nhpylm-helsen-extended-experiments.md) · [Σχολιασμένη βιβλιογραφία](docs/research/byzcorpus/nhpylm-helsen-bibliography.md).
+**Μαθηματική και υπολογιστική μελέτη:** [Κλίμακα μελωδικής κατάτμησης και λεξιλογική επαναχρησιμοποίηση](docs/research/byzcorpus/nhpylm-helsen-mathematical-study.md) · **Πειραματική τεκμηρίωση:** [NHPYLM–Helsen: μέγιστο μήκος και μουσικολογικά όρια](docs/research/byzcorpus/nhpylm-helsen-extended-experiments.md) · [Σχολιασμένη βιβλιογραφία](docs/research/byzcorpus/nhpylm-helsen-bibliography.md).
 
 ## Τι είναι νέο
 
