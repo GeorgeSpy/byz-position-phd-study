@@ -26,6 +26,8 @@ This choice is **musicologically grounded and empirically testable**, rather tha
 
 The same family framework supports musicological annotation, recognition of variable-length formulae, analysis of within-family variation and the controlled historical B2–EISE comparison. The family is thus **the object that musicology-informed machine learning aims to learn and test**, not merely a label derived from a similarity algorithm.
 
+The comparative basis for the analytical category draws on [Bayard (1950)](../../../docs/bibliography/entries/b136.md), [Cambouropoulos (2001b)](../../../docs/bibliography/entries/b139.md), and [van Kranenburg, Volk and Wiering (2013)](../../../docs/bibliography/entries/b144.md); it is developed in the [musicological discussion of melodic families](../../../docs/musicology/03-families.md).
+
 ## Four objects
 
 | Object | Meaning | Symbol on this page |
