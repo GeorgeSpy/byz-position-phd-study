@@ -1,0 +1,51 @@
+experiment_id,phase,comparison,metric,target,value,ci95_lower,ci95_upper,independent_groups,evidence_status,source_id,method_note
+A-001,A,annotated corpus,count,responsories,136,,,134,source-count,A,Mode 1; group-disjoint three-fold design
+A-002,A,annotated corpus,count,melodic groups,134,,,134,source-count,A,Independent melodic grouping
+A-003,A,annotated corpus,count,complete annotated elements,1037,,,134,source-count,A,All annotated full elements
+A-004,A,annotated corpus,count,pitch events,19838,,,134,source-count,A,Symbolic melody events
+B-001,B,family occurrence census,count,D01x,43,,,,source-count,B,Expert judgment of rule violations pending
+B-002,B,family occurrence census,count,D02x,31,,,,source-count,B,Expert judgment of rule violations pending
+B-003,B,family occurrence census,count,H01i,40,,,,source-count,B,Expert judgment of rule violations pending
+B-004,B,family occurrence census,count,c01,25,,,,source-count,B,Expert judgment of rule violations pending
+C-001,C,neural baseline,macro_ap,four target families,0.6397,,,134,internal-pooled-oof,C,Gold-element boundaries; mean of five pooled OOF seed scores
+C-002,C,valid flat specification FV,macro_ap,four target families,0.6563,,,134,internal-pooled-oof,C,V_source; gold-element boundaries
+C-003,C,valid structured specification DV,macro_ap,four target families,0.6655,,,134,internal-pooled-oof,C,V_source; gold-element boundaries
+C-004,C,perturbed flat specification FP mean10,macro_ap,four target families,0.6294,,,134,internal-pooled-oof,C,Original ten perturbations P; average across P
+C-005,C,perturbed structured specification DP mean10,macro_ap,four target families,0.6261,,,134,internal-pooled-oof,C,Original ten perturbations P; average across P
+C-006,C,knowledge validity 0.5[(DV-DP)+(FV-FP)],macro_ap_difference,four target families,0.0332,0.0147,0.0516,134,interval-reported,C,Paired group jackknife-t 95%; original P set
+C-007,C,structured vs flat valid DV-FV,macro_ap_difference,four target families,0.0093,-0.003,0.0216,134,interval-reported,C,Paired group jackknife-t 95%
+C-008,C,linear knowledge comparator B_K,macro_ap,four target families,0.627,,,134,internal-pooled-oof,C,Gold-element boundaries
+C-009,C,unrestricted literal comparator,macro_ap,four target families,0.6371,,,134,internal-pooled-oof,C,Gold-element boundaries
+D-001,D,flat valid FV semi-CRF,target_joint_f1,four target families,0.4517,,,134,aggregate-checked,D,Exact span and family; full-work decoding
+D-002,D,structured valid DV semi-CRF,target_joint_f1,four target families,0.4781,,,134,aggregate-checked,D,Exact span and family; full-work decoding
+D-003,D,DV-FV semi-CRF,target_joint_f1_difference,four target families,0.0264,0.0083,0.0444,134,interval-reported,D,Paired group jackknife-t 95%
+D-004,D,perturbed structured DP mean10 semi-CRF,target_joint_f1,four target families,0.4439,,,134,aggregate-checked,D,Mean over all ten P; full decoding
+D-005,D,DV-DP mean10 semi-CRF,target_joint_f1_difference,four target families,0.0342,0.003,0.0654,134,interval-reported,D,Paired group jackknife-t 95%
+D-006,D,flat valid FV semi-CRF,overall_joint_f1,all families,0.2282,,,134,aggregate-checked,D,All-category joint segmentation and family scoring
+D-007,D,structured valid DV semi-CRF,overall_joint_f1,all families,0.229,,,134,aggregate-checked,D,All-category joint segmentation and family scoring
+D-008,D,initial source specification violations,count,target-family gold elements,19,,,,rule-screen-pending-expert,D,D02x=9; D01x=7; H01i=3; c01=0
+D-009,D,legacy learned specification violations,count,target-family gold elements,31,,,,rule-screen-pending-expert,D,V_train_legacy
+D-010,D,fold-local learned specification violations,count,target-family gold elements,40,,,,rule-screen-pending-expert,D,V_train_fold_local; out-of-fold
+E-001,E,matched prefix-prefix neural baseline,macro_ap,four target families,0.5293,,,134,aggregate-checked,E,Both encoder and knowledge restricted to prefix
+E-002,E,matched prefix-prefix V_source DV,macro_ap,four target families,0.5498,,,134,aggregate-checked,E,prefix_observed semantics
+E-003,E,matched prefix-prefix fold-local V_train DV,macro_ap,four target families,0.5775,,,134,aggregate-checked,E,New prefix-specific specification
+E-004,E,matched prefix-prefix fold-local V_train delta knowledge,macro_ap_difference,four target families,0.0474,0.0167,0.0782,134,interval-reported,E,Paired group jackknife-t 95%; E-specific perturbations
+E-005,E,suffix-four-only neural baseline,macro_ap,four target families,0.3569,,,134,aggregate-checked,E,Suffix-only classifier
+E-006,E,shuffled prefix neural baseline,macro_ap,four target families,0.2645,,,134,aggregate-checked,E,Phase E architecture and shuffling protocol
+F0-001,F0,prefix encoder fixed full knowledge,macro_ap,four target families,0.5959,,,134,aggregate-checked,F0,V_train_fold; fixed specification and head
+F0-002,F0,prefix encoder fixed prefix knowledge,macro_ap,four target families,0.5207,,,134,aggregate-checked,F0,V_train_fold; fixed specification and head
+F0-003,F0,prefix encoder refitted head,macro_ap,four target families,0.5214,,,134,aggregate-checked,F0,V_train_fold fixed specification; refitted weights
+F0-004,F0,prefix encoder redesigned specification,macro_ap,four target families,0.5775,,,134,aggregate-checked,F0,V_train_prefix; specification changed
+F0-005,F0,middle-third mean register,roc_auc,D01x vs D02x,0.9194,,,73,exploratory-register,F0,Derived on already inspected target occurrences
+F1-001,F1,ordered BiGRU full,macro_ap,four target families,0.639689,,,134,oof-recomputed,F1,Recomputed from saved OOF; five seeds
+F1-002,F1,shuffled order BiGRU full,macro_ap,four target families,0.329367,,,134,oof-recomputed,F1,Parameter matched with ordered BiGRU
+F1-003,F1,ordered vs shuffled full,macro_ap_difference,four target families,0.310322,0.240601,0.380043,134,oof-recomputed,F1,Paired group jackknife-t 95%; five seeds
+F1-004,F1,ordered BiGRU prefix,macro_ap,four target families,0.529276,,,134,oof-recomputed,F1,Suffix-four masked
+F1-005,F1,shuffled order BiGRU prefix,macro_ap,four target families,0.316117,,,134,oof-recomputed,F1,Suffix-four masked
+F1-006,F1,ordered vs shuffled prefix,macro_ap_difference,four target families,0.21316,0.142985,0.283335,134,oof-recomputed,F1,Paired group jackknife-t 95%
+F1-007,F1,ordered vs shuffled full,macro_ap_difference,D01x vs D02x,0.007168,-0.03612,0.050455,73,oof-recomputed,F1,Pair-specific grouped evaluation
+F1-008,F1,deleted and concatenated middle four,binary_ap,D01x vs D02x,0.886292,,,73,oof-recomputed,F1,Revised comparison baseline
+F1-009,F1,gap mask middle four,binary_ap,D01x vs D02x,0.927243,,,73,oof-recomputed,F1,Explicit gap mask; avoids pitch adjacency
+F1-010,F1,two stream middle four,binary_ap,D01x vs D02x,0.932168,,,73,oof-recomputed,F1,Separated streams preserve positional gaps
+F1-011,F1,expert review unresolved,count,source-rule violations,19,,,,awaiting-expert-review,F1,9 D02x; 7 D01x; 3 H01i
+F1-012,F1,external holdout locally eligible,count,new independent melodic groups,0,,,,source-inventory,F1,Local inventory at time of report; confirmation study not yet performed
