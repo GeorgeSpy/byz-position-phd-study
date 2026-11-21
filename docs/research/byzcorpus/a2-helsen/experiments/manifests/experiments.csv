@@ -40,7 +40,7 @@ F0-005,F0,middle-third mean register,roc_auc,D01x vs D02x,0.9194,,,73,explorator
 F1-001,F1,ordered BiGRU full,macro_ap,four target families,0.639689,,,134,oof-recomputed,F1,Recomputed from saved OOF; five seeds
 F1-002,F1,shuffled order BiGRU full,macro_ap,four target families,0.329367,,,134,oof-recomputed,F1,Parameter matched with ordered BiGRU
 F1-003,F1,ordered vs shuffled full,macro_ap_difference,four target families,0.310322,0.240601,0.380043,134,oof-recomputed,F1,Paired group jackknife-t 95%; five seeds
-F1-004,F1,ordered BiGRU prefix,macro_ap,four target families,0.529276,,,134,oof-recomputed,F1,Suffix-four masked
+F1-004,F1,ordered BiGRU prefix,macro_ap,four target families,0.529276,,,134,oof-recomputed,F1,Trailing four pitches withheld; fixed prefix length
 F1-005,F1,shuffled order BiGRU prefix,macro_ap,four target families,0.316117,,,134,oof-recomputed,F1,Suffix-four masked
 F1-006,F1,ordered vs shuffled prefix,macro_ap_difference,four target families,0.21316,0.142985,0.283335,134,oof-recomputed,F1,Paired group jackknife-t 95%
 F1-007,F1,ordered vs shuffled full,macro_ap_difference,D01x vs D02x,0.007168,-0.03612,0.050455,73,oof-recomputed,F1,Pair-specific grouped evaluation
