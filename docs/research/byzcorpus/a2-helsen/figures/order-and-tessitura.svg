@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="455" viewBox="0 0 900 455" role="img" aria-label="Melodic order and register">
+<rect width="900" height="455" fill="#ffffff"/>
+<text x="45" y="47" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#152b3c">Melodic order and register</text>
+<text x="45" y="73" font-family="Arial,sans-serif" font-size="14" fill="#556473">Capacity-matched full and prefix models, four-family macro average precision</text>
+<line x1="220" y1="95" x2="220" y2="358" stroke="#8493a0" stroke-width="1"/>
+<text x="220" y="379" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#506273">0.0</text>
+<line x1="338" y1="95" x2="338" y2="358" stroke="#e4e9ef" stroke-width="1"/>
+<text x="338" y="379" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#506273">0.2</text>
+<line x1="456" y1="95" x2="456" y2="358" stroke="#e4e9ef" stroke-width="1"/>
+<text x="456" y="379" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#506273">0.4</text>
+<line x1="574" y1="95" x2="574" y2="358" stroke="#e4e9ef" stroke-width="1"/>
+<text x="574" y="379" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#506273">0.6</text>
+<line x1="692" y1="95" x2="692" y2="358" stroke="#e4e9ef" stroke-width="1"/>
+<text x="692" y="379" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#506273">0.8</text>
+<line x1="810" y1="95" x2="810" y2="358" stroke="#e4e9ef" stroke-width="1"/>
+<text x="810" y="379" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#506273">1.0</text>
+<text x="206" y="145" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#1f3344">Full · ordered</text>
+<rect x="220" y="118.5" width="377.42" height="43" rx="3" fill="#1769aa"/>
+<text x="606.42" y="145" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#1f3344">0.6397</text>
+<text x="206" y="205" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#1f3344">Full · shuffled</text>
+<rect x="220" y="178.5" width="194.35" height="43" rx="3" fill="#8ba9be"/>
+<text x="423.35" y="205" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#1f3344">0.3294</text>
+<text x="206" y="265" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#1f3344">Prefix · ordered</text>
+<rect x="220" y="238.5" width="312.29" height="43" rx="3" fill="#1769aa"/>
+<text x="541.29" y="265" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#1f3344">0.5293</text>
+<text x="206" y="325" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#1f3344">Prefix · shuffled</text>
+<rect x="220" y="298.5" width="186.50" height="43" rx="3" fill="#8ba9be"/>
+<text x="415.50" y="325" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#1f3344">0.3161</text>
+<text x="220" y="410" font-family="Arial,sans-serif" font-size="13" fill="#536579">D01x–D02x: order effect +0.0072; middle-third register ROC-AUC 0.9194</text>
+</svg>
