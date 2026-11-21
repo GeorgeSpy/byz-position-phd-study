@@ -4,7 +4,7 @@
 **Γλώσσα / Language:** **Ελληνικά** · [English](../../../../../en/docs/research/byzcorpus/a2-helsen/experiments/README.md)
 <!-- language-switch:end -->
 
-[Α2–Helsen](../README.md) · [ByzCorpus](../../README.md) · [Κεντρικός σχεδιασμός Α2](../../../a2-knowledge-design.md) · [Παράρτημα Κ](../../../../appendices/k.md) · [Προέλευση και δικαιώματα](provenance-and-rights.md)
+[Α2–Helsen](../README.md) · [ByzCorpus](../../README.md) · [Κεντρικός σχεδιασμός Α2](../../../a2-knowledge-design.md) · [Παράρτημα Κ](../../../../appendices/k.md) · [Προέλευση και δικαιώματα](provenance-and-rights.md) · [Αριθμητικός πυρήνας](../repro/README.md)
 
 ## Σκοπός και ερευνητικό πεδίο
 

@@ -19,7 +19,7 @@ The covered written material includes original author-owned text in `README.md`,
 
 ## 2. Project-authored source code
 
-The repository-owner-authored Python utilities under `scripts/*.py` and `docs/research/znamenny-transfer/support/*.py` are offered under the [MIT License](LICENSE-CODE), **only to the extent the licensor owns or is authorized to license each contribution**.
+The repository-owner-authored Python utilities under `scripts/*.py`, `docs/research/znamenny-transfer/support/*.py`, and `docs/research/byzcorpus/a2-helsen/repro/**/*.py` are offered under the [MIT License](LICENSE-CODE), **only to the extent the licensor owns or is authorized to license each contribution**.
 
 These exclusions remain outside that grant pending a file-level provenance review:
 
