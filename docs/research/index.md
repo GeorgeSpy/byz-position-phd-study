@@ -8,7 +8,7 @@
 
 **Αναθεωρημένος σχεδιασμός των βασικών υπολογιστικών μελετών:** [Μ1 — αναπαραστάσεις και κριτήριο πλήρους αναγνώρισης (J)](m1-selection-decision.md) · [Α2 — η μουσικολογική γνώση ως πειραματική μεταβλητή](a2-knowledge-design.md) · [Μ2 — οικογενειακή και ιστορική εποπτεία μέσω EISE](m2-eise-research-design.md).
 
-**Μελωδική τμηματοποίηση και οικογενειακή ταυτότητα:** [Εκτενής μελέτη NHPYLM–Helsen](byzcorpus/nhpylm-helsen-extended-experiments.md) · [Βιβλιογραφία](byzcorpus/nhpylm-helsen-bibliography.md).
+**Μελωδική τμηματοποίηση και οικογενειακή ταυτότητα:** [Εκτενής μελέτη NHPYLM–Helsen](byzcorpus/nhpylm-helsen-extended-experiments.md) · [Α2–Helsen: επίδραση μουσικολογικής γνώσης και λογικής σύνθεσης](byzcorpus/a2-helsen/README.md) · [Βιβλιογραφία](byzcorpus/nhpylm-helsen-bibliography.md).
 
 **Σώμα δεδομένων:** [Πρώτη εκτίμηση από τους πίνακες του Gheorghiță (2009) — 42 Κοινωνικά, 11 σχήματα, 338 γραμμές απογραφής](corpus/README.md) · [Πλήρης αγγλική απογραφή](../../en/docs/research/corpus/README.md).
 
