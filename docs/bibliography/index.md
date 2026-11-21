@@ -1,6 +1,6 @@
 # Βιβλιογραφικό ευρετήριο
 
-Το ευρετήριο περιλαμβάνει **135 εγγραφές**: 24 στην ελληνόγλωσση και 111 στην ξενόγλωσση ενότητα. Κάθε εγγραφή διαθέτει σταθερή σελίδα, συνδέσμους πηγών και πρόσβαση σε σχετικές ενότητες. Η [βιβλιογραφία της μεθοδολογικής ανάπτυξης](methodology.md) συγκεντρώνει χωριστά τις αναφορές των συμπληρωματικών επεξηγήσεων.
+Το ευρετήριο περιλαμβάνει **144 εγγραφές**: 24 στην ελληνόγλωσση και 120 στην ξενόγλωσση ενότητα. Κάθε εγγραφή διαθέτει σταθερή σελίδα, συνδέσμους πηγών και πρόσβαση σε σχετικές ενότητες. Η [βιβλιογραφία της μεθοδολογικής ανάπτυξης](methodology.md) συγκεντρώνει χωριστά τις αναφορές των συμπληρωματικών επεξηγήσεων.
 
 [Αρχική σειρά και πλήρες κείμενο](source-list.md) · [Θεματικοί χάρτες](../research/index.md) · [Νεότερες προτεινόμενες προσθήκες](supplementary.md)
 
@@ -49,7 +49,7 @@
 | [Ballen](entries/b034.md) | 2026 | Ballen, G. A., Mühlová, K. H., & Hajič Jr., J. (2026). What Did the Dove Sing to Pope Gregory? Ancestral Melody Reconstruction in Gregorian Chant Using Bayesian Phylogenetics. PLOS ONE, 21(5), e0350014. https://doi.org/10.1371/journal.pone.0350014. |
 | [Bernardi](entries/b035.md) | 2020 | Bernardi, S., Benna, M. K., Rigotti, M., Munuera, J., Fusi, S., & Salzman, C. D. (2020). The Geometry of Abstraction in Hippocampus and Prefrontal Cortex. Cell, 183(4), 954–967.e21. https://doi.org/10.1016/j.cell.2020.09.031. |
 | [Bouris](entries/b036.md) | 2018 | Bouris, N. G., Georgaki, A., & Chaldaeakes, A. G. (2018). Encoding Byzantine Music Notation (ca. 1600-1814). Proceedings of SMC 2018. |
-| [Cambouropoulos](entries/b037.md) | 2001 | Cambouropoulos, E. (2001). The Local Boundary Detection Model (LBDM) and Its Application in the Study of Expressive Timing. Proceedings of ICMC. |
+| [Cambouropoulos](entries/b037.md) | 2001a | Cambouropoulos, E. (2001a). The Local Boundary Detection Model (LBDM) and Its Application in the Study of Expressive Timing. Proceedings of ICMC. |
 | [Byros](entries/b038.md) | 2012 | Byros, V. (2012). Meyer’s Anvil: Revisiting the Schema Concept. Music Analysis, 31(3), 273–346. https://doi.org/10.1111/j.1468-2249.2012.00344.x. |
 | [Cambouropoulos](entries/b039.md) | 2006 | Cambouropoulos, E. (2006). Musical Parallelism and Melodic Segmentation: A Computational Approach. Music Perception, 23(3), 249–268. https://doi.org/10.1525/mp.2006.23.3.249. |
 | [Cambouropoulos](entries/b040.md) | 2009 | Cambouropoulos, E. (2009). How Similar Is Similar? Musicae Scientiae, Discussion Forum 4B, 7–24. https://jyx.jyu.fi/handle/123456789/22619. |
@@ -148,6 +148,15 @@
 | [Volk](entries/b133.md) | 2012 | Volk, A., & van Kranenburg, P. (2012). Melodic Similarity among Folk Songs: An Annotation Study on Similarity-Based Categorization in Music. Musicae Scientiae, 16(3), 317–339. https://doi.org/10.1177/1029864912448329. |
 | [Yan](entries/b134.md) | 2021 | Yan, Y., Cwitkowitz, F., & Duan, Z. (2021). Skipping the Frame-Level: Event-Based Piano Transcription With Neural Semi-CRFs. Advances in Neural Information Processing Systems, 34, 20583–20595. |
 | [Zaratiana](entries/b135.md) | 2023 | Zaratiana, U., Tomeh, N., El Khbir, N., Holat, P., & Charnois, T. (2023). Filtered Semi-Markov CRF. Findings of the Association for Computational Linguistics: EMNLP 2023, 222–235. https://doi.org/10.18653/v1/2023.findings-emnlp.17. |
+| [Bayard](entries/b136.md) | 1950 | Bayard, S. P. (1950). Prolegomena to a Study of the Principal Melodic Families of British-American Folk Song. *The Journal of American Folklore*, 63(247), 1–44. https://www.jstor.org/stable/537347. |
+| [Cowdery](entries/b137.md) | 1984 | Cowdery, J. R. (1984). A Fresh Look at the Concept of Tune Family. *Ethnomusicology*, 28(3), 495–504. https://doi.org/10.2307/851236. |
+| [Cambouropoulos & Widmer](entries/b138.md) | 2000 | Cambouropoulos, E., & Widmer, G. (2000). Automated Motivic Analysis via Melodic Clustering. *Journal of New Music Research*, 29(4), 303–317. https://doi.org/10.1080/09298210008565464. |
+| [Cambouropoulos](entries/b139.md) | 2001b | Cambouropoulos, E. (2001b). Melodic Cue Abstraction, Similarity, and Category Formation: A Formal Model. *Music Perception*, 18(3), 347–370. https://doi.org/10.1525/mp.2001.18.3.347. |
+| [van Kranenburg et al.](entries/b140.md) | 2011 | van Kranenburg, P., Volk, A., & Wiering, F. (2011). On Operationalizing the Musicological Concept of Tune Family for Computational Modeling. In B. Maegaard (Ed.), *Proceedings of Supporting Digital Humanities: Answering the Unaskable*. Copenhagen. |
+| [Carter-Ényì & Rabinovitch](entries/b141.md) | 2021 | Carter-Ényì, A., & Rabinovitch, G. (2021). Onset and Contiguity: Melodic Feature Reduction and Pattern Discovery. *Music Theory Online*, 27(4). https://doi.org/10.30535/mto.27.4.2. |
+| [Taruskin](entries/b142.md) | 2005 | Taruskin, R. (2005). *The Oxford History of Western Music*. Vol. 1: *Music from the Earliest Notations to the Sixteenth Century*. Oxford University Press. |
+| [Helsen](entries/b143.md) | 2008 | Helsen, K. E. (2008). *The Great Responsories of the Divine Office: Aspects of Structure and Transmission* (Doctoral dissertation, Universität Regensburg). https://doi.org/10.5283/epub.10769. |
+| [van Kranenburg et al.](entries/b144.md) | 2013 | van Kranenburg, P., Volk, A., & Wiering, F. (2013). A Comparison between Global and Local Features for Computational Classification of Folk Song Melodies. *Journal of New Music Research*, 42(1), 1–18. https://doi.org/10.1080/09298215.2012.718790. |
 
 ---
 
