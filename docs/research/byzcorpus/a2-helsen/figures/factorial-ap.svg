@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="455" viewBox="0 0 900 455" role="img" aria-label="Musicological knowledge: A2–Helsen">
+<rect width="900" height="455" fill="#ffffff"/>
+<text x="45" y="47" font-family="Arial,sans-serif" font-size="23" font-weight="700" fill="#152b3c">Musicological knowledge: A2–Helsen</text>
+<text x="45" y="73" font-family="Arial,sans-serif" font-size="14" fill="#556473">Four-family macro average precision; 136 responsories, 134 independent groups</text>
+<line x1="220" y1="95" x2="220" y2="358" stroke="#8493a0" stroke-width="1"/>
+<text x="220" y="379" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#506273">0.0</text>
+<line x1="338" y1="95" x2="338" y2="358" stroke="#e4e9ef" stroke-width="1"/>
+<text x="338" y="379" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#506273">0.2</text>
+<line x1="456" y1="95" x2="456" y2="358" stroke="#e4e9ef" stroke-width="1"/>
+<text x="456" y="379" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#506273">0.4</text>
+<line x1="574" y1="95" x2="574" y2="358" stroke="#e4e9ef" stroke-width="1"/>
+<text x="574" y="379" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#506273">0.6</text>
+<line x1="692" y1="95" x2="692" y2="358" stroke="#e4e9ef" stroke-width="1"/>
+<text x="692" y="379" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#506273">0.8</text>
+<line x1="810" y1="95" x2="810" y2="358" stroke="#e4e9ef" stroke-width="1"/>
+<text x="810" y="379" font-family="Arial,sans-serif" font-size="13" text-anchor="middle" fill="#506273">1.0</text>
+<text x="206" y="139" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#1f3344">Neural baseline</text>
+<rect x="220" y="114" width="377.42" height="40" rx="3" fill="#8ba9be"/>
+<text x="606.42" y="139" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#1f3344">0.6397</text>
+<text x="206" y="187" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#1f3344">FP (10 perturbations)</text>
+<rect x="220" y="162" width="371.35" height="40" rx="3" fill="#8ba9be"/>
+<text x="600.35" y="187" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#1f3344">0.6294</text>
+<text x="206" y="235" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#1f3344">DP (10 perturbations)</text>
+<rect x="220" y="210" width="369.40" height="40" rx="3" fill="#8ba9be"/>
+<text x="598.40" y="235" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#1f3344">0.6261</text>
+<text x="206" y="283" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#1f3344">FV (valid, additive)</text>
+<rect x="220" y="258" width="387.22" height="40" rx="3" fill="#1769aa"/>
+<text x="616.22" y="283" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#1f3344">0.6563</text>
+<text x="206" y="331" font-family="Arial,sans-serif" font-size="15" text-anchor="end" fill="#1f3344">DV (valid, structured)</text>
+<rect x="220" y="306" width="392.64" height="40" rx="3" fill="#1769aa"/>
+<text x="621.64" y="331" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#1f3344">0.6655</text>
+<text x="220" y="410" font-family="Arial,sans-serif" font-size="13" fill="#536579">Exploratory results; knowledge-validity contrast +0.0332 [0.0147, 0.0516]</text>
+</svg>
