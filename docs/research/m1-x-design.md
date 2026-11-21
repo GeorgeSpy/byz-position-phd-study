@@ -6,7 +6,7 @@
 
 [Ερευνητικός πυρήνας](../../README.md) · [Μ1 και κανόνας J](m1-selection-decision.md) · [Μελωδική τμηματοποίηση και αναγνώριση οικογενειών θέσεων](byzcorpus/segmentation-and-family-recognition/README.md) · [Κεφάλαιο 5](../full/05-m1.md#r038x) · [Παράρτημα G](../appendices/g.md#r186x)
 
-**Εμπειρική αφετηρία:** [Γρηγοριανά πειράματα NHPYLM–Helsen](byzcorpus/nhpylm-helsen-extended-experiments.md), με αποτελέσματα για στατιστικά τμήματα, όρια και αναγνώριση πλήρων στοιχείων.
+**Εμπειρική αφετηρία:** [Γρηγοριανά πειράματα NHPYLM–Helsen](byzcorpus/nhpylm-helsen-extended-experiments.md) και [αναλυτική μαθηματική μελέτη](byzcorpus/nhpylm-helsen-mathematical-study.md), με αποτελέσματα για την κλίμακα των στατιστικών τμημάτων, την ακριβή αναγνώριση πλήρων στοιχείων και την αξιοποίηση της εσωτερικής μελωδικής πληροφορίας.
 
 ## 1. Ερευνητικό αντικείμενο και θέση στη μελέτη
 
