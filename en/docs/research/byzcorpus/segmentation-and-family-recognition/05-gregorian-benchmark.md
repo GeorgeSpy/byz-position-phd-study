@@ -6,6 +6,8 @@
 
 [Overview](README.md) · [Boundary information](03-multiscale-boundary-information.md) · [Comparative NHPYLM–Helsen pilot](../gregorian-nhpylm-helsen-pilot.md)
 
+The element annotations originate in [Helsen (2008)](../../../../../docs/bibliography/entries/b143.md). The later [A2–Helsen study](../a2-helsen/README.md) evaluates musicological knowledge using 136 responsories and four target families. This earlier 123-responsory benchmark retains its own sample, metrics and experimental identity.
+
 This exploratory study evaluates the models on real Gregorian responsories using Helsen's analytical segmentation into melodic elements. The family ontology of this material is independent of the Byzantine formula-family ontology. Training and evaluation on annotated Byzantine works constitute the next application phase.
 
 ## Material
