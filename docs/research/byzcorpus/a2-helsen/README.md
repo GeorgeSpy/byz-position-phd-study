@@ -95,6 +95,8 @@
 
 ## Βασικές πηγές
 
+[Βιβλιογραφική καταχώριση Helsen (2008)](../../../bibliography/entries/b143.md) · [Μουσική κατηγοριοποίηση Cambouropoulos (2001b)](../../../bibliography/entries/b139.md) · [Τοπικά και συνολικά γνωρίσματα van Kranenburg κ.ά. (2013)](../../../bibliography/entries/b144.md).
+
 - Helsen, Katherine Eve (2008). *The Great Responsories of the Divine Office: Aspects of Structure and Transmission*. [DOI](https://doi.org/10.5283/epub.10769).
 - Cambouropoulos, E. (2001). *Melodic Cue Abstraction, Similarity, and Category Formation: A Formal Model*. *Music Perception*, 18(3), 347–370.
 - Lanz, V., & Hajič, J., Jr. (2025). *Gregorian Melody, Modality, and Memory: Segmenting Chant with Bayesian Nonparametrics*. [Zenodo](https://doi.org/10.5281/zenodo.17811449).
